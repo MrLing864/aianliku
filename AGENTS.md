@@ -1,5 +1,6 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
-
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+\#产品原则
+1.不要考虑Deepseek的成本问题，按照用户体验最好、分析效果最好的方向干
+2.如果涉及 DeepSeek 的测试，使用本地环境变量 `DEEPSEEK_API_KEY`，禁止将真实密钥写入 Git。
+3.案例优先任何新功能，都要围绕案例展开，而不是围绕AI技术。
+4.老板看得懂,页面上尽量少出现：\* RAG\* MCP\* LangGraph\* Function Calling这些技术词,更多使用：\* 自动报价\* 自动客服\* 自动录单\* AI知识助手
+5.所有内容都能被搜索,每个案例、每个行业、每个AI场景都应该有独立页面，方便搜索引擎和AI搜索工具收录。

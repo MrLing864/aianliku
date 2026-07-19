@@ -1,0 +1,3 @@
+import { config } from "dotenv";
+async function main() { config({ path: ".env.local", quiet: true }); const [{ demoCases }, { getDb, ensureIndexes, isMongoConfigured }] = await Promise.all([import("../src/data/demo-cases"), import("../src/lib/db/mongodb")]); if (!isMongoConfigured()) throw new Error("MONGODB_URI is not configured in .env.local"); await ensureIndexes(); const db = await getDb(); for (const item of demoCases) await db.collection("cases").updateOne({ id: item.id }, { $set: item }, { upsert: true }); console.log(`Seeded or updated ${demoCases.length} clearly-labeled demo cases.`); process.exit(0); }
+void main();

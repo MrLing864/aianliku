@@ -1,0 +1,3 @@
+import { describe, expect, it } from "vitest";
+import { createFallbackReport } from "@/lib/assessment";
+describe("assessment fallback", () => { it("creates three staged recommendations and explicit ROI assumptions", () => { const report = createFallbackReport("test", { industry: "制造业", size: "51–100人", business: "机械加工", repeatedWork: "纸质订单录入ERP", systems: "ERP", volume: "每月1000张", laborCost: "每月3万元", budget: "3–10万元", urgency: "3个月内", goal: "降低录入错误" }); expect(report.recommendations).toHaveLength(3); expect(report.recommendations[0].scenario).toContain("OCR"); expect(report.roi.assumptions.length).toBeGreaterThanOrEqual(3); expect(report.roi.disclaimer).toContain("不构成效果承诺"); }); });

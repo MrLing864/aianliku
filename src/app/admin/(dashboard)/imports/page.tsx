@@ -1,0 +1,2 @@
+import { ImportWorkbench } from "@/components/import-workbench";
+export default function ImportsPage() { return <div className="mx-auto max-w-5xl"><p className="text-xs font-semibold text-primary">内容导入</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">批量导入与去重预检</h1><p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">先暂存，不直接发布。精确重复更新采集记录；疑似重复必须由管理员决定如何处理。</p><div className="mt-7"><ImportWorkbench /></div></div>; }

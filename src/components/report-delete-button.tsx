@@ -1,0 +1,7 @@
+"use client";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { LoaderCircle, Trash2 } from "lucide-react";
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
+import { Button } from "@/components/ui/button";
+export function ReportDeleteButton({ token }: { token: string }) { const router = useRouter(); const [loading, setLoading] = useState(false); async function remove() { setLoading(true); const response = await fetch(`/api/v1/reports/${encodeURIComponent(token)}`, { method: "DELETE" }); if (response.ok) router.replace("/assessment?deleted=1"); else setLoading(false); } return <AlertDialog><AlertDialogTrigger asChild><Button variant="ghost" size="sm" className="text-muted-foreground hover:text-destructive"><Trash2 />删除报告与问诊数据</Button></AlertDialogTrigger><AlertDialogContent><AlertDialogHeader><AlertDialogTitle>确认永久删除？</AlertDialogTitle><AlertDialogDescription>报告、邮箱和关联问诊数据将被标记删除，私密链接随后失效。此操作无法在前台撤销。</AlertDialogDescription></AlertDialogHeader><AlertDialogFooter><AlertDialogCancel>取消</AlertDialogCancel><AlertDialogAction onClick={remove} disabled={loading}>{loading && <LoaderCircle className="animate-spin" />}确认删除</AlertDialogAction></AlertDialogFooter></AlertDialogContent></AlertDialog>; }
