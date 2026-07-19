@@ -1,9 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
+import { trackPublicEvent } from "@/lib/analytics-client";
 
 export function ReadingTracker({ caseId }: { caseId: string }) {
   useEffect(() => {
+    trackPublicEvent("case_view", caseId);
     let elapsed = 0;
     let maxDepth = 0;
     let sent = false;

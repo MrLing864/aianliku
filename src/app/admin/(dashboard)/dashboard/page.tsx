@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BrainCircuit, CalendarClock, FileCheck2, FileStack, Fingerprint, Import, MailWarning } from "lucide-react";
+import { ArrowRight, BrainCircuit, CalendarClock, FileCheck2, FileStack, Fingerprint, Import, Link2Off, MailWarning, MessageSquareWarning, TriangleAlert } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -17,6 +17,9 @@ export default async function DashboardPage() {
     { label: "报告生成中", value: stats.reportJobs, icon: BrainCircuit, href: "/admin/assessments" },
     { label: "报告异常", value: stats.reportIssues, icon: MailWarning, href: "/admin/assessments" },
     { label: "新预约", value: stats.appointments, icon: CalendarClock, href: "/admin/appointments" },
+    { label: "内容更正", value: stats.corrections, icon: MessageSquareWarning, href: "/admin/corrections" },
+    { label: "导入异常", value: stats.importFailures, icon: TriangleAlert, href: "/admin/imports" },
+    { label: "来源失效", value: stats.sourceIssues, icon: Link2Off, href: "/admin/sources" },
   ];
   return (
     <div>

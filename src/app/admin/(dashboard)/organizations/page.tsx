@@ -1,0 +1,10 @@
+import { Building2, Wrench } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
+import { listImplementers, listOrganizations } from "@/lib/repositories/admin";
+
+export const dynamic = "force-dynamic";
+export default async function OrganizationsPage() {
+  const [organizations, implementers] = await Promise.all([listOrganizations(), listImplementers()]);
+  return <div><p className="text-xs font-semibold text-primary">主体归一</p><h1 className="mt-2 text-3xl font-semibold tracking-tight">企业与实施方</h1><p className="mt-2 text-sm text-muted-foreground">企业相同不代表项目重复；这里用于核对主体关系、案例数量和实施方归属。</p><div className="mt-7 grid gap-6 xl:grid-cols-[1.4fr_.6fr]"><Card className="shadow-none"><CardContent className="p-6"><div className="flex items-center gap-2"><Building2 className="size-5 text-primary" /><h2 className="font-semibold">企业主体</h2><Badge variant="secondary">{organizations.length}</Badge></div><div className="mt-5 divide-y">{organizations.length ? organizations.map((item) => <div key={item.id} className="flex flex-wrap items-center gap-4 py-4"><div className="min-w-0 flex-1"><p className="font-medium">{item.name}</p><p className="mt-1 text-xs text-muted-foreground">{item.size} · {item.industries.join(" / ")}</p></div><Badge variant="outline">{item.caseCount} 个项目</Badge></div>) : <p className="py-12 text-center text-sm text-muted-foreground">暂无正式企业主体</p>}</div></CardContent></Card><Card className="shadow-none"><CardContent className="p-6"><div className="flex items-center gap-2"><Wrench className="size-5 text-primary" /><h2 className="font-semibold">实施方</h2><Badge variant="secondary">{implementers.length}</Badge></div><div className="mt-5 divide-y">{implementers.length ? implementers.map((item) => <div key={item.name} className="flex items-center justify-between gap-3 py-4"><p className="text-sm font-medium">{item.name}</p><Badge variant="outline">{item.caseCount}</Badge></div>) : <p className="py-12 text-center text-sm text-muted-foreground">暂无公开实施方</p>}</div></CardContent></Card></div></div>;
+}

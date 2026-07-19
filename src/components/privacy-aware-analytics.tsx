@@ -2,7 +2,7 @@
 
 import { Analytics, type BeforeSendEvent } from "@vercel/analytics/next";
 
-const privatePathPrefixes = ["/reports/", "/assessment/status/"];
+const privatePathPrefixes = ["/admin", "/reports/", "/assessment/status/"];
 
 export function PrivacyAwareAnalytics() {
   return (

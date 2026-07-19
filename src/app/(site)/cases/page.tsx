@@ -5,14 +5,25 @@ import { CaseCard } from "@/components/case-card";
 import { CaseFilters } from "@/components/case-filters";
 import { DemoNotice } from "@/components/demo-notice";
 import { Pagination } from "@/components/pagination";
+import { SearchEventTracker } from "@/components/search-event-tracker";
 import { Button } from "@/components/ui/button";
 import { listCases } from "@/lib/repositories/cases";
 import type { CaseQuery, OutcomeStatus } from "@/lib/types";
 
-export const metadata: Metadata = { title: "AI 案例库", description: "按行业、企业规模、AI 场景和项目结果查找中国企业 AI 改造案例。" };
-
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 function one(value: string | string[] | undefined) { return Array.isArray(value) ? value[0] : value; }
+
+export async function generateMetadata({ searchParams }: { searchParams: SearchParams }): Promise<Metadata> {
+  const raw = await searchParams;
+  const hasQuery = Object.values(raw).some((value) => Array.isArray(value) ? value.length > 0 : Boolean(value));
+  const keyword = one(raw.q)?.trim();
+  return {
+    title: keyword ? `“${keyword.slice(0, 60)}”相关 AI 案例` : "AI 案例库",
+    description: "按行业、企业规模、AI 场景和项目结果查找中国企业 AI 改造案例。",
+    alternates: { canonical: "/cases" },
+    robots: hasQuery ? { index: false, follow: true } : { index: true, follow: true },
+  };
+}
 
 export default async function CasesPage({ searchParams }: { searchParams: SearchParams }) {
   const raw = await searchParams;
@@ -23,9 +34,11 @@ export default async function CasesPage({ searchParams }: { searchParams: Search
     page: Number(one(raw.page)) || 1, limit: 12,
   };
   const result = await listCases(query);
+  const hasActiveSearch = Boolean(query.q || query.industry || query.scenario || query.size || (query.outcome && query.outcome !== "all") || (query.roi && query.roi !== "all"));
   const urlParams = new URLSearchParams();
   for (const [key, value] of Object.entries(raw)) if (typeof value === "string" && key !== "page") urlParams.set(key, value);
   return <main className="container-page py-12 sm:py-16 lg:py-20">
+    <SearchEventTracker active={hasActiveSearch} />
     <div className="max-w-2xl"><p className="text-xs font-semibold tracking-[0.16em] text-primary">案例检索</p><h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">找到可借鉴的 AI 路径</h1><p className="mt-4 text-sm leading-7 text-muted-foreground sm:text-base">从真实业务问题出发，筛选与你的行业、规模和场景更接近的案例。</p></div>
     <div className="mt-8"><CaseFilters /></div>
     {result.mode === "demo" && <div className="mt-5"><DemoNotice /></div>}

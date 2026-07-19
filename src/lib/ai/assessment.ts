@@ -7,6 +7,7 @@ import { createFallbackReport, type AssessmentInput } from "@/lib/assessment";
 import type { AssessmentReport } from "@/lib/types";
 
 const deepseek = createDeepSeek({ apiKey: env.DEEPSEEK_API_KEY ?? "" });
+const ASSESSMENT_PROMPT_VERSION = "assessment-v4pro-v1.1";
 
 const reportSchema = z.object({
   companyProfile: z.string(), diagnosis: z.string(),
@@ -37,7 +38,7 @@ export async function generateAssessment(
     });
     const roi = { ...output.roi, basis: "ai-estimate" as const, disclaimer: "该区间基于本次问诊输入与行业经验推测，不构成效果承诺。" };
     const markdown = `## 核心判断\n\n${output.diagnosis}\n\n## 三阶段建议\n\n${output.recommendations.map((item) => `### 第 ${item.stage} 阶段：${item.title}\n\n${item.reason}\n\n- 预计周期：${item.timeline}\n- 投入参考：${item.investment}`).join("\n\n")}\n\n## ROI 估算\n\n预计回收期：${roi.paybackPeriod}。\n\n> ${roi.disclaimer}`;
-    return { id, sessionId: id, ...output, roi, relatedCaseSlugs: [], markdown, aiGenerated: true, createdAt: new Date().toISOString() };
+    return { id, sessionId: id, ...output, roi, relatedCaseSlugs: [], markdown, aiGenerated: true, model: env.AI_MODEL, promptVersion: ASSESSMENT_PROMPT_VERSION, createdAt: new Date().toISOString() };
   } catch (error) {
     console.error("assessment_generation_failed", error instanceof Error ? error.message : "unknown_error");
     if (options.strict) throw error;

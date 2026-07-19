@@ -8,6 +8,7 @@ import type {
   AssessmentReport,
   NotificationStatus,
 } from "@/lib/types";
+import { nanoid } from "nanoid";
 
 type StoredReport = AssessmentReport & { accessTokenHash?: string };
 
@@ -235,38 +236,50 @@ export async function getReportByToken(token: string) {
   );
 }
 
-export async function deleteReportByToken(token: string) {
-  if (!isMongoConfigured()) return false;
+export async function saveRoiVersionByToken(token: string, input: { investment: number; monthlyCost: number; monthlySaving: number }) {
+  if (!isMongoConfigured()) return null;
   const db = await getDb();
   const tokenHash = hashReportToken(token);
-  const report = await db.collection<StoredReport>("assessment_reports").findOne({
-    accessTokenHash: tokenHash,
-    deletedAt: { $exists: false },
-  });
-  if (!report) return false;
+  const report = await db.collection<StoredReport>("assessment_reports").findOne({ accessTokenHash: tokenHash, deletedAt: { $exists: false } }, { projection: { _id: 0, roiVersions: 1 } });
+  if (!report) return null;
+  const net = input.monthlySaving - input.monthlyCost;
+  const version = (report.roiVersions?.length ?? 0) + 1;
+  const entry = { version, ...input, paybackMonths: net > 0 ? input.investment / net : null, createdAt: new Date().toISOString() };
+  await db.collection<StoredReport>("assessment_reports").updateOne({ accessTokenHash: tokenHash, deletedAt: { $exists: false } }, { $push: { roiVersions: entry } });
+  return entry;
+}
+
+export async function requestReportDeletionByToken(token: string) {
+  if (!isMongoConfigured()) return null;
+  const db = await getDb();
+  const tokenHash = hashReportToken(token);
+  const report = await db.collection<StoredReport>("assessment_reports").findOne({ accessTokenHash: tokenHash, deletedAt: { $exists: false } }, { projection: { _id: 0 } });
+  if (!report) return null;
   const deletedAt = new Date().toISOString();
-  const [result] = await Promise.all([
-    db.collection("assessment_reports").updateOne(
-      { accessTokenHash: tokenHash },
-      { $set: { deletedAt, email: null }, $unset: { accessTokenHash: "" } },
-    ),
-    db.collection("assessment_sessions").updateOne(
-      { id: report.sessionId },
-      { $set: { status: "deleted", deletedAt }, $unset: { input: "", email: "" } },
-    ),
-    db.collection("assessment_jobs").updateOne(
-      { reportId: report.id },
-      {
-        $set: { status: "deleted", deletedAt, updatedAt: deletedAt },
-        $unset: {
-          input: "",
-          email: "",
-          reportToken: "",
-          reportTokenHash: "",
-          statusTokenHash: "",
-        },
-      },
-    ),
-  ]);
-  return result.modifiedCount === 1;
+  const taskId = nanoid(20);
+  const revoked = await db.collection("assessment_reports").updateOne(
+    { id: report.id, accessTokenHash: tokenHash, deletedAt: { $exists: false } },
+    { $set: { deletedAt, deletionStatus: "pending", email: null }, $unset: { accessTokenHash: "" } },
+  );
+  if (revoked.modifiedCount !== 1) return null;
+  await db.collection("deletion_tasks").insertOne({ id: taskId, kind: "assessment", reportId: report.id, sessionId: report.sessionId, status: "pending", attempts: 0, createdAt: new Date(), updatedAt: new Date() });
+  return taskId;
+}
+
+export async function completeAssessmentDeletionTask(taskId: string) {
+  const db = await getDb();
+  const task = await db.collection("deletion_tasks").findOne({ id: taskId, kind: "assessment", status: { $ne: "completed" } });
+  if (!task) return { completed: true };
+  const deletedAt = new Date().toISOString();
+  try {
+    await db.collection("assessment_sessions").updateOne({ id: task.sessionId }, { $set: { status: "deleted", deletedAt }, $unset: { input: "", email: "", reportId: "" } });
+    await db.collection("assessment_jobs").updateOne({ reportId: task.reportId }, { $set: { status: "deleted", deletedAt, updatedAt: deletedAt }, $unset: { input: "", email: "", reportToken: "", reportTokenHash: "", statusTokenHash: "", runId: "" } });
+    await db.collection("appointments").updateMany({ reportId: task.reportId }, { $set: { status: "cancelled", deletedAt }, $unset: { name: "", company: "", role: "", need: "", phone: "", wechat: "", wechatNormalized: "", preferredTime: "", reportId: "" } });
+    await db.collection("assessment_reports").updateOne({ id: task.reportId }, { $set: { deletionStatus: "completed", deletedAt }, $unset: { email: "", companyProfile: "", diagnosis: "", recommendations: "", roi: "", notRecommended: "", actionPlan: "", relatedCaseSlugs: "", markdown: "", accessTokenHash: "" } });
+    await db.collection("deletion_tasks").updateOne({ id: taskId }, { $set: { status: "completed", completedAt: new Date(), updatedAt: new Date() }, $inc: { attempts: 1 }, $unset: { errorCode: "" } });
+    return { completed: true };
+  } catch (error) {
+    await db.collection("deletion_tasks").updateOne({ id: taskId }, { $set: { status: "retry_pending", errorCode: error instanceof Error ? error.name : "UNKNOWN", updatedAt: new Date() }, $inc: { attempts: 1 } });
+    throw error;
+  }
 }

@@ -1,4 +1,5 @@
 import { industries, scenarios } from "@/lib/catalog";
+import { createDedupVector } from "@/lib/dedup";
 import type { CaseStudy, ConfidenceLevel, OutcomeStatus } from "@/lib/types";
 
 const industry = (slug: string) => industries.find((item) => item.slug === slug)!;
@@ -41,6 +42,7 @@ export const demoCases: CaseStudy[] = seeds.map((item, index) => {
   const published = new Date(Date.UTC(2026, 5, Math.max(1, 28 - index))).toISOString();
   return {
     id: `demo-case-${index + 1}`,
+    version: 1,
     slug: item.slug,
     title: item.title,
     organization: { id: `demo-org-${index + 1}`, name: item.organization, size: item.size, anonymous: true },
@@ -71,6 +73,7 @@ export const demoCases: CaseStudy[] = seeds.map((item, index) => {
     sources: [{ id: sourceId, title: "产品演示数据（非真实企业案例）", publisher: "AI案例库", type: "demo", collectedAt: published, accessibility: "available", supports: ["页面与流程演示"] }],
     featured: item.featured ?? false,
     views: 1800 - index * 87,
+    dedupVector: createDedupVector(`${item.title}\n${item.problem}\n${item.solution}`),
     publishedAt: published,
     updatedAt: published,
     demo: true,

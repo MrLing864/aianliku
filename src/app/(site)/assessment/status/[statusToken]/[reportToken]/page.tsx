@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "AI 体检报告生成中",
   robots: { index: false, follow: false, noarchive: true, nosnippet: true },
 };
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 type Params = Promise<{ statusToken: string; reportToken: string }>;
 

@@ -12,6 +12,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "db:seed": "tsx scripts/seed.ts",
+    "db:setup": "tsx scripts/setup-mongodb.ts",
     "admin:hash": "tsx scripts/hash-password.ts",
     "ai:smoke": "tsx scripts/smoke-deepseek.ts"
   },

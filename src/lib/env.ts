@@ -39,3 +39,4 @@ export const env = schema.parse({
 export const hasMongo = Boolean(env.MONGODB_URI);
 export const hasEmail = Boolean(env.RESEND_API_KEY);
 export const hasAI = Boolean(env.DEEPSEEK_API_KEY);
+export const hasR2 = Boolean(env.R2_ACCOUNT_ID && env.R2_ACCESS_KEY_ID && env.R2_SECRET_ACCESS_KEY && env.R2_BUCKET);

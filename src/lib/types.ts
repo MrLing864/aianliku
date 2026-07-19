@@ -54,6 +54,16 @@ export interface CaseSource {
   supports: string[];
 }
 
+export interface SourceRecord extends CaseSource {
+  originalUrl?: string;
+  normalizedUrl?: string;
+  externalId?: string;
+  contentHash?: string;
+  lastCollectedAt: string;
+  snapshotKey?: string;
+  caseIds: string[];
+}
+
 export interface CaseMetric {
   label: string;
   value: string;
@@ -63,6 +73,7 @@ export interface CaseMetric {
 
 export interface CaseStudy {
   id: string;
+  version: number;
   slug: string;
   title: string;
   organization: {
@@ -99,6 +110,7 @@ export interface CaseStudy {
   sources: CaseSource[];
   featured: boolean;
   views: number;
+  dedupVector?: number[];
   publishedAt: string;
   updatedAt: string;
   demo?: boolean;
@@ -167,6 +179,9 @@ export interface AssessmentReport {
   relatedCaseSlugs: string[];
   markdown: string;
   aiGenerated: boolean;
+  model?: string;
+  promptVersion?: string;
+  roiVersions?: Array<{ version: number; investment: number; monthlyCost: number; monthlySaving: number; paybackMonths: number | null; createdAt: string }>;
   createdAt: string;
   claimedAt?: string;
   deletedAt?: string;

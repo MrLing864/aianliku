@@ -8,11 +8,14 @@ import {
   setAssessmentJobRunId,
 } from "@/lib/repositories/reports";
 import { assessmentSubmissionSchema } from "@/lib/validation/assessment";
+import { checkRateLimit } from "@/lib/rate-limit";
 import { generateAssessmentReportWorkflow } from "@/workflows/assessment-report";
 
 export const maxDuration = 30;
 
 export async function POST(request: Request) {
+  const rate = await checkRateLimit(request, "assessment_submit", 5, 60 * 60 * 1000);
+  if (!rate.allowed) return NextResponse.json({ error: "报告提交过于频繁，请稍后再试。" }, { status: 429, headers: { "retry-after": String(rate.retryAfterSeconds) } });
   const parsed = assessmentSubmissionSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) {
     return NextResponse.json(

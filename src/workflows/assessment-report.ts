@@ -5,6 +5,7 @@ import { sendReportEmail } from "@/lib/email/report-email";
 import { env, hasAI } from "@/lib/env";
 import {
   getAssessmentJobForWorkflow,
+  completeAssessmentDeletionTask,
   getNotificationPayload,
   markAssessmentJobFailed,
   markAssessmentJobProcessing,
@@ -51,6 +52,12 @@ export async function retryAssessmentNotificationWorkflow(
     await markNotificationFailedStep(jobId);
     throw error;
   }
+}
+
+export async function deleteAssessmentDataWorkflow(taskId: string) {
+  "use workflow";
+  await completeAssessmentDeletionStep(taskId);
+  return { taskId, status: "completed" as const };
 }
 
 async function markProcessingStep(jobId: string) {
@@ -111,4 +118,11 @@ async function markGenerationFailedStep(jobId: string) {
   "use step";
   console.error("assessment_workflow_failed", { jobId });
   await markAssessmentJobFailed(jobId, "REPORT_GENERATION_FAILED");
+}
+
+async function completeAssessmentDeletionStep(taskId: string) {
+  "use step";
+  console.info("assessment_deletion_step_start", { taskId });
+  await completeAssessmentDeletionTask(taskId);
+  console.info("assessment_deletion_step_done", { taskId });
 }

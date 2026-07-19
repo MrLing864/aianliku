@@ -2,8 +2,11 @@ import { nanoid } from "nanoid";
 import { NextResponse } from "next/server";
 import { createFallbackReport } from "@/lib/assessment";
 import { assessmentInputSchema } from "@/lib/validation/assessment";
+import { checkRateLimit } from "@/lib/rate-limit";
 
 export async function POST(request: Request) {
+  const rate = await checkRateLimit(request, "assessment_preview", 20, 60 * 60 * 1000);
+  if (!rate.allowed) return NextResponse.json({ error: "预览生成过于频繁，请稍后重试。" }, { status: 429, headers: { "retry-after": String(rate.retryAfterSeconds) } });
   const parsed = assessmentInputSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) {
     return NextResponse.json(

@@ -14,7 +14,7 @@
 ## 技术栈
 
 - Next.js 16、React 19、Tailwind CSS 4、shadcn/ui
-- MongoDB（Atlas Search / Vector Search 预留）
+- MongoDB（Atlas Search / Vector Search，索引可通过脚本初始化）
 - DeepSeek V4-Pro / V4-Flash（直连官方 API）
 - Vercel Workflow SDK（持久异步报告、自动重试与跨部署恢复）
 - Auth.js、Resend、Cloudflare R2（可选）、Vercel
@@ -47,10 +47,11 @@ npm run admin:hash -- your-long-password
 配置 `MONGODB_URI` 后执行：
 
 ```bash
+npm run db:setup
 npm run db:seed
 ```
 
-脚本会创建所需索引，并以 upsert 方式加入明确标识的演示案例，不会清空已有数据。
+`db:setup` 创建普通唯一索引，并请求创建中文全文检索与 384 维案例去重向量索引；Atlas 索引异步构建，状态变为 `READY` 后再做上线验收。`db:seed` 以 upsert 方式加入明确标识的演示案例，不会清空已有数据。
 
 ## 质量检查
 
