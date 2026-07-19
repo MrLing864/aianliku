@@ -187,14 +187,25 @@ export interface AssessmentReport {
   aiGenerated: boolean;
   model?: string;
   promptVersion?: string;
-  roiVersions?: Array<{ version: number; investment: number; monthlyCost: number; monthlySaving: number; paybackMonths: number | null; createdAt: string }>;
+  roiVersions?: Array<{
+    version: number;
+    investment: number;
+    monthlyCost: number;
+    monthlySaving: number;
+    paybackMonths: number | null;
+    anomalyFlags?: string[];
+    anomaliesConfirmedAt?: string;
+    createdAt: string;
+  }>;
   createdAt: string;
   claimedAt?: string;
   deletedAt?: string;
 }
 
-export type AssessmentJobStatus = "queued" | "processing" | "ready" | "failed" | "deleted";
-export type NotificationStatus = "pending" | "sent" | "failed" | "not_configured";
+export type AssessmentJobStatus =
+  "queued" | "processing" | "ready" | "failed" | "deleted";
+export type NotificationStatus =
+  "pending" | "sent" | "failed" | "not_configured";
 
 export interface AssessmentJob {
   id: string;
@@ -234,7 +245,8 @@ export interface Appointment {
   phone?: string;
   wechat?: string;
   preferredTime?: string;
-  status: "new" | "pending" | "contacted" | "completed" | "invalid" | "cancelled";
+  status:
+    "new" | "pending" | "contacted" | "completed" | "invalid" | "cancelled";
   createdAt: string;
   note?: string;
   updatedAt?: string;
