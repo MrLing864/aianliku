@@ -131,3 +131,11 @@
   .metric-number { font-variant-numeric: tabular-nums; letter-spacing: -0.04em; }
   .focus-ring { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background; }
 }
+
+@media print {
+  header, footer, .no-print { display: none !important; }
+  body { background: white !important; color: black !important; }
+  main { padding-block: 0 !important; }
+  article, section, [data-slot="card"] { break-inside: avoid; box-shadow: none !important; }
+  @page { margin: 14mm; }
+}

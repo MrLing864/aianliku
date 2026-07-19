@@ -1,5 +1,6 @@
 import { BrainCircuit, CheckCircle2, Clock3, MailCheck, MailWarning } from "lucide-react";
 import { AssessmentNotificationRetry } from "@/components/assessment-notification-retry";
+import { AssessmentAnswerReveal } from "@/components/assessment-answer-reveal";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -96,7 +97,7 @@ export default async function AssessmentsPage() {
                       </TableCell>
                       <TableCell>{item.notificationAttempts}</TableCell>
                       <TableCell className="pr-5 text-right">
-                        {item.canRetryNotification ? <AssessmentNotificationRetry jobId={item.id} /> : <span className="text-xs text-muted-foreground">—</span>}
+                        <div className="flex justify-end gap-2"><AssessmentAnswerReveal jobId={item.id} />{item.canRetryNotification && <AssessmentNotificationRetry jobId={item.id} />}</div>
                       </TableCell>
                     </TableRow>
                   );

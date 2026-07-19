@@ -133,6 +133,29 @@ export const getCaseBySlug = cache(async (slug: string): Promise<CaseStudy | nul
   return db.collection<CaseStudy>("cases").findOne({ slug, contentStatus: "published" }, { projection: { _id: 0, dedupVector: 0 } });
 });
 
+export type CaseRouteResolution =
+  | { kind: "published"; item: CaseStudy }
+  | { kind: "archived"; item: CaseStudy }
+  | { kind: "redirect"; targetSlug: string }
+  | { kind: "missing" };
+
+export const resolveCaseRoute = cache(async (slug: string): Promise<CaseRouteResolution> => {
+  if (!isMongoConfigured()) {
+    const item = demoCases.find((entry) => entry.slug === slug);
+    return item ? { kind: "published", item } : { kind: "missing" };
+  }
+  const db = await getDb();
+  const item = await db.collection<CaseStudy>("cases").findOne(
+    { slug, contentStatus: { $in: ["published", "archived", "merged"] } },
+    { projection: { _id: 0, dedupVector: 0 } },
+  );
+  if (item?.contentStatus === "published") return { kind: "published", item };
+  if (item?.contentStatus === "archived") return { kind: "archived", item };
+  if (item?.contentStatus === "merged" && item.mergedIntoSlug) return { kind: "redirect", targetSlug: item.mergedIntoSlug };
+  const redirect = await db.collection<{ fromSlug: string; targetSlug: string }>("case_redirects").findOne({ fromSlug: slug }, { projection: { _id: 0, targetSlug: 1 } });
+  return redirect?.targetSlug ? { kind: "redirect", targetSlug: redirect.targetSlug } : { kind: "missing" };
+});
+
 export async function getFeaturedCases(limit = 6) {
   return (await listCases({ sort: "popular", limit })).items;
 }

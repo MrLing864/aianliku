@@ -1,6 +1,6 @@
 ﻿import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, Building2, CalendarDays, CheckCircle2, Clock3, ExternalLink, Quote, ShieldCheck, WalletCards } from "lucide-react";
 import { CaseCard } from "@/components/case-card";
 import { ReadingTracker } from "@/components/reading-tracker";
@@ -9,15 +9,16 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { getCaseBySlug, getRelatedCases } from "@/lib/repositories/cases";
+import { getRelatedCases, resolveCaseRoute } from "@/lib/repositories/cases";
 
 type Params = Promise<{ slug: string }>;
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> { const item = await getCaseBySlug((await params).slug); return item ? { title: item.title, description: item.summary, alternates: { canonical: `/cases/${item.slug}` } } : {}; }
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> { const route = await resolveCaseRoute((await params).slug); if (route.kind === "redirect") return { alternates: { canonical: `/cases/${route.targetSlug}` }, robots: { index: false, follow: true } }; if (route.kind === "missing") return {}; return { title: route.item.title, description: route.item.summary, alternates: { canonical: `/cases/${route.item.slug}` }, robots: route.kind === "archived" ? { index: false, follow: true, noarchive: true } : undefined }; }
 
 function FactSection({ number, title, children }: { number: string; title: string; children: React.ReactNode }) { return <section className="grid gap-4 border-t py-9 sm:grid-cols-[88px_1fr]"><p className="font-mono text-xs text-primary">{number}</p><div><h2 className="text-xl font-semibold tracking-tight">{title}</h2><div className="mt-4 text-[15px] leading-8 text-foreground/80">{children}</div></div></section>; }
 
 export default async function CaseDetailPage({ params }: { params: Params }) {
-  const item = await getCaseBySlug((await params).slug); if (!item) notFound();
+  const route = await resolveCaseRoute((await params).slug); if (route.kind === "missing") notFound(); if (route.kind === "redirect") permanentRedirect(`/cases/${route.targetSlug}`); const item = route.item;
+  if (route.kind === "archived") return <main className="container-page py-20"><div className="mx-auto max-w-2xl rounded-3xl border bg-card p-8 text-center sm:p-12"><Badge variant="secondary">已归档</Badge><h1 className="mt-5 text-3xl font-semibold tracking-tight">{item.title}</h1><p className="mt-4 text-sm leading-7 text-muted-foreground">该案例因来源变化、时效性或内容治理原因已归档，不再参与搜索、推荐和阅读统计。页面保留用于说明历史状态。</p><Button asChild className="mt-7"><Link href="/cases">返回案例库</Link></Button></div></main>;
   const related = await getRelatedCases(item, 3);
   const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: item.title, description: item.summary, datePublished: item.publishedAt, dateModified: item.updatedAt, author: { "@type": "Organization", name: "AI案例库" }, mainEntityOfPage: `/cases/${item.slug}` };
   return <main><ReadingTracker caseId={item.id} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />

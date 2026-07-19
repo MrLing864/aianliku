@@ -25,6 +25,7 @@ const MAX_CONTENT_BYTES = 20 * 1024 * 1024;
 const requestSchema = z.object({
   format: z.enum(["json", "csv"]),
   content: z.string().min(2).max(MAX_CONTENT_BYTES),
+  retryJobId: z.string().min(1).max(100).optional(),
 });
 
 const rowSchema = z.object({
@@ -42,6 +43,7 @@ const rowSchema = z.object({
   solution: z.string().max(5_000).optional().default(""),
   result: z.string().max(2_000).optional().default(""),
   rawText: z.string().max(100_000).optional().default(""),
+  originalRowNumber: z.coerce.number().int().min(1).max(MAX_ROWS).optional(),
 });
 
 type ParsedRow = z.infer<typeof rowSchema>;
@@ -64,6 +66,7 @@ function remapStandardColumns(value: unknown) {
     solution: row.solution,
     result: row.result ?? row.result_text,
     rawText: row.rawText ?? row.raw_text ?? row.source_excerpt,
+    originalRowNumber: row.originalRowNumber ?? row.original_row_number ?? row.row_number ?? row.row,
   };
 }
 
@@ -100,15 +103,16 @@ async function readImportRequest(request: Request) {
     const file = form.get("file");
     if (!(file instanceof File) || file.size === 0 || file.size > MAX_CONTENT_BYTES) throw new Error("INVALID_FILE");
     const name = file.name.toLowerCase();
-    if (name.endsWith(".xlsx")) return { format: "xlsx" as const, rows: await parseXlsx(file) };
+    const retryJobId = typeof form.get("retryJobId") === "string" && String(form.get("retryJobId")).trim() ? String(form.get("retryJobId")).trim() : undefined;
+    if (name.endsWith(".xlsx")) return { format: "xlsx" as const, rows: await parseXlsx(file), retryJobId };
     const content = await file.text();
-    if (name.endsWith(".csv")) return { format: "csv" as const, rows: parseRows("csv", content) };
-    if (name.endsWith(".json")) return { format: "json" as const, rows: parseRows("json", content) };
+    if (name.endsWith(".csv")) return { format: "csv" as const, rows: parseRows("csv", content), retryJobId };
+    if (name.endsWith(".json")) return { format: "json" as const, rows: parseRows("json", content), retryJobId };
     throw new Error("UNSUPPORTED_FILE");
   }
   const parsed = requestSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) throw new Error("INVALID_CONTENT");
-  return { format: parsed.data.format, rows: parseRows(parsed.data.format, parsed.data.content) };
+  return { format: parsed.data.format, rows: parseRows(parsed.data.format, parsed.data.content), retryJobId: parsed.data.retryJobId };
 }
 
 function exactSourceFilter(identity: ReturnType<typeof sourceIdentity>, row: ParsedRow): Filter<SourceRecord> {
@@ -139,22 +143,30 @@ export async function POST(request: Request) {
 
   let parsedRows: ReturnType<typeof parseRows>;
   let importFormat: "json" | "csv" | "xlsx";
+  let retryJobId: string | undefined;
   try {
     const imported = await readImportRequest(request);
     parsedRows = imported.rows;
     importFormat = imported.format;
+    retryJobId = imported.retryJobId;
   } catch (error) {
     const message = error instanceof Error ? error.message : "UNKNOWN";
     return NextResponse.json({ error: message === "TOO_MANY_ROWS" ? "单次最多导入 1,000 行，请拆分后重试" : message === "INVALID_FILE" ? "文件为空或超过 20 MB" : message === "UNSUPPORTED_FILE" ? "仅支持 UTF-8 CSV、XLSX 或 JSON" : "无法解析内容，请检查文件或 JSON/CSV 格式" }, { status: 400 });
   }
 
-  const existingCases = await listAdminCases(1_000);
-  const jobId = nanoid(14);
-  const results: Array<Record<string, unknown>> = [];
   const db = isMongoConfigured() ? await getDb() : null;
+  if (retryJobId && !db) return NextResponse.json({ error: "重试导入需要先配置 MongoDB" }, { status: 503 });
+  const retryJob = retryJobId && db ? await db.collection("import_jobs").findOne({ id: retryJobId }) : null;
+  if (retryJobId && !retryJob) return NextResponse.json({ error: "原导入任务不存在" }, { status: 404 });
+  const existingCases = await listAdminCases(1_000);
+  const jobId = retryJobId ?? nanoid(14);
+  const results: Array<Record<string, unknown>> = [];
   const createdAt = new Date();
+  const hasTrackedFailedRows = Array.isArray(retryJob?.failedRowNumbers);
+  const retryableRows = new Set<number>((retryJob?.failedRowNumbers as unknown[] | undefined)?.map(Number).filter(Number.isInteger) ?? []);
+  const attemptedRetryRows = new Set<number>();
 
-  if (db) {
+  if (db && !retryJob) {
     await db.collection("import_jobs").insertOne({
       id: jobId,
       templateVersion: "1.0",
@@ -166,21 +178,33 @@ export async function POST(request: Request) {
       createdAt,
       updatedAt: createdAt,
     });
+  } else if (db && retryJob) {
+    await db.collection("import_jobs").updateOne({ id: jobId }, { $set: { status: "retrying", updatedAt: createdAt }, $inc: { retryCount: 1 } });
   }
 
   for (const entry of parsedRows) {
+    const remappedRaw = remapStandardColumns(entry.raw) as Record<string, unknown>;
+    const requestedRowNumber = Number(remappedRaw.originalRowNumber);
+    const rowNumber = Number.isInteger(requestedRowNumber) && requestedRowNumber > 0 ? requestedRowNumber : entry.index;
+    if (retryJob && hasTrackedFailedRows && !retryableRows.has(rowNumber)) {
+      results.push({ row: rowNumber, status: "retry_rejected", error: "该行不在原任务失败清单中，已拒绝重复处理" });
+      continue;
+    }
+    if (retryJob) attemptedRetryRows.add(rowNumber);
     if (db) {
       await db.collection("raw_import_records").insertOne({
         id: nanoid(18),
         jobId,
-        rowNumber: entry.index,
+        rowNumber,
         payload: entry.raw,
+        retry: Boolean(retryJob),
+        attempt: retryJob ? Number(retryJob.retryCount ?? 0) + 1 : 1,
         createdAt: new Date(),
       });
     }
 
     if (!entry.parsed.success) {
-      results.push({ row: entry.index, status: "invalid", error: entry.parsed.error.issues[0]?.message });
+      results.push({ row: rowNumber, status: "invalid", error: entry.parsed.error.issues[0]?.message });
       continue;
     }
 
@@ -195,11 +219,11 @@ export async function POST(request: Request) {
           db.collection("sources").updateOne({ id: exact.id }, { $set: { lastCollectedAt: new Date().toISOString(), accessibility: "available" }, $inc: { seenCount: 1 } }),
           db.collection("import_rows").updateOne(
             { idempotencyKey: identity.idempotencyKey },
-            { $set: { lastSeenAt: new Date(), sourceId: exact.id }, $inc: { seenCount: 1 }, $setOnInsert: { id: nanoid(16), jobId, rowNumber: entry.index, status: "exact_duplicate", createdAt: new Date() } },
+            { $set: { lastSeenAt: new Date(), lastJobId: jobId, lastRowNumber: rowNumber, sourceId: exact.id }, $inc: { seenCount: 1 }, $setOnInsert: { id: nanoid(16), jobId, rowNumber, status: "exact_duplicate", createdAt: new Date() } },
             { upsert: true },
           ),
         ]);
-        results.push({ row: entry.index, title: row.title, status: "exact_duplicate", sourceId: exact.id, message: "相同 URL、外部编号或正文哈希已存在；采集记录已更新，未重复插入" });
+        results.push({ row: rowNumber, title: row.title, status: "exact_duplicate", sourceId: exact.id, message: "相同 URL、外部编号或正文哈希已存在；采集记录已更新，未重复插入" });
         continue;
       }
     }
@@ -236,7 +260,8 @@ export async function POST(request: Request) {
     const document = {
       id: importRowId,
       jobId,
-      rowNumber: entry.index,
+      rowNumber,
+      originKey: `${jobId}:${rowNumber}`,
       ...row,
       sourceId,
       normalizedUrl: identity.normalizedUrl,
@@ -259,7 +284,7 @@ export async function POST(request: Request) {
       } catch (error) {
         if (error instanceof MongoServerError && error.code === 11000) {
           const raced = await db.collection<SourceRecord>("sources").findOne(exactSourceFilter(identity, row), { projection: { _id: 0 } });
-          results.push({ row: entry.index, title: row.title, status: "exact_duplicate", sourceId: raced?.id, message: "并发导入命中来源唯一索引，未重复插入" });
+          results.push({ row: rowNumber, title: row.title, status: "exact_duplicate", sourceId: raced?.id, message: "并发导入命中来源唯一索引，未重复插入" });
           continue;
         }
         throw error;
@@ -284,7 +309,7 @@ export async function POST(request: Request) {
     }
 
     results.push({
-      row: entry.index,
+      row: rowNumber,
       title: row.title,
       status,
       level,
@@ -299,11 +324,26 @@ export async function POST(request: Request) {
     summary[status] = (summary[status] ?? 0) + 1;
     return summary;
   }, {});
+  const invalidRows = results.filter((item) => item.status === "invalid").map((item) => Number(item.row)).filter(Number.isInteger);
 
   if (db) {
-    await db.collection("import_jobs").updateOne({ id: jobId }, { $set: { status: counts.invalid ? "partial" : "staged", counts, updatedAt: new Date() } });
-    await writeAuditLog({ actor: session.user?.email ?? "admin", action: "import.create", entityType: "import_job", entityId: jobId, metadata: { total: parsedRows.length, counts, templateVersion: "1.0" } });
+    const mergedCounts = retryJob ? { ...(retryJob.counts as Record<string, number>) } : counts;
+    let remainingFailedRows = invalidRows;
+    if (retryJob) {
+      if (hasTrackedFailedRows) {
+        const remaining = new Set(retryableRows);
+        for (const rowNumber of attemptedRetryRows) remaining.delete(rowNumber);
+        for (const rowNumber of invalidRows) remaining.add(rowNumber);
+        remainingFailedRows = [...remaining].sort((left, right) => left - right);
+        mergedCounts.invalid = remainingFailedRows.length;
+      } else {
+        mergedCounts.invalid = Math.max(0, Number(mergedCounts.invalid ?? 0) - attemptedRetryRows.size + Number(counts.invalid ?? 0));
+      }
+      for (const [status, count] of Object.entries(counts)) if (status !== "invalid") mergedCounts[status] = Number(mergedCounts[status] ?? 0) + count;
+    }
+    await db.collection("import_jobs").updateOne({ id: jobId }, { $set: { status: mergedCounts.invalid ? "partial" : "staged", counts: mergedCounts, failedRowNumbers: remainingFailedRows, ...(retryJob ? { lastRetryAt: new Date() } : {}), updatedAt: new Date() } });
+    await writeAuditLog({ actor: session.user?.email ?? "admin", action: retryJob ? "import.retry" : "import.create", entityType: "import_job", entityId: jobId, metadata: { attemptedRows: parsedRows.length, counts, templateVersion: "1.0" } });
   }
 
-  return NextResponse.json({ ok: true, jobId, persisted: Boolean(db), total: parsedRows.length, counts, results });
+  return NextResponse.json({ ok: true, jobId, retry: Boolean(retryJob), persisted: Boolean(db), total: parsedRows.length, counts, results });
 }

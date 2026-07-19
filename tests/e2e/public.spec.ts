@@ -64,3 +64,22 @@ test("administrator can open governance workspaces", async ({ page }) => {
     await expect(page.getByRole("heading", { name: heading })).toBeVisible();
   }
 });
+test("sensitive administrator actions require a session and reauthentication", async ({ page, request }) => {
+  const unauthenticated = await Promise.all([
+    request.post("/api/admin/appointments/export", { data: { password: "invalid-password" } }),
+    request.post("/api/admin/assessments/missing/reveal", { data: { password: "invalid-password" } }),
+    request.post("/api/admin/cases/missing/merge", { data: { targetCaseId: "target", reason: "这是用于验收的合并依据说明", password: "invalid-password" } }),
+  ]);
+  expect(unauthenticated.map((response) => response.status())).toEqual([401, 401, 401]);
+
+  await page.goto("/admin/login");
+  await page.getByLabel("管理员邮箱").fill("admin@aianliku.local");
+  await page.getByLabel("密码").fill("aianliku-demo");
+  await page.getByRole("button", { name: "登录后台" }).click();
+  await page.waitForURL("**/admin/dashboard");
+  await page.goto("/admin/appointments");
+  await page.getByRole("button", { name: "导出联系方式" }).click();
+  await expect(page.getByRole("heading", { name: "导出敏感联系方式" })).toBeVisible();
+  const response = await page.request.post("/api/admin/appointments/export", { data: { password: "aianliku-demo" } });
+  expect(response.status()).toBe(503);
+});

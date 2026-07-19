@@ -22,6 +22,7 @@ export const industries: Industry[] = [
     icon: "ShoppingBag",
     featured: true,
     standardVersion: "GB/T 4754-2017+1",
+    parentCode: "F",
   },
   {
     id: "industry-foreign-trade",
@@ -33,6 +34,7 @@ export const industries: Industry[] = [
     icon: "Globe2",
     featured: true,
     standardVersion: "GB/T 4754-2017+1",
+    parentCode: "F",
   },
   {
     id: "industry-logistics",
@@ -66,6 +68,7 @@ export const industries: Industry[] = [
     icon: "HeartPulse",
     featured: true,
     standardVersion: "GB/T 4754-2017+1",
+    parentCode: "Q",
   },
   {
     id: "industry-education",
@@ -88,6 +91,7 @@ export const industries: Industry[] = [
     icon: "Code2",
     featured: true,
     standardVersion: "GB/T 4754-2017+1",
+    parentCode: "I",
   },
 ];
 

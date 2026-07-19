@@ -30,6 +30,7 @@ export interface Industry {
   icon: string;
   featured: boolean;
   standardVersion: string;
+  parentCode?: string;
 }
 
 export interface Scenario {
@@ -114,6 +115,11 @@ export interface CaseStudy {
   publishedAt: string;
   updatedAt: string;
   demo?: boolean;
+  mergedIntoCaseId?: string;
+  mergedIntoSlug?: string;
+  mergedAt?: string;
+  mergedCaseIds?: string[];
+  archivedAt?: string;
 }
 
 export interface CaseQuery {
@@ -224,6 +230,8 @@ export interface Appointment {
   preferredTime?: string;
   status: "new" | "pending" | "contacted" | "completed" | "invalid" | "cancelled";
   createdAt: string;
+  note?: string;
+  updatedAt?: string;
 }
 
 export interface DuplicateCandidate {

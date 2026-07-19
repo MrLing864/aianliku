@@ -90,3 +90,16 @@ export async function verifyAdminCredentials(email: string, password: string) {
   await writeAuditLog({ actor: admin.email, action: "admin.login", entityType: "admin_session", entityId: admin.id });
   return { id: admin.id, email: admin.email, name: admin.name, role: "admin" as const };
 }
+
+export async function verifyAdminReauthentication(email: string, password: string, purpose: string) {
+  const admin = await verifyAdminCredentials(email, password);
+  if (!admin) return false;
+  await writeAuditLog({
+    actor: admin.email,
+    action: "admin.reauthenticated",
+    entityType: "admin_session",
+    entityId: admin.id,
+    metadata: { purpose },
+  });
+  return true;
+}
