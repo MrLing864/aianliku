@@ -47,10 +47,9 @@ export function AssessmentProcessing({
   useEffect(() => {
     let cancelled = false;
     let redirectTimer: ReturnType<typeof setTimeout> | undefined;
-    let interval: ReturnType<typeof setInterval> | undefined;
 
     function stopPolling() {
-      if (interval) clearInterval(interval);
+      clearInterval(interval);
     }
 
     async function refresh() {
@@ -86,8 +85,8 @@ export function AssessmentProcessing({
       }
     }
 
+    const interval = setInterval(() => void refresh(), 4000);
     void refresh();
-    interval = setInterval(() => void refresh(), 4000);
     return () => {
       cancelled = true;
       stopPolling();
