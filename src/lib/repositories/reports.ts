@@ -9,6 +9,7 @@ import type {
   NotificationStatus,
 } from "@/lib/types";
 import { nanoid } from "nanoid";
+import { PRIVACY_NOTICE_VERSION, REPORT_CONSENT_VERSION } from "@/lib/policies";
 
 type StoredReport = AssessmentReport & { accessTokenHash?: string };
 
@@ -22,6 +23,7 @@ export async function createAssessmentJob(input: {
   answers: AssessmentInput;
   statusToken: string;
   reportToken: string;
+  consent: { reportConsent: true; privacyConsent: true; marketingConsent: boolean };
 }) {
   const db = await getDb();
   const now = new Date().toISOString();
@@ -37,6 +39,12 @@ export async function createAssessmentJob(input: {
     notificationAttempts: 0,
     createdAt: now,
     updatedAt: now,
+    privacyNoticeVersion: PRIVACY_NOTICE_VERSION,
+    reportConsentVersion: REPORT_CONSENT_VERSION,
+    privacyConsentAt: now,
+    reportConsentAt: now,
+    marketingConsent: input.consent.marketingConsent,
+    marketingConsentAt: input.consent.marketingConsent ? now : undefined,
   };
 
   await db.collection<AssessmentJob>("assessment_jobs").insertOne(job);
@@ -48,6 +56,14 @@ export async function createAssessmentJob(input: {
         input: input.answers,
         email: input.email,
         status: "queued",
+        consent: {
+          privacyNoticeVersion: PRIVACY_NOTICE_VERSION,
+          reportConsentVersion: REPORT_CONSENT_VERSION,
+          privacyConsentAt: now,
+          reportConsentAt: now,
+          marketingConsent: input.consent.marketingConsent,
+          marketingConsentAt: input.consent.marketingConsent ? now : undefined,
+        },
         updatedAt: new Date(),
       },
       $setOnInsert: { createdAt: new Date() },

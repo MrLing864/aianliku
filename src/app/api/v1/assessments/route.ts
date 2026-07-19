@@ -36,7 +36,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const { email, ...answers } = parsed.data;
+  const { email, reportConsent, privacyConsent, marketingConsent, ...answers } = parsed.data;
   const jobId = nanoid(24);
   const statusToken = nanoid(36);
   const reportToken = nanoid(48);
@@ -48,6 +48,7 @@ export async function POST(request: Request) {
       answers,
       statusToken,
       reportToken,
+      consent: { reportConsent, privacyConsent, marketingConsent },
     });
     const run = await start(generateAssessmentReportWorkflow, [jobId]);
     await setAssessmentJobRunId(jobId, run.runId);

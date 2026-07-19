@@ -16,4 +16,7 @@ export const assessmentInputSchema = z.object({
 
 export const assessmentSubmissionSchema = assessmentInputSchema.extend({
   email: z.email().max(254),
+  reportConsent: z.literal(true),
+  privacyConsent: z.literal(true),
+  marketingConsent: z.boolean().default(false),
 });

@@ -6,8 +6,9 @@ import { z } from "zod";
 import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
 import { env } from "@/lib/env";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { PRIVACY_NOTICE_VERSION } from "@/lib/policies";
 
-const eventSchema = z.object({ name: z.enum(["qualified_case_reader", "case_view", "search", "assessment_started", "assessment_completed", "report_claimed", "appointment_submitted"]), caseId: z.string().max(100).optional(), durationSeconds: z.number().min(0).max(86400).optional(), readingDepth: z.number().min(0).max(100).optional(), path: z.string().max(500).optional() });
+const eventSchema = z.object({ name: z.enum(["qualified_case_reader", "case_view", "search", "assessment_started", "assessment_completed", "report_claimed", "appointment_submitted"]), caseId: z.string().max(100).optional(), durationSeconds: z.number().min(0).max(86400).optional(), readingDepth: z.number().min(0).max(100).optional(), path: z.string().max(500).optional(), policyVersion: z.literal(PRIVACY_NOTICE_VERSION).optional() });
 
 function safePublicPath(value?: string) {
   if (!value || !value.startsWith("/") || value.includes("?") || value.includes("#") || /[\s@]/u.test(value)) return undefined;

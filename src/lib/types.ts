@@ -216,6 +216,12 @@ export interface AssessmentJob {
   notifiedAt?: string;
   updatedAt: string;
   deletedAt?: string;
+  privacyNoticeVersion?: string;
+  reportConsentVersion?: string;
+  privacyConsentAt?: string;
+  reportConsentAt?: string;
+  marketingConsent?: boolean;
+  marketingConsentAt?: string;
 }
 
 export interface Appointment {

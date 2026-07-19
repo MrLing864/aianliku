@@ -51,6 +51,12 @@ test("lead endpoints never report success when storage is unavailable", async ({
   const appointment = await request.post("/api/v1/appointments", { data: { name: "验收", company: "测试企业", need: "希望核对第一阶段改造范围和数据准备", phone: "13800138000" } });
   expect([200, 201, 503]).toContain(appointment.status());
   if (appointment.status() === 503) expect((await appointment.json()).code).toBe("LEAD_STORAGE_NOT_CONFIGURED");
+  const assessmentInput = { industry: "制造业", size: "80人", business: "机械设备生产", repeatedWork: "销售每天整理询价并制作报价单", systems: "ERP 和 Excel", volume: "每月 500 份询价", laborCost: "每月约 3 万元", budget: "首期 10 万元以内", urgency: "3 个月内", goal: "缩短报价时间并减少复制错误", email: "qa@example.com" };
+  const withoutConsent = await request.post("/api/v1/assessments", { data: assessmentInput });
+  expect(withoutConsent.status()).toBe(400);
+  const withConsent = await request.post("/api/v1/assessments", { data: { ...assessmentInput, reportConsent: true, privacyConsent: true, marketingConsent: false } });
+  expect(withConsent.status()).toBe(503);
+  expect((await withConsent.json()).code).toBe("REPORT_QUEUE_NOT_CONFIGURED");
 });
 test("administrator can open governance workspaces", async ({ page }) => {
   test.setTimeout(60_000);
