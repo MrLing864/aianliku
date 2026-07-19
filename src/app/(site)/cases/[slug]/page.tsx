@@ -39,4 +39,3 @@ export default async function CaseDetailPage({ params }: { params: Params }) {
     {related.length > 0 && <section className="border-t bg-card/45"><div className="container-page py-16"><div className="flex items-end justify-between"><div><p className="text-xs font-semibold text-primary">继续阅读</p><h2 className="mt-2 text-2xl font-semibold tracking-tight">相关案例</h2></div><Button variant="outline" asChild><Link href={`/cases?industry=${item.industry.slug}`}>更多{item.industry.displayName}案例<ArrowRight /></Link></Button></div><div className="mt-7 grid gap-4 md:grid-cols-3">{related.map((entry) => <CaseCard key={entry.id} caseStudy={entry} />)}</div></div></section>}
   </main>;
 }
-

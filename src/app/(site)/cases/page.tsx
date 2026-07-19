@@ -34,4 +34,3 @@ export default async function CasesPage({ searchParams }: { searchParams: Search
     <Pagination page={result.page} pageCount={result.pageCount} params={urlParams} />
   </main>;
 }
-
