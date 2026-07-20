@@ -1,5 +1,11 @@
 import { z } from "zod";
 
+const optionalUrl = z.preprocess(
+  (value) =>
+    typeof value === "string" && value.trim() === "" ? undefined : value,
+  z.url().optional(),
+);
+
 const schema = z.object({
   MONGODB_URI: z.string().min(1).optional(),
   MONGODB_DB: z.string().min(1).default("aianliku"),
@@ -16,6 +22,8 @@ const schema = z.object({
   R2_ACCESS_KEY_ID: z.string().optional(),
   R2_SECRET_ACCESS_KEY: z.string().optional(),
   R2_BUCKET: z.string().default("aianliku-private"),
+  OPS_ALERT_WEBHOOK_URL: optionalUrl,
+  OPS_ALERT_BEARER_TOKEN: z.string().optional(),
 });
 
 export const env = schema.parse({
@@ -34,9 +42,17 @@ export const env = schema.parse({
   R2_ACCESS_KEY_ID: process.env.R2_ACCESS_KEY_ID,
   R2_SECRET_ACCESS_KEY: process.env.R2_SECRET_ACCESS_KEY,
   R2_BUCKET: process.env.R2_BUCKET,
+  OPS_ALERT_WEBHOOK_URL: process.env.OPS_ALERT_WEBHOOK_URL,
+  OPS_ALERT_BEARER_TOKEN: process.env.OPS_ALERT_BEARER_TOKEN,
 });
 
 export const hasMongo = Boolean(env.MONGODB_URI);
 export const hasEmail = Boolean(env.RESEND_API_KEY);
 export const hasAI = Boolean(env.DEEPSEEK_API_KEY);
-export const hasR2 = Boolean(env.R2_ACCOUNT_ID && env.R2_ACCESS_KEY_ID && env.R2_SECRET_ACCESS_KEY && env.R2_BUCKET);
+export const hasR2 = Boolean(
+  env.R2_ACCOUNT_ID &&
+  env.R2_ACCESS_KEY_ID &&
+  env.R2_SECRET_ACCESS_KEY &&
+  env.R2_BUCKET,
+);
+export const hasOpsAlerts = Boolean(env.OPS_ALERT_WEBHOOK_URL);

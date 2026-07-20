@@ -7,6 +7,7 @@ import {
   PRIVACY_NOTICE_VERSION,
 } from "@/lib/policies";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { recordServerEvent } from "@/lib/server-analytics";
 
 const optionalPhone = z
   .string()
@@ -63,8 +64,9 @@ export async function POST(request: Request) {
   const db = await getDb();
   const now = new Date();
   const { privacyConsent, ...input } = parsed.data;
+  const id = nanoid();
   await db.collection("contact_requests").insertOne({
-    id: nanoid(),
+    id,
     ...input,
     email: input.email.trim().toLocaleLowerCase("en-US"),
     phone: input.phone?.replace(/[\s-]/gu, "") || undefined,
@@ -78,5 +80,6 @@ export async function POST(request: Request) {
     },
     createdAt: now,
   });
+  await recordServerEvent("contact_submitted", id);
   return NextResponse.json({ ok: true }, { status: 201 });
 }

@@ -42,30 +42,24 @@ export async function getAdminStats() {
     db.collection("cases").countDocuments({ contentStatus: "in_review" }),
     db.collection("duplicate_candidates").countDocuments({ status: "pending" }),
     db.collection("appointments").countDocuments({ status: "new" }),
-    db
-      .collection("assessment_jobs")
-      .countDocuments({
-        status: { $in: ["queued", "processing"] },
-        deletedAt: { $exists: false },
-      }),
-    db
-      .collection("assessment_jobs")
-      .countDocuments({
-        $or: [
-          { status: "failed" },
-          {
-            status: "ready",
-            notificationStatus: { $in: ["failed", "not_configured"] },
-          },
-        ],
-        deletedAt: { $exists: false },
-      }),
-    db
-      .collection("contact_requests")
-      .countDocuments({
-        type: "correction",
-        status: { $in: ["new", "investigating"] },
-      }),
+    db.collection("assessment_jobs").countDocuments({
+      status: { $in: ["queued", "processing"] },
+      deletedAt: { $exists: false },
+    }),
+    db.collection("assessment_jobs").countDocuments({
+      $or: [
+        { status: "failed" },
+        {
+          status: "ready",
+          notificationStatus: { $in: ["failed", "not_configured"] },
+        },
+      ],
+      deletedAt: { $exists: false },
+    }),
+    db.collection("contact_requests").countDocuments({
+      type: "correction",
+      status: { $in: ["new", "investigating"] },
+    }),
     db.collection("import_jobs").countDocuments({ status: "partial" }),
     db
       .collection("sources")
@@ -398,12 +392,21 @@ export async function getAnalyticsSummary() {
     }),
     events.countDocuments({
       name: {
-        $in: ["assessment_started", "assessment_completed", "report_claimed"],
+        $in: [
+          "assessment_started",
+          "assessment_completed",
+          "report_claimed",
+          "assessment_job_queued",
+          "assessment_job_ready",
+          "assessment_job_failed",
+          "assessment_email_sent",
+        ],
       },
       occurredAt: { $gte: thirtyDaysAgo },
     }),
     events.countDocuments({
-      name: "appointment_submitted",
+      name: "expert_booking_submit",
+      source: "server",
       occurredAt: { $gte: thirtyDaysAgo },
     }),
     events

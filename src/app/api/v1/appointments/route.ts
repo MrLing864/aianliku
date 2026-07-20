@@ -7,6 +7,7 @@ import {
   PRIVACY_NOTICE_VERSION,
 } from "@/lib/policies";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { recordServerEvent } from "@/lib/server-analytics";
 const schema = z
   .object({
     reportId: z.string().max(100).optional(),
@@ -81,11 +82,13 @@ export async function POST(request: Request) {
   const existing = await db
     .collection("appointments")
     .findOne({ $or: duplicateConditions });
-  if (existing)
+  if (existing) {
+    await recordServerEvent("expert_booking_submit", String(existing.id));
     return NextResponse.json(
       { ok: true, duplicate: true, id: existing.id },
       { status: 200 },
     );
+  }
   const id = nanoid();
   const now = new Date();
   const { privacyConsent, ...input } = parsed.data;
@@ -104,5 +107,6 @@ export async function POST(request: Request) {
     },
     createdAt: now,
   });
+  await recordServerEvent("expert_booking_submit", id);
   return NextResponse.json({ ok: true, id }, { status: 201 });
 }

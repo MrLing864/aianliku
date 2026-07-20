@@ -182,6 +182,7 @@ test("administrator can open governance workspaces", async ({ page }) => {
     ["corrections", "内容更正"],
     ["analytics", "SEO 与增长概览"],
     ["audit", "操作日志"],
+    ["settings", "运行状态"],
   ] as const) {
     await page.goto(`/admin/${path}`);
     await expect(page.getByRole("heading", { name: heading })).toBeVisible();

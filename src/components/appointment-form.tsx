@@ -8,7 +8,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { trackPublicEvent } from "@/lib/analytics-client";
 
 export function AppointmentForm({ reportId }: { reportId?: string }) {
   const [state, setState] = useState<"idle" | "sending" | "done" | "error">(
@@ -34,8 +33,8 @@ export function AppointmentForm({ reportId }: { reportId?: string }) {
     }).catch(() => null);
     const data = response ? await response.json().catch(() => null) : null;
     setState(response?.ok ? "done" : "error");
-    if (response?.ok) trackPublicEvent("appointment_submitted");
-    else setErrorMessage(data?.error ?? "预约提交失败，请稍后重试。");
+    if (!response?.ok)
+      setErrorMessage(data?.error ?? "预约提交失败，请稍后重试。");
   }
 
   if (state === "done") {
