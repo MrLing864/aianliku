@@ -56,7 +56,8 @@ function matchesDemo(item: CaseStudy, query: CaseQuery) {
     (!query.roi || query.roi === "all" || (query.roi === "disclosed" ? !item.roi.includes("未披露") : item.roi.includes("未披露"))) &&
     (!query.painPoint || (item.painPointTags ?? []).includes(query.painPoint)) &&
     (!query.implementer || item.implementers.some((impl) => normalizeText(impl.name).includes(normalizeText(query.implementer!)))) &&
-    (!query.model || (item.modelStack ?? []).some((model) => normalizeText(model).includes(normalizeText(query.model!))))
+    (!query.model || (item.modelStack ?? []).some((model) => normalizeText(model).includes(normalizeText(query.model!)))) &&
+    (!query.implementationYear || item.implementationYear === query.implementationYear)
   );
 }
 
@@ -101,6 +102,7 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
   if (query.painPoint) filter.painPointTags = query.painPoint;
   if (query.implementer) filter["implementers.name"] = { $regex: escapeRegex(query.implementer), $options: "i" };
   if (query.model) filter.modelStack = { $regex: escapeRegex(query.model), $options: "i" };
+  if (query.implementationYear) filter.implementationYear = query.implementationYear;
 
   const collection = db.collection("cases");
   const atlasResult = await searchCasesWithAtlas();

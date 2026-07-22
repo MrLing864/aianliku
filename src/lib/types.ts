@@ -199,6 +199,7 @@ export interface CaseQuery {
   painPoint?: string;
   implementer?: string;
   model?: string;
+  implementationYear?: number;
 }
 
 export interface PaginatedCases {
