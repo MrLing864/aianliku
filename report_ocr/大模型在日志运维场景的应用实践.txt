@@ -1,0 +1,806 @@
+
+===== PAGE 1 =====
+ifenxiWEBINAR
+分享主题
+大模型在日志运维场景的
+应用实践
+饶琛琳日志易产品副总裁
+===== PAGE 2 =====
+目录
+Contents
+01.
+02.
+03.
+大模型在日志场景的应用方向
+实践运用大模型的路径
+大模型在金融企业应用案例
+更快捷的分析海量日志
+构建高质量的训练数据
+背景：某金融企业大量业务日志
+更智能的解读和预测故障
+模型的评估和选代优化
+难点：关键字复杂多变
+产品设计“扬长避短”
+理想Vs现实：估算资源
+方案：实现知识库增强的自然语言查询
+效果：故障排查时间缩短40%
+===== PAGE 3 =====
+大模型在日志场景的应用方向
+更快捷的分析海量日志
+更智能的解读和预测故障
+理想Vvs现实：估算资源
+===== PAGE 4 =====
+谷歌Sec-PaLM的日志概要效果
+ifenxi
+QUERYBUILDER
+ViewUDM
+Findalldocuments withCONFIDENTIALin thetitlesharedexternally thisweek.
+netadata.vendornam
+"Google Workspace"AND
+Generate Rule
+2023-01-0416:00-2023-07-04 16:00
+How Was Query?
+RunSearch
+OVERVIEW
+EVENTS(33,233)
+ALERT(808)
+ANAYLYTICS
++SEARCHSUMMARYO
+回DETAILS
+There are 15 user.id's in your results but most of these userid's are administrative or
+shared-accounts.2users,222larabrown@and jeffersonloveshiking,are sharing mostof
+SUMMARY OF DETAILS
+LowRisk.TheseUsers werefirst-seen 45daysago,andhavecontactwith3lowprevalence
+externalIPaddresses,192.0.2.1,1987.51.100.1,203.0.113.1.
+Virus Total has flaggedone of these IP's as medium-risk.
+ViewDLPAlerts
+View Chronicle Rules
+More
+INSIGHTSANDMETRICS
+TRENDOVERTIME
+009
+400
+Nov 5
+data1
+data2
+data3
+data4
+===== PAGE 5 =====
+ifenxi
+日志问答方案(1)：超大窗口
+这个ip暴力破解了几次
+AClaude-instant-100k Poe
+根据提供的日志，183.62.140.253这个IP地址尝试暴力破解SSH登录您系统
+的次数如下：
+Claude-2-100k Poe
+1.从10:54:27开始，先后使用了多个无效用户名如zhangyan、dff等尝试登
+根据日志内容，可以总结出以下信息：
+录,但均失败。
+2.然后从10:54:28开始连续使用root用户名尝试登录，一共尝试了大约40
+1.有大量来自不同IP的失败登录尝试,其中包含许多字典用户名警如
+次，间隔在2-3秒左右。
+root、oracle、admin等，说明存在扫描或暴力破解行为。
+3.之后从10:55:39开始又使用了多个无效用户名如oracle、test、ubuntu
+2.部分IP进行了反向解析并提示可能存在入侵企图。
+等多次尝试,均未成功。
+3.成功登录的用户为fztu,来自IP119.137.62.142。
+4.10:55:49开始连续使用git和其他账户名试图登录。
+4.存在大量密码猜测失败然后断开连接的行为,这可能是某种自动化的密
+5.最后一次登录尝试时间为11:00:28,使用用户名ingrid尝试登录失败。
+码破解工具在运行。
+5.日志时间跨度较长，从12月10日早上持续到11点,整个过程存在大量敏感
+行为。
+总共可观察到此IP地址在47分钟内，进行了超过170次使用不同用户名和时
+间间隔进行SSH暴力破解登录的尝试。
+大多采用暴力破解常用的Done方法,先尝试常用账户，随后间歇使用其他无
+效账户进行试探式暴力破解。时间间隔控制得很好，做起恶意破解行为来说
+算很出色的表现。
+您需要根据情况衡量风险，采取相应的安全防范措施防止不法分子可能的进
+一步入侵举动。
+问题1：窗口不会无限大，日志却无限多。
+问题2：对于长文本中部的内容，LLM不太敏感。
+===== PAGE 6 =====
+日志问答方案(2）：AgentChain
+ifenxi
+我希望你扮演一个日志概要系统。
+你的目标是用一句话对日志进行统计性概述，
+概述日患通常的步骤是：
+先了解日志的总行数、日志的时间范围、日志都有哪些字段并查看一小段日志的内容了解日志的结构。之后尝试分析某个重点字段的字段值数量统计情况。
+You have access to the following tools:
+all_stats_count:个用于统计日志行数的工具。，args:《(《("tool_input"：（《("type：“string""》）
+(（(,us,dnduooe“odoe
+all_field:一个用于查询日志所有字段名的工具,args:(‘"tool_input": (《("type':‘string")》》)
+filed_start_timestamp：filed_start_timestamp(field_name,field_value)-在查找某个字段值第一次出现的时间时，使用此工具。要使用该工具，您必须提供两个参数[field_name,field_value),args:('field_name':
+(*title' Field Name'"), 'field_value': (f(*title': “Field Value'))
+filed_top10:filed_top1(field_name,field_value)-当想要过滤包含某个字段值的日志时，使用此工具。要使用该工具，您必须提供两个参数[field_name,field_value]，args：(《(‘'field_name'：（({('title’:“FieldName'"》),
+field_value': (*title'’ “Field Value'")
+(andul [on) Kay andurose ue pue (aweu [oon) Aay uogae ue Buiploud Kq [0) e Ajiaeds o1 qoiq uos e asn
+Valid “action* values: "Final Answer’ or all_stats_count, l_start_end_timestamp, all_top10, al_field, field_stats_count, filed_start_timestamp, filed_top10
+Provide only ONE action per $JSON_BLOB, as shown:
+"action": $TOOL_NAME,
+问题1：运维知识理解的要求较高
+"action_input: $INPUT
+问题2：agent/functioncall能力要求较高
+Follow this format:
+Question: input question to answer
+Thought: consider previous and subsequent steps
+Action:
+$JSON_BLOB
+Observation: action result
+...(repeat Thought/Action/Observation N times)
+Thought: I know what to respond
+Action:
+"action*: *Final Answer",
+"action_input" "Final response to human"
+Begin! Reminder to ALWAYS respond with a valid json blob of a single action. Use tools if necessary. Respond directly if appropriate. Format is Action:**sJSON_BLOB**"then Observation:.
+Thought:
+===== PAGE 7 =====
+日志问答方案(3）：模式提问+分段选择
+ifenxi
+接下来的文本是来自某一日志文件不同部分的摘要
+请回答问题：登录失败的用户名都有哪些，分别登录了多少次。
+Analyzing a Reverse DNS Lookup Failure and Disconnect Spike from an IP Address v
+做出决策之前，请先回答比较的原因。
+摘要1:根据提供的SSH登录日志，可以总结如下：来自多个IP地址的未注册用户重复使用错误的用户名和密码尝试登录系统,用户名包括管理员、
+和用户名密码，表明是自动化攻击。总的来说,这次SSH登录日志记录到了一个长期、多IP源地址的暴力破解攻击行为。攻击目标明显是试图利
+攻击。
+摘要2:根据日志可以总结如下：从2020年12月10日11:09:45开始，一个IP地址183.62.140.253开始频繁尝试使用r00t用户登录这台机器。每次
+2022-12-10 10:04:52时, 日志"Received disconnect from<:IP:>:<:NUM:>;<:*;><:*;>
+<>"发生突增，由295增长至17292022-12-1013:04:53时，日志"Receiveddisconnect
+有超过260次登录失败的记录。每次登录都使用了root用户，传入口都是ssh协议。登录失败后，日志都显示接收到来自该IP地址的“ByeBye"
+口令。由于次数多,时间长,间隔短，且每次userld和来源IP都一致，表明很可能是某script或工具进行的自动化登陆尝试。以上日志显示的是一
+from<:IP:>;<:NUM:><:*><:><">"发生突降。由2462下降至1741
+的root口令非法入侵系统。需要根据实际情况进行进一步分析和处理。
+ Copy code
+摘要3:根据提供的日志，可以看出有人或某些程序一直试图通过SSH登入本机，尝试了很多用户名,包括root、guest、java、jboss、web等常见
+密码错误。IP地址183.62.140.253一直重复尝试不同的用户名和密码登入，每次登入后都会断开连接。除183.62.140.253外，还有51.15.203.45
+败。尝试登入的频率很高，每隔几秒就有一次登入请求，一直持续了一个多小时。整体看来，很可能是有人或者某些脚本程序在对本机进行字典式
+且使用常见或默认用户名，表明这可能是
+个自动化的破解尝试。需要注意防护这类破解攻击，增强SSH安全设置,如禁止常用用户名，strengthe
+摘要4:这些日志记录显示一个IP地址
+尝试利用各种用户名对一台名为LabSZ的主机进行SSH登录尝试,但均以失败结束。
+根据提供的日志模板和重要信息,我可以提出以下几个用户可能关心的问题：
+但所有用户名都无法识别。它还尝试使用一
+pache、nginx的用户名。在登录失败后,连接很快就断开。整个过程沿续了一
+击。攻击者利用词典中的常用用户名进行破解，以导找LabSZ主机上可能存在的漏洞账户，每个登录尝试都很快失败并断开,未能进入系统。但
+1.是否存在入侵行为?日志中有大量关于无效用户登录失败的日志，特别是来自某些IP的登
+录失败尝试,这可能表示有人正在试图入侵系统。
+系统日志，我们可以初步断定183.62.140.253IP地址存在对LabSZ主机进行破解式登陆尝试的问题。需要进一步调查和跟踪这个IP地址,以确
+成功。
+2.是否存在DDoS攻击?日志中显示某个时间段内"Receiveddisconnect"这类日志出现大
+摘要5:以下是上述登录日志的整体总结：从2022年12月10日11:39开始，IP地址为183.62.140.253的主机repeated几十次试图使用invalid用F
+幅增加然后下降,这可能表示系统遭受了DDoS洪水型攻击。
+如"admin"、"tomcat"、"ubuntu"等登录，同样都失败。然后它开始尝试用root用户登录。每次登录后几秒就断开连接。一直从11:39至11:52
+3.是否存在弱密码问题？?日志中有成功登录的用户,这可能是由于某些用户使用了弱密码被
+是来自183.62.140.253这个IP。这看起来很可能是一次强力破解root密码的尝试。由于用户和密码均无效，所以每次登录都以失败结束，Conne
+攻破。应检查用户密码强度并提醒用户使用强密码。
+自动脚本进行的暴力破解攻击。总的来说,这次登录日志记录了一个持续时间较长的弱密码破解攻击行为。攻击者使用一个IP地址对服务器进
+4.是否存在系统认证配置缺陷?日志中有大量关于PAM配置的日志,认证失败超过阔值等，
+摘要6:根据提供的系统日志，可以总结如下：从12月10日开始，有不明源头的远程主机183.62.140.253多次尝试使用root用户通过SSH登陆该系
+这可能表示系统认证配置存在问题。
+51.15.196.223IP地址的主机多次使用admin和pi等非存在用户尝试登陆，同样密码都错误。具体而言，183.62.140.253主机在12月10日11:52到
+5.是否存在系统维护问题?日志中有连接reset等问题,这可能是由于系统维护不当导致稳
+连接。共尝试了上百次密码，均以登陆失败和连接断开结束。51.15.196
+3IP地址的主机在12月10日12:07至12:09期间也重复几次使用错误月
+定性问题。应检查系统运行状况并做好维护。
+来自不明源头的密码破解攻击。日志清楚记录了攻击者IP、时间、用户名和登录失败结果,有利于后期分析和追踪攻击源
+6.是否存在内部威胁?日志中有特定用户的成功登录日志,这可能表示内部人员在进行非授
+摘要7:这份日志记录显示一个IP地址（183.62.140.253)在短时间内重复会试使用r00t账号登录这个系统，每次都使用错误的密码。特别是：IP地
+的密码,登录失败后立即断开连接。登录尝试使用不同的源端口，但IP和账号都是相同的。总体来说,这个日志表明有人重复使用破解工具或者脚
+权访问。应检查用户权限控制配置，
+息。这可能是一次针对此系统的密码破解攻击。
+7.是否存在日志系统问题?日志中有重复日志等情况,这可能表示日志系统本身存在问题。
+以摘要序号的方式返回选择的摘要。
+应检查日志系统配置并优化。
+你必须选择至少一个摘要，并且按照下面的格式回复。
+以上是我根据提供的信息可以初步提出的一些用户可能关心的问题,如果您有其他额外信息，
+######################
+我可以进一步完善和扩展分析。请让我知道您的反馈！
+D Copy  Rety
+选择1/2/3，..
+===== PAGE 8 =====
+ifenxi
+资源消耗估算
+场景看起来很美好，但实际部署时存在一定成本压力。
+我们进行了一些简单的资源估算：
+1000条SSH日志大概包含5-6万个tokens。对于这个长度，LLM推理速度较慢，需要10多秒。
+使用最新的Yi-6b-200k模型测试，24GB显存仅能处理约3ktokens，相当于50行日志。
+按ChatGLM规模预估,80G显存的单卡最多只能处理200行SSH日志。
+并行计算时，8块80G卡也只能同时处理约1600行。
+结论：
+直接进行日志问答，在理论上可行，但算力需求巨大。
+该方案实际成本过高，目前的硬件条件难以支撑实际应用。
+生成和调用现有分析工具相对更现实。
+===== PAGE 9 =====
+实践运用大模型的路径
+构建高质量的训练数据
+模型的评估和迭代优化
+产品设计“扬长避短”
+===== PAGE 10 =====
+ifenxi
+Text2SPL场景介绍/背景
+Textto SQL任务是NLP领域的经典课题之一。常见的数
+SPL 对比 SQL 的差异：没有预知的 table schema。要自行
+据集有：
+判断 prompt 里哪些名词疑似字段名。
+WikiSQL，维基百科数据集主要是单表查询，语句比较
+无法直接套用ChatGPT，SPL目前只是概念通用，语法层
+简单。
+无标准：
+Spider，数据集包含join等多表和嵌套，语句比较复
+日志易SPL语法和splunk/kusto/esql/ppl/humio有
+杂。在seq2seq之前，模板技术一般评分20+；
+差别。
+bert/T5之前，一般评分60+；ChatGPT将评分提升
+日志易内置字段也和CIM/ECS有差别。
+到85+。
+CoSQL，在Spider的基础上添加了模糊语义多轮对话。
+目前评分在50+。
+BIRD：新一代数据集，不光考虑表结构，还要考虑脏
+数据、执行效率。目前 ChatGPT评分为40。
+===== PAGE 11 =====
+通用大模型的表现(1)：GPT对比T5的飞跃
+ifenxi
+自然语言提问
+splunk-google-t5
+ChatGPT
+search for the terms error, fail failure, failed, or severe
+index=_internal fail* not [search index=_internal
+search (error OR fail OR failure OR failed OR severe)
+in the events that also mention buttercupgames
+error,fail* error
+AND buttercupgames
+search the sourcetype field for any values that begin
+index=access_* status=200 action=purchase |chart
+search sourcetype="access_*" status=200
+with access_ status 200, and action "purchase". use the
+count(price)
+action="purchase"
+就这一条是可以直接运行的，还和期望输出有差距
+chart command to count the number of purchases.the
+I chart count(action) by categoryld
+search specifies the purchases made for each product
+eval purchases=sparkline(count)
+by using categoryld.The difference is that the count of
+就这一条是不能直接用的。两次追加提示后改对：
+purchases is now an argument of the sparkline0
+search sourcetype="access_*" status=200
+function.
+action="purchase"
+I chart sparkline(count(action) by categoryld
+sourcetype=access_* status=200 actionpurchase |top
+search the sourcetype field for any values that begin
+search sourcetype="access_*" status=200
+with access_ get events with status 200, and action
+categoryid
+action="purchase"
+'purchase". then compute the most common
+I top categoryld
+categoryld values.
+search the sourcetype field for any values that begin
+sourcetype=access_* status=200 actionpurchase |top
+search sourcetype="access_*" status=200
+with access_ get events with status 200, and action
+clientip
+action="purchase"
+"purchase".then compute the one most common
+I top 1 clientip
+clientip.
+sourcetype=access_. I stats values(price) as price by
+search the sourcetype field for any values that begin
+search sourcetype="access_*"
+with access_, the get price as "Price" by productName,
+productName|
+eval Price=price
+then rename productName column as"Product Name"
+stats values(Price) by productName
+rename productName as"Product Name"
+两次追加提示后改的更高效，并且能记住：
+search sourcetype="access_*
+stats values(price) as Price by productName
+rename productName as "Product Name'
+===== PAGE 12 =====
+ifenxi
+通用大模型的表现(2)：提示工程不是万能的
+日志易检索参考.pdf
+OK。我们将开始尝试编写自己的日志查询语言。
+Embed on website
+Share chatbot
+Settings
+第一个请求是：按应用分组统计failure的情况
+Hil What can I help you with?
+应用名称
+未能按时完成任务次数
+网络请求
+20
+怎么用正则表达式提取字段
+后端
+10
+您可以使用Splunk中的parse命令来提取字段。使用正则表达式来定义要提取的模式，并使用
+命名捕获组来指定要提取的字段。例如，您可以使用以下命令从日志中提取IP地址：
+数据库
+应用服务
+I parse (?<ip_addr>d+1. Id+1.Id+>. Id+)"
+请将上述请求誓换为我们新设计的日志查询语言，并返回相应的结果。
+重新生成
+问题1：基础模型较差时，复杂逻辑完全无法处理
+问题2：模型的预训练知识在细节处有严重干扰
+===== PAGE 13 =====
+ifenxi
+训练数据筹备(1）：内外网数据搜集
+【"instruction"："给出一个addcoltotals的用法示例
+"output":
+instruction”“addtotals的作用是什么？”input“output"！
+“默认在搜索结果集中添加汇总列且列名为T
+otal；同时可以在搜索结果中添加汇总行，
+可指定列名和行名，
+可指定求和行/列"，
+'instruction"："
+“个addtotals的用法示例“，“input”“”"output"
+“给出一
+addtotals col=true labelfi
+eld=products label-"Quarterly Totalsl"fieldname=/"product Totals\""j
+nginx.url_request.url_mod为，WebPMP的日志，
+"instruction"："
+表格列出nginx.url_reqeust.url_path
+nginx.reqeust_time,
+nginx.url
+字段，
+注意需要过滤掉Nginx.uri字段中以/WebPMP/Main.aspx"开头的数据”
+input"."
+,"output":
+"Nginx.url_request.url_Mod:WebpMPitable.Nginx.url_request.Url_Path.Nginx.reque
+st_time,Nginx.url/where.match(Nginx.uri.."/webpMP/Main.aspx.*>")
+)==false"}
+"根据数据标签找到对应的所有索引"，"input"：
+."output"·"
+("instruction":
+index:* tag:'authentication,a
+lert.certificate.change,database.dlp.email.ids,attack,inventory.malware.attack.operations,network.re
+solution,dns,session,communicate,performance,report,vulnerabilities,update,status,web
+s(index)
+asindex by tag')
+"给日志级别换几个有趣的符号"，"input"：""
+("instruction":
+."output"："*
+"+severity, severity=-"Highi',
+-l"critical"
+I/"+severit
+severity}"Medium\"
+1"_d"+severity,severity==1"Lowi",1"(oo)1"+severity,severity==}"
+i'+severity.
+Informational\"
+defauit.
+severity)")
+output":"appname:DnsRequestV4*Domai
+t"instruction":
+查找日志易官网域名的DNS解析记录"，
+"input"
+原始数据来源
+nName:rizhiyi.com)
+l'instruction"
+查找被加密的
+PowerShell
+"input"."
+"output":"event_simpleName:ProcessRollup2FileN
+ame:powershell..
+mandLine
+encoded*)"
+不当的本地系统用户使用行为？
+("instruction";
+"output":"event_simpleName:\"ProcessRollup
+FileName IN
+(w3wp.exe,sqlservr.
+■指令说明文档
+("instruction":
+改名的可执行文件"
+"input"
+"output""event_simpleName:\"NewExecutabileRenamed\"|
+join ImageFileName.
+■手动编写，含多轮对话
+ename TargetFileName
+event_simpleName:1"ProcessRollup2\
+table ComputerName s
+SourceFileName
+ImageFileName CommandLine"),
+"output":"event.
+_simpleName:ProcessRollup2Ijoin
+("instruction":
+"Static Behavior Model"
+■内部应用配置：图表标题及SPL语句
+aid.TargetProcessId_decimal [l DetectName:SuspiciousFilewindows J]i eval ProcessstartTime=ProcessSta
+rtTime_decimall eval ProcessstartTime=formatdate(ProcessStartTime.l"MM/dd/yyyy.HH:mm:ss\")l table_Pr
+■github上公开的常用日志关键字
+ocessstartTime aid ComputerName UserName
+ImageFiieName OriginalFiiename SHA256HashData ParentBaseFil
+■github上公开的es/splunk/kusto安全分析规则
+eName")
+t"instruction"："从
+tHostInfo字典表里查询
+IP地址或主机
+"input":"
+,"output":"I inputlookup tHost
+search src_i
+Info
+ip=sIPADDRESss OR src_host=$HOsTNAMEs")
+"按dest字段分组，
+f"instruction":
+获取组内最早和最晚的时间点""input"：""
+."output":"*
+I stats earliest
+(timestamp)
+as firstTime,i
+latest(timestamp)
+as
+lastTime by dest
+"将所有字段的名称改为小写”
+,"output"："*
+("instruction":
+","input"；"
+foreach *[[ eval <<FIELD>>=lowe
+r("<<FIELD>>")
+将时间戳转换为人类可读格式"，"input"：
+t"instruction":
+"output"
+eval mytime=formatdate(timesta
+tinstruction":
+"从被访问设备名里移除主机域名"，"input"：""
+"output":"
+parse field=dest 1"^(?<dest>
+instruction":
+r(if(match(user...")replace(user.": ".x), user))").
+("instruction"："把某个字段的内容改成csv格式""input"：""
+."output";"*
+fields mv_fooI eval mf_foo
+mvjoin(mv_foo,1",
+CSV
+(")".
+K'instruction"："
+"返回日志易服务器上当前时间"，"input"：""，"output"："|makeresults"}，
+===== PAGE 14 =====
+ifenxi
+训练数据筹备(2）：问答类数据增强
+import json
+import
+random
+import
+string
+re
+import
+import
+tqdm
+import
+argparse
+import numpy as np
+importpandas aspd
+from muitiprocessing import Pool
+from functools fmport partial
+from rouge_score import rouge_scorer
+fromgpt3_api importmake_requestsasmake_gpt3_requests
+random.seed(42)
+ChatGPT自生成
+def encode_prompt(prompt_instructions,classification=False):
+"n Encode muitiple prompt instructions into a single string.'
+if classification:
+prompt."come_up with a series of classification tasks. Try to specify the possible output
+labels when possible.In"
+■alpaca式的self_instruct方案：通过GPT-3.5接口，自动
+else:
+prompt = "Act as a Splunk Expert to write SPL: Come up with a series of tasks:An"
+生成部分微调数据。
+for idxinstruction in enumerate(prompt_instructions):
+instruction = re.sub(r"is+-.
+instruction).strip().rstrip(":")
+tinstructionjin"
+■添加prompt声明圈定问答范围：ActasaSplunkExpert
+prompt += f"(idx+1),
+prompt+=f"{len(prompt_instructions)+1).
+to write SPL。
+return prompt
+■然后人工复核，调整数据。
+def sample_machine_instructions(machine_instructions,similarities,.n):
+wnSample n machine
+instructions
+from a list of machine instructions.
+eturn random.sample(machine_instructions,min(n,len(machine_instructions)))
+def find_word_in_string(w,
+return re.compile(rb((e))\b".format(w),flags=re.IGNORECASE).search(s)
+def
+post_process_gpt3_response(response):
+if response is None or response["choices"j[e]["finish_reason"] == "length":
+return []
+raw_instructions = re.split(r"n\d+\s?\.",response["choices"][8]["text"])
+instructions =[]
+for inst in raw_instructions:
+===== PAGE 15 =====
+ifenxi
+训练数据筹备(3）：丰富提问方式
+ spl-0628-res.txt
+Below is a conversation between a hunan user and a helpful AI coding assistant.|end|>
+≤|systen[>
+我们来粉满一个日志查请过程，A是提问者，B来负责按照A说的内客逐句编写查询语句。，现在B写出来如下查询语句，请问A说了什么？请用A的语气输
+<[user[>
+appnameias tagigianxin ac.log.typtitrc ac.action:*] stats count() by ac.app  Limit ie<[end>
+<[assistant|>
+我想要知适咋天我在些应用上花费了最长时间，并且只量示前十个。我的意思是：你给我列出阵天每个应用程序的使用时长排名从高到低，但是只取前十大的时
+间], <[end|>
+Below is a conversation between a hunan user and a helpful AI coding assistant.<end[>
+<|systen[>
+我们来扮演一个日志查询过程，A是提问者，B来负责换照A说的内容逐句编写查询语句。 现在B写出来如下查询语句，请问A说了什么？请用A的语气输
+<[user[>
+我想你可能是在调问最近两天中访问间您的网站的手机端用户数量排名前十的IP地址和访次数，请问我的理解是否正确？<end>
+<[assistant[
+<|systen[>
+Belov is a conversation between a hunan user and a helpful AI coding assistant,<|end[>
+<[user[>
+我们来扮演一个日志查询过程，A是提问者，B来负责按照A说的内容逐句编写查询语句。，现在B写出来如下查询语句，请问A说了什么？请用A的语气输
+StarChat角色扮演
+出,appnane:ac_tag:qianxin ac,log_type:web ac.web_app:+购$+ oR ac.web_app:+消费+
+T stats count() by ac.src_ip
+I, Linit 28<|end[>
+jassistantj>
+■starcoder是开源LLM中编码能力最强的。实验发现他甚
+我想知道的是最近两天有多少人在使用即些应用进行网上购买或者消费行为，并且可以看到他们的IP地址吗？<end|>
+≤|systen[>
+至能给出具体的splunk文档url。
+Below_is a conversation between a hunan user and a helpful AI coding assistant,<|end|>
+<[user]>
+■通过A/B角色扮演，让starcoder说出对应SPL语句的提
+我们来粉请一个日志查询过程，A是提问者，B来负责按照A说的内客逐句编写查询语包。、现在，B写出来如下宣询语句，请间A说了什么？请用A的语气输
+出，appnane:ac.tag;qianxinac.Log_type:*ac.web_app:*社交*OR ac.web_app：微博OR“微得"OR ac.veb_app:*博客*
+I stats count() by ac.src_ip
+问。
+I, Linit 20<|end[>
+■效果一般，清洗后去掉了三分之二的数据。
+我想知道最近有多少用户在使用Ac App在做娜些操作，比如测算社交媒体、发粘子等。你能告诉我这些信息吗？<end|>
+<assistant]>
+Below is a conversation between a hunan user and a helpful AI coding assistant.[end]>
+<|systen[>
+我们来扮演一个日志查询过程，A是提问者，B来负责按照A说的内容逐句编写查询语句。现在B写出来如下查询语句，请问A说了什么？请用A的语气输
+<[user]>
+出，appnane:actag:qianxin ac.Log_type:*ac.web_app:娱乐资讯
+I stats count() by ac.src_ip
+, Linit 28<[end]>
+我想知道咋天访间网站的IP是多少，并只显示前28个结果。请帮我把这个查调改进一下，让它更容易理解和解释。<end[>
+<[assistanti>
+Below is a conversation between a hunan user and a helpful AI coding assistant.<lend|>
+≤[systen>
+我们来粉满一个日志查询过程，A是提问者，B来负责按照A说的内客逐句编写查询语句。现在B写出来如下宣询语句，请问A说了什么？请用A的语气输
+<[user[>
+出.appnane:as,tagigianxin ac.Log_type:* ac.web_app:*金* ORac.web_app:*股累*
+I stats count(""by ac.src_ip
+OR ac.veb_app:*财经* OR ac.web_app:*证券*
+I, Linit 20<[end|>
+Claeeietanti
+===== PAGE 16 =====
+ifenxi
+训练数据筹备(4）：加入其他产品知识
+inport os
+import sys
+os.environ['CUDA_VISIBLE_DEVICES']='@"
+from transformers import AutoTokenizer, AutoModel
+tokenizer = AutoTokenizer,from_pretrained(",./chatglm2-6b", trust_remote_code=True)
+model = AutoModel.from_pretrained("../chatglm2-6b", trust_remote_code=True, device='cuda')
+model = model.eval()
+in_file = sys.argv[1]
+out_file = sys.argv[2]
+文档自问答
+#prompt=“请根据文档生成一段对话。\n\n文档1：\n当网红、做直播，正成为不少年轻人期待的工作。微博近日发布一项“
+">n>n生成的对话1：>nA：最近微博发布了一份关于年轻人就业关注点的问卷数据，显示有近万名受访的应届毕业生中，
+prompt="文档：\n()"
+■利用pandoc工具将word文档转为markdown纯文本。
+■来自北交大transGPT交通大模型的
+his =[
+LLMforDialogDataGenerate方法，基于文本生成问答。
+（"请根据文档生成一段两人对话，用A表示第一个人，B表示第二个人，对话以A开始，以B结束。>n\n文档：>n当网红、做
+"A：最近微博发布了一份关于年轻人就业关注点的问卷数据，显示有近万名受访的应届毕业生中，61.6%的人在就业时会考
+with open(in_file,'r',encoding='utf-8')as fin,\
+open(out_file,"w',encoding='utf-8')as fout:
+doc = fin.read()
+input = prompt.format(doc)
+print(input)
+response, history = model.chat(tokenizer, input, history=his)
+print(response)
+fout.write(response)
+===== PAGE 17 =====
+ifenxi
+模型的评估与迭代
+Guideline
+Good example
+Bad example
+Ensure that you input the correct
+Show me the most common
+尝试不同基础模型的效果：
+Show me the most common IP
+names of your indexes, sources,
+ip_address
+Address
+baichuan2的loss长期不收敛
+source types, and fields. Say that
+you have a field named
+尝试不同数据配比的效果：
+ip_address and you want to find
+the most common IP address
+1:2 > 1:5 > 1:1
+Be as descriptive as possible with
+search source tutorialdata*
+create a timechart of IP
+your plain English query.
+and create a time series
+Addresses
+尝试构建除文本匹配以外的验证方案：
+chart of event count
+引入SPLparserAPI语法校验
+Compose your plain English
+search source tutorialdata*
+sort tutorialdata and give
+and sort the first 100
+search as programmatically as
+me the first 100 results
+·对比索引实际响应内容
+possible. This is especially
+results in descending order
+sorted by descending host
+necessary for longer tasks
+of the "host" field and
+and ascending client IP
+involving multiple components.
+有趣的是：和 Splunk 得到了相似的结论。
+then by the clientip value
+in ascending order
+You do not need to enter your
+Show me the most common
+What is the most common
+plain English search as a question.
+value of ip_address
+value of ip_address?
+===== PAGE 18 =====
+扬长避短的产品设计
+ifenxi
+PM
+提索
+A不安全
+192.168.40.113/search/2query=starttime%3D*now%2Fd*%20appnam...
+A%
+导航
+历史／查询SPL应用的日志数量
+应用
+收藏
+返回
+查询分析／搜索／新搜索
+查询最近10分钟内，来自"SPL"应用的日志数量
+0.
+数据集
+新搜索（已选中0个数据集）
+starttime="10m" appname:SPL I stats count0 as
+请输入
+starttime="now/d* appname:SPL exception | stats count() as cnt
+O.
+cnt
+D test22
+①搜索完成！（耗时：0.1秒）
+B test33
+统计(1)
+按每分钟统计成时间趋势图
+ test_000
+模式
+国表格
+回类型
+它设置已保存为
+starttime=*10m" appname:SPL I timechart
+span=1m count() as cnt by ‘appname'
+cnt
+改成查今天的，带exception关键字的
+starttime="now/d” appname:SPL exception | stats
+count() as cnt
+使用
+重新生成
+<2/2>
+浏览器插件形式：兼容全部主产品版本、独立迭代
+锚定搜索页：获取数据集、字段列表等即时知识
+敏感数据拦截：注重数据安全，避免个人隐私外发
+请输入内容
+===== PAGE 19 =====
+大模型在金融企业应用案例
+背景：金融企业大量业务日志
+难点：关键字复杂多变
+方案：实现知识库增强的自然语言查询
+>效果：故障排查时间缩短40%
+===== PAGE 20 =====
+案例背景
+ifenxi
+5分钟10改则告量
+mtCode=FIQCR00011&reMsg-情用报告查询主糖!
+rlCode=FIQCRI00011 & retMisg-mull
+aICode-FIQCRI00011&eMsg-跃取数推车连推失收！
+电nCode-FIQCR0011&mMisg-查询务版本的信用服告范期异掌！
+appnamees tagfis_infsenice_ifo infsenicemsgeCodeFIQCRt0011 (infisenicemsgeMsg'
+aftspuarfsuraoyuasyuo车E线fisarfiswraojuesym
+I stats court as ct by hostnamejinfisenice.msg reMisgjinfiseniicemsgurenCode
+③.找到返回码了
+②.业务系统上干个返回码，人只记得住最常见的
+不过你问的是什么错误提示呢？
+10来个。其他的中文含义对应啥返回码？
+①.金融企业通常有200-600个业务系统
+口头叫法大同小异，但开发商输出到日志里
+，实
+际用的是什么标识符？
+S2SEBAP
+415-Com
+415不变用需类型
+000 ±:2
+===== PAGE 21 =====
+ChatSPL效果
+ifenxi
+所属索引
+所属应用
+标签
+主机名称
+错误关键字
+auth
+heka
+yotta
+centos
+错误I失败|MAC校验错
+123 file_upload 10.200.0.4
+yotta
+fail|异常
+4186otel
+heka
+yotta
+centos
+NOT FOUND|bad request
+heka
+test123
+centos
+yotta
+中断|停止|注销|超时
+演示错误关键字注入
+业务系编关..
+演示用
+设置／业务系统关键字演示编辑
+返回
+历史／统计业务系统错误，中断、停止、注...
+返回
+*关联字典：
+0.
+统计错误情况
+output_file.csv
+*场景名称：
+止"OR"注销"OR"超时")
+业务系统关键字演示
+使用
+重新生成
+*场景关键字段：
+演示错误关键字注入×
+所属应用×
+所属应用
+test123
+*场景查询字段：
+统计错误情况
+错误关键字
+保存
+取消
+===== PAGE 22 =====
+ifenxi
+ChatSPL客户收益
+在“争分夺秒”的故障定位过程中，相比复杂的向量数据库召回方案，ChatSPL场景设计简单
+易行。查找错误类的用时下降40%。
+业务线运维均可通过ChatSPL进行关键字查询、分组统计、趋势分析，极大的解放了维护平台
+的高级运维人员。将人力投入到可观测性等高阶能力建设中。
+===== PAGE 23 =====
+ifenxi
+未来展望
+后续版本的功能计划
+英文版本
+查询结果可视化
+针对日志/告警的解读
+主动推荐可选提问：5W1H
+针对日志生成 grok 正则
+期待开源大模型的成长！！
+===== PAGE 24 =====
+ifenxiWEBINAR
+2023爱分析·网络研讨会
+挑战与应对：
+大模型
+在IT运维中的应用与实践

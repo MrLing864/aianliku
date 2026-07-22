@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0084",
+  "version": 1,
+  "slug": "case-2025-0084",
+  "title": "具身智能机器人在配网带电作业场景中的应用",
+  "organization": {
+    "id": "org-0084",
+    "name": "国网瑞嘉（天津）智能机器人有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国网瑞嘉（天津）智能机器人有限公司研发'具身智能机器人'应用于配网带电作业场景，联合国网天津电力推出新一代国产双臂配网带电作业机器人，以'人机协同'模式迭代视觉感知、自主规划、柔性力控，可完成带电接引线、更换柱上开关等复杂作业。",
+  "background": "配网带电作业高危，传统依赖人工带电操作，安全风险大。",
+  "problem": "配网带电作业高风险、人工操作安全隐患大，复杂作业难以替代。",
+  "solution": "国网瑞嘉与国网天津市电力公司等联合研发新一代国产双臂配网带电作业机器人，采用'人机协同'作业模式，迭代升级视觉感知、自主规划、柔性力控相关功能；可在完成带电接引线、安装故障指示器等简单作业基础上，开展带电更换柱上开关等复杂作业，实现从简单到复杂作业的拓展升级（如RJ1300型号已投用）。",
+  "implementationSteps": [
+    "研发国产双臂配网带电作业机器人",
+    "采用人机协同模式迭代视觉/规划/力控",
+    "实现带电接引线、更换柱上开关等作业",
+    "RJ1300等型号投入应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "带电作业容错率低，机器人可靠性与安全保障要求极高；复杂工况适应需持续验证。",
+  "editorComment": {
+    "suitableFor": "电网配网带电作业的机器人替代",
+    "prerequisites": "具备机器人视觉/力控与电力作业规范",
+    "priority": "建议优先",
+    "text": "具身智能双臂机器人替代高危带电作业，适合电网机器人化参考。"
+  },
+  "implementers": [
+    {
+      "name": "国网瑞嘉（天津）智能机器人有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-rj-1",
+      "title": "新一代国产双臂配网带电作业机器人正式投用",
+      "sourceType": "news",
+      "publisher": "天津政务",
+      "originalUrl": "https://www.tj.gov.cn/zmhd/hygqx/202511/t20251111_7174947.html",
+      "publishedAt": "2025-11-11",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-rj-2",
+      "title": "新一代配网带电作业机器人系统解决方案（国网瑞嘉）",
+      "sourceType": "news",
+      "publisher": "中国机器人网",
+      "originalUrl": "https://www.robot-china.com/news/202304/20/80743.html",
+      "publishedAt": "2023-04-20",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "作业高危",
+    "人工风险",
+    "复杂作业"
+  ],
+  "painPointNarrative": "",
+  "highlight": "国产双臂配网带电作业机器人，人机协同完成复杂作业",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "带电作业机器人",
+    "人机协同"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "具身智能",
+    "电力机器人"
+  ],
+  "seo": {
+    "metaTitle": "国网瑞嘉 具身智能机器人在配网带电作业场景中的应用",
+    "metaDescription": "国网瑞嘉以国产双臂具身智能机器人替代配网带电作业，人机协同完成复杂任务。",
+    "keywords": [
+      "国网瑞嘉",
+      "具身智能",
+      "带电作业机器人",
+      "配网"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家电网有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

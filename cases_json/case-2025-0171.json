@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0171",
+  "version": 1,
+  "slug": "case-2025-0171",
+  "title": "数智化应急指挥一体化平台创新应用",
+  "organization": {
+    "id": "org-0171",
+    "name": "上海迪爱斯信息技术有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "政务与公共服务",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国信科旗下上海迪爱斯信息技术有限公司打造“数智化应急指挥一体化平台创新应用”，以“空天地一体化”构建全域应急指挥新范式，融合云计算、大数据、AI、5G、物联网与融合通信，并基于云网端一体化架构支撑应急救援指挥，携手华为发布第四代 AI 融合指挥中心实现 AI 辅助接警与情指行一体化。",
+  "background": "迪爱斯是中国信科集团智能化应用核心成员，曾牵头完成“面向应急救援指挥的云网端一体化关键技术”，并在第四届长三角国际应急博览会展示数智融合应急全场景能力。",
+  "problem": "应急指挥多部门协同难、信息割裂，传统指挥响应慢、研判弱。",
+  "solution": "数智化应急指挥一体化平台，空天地一体化+AI 辅助研判与情指行一体化调度。",
+  "implementationSteps": [
+    "构建云网端一体化应急指挥架构",
+    "研发空天地一体化应急指挥能力",
+    "落地 AI 辅助接警与情指行一体化"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多部门数据贯通、应急场景可靠性。",
+  "editorComment": {
+    "suitableFor": "城市与行业应急指挥智能化",
+    "prerequisites": "具备融合通信与指挥网络",
+    "priority": "建议优先",
+    "text": "空天地一体化应急指挥的央企范式。"
+  },
+  "implementers": [
+    {
+      "name": "上海迪爱斯信息技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ds-1",
+      "title": "迪爱斯陈健：“空天地一体化”打造全域应急指挥新范式",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20260519A0911000",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证迪爱斯数智化应急指挥与空天地一体化。",
+      "publishedAt": "2026-05-19"
+    },
+    {
+      "publicId": "src-ds-2",
+      "title": "数智融合 链接应急全场景丨迪爱斯亮相第四届长三角国际应急",
+      "sourceType": "news",
+      "publisher": "迪爱斯",
+      "originalUrl": "https://www.dscomm.com.cn/das/xwzx/scsh/2025/9/I1422603475010715648.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证数智化应急指挥平台与六大专题展区。",
+      "publishedAt": "2025-09-16"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "协同难",
+    "响应慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "云网端一体化",
+    "AI辅助研判"
+  ],
+  "modelStack": [
+    "数智化应急指挥一体化平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "应急指挥",
+    "数智化",
+    "空天地一体化",
+    "迪爱斯"
+  ],
+  "seo": {
+    "metaTitle": "数智化应急指挥一体化平台创新应用",
+    "metaDescription": "数智化应急指挥一体化平台创新应用",
+    "keywords": [
+      "上海迪爱斯信息技术有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国信息通信科技集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

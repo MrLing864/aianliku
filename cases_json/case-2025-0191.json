@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0191",
+  "version": 1,
+  "slug": "case-2025-0191",
+  "title": "电力具身智能关键技术及示范应用",
+  "organization": {
+    "id": "org-0191",
+    "name": "中国电力科学研究院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电力科学研究院有限公司与北京人形机器人创新中心联合研发“全自主电力作业具身智能解决方案”，共建“电力具身智能联合实验室”，基于“慧思开物”平台及 XR-1 VLA 模型，使具身智能机器人实现从环境感知、导航移动、任务理解到动作执行的完整闭环，自主完成变电柜状态识别、设备巡检等电力一线作业，并已完成从算法验证、标准测评到复杂环境实地部署的全流程贯通。",
+  "background": "2026 年 2 月，中国电科院与北京人形深度协同推出该方案，通过“大小脑”融合模式推动电力机器人走进一线，完成“苦脏险累”作业任务。",
+  "problem": "电力一线作业存在“苦脏险累”任务，人工巡检效率低、风险高。",
+  "solution": "全自主电力作业具身智能解决方案，以 VLA 模型实现感知—决策—执行闭环。",
+  "implementationSteps": [
+    "共建电力具身智能联合实验室",
+    "研发基于慧思开物/XR-1 VLA 的具身方案",
+    "完成算法验证到实地部署全流程贯通"
+  ],
+  "duration": "2026-02 取得进展",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂电力环境安全、VLA 模型可靠性。",
+  "editorComment": {
+    "suitableFor": "电力巡检与一线自主作业",
+    "prerequisites": "具备电力场景与具身机器人平台",
+    "priority": "建议优先",
+    "text": "电力具身智能走向一线的标杆范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国电力科学研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-epri2-1",
+      "title": "“全自主电力作业具身智能解决方案”取得新进展",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://www.bj.news.cn/20260214/f91694d89d44412b8c084b733330594c/c.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证中国电科院与北京人形联合方案及全流程贯通。",
+      "publishedAt": "2026-02-14"
+    },
+    {
+      "publicId": "src-epri2-2",
+      "title": "行业首发！北京人形联合中国电科院推出全自主电力作业具身智能解决方案",
+      "sourceType": "news",
+      "publisher": "北京人形机器人创新中心",
+      "originalUrl": "http://www.robotsci.com.cn/detail/2021579162598379520",
+      "accessibility": "available",
+      "rightsNote": "机构报道，佐证慧思开物/XR-1 VLA 模型与电力具身智能联合实验室。",
+      "publishedAt": "2026-02-11"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "苦脏险累",
+    "人工巡检低效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "VLA模型"
+  ],
+  "modelStack": [
+    "全自主电力作业具身智能解决方案"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "电力具身智能",
+    "人形机器人",
+    "中国电科院",
+    "VLA"
+  ],
+  "seo": {
+    "metaTitle": "电力具身智能关键技术及示范应用",
+    "metaDescription": "电力具身智能关键技术及示范应用",
+    "keywords": [
+      "中国电力科学研究院有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "国家电网有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0163",
+  "version": 1,
+  "slug": "case-2025-0163",
+  "title": "南水北调“天河”大模型赋能国家现代水网建设",
+  "organization": {
+    "id": "org-0163",
+    "name": "中国南水北调集团水网智慧科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国南水北调集团水网智科公司研发“天河”大模型，2025 年 12 月 10 日发布，构建 1 个智算云平台 + AI 中台与数据中台两大中台 + 水网大语言模型/水网视觉大模型/水利专业模型矩阵三大体系，具备智能感知、精准预警、智慧决策能力，服务于现代水网调度运维，已在南水北调东、中线工程成熟应用并在重庆完成全国首个省域部署。",
+  "background": "“天河”是专注服务于国内水网建设领域的人工智能大模型，由南水北调集团水网智科公司联合多家科技企业与科研院所共同研发，保障 1.95 亿人饮水安全的国家战略性工程。",
+  "problem": "千里水网管理长期“人跑眼看、经验驱动”，安全、供水、水质保障难度大。",
+  "solution": "天河大模型以 1+2+3 复合架构（智算云+双中台+三大模型矩阵）实现智能感知、精准预警、智慧决策，服务调度运维。",
+  "implementationSteps": [
+    "构建 1 个智算云平台与双中台",
+    "研发水网大语言/视觉/水利专业模型矩阵",
+    "在东中线工程及重庆省域部署应用"
+  ],
+  "duration": "2025-12 发布",
+  "cost": "",
+  "results": [
+    {
+      "label": "发布时间",
+      "value": "2025-12-10",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-tianhe-1"
+    }
+  ],
+  "roi": "",
+  "risks": "水利专业语料、复杂水网实时决策可靠性。",
+  "editorComment": {
+    "suitableFor": "现代水网调度运维与防洪预警",
+    "prerequisites": "具备水网监测数据与算力平台",
+    "priority": "建议优先",
+    "text": "国家水网垂直大模型的标杆应用。"
+  },
+  "implementers": [
+    {
+      "name": "中国南水北调集团水网智慧科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tianhe-1",
+      "title": "南水北调“天河”大模型：国家超级工程的AI大脑",
+      "sourceType": "news",
+      "publisher": "百度百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1856742809275546709",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证天河大模型 1+2+3 架构与发布。",
+      "publishedAt": "2026-02-10"
+    },
+    {
+      "publicId": "src-tianhe-2",
+      "title": "南水北调“天河”大模型青年突击队：为千里水脉装上“智能大脑”",
+      "sourceType": "news",
+      "publisher": "中青网",
+      "originalUrl": "https://news.cyol.com/gb/baobao/articles/2026-01/14/content_2b6dV8cEZJ.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证天河大模型研发上线与服务水网定位。",
+      "publishedAt": "2026-01-14"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "经验驱动",
+    "保障难度大"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂类大模型",
+    "数字孪生"
+  ],
+  "modelStack": [
+    "天河大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "天河大模型",
+    "现代水网",
+    "水利大模型",
+    "数字孪生"
+  ],
+  "seo": {
+    "metaTitle": "南水北调“天河”大模型赋能国家现代水网建设",
+    "metaDescription": "南水北调“天河”大模型赋能国家现代水网建设",
+    "keywords": [
+      "中国南水北调集团水网智慧科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国南水北调集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

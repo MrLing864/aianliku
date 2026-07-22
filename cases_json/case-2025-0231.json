@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0231",
+  "version": 1,
+  "slug": "case-2025-0231",
+  "title": "有道 AI 答疑笔 SpaceX 应用",
+  "organization": {
+    "id": "org-0231",
+    "name": "网易有道（杭州）智能科技有限公司",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "网易有道信息技术（北京）有限公司推出'有道 AI 答疑笔 Space X'AI 原生学习硬件，基于'子曰'教育大模型，将大模型的理解、推理与交互能力融入'笔'这一硬件形态，以智能拼图技术与 3.6cm 宽笔头实现长题、多图题快速精准录入与引导式答疑。",
+  "background": "网易有道 2025 年 2 月率先推出 AI 答疑笔新品类，8 月 20 日发布升级版 Space X，首代产品上市后一度售罄。",
+  "problem": "K12 学生答疑辅导高频刚需，复杂题型难以随时随地获得讲解。",
+  "solution": "以子曰教育大模型+硬件形态，结合智能拼图录入与引导式答疑，提供扫题、讲解、板书式辅导的闭环。",
+  "implementationSteps": [
+    "研发子曰教育大模型",
+    "推出 AI 答疑笔 Space X 硬件",
+    "以智能拼图+引导式答疑落地学习场景"
+  ],
+  "duration": "2025 年 2 月起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "教育内容准确性、硬件体验与合规。",
+  "editorComment": {
+    "suitableFor": "K12 学生 AI 辅助学习硬件",
+    "prerequisites": "具备教育大模型与硬件供应链",
+    "priority": "建议优先",
+    "text": "大模型+硬件新物种，教育 AI 落地标杆。"
+  },
+  "implementers": [
+    {
+      "name": "网易有道（杭州）智能科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-youdao-1",
+      "title": "有道AI答疑笔SpaceX发布：大模型加持，扫题体验与AI辅导跃升",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/926304011_122362510",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证实发布与功能升级。",
+      "publishedAt": "2025-08-21"
+    },
+    {
+      "publicId": "src-youdao-2",
+      "title": "网易有道推出升级版AI答疑笔 聚焦学生刚需场景",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20250821A04IU400",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证智能拼图与 3.6cm 宽笔头。",
+      "publishedAt": "2025-08-21"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "答疑刚需",
+    "复杂题型难录入"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "教育大模型",
+    "智能硬件"
+  ],
+  "modelStack": [
+    "有道 AI 答疑笔 Space X"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI答疑笔",
+    "子曰大模型",
+    "学习硬件",
+    "教育AI"
+  ],
+  "seo": {
+    "metaTitle": "有道 AI 答疑笔 SpaceX 应用",
+    "metaDescription": "有道 AI 答疑笔 SpaceX 应用",
+    "keywords": [
+      "网易有道（杭州）智能科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

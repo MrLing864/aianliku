@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0070",
+  "version": 1,
+  "slug": "case-2025-0070",
+  "title": "AI 赋能铜基新材料一体化协同智造",
+  "organization": {
+    "id": "org-0070",
+    "name": "江西江南新材料科技股份有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "有色金属",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "江西江南新材料科技股份有限公司以AI赋能'铜基新材料一体化协同智能工厂'，构建覆盖阳极磷铜球、高纯无氧铜、氧化铜粉等产品的协同智造体系，并荣获国家卓越级智能工厂称号。",
+  "background": "铜基新材料（电子信息基础材料）市场需求快速增长，智能化制造是提升竞争力的关键。",
+  "problem": "铜基新材料多品种、多工序协同难，传统制造效率与一致性有待提升。",
+  "solution": "江南新材以AI赋能'铜基新材料一体化协同智能工厂'，构建覆盖阳极磷铜球、高纯无氧铜（纯铜粒）、氧化铜粉及铜化学品等产品的研发、生产、供应链一体化协同智造体系，凭借该项目入选国家卓越级智能工厂，并以创新材料技术赋能电子信息产业基础材料创新。",
+  "implementationSteps": [
+    "构建铜基新材料一体化协同智能工厂",
+    "以AI赋能多品种研发/生产/供应链协同",
+    "落地阳极磷铜球等产品智造",
+    "入选国家卓越级智能工厂"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "智能工厂称号",
+      "value": "国家卓越级智能工厂",
+      "kind": "actual",
+      "sourceId": "src-jn-1"
+    }
+  ],
+  "roi": "",
+  "risks": "多品种协同智造系统集成复杂；高端铜基材料市场波动需柔性响应。",
+  "editorComment": {
+    "suitableFor": "铜基/电子材料企业一体化协同智能制造",
+    "prerequisites": "具备多品种产线与数据基础",
+    "priority": "建议优先",
+    "text": "AI赋能铜基新材料一体化协同智造，获国家卓越级智能工厂，适合材料企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "江西江南新材料科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jn-1",
+      "title": "江南新材荣获国家卓越级智能工厂称号",
+      "sourceType": "official",
+      "publisher": "江南新材",
+      "originalUrl": "https://www.jiangnancopper.com/article/96",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jn-2",
+      "title": "江南新材：以创新材料技术连接未来",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://app.xinhuanet.com/news/article.html?articleId=72ff8dfdaf6e4da5ffdc35a5dbb6e679",
+      "publishedAt": "2025-09-11",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多品种协同",
+    "制造效率",
+    "一致性"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI赋能铜基新材料一体化协同智造，国家卓越级智能工厂",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "协同智造",
+    "智能工厂",
+    "铜基新材料"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "新材料",
+    "协同智造"
+  ],
+  "seo": {
+    "metaTitle": "江西江南新材料 AI赋能铜基新材料一体化协同智造",
+    "metaDescription": "江南新材以AI赋能铜基新材料一体化协同智能工厂，获国家卓越级智能工厂称号。",
+    "keywords": [
+      "江南新材",
+      "铜基新材料",
+      "协同智造",
+      "智能工厂"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江西省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

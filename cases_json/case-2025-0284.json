@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0284",
+  "version": 1,
+  "slug": "case-2025-0284",
+  "title": "适配国产算力的魔乐全栈自主人工智能开源社区平台",
+  "organization": {
+    "id": "org-0284",
+    "name": "天翼云科技有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "专项应用",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "天翼云（中国电信）牵头发起魔乐社区（Modelers.cn），是一个中立、公益的全栈自主人工智能全产业链开源平台，集成模型库、数据集、体验空间与开发工具链，支持模型托管共享、预训练、微调、部署与推理，并已吸引华为、百度等加入，支撑国产 AI 开源生态。",
+  "background": "魔乐社区于 2024 年 8 月 30 日启航，由天翼云与华为联合推出，致力于聚合优质中文 AI 资源、使能 AI 应用创新并加速伙伴商业闭环。",
+  "problem": "中文 AI 资源分散、开源生态割裂，开发者缺乏一站式工具与协作平台。",
+  "solution": "以魔乐社区提供模型/数据/工具链一体化服务，构建国产 AI 开源生态与开发者协作平台。",
+  "implementationSteps": [
+    "联合发起魔乐社区 Modelers.cn",
+    "集成模型库/数据集/体验空间/工具链",
+    "聚合开发者与伙伴共建开源生态"
+  ],
+  "duration": "2024 年 8 月起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "开源生态活跃度、社区治理与资源质量。",
+  "editorComment": {
+    "suitableFor": "国产 AI 开源生态与开发者协作",
+    "prerequisites": "具备算力与开源运营能力",
+    "priority": "建议优先",
+    "text": "全栈自主开源社区，国产 AI 生态底座。"
+  },
+  "implementers": [
+    {
+      "name": "天翼云科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-modelers-1",
+      "title": "魔乐社区",
+      "sourceType": "official",
+      "publisher": "魔乐社区",
+      "originalUrl": "https://modelers.cn/",
+      "accessibility": "available",
+      "rightsNote": "社区官方站点，佐证中立公益定位与组件。",
+      "publishedAt": "2024-08-30"
+    },
+    {
+      "publicId": "src-modelers-2",
+      "title": "魔乐（Modelers）开发者社区启航，天翼云力促AI应用创新与发展",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/tech/roll/2024-08-30/doc-incmmezq3356990.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证天翼云牵头与功能定位。",
+      "publishedAt": "2024-08-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "中文资源分散",
+    "生态割裂"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "开源生态",
+    "模型托管"
+  ],
+  "modelStack": [
+    "魔乐社区 Modelers.cn"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "魔乐社区",
+    "开源社区",
+    "全栈自主",
+    "天翼云"
+  ],
+  "seo": {
+    "metaTitle": "适配国产算力的魔乐全栈自主人工智能开源社区平台",
+    "metaDescription": "适配国产算力的魔乐全栈自主人工智能开源社区平台",
+    "keywords": [
+      "天翼云科技有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "中国电信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -24,7 +24,7 @@ export default function AssessmentPage() {
       </div>
       <div className="mx-auto mb-8 flex max-w-3xl gap-3 rounded-xl border bg-card p-4 text-xs leading-6 text-muted-foreground">
         <ShieldCheck className="mt-0.5 size-4 shrink-0 text-primary" />
-        <p>问诊内容可能由 DeepSeek 处理，用于生成本次建议和完整报告。请勿填写商业秘密、身份证号、健康信息或未经授权的个人信息。提交邮箱前会再次要求确认；详情见 <Link href="/privacy" target="_blank" className="text-primary underline underline-offset-2">隐私政策</Link>。</p>
+        <p>问诊内容可能由 DeepSeek 处理，用于生成本次建议和完整报告。请勿填写商业秘密、身份证号、健康信息或未经授权的个人信息。提交手机号前会再次要求确认；详情见 <Link href="/privacy" target="_blank" className="text-primary underline underline-offset-2">隐私政策</Link>。</p>
       </div>
       <AssessmentWizard />
     </main>

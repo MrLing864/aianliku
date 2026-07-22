@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0058",
+  "version": 1,
+  "slug": "case-2025-0058",
+  "title": "基于数字岩石力学的煤矿复杂场景决策智能系统应用",
+  "organization": {
+    "id": "org-0058",
+    "name": "煤炭科学研究总院有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "有色金属",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "煤炭科学研究总院提出'数字岩石力学'方向，将海量数据与岩石力学知识融合，支撑煤矿复杂场景决策智能系统，以数据规律与力学知识底层融合应对深部高强度开采挑战，无需对复杂工程环境做简化。",
+  "background": "煤矿开采等地下工程面临深部、高强度开采带来的全新挑战，传统解析方法难以应对。",
+  "problem": "煤矿复杂地下工程环境复杂，理论认知滞后、工程实践脱节，决策依赖经验且风险高。",
+  "solution": "煤科总院提出'数字岩石力学'研究方向，将海量数据与岩石力学知识相融合，发挥融合力量支持地下工程数字化转型；构建面向煤矿复杂场景的决策智能系统，通过数据规律与力学知识的底层融合，不对复杂工程环境做简化、无需完全解析关键科学问题，提升决策科学性。",
+  "implementationSteps": [
+    "提出数字岩石力学研究方向",
+    "融合海量数据与岩石力学知识",
+    "构建煤矿复杂场景决策智能系统",
+    "支撑深部开采等复杂工程决策"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "岩石力学数据获取与标定难；知识-数据融合模型需大量现场验证。",
+  "editorComment": {
+    "suitableFor": "煤矿及地下工程复杂场景决策智能化",
+    "prerequisites": "具备岩石力学数据与监测基础",
+    "priority": "条件具备后开展",
+    "text": "数字岩石力学+决策智能系统，适合煤矿复杂场景科学决策参考。"
+  },
+  "implementers": [
+    {
+      "name": "煤炭科学研究总院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-mk-1",
+      "title": "数字岩石力学（百度百科）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%95%B0%E5%AD%97%E5%B2%A9%E7%9F%B3%E5%8A%9B%E5%AD%A6/65461880",
+      "publishedAt": "2023-11-18",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-mk-2",
+      "title": "数字岩石力学工程探索与实践",
+      "sourceType": "journal",
+      "publisher": "煤炭科学技术",
+      "originalUrl": "https://www.mtkxjs.com.cn/article/doi/10.12438/cst.2025-1572",
+      "publishedAt": "2025",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "复杂场景决策",
+    "理论滞后",
+    "深部开采"
+  ],
+  "painPointNarrative": "",
+  "highlight": "数字岩石力学：数据+力学知识融合的煤矿决策智能",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数字岩石力学",
+    "知识-数据融合",
+    "决策智能"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "煤矿",
+    "决策智能"
+  ],
+  "seo": {
+    "metaTitle": "煤炭科学研究总院 基于数字岩石力学的煤矿复杂场景决策智能系统应用",
+    "metaDescription": "煤科总院以数字岩石力学融合数据+力学知识，构建煤矿复杂场景决策智能系统。",
+    "keywords": [
+      "煤科总院",
+      "数字岩石力学",
+      "煤矿决策智能",
+      "知识融合"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国煤炭科工集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

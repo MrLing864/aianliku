@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0244",
+  "version": 1,
+  "slug": "case-2025-0244",
+  "title": "“北气南下”能源大通道智能调控技术创新应用",
+  "organization": {
+    "id": "org-0244",
+    "name": "国家石油天然气管网集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国家石油天然气管网集团有限公司实践“北气南下”能源大通道智能调控技术创新应用，依托纵贯南北（北起黑龙江黑河、南至上海，全长 5111 公里）的国家“四大能源通道”东北通道，运用“AI+”等新兴技术构建“集中调控、智能监视、专业巡检”体系，保障累计输气量突破 1000 亿立方米的能源大动脉安全平稳运行。",
+  "background": "“北气南下”能源大通道 2019 年北段投产通气，东北公司积极探索“AI+”应用场景加速推进智慧管网建设；截至 2025 年 7 月累计输气量突破 1000 亿立方米，安全平稳运行超 2000 天。",
+  "problem": "超长跨区域的能源大通道运行调控复杂、安全风险高，传统人工监视难以全局最优。",
+  "solution": "运用“AI+”等新兴技术构建“集中调控、智能监视、专业巡检”智慧管网体系，实现大通道智能调控。",
+  "implementationSteps": [
+    "建设“北气南下”智慧管网数字底座",
+    "构建集中调控与智能监视体系",
+    "在大通道运行调度中应用 AI 调控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "累计输气量",
+      "value": "1000",
+      "unit": "亿立方米+",
+      "kind": "actual",
+      "sourceId": "src-pipe-3"
+    }
+  ],
+  "roi": "",
+  "risks": "能源大动脉安全、AI 调控可靠性。",
+  "editorComment": {
+    "suitableFor": "跨区域能源大通道智能调控",
+    "prerequisites": "具备管网 SCADA 与运行数据",
+    "priority": "建议优先",
+    "text": "AI+智慧管网保障能源大动脉安全。"
+  },
+  "implementers": [
+    {
+      "name": "国家石油天然气管网集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-pipe-3",
+      "title": "科技创新赋能智慧管网 “北气南下”温暖千家万户",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://www.xinhuanet.com/energy/20250711/d4b7aa079f3f4b438bc805c95955a51a/c.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证北气南下智慧管网与 AI+ 应用。",
+      "publishedAt": "2025-07-11"
+    },
+    {
+      "publicId": "src-pipe-4",
+      "title": "“北气南下”能源大通道输送天然气突破1000亿立方米",
+      "sourceType": "news",
+      "publisher": "央视网",
+      "originalUrl": "https://news.cctv.com/2025/07/10/ARTImOOMe0Hd2NXJbIxi8NJA250710.shtml",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证通道里程与输气量里程碑。",
+      "publishedAt": "2025-07-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "调控复杂",
+    "安全风险高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI+",
+    "集中调控"
+  ],
+  "modelStack": [
+    "北气南下智能调控体系"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "北气南下",
+    "智慧管网",
+    "智能调控",
+    "能源大通道"
+  ],
+  "seo": {
+    "metaTitle": "“北气南下”能源大通道智能调控技术创新应用",
+    "metaDescription": "“北气南下”能源大通道智能调控技术创新应用",
+    "keywords": [
+      "国家石油天然气管网集团有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "国家石油天然气管网集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

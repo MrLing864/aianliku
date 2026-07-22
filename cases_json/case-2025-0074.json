@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0074",
+  "version": 1,
+  "slug": "case-2025-0074",
+  "title": "基于机器视觉与 AI 算法的线圈全流程质量管控方案",
+  "organization": {
+    "id": "org-0074",
+    "name": "特变电工衡阳变压器有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "特变电工衡阳变压器有限公司基于机器视觉与AI算法构建线圈全流程质量管控方案，依托云集5G科技产业园的数字化、智能化输变电装备生产能力，保障变压器关键部件质量。",
+  "background": "变压器线圈是输变电装备核心部件，质量直接影响电网安全稳定运行。",
+  "problem": "线圈生产工序多、质量依赖人工检测，效率低、一致性难保障。",
+  "solution": "衡变公司依托新建的特变电工云集5G科技产业园，以数字化、智能化手段生产输变电装备，并基于机器视觉与AI算法构建线圈全流程质量管控方案，实现线圈生产全过程的质量自动检测与管控，提升一致性与可靠性（具体算法细节以官方披露为准）。",
+  "implementationSteps": [
+    "建设云集5G科技产业园数字化产线",
+    "部署机器视觉与AI算法的线圈检测",
+    "构建线圈全流程质量管控方案",
+    "保障变压器关键部件质量"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "线圈结构复杂、缺陷多样，视觉检测需覆盖多工序；高精度要求对算法挑战大。",
+  "editorComment": {
+    "suitableFor": "输变电/装备制造企业的关键部件质量管控",
+    "prerequisites": "具备智能化产线与视觉检测基础",
+    "priority": "条件具备后开展",
+    "text": "机器视觉+AI的线圈全流程质量管控，适合装备制造企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "特变电工衡阳变压器有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tb-1",
+      "title": "这里，为何被誉为全球输变电装备智造标杆（特变电工云集5G产业园）",
+      "sourceType": "news",
+      "publisher": "华声在线",
+      "originalUrl": "https://www.hunantoday.cn/news/xhn/202411/21256622.html",
+      "publishedAt": "2024-11-07",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-tb-2",
+      "title": "特变电工衡阳变压器跻身2025年度卓越级智能工厂",
+      "sourceType": "news",
+      "publisher": "红网",
+      "originalUrl": "https://hngx.rednet.cn/content/646943/50/15285633.html",
+      "publishedAt": "2025-09-17",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "质量依赖人工",
+    "一致性",
+    "检测效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "机器视觉+AI构建线圈全流程质量管控",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "AI算法",
+    "质量管控"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "装备制造",
+    "质量管控"
+  ],
+  "seo": {
+    "metaTitle": "特变电工衡阳变压器 基于机器视觉与AI算法的线圈全流程质量管控方案",
+    "metaDescription": "特变电工衡阳以机器视觉+AI算法构建线圈全流程质量管控，依托5G智能产业园保障质量。",
+    "keywords": [
+      "特变电工衡阳",
+      "线圈质量管控",
+      "机器视觉",
+      "AI算法"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

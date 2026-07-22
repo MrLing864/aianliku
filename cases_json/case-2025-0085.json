@@ -1,0 +1,164 @@
+{
+  "id": "case-2025-0085",
+  "version": 1,
+  "slug": "case-2025-0085",
+  "title": "基于视觉大模型的工业质检智能体应用实践",
+  "organization": {
+    "id": "org-0085",
+    "name": "北京微链道爱科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京微链道爱科技立足全球领先的视觉大模型与3D空间智能技术，自研'DaoAI World'世界模型扎根工业制造场景，研发基于视觉大模型的工业质检智能体，以一块良品样板即可建模，支持SDK/API/Docker灵活部署。",
+  "background": "工业质检长期依赖大量缺陷样本与人工复检，小样本、柔性产线下落地难。",
+  "problem": "传统视觉检测需大量缺陷样本、换线适配慢，难以满足柔性制造。",
+  "solution": "微链道爱依托自研DaoAI World世界模型（让AI感知三维物理世界），立足视觉大模型与3D空间智能技术，研发基于视觉基础模型特征认知的工业质检智能体；一块良品样板即可建模，支持SDK/API/Docker灵活部署，可嵌入任意设备，实现柔性、小样本的工业质检。",
+  "implementationSteps": [
+    "研发DaoAI World世界模型与视觉大模型",
+    "构建基于视觉基础模型的工业质检智能体",
+    "实现良品样板即可建模的柔性检测",
+    "SDK/API/Docker灵活部署嵌入产线"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "世界模型在工业场景的泛化与精度需充分验证；复杂缺陷仍需样本补充。",
+  "editorComment": {
+    "suitableFor": "需要柔性、小样本工业质检的制造企业",
+    "prerequisites": "具备视觉采集与产线集成能力",
+    "priority": "建议优先",
+    "text": "视觉大模型+世界模型的工业质检智能体，良品即建模，适合柔性制造。"
+  },
+  "implementers": [
+    {
+      "name": "北京微链道爱科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-wl-1",
+      "title": "微链道爱完成B轮融资 以本土世界模型赋能中国制造",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://www.xinhuanet.com/tech/20260717/53f17b9606c847aabe1ad32d208443aa/c.html",
+      "publishedAt": "2026-07-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-wl-2",
+      "title": "基于视觉大模型的工业质检智能体应用实践",
+      "sourceType": "case",
+      "publisher": "信息化观察网",
+      "originalUrl": "https://www.infoobs.com/case/20260225/1007.html",
+      "publishedAt": "2026-02-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-wl-3",
+      "title": "工业质检·AI-AOI（微链道爱）",
+      "sourceType": "official",
+      "publisher": "微链道爱",
+      "originalUrl": "https://welinkirt.com/aoi.html",
+      "publishedAt": "2026-07-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "样本依赖",
+    "换线慢",
+    "柔性制造"
+  ],
+  "painPointNarrative": "",
+  "highlight": "视觉大模型工业质检智能体，一块良品样板即可建模",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "视觉大模型",
+    "世界模型",
+    "工业质检智能体"
+  ],
+  "modelStack": [
+    "DaoAI World"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "视觉大模型",
+    "工业质检"
+  ],
+  "seo": {
+    "metaTitle": "北京微链道爱 基于视觉大模型的工业质检智能体应用实践",
+    "metaDescription": "微链道爱以DaoAI World世界模型+视觉大模型打造工业质检智能体，良品样板即可建模。",
+    "keywords": [
+      "微链道爱",
+      "视觉大模型",
+      "DaoAI World",
+      "工业质检"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

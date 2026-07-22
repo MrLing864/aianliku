@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0118",
+  "version": 1,
+  "slug": "case-2025-0118",
+  "title": "面向锂电产线的多智能体协同决策平台应用实践",
+  "organization": {
+    "id": "org-0118",
+    "name": "欣旺达电子股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "欣旺达电子股份有限公司构建面向锂电产线的多智能体协同决策平台，以'1 套 AI 平台 + 1 套算力底座 + 赋能 N 个业务场景'的'1+1+N'体系，推动锂电制造从经验决策转向数据智能决策，破解小样本与复杂任务决策难题。",
+  "background": "欣旺达围绕'AI+能源'布局，构建覆盖研发、制造、运维、管理的全链条 AI 能力体系。",
+  "problem": "锂电产线关键工站依赖人工调参与巡检，新产线导入慢，复杂任务决策成功率受限。",
+  "solution": "构建多智能体协同决策平台，基于大语言模型打造工业智能专家系统，攻克小样本'举一反三'，结合数字孪生实现关键工站全自动运行与实时管控。",
+  "implementationSteps": [
+    "建设 1 套 AI 平台与 1 套算力底座",
+    "在 VHB 贴胶、PCM 端子装配、精密焊接等关键工站部署多智能体",
+    "以数字孪生大屏实时呈现设备状态、工艺参数与产品质量"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多智能体协同稳定性、小样本泛化与工艺数据安全。",
+  "editorComment": {
+    "suitableFor": "锂电池及新能源制造多智能体协同",
+    "prerequisites": "具备 MES 与自动化产线基础",
+    "priority": "建议优先",
+    "text": "1+1+N 体系，适合新能源智能制造。"
+  },
+  "implementers": [
+    {
+      "name": "欣旺达电子股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sunwoda-1",
+      "title": "欣旺达：构建覆盖研发、制造、运维、管理的全链条AI能力体系",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "http://www.xinhuanet.com/auto/20260417/ba4f97de4ad44928aee50e4a86188901/c.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 1+1+N 战略与全链条 AI。",
+      "publishedAt": "2026-04-17"
+    },
+    {
+      "publicId": "src-sunwoda-2",
+      "title": "深圳市推动人工智能加快赋能制造业",
+      "sourceType": "news",
+      "publisher": "中国发展网",
+      "originalUrl": "http://www.chinadevelopment.com.cn/news/zj/2026/05/1995220.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证锂电智能车间与数字孪生。",
+      "publishedAt": "2026-05-11"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工调参巡检",
+    "新产线导入慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体",
+    "数字孪生",
+    "大模型"
+  ],
+  "modelStack": [
+    "工业智能专家系统（LLM）"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "多智能体",
+    "锂电",
+    "数字孪生",
+    "1+1+N"
+  ],
+  "seo": {
+    "metaTitle": "面向锂电产线的多智能体协同决策平台应用实践",
+    "metaDescription": "面向锂电产线的多智能体协同决策平台应用实践",
+    "keywords": [
+      "欣旺达电子股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "深圳市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

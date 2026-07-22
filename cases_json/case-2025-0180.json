@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0180",
+  "version": 1,
+  "slug": "case-2025-0180",
+  "title": "中储智运人工智能+综合物流解决方案实践",
+  "organization": {
+    "id": "org-0180",
+    "name": "中储智运科技股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "物流供应链",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中储智运科技股份有限公司（中国物流旗下）以'人工智能+综合物流'构建智慧多式联运及智能组网能力，通过'数字供应链平台+数字化产品'综合解决方案实现仓运场配一体化与业财一体化，其'智慧多式联运及智能组网场景'入选首批央企人工智能战略性高价值场景。",
+  "background": "中储智运以线路、装运、匹配、价格等数据为基础，通过物流大数据算法实现货主与司机的精准配对，并建设智能运力交易、数智物流与数字供应链三大平台。",
+  "problem": "物流及供应链全链路协同难、资源配置效率低、成本高。",
+  "solution": "以数字供应链平台与数字化产品，实现物流路径、运输方式与供应链高效协同管理的闭环，推动全链路降本增效。",
+  "implementationSteps": [
+    "建设智能运力交易与数智物流平台",
+    "以物流大数据算法实现供需精准配对",
+    "构建数字供应链平台实现仓运场配一体化"
+  ],
+  "duration": "持续应用",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多式联运数据贯通、算法在复杂场景下的匹配质量。",
+  "editorComment": {
+    "suitableFor": "大宗商品与综合物流供应链协同",
+    "prerequisites": "具备物流运力与交易数据基础",
+    "priority": "建议优先",
+    "text": "物流国家队 AI 组网，供应链协同标杆。"
+  },
+  "implementers": [
+    {
+      "name": "中储智运科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zczy-1",
+      "title": "首批中央企业人工智能战略性高价值场景公布 中储智运智慧联运入选",
+      "sourceType": "news",
+      "publisher": "中国金融信息网",
+      "originalUrl": "https://www.cnfin.com/cmjj-lb/detail/20250807/4282309_1.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证智慧多式联运及智能组网场景。",
+      "publishedAt": "2025-08-07"
+    },
+    {
+      "publicId": "src-zczy-2",
+      "title": "中储智运运用AI助力物流数字化，推动行业高效协同",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/860203125_121798711",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证三大平台与精准配对。",
+      "publishedAt": "2025-02-17"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "全链路协同难",
+    "资源配置低效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "物流大数据",
+    "智能匹配"
+  ],
+  "modelStack": [
+    "中储智运数字供应链平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "综合物流",
+    "多式联运",
+    "数字供应链",
+    "中储智运"
+  ],
+  "seo": {
+    "metaTitle": "中储智运人工智能+综合物流解决方案实践",
+    "metaDescription": "中储智运人工智能+综合物流解决方案实践",
+    "keywords": [
+      "中储智运科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国物流集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

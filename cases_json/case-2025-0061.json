@@ -1,0 +1,177 @@
+{
+  "id": "case-2025-0061",
+  "version": 1,
+  "slug": "case-2025-0061",
+  "title": "钻井智能优化与决策系统应用",
+  "organization": {
+    "id": "org-0061",
+    "name": "中石化石油工程技术研究院有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中石化石油工程技术研究院构建钻井智能优化与决策系统，将人工智能、大数据、工程理论与专家经验融合，以石油工程决策支持系统（RTOC）支持多种岩石力学参数钻前预测，并提升破岩效率超15%。",
+  "background": "智能钻井是油气上游新质生产力的重要方向，需实时感知、智能决策与集成控制。",
+  "problem": "钻井各环节数据分散、决策依赖经验，实时感知与智能决策能力不足。",
+  "solution": "通过将人工智能、大数据处理、工程理论、专家经验和软件工程技术深入融合，初步实现石油工程各环节全方位数据一体化；构建石油工程决策支持系统（RTOC），支持15种岩石力学和地质力学参数钻前预测、随钻分析，并以智能优化与决策系统提升破岩效率超15%。",
+  "implementationSteps": [
+    "融合AI+大数据+工程理论+专家经验",
+    "构建石油工程决策支持系统RTOC",
+    "实现多种岩石力学参数钻前预测与随钻分析",
+    "以智能优化决策提升破岩效率"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "破岩效率提升",
+      "value": "15",
+      "unit": "%以上",
+      "kind": "actual",
+      "sourceId": "src-sn-1"
+    },
+    {
+      "label": "RTOC支持岩石力学参数",
+      "value": "15",
+      "unit": "种",
+      "kind": "actual",
+      "sourceId": "src-sn-2"
+    }
+  ],
+  "roi": "",
+  "risks": "智能钻井系统需与现场装备深度集成；模型泛化依赖多区块数据。",
+  "editorComment": {
+    "suitableFor": "油气钻井工程智能优化与决策",
+    "prerequisites": "具备钻井数据与工程理论积累",
+    "priority": "建议优先",
+    "text": "数据一体化+RTOC决策支持，破岩效率提升超15%，适合智能钻井参考。"
+  },
+  "implementers": [
+    {
+      "name": "中石化石油工程技术研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sn-1",
+      "title": "这个数智系统，提高破岩效率超15%",
+      "sourceType": "news",
+      "publisher": "中国石油石化",
+      "originalUrl": "http://www.chinacpc.com.cn/info/2025-04-17/news_9326.html",
+      "publishedAt": "2025-04-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-sn-2",
+      "title": "中国石化石油工程决策支持系统（RTOC）为钻井提供支撑",
+      "sourceType": "news",
+      "publisher": "中国石化新闻网",
+      "originalUrl": "http://sripe.sinopec.com/sripe/newsNew/ynxw/20241015/news_20241015_589803014125.shtml",
+      "publishedAt": "2024-10-15",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-sn-3",
+      "title": "数据一体化助力智能钻井",
+      "sourceType": "news",
+      "publisher": "中国石化新闻网",
+      "originalUrl": "http://www.sinopecnews.com.cn/xnews/content/2025-02/21/content_7119416.html",
+      "publishedAt": "2025-02-21",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "决策依赖经验",
+    "数据分散",
+    "破岩效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "钻井智能优化决策，破岩效率提升超15%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能钻井",
+    "决策支持RTOC",
+    "数据一体化"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "油气",
+    "智能钻井"
+  ],
+  "seo": {
+    "metaTitle": "中石化石油工程技术研究院 钻井智能优化与决策系统应用",
+    "metaDescription": "中石化工程院以数据一体化+RTOC决策支持构建钻井智能优化系统，破岩效率提升超15%。",
+    "keywords": [
+      "中石化",
+      "钻井智能优化",
+      "RTOC",
+      "智能钻井"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国石油化工集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

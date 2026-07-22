@@ -1,0 +1,150 @@
+{
+  "id": "case-2025-0005",
+  "version": 1,
+  "slug": "case-2025-0005",
+  "title": "华为云 ModelArts AI 云服务加速大模型产业化",
+  "organization": {
+    "id": "org-0005",
+    "name": "华为云计算技术有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "华为云ModelArts AI云服务作为一站式AI开发生产平台，提供数据预处理、半自动标注、大规模分布式训练与部署能力，加速大模型产业化落地，在政务、交通、医疗、工业等领域积累丰富实践。",
+  "background": "企业落地AI面临开发门槛高、训练部署复杂、工程化周期长等问题，需要一站式平台降低门槛。",
+  "problem": "AI模型从开发到生产周期长、门槛高；大模型产业化需要高效的开发、训练与部署平台支撑。",
+  "solution": "ModelArts是面向开发者的一站式AI开发平台，可快速创建和部署模型、管理全周期AI工作流，为机器学习与深度学习提供海量数据预处理及半自动化标注、大规模分布式训练等能力，通过技术创新力与场景洞察持续推进大模型产业化。",
+  "implementationSteps": [
+    "构建一站式AI开发生产平台（数据预处理/标注/训练/部署）",
+    "支持大规模分布式训练与全周期工作流管理",
+    "在政务、交通、医疗、工业等领域落地行业案例",
+    "持续迭代支撑大模型产业化"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "平台依赖特定云生态；企业需评估数据出域与供应商锁定风险。",
+  "editorComment": {
+    "suitableFor": "具备一定技术团队、希望快速构建与部署AI模型的企业",
+    "prerequisites": "具备华为云账号与基本数据工程能力",
+    "priority": "建议优先",
+    "text": "成熟的一站式AI开发平台，适合作为企业AI工程化起点，注意多云与供应商锁定。"
+  },
+  "implementers": [
+    {
+      "name": "华为云计算技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hw-1",
+      "title": "AI开发平台 ModelArts 产品介绍",
+      "sourceType": "product",
+      "publisher": "华为云",
+      "originalUrl": "https://www.huaweicloud.com/product/modelarts.html",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hw-2",
+      "title": "华为云 ModelArts AI 云服务入选 2025 年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "InfoQ",
+      "originalUrl": "https://xie.infoq.cn/article/aeeee9b32f5117ba86ce89661",
+      "publishedAt": "2026-07",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "AI工程化门槛",
+    "模型部署",
+    "开发周期"
+  ],
+  "painPointNarrative": "",
+  "highlight": "一站式AI开发生产平台，政务/交通/医疗/工业多领域落地",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI开发平台",
+    "MLOps",
+    "分布式训练"
+  ],
+  "modelStack": [
+    "ModelArts",
+    "行业大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "AI开发平台",
+    "MLOps"
+  ],
+  "seo": {
+    "metaTitle": "华为云 ModelArts AI云服务加速大模型产业化",
+    "metaDescription": "华为云ModelArts一站式AI开发平台，提供数据标注、分布式训练与部署，加速大模型产业化。",
+    "keywords": [
+      "华为云",
+      "ModelArts",
+      "AI开发平台",
+      "大模型"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "贵州省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

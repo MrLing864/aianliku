@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0124",
+  "version": 1,
+  "slug": "case-2025-0124",
+  "title": "人工智能赋能跨境电商出海实践",
+  "organization": {
+    "id": "org-0124",
+    "name": "广州哆啦科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "零售电商",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广州哆啦科技有限公司以人工智能赋能跨境电商出海，依托自主研发的信息技术体系运营面向中东市场的跨境电商平台 Fordeal，应用 AI 智能识别、机器视觉分拣、区块链商品溯源与多仓协同管理，为中国商家提供出海与全程托管服务。",
+  "background": "哆啦科技成立于 2017/2018 年，主营面向中东地区的跨境综合电商平台 Fordeal，该平台在中东购物类应用中排名领先，业务覆盖跨境电商、跨境仓储物流、B2B 贸易。",
+  "problem": "跨境电商面临商品识别、分拣效率、商品溯源与多仓协同等运营难题。",
+  "solution": "构建以 AI 智能识别、机器视觉分拣、区块链溯源与数据智能多仓协同为核心的出海技术体系，提供营销、物流、报关、仓储、支付、售后的全程托管。",
+  "implementationSteps": [
+    "自研 AI 智能识别与机器视觉分拣能力",
+    "建设区块链商品溯源与多仓协同管理系统",
+    "以 Fordeal 平台服务中东及海外商家出海"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "海外合规与数据安全、跨仓协同的履约稳定性。",
+  "editorComment": {
+    "suitableFor": "跨境电商出海与海外本地化运营",
+    "prerequisites": "具备供应链整合与海外仓能力",
+    "priority": "建议优先",
+    "text": "AI+跨境电商全流程，适合中小企业出海。"
+  },
+  "implementers": [
+    {
+      "name": "广州哆啦科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-duola-1",
+      "title": "广州哆啦科技有限公司_百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%93%86%E5%95%A5%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/22843479",
+      "accessibility": "available",
+      "rightsNote": "公开百科，佐证 Fordeal 与中东市场定位。",
+      "publishedAt": "2018-07-04"
+    },
+    {
+      "publicId": "src-duola-2",
+      "title": "广州哆啦科技申请基于数据智能的跨境电商多仓协同管理系统专利",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/971232127_114984",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证多仓协同与 AI 识别技术。",
+      "publishedAt": "2025-12-31"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "商品识别分拣难",
+    "多仓协同复杂"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "区块链溯源",
+    "数据智能"
+  ],
+  "modelStack": [
+    "AI 智能识别系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "跨境电商",
+    "出海",
+    "Fordeal",
+    "机器视觉"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能跨境电商出海实践",
+    "metaDescription": "人工智能赋能跨境电商出海实践",
+    "keywords": [
+      "广州哆啦科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

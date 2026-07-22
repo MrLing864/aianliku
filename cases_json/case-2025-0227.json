@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0227",
+  "version": 1,
+  "slug": "case-2025-0227",
+  "title": "新一代刷掌生物识别技术创新应用",
+  "organization": {
+    "id": "org-0227",
+    "name": "重庆光鉴傲深科技有限公司",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "重庆光鉴傲深科技有限公司（光鉴科技/Deptrum，3D 感知公司，提出“光学+感知+计算”模式）“新一代刷掌生物识别技术创新应用”入选工信部 2025 年人工智能应用典型案例（产品应用方向）。公司深耕 3D 视觉感知，基于自研多模态刷掌相机搭配生物识别算法，显著提升身份验证安全性与效率，广泛适配智能终端、机器人视觉等场景。",
+  "background": "",
+  "problem": "传统身份识别在安全性、便捷性与适配性上难以兼顾，刷掌等非接触识别对 3D 感知与算法要求高。",
+  "solution": "以自研多模态刷掌相机+生物识别算法构建新一代刷掌生物识别技术，依托 3D 视觉感知实现高安全、高效率的非接触身份验证。",
+  "implementationSteps": [
+    "研发多模态刷掌相机与 3D 视觉感知",
+    "构建刷掌生物识别算法",
+    "实现高安全高效率非接触身份验证",
+    "适配智能终端、机器人视觉等场景"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "识别准确率与防伪、多场景光照适配。",
+  "editorComment": {
+    "suitableFor": "刷掌生物识别与 3D 视觉感知",
+    "prerequisites": "具备 3D 感知与生物识别算法能力",
+    "priority": "建议优先",
+    "text": "3D 视觉+刷掌生物识别的产品应用标杆。"
+  },
+  "implementers": [
+    {
+      "name": "重庆光鉴傲深科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-227-1",
+      "title": "国家级认可！光鉴科技入选工信部人工智能应用典型案例（新一代刷掌生物识别技术）",
+      "sourceType": "news",
+      "publisher": "自动化网（zidonghua.com.cn）",
+      "originalUrl": "https://www.zidonghua.com.cn/news/program/192810.html",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证案例入选产品应用方向。",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "publicId": "src-227-2",
+      "title": "光鉴科技-刷掌解决方案（自研多模态刷掌相机+生物识别算法）",
+      "sourceType": "official",
+      "publisher": "光鉴科技（Deptrum）",
+      "originalUrl": "https://deptrum.com/site/solution-detail?catalog_id=8",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证多模态刷掌相机与生物识别方案。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "安全便捷难兼顾",
+    "3D感知要求高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "3D视觉感知",
+    "生物识别算法"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光鉴科技",
+    "刷掌识别",
+    "3D视觉",
+    "生物识别"
+  ],
+  "seo": {
+    "metaTitle": "新一代刷掌生物识别技术创新应用",
+    "metaDescription": "新一代刷掌生物识别技术创新应用",
+    "keywords": [
+      "重庆光鉴傲深科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

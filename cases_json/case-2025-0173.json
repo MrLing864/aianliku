@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0173",
+  "version": 1,
+  "slug": "case-2025-0173",
+  "title": "武大 AiFlow 视觉测流产品应用",
+  "organization": {
+    "id": "org-0173",
+    "name": "武汉大水云科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉大水云科技有限公司（武汉大学产学研转化平台）推出'武大 AiFlow 视觉测流产品'，创新性将计算机视觉图像智能识别与水文水动力过程模型相融合，实现水位、流速、流量的非接触式实时在线全量程监测，并拓展至无人机/手持式视觉测流仪。",
+  "background": "大水云科技聚焦涉水领域'AI 视觉技术+行业大模型'，是武汉大学水资源工程与调度全国重点实验室的产学研转化平台。",
+  "problem": "传统水文流量监测设备智能化程度低、成本高，难以实时、非接触地获取全量程流量。",
+  "solution": "以 AI 智能视觉多算法融合测流技术，结合水文水动力模型，实现非接触式、实时在线的水位/流速/流量监测，并衍生无人机与手持式产品。",
+  "implementationSteps": [
+    "研发 AiFlow 视觉测流核心算法与产品",
+    "融合计算机视觉与水文水动力过程模型",
+    "拓展无人机与手持式视觉测流仪形态"
+  ],
+  "duration": "持续应用",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂水面条件下的算法鲁棒性、率定与现场适配。",
+  "editorComment": {
+    "suitableFor": "水文监测、灌区与流域流量监测",
+    "prerequisites": "具备视频/图像采集条件",
+    "priority": "建议优先",
+    "text": "非接触式 AI 视觉测流，涉水监测范式。"
+  },
+  "implementers": [
+    {
+      "name": "武汉大水云科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-dashuiyun-1",
+      "title": "大水云科技：让水文监测拥有“千里眼”",
+      "sourceType": "news",
+      "publisher": "武汉市科协",
+      "originalUrl": "http://www.whkx.org.cn/news_show.aspx?id=104188",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证武大 AiFlow 与产学研背景。",
+      "publishedAt": "2025-07-06"
+    },
+    {
+      "publicId": "src-dashuiyun-2",
+      "title": "武大AiFlow视频测流产品",
+      "sourceType": "official",
+      "publisher": "大水云",
+      "originalUrl": "https://www.dashuiyun.cn/core-prod/gds/",
+      "accessibility": "available",
+      "rightsNote": "企业官方产品页，佐证非接触式实时全量程监测。",
+      "publishedAt": "2024-07-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "监测设备智能化低",
+    "成本高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "计算机视觉",
+    "水文模型"
+  ],
+  "modelStack": [
+    "武大 AiFlow 视觉测流"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "视觉测流",
+    "AiFlow",
+    "水文监测",
+    "非接触式"
+  ],
+  "seo": {
+    "metaTitle": "武大 AiFlow 视觉测流产品应用",
+    "metaDescription": "武大 AiFlow 视觉测流产品应用",
+    "keywords": [
+      "武汉大水云科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0133",
+  "version": 1,
+  "slug": "case-2025-0133",
+  "title": "无人机低空遥感智能识别自动巡查项目实践",
+  "organization": {
+    "id": "org-0133",
+    "name": "西湾智慧（广东）信息科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "西湾智慧（广东）信息科技有限公司“无人机低空遥感智能识别自动巡查项目”入选工信部 2025 年人工智能应用典型案例，以数据要素为核心驱动，构建集智能感知、融合分析、协同处置于一体的低空智能化巡查体系，将无人机低空智能化管理技术应用于城市治理。",
+  "background": "低空经济兴起，无人机自动巡查在城市治理、巡检中应用广泛。",
+  "problem": "城市治理巡查范围广、人力有限，传统人工巡查效率低、发现问题不及时。",
+  "solution": "以无人机低空遥感+AI 智能识别构建自动巡查体系，实现智能感知、融合分析与协同处置。",
+  "implementationSteps": [
+    "部署无人机机巢与低空遥感采集",
+    "构建 AI 智能识别与融合分析能力",
+    "建立协同处置闭环",
+    "在翠亨新区等城市治理场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "低空空域管理合规、复杂场景识别泛化。",
+  "editorComment": {
+    "suitableFor": "城市治理/低空经济无人机智能巡查",
+    "prerequisites": "具备无人机与低空遥感基础",
+    "priority": "建议优先",
+    "text": "低空经济+AI 赋能城市治理的实践。"
+  },
+  "implementers": [
+    {
+      "name": "西湾智慧（广东）信息科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xw-1",
+      "title": "西湾智慧入选工信部2025年人工智能应用典型案例",
+      "sourceType": "government_notice",
+      "publisher": "中山市工业和信息化局",
+      "originalUrl": "https://www.zs.gov.cn/gxj/tpxw/content/post_2628765.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府发布，佐证案例入选与项目内容。",
+      "publishedAt": "2026-06-26"
+    },
+    {
+      "publicId": "src-xw-2",
+      "title": "中山人才数字集团拟获认定市级人工智能赋能平台（西湾智慧无人机低空遥感自动巡查）",
+      "sourceType": "news",
+      "publisher": "南方日报",
+      "originalUrl": "https://static.nfnews.com/content/202607/17/c12634606.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证无人机低空遥感智能识别自动巡查。",
+      "publishedAt": "2026-07-17"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "巡查范围广",
+    "人力有限"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "低空遥感",
+    "智能识别"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "西湾智慧",
+    "无人机",
+    "低空遥感",
+    "城市治理"
+  ],
+  "seo": {
+    "metaTitle": "无人机低空遥感智能识别自动巡查项目实践",
+    "metaDescription": "无人机低空遥感智能识别自动巡查项目实践",
+    "keywords": [
+      "西湾智慧（广东）信息科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

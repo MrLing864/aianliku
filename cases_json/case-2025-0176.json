@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0176",
+  "version": 1,
+  "slug": "case-2025-0176",
+  "title": "基于智能建造大模型的建造全流程智能决策与管控实践",
+  "organization": {
+    "id": "org-0176",
+    "name": "中亿丰数字科技集团股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中亿丰数字科技集团打造基于智能建造大模型的建造全流程智能决策与管控体系，依托“1 平台 6 场景”智能建造中台，并与汉得联合打造行业领先的 AI 智能决策平台，实现 BIM 数字一体化设计、智能施工管理、建筑机器人协同等建造全流程的智能化决策与管控。",
+  "background": "中亿丰是江苏省建筑业龙头，2024 年发布《中亿丰建设集团智能建造蓝皮书》，推进智能建造“2+5”发展规划，并与汉得合作上线 AI 智能决策平台，推动工具创新与管理理念变革。",
+  "problem": "建筑全生命期管理信息孤岛、协同难，依赖经验决策，效率与品质提升受限。",
+  "solution": "智能建造大模型+AI 智能决策平台，实现建造全流程智能决策与管控。",
+  "implementationSteps": [
+    "构建 1 平台 6 场景智能建造中台",
+    "联合打造 AI 智能决策平台",
+    "在智能施工与建筑机器人协同场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "建筑多项目异构数据、模型对复杂工况的泛化。",
+  "editorComment": {
+    "suitableFor": "建筑工程全流程智能决策与管控",
+    "prerequisites": "具备 BIM 与项目数据基础",
+    "priority": "建议优先",
+    "text": "智能建造大模型驱动建筑全链智能决策。"
+  },
+  "implementers": [
+    {
+      "name": "中亿丰数字科技集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zyf-1",
+      "title": "汉得 x 中亿丰｜AI智能决策平台重磅上线",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/938491368_121613636",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证中亿丰智能决策平台与全链路智能建造。",
+      "publishedAt": "2025-09-25"
+    },
+    {
+      "publicId": "src-zyf-2",
+      "title": "建筑业的“AI智造”：中亿丰数字科技革新与未来展望",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/939155323_122362510",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证中亿丰智能建造体系与机器人协同。",
+      "publishedAt": "2025-09-27"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "信息孤岛",
+    "依赖经验决策"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能建造大模型",
+    "AI智能决策"
+  ],
+  "modelStack": [
+    "中亿丰智能建造大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能建造",
+    "中亿丰",
+    "建造大模型",
+    "AI决策"
+  ],
+  "seo": {
+    "metaTitle": "基于智能建造大模型的建造全流程智能决策与管控实践",
+    "metaDescription": "基于智能建造大模型的建造全流程智能决策与管控实践",
+    "keywords": [
+      "中亿丰数字科技集团股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

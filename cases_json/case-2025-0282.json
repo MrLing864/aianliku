@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0282",
+  "version": 1,
+  "slug": "case-2025-0282",
+  "title": "佛山市人工智能应用赋能中心实践",
+  "organization": {
+    "id": "org-0282",
+    "name": "联通（广东）产业互联网有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "专项应用",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "新华三技术有限公司实践“百业灵犀（LinSeer）私域大模型应用”，依托自主研发的百业灵犀私域大模型与灵犀使能平台（大模型一站式服务平台），以“1+N”策略（百业灵犀私域大模型+N 个优选生态大模型）帮助行业客户激活私域数据、快捷构建智能应用，并率先完成中国信通院大模型相关评估、达到国内先进水平。",
+  "background": "新华三于 2023 年 6 月发布私域大模型“百业灵犀”LinSeer，采用 Transformer 架构与自主研发动态混合专家技术，推出 AIGC 整体解决方案（使能平台、数据平台、算力平台）。",
+  "problem": "行业客户私有化、数据安全要求高，通用大模型难以直接满足私域场景。",
+  "solution": "百业灵犀私域大模型+灵犀使能平台，以 1+N 策略构建行业私域智能应用。",
+  "implementationSteps": [
+    "发布百业灵犀私域大模型与灵犀使能平台",
+    "构建 1+N 大模型应用策略",
+    "在行业客户私域场景落地"
+  ],
+  "duration": "2023-06 发布",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "私域数据安全、模型对行业知识的融合。",
+  "editorComment": {
+    "suitableFor": "行业私域大模型应用",
+    "prerequisites": "具备私域数据与算力",
+    "priority": "建议优先",
+    "text": "私域大模型+使能平台的行业落地范式。"
+  },
+  "implementers": [
+    {
+      "name": "联通（广东）产业互联网有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-h3c-1",
+      "title": "百业灵犀私域大模型-新华三集团",
+      "sourceType": "official",
+      "publisher": "新华三",
+      "originalUrl": "https://www.h3c.com/cn/Products_And_Solution/LinSeer/Linseer/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证百业灵犀私域大模型与使能平台。",
+      "publishedAt": "2024-07-24"
+    },
+    {
+      "publicId": "src-h3c-2",
+      "title": "新华三百业灵犀达国内先进水平，率先完成中国信通院评估",
+      "sourceType": "news",
+      "publisher": "环球网",
+      "originalUrl": "https://yrd.huanqiu.com/article/4EdBkq9bluU",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证私域大模型评估达国内先进水平。",
+      "publishedAt": "2026-07-20"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据安全要求高",
+    "通用模型难满足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "私域大模型",
+    "1+N策略"
+  ],
+  "modelStack": [
+    "百业灵犀 LinSeer"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "百业灵犀",
+    "私域大模型",
+    "新华三",
+    "灵犀使能"
+  ],
+  "seo": {
+    "metaTitle": "佛山市人工智能应用赋能中心实践",
+    "metaDescription": "佛山市人工智能应用赋能中心实践",
+    "keywords": [
+      "联通（广东）产业互联网有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "中国联合网络通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

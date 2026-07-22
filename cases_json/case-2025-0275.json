@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0275",
+  "version": 1,
+  "slug": "case-2025-0275",
+  "title": "“中移必行”智能体平台与 NetMCP 协议应用",
+  "organization": {
+    "id": "org-0275",
+    "name": "中国移动通信有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "人工智能基础设施",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-infra",
+      "name": "算力基础设施与AI平台",
+      "slug": "scn-ai-infra",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动通信有限公司发布业界首个网络运行智能体开放平台“中移必行”暨 NetMCP 协议，提供意图驱动入口，支持跨层网络能力的灵活编排、高效重组与执行，并联合发布《网络智能体与 NetMCP 协议技术白皮书（2025）》，重塑网络能力的对外服务模式和智能体开放生态。",
+  "background": "中国移动研究院于 2025 年 6 月发布“中移必行”网络运行智能体开放平台与 NetMCP 协议框架，已联合华为、中兴在试验环境验证基于智能体的用户出行体验保障等场景。",
+  "problem": "传统网络架构难以快速精准应对突发状况与多样化服务需求，网络能力调用缺乏统一智能编排。",
+  "solution": "“中移必行”智能体平台+NetMCP 协议，以意图驱动实现跨层网络能力灵活编排与执行。",
+  "implementationSteps": [
+    "发布“中移必行”网络运行智能体开放平台",
+    "设计 NetMCP 电信级协议架构",
+    "联合产业伙伴验证智能体场景"
+  ],
+  "duration": "2025-06 发布",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "网络生产环境安全、协议标准化与生态协同。",
+  "editorComment": {
+    "suitableFor": "通信网络智能体与能力开放",
+    "prerequisites": "具备网络运维数据与智能体平台",
+    "priority": "建议优先",
+    "text": "业界首个网络运行智能体开放平台范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国移动通信有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmcc-3",
+      "title": "中国移动研究院发布业界首个网络运行智能体开放平台暨 NetMCP 协议",
+      "sourceType": "news",
+      "publisher": "通信世界网",
+      "originalUrl": "https://www.cww.net.cn/article?id=601773",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证中移必行平台与 NetMCP 协议。",
+      "publishedAt": "2025-06-30"
+    },
+    {
+      "publicId": "src-cmcc-4",
+      "title": "网络智能体与NetMCP协议技术白皮书（2025年）",
+      "sourceType": "report",
+      "publisher": "中移智库",
+      "originalUrl": "https://www.sohu.com/a/943647086_121652971",
+      "accessibility": "available",
+      "rightsNote": "研究院白皮书，佐证网络智能体技术体系与协议设计。",
+      "publishedAt": "2025-10-14"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "难快速响应",
+    "缺乏统一编排"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能体",
+    "协议框架"
+  ],
+  "modelStack": [
+    "中移必行网络运行智能体开放平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中移必行",
+    "NetMCP",
+    "网络智能体",
+    "意图驱动"
+  ],
+  "seo": {
+    "metaTitle": "“中移必行”智能体平台与 NetMCP 协议应用",
+    "metaDescription": "“中移必行”智能体平台与 NetMCP 协议应用",
+    "keywords": [
+      "中国移动通信有限公司",
+      "支撑保障方向"
+    ]
+  },
+  "miitDirection": "支撑保障方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

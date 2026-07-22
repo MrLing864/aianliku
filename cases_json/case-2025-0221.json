@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0221",
+  "version": 1,
+  "slug": "case-2025-0221",
+  "title": "研祥工业人工智能控制终端",
+  "organization": {
+    "id": "org-0221",
+    "name": "研祥智慧物联科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "研祥智慧物联科技有限公司（研祥/EVOC，国内工业 AI 计算机知名品牌）“研祥工业人工智能控制终端”入选工信部 2025 年人工智能应用典型案例。产品以性能稳定、安全可控、适应性强著称，面向工业现场“热在云端、冷在现场”的智能化落地挑战，打造可嵌入工业现场、真正“跑得起来”的工业 AI 控制终端。",
+  "background": "",
+  "problem": "工业智能化“热在云端、冷在现场”，通用算力设备难以嵌入工业现场稳定可靠运行 AI 应用。",
+  "solution": "研发工业人工智能控制终端，以安全可控、适应性强的工业 AI 计算平台，将 AI 能力嵌入工业现场实现本地化智能控制。",
+  "implementationSteps": [
+    "研发高可靠工业 AI 计算控制终端",
+    "适配工业现场复杂环境与安全要求",
+    "支撑现场侧 AI 推理与智能控制",
+    "在工业现场场景规模化落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "工业现场环境适应性、软硬件长期稳定。",
+  "editorComment": {
+    "suitableFor": "工业现场侧 AI 控制终端",
+    "prerequisites": "具备工业计算机与现场部署能力",
+    "priority": "建议优先",
+    "text": "工业 AI 控制终端赋能现场智能化的实践。"
+  },
+  "implementers": [
+    {
+      "name": "研祥智慧物联科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-221-1",
+      "title": "研祥工业AI控制终端入选工信部国家级典型案例",
+      "sourceType": "official",
+      "publisher": "研祥（EVOC）",
+      "originalUrl": "https://www.evoc.com/newsshow184.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证案例入选与产品定位。",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "publicId": "src-221-2",
+      "title": "研祥|工业AI计算机|工业AI设备-官网",
+      "sourceType": "official",
+      "publisher": "研祥（EVOC）",
+      "originalUrl": "https://www.evoc.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证工业 AI 计算机品牌与产品能力。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "现场落地难",
+    "算力可控"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业AI计算",
+    "边缘控制"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "研祥",
+    "EVOC",
+    "工业AI",
+    "控制终端"
+  ],
+  "seo": {
+    "metaTitle": "研祥工业人工智能控制终端",
+    "metaDescription": "研祥工业人工智能控制终端",
+    "keywords": [
+      "研祥智慧物联科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "深圳市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

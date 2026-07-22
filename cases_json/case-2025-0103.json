@@ -1,0 +1,166 @@
+{
+  "id": "case-2025-0103",
+  "version": 1,
+  "slug": "case-2025-0103",
+  "title": "云南白药“数智云药”重塑中药材产业生态",
+  "organization": {
+    "id": "org-0103",
+    "name": "云南白药集团中药资源有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "云南白药集团中药资源有限公司打造'数智云药'中药材产业数字化平台，以'六统一'战略推动中药材种植、加工、交易、管理全链路数智化，并联合华为云构建'雷公大模型'，重塑中药材产业生态。",
+  "background": "云南白药作为云南省中药材产业'链主'企业，锚定中医药强省目标，于 2024 年 11 月正式启动'数智云药'平台，2025 年升级 2.0 版本。",
+  "problem": "中药材产业存在标准缺失、质量波动、交易分散、产业链协同弱等痛点。",
+  "solution": "构建覆盖种植、加工、交易、管理的全链路数智体系，实施'六统一'（统一标准、仓配、质量等），上线'数智云药 2.0'并以'雷公大模型'赋能产业服务。",
+  "implementationSteps": [
+    "2024 年 11 月启动数智云药 1.0 数字体系",
+    "2025 年升级 2.0，构建全链路数智系统",
+    "携手华为云打造雷公大模型，深化产业服务"
+  ],
+  "duration": "2024 年起持续建设",
+  "cost": "",
+  "results": [
+    {
+      "label": "平台交易额",
+      "value": "突破 10 亿元",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-ynby-1"
+    }
+  ],
+  "roi": "",
+  "risks": "产业数据标准与采集难度、跨区域协同与利益分配。",
+  "editorComment": {
+    "suitableFor": "中药材及农产品全产业链数智化",
+    "prerequisites": "产业'链主'组织能力与标准话语权",
+    "priority": "建议优先",
+    "text": "以平台+大模型驱动传统农业产业链升级。"
+  },
+  "implementers": [
+    {
+      "name": "云南白药集团中药资源有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ynby-1",
+      "title": "云南白药“数智云药”平台交易额破10亿元",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/913535969_122014422",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证平台交易规模。",
+      "publishedAt": "2025-07-14"
+    },
+    {
+      "publicId": "src-ynby-2",
+      "title": "数智赋能云药产业升级 云南白药以“六统一”引领中药材产业高质量发展",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "http://www.yn.xinhuanet.com/20250624/4cee75bbe7fe4571a44633479aa71100/c.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证六统一战略。",
+      "publishedAt": "2025-06-24"
+    },
+    {
+      "publicId": "src-ynby-3",
+      "title": "云南数智云药平台上线 云南白药携手华为云打造雷公大模型",
+      "sourceType": "news",
+      "publisher": "昆明信息港",
+      "originalUrl": "https://www.yl10018.com/m/news/6865.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证雷公大模型。",
+      "publishedAt": "2026-07-13"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "标准缺失",
+    "交易分散",
+    "协同弱"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "产业大模型",
+    "数字化平台"
+  ],
+  "modelStack": [
+    "雷公大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中药材",
+    "产业平台",
+    "雷公大模型",
+    "六统一"
+  ],
+  "seo": {
+    "metaTitle": "云南白药“数智云药”重塑中药材产业生态",
+    "metaDescription": "云南白药“数智云药”重塑中药材产业生态",
+    "keywords": [
+      "云南白药集团中药资源有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "云南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

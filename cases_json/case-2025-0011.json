@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0011",
+  "version": 1,
+  "slug": "case-2025-0011",
+  "title": "交通基建行业高质量数据集建设与应用",
+  "organization": {
+    "id": "org-0011",
+    "name": "中国交通信息科技集团有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国交通信息科技集团建设中交集团交通基建行业高质量数据集，以基于微内核架构的BIM数据模型为单一数据源，汇聚工程全生命期数据，支撑交通基建AI应用。",
+  "background": "中交集团是全球领先的特大型基础设施综合服务商，业务覆盖交通基础设施投资建设运营等，积累了海量工程数据但分散于设计、施工、运养各环节。",
+  "problem": "交通基建行业BIM、设计、施工、运养等数据分散，缺乏统一高质量数据集与单一数据源，制约行业大模型与智能交通应用。",
+  "solution": "以数据资产运营为核心，申请'基于微内核架构的BIM数据模型创建方法'专利（CN119336734A），建立工程全生命期BIM数据库作为单一数据源，汇聚存储、流转和应用工程数据，支撑人工智能大模型应用、北斗时空大数据处理与智能交通系统开发。",
+  "implementationSteps": [
+    "构建基于微内核架构的BIM数据模型与工程全生命期单一数据源",
+    "制定路线等数据字典并实现跨专业模型数据流转",
+    "汇聚存储工程全生命期BIM数据",
+    "支撑AI大模型应用、北斗时空大数据与智能交通系统"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "工程数据跨专业、跨系统标准不一，数据治理与单一数据源落地难度高；需持续投入数据质量建设。",
+  "editorComment": {
+    "suitableFor": "大型工程建筑央企、交通基建企业建设行业高质量数据集",
+    "prerequisites": "具备覆盖工程全生命期的BIM与业务数据基础",
+    "priority": "条件具备后开展",
+    "text": "以BIM单一数据源治理工程数据的路径，对基建行业AI化有示范意义。"
+  },
+  "implementers": [
+    {
+      "name": "中国交通信息科技集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jt-1",
+      "title": "中国交通信息科技集团有限公司（企业资质）",
+      "sourceType": "enterprise",
+      "publisher": "天眼查",
+      "originalUrl": "https://www.tianyancha.com/company/3400230671",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jt-2",
+      "title": "中国交通信息科技申请基于微内核架构的BIM数据模型创建方法专利",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/JMM8IJ9Q0519QIKK.html",
+      "publishedAt": "2024-11",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jt-3",
+      "title": "交通运输部印发《交通运输行业高质量数据集建设方案》",
+      "sourceType": "government_news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://new.qq.com/rain/a/20250919A05S2I00",
+      "publishedAt": "2025-09",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据孤岛",
+    "工程数据治理",
+    "BIM"
+  ],
+  "painPointNarrative": "",
+  "highlight": "以微内核BIM数据模型构建工程全生命期单一数据源",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "BIM数据模型",
+    "工程数据治理"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "交通基建"
+  ],
+  "seo": {
+    "metaTitle": "中交信科 交通基建行业高质量数据集建设与应用",
+    "metaDescription": "中交信科以微内核BIM数据模型构建工程全生命期单一数据源，建设交通基建行业高质量数据集。",
+    "keywords": [
+      "中交信科",
+      "交通基建",
+      "高质量数据集",
+      "BIM"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国交通建设集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

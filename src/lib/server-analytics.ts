@@ -1,13 +1,12 @@
-import { MongoServerError } from "mongodb";
 import { nanoid } from "nanoid";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { MongoServerError } from "@/lib/db/cloudbase";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 
 export type ServerEventName =
   | "contact_submitted"
   | "assessment_job_queued"
   | "assessment_job_ready"
   | "assessment_job_failed"
-  | "assessment_email_sent"
   | "assessment_delete_request"
   | "assessment_deleted"
   | "expert_booking_submit";
@@ -16,7 +15,7 @@ export async function recordServerEvent(
   name: ServerEventName,
   subjectId: string,
 ) {
-  if (!isMongoConfigured()) return;
+  if (!isDbConfigured()) return;
   try {
     const db = await getDb();
     await db.collection("analytics_events").insertOne({

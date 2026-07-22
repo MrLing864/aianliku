@@ -1,0 +1,159 @@
+{
+  "id": "case-2025-0020",
+  "version": 1,
+  "slug": "case-2025-0020",
+  "title": "岚图汽车面向全业务场景的新能源汽车专识数据集建设与应用",
+  "organization": {
+    "id": "org-0020",
+    "name": "联通（湖北）产业互联网有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "联通（湖北）产业互联网有限公司面向岚图汽车全业务场景建设新能源汽车专识数据集，依托5G专网+AI在关键质检环节实现突破，岚图生产基地平均每118秒下线一台新车。",
+  "background": "新能源汽车制造对质检精度与效率要求高，车企需要面向全业务场景的专识数据集支撑AI应用。",
+  "problem": "新能源汽车制造质检依赖人工、效率低；缺乏面向汽车全业务场景的专识数据集支撑智能化。",
+  "solution": "依托中国联通自主研发的数据集技术与平台能力，面向岚图汽车全业务场景建设新能源汽车专识数据集，完成湖北本地化落地；并以5G专网与AI深度融合，在关键质检环节实现创新突破，打造湖北省首个5G+AI工业质检项目。",
+  "implementationSteps": [
+    "建设面向岚图汽车全业务场景的新能源汽车专识数据集",
+    "依托联通数据集平台完成湖北本地化落地",
+    "5G专网+AI融合应用于关键质检环节",
+    "打造5G+AI工业质检提升下线效率"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "新车下线节拍",
+      "value": "118",
+      "unit": "秒/台",
+      "kind": "actual",
+      "sourceId": "src-lt-1"
+    }
+  ],
+  "roi": "",
+  "risks": "专识数据集建设需车企深度配合与数据开放；质检模型需持续迭代适配新车型。",
+  "editorComment": {
+    "suitableFor": "新能源汽车及制造企业建设专识数据集与AI工业质检",
+    "prerequisites": "具备产线数据与5G/AI基础设施",
+    "priority": "建议优先",
+    "text": "运营商+车企共建专识数据集与5G+AI质检，适合汽车智造参考。"
+  },
+  "implementers": [
+    {
+      "name": "联通（湖北）产业互联网有限公司",
+      "role": "申报单位/技术方"
+    },
+    {
+      "name": "岚图汽车",
+      "role": "应用场景方"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-lt-1",
+      "title": "每118秒下线一台新车——中国联通携手岚图汽车",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/911774077_121383752",
+      "publishedAt": "2025-07-08",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-lt-2",
+      "title": "实力认可！中国联通3大AI场景上榜（含岚图专识数据集）",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7626957411626009088/",
+      "publishedAt": "2026-04-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "质检效率",
+    "专识数据",
+    "制造智能化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "5G+AI工业质检，岚图118秒下线一台新车",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "5G+AI",
+    "工业质检"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "汽车制造"
+  ],
+  "seo": {
+    "metaTitle": "联通湖北 岚图汽车 新能源汽车专识数据集建设与应用",
+    "metaDescription": "联通湖北面向岚图汽车建设新能源汽车专识数据集，5G+AI工业质检实现118秒下线一台新车。",
+    "keywords": [
+      "联通",
+      "岚图汽车",
+      "专识数据集",
+      "5G+AI质检"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

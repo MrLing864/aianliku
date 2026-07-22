@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0126",
+  "version": 1,
+  "slug": "case-2025-0126",
+  "title": "中国电信研发云 CodeFree 研发大模型应用",
+  "organization": {
+    "id": "org-0126",
+    "name": "中国电信股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电信股份有限公司研发云 CodeFree 研发大模型，集成代码补全、智能问答、代码注释、代码解释、异常报错解释、单元测试、代码优化、测试助手、安全助手、文档助手、代码工程助手等 12 款 AI 工具，实现研发全场景赋能、多端统一体验、技术自主可控，算力层全面适配国产算力集群。",
+  "background": "针对大中型企业软件研发协同低效、质效不均、合规管控薄弱等行业共性痛点，中国电信研究院依托集团智能云体系打造 CodeFree 研发大模型。",
+  "problem": "企业软件研发协同低效、质效不均、合规管控薄弱，且国产研发工具链自主性不足。",
+  "solution": "构建 CodeFree 研发大模型与研发云平台，融合多模型底座与多数据接入，以多智能体协同实现国产化全链路自主可控研发体系，并获'2026 中国 AI 智能体领航者'（通用智能体方向）与首届'AI 领航杯'星光金奖。",
+  "implementationSteps": [
+    "构建多模型底座与多数据接入的研发大模型",
+    "集成 12 款 AI 研发工具，覆盖全场景",
+    "全面适配国产算力集群，实现自主可控"
+  ],
+  "duration": "2023 年 5 月发布以来持续迭代",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "国产算力适配稳定性、代码安全与合规。",
+  "editorComment": {
+    "suitableFor": "央国企及大型企业研发提效与自主可控",
+    "prerequisites": "具备研发云与代码仓库基础",
+    "priority": "建议优先",
+    "text": "国产全链路自主可控研发体系，标杆意义强。"
+  },
+  "implementers": [
+    {
+      "name": "中国电信股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ct-1",
+      "title": "中国电信研发云CodeFree荣获“2026中国AI智能体领航者”称号",
+      "sourceType": "news",
+      "publisher": "中国电信",
+      "originalUrl": "https://www.chinatelecom.com.cn/ct/news/gdxw/167248.html",
+      "accessibility": "available",
+      "rightsNote": "企业官方报道，佐证 CodeFree 能力与获奖。",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "publicId": "src-ct-2",
+      "title": "中国电信研究院两项科研成果入选工信部人工智能应用典型案例名单",
+      "sourceType": "news",
+      "publisher": "CNMO",
+      "originalUrl": "https://ai.cnmo.com/news/813625.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证入选行业赋能方向与痛点。",
+      "publishedAt": "2026-07"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "研发协同低效",
+    "合规管控薄弱"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体",
+    "多模型底座"
+  ],
+  "modelStack": [
+    "CodeFree 研发大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "研发大模型",
+    "CodeFree",
+    "AI编程",
+    "自主可控"
+  ],
+  "seo": {
+    "metaTitle": "中国电信研发云 CodeFree 研发大模型应用",
+    "metaDescription": "中国电信研发云 CodeFree 研发大模型应用",
+    "keywords": [
+      "中国电信股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

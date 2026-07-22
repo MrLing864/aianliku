@@ -1,0 +1,168 @@
+{
+  "id": "case-2025-0162",
+  "version": 1,
+  "slug": "case-2025-0162",
+  "title": "无线网络优化任务大模型应用",
+  "organization": {
+    "id": "org-0162",
+    "name": "中国电信集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "通信",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电信集团有限公司打造无线网络优化任务大模型（无线网优大模型），将生成式 AI 用于无线信号传播等复杂场景，重构网络优化模式；其 5G 无线网络规划大模型现网试点实现规划效率提升 50%、方案准确率达到 75% 以上，规划设计方案自动输出、建设效果精准预测。",
+  "background": "中国电信实施“云改数转智惠”战略，自主打造星辰语义、语音、视觉、视频生成等全尺寸全模态全国产化大模型体系。",
+  "problem": "传统无线网络规划依靠现场勘察、人工取数、专家逐站比选，效率低、周期长、难以全局寻优。",
+  "solution": "无线网优/规划大模型，将生成式 AI 用于无线信号传播复杂场景，实现规划设计方案自动输出与建设效果预测。",
+  "implementationSteps": [
+    "研发无线网优/规划大模型",
+    "现网试点规划效率提升 50%",
+    "推动网络优化核心场景规模化应用"
+  ],
+  "duration": "2026 年试点",
+  "cost": "",
+  "results": [
+    {
+      "label": "规划效率提升",
+      "value": "50",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-ctwx-1"
+    },
+    {
+      "label": "方案准确率",
+      "value": "75",
+      "unit": "%以上",
+      "kind": "actual",
+      "sourceId": "src-ctwx-1"
+    }
+  ],
+  "roi": "",
+  "risks": "网络生产环境安全、方案可解释性。",
+  "editorComment": {
+    "suitableFor": "无线网络规划与优化",
+    "prerequisites": "具备网络规划数据与算力",
+    "priority": "建议优先",
+    "text": "无线规划大模型效率数量级提升的运营商范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国电信集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ctwx-1",
+      "title": "中国电信完成5G无线网络规划大模型试点应用，效率提升50%",
+      "sourceType": "news",
+      "publisher": "人民邮电报/IT之家",
+      "originalUrl": "https://www.ithome.com/0/979/428.htm",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证规划效率提升50%、准确率75%以上。",
+      "publishedAt": "2026-07-21"
+    },
+    {
+      "publicId": "src-ctwx-2",
+      "title": "中国电信“无线网优”项目获卓越奖，加速AI核心场景规模化应用",
+      "sourceType": "news",
+      "publisher": "中国电信",
+      "originalUrl": "https://www.chinatelecom.com.cn/ct/news/jtxw/161921.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证无线网优大模型重构网络优化模式。",
+      "publishedAt": "2025-10-22"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工取数",
+    "难以全局寻优"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "生成式AI",
+    "网络大模型"
+  ],
+  "modelStack": [
+    "无线网优/规划大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "无线网优",
+    "星辰大模型",
+    "网络规划",
+    "任务大模型"
+  ],
+  "seo": {
+    "metaTitle": "无线网络优化任务大模型应用",
+    "metaDescription": "无线网络优化任务大模型应用",
+    "keywords": [
+      "中国电信集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

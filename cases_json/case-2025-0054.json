@@ -1,0 +1,169 @@
+{
+  "id": "case-2025-0054",
+  "version": 1,
+  "slug": "case-2025-0054",
+  "title": "基于 AI 视觉的钢铁管材 3D 在线质量检测系统应用",
+  "organization": {
+    "id": "org-0054",
+    "name": "合肥公共安全技术研究院",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中电博微合肥公共安全技术研究院发布国内首创的轧管及管加工智能检测设备，以'三维立体感知+AI算法'融合技术，实时构建表面点云模型、精准识别微米级缺陷，覆盖冷/热态钢管、芯棒、管端壁厚与螺纹检测。",
+  "background": "钢管及管加工质量检测长期依赖人工经验与二维视觉，存在冷态表面缺陷难捕捉、管端螺纹抽检效率低、芯棒预警滞后等痛点。",
+  "problem": "传统二维视觉难以捕捉微小三维缺陷，人工抽检效率低、误判多，影响质量与生产。",
+  "solution": "该院推出国内首创轧管及管加工系列智能检测设备，融合三维立体感知与AI算法，实时构建表面点云模型，精准识别微小缺陷；覆盖冷态/热态钢管、芯棒、顶头的智能表检及管端壁厚和螺纹检测，检测精度达微米级；配套数字化质量管控平台支持实时报警、缺陷标记与分类，并通过大数据分析优化工艺。",
+  "implementationSteps": [
+    "研发三维立体感知+AI算法融合的智能检测设备",
+    "实现热态钢管3D表检（多路3D传感器、激光三角测距）",
+    "覆盖冷/热态钢管、芯棒、管端壁厚与螺纹检测",
+    "构建数字化质量管控平台（报警/标记/分类/工艺优化）"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "检测精度",
+      "value": "微米级",
+      "kind": "actual",
+      "sourceId": "src-hf-1"
+    }
+  ],
+  "roi": "",
+  "risks": "高温热态环境下3D传感稳定性要求高；算法需覆盖多样缺陷类型。",
+  "editorComment": {
+    "suitableFor": "冶金、能源、汽车制造等管材质量智能检测",
+    "prerequisites": "具备产线检测工位与数据接口",
+    "priority": "建议优先",
+    "text": "3D视觉+AI的管材智能检测，微米级精度，适合质量管控升级。"
+  },
+  "implementers": [
+    {
+      "name": "合肥公共安全技术研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hf-1",
+      "title": "皖产国内首创：工业智能检测新品开启智检新时代",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7484399487033639433/",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hf-2",
+      "title": "共建智能检测标准体系 推动工业检测技术从'跟跑'到'领跑'",
+      "sourceType": "news",
+      "publisher": "中安在线",
+      "originalUrl": "http://ah.anhuinews.com/kjyww/202503/t20250325_8347667.html",
+      "publishedAt": "2025-03-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hf-3",
+      "title": "热态钢管3D表检设备（合肥公共安全技术研究院）",
+      "sourceType": "official",
+      "publisher": "中电博微",
+      "originalUrl": "http://www.cetcaqy.com/",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "缺陷检测",
+    "抽检效率",
+    "误判"
+  ],
+  "painPointNarrative": "",
+  "highlight": "国内首创管材3D智能检测，微米级精度数字化质控",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "3D视觉",
+    "AI检测",
+    "质量管控"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "质量检测",
+    "机器视觉"
+  ],
+  "seo": {
+    "metaTitle": "合肥公共安全技术研究院 基于AI视觉的钢铁管材3D在线质量检测系统应用",
+    "metaDescription": "合肥公共安全技术研究院以3D视觉+AI实现管材微米级在线质检，覆盖冷热态钢管与螺纹检测。",
+    "keywords": [
+      "合肥公共安全技术研究院",
+      "管材3D检测",
+      "AI视觉",
+      "质量管控"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电子科技集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

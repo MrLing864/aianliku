@@ -1,0 +1,761 @@
+
+===== PAGE 1 =====
+2024 年
+五大趋势
+深度技术需要深度信任
+IBM 商业价值研究院 | 研究简报
+
+===== PAGE 2 =====
+从更长远的视角来思考
+2024 年五大趋势
+这是 IBM 商业价值研究院推出的年度五大趋势系列报告的第五期。每一年
+的五大趋势报告都预测了在未来 12 个月内有望对企业产生巨大影响的关
+键机会和概念。
+在这些年度趋势的基础上，企业领导者还需从更长远的视角来思考未来的
+发展战略，并确定投资重点。我们近期发布的《值得押注的七大投资决策》
+报告专注于未来的七大长期趋势，以及企业领导者可以把握的投资机会。该
+报告涵盖广泛的主题，从生成式 AI、量子计算、可持续发展、设计领导力、
+全新的工作方式到供应链韧性，全面阐述了企业领导者在未来几年应对这
+些趋势时需要了解的事项和需要采取的行动。如需了解更多详情，请访问我
+们的“值得押注的七大投资决策”主页：https://ibm.co/seven-bets。　
+
+===== PAGE 3 =====
+2024 年的五大趋势：深度技术需要深度信任
+2
+随着智能机器日益自主化，组织
+需要引入一项重要的平衡因素：
+信任。 
+具体而言，从数据到人员，从机
+器到运营模式，各个领域都需要
+建立信任。
+信任是一种宝贵的资产
+随着人类和技术的日益交融，我们在选择所
+信任的对象时需要保持谨慎。事实上，信任
+已经成为企业运营的一项关键差异化因素。
+我们是如何知道的呢？根据 IBM 商业价值研
+究院的调研，81% 的受访高管将安全性、保
+障和信任视为其组织从竞争中脱颖而出的关
+键品牌特质。1
+尽管企业领导者认识到信任的重要性，但在
+建立和维持信任方面却收效甚微。仅有 55% 
+的受访 CEO 表示对其组织充满信心，认为其
+组织能够准确、完整地报告利益相关者所需
+要的数据安全与隐私信息。2
+而消费者们同样信心不足。例如，根据最新
+调研，仅有 20% 的受访消费者信任企业对可
+持续发展做出的承诺，而 2021 年时的这一
+比例约为 50%。3
+不过，90% 的受访消费者表示信任是他们在
+选择品牌时最重要的决定因素。4
+2024 年：机器智能让信任
+成为焦点
+一年的时间可以形成一种趋势，强化一种趋
+势，还可以意外地结束一种趋势。2008 年，抵
+押贷款和房地产引发了全球金融危机。2020 
+年，一场席卷而来的全球疫情夺去了无数生
+命，造成了超过 12 万亿美元的全球经济损
+失。5 而在 2023 年，生成式 AI 变革了工作的
+性质和面貌，导致许多人对自己的工作安全性
+产生了质疑。一直以来，信任都是一项重要因
+素。不过，这类大规模颠覆性事件进一步凸显
+了信任的重要性。
+我们的研究表明，2024 年将是企业领导者需
+要在技术与信任之间取得平衡的关键一年。
+当然，将信任融入组织的每一个方面并不是
+一个新概念。但随着生成式 AI 的崛起、全球
+不确定性增加、竞争的持续加剧以及生态系
+统的兴起，建立信任将成为一项更具挑战性
+的任务。
+
+===== PAGE 4 =====
+2024 年的五大趋势：深度技术需要深度信任
+3
+2024 年的
+五大趋势
+趋势 1
+组织从 + AI 转变为 AI +。
+对 AI 的信任
+我们可以信任生成式 AI 吗？
+如果是的话，可以在哪些领域信任它，以
+及信任的程度如何？
+趋势 2 
+使用 AI 的人将会取代
+不使用 AI 的人。
+对团队的信任
+我们是否可以帮助员工信任新的同事⸺
+AI？以便让 AI 在日常业务流程帮助员工。
+趋势 3
+数据议题从 IT 部门延伸到
+高管层面。
+对数据的信任
+我们是否可以相信自己数据的真实性和安
+全性？
+趋势 4
+锻造弹性运营模式，
+灵活应变拒绝中断。
+对运营模式的信任
+我们是否可以相信自己的系统、流程和战略？
+趋势 5
+生态系统就是战略，
+而不仅仅是战略的一部分。
+对合作伙伴的信任
+在生态系统对于客户互动和价值创造日益重要
+的形势下，我们是否能够建立和维持可信的生
+态系统？
+
+===== PAGE 5 =====
+2024 年的五大趋势：深度技术需要深度信任
+4
+四分之三的受访 CEO 表示，企业竞争优势取
+决于谁拥有最先进的生成式 AI。6 事实
+上，43% 的受访 CEO 表示其组织已经在利
+用生成式 AI 制定战略决策。而且，36% 的
+受访 CEO 表示正在利用生成式 AI 制定运营
+决策。7 2024 年，我们预计这一趋势将持续
+增长。
+“生成式 AI 模型在同一时间
+给我们带来了惊喜、惊叹和
+惊吓。”
+Gonzalo Gortázar
+CaixaBank 首席执行官
+然而，超过 60% 的受访组织尚未建立一致
+的企业级生成式 AI 方法 — 这是实现负责
+任、可信的 AI + 的关键步骤。8
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+趋势 1
+组织从 + AI 转变为 AI +。
+AI + 意味着从一开始就采用以 AI 为中心的设计，而不是事后再附加 AI。
+信息来源：AI 时代的 CEO 决策力：运筹帷幄，决胜未来。
+IBM 商业价值研究院，2023。https://www.ibm.com/downloads/cas/1YOKEERG
+
+===== PAGE 6 =====
+2024 年的五大趋势：深度技术需要深度信任
+5
+图 1
+CEO 感受到来自利益相关者的压力，要求他们加速采用 AI
+平衡迅速行动与深谋远虑
+转变为AI + 意味着组织要重新思考人才战
+略。然而，根据我们的调研，三分之二的受
+访 CEO 在采取行动时并未清晰认识到应如何
+帮助其员工应对 AI 带来的颠覆和势不可挡的
+变革。9 只有不到三分之一的受访 CEO 评估了
+生成式 AI 对其员工团队的潜在影响。10
+ 
+与此同时，那些积极拥抱 AI 的组织一直在
+稳步前行，持续超越竞争对手。11
+生成式 AI 已经成为“时代精神”，并且推
+动加速采用这项技术的压力正在不断增长
+（见图 1）。这是一项不可逆转的趋势。
+但这并不意味着 2024 年不会出现一些刹
+车的情况。72% 的受访企业高管表示，出
+于伦理方面的顾虑，他们愿意放弃生成式 
+AI 的好处；69% 的受访高管预计采用生成
+式 AI 会导致监管罚款。12
+要在实施负责任的 AI 方面发挥领导作用，
+高管及其组织需要始终秉持人类最优秀的
+品质，包括智慧、伦理道德以及对利益相
+关者的重视。
+董事会
+成员
+投资者、
+债权人、
+贷方
+员工
+媒体
+64%
+55%
+55%
+66%
+信息来源：AI 时代的 CEO 决策力：运筹帷幄，决胜未来。
+IBM 商业价值研究院，2023。https://www.ibm.com/downloads/cas/1YOKEERG
+以下利益相关者团体在减缓或加速采用生成式 AI 方面施加了多大程度的压力？
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 7 =====
+2024 年的五大趋势：深度技术需要深度信任
+6
+行动指南
+从 AI + 的视角重新设计运营模式。
+设立 AI 管理和监督角色
+设立首席 AI 伦理官职位，致力于倡导负责任的 AI。
+为该职位赋予提供指导和行使否决权的权力。促进负
+责任地使用 AI。确保技术的可访问性、可靠性和可信
+性。在整个开发生命周期内考虑伦理因素。总体来说，
+一些组织正在考虑增设首席信任官，专门负责处理从 
+AI、数据到客户情感的一切事务。
+将 AI 技能扩展至 IT 部门以外
+从一开始就鼓励员工支持生成式 AI。着力开展再培
+训和技能提升培训，重点培养创造力和人际交往能
+力。投资建立强健的数据基础设施。在整个企业内提
+高透明度并普及 AI 相关知识，从而优化 AI 的潜力。
+引入清晰的 AI 治理和教育计划
+将 AI 治理整合到核心业务模式中，明确解决可解释
+性、偏见和可靠性等问题。为员工建立全面的 AI 教
+育计划。让员工能够充分利用生成式 AI 功能。确保
+客户和利益相关者清楚地知道他们何时在与 AI 互
+动，以及何时在与被 AI 增强的真实人类互动。
+1
+2
+3
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 8 =====
+2024 年的五大趋势：深度技术需要深度信任
+7
+认识一下永不休息的新同事吧。2024 年，生成式 AI 将影响几乎所有
+组织角色和层级。2025 年，77% 的初级工作者的工作职责将发生变
+化。而超过四分之一的高级管理者的工作职责也将发生变化。13
+使用 AI 的人将会取代
+不使用 AI 的人。
+AI 的成功采用取决于团队是否愿意接受新的 
+AI 工具和应用。为此，他们必须相信生成式 
+AI 是值得信赖的。
+AI 机器人并不是新事物。但在 2024 年，我们
+预计会有更多的组织引入 AI 来与员工协作。
+全天候运行的 AI 机器人将处理日常的重复性
+任务，从而让人类专注于处理更高价值的战
+略性工作。
+不可替代的人类品质将变得更加重要，例
+如创造力（这是受访企业高管认为到 2025 
+年最有价值的技能）、缜密的决策能力和同
+理心。14
+目前，尽管预见能力有限，但 87% 的受访 
+CEO 预计，生成式 AI 将增强而不是取代人
+类员工。15
+趋势 2
+关键是要培养能够让人才
+在新形势下就业的技能，
+无论是在当前职位还是全
+新的工作环境中都能出色
+完成工作。
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 9 =====
+2024 年的五大趋势：深度技术需要深度信任
+8
+AI 对劳动力的影响将进
+一步加深
+AI 增强员工与替代员工的比例可能会发生变
+化。随着生成式 AI 迅速成熟，越来越多的职
+位和层级将受到来自 AI 的更严重的影响。例
+如，大多数政府领导者预计五年后在 AI 和自
+动化领域的支出将超过人才支出。16
+受访 CEO 预计，随着在未来三年内实施 AI 和
+自动化，其组织 40% 的员工需要接受再培
+训。17 信任将在员工是否愿意接受再培训并适
+应新角色方面发挥关键作用。从更高的层
+面来看，关键是要培养让人才在新形势下
+能够就业的技能，无论是在当前职位还是
+全新的工作环境中都能出色完成工作。
+至少 80% 的受访首席级高管预计，生成式 
+AI 将从根本上变革其组织的工作流程以及
+员工的工作方式。18 但是，员工必须对他们
+的 AI 新同事产生信任，这种变革才能取得
+成功。要建立这种信任关系，组织不仅需
+要竭力确保 AI 基础模型的有效性，还需要
+针对员工开展再培训和技能提升培训。
+图 2
+通过与 AI 助手携手合作，员工将掌握新的技能和新的工作方式
+65% 需要与 AI 助手协同工作，
+将其视为无缝交付的新数字团队成员
+64% 需要培养与数字助手协同工作的
+团队合作技能
+61% 需要开展员工培训，
+让员工能够与 AI 助手共事
+61% 需要学习新技能以应对数字
+助手可能无法处理的复杂问题
+信息来源：IBM 商业价值研究院，2023 年人工智能优先 BPO 最高管理层调研
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 10 =====
+2024 年的五大趋势：深度技术需要深度信任
+9
+行动指南
+确保人才始终处于这一大规模劳动力变革的前沿。
+将生成式 AI 再培训视为人才的
+个人发展机会
+与 HR、IT 等关键利益相关者开展集体讨论，制定灵
+活的技能战略。定义由员工执行的高级功能和由机
+器人执行的例行任务的学习要求。确定与特定工作
+角色相符的关键技能，然后利用生成式 AI 从内部培
+训目录和外部资源创建学习路径。
+从“以人才为中心”的视角重新定
+义业务流程，并以 AI 增强
+运用技术分析如何完成工作，并识别任何效率低下或瓶
+颈问题。利用这些洞察重新思考业务流程，并明确数字
+工作者最适合发挥领导作用的领域，确保人类始终参与
+决策流程。
+搭建论坛，可以让团队发布关于哪
+些任务可实现自动化的建议
+利用数字化 HR 渠道建立开放反馈循环，不仅让员工拥
+有发言权，而且还能参与到工作变革的设计中。培养能
+够自如管理人类和 AI 混合员工团队的新一代领导者。
+1
+2
+3
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+-
+-
+
+===== PAGE 11 =====
+2024 年的五大趋势：深度技术需要深度信任
+10
+数据是每一家组织的命脉。数据流动到各个位置，用于制定战略、运营
+决策和开展创新。
+数据议题从 IT 部门延伸到高
+管层面。
+信任您的数据比以往更加重要，而不仅限于
+确保数据完整性。您还需要确信进入无边界
+领域的所有数据都是安全且受到保护的。
+一直以来，组织都需要保护数据免受盗窃。
+但现在，组织还必须防范数据在传入、传出组
+织以及在组织内部传输的过程中受到破坏。
+财务风险很高。一部分组织能够对所存储
+的大量可信、高质量数据进行变现，这类
+组织在 AI 功能上的投资回报率几乎是其他
+组织的两倍（两者的投资回报率分别为 
+9%和 4.8%）19
+高回报也必然面临高风险。正因如
+此，2024 年，数据不再仅仅是技术问
+题，而成为具有巨大战略意义的业务必需
+品。61% 的受访 CEO 表示，对数据沿袭和
+溯源的担忧将成为采用生成式 AI 的障
+碍。20 57% 的受访 CEO 表示数据安全也是
+一项障碍，而 45% 的受访 CEO 则提到了
+数据隐私。21
+趋势 3
+“传统观念认为决策应当
+以数据为依据。在许多
+情况下，这是有效的……
+但也有一些例外情况。”
+Fernando González
+Cemex 首席执行官
+信息来源：AI 时代的 CEO 决策力：运筹帷幄，决胜未来。
+IBM 商业价值研究院，2023。https://www.ibm.com/downloads/cas/1YOKEERG
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 12 =====
+2024 年的五大趋势：深度技术需要深度信任
+11
+数据：是否值得信赖？
+又是否安全？
+与此同时，篡改数据也已成为一项重大威
+胁。受访高管们预计，冒充受信任用户的黑
+客将对企业产生最大的恶意影响，紧随其后
+的是恶意代码。22 随着威胁行为者越来越熟
+悉生成式 AI 工具，并利用此类工具创建更智
+能的恶意软件，我们将看到新型入侵攻击产
+生更广泛、更快、更复杂和更精准的影响。
+不出所料，2023 年的网络安全预算相比 
+2021 年增长了 51%。23 预计到 2025 年，网
+络安全预算将继续增长 43%。24 为了获取可
+信数据能够创造的价值，组织应当将安全视
+为一项关键的战略差异化因素。
+ 
+2024 年，网络将继续呈现出动态服务和
+模糊边界的特征 — 数据将在这样的网络中
+流动。在这种环境中，零信任要求对每一
+次价值交换进行身份验证和认证。
+因此，零信任策略非常适合当前的环境。
+通过将信任视为运营和交易中的一项重要
+因素，生态系统合作伙伴可以为各种高度
+敏感的工作负载和关键能力提供支持。25
+图 3
+领先的首席数据官倾向主动参与客户活动及其数据实践
+82% 向客户告知我们的数据
+隐私和伦理政策
+78% 在市场中推广我们的隐
+私和伦理实践
+54% 让客户参与制定数据和
+伦理战略
+37% 让客户主动控制和访问其
+个人数据
+信息来源：化数据为价值：卓越首席数据官事半功倍创造价值
+IBM 商业价值研究院， 2023 年。 https://www.ibm.com/downloads/cas/1YOKEERG
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 13 =====
+2024 年的五大趋势：深度技术需要深度信任
+12
+行动指南
+创造价值的最快途径：保护数据、建立信任、
+加速决策。
+认识到仅仅增加安全支出还不够
+转变您的安全方法，考虑实施零信任策略，甚至更进
+一步，将零信任策略整合到企业的每一个方面。让安
+全可信的数据成为您品牌的关键要素。专注于增强透
+明度和问责制，以降低风险并避免偏见。对例行任务
+（例如保持数据清洁和遵守法规）进行重新定位，将
+其打造为强大的企业资产，通过切实的成效和经验从
+竞争中脱颖而出。
+使信任成为每次互动的起点
+增强网络风险能力，优先建立网络韧性以进一步增强
+信任并保护业务和关系。专注于监视和管理有可能建
+立或破坏信任的关键接触点。对外传播最佳实践，展
+示独特的方法，并从市场中脱颖而出。
+洞悉未来以防范网络威胁
+识别您与合作伙伴之间的障碍，集中改善相关程序与
+治理要素，以加速决策和价值创造，并消除减缓建立
+信任的因素。在审查合作伙伴时将安全视为一个关键
+问题，并定期审查合作伙伴的安全策略和程序。
+1
+2
+3
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 14 =====
+2024 年的五大趋势：深度技术需要深度信任
+13
+当今的组织系统必须承受各种不可避免的冲击。因此，弹性运营模对于组织经受住并
+有力应对这些冲击是至关重要的。
+锻造弹性运营模式，
+灵活应变拒绝中断。
+领导者需要构建可信的运营模式来应对不断
+变化的世界。
+然而，许多高管都受到其组织运营模式的束
+缚。例如，只有 55% 的受访高管表示其组织
+的 ERP 解决方案经过合理配置，可支持在面
+对变化时迅速采取行动。26 此外，31% 的受
+访高管表示其组织的 ERP 解决方案在有效应
+对中断方面非常困难或比较困难。27
+60% 的受访政府领导者表示未来各种冲击事
+件（例如自然灾害、全球疫情）的发生频率
+可能会增加。在此形势下，这些统计数据并
+不乐观。此外，70% 的受访高管预计冲击
+的强度和影响将增加。28
+数十年来，企业高管一直在探讨如何利用
+感知和响应能力来帮助应对运营中断。但
+用于管理和缓解冲击的技术一直不够完善。
+好消息是，时至今日，技术上的短板终于
+被克服。许多组织现在都能迅速提供这些
+先进的能力。在业务系统受到冲击时，企
+业高管现在几乎可以实时做出反应。
+趋势 4
+“我们有时必须要做出一个
+方向性决策，并依靠自己
+的能力，在途中根据需要
+改变方向。”
+Roberto Tomasi
+Autostrade per l’Italia 公司首席执行官
+信息来源：AI 时代的 CEO 决策力：运筹帷幄，决胜未来。
+IBM 商业价值研究院，2023。https://www.ibm.com/downloads/cas/1YOKEERG 
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 15 =====
+2024 年的五大趋势：深度技术需要深度信任
+14
+构建与时俱进的运营模式
+先进的技术能力（如 AI 和分析）有助于推动
+组织采用更具韧性的运营模式，可通过持续
+调整来适应不断变化的全球形势。
+通过训练 AI 模型从非结构化的外部数据中提
+取模式，并纳入内部模式和组织管理原则，
+企业可以有效应对冲击。但关键是，企业还
+可以利用这些事件作为推动创新和业务增长
+的额外途径。
+企业在将生成式 AI 应用于供应链方面已经取
+得了成功，这也展现了建立更广泛的企业感
+知和响应能力的可能性。
+81% 的受访高管表示，生成式 AI 的预测
+能力可以更早地发现问题。29 77% 的受访
+高管表示，生成式 AI 模型可以成功识别地
+缘政治和气候风险，从而帮助主动、迅速
+缓解风险。30
+2024 年，生成式 AI 驱动的仪表盘将变得
+更加先进，能够更有效应对各种不断增长
+的冲击事件。高绩效型 CEO 们已经朝着这
+个方向迈出了步伐，并更加广泛地认为其
+企业仪表板能够提供出色的洞察力，其比
+例是其他受访 CEO 的 13 倍以上。31 但仍
+有许多组织尚未达到这一水平。在谈到企
+业仪表盘时，只有 6% 的受访 CEO 表示其
+指标会在整个企业范围内全面整合，与结
+果相关联，构成战略的核心，并与生态系
+统保持一致。32 但这种整合也是一项必不
+可少的举措。全面整合的企业级仪表盘可
+提供在企业运营模式中建立信任所必需的
+透明度。
+图 4
+影响 CEO 的外部力量变化继续发生巨变
+技术因素
+监管因素
+市场因素
+劳动力与技能
+环境问题
+社会经济因素
+全球化
+地缘政治因素
+宏观经济因素
+2013
+2015
+2017
+2019
+2021
+2022
+2023
+信息来源：AI 时代的 CEO 决策力：运筹帷幄，决胜未来。
+IBM 商业价值研究院，2023。 https://www.ibm.com/downloads/cas/1YOKEERG
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 16 =====
+2024 年的五大趋势：深度技术需要深度信任
+15
+行动指南
+在运营模式中融入韧性。
+将场景规划整合到组织的
+所有层面中
+针对潜在场景测试运营流程和程序。与合作伙伴共同
+明确角色与责任、决策流程和问责制，提前针对冲击
+事件做好准备。利用数据驱动的建模、AI 和其他工
+具进行场景规划和风险管理。
+以创造更好未来的方式应对冲击事件 
+借助敏捷、跨职能的团队进行快速构思、测试和迭代，
+从而推动创新。将创新整合到业务流程中，并利用数据
+策略和 AI 大规模扩展成功。
+确定缓解未来冲击的新方法
+评估业务连续性方法，并淘汰已经过时的方法。尤其
+是，及时发现并消除结构、组织和文化上的障碍，以
+有效应对下一次重大冲击事件。
+1
+2
+3
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 17 =====
+2024 年的五大趋势：深度技术需要深度信任
+16
+在企业与客户建立信任关系的过程中，生态系统可能发挥积极或消极的
+作用。
+生态系统就是战略，
+而不仅仅是战略的一部分。
+组织需要历经多年才能逐渐建立起良好的信
+任，而信任崩塌却是一瞬间的事。随着客户
+体验日益成为组织决策的主要推动力，企业
+的信任水平将取决于其最信任水平最低的合
+作伙伴。一次糟糕的客户互动或数据泄露就
+足以导致信任崩塌。因此，可信的生态系统
+将成为一项至关重要的竞争优势。
+ 
+2024 年，生态系统将从一系列各自为战
+的独立实体，集结为朝着一致目标携手作
+战的“无边界联盟”。目前，69% 的受
+访高管表示其组织已经通过参与生态系统
+取得了更强劲的财务业绩。33 在当今人才
+至关重要的世界中，65% 的受访高管表
+示通过生态系统可以获取更相关、更急需
+的技能。34
+趋势 5
+只有不到三成的组织会与
+生态系统合作伙伴实现技
+术能力共享和整合，并在
+此基础上开展创新。
+信息来源：生态系统和开放创新：携手合作共赢，固步自封难行
+IBM 商业价值研究院和APQC，2023。https://www.ibm.com/downloads/cas/XZWXYV7A
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 18 =====
+2024 年的五大趋势：深度技术需要深度信任
+17
+开放创新与收入增长密切
+相关
+生态系统竞争的本质就是开放创新。合作伙伴
+共享人才、思想、资源、技术等，涵盖从产品
+设计到售后支持等众多领域。开放创新领先者
+的收入增长要比其他组织高出 59%。35 平均
+而言，对于一家典型的大型组织，高达 10% 
+的收入来自开放创新，因此 59% 是非常可观
+的收入增长。36
+ 
+然而，为了推动开放创新，数据必须在整
+个生态系统中自由且安全地流动。许多组
+织仍然难以建立有序的内部数据体系，因
+此与其他生态系统合作伙伴实现整合将面
+临更大的挑战。事实上，三分之一的受访
+首席数据官表示面临合作伙伴生态系统过
+于复杂的挑战。37
+图 5
+可信的合作伙伴如何在宏观层面上提供帮助
+的高管表示通过生态系
+统可以获取更相关、更
+急需的技能。
+的受访高管表示其组
+织由于参与生态系统
+而取得了更强劲的财
+务业绩。
+的受访高管表示其组
+织会与生态系统合作
+伙伴实现技术能力共
+享和整合， 并在此基
+础上开展创新。
+69%
+65%
+23%
+信息来源：基于 AI 和自动化的增强型工作新时代。
+IBM 商业价值研究院，2023。https://www.ibm.com/downloads/cas/GENX0NDG
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 19 =====
+2024 年的五大趋势：深度技术需要深度信任
+18
+行动指南
+将生态系统视为拥有一致目标的“无边界联盟”。评估是否可与适当的
+合作伙伴共同推动更大规模的创新。
+统一数据并建立合作伙伴关系以打
+开和扩展协作
+实施可以无缝访问数据的企业 Data Fabric，这将加强
+生态系统内部共享。消除数据孤岛，创建统一、可访
+问的数据基础架构。要求合作伙伴之间进行透明的沟
+通和数据共享，以共同推动增长和创新。
+注重质量而非数量
+评估合作伙伴关系，确保始终与组织不断发展的目
+标、文化和战略保持一致。评估潜在合作伙伴是否能
+够维持强大、基于信任的关系、以惠及整个生态系
+统。专注于建立可带来多样化能力和技术的合作伙伴
+关系。
+利用生态系统作为转型的跳板
+确定创新所需的技能，并确定如何在生态系统中吸引
+合适的人才。采用开放标准和安全数据共享，促进生
+态系统内部的协作与信任。
+1
+2
+3
+对 AI 的信任    |    对团队的信任    |    对数据的信任    |    对运营模式的信任    |    对合作伙伴的信任
+
+===== PAGE 20 =====
+2024 年的五大趋势：深度技术需要深度信任
+19
+本报告所涵盖的这些趋势正在发生，而且
+不受任何单一组织行动的影响。专注于建
+立和维持与员工、利益相关者、客户及生
+态系统合作伙伴的信任，已经成为一项迫
+在眉睫的战略。
+在人类判断力与深度技术相辅相成的世界
+中，信任已成为一种新的商业货币。
+2024 年是在整个
+组织中建立信任的
+关键一年
+
+===== PAGE 21 =====
+2024 年的五大趋势：深度技术需要深度信任
+20
+IBM 商业价值研究院
+IBM 商业价值研究院 (IBV) 站在技术与商业的交汇点，将行业智库、主要学者和主题专家的
+专业知识与全球研究和绩效数据相结合，针对公共与私营领域的关键议题提供可信的战略
+洞察。
+访问 IBM 商业价值研究院中国网站，免费下载研究报告：https://www.ibm.com/ibv/cn
+了解更多信息
+需要 IBV 最新研究成果，请在 ibm.com/ibv 上注册以接收 IBV 的电子邮件通讯。您可以通过 
+https://ibm.co/ibv-linkedin 在 LinkedIn 上联系我们。
+  1	 Thompson, Dr. Shue-Jane, Shawn DSouza, Shamla Naidoo, and Gerald Parham. The new era of 
+cloud security: Use trust networks to strengthen cyber resilience. IBM Institute for Business Value, 
+March 2021. https://ibm.co/cloud-security-cyber-resilience
+ 2	
+CEO decision-making in the age of AI: Act with intention. The Global C-suite Study Series. 
+28th Edition. IBM Institute for Business Value. June 2023. https://ibm.co/c-suite-study-ceo
+  3	 Biswas, Arun, Elizabeth Goos, and Jacob Dencik, PhD. The ESG data conundrum. IBM Institute 
+for Business Value. April 2023. https://ibm.co/esg-data-conundrum
+  4	 IBM Institute for Business Value 2024 global consumer research survey of 20,083 consumers 
+from 26 countries. Unpublished data.
+  5	 “IMF sees cost of Covid pandemic rising beyond $12.5 trillion estimate.” Reuters. January 20, 
+2022. https://www.reuters.com/business/
+imf-sees-cost-covid-pandemic-rising-beyond-125-trillion-estimate-2022-01-20/ 
+  6	 CEO decision-making in the age of AI: Act with intention. The Global C-suite Study Series. 
+28th Edition. IBM Institute for Business Value. June 2023. https://ibm.co/c-suite-study-ceo
+  7	 Ibid.
+  8	 The CEO’s guide to generative AI. IBM Institute for Business Value. 2023. https://ibm.co/
+ceo-generative-ai
+  9	 CEO decision-making in the age of AI: Act with intention. The Global C-suite Study Series. 
+28th Edition. IBM Institute for Business Value. June 2023. https://ibm.co/c-suite-study-ceo
+10	 Ibid.
+备注和参考资料
+衷心感谢以下人员为本报告提供了宝贵的见解、专业知识和支持：Sara Aboulhosn, 
+Cindy Anderson, Steve Ballou, Christian Bieck, Karen Butner, Annette Celio, Bill Chamberlin, 
+Jane Cheung, Liam Cleaver, Marisa Conway, Haynes Cooney, Jacob Dencik, Wei Ding, 
+Mandy Drouin, Catherine Fillare, Brian Goehring, Bruce Jarvis, Rachel Larkin, Kris Lawas, 
+Anthony Marshall, Kathy Martin, Michelle Mattelson, Rakesh Mistry, Yu Muraoka, 
+Hebatallah Nashaat, Toshiyuki Ohoka, Talita Cristina Paro Fabene, Gerry Parham, 
+Kristine Rodriguez, Wendy Roth, Sherihan Sherif, Ai Jun Sun, Li Wang, Joanna E. Wilkins, 
+Andrew Womack, Mayuko Yasuda, Katsumi Yokoyama, and Dave Zaharchuk.
+合作者
+
+===== PAGE 22 =====
+2024 年的五大趋势：深度技术需要深度信任
+21
+ 11	 Goldstein, Jill, Bill Lobig, Cathy Fillare, and Christopher Nowak. Augmented work for an automated, 
+AI-driven world: Boost performance with human-machine partnerships. IBM Institute for Business 
+Value. August 2023. https://ibm.co/augmented-workforce
+12	 The CEO’s guide to generative AI: Responsible AI and ethics. IBM Institute for Business Value. 
+October 2023. https://ibm.co/ceo-generative-ai-responsible-ai-ethics
+13	 The CEO’s guide to generative AI: Talent and skills. IBM Institute for Business Value. July 2023. 
+https://ibm.co/ceo-generative-ai-talent-skills
+14	 Ibid.
+15	 Ibid.
+16	 Mihm, J. Christopher, Rob Handfield, and Tony Scott. Preparing governments for future shocks: 
+A roadmap to resilience. IBM Institute for Business Value. October 2023. https://ibm.co/
+government-future-shocks-resilience
+17	 Goldstein, Jill, Bill Lobig, Cathy Fillare, and Christopher Nowak. Augmented work for an automated, 
+AI-driven world: Boost performance with human-machine partnerships. IBM Institute for Business 
+Value. August 2023. https://ibm.co/augmented-workforce
+18	 The power of AI and automation: Accelerating performance with intelligent workflows. Data story. 
+IBM Institute for Business Value. April 2023. https://ibm.co/automation-intelligent-workflows
+19	 The CEO’s guide to generative AI: Platforms, data, and governance. IBM Institute for Business 
+Value. September 2023. https://ibm.co/ceo-generative-ai-platforms
+20	 Ibid.
+21	 Ibid.
+22	 The CEO’s guide to generative AI: Cybersecurity. IBM Institute for Business Value. October 2023. 
+https://ibm.co/ceo-generative-ai-cybersecurity
+23	 Ibid.
+24	 Ibid.
+25	 McCurdy, Chris, Lisa Fisher, Gerald Parham, and Dr. Shue-Jane Thompson. Getting started with zero 
+trust security: A guide for building cyber resilience. IBM Institute for Business Value. July 2021. 
+https://ibm.co/zero-trust-security
+26	 Crisis and continuity: New ERP strategies to help mitigate political risk. IBM Institute for Business 
+Value. November 2022. https://ibm.co/business-continuity-erp
+27	 Ibid.
+28	 Mihm, J. Christopher, Rob Handfield, and Tony Scott. Preparing governments for future shocks: 
+A roadmap to resilience. IBM Institute for Business Value. October 2023. https://ibm.co/
+government-future-shocks-resilience
+29	 The CEO’s guide to generative AI: Supply chain. IBM Institute for Business Value. November 2023. 
+https://ibm.co/ceo-generative-ai-supply-chain
+30	 Ibid.
+31	 CEO decision-making in the age of AI: Act with intention. The Global C-suite Study Series. 28th 
+Edition. IBM Institute for Business Value. June 2023. https://ibm.co/c-suite-study-ceo
+32	 Ibid.
+33	 Goldstein, Jill, Bill Lobig, Cathy Fillare, and Christopher Nowak. Augmented work for an automated, 
+AI-driven world: Boost performance with human-machine partnerships. IBM Institute for Business 
+Value. August 2023. https://ibm.co/augmented-workforce
+
+===== PAGE 23 =====
+34	 AI-driven world: Boost performance with human-machine partnerships. IBM Institute for Business 
+Value. August 2023. https://ibm.co/augmented-workforce
+35	 Palmer, Kirsten, Jacob Dencik, PhD, and Lisa Fisher. Ecosystems and open innovation: 
+Co-create or stagnate. IBM Institute for Business Value and APQC. October 2023. 
+https://ibm.co/ecosystems-open-innovation
+36	 Ibid.
+37	 Turning data into value: How top Chief Data Officers deliver outsize results while spending less. 
+The Global C-suite Study Series. 27th Edition. IBM Institute for Business Value. March 2023. 
+https://ibm.co/c-suite-study-cdo
+© Copyright IBM Corporation 2023
+国际商业机器（中国）有限公司 
+北京市朝阳区金和东路 20 号院 3 号楼 
+正大中心南塔 
+层 
+美国出品 | 2023 年 12 
+邮编：100020
+1
+s
+2
+gpjbg
+月
+IBM、IBM 徽标、ibm.com 和 Watson 是 International Business Machines Corporation 在世界各地司法辖
+区的注册商标。其他产品和服务名称可能是 IBM 或其他公司的商标。以下 Web 站点上的 “Copyright and 
+trademark information” 部分中包含了 IBM 商标的最新列表：ibm.com/legal/copytrade.shtml。
+本文档为自最初公布日期起的最新版本，IBM 可能随时对其进行更改。IBM 并不一定在开展业务的所有国
+家或地区提供所有产品或服务。
+本文档内的信息“按现状”提供，不附有任何种类的（无论是明示的还是默示的）保证，包括不附有关于
+适销性、适用于某种特定用途的任何保证以及非侵权的任何保证或条件。IBM 产品根据其提供时所依据的
+协议条款和条件获得保证。
+本报告的目的仅为提供通用指南。它并不旨在代替详尽的研究或专业判断依据。由于使用本出版物对任何
+企业或个人所造成的损失，IBM 概不负责。
+本报告中使用的数据可能源自第三方，IBM 并未对其进行独立核实、验证或审查。此类数据的使用结果均
+为“按现状”提供，IBM 不作出任何明示或默示的声明或保证。

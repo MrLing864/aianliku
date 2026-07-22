@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0148",
+  "version": 1,
+  "slug": "case-2025-0148",
+  "title": "面向电力设计审查的多模态智能审图平台应用",
+  "organization": {
+    "id": "org-0148",
+    "name": "烟台海颐软件股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "烟台海颐软件股份有限公司研发面向电力设计审查的多模态智能审图平台，基于多模态大模型底座，通过海量电力专业图纸训练，实现从“逐页核对”到“一键审核”，并联合广州供电局建设“智慧业扩多模态自动审核与知识辅助应用”，相关技术获电力图纸审核专利（动态规则引擎与多目标审核任务分解）。",
+  "background": "海颐软件专注电力、电子政务等行业信息化咨询、设计与实施服务。",
+  "problem": "电力设计/业扩图纸审核存在多页、多类信息与多重依据，传统人工“逐页核对”慢且易错、一致性差。",
+  "solution": "基于多模态大模型底座的智能审图平台，采用动态规则引擎与多目标审核任务分解，实现自动审核与知识辅助。",
+  "implementationSteps": [
+    "构建多模态大模型底座与电力图纸训练集",
+    "研发动态规则引擎与多目标审核任务分解方法",
+    "在供电局业扩审图场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "电力规则动态更新、复杂图纸的审核准确率。",
+  "editorComment": {
+    "suitableFor": "电力设计/业扩图纸智能审核",
+    "prerequisites": "具备电力图纸与规则库积累",
+    "priority": "建议优先",
+    "text": "多模态大模型+规则引擎的电力审图范式。"
+  },
+  "implementers": [
+    {
+      "name": "烟台海颐软件股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-haiyi-1",
+      "title": "【喜报】烟台唯一！海颐软件入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://news.10jqka.com.cn/20260702/c677888996.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证多模态智能审图平台。",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "publicId": "src-haiyi-2",
+      "title": "入选AIIA人工智能先锋案例：海颐软件以多模态智能体赋能智慧业扩",
+      "sourceType": "news",
+      "publisher": "知乎",
+      "originalUrl": "https://zhuanlan.zhihu.com/p/2047256538599920531",
+      "accessibility": "available",
+      "rightsNote": "行业报道，佐证联合广州供电局的智慧业扩多模态审核应用。",
+      "publishedAt": "2026-06-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工核对慢",
+    "易错",
+    "一致性差"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "动态规则引擎"
+  ],
+  "modelStack": [
+    "多模态智能审图平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能审图",
+    "多模态大模型",
+    "电力设计",
+    "知识辅助"
+  ],
+  "seo": {
+    "metaTitle": "面向电力设计审查的多模态智能审图平台应用",
+    "metaDescription": "面向电力设计审查的多模态智能审图平台应用",
+    "keywords": [
+      "烟台海颐软件股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

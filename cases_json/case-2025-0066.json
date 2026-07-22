@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0066",
+  "version": 1,
+  "slug": "case-2025-0066",
+  "title": "铝土矿成分实时在线 AI 分析应用",
+  "organization": {
+    "id": "org-0066",
+    "name": "中铝郑州有色金属研究院有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "有色金属",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中铝郑州有色金属研究院自主研发'铝土矿成分实时在线AI分析应用'，攻克氧化铝生产中铝土矿成分检测滞后、效率低的难题，实现检测效率与精度的双重提升。",
+  "background": "氧化铝生产中铝土矿成分检测长期依赖实验室离线分析，滞后且效率低，影响配矿与工艺控制。",
+  "problem": "铝土矿成分检测滞后、效率低，制约氧化铝生产实时配矿与工艺优化。",
+  "solution": "中铝郑州研究院自主研发'铝土矿成分实时在线AI分析应用'技术及装备，成功攻克氧化铝生产过程中铝土矿成分检测滞后、效率低下的难题，实现检测效率与精度的双重提升，支撑生产实时调控。",
+  "implementationSteps": [
+    "自主研发铝土矿成分实时在线AI分析技术",
+    "攻克成分检测滞后与效率低难题",
+    "实现检测效率与精度双重提升",
+    "支撑氧化铝生产实时调控"
+  ],
+  "duration": "2026年4月研发成功",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "在线检测受原料波动与现场环境干扰；模型需持续校准。",
+  "editorComment": {
+    "suitableFor": "氧化铝/有色冶炼企业原料成分在线检测",
+    "prerequisites": "具备在线采样与检测条件",
+    "priority": "建议优先",
+    "text": "铝土矿成分实时在线AI分析，破解检测滞后，适合有色冶炼参考。"
+  },
+  "implementers": [
+    {
+      "name": "中铝郑州有色金属研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ly-1",
+      "title": "郑州研究院'铝土矿成分实时在线AI分析应用'技术取得突破",
+      "sourceType": "news",
+      "publisher": "中国有色金属报",
+      "originalUrl": "https://news.cnal.com/2026/04-27/1777282314662721.shtml",
+      "publishedAt": "2026-04-27",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ly-2",
+      "title": "AI检测装备实时分析铝土矿成分",
+      "sourceType": "news",
+      "publisher": "北京市科委",
+      "originalUrl": "http://kjj.cbs.gov.cn/sy/kjcgzh/202604/t20260420_871835.html",
+      "publishedAt": "2026-04-20",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "检测滞后",
+    "成分精度",
+    "工艺调控"
+  ],
+  "painPointNarrative": "",
+  "highlight": "铝土矿成分实时在线AI分析，效率精度双提升",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "在线AI分析",
+    "成分检测",
+    "有色冶炼"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "有色金属",
+    "在线检测"
+  ],
+  "seo": {
+    "metaTitle": "中铝郑州有色金属研究院 铝土矿成分实时在线AI分析应用",
+    "metaDescription": "中铝郑州研究院自主研发铝土矿成分实时在线AI分析，攻克检测滞后难题，效率精度双提升。",
+    "keywords": [
+      "中铝郑州研究院",
+      "铝土矿",
+      "在线AI分析",
+      "氧化铝"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国铝业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

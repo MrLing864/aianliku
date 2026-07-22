@@ -1,0 +1,119 @@
+{
+  "id": "case-2025-0131",
+  "version": 1,
+  "slug": "case-2025-0131",
+  "title": "面向企业级开发的代码智能生成助手应用",
+  "organization": {
+    "id": "org-0131",
+    "name": "金航数码科技有限责任公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "金航数码科技有限责任公司（航空工业集团旗下）研发面向企业级开发的代码智能生成助手，依托其“咨询+软件+系统”三大业务群与金航业务基础平台，提升航空等复杂装备工业领域的软件开发效率。",
+  "background": "金航数码科技有限责任公司是中国航空工业集团（航空工业）的信息化专业支撑团队，长期服务于航空工业科研生产数字化。其“面向企业级开发的代码智能生成助手应用”由航空工业集团推荐入选工信部2025人工智能应用典型案例（产品应用方向）。",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "金航数码科技有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jh-1",
+      "title": "金航数码科技有限责任公司官网",
+      "sourceType": "official",
+      "publisher": "金航数码",
+      "originalUrl": "https://www.avic-digital.com/index.shtml",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证金航数码 AI 与软件业务布局。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "代码智能生成",
+    "企业级开发",
+    "航空工业"
+  ],
+  "seo": {
+    "metaTitle": "面向企业级开发的代码智能生成助手应用",
+    "metaDescription": "面向企业级开发的代码智能生成助手应用",
+    "keywords": [
+      "金航数码科技有限责任公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国航空工业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,174 @@
+{
+  "id": "case-2025-0183",
+  "version": 1,
+  "slug": "case-2025-0183",
+  "title": "基于全国首个能源电力行业垂直大模型（大瓦特）的电网智能巡检应用",
+  "organization": {
+    "id": "org-0183",
+    "name": "广西电网有限责任公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广西电网有限责任公司基于南方电网'大瓦特'（全国首个能源电力行业垂直大模型）开展电网智能巡检应用，自发布行业首个输电人工智能大模型并在 14 个供电局推广，识别图片超 250 万张、单日分析机巡照片超 7 万张，实现巡检效率数量级提升。",
+  "background": "'大瓦特'是南方电网 2023 年发布的电力行业大模型，基于国产算力集群（华为昇腾）与国产训练框架（MindSpore）自主研发；广西电网自 2024 年 1 月发布行业首个输电人工智能大模型并推广应用。",
+  "problem": "传统人工巡检效率低、工作量大，海量机巡照片人工核查耗时巨大。",
+  "solution": "以输电人工智能大模型自动识别机巡照片缺陷，构建智能巡检能力并在全网供电局规模推广。",
+  "implementationSteps": [
+    "发布行业首个输电人工智能大模型",
+    "在 14 个供电局推广应用",
+    "实现机巡照片自动识别与缺陷分析"
+  ],
+  "duration": "2024 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "人工核查单张照片耗时",
+      "value": "约 30 秒",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-dawat-1"
+    },
+    {
+      "label": "AI 识别单张照片耗时",
+      "value": "约 80 毫秒",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-dawat-1"
+    },
+    {
+      "label": "累计识别图片",
+      "value": "超 250 万张",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-dawat-2"
+    }
+  ],
+  "roi": "",
+  "risks": "缺陷样本不均衡、复杂背景下的识别准确率。",
+  "editorComment": {
+    "suitableFor": "电网输电线路智能巡检",
+    "prerequisites": "具备机巡影像与算力基础",
+    "priority": "建议优先",
+    "text": "电力垂直大模型巡检标杆，效率数量级提升。"
+  },
+  "implementers": [
+    {
+      "name": "广西电网有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-dawat-1",
+      "title": "让大瓦特更大更强",
+      "sourceType": "news",
+      "publisher": "南方电网",
+      "originalUrl": "https://www.csg.cn/xwzx/2024/gsyw/202408/t20240820_342231.html",
+      "accessibility": "available",
+      "rightsNote": "企业官方报道，佐证识别耗时与效率。",
+      "publishedAt": "2024-08-20"
+    },
+    {
+      "publicId": "src-dawat-2",
+      "title": "解密“大瓦特”",
+      "sourceType": "news",
+      "publisher": "南方电网报",
+      "originalUrl": "https://www.csg.cn/epaper/epaper/nfdwb/html/2024-06/12/content_1958.htm",
+      "accessibility": "available",
+      "rightsNote": "企业报道，佐证识别图片规模与推广。",
+      "publishedAt": "2024-06-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工巡检效率低",
+    "照片核查耗时大"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "电力垂直大模型",
+    "计算机视觉"
+  ],
+  "modelStack": [
+    "大瓦特输电人工智能大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "大瓦特",
+    "电网智能巡检",
+    "输电大模型"
+  ],
+  "seo": {
+    "metaTitle": "基于全国首个能源电力行业垂直大模型（大瓦特）的电网智能巡检应用",
+    "metaDescription": "基于全国首个能源电力行业垂直大模型（大瓦特）的电网智能巡检应用",
+    "keywords": [
+      "广西电网有限责任公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国南方电网有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

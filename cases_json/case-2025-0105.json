@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0105",
+  "version": 1,
+  "slug": "case-2025-0105",
+  "title": "人工智能赋能集成电路物料智能传输",
+  "organization": {
+    "id": "org-0105",
+    "name": "华芯（嘉兴）智能装备有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "华芯（嘉兴）智能装备有限公司专注于 AMHS（自动物料搬送系统）、晶圆自动化搬运设备（EFEM/Sorter）及其关键零部件的自主研发，为泛半导体制造提供智能化物料传输解决方案，是国产半导体 AMHS 天车系统的重要供应商。",
+  "background": "华芯智能成立于 2021 年，专注半导体 AMHS 自动化物料传送系统与晶圆自动化搬运设备研发制造；其第四代 OHT（天车）已实车展出，并通过中国半导体行业协会组织的技术成果鉴定。",
+  "problem": "集成电路制造中晶圆/物料传输依赖进口 AMHS，规模化调度效率与国产化程度不足。",
+  "solution": "以人工智能技术推动晶圆传输实现超大规模智能调度，自研 AMHS（自动化物料传送系统）与物料调度控制系统，采用先进路径规划与实时调度策略，实现国产替代。",
+  "implementationSteps": [
+    "自主研发 AMHS 与晶圆自动化搬运设备",
+    "构建物料调度控制系统与路径规划算法",
+    "以 AI 实现超大规模晶圆传输智能调度",
+    "在半导体前道制造场景落地国产替代"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "超大规模调度稳定性、与不同产线工艺系统集成。",
+  "editorComment": {
+    "suitableFor": "集成电路制造 AMHS 智能物流",
+    "prerequisites": "具备半导体产线与物料系统基础",
+    "priority": "建议优先",
+    "text": "半导体 AMHS 国产替代与 AI 智能调度的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "华芯（嘉兴）智能装备有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hx-1",
+      "title": "华芯（嘉兴）智能装备有限公司-官网",
+      "sourceType": "official",
+      "publisher": "华芯智能",
+      "originalUrl": "https://www.hxamhs.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 AMHS 国产替代与自主研发定位。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-hx-2",
+      "title": "嘉兴“智造尖兵”闪耀全省（应用人工智能技术推动晶圆传输超大规模智能调度）",
+      "sourceType": "news",
+      "publisher": "搜狐（嘉兴日报）",
+      "originalUrl": "https://www.sohu.com/a/936033395_122014422",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证 AI 晶圆传输超大规模智能调度。",
+      "publishedAt": "2025-09-18"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖进口",
+    "调度效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能调度",
+    "路径规划"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "半导体",
+    "AMHS",
+    "晶圆传输",
+    "智能调度"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能集成电路物料智能传输",
+    "metaDescription": "人工智能赋能集成电路物料智能传输",
+    "keywords": [
+      "华芯（嘉兴）智能装备有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

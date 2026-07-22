@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0257",
+  "version": 1,
+  "slug": "case-2025-0257",
+  "title": "飞行风险管控智能体应用",
+  "organization": {
+    "id": "org-0257",
+    "name": "南航数智科技（广东）有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国南方航空集团有限公司围绕安全运行布局 39 个人工智能重点方向、100 多个人工智能场景，以'天瞳'风险预测系统汇聚发动机样本数据与百万段 QAR 飞行数据，为 14 家航司 120 台发动机提供风险检测服务，并构建'天盾'安全大模型强化飞行风险管控。",
+  "background": "南航统筹推进安全运行、营销服务、综合管理三大 AI 布局，'天瞳'为兼容主流机型的飞机健康诊断平台；针对发动机高压涡轮叶片裂纹断裂风险打造风险预测系统。",
+  "problem": "飞行安全风险隐蔽、发动机故障后果严重，传统监控难以及早发现隐患。",
+  "solution": "以天瞳风险预测系统融合样本与 QAR 飞行数据实现发动机风险检测，并以天盾安全大模型强化飞行风险主动管控。",
+  "implementationSteps": [
+    "布局 39 个 AI 重点方向与 100+ 场景",
+    "研发天瞳风险预测系统并接入 QAR 数据",
+    "构建天盾安全大模型强化飞行风险管控"
+  ],
+  "duration": "持续布局",
+  "cost": "",
+  "results": [
+    {
+      "label": "AI 重点方向/场景",
+      "value": "39 个方向 / 100+ 场景",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-csair-1"
+    },
+    {
+      "label": "天瞳服务航司/发动机",
+      "value": "14 家航司 / 120 台",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-csair-1"
+    }
+  ],
+  "roi": "",
+  "risks": "飞行数据质量、模型在安全关键场景的可解释性。",
+  "editorComment": {
+    "suitableFor": "民航飞行安全风险主动管控",
+    "prerequisites": "具备 QAR 飞行数据与机务系统",
+    "priority": "建议优先",
+    "text": "天瞳+天盾，民航安全 AI 范式。"
+  },
+  "implementers": [
+    {
+      "name": "南航数智科技（广东）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-csair-1",
+      "title": "南航“民航运输安全管理数据集”获授牌",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://new.qq.com/rain/a/20260718A08G4Y00",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 39 方向/100+ 场景与天瞳服务规模。",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "publicId": "src-csair-2",
+      "title": "南航创新智能维修模型:提升飞机安全性的未来之路",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/833910871_121924584",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证天瞳系统与智能维修模型。",
+      "publishedAt": "2024-12-06"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "飞行安全隐患隐蔽",
+    "故障后果严重"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "安全大模型",
+    "预测性维护"
+  ],
+  "modelStack": [
+    "天瞳风险预测系统",
+    "天盾安全大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "飞行风险管控",
+    "天瞳",
+    "天盾安全大模型",
+    "南航"
+  ],
+  "seo": {
+    "metaTitle": "飞行风险管控智能体应用",
+    "metaDescription": "飞行风险管控智能体应用",
+    "keywords": [
+      "南航数智科技（广东）有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国南方航空集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,151 @@
+{
+  "id": "case-2025-0240",
+  "version": 1,
+  "slug": "case-2025-0240",
+  "title": "跨场景多任务群体具身智能协同应用",
+  "organization": {
+    "id": "org-0240",
+    "name": "四川九洲软件有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由四川九洲软件有限公司申报的“跨场景多任务群体具身智能协同应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），系绵阳市“产品应用”类目唯一上榜企业，由四川省经济和信息化厅推荐。该应用针对复杂场景下无人化协同作业与智能管控需求，构建“一脑多控”软硬件一体化协同智控平台，集成机器狗、无人机、复合机器人等多类型具身终端，实现跨场景多任务群体协同作业。",
+  "background": "四川九洲软件有限公司隶属四川九洲集团，长期深耕军工电子、智能装备与行业软件。面向复杂作业场景对无人化、协同化智能管控的需求，公司研发跨场景多任务群体具身智能协同应用系统。",
+  "problem": "在巡检、应急处置等复杂场景中，单一自动化设备难以应对多类型终端（机器狗、无人机、复合机器人）的协同作业与跨场景任务调度，亟需“一脑多控”的集中智控能力。",
+  "solution": "构建“一脑多控”软硬件一体化协同智控平台，集成机器狗、无人机、复合机器人等多类型具身终端，通过统一大脑进行任务规划与协同调度，实现跨场景、多任务的群体具身智能协同作业与智能管控。",
+  "implementationSteps": [
+    "梳理巡检、应急处置等典型复杂场景的作业流程与终端类型。",
+    "研发“一脑多控”协同智控平台，统一接入机器狗、无人机、复合机器人等具身终端。",
+    "基于任务规划与协同调度算法实现跨场景多任务群体协同。",
+    "在实际场景中部署应用，形成可推广的“九洲方案”。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "入选级别",
+      "value": "国家级",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-miit-340"
+    },
+    {
+      "label": "区域唯一性",
+      "value": "绵阳产品应用类目唯一上榜",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-news-0240"
+    }
+  ],
+  "roi": "",
+  "risks": "多类型具身终端协同对通信时延与可靠性要求高，需在复杂环境下保障链路稳定；同时需关注人机安全与自主决策的边界控制。",
+  "editorComment": {
+    "suitableFor": "巡检、安防、应急处置等需要多类型机器人协同的复杂场景。",
+    "prerequisites": "具备机器狗、无人机、复合机器人等具身终端与通信网络基础。",
+    "priority": "high",
+    "text": "“一脑多控”群体具身智能协同是具身智能规模化落地的重要方向，九洲软件为绵阳唯一上榜企业，具备示范价值。"
+  },
+  "implementers": [
+    {
+      "name": "四川九洲软件有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0240",
+      "title": "《2025年人工智能应用典型案例》名单公布 九洲软件应用系统入选",
+      "sourceType": "media",
+      "publisher": "绵阳新闻网",
+      "originalUrl": "http://www.myrb.net/html/2026/news/6/450270.html",
+      "externalId": "",
+      "publishedAt": "2026-06-28",
+      "accessibility": "available",
+      "rightsNote": "绵阳新闻网报道九洲软件“跨场景多任务群体具身智能协同应用系统”入选工信部2025年人工智能应用典型案例，并披露“一脑多控”平台与多终端集成细节。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "多智能体协同",
+    "任务规划"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "群体具身智能",
+    "一脑多控",
+    "机器狗",
+    "无人机",
+    "智能管控"
+  ],
+  "seo": {
+    "metaTitle": "跨场景多任务群体具身智能协同应用",
+    "metaDescription": "跨场景多任务群体具身智能协同应用",
+    "keywords": [
+      "四川九洲软件有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

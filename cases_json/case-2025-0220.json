@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0220",
+  "version": 1,
+  "slug": "case-2025-0220",
+  "title": "数字孪生技术驱动的压水堆堆芯运行支持系统实践",
+  "organization": {
+    "id": "org-0220",
+    "name": "核电运行研究（上海）有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "核电运行研究（上海）有限公司（中国核电旗下、核电运维数智化转型“尖兵”）自主研发的“数字孪生技术驱动的压水堆堆芯运行支持系统”入选工信部 2025 年人工智能应用典型案例。系统以数字孪生连接物理堆芯与虚拟模型，融合堆芯状态监测与分析，指导和优化反应堆运行，提升核电机组运行业绩与安全水平。",
+  "background": "",
+  "problem": "压水堆堆芯功率分布与关键安全参数监测复杂，传统运行支持难以实时、精准指导反应堆运行优化。",
+  "solution": "构建数字孪生技术驱动的压水堆堆芯运行支持系统，以堆芯在线监测+数字孪生+AI 分析实现堆芯状态实时监测、分析与运行优化。",
+  "implementationSteps": [
+    "建立压水堆堆芯数字孪生模型",
+    "融合堆芯在线监测与关键安全参数分析",
+    "以 AI 支持堆芯运行优化与故障诊断",
+    "在核电机组运行支持中应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "核安全高可靠要求、模型与实堆一致性验证。",
+  "editorComment": {
+    "suitableFor": "核电堆芯数字孪生运行支持与优化",
+    "prerequisites": "具备核电运维与数字孪生能力",
+    "priority": "建议优先",
+    "text": "数字孪生+AI 赋能核电堆芯运行的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "核电运行研究（上海）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-220-1",
+      "title": "中国核电成果入选工信部2025年人工智能应用典型案例（核电运行研究院 数字孪生压水堆堆芯运行支持系统）",
+      "sourceType": "news",
+      "publisher": "中国核能行业协会（cinie.net）",
+      "originalUrl": "https://www.cinie.net/article/56217.html",
+      "accessibility": "available",
+      "rightsNote": "行业协会报道，佐证案例入选与系统内容。",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "publicId": "src-220-2",
+      "title": "核电运行研究院：核电运维数智化转型的一支“尖兵”",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://www.xinhuanet.com/energy/20241125/ed6367a11ed44b41a2baaf5173e84120/c.html",
+      "accessibility": "available",
+      "rightsNote": "新华网报道，佐证公司定位与核电数智化能力。",
+      "publishedAt": "2024-11-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "堆芯监测复杂",
+    "运行优化难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数字孪生",
+    "堆芯在线监测"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中国核电",
+    "核电运行研究院",
+    "数字孪生",
+    "堆芯运行支持"
+  ],
+  "seo": {
+    "metaTitle": "数字孪生技术驱动的压水堆堆芯运行支持系统实践",
+    "metaDescription": "数字孪生技术驱动的压水堆堆芯运行支持系统实践",
+    "keywords": [
+      "核电运行研究（上海）有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国核工业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,173 @@
+{
+  "id": "case-2025-0090",
+  "version": 1,
+  "slug": "case-2025-0090",
+  "title": "吉利集团汽车制造全链数智化改造实践",
+  "organization": {
+    "id": "org-0090",
+    "name": "广域铭岛数字科技有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广域铭岛以'Geega工业AI智能体'赋能吉利集团汽车制造全链数智化改造，覆盖研发设计、工艺开发、生产制造等全流程，已助力吉利18个基地实现'零停线'设备智能运维，生产效率提升15%。",
+  "background": "汽车制造链条长、基地多，设备运维与全流程协同是降本增效关键。",
+  "problem": "汽车制造多基地协同难、设备运维被动停线，全流程AI转型落地慢。",
+  "solution": "广域铭岛基于自研AI产品和服务体系，为吉利汽车产业链提供覆盖研发设计、工艺开发、生产制造等全流程的AI转型服务；以Geega工业AI智能体（各类数字化员工矩阵）融合EAM、MES、IoT等系统形成AI知识库，已在吉利18个基地实现'零停线'设备智能运维体系落地，整体生产效率提升15%。",
+  "implementationSteps": [
+    "构建Geega工业AI智能体与数字化员工矩阵",
+    "覆盖研发设计/工艺开发/生产制造全流程",
+    "融合EAM/MES/IoT形成AI知识库",
+    "吉利18基地实现零停线设备智能运维"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "零停线设备智能运维基地",
+      "value": "18",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-gy-1"
+    },
+    {
+      "label": "生产效率提升",
+      "value": "15",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-gy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "多基地、多系统集成的复杂度高；工业AI需与现场工艺深度适配。",
+  "editorComment": {
+    "suitableFor": "汽车及离散制造企业的全链数智化改造",
+    "prerequisites": "具备MES/EAM/IoT等系统基础",
+    "priority": "建议优先",
+    "text": "Geega工业AI智能体赋能汽车全链，18基地零停线、效率+15%，适合推广。"
+  },
+  "implementers": [
+    {
+      "name": "广域铭岛数字科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gy-1",
+      "title": "国家级案例！两江新区这5项AI成果入选（广域铭岛吉利全链数智化）",
+      "sourceType": "news",
+      "publisher": "微信公众号",
+      "originalUrl": "https://mp.weixin.qq.com/s?__biz=MzA4NzA0MDA5Ng==&mid=2650528766&idx=1&sn=27793b31e538f81776d2c003ff23eecc",
+      "publishedAt": "2026-07-07",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gy-2",
+      "title": "当47%的企业还在试验 广域铭岛已用工业AI交出了真实效益账本",
+      "sourceType": "news",
+      "publisher": "百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1867031486369514125",
+      "publishedAt": "2026-06-04",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gy-3",
+      "title": "汽车制造流程优化：广域铭岛赋能下的数字化转型实践",
+      "sourceType": "official",
+      "publisher": "广域铭岛",
+      "originalUrl": "https://www.geega.com/news/959",
+      "publishedAt": "2025-06-26",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多基地协同",
+    "设备停线",
+    "全流程转型"
+  ],
+  "painPointNarrative": "",
+  "highlight": "Geega工业AI赋能吉利全链，18基地零停线、效率+15%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业AI智能体",
+    "全链数智化",
+    "设备运维"
+  ],
+  "modelStack": [
+    "Geega工业AI智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "汽车制造",
+    "工业AI智能体"
+  ],
+  "seo": {
+    "metaTitle": "广域铭岛 吉利集团汽车制造全链数智化改造实践",
+    "metaDescription": "广域铭岛Geega工业AI智能体赋能吉利汽车全链数智化，18基地零停线、效率提升15%。",
+    "keywords": [
+      "广域铭岛",
+      "吉利",
+      "Geega工业AI",
+      "汽车数智化"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

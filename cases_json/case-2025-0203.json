@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0203",
+  "version": 1,
+  "slug": "case-2025-0203",
+  "title": "储充换一体化路侧特色补能网络实践",
+  "organization": {
+    "id": "org-0203",
+    "name": "四川航电微能源有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "通信",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "四川航电微能源有限公司（航微能源，成都，以电力电子技术为根基的新型电力系统核心设备提供商）“储充换一体化路侧特色补能网络实践”入选工信部 2025 年人工智能应用典型案例（产品应用方向）。公司自研 AI 算法平台，融合分布式能源资源与虚拟电厂能力，构建储充换一体化路侧补能网络。",
+  "background": "路侧补能网络需兼顾储能、充电与电网互动。",
+  "problem": "新能源汽车补能网络分散、储充换协同不足，路侧能源资源难以智能聚合与调度。",
+  "solution": "构建储充换一体化路侧特色补能网络，以自研 AI 算法平台聚合分布式能源资源、结合虚拟电厂实现能源协同与智能调度。",
+  "implementationSteps": [
+    "建设储充换一体化路侧补能网络",
+    "自研 AI 算法平台聚合分布式能源资源",
+    "以虚拟电厂实现能源协同与调度",
+    "在路侧补能场景规模化落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "分布式资源协同稳定性、补能网络运营模式。",
+  "editorComment": {
+    "suitableFor": "路侧储充换补能网络与虚拟电厂",
+    "prerequisites": "具备电力电子与能源聚合能力",
+    "priority": "建议评估",
+    "text": "AI+虚拟电厂赋能储充换补能网络的实践。"
+  },
+  "implementers": [
+    {
+      "name": "四川航电微能源有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-203-1",
+      "title": "工信部公示人工智能应用典型案例 16家成都企业案例拟入选（含航电微能源储充换一体化路侧补能网络）",
+      "sourceType": "government_notice",
+      "publisher": "成都市人民政府",
+      "originalUrl": "https://www.chengdu.gov.cn/cdsrmzf/c169603/2026-06/29/content_0aba80458801457bb348b81f6142aea9.shtml",
+      "accessibility": "available",
+      "rightsNote": "政府发布，佐证案例入选产品应用方向。",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "publicId": "src-203-2",
+      "title": "航微能源 - 绿色智慧能源服务商（自研AI算法平台、虚拟电厂）",
+      "sourceType": "official",
+      "publisher": "四川航电微能源",
+      "originalUrl": "https://aeme.com.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证自研 AI 算法平台与虚拟电厂能力。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "补能分散",
+    "协同不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI算法平台",
+    "虚拟电厂"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "航微能源",
+    "储充换",
+    "补能网络",
+    "虚拟电厂"
+  ],
+  "seo": {
+    "metaTitle": "储充换一体化路侧特色补能网络实践",
+    "metaDescription": "储充换一体化路侧特色补能网络实践",
+    "keywords": [
+      "四川航电微能源有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

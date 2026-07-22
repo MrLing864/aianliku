@@ -1,0 +1,157 @@
+{
+  "id": "case-2025-0006",
+  "version": 1,
+  "slug": "case-2025-0006",
+  "title": "智算云平台在人工智能应用中试基地中的应用",
+  "organization": {
+    "id": "org-0006",
+    "name": "广电运通集团股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广电运通'运通智算云'平台在人工智能应用中试基地中应用，聚焦AI应用场景，构建国产算力基础设施与AI软件平台等'共性支撑能力'，自研望道大模型，提供一站式一云多算、多云纳管。",
+  "background": "人工智能应用中试基地需要共性技术支撑平台，降低中小企业AI应用验证与转化门槛。",
+  "problem": "AI应用从中试到产业化缺乏共性支撑平台；异构算力（通算/智算）统一管理与调度困难；中小企业AI应用验证成本高。",
+  "solution": "广电运通中标人工智能应用中试基地软硬件建设项目（合计3.08亿元，软件2.05亿、硬件1.03亿），聚焦AI应用场景，构建'共性支撑能力'（国产算力基础设施与AI软件平台）；自研望道大模型及运通智算云平台，具备对通算和智算的多元异构能力，提供一站式一云多算、多云纳管的产品及解决方案。",
+  "implementationSteps": [
+    "中标人工智能应用中试基地软硬件建设项目（3.08亿元）",
+    "构建国产算力基础设施与AI软件平台共性支撑能力",
+    "自研望道大模型及运通智算云平台",
+    "实现一云多算、多云纳管的异构算力统一调度"
+  ],
+  "duration": "",
+  "cost": "3.08亿元（软件2.05亿元、硬件1.03亿元）",
+  "results": [
+    {
+      "label": "中试基地项目中标金额",
+      "value": "3.08",
+      "unit": "亿元",
+      "kind": "actual",
+      "sourceId": "src-gd-1"
+    }
+  ],
+  "roi": "",
+  "risks": "项目投入大、回收周期长；需持续验证中试成果向产业转化的实效。",
+  "editorComment": {
+    "suitableFor": "地方政府/园区建设中试基地、公共服务平台，以及需要异构算力统一管理的企业",
+    "prerequisites": "具备中试基地资质与算力基础设施投资能力",
+    "priority": "条件具备后开展",
+    "text": "中试基地'共性支撑能力'模式可显著降低中小企业AI验证门槛，适合区域推广。"
+  },
+  "implementers": [
+    {
+      "name": "广电运通集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gd-1",
+      "title": "国家级认可！运通智算云入选'2025年人工智能应用典型案例'",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260720/c678293274.shtml",
+      "publishedAt": "2026-07-20",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gd-2",
+      "title": "广电运通集团股份有限公司 投资者关系活动记录表",
+      "sourceType": "disclosure",
+      "publisher": "巨潮资讯",
+      "originalUrl": "https://static.cninfo.com.cn/finalpage/2026-06-18/1225377334.PDF",
+      "publishedAt": "2026-06-18",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "中试转化",
+    "异构算力",
+    "AI验证门槛"
+  ],
+  "painPointNarrative": "",
+  "highlight": "自研望道大模型+运通智算云，一云多算、多云纳管",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智算云平台",
+    "异构算力调度",
+    "中试基地"
+  ],
+  "modelStack": [
+    "望道大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智算云",
+    "中试基地"
+  ],
+  "seo": {
+    "metaTitle": "广电运通 智算云平台在人工智能应用中试基地中的应用",
+    "metaDescription": "广电运通运通智算云落地中试基地，自研望道大模型，提供一云多算、多云纳管。",
+    "keywords": [
+      "广电运通",
+      "运通智算云",
+      "望道大模型",
+      "中试基地"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "case-2025-0147",
+  "version": 1,
+  "slug": "case-2025-0147",
+  "title": "球团工厂人工智能生产应用",
+  "organization": {
+    "id": "org-0147",
+    "name": "辽宁数智矿业科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "辽宁数智矿业科技有限公司（鞍钢集团旗下）依托天石工业互联网平台，在球团工厂部署 DeepSeek 32B 大模型实现球团生成工艺中设备部件缺失识别、稳定球团生产质量并提升产能，并推出“天石至简”矿业知识库应用，推进弓球二线黑灯工厂、ERP 国产化等智慧矿山建设。",
+  "background": "辽宁数智矿业由鞍钢资源、沈阳中科奥维、鞍钢集团矿业设计研究院于 2023 年合资成立，旨在推动矿业数字化升级改造与智慧矿山建设。",
+  "problem": "球团生产质量波动、设备部件缺失识别依赖人工，矿山管理效率待提升。",
+  "solution": "部署 DeepSeek 32B 实现球团工艺设备部件缺失识别；依托运营商云算力推出“天石至简”矿业知识库，提升办公与工艺效率。",
+  "implementationSteps": [
+    "2025-01 部署 DeepSeek 32B 实现球团工艺设备部件缺失识别",
+    "2025-02 推出“天石至简”矿业知识库（云算力）",
+    "推进弓球二线黑灯工厂、ERP 国产化项目"
+  ],
+  "duration": "2025 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "部署模型",
+      "value": "DeepSeek 32B",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-lnsz-1"
+    }
+  ],
+  "roi": "",
+  "risks": "大模型在工艺场景的可靠性、矿山数据安全保障。",
+  "editorComment": {
+    "suitableFor": "矿山/球团生产智能化与知识管理",
+    "prerequisites": "具备工业互联网平台与算力基础",
+    "priority": "建议优先",
+    "text": "矿业大模型落地的央企子公司范式。"
+  },
+  "implementers": [
+    {
+      "name": "辽宁数智矿业科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-lnsz-1",
+      "title": "对市政协十五届四次会议第081号提案的答复",
+      "sourceType": "government_record",
+      "publisher": "鞍山市数据局",
+      "originalUrl": "http://xzspj.anshan.gov.cn/html/ASSPJ/202507/0175143360378993.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府提案答复，佐证 DeepSeek 32B 球团应用与天石至简知识库。",
+      "publishedAt": "2025-07-02"
+    },
+    {
+      "publicId": "src-lnsz-2",
+      "title": "展示创新成果！鞍山3家企业亮相数字中国建设峰会",
+      "sourceType": "news",
+      "publisher": "微信公众号",
+      "originalUrl": "https://mp.weixin.qq.com/s?__biz=MzA4NTY3NzUyNQ==&mid=2659946407&idx=1&sn=2eda08e43cf0a91cc7fba5a402c94797",
+      "accessibility": "available",
+      "rightsNote": "展会报道，佐证天石工业互联网平台与矿山数智化方案。",
+      "publishedAt": "2025-05-15"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "质量波动",
+    "人工识别"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业大模型",
+    "工业互联网",
+    "知识库"
+  ],
+  "modelStack": [
+    "DeepSeek 32B 球团工艺识别",
+    "天石至简知识库"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "球团",
+    "智慧矿山",
+    "DeepSeek",
+    "天石工业互联网"
+  ],
+  "seo": {
+    "metaTitle": "球团工厂人工智能生产应用",
+    "metaDescription": "球团工厂人工智能生产应用",
+    "keywords": [
+      "辽宁数智矿业科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "辽宁省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0256",
+  "version": 1,
+  "slug": "case-2025-0256",
+  "title": "百度智能云营销智能体应用",
+  "organization": {
+    "id": "org-0256",
+    "name": "北京百度网讯科技有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-service",
+      "name": "智能客服与营销",
+      "slug": "scn-service",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京百度网讯科技有限公司以'百度智能云营销智能体'构建全周期 AI 营销解决方案，覆盖广告投放、内容生成、客户洞察与转化等营销全链路，并以智能体+数字人驱动企业营销增长。",
+  "background": "百度智能云发布 2025 年度十大企业级 AI 智能体案例，营销智能体是其在企业数字化转型中的典型应用，基于千帆等模型底座。",
+  "problem": "企业营销链路长、投放与内容生产依赖人工，转化效率难以提升。",
+  "solution": "以营销智能体实现全周期 AI 营销，结合数字人直播与智能投放，提升营销效率与转化。",
+  "implementationSteps": [
+    "构建百度智能云营销智能体",
+    "打通投放、内容、洞察全链路",
+    "以数字人+智能体驱动增长"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "营销合规、数据隐私与投放效果评估。",
+  "editorComment": {
+    "suitableFor": "企业智能营销与增长",
+    "prerequisites": "具备营销数据与投放渠道",
+    "priority": "建议优先",
+    "text": "全周期 AI 营销智能体，增长可量化。"
+  },
+  "implementers": [
+    {
+      "name": "北京百度网讯科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-baidumkt-1",
+      "title": "全周期AI营销解决方案 - 百度智能云",
+      "sourceType": "official",
+      "publisher": "百度智能云",
+      "originalUrl": "https://cloud.baidu.com/solution/martech/index.html",
+      "accessibility": "available",
+      "rightsNote": "企业官方方案页，佐证全周期 AI 营销。",
+      "publishedAt": "2025-01-01"
+    },
+    {
+      "publicId": "src-baidumkt-2",
+      "title": "百度智能云十大AI智能体应用案例亮相",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1001633454_362225",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证企业级营销智能体案例。",
+      "publishedAt": "2026-03-27"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "营销链路长",
+    "内容生产依赖人工"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能体",
+    "数字人"
+  ],
+  "modelStack": [
+    "百度智能云营销智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "营销智能体",
+    "百度智能云",
+    "全周期营销"
+  ],
+  "seo": {
+    "metaTitle": "百度智能云营销智能体应用",
+    "metaDescription": "百度智能云营销智能体应用",
+    "keywords": [
+      "北京百度网讯科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

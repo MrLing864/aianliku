@@ -1,0 +1,168 @@
+{
+  "id": "case-2025-0106",
+  "version": 1,
+  "slug": "case-2025-0106",
+  "title": "光子智能引擎 OptoChat 辅助光子芯片研发设计",
+  "organization": {
+    "id": "org-0106",
+    "name": "南京南智先进光电集成技术研究院",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "南京南智先进光电集成技术研究院（南智光电）自主研发国内首个光子 AI 智能引擎“OptoChat AI”——面向光子芯片领域的专用大模型，2025 年 3 月上线并面向全球开放，2025 年 5 月正式发布；2026 年 5 月通过中央网信办生成式人工智能服务备案，成为全国首个完成备案的光子领域专用大模型，基于 DeepSeek 等国内顶尖大模型，融合数据分析与智能算法、高精度光通信，辅助光子芯片研发设计。",
+  "background": "南智光电位于南京江北新区，联合知满科技等生态伙伴共同研发 OptoChat AI，是 AI 与光子芯片跨界融合的大胆尝试，也是南京在新质生产力赛道抢跑的关键布局。",
+  "problem": "光子芯片研发依赖复杂物理仿真与设计经验，设计门槛高、周期长。",
+  "solution": "OptoChat AI 光子专用大模型提供光子芯片设计辅助、工艺优化与数据分析，将大模型能力引入光子芯片研发链路。",
+  "implementationSteps": [
+    "联合生态伙伴研发光子芯片专用大模型 OptoChat AI",
+    "2025 年 3 月上线开放、5 月正式发布",
+    "2026 年 5 月通过中央网信办生成式 AI 服务备案"
+  ],
+  "duration": "2024 年底研发，2025 年上线",
+  "cost": "",
+  "results": [
+    {
+      "label": "上线时间",
+      "value": "2025-03",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-nanzhi-1"
+    },
+    {
+      "label": "备案时间",
+      "value": "2026-05",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-nanzhi-1"
+    }
+  ],
+  "roi": "",
+  "risks": "光子领域专业语料稀缺、专用大模型在复杂设计任务中的可靠性。",
+  "editorComment": {
+    "suitableFor": "光子芯片研发设计与工艺优化",
+    "prerequisites": "具备光子芯片研发基础与算力",
+    "priority": "建议优先",
+    "text": "全国首个光子领域备案专用大模型，国产替代价值高。"
+  },
+  "implementers": [
+    {
+      "name": "南京南智先进光电集成技术研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-nanzhi-1",
+      "title": "全国首个光子专用大模型完成国家备案",
+      "sourceType": "news",
+      "publisher": "南京大学",
+      "originalUrl": "https://www.nju.edu.cn/info/1056/471131.htm",
+      "accessibility": "available",
+      "rightsNote": "高校官网，佐证 OptoChat AI 通过国家备案。",
+      "publishedAt": "2026-05-27"
+    },
+    {
+      "publicId": "src-nanzhi-2",
+      "title": "南京江北新区：光子AI智能引擎首发，引领全球光子芯片“新链路”",
+      "sourceType": "news",
+      "publisher": "新华网江苏",
+      "originalUrl": "http://www.js.xinhuanet.com/20250220/f922ef698f2f4ac48993e5145aa299e1/c.html",
+      "accessibility": "available",
+      "rightsNote": "新华网报道，佐证 OptoChat AI 发布与光子芯片定位。",
+      "publishedAt": "2025-02-20"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "设计门槛高",
+    "研发周期长"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂类大模型",
+    "生成式AI"
+  ],
+  "modelStack": [
+    "OptoChat AI 光子专用大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光子芯片",
+    "OptoChat",
+    "专用大模型",
+    "国家备案"
+  ],
+  "seo": {
+    "metaTitle": "光子智能引擎 OptoChat 辅助光子芯片研发设计",
+    "metaDescription": "光子智能引擎 OptoChat 辅助光子芯片研发设计",
+    "keywords": [
+      "南京南智先进光电集成技术研究院",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

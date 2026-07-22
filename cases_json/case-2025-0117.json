@@ -1,0 +1,172 @@
+{
+  "id": "case-2025-0117",
+  "version": 1,
+  "slug": "case-2025-0117",
+  "title": "智能巡检机器人在长距离胶带机场景中的应用",
+  "organization": {
+    "id": "org-0117",
+    "name": "成都人形机器人创新中心有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由成都人形机器人创新中心有限公司申报的“智能巡检机器人在长距离胶带机场景中的应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由四川省经济和信息化厅推荐。该应用以“智成一号”长距离胶带机巡检机器人为载体（由中国电建成都院与成都人形机器人创新中心联合研发），面向矿山、水电等长距离胶带输送场景，实现托辊裂纹、位置偏移、温度异常等隐患的精准自动检测，已在世界第一高坝双江口水电站进入测试/落地。",
+  "background": "成都人形机器人创新中心有限公司是四川省具身智能与机器人领域的重要创新平台。针对矿山、水电等长距离胶带输送系统运维依赖人工、隐患发现滞后的痛点，联合中国电建成都院研发“智成一号”长距离胶带机巡检机器人。",
+  "problem": "长距离胶带机输送系统跨度大、环境复杂（被称为“胶带机博物馆”），传统人工巡检效率低、盲区多，托辊裂纹、皮带跑偏、温度异常等隐患难以被及时发现，易引发停机甚至安全事故。",
+  "solution": "“智成一号”长距离胶带机巡检机器人拥有275TOPS算力机器人大脑，融合多光谱成像与声纹识别，具备5小时超长待机、6米/秒巡检能力，可自主进行复杂任务规划与推理执行，自动识别托辊裂纹、位置偏移、温度异常等隐患并定位告警。",
+  "implementationSteps": [
+    "针对长距离胶带机场景梳理巡检对象与隐患类型（托辊裂纹、跑偏、温升等）。",
+    "中国电建成都院与成都人形机器人创新中心联合研发“智成一号”，集成275TOPS算力大脑、多光谱成像与声纹识别。",
+    "实现自主路径规划、隐患识别与告警定位。",
+    "在世界第一高坝双江口水电站进入测试并落地应用。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "算力",
+      "value": "275",
+      "unit": "TOPS",
+      "kind": "metric",
+      "sourceId": "src-news-0117"
+    },
+    {
+      "label": "续航",
+      "value": "5",
+      "unit": "小时",
+      "kind": "metric",
+      "sourceId": "src-news-0117"
+    },
+    {
+      "label": "巡检速度",
+      "value": "6",
+      "unit": "米/秒",
+      "kind": "metric",
+      "sourceId": "src-news-0117"
+    },
+    {
+      "label": "示范落地",
+      "value": "双江口水电站",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-news-0117"
+    }
+  ],
+  "roi": "",
+  "risks": "巡检机器人需在粉尘、潮湿、电磁干扰等恶劣工业环境稳定运行，需强化环境适应性与安全冗余；识别结果须与现场处置流程衔接。",
+  "editorComment": {
+    "suitableFor": "矿山、水电、港口等长距离胶带输送系统的智能巡检。",
+    "prerequisites": "具备胶带机巡检场景与一定的自动化基础。",
+    "priority": "high",
+    "text": "“智成一号”由成都人形机器人创新中心与中国电建成都院联合研发，已在世界第一高坝双江口水电站测试，是具身智能赋能重大工程的典型案例。"
+  },
+  "implementers": [
+    {
+      "name": "成都人形机器人创新中心有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0117",
+      "title": "巡检机器人“智成一号”正式亮相 化身“钢铁侠”守护超级水电工程",
+      "sourceType": "media",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20250323A06M1I00",
+      "externalId": "",
+      "publishedAt": "2025-03-23",
+      "accessibility": "available",
+      "rightsNote": "报道“智成一号”由中国电建成都院与成都人形机器人创新中心联合研发，拥有275TOPS算力、5小时待机、6米/秒巡检，已在双江口水电站测试。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "多光谱成像",
+    "声纹识别",
+    "具身智能"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能巡检机器人",
+    "具身智能",
+    "胶带机巡检",
+    "智成一号",
+    "双江口"
+  ],
+  "seo": {
+    "metaTitle": "智能巡检机器人在长距离胶带机场景中的应用",
+    "metaDescription": "智能巡检机器人在长距离胶带机场景中的应用",
+    "keywords": [
+      "成都人形机器人创新中心有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

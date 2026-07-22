@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0216",
+  "version": 1,
+  "slug": "case-2025-0216",
+  "title": "超广角共焦激光眼底造影机及 AI 辅助诊疗平台应用",
+  "organization": {
+    "id": "org-0216",
+    "name": "苏州微清医疗器械有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "苏州微清医疗器械有限公司实践“超广角共焦激光眼底造影机及 AI 辅助诊疗平台应用”，以自主超广角共焦激光眼底相机/造影机与 SKY 全眼影像平台为核心硬件，联手华为、协和医院等推出眼底病灶 AI 辅助诊断系统，以云计算与 AI 为“智慧大脑”进行海量临床数据采集与病例标注，服务眼科、内分泌与基层筛查。",
+  "background": "微清医疗成立于 2011 年，专注眼科高端影像设备，拥有百余项专利；2020 年起联手华为、协和医院、苏大附一院等推出眼底病灶 AI 辅助诊断系统。",
+  "problem": "眼底疾病（糖网等）筛查依赖专家阅片，基层难以覆盖，漏诊率高。",
+  "solution": "超广角共焦激光眼底造影硬件+AI 辅助诊疗平台，实现眼底病灶智能识别与辅助诊断。",
+  "implementationSteps": [
+    "研发超广角共焦激光眼底造影硬件",
+    "联合华为/协和构建眼底 AI 辅助诊断系统",
+    "在眼科与基层筛查场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "临床可靠性、跨设备泛化与合规。",
+  "editorComment": {
+    "suitableFor": "眼科眼底筛查与辅助诊断",
+    "prerequisites": "具备眼底影像设备与标注数据",
+    "priority": "建议优先",
+    "text": "硬件+AI 赋能基层眼健康筛查。"
+  },
+  "implementers": [
+    {
+      "name": "苏州微清医疗器械有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-micro-1",
+      "title": "2000亿国家级基金独投！微清医疗联手华为、协和推出AI辅助诊断",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/767136335_121007624",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证联手华为/协和的眼底 AI 辅助诊断系统。",
+      "publishedAt": "2024-03-27"
+    },
+    {
+      "publicId": "src-micro-2",
+      "title": "微清医疗：改变视界，做“眼科界的华为”",
+      "sourceType": "news",
+      "publisher": "苏州市科技局",
+      "originalUrl": "https://kjj.suzhou.gov.cn/szkj/sxdt/202307/dc5fdeae5a464ac79bdc66bf4fc96942.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证超广角共焦眼底 AI 辅助诊断系统。",
+      "publishedAt": "2023-07-20"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖专家",
+    "基层难覆盖"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "硬件+AI",
+    "临床数据标注"
+  ],
+  "modelStack": [
+    "眼底病灶 AI 辅助诊断系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "眼底造影",
+    "眼科AI",
+    "超广角共焦",
+    "微清"
+  ],
+  "seo": {
+    "metaTitle": "超广角共焦激光眼底造影机及 AI 辅助诊疗平台应用",
+    "metaDescription": "超广角共焦激光眼底造影机及 AI 辅助诊疗平台应用",
+    "keywords": [
+      "苏州微清医疗器械有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

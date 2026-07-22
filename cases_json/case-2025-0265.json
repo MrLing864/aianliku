@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0265",
+  "version": 1,
+  "slug": "case-2025-0265",
+  "title": "航旅纵横 AI 出行助手实践",
+  "organization": {
+    "id": "org-0265",
+    "name": "中航信移动科技股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中航信移动科技有限公司（中国航信）旗下'航旅纵横'上线 AI 预订机酒功能，旅客只需说出需求（精确或模糊表达）即可'一句话'完成机票与酒店预订，并接入微信 AI 生态，构建面向出行的 AI 智能体服务。",
+  "background": "航旅纵横是中航信打造的一站式民航官方出行服务平台，被国资委誉为改革开放 40 年国企在互联网领域代表性创新产品；2026 年 4 月上线 AI 预订机酒。",
+  "problem": "出行预订流程繁琐、需多步操作，模糊需求难以被传统搜索满足。",
+  "solution": "以 AI 出行智能体理解自然语言需求，实现'一句话'机酒预订，并接入微信 AI 生态扩展服务。",
+  "implementationSteps": [
+    "上线 AI 预订机酒功能",
+    "构建出行 AI 智能体理解自然语言",
+    "接入微信 AI 生态扩展服务"
+  ],
+  "duration": "2026 年 4 月起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "出行预订的准确性、与供应商系统的对接稳定性。",
+  "editorComment": {
+    "suitableFor": "民航出行智能服务与预订",
+    "prerequisites": "具备出行数据与预订系统",
+    "priority": "建议优先",
+    "text": "一句话机酒预订，出行智能体标杆。"
+  },
+  "implementers": [
+    {
+      "name": "中航信移动科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-umetrip-1",
+      "title": "航旅纵横上线AI预订 订机酒迈入“一句话”全新时代",
+      "sourceType": "news",
+      "publisher": "企业采风",
+      "originalUrl": "http://news.cnair.com/c/202604/141789.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 AI 预订机酒功能。",
+      "publishedAt": "2026-04-02"
+    },
+    {
+      "publicId": "src-umetrip-2",
+      "title": "航旅纵横接入微信AI Agent内测",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20260610A0990B00",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证接入微信 AI 生态。",
+      "publishedAt": "2026-06-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "预订流程繁琐",
+    "模糊需求难满足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能体",
+    "自然语言理解"
+  ],
+  "modelStack": [
+    "航旅纵横 AI 出行智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "航旅纵横",
+    "AI出行助手",
+    "智能体",
+    "中航信"
+  ],
+  "seo": {
+    "metaTitle": "航旅纵横 AI 出行助手实践",
+    "metaDescription": "航旅纵横 AI 出行助手实践",
+    "keywords": [
+      "中航信移动科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国民航信息集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

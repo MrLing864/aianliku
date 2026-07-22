@@ -1,0 +1,186 @@
+{
+  "id": "case-2025-0035",
+  "version": 1,
+  "slug": "case-2025-0035",
+  "title": "钢铁冶金全流程机器视觉模型一体化开发平台应用",
+  "organization": {
+    "id": "org-0035",
+    "name": "中冶赛迪信息技术（重庆）有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中冶赛迪信息研发'钢铁冶金全流程机器视觉模型一体化开发平台'，以'行业大模型-专家模型-边缘模型'路径，依托3000万张冶金高质量图像自研'CISDigital AI金睛'，构建20+核心视觉产品，覆盖原料、炼铁等全流程100+视觉场景。",
+  "background": "钢铁生产全流程场景多、环境复杂，传统单模型单应用研发成本高、泛化差。",
+  "problem": "钢铁机器视觉模型需求碎片化，单模型单应用开发成本高、升级难，且训练数据安全性要求高。",
+  "solution": "以'行业大模型-专家模型-边缘模型'研发模式为核心，依托3000万张冶金领域高质量图像数据集自研'CISDigital AI金睛'视觉大模型，构建20+款核心视觉产品，覆盖原料、炼铁等钢铁生产全流程100多个低成本、高效部署、高清高精低延迟的视觉场景应用，已在转炉火焰识别等场景落地。",
+  "implementationSteps": [
+    "构建3000万张冶金高质量图像数据集",
+    "研发'行业大模型-专家模型-边缘模型'技术路径",
+    "打造CISDigital AI金睛视觉大模型",
+    "落地20+视觉产品、100+全流程视觉场景"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "图像数据集规模",
+      "value": "3000",
+      "unit": "万张",
+      "kind": "actual",
+      "sourceId": "src-cis-1"
+    },
+    {
+      "label": "核心视觉产品",
+      "value": "20+",
+      "unit": "款",
+      "kind": "actual",
+      "sourceId": "src-cis-2"
+    },
+    {
+      "label": "视觉场景应用",
+      "value": "100+",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-cis-2"
+    }
+  ],
+  "roi": "",
+  "risks": "工业现场光照、粉尘等干扰大；视觉模型需持续迭代适配新产线。",
+  "editorComment": {
+    "suitableFor": "钢铁及流程工业企业建设机器视觉一体化平台",
+    "prerequisites": "具备产线图像数据与算力",
+    "priority": "建议优先",
+    "text": "行业大模型+专家+边缘三级视觉体系，适合钢铁视觉规模化落地。"
+  },
+  "implementers": [
+    {
+      "name": "中冶赛迪信息技术（重庆）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cis-1",
+      "title": "CISDigital AI 赛信金睛（3000万张冶金图像）",
+      "sourceType": "official",
+      "publisher": "中冶赛迪",
+      "originalUrl": "https://cisdigitalai.com/",
+      "publishedAt": "2026-01-19",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-cis-2",
+      "title": "研发视觉大模型 为钢铁生产装上'AI眼睛'",
+      "sourceType": "news",
+      "publisher": "人民网",
+      "originalUrl": "http://cq.people.com.cn/n2/2025/0831/c365402-41338010.html",
+      "publishedAt": "2025-08-31",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-cis-3",
+      "title": "基于行业大模型的钢铁冶金全流程机器视觉技术",
+      "sourceType": "journal",
+      "publisher": "中国金属学会",
+      "originalUrl": "https://www.csm.org.cn/col/col6317/art/2025/art_d4d1c35a5a9f4e29986abb07819ed995.html",
+      "publishedAt": "2025-02-25",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "视觉碎片化",
+    "模型成本",
+    "泛化差"
+  ],
+  "painPointNarrative": "",
+  "highlight": "3000万张图像打造金睛视觉大模型，100+全流程场景",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "视觉大模型",
+    "行业大模型"
+  ],
+  "modelStack": [
+    "CISDigital AI金睛"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "机器视觉",
+    "钢铁冶金"
+  ],
+  "seo": {
+    "metaTitle": "中冶赛迪 钢铁冶金全流程机器视觉模型一体化开发平台应用",
+    "metaDescription": "中冶赛迪以三级模型路径+3000万张图像打造金睛视觉大模型，覆盖钢铁全流程100+视觉场景。",
+    "keywords": [
+      "中冶赛迪",
+      "机器视觉",
+      "CISDigital AI金睛",
+      "钢铁"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

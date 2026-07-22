@@ -1,0 +1,9 @@
+---
+description: 
+alwaysApply: true
+enabled: true
+updatedAt: 2026-07-20T02:35:38.941Z
+provider: 
+---
+
+如果代码或者用户在聊天框里输入的需求和 prd 里的描述不一致，请修改prd目录下相关文件的描述，并修改根目录下面的README.md文件

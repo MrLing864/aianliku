@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0064",
+  "version": 1,
+  "slug": "case-2025-0064",
+  "title": "地震勘探领域智能化地震解释解决方案实践",
+  "organization": {
+    "id": "org-0064",
+    "name": "中海油研究总院有限责任公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中海油研究总院研发'完备弹性数据集'赋能地震储层预测，破解实际数据匮乏痛点、提升AI模型预测准确率，并以自主研发的海洋地震地质多信息综合分析平台GeoSea（135项特色技术）实现智能化地震解释。",
+  "background": "地震勘探储层预测依赖大量标注数据，实际工区数据匮乏制约AI模型效果。",
+  "problem": "地震储层预测实际数据匮乏，AI模型预测准确率受限；地震解释依赖专家经验、效率低。",
+  "solution": "研究总院研发'完备弹性数据集'，有效破解储层预测中实际数据匮乏的行业痛点，显著提升AI模型预测准确率；并以自主研发的海洋地震地质多信息综合分析平台GeoSea（集成135项地震、井筒、地质特色技术）支撑智能化地震解释，推动勘探模式变革。",
+  "implementationSteps": [
+    "研发完备弹性数据集赋能地震储层预测",
+    "提升AI模型预测准确率",
+    "自主研发GeoSea海洋地震地质综合分析平台",
+    "实现智能化地震解释与勘探决策"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "GeoSea平台特色技术",
+      "value": "135",
+      "unit": "项",
+      "kind": "actual",
+      "sourceId": "src-cnooc-2"
+    }
+  ],
+  "roi": "",
+  "risks": "地震数据敏感、获取难；弹性数据集构建需多工区样本。",
+  "editorComment": {
+    "suitableFor": "海洋油气地震勘探与储层预测智能化",
+    "prerequisites": "具备地震、井筒与地质数据",
+    "priority": "条件具备后开展",
+    "text": "完备弹性数据集+GeoSea平台赋能智能化地震解释，适合油气勘探参考。"
+  },
+  "implementers": [
+    {
+      "name": "中海油研究总院有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cnooc-1",
+      "title": "破解数据'荒'！中海油研究总院研发完备弹性数据集赋能地震储层预测",
+      "sourceType": "news",
+      "publisher": "华能能源",
+      "originalUrl": "http://www.hynyw.com/article/12628.html",
+      "publishedAt": "2026-05-07",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-cnooc-2",
+      "title": "中国海油研究总院自主研发海洋地震地质多信息综合分析平台GeoSea",
+      "sourceType": "news",
+      "publisher": "海洋能源网",
+      "originalUrl": "https://www.imarine.cn/108143.html",
+      "publishedAt": "2023-06-29",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据匮乏",
+    "预测准确率",
+    "解释效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "完备弹性数据集提升储层预测，GeoSea平台135项技术",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "地震解释",
+    "弹性数据集",
+    "多信息分析"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "地震勘探",
+    "油气"
+  ],
+  "seo": {
+    "metaTitle": "中海油研究总院 智能化地震解释解决方案实践",
+    "metaDescription": "中海油研究总院以完备弹性数据集与GeoSea平台实现智能化地震解释，提升储层预测准确率。",
+    "keywords": [
+      "中海油研究总院",
+      "地震解释",
+      "弹性数据集",
+      "GeoSea"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国海洋石油集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

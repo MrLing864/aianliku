@@ -43,6 +43,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# edgeone
+.edgeone
+
+# local reports (large pdf assets, not part of app deploy)
+/report
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

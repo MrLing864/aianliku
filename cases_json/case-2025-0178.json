@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0178",
+  "version": 1,
+  "slug": "case-2025-0178",
+  "title": "人工智能赋能全国天然气供需预测与资源优化",
+  "organization": {
+    "id": "org-0178",
+    "name": "国家石油天然气管网集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国家石油天然气管网集团有限公司实践“人工智能赋能全国天然气供需预测与资源优化”，依托 2024 年 12 月正式上线、并首批通过中央网信办行业大模型和算法“双备案”的“管网”大模型，构建全国天然气保供智能体，实现天然气管网建设运行调度、供需预测与资源优化的智能化，赋能 10 万公里油气管网。",
+  "background": "国家管网集团打造“制程+数据+IT+大模型”体系，“管网”大模型于 2024 年 12 月上线，在油气行业首批通过中央网信办行业大模型和算法“双备案”；“全国天然气供需预测与资源优化”入选国务院国资委央企人工智能战略性高价值场景（40 个之一）。",
+  "problem": "全国天然气管网体量大、运行调度复杂，供需预测与资源优化依赖经验，难以全局最优。",
+  "solution": "依托“管网”大模型构建全国天然气保供智能体，实现供需预测、资源优化与调度智能决策。",
+  "implementationSteps": [
+    "上线“管网”大模型（双备案）",
+    "构建全国天然气供需预测与资源优化智能体",
+    "赋能 10 万公里油气管网调度运行"
+  ],
+  "duration": "2024-12 大模型上线",
+  "cost": "",
+  "results": [
+    {
+      "label": "赋能管网里程",
+      "value": "10",
+      "unit": "万公里",
+      "kind": "actual",
+      "sourceId": "src-pipe-1"
+    }
+  ],
+  "roi": "",
+  "risks": "管网安全稳定运行、大模型决策的可靠性与可解释性。",
+  "editorComment": {
+    "suitableFor": "全国天然气管网供需预测与调度",
+    "prerequisites": "具备管网运行与资源数据",
+    "priority": "建议优先",
+    "text": "管网大模型赋能能源保供的央企范式。"
+  },
+  "implementers": [
+    {
+      "name": "国家石油天然气管网集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-pipe-1",
+      "title": "国家管网集团：推动油气行业人工智能深度应用",
+      "sourceType": "news",
+      "publisher": "人民网",
+      "originalUrl": "https://finance.people.com.cn/n1/2025/0728/c1004-40531141.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证全国天然气供需预测入选央企高价值场景。",
+      "publishedAt": "2025-07-28"
+    },
+    {
+      "publicId": "src-pipe-2",
+      "title": "国家管网集团正式上线应用“管网”大模型",
+      "sourceType": "news",
+      "publisher": "国家管网",
+      "originalUrl": "https://www.pipechina.com.cn/front/news/3002055.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证管网大模型上线与双备案。",
+      "publishedAt": "2024-12-04"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "调度复杂",
+    "依赖经验"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "智能调度"
+  ],
+  "modelStack": [
+    "管网大模型",
+    "全国天然气保供智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "天然气",
+    "管网大模型",
+    "供需预测",
+    "资源优化"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能全国天然气供需预测与资源优化",
+    "metaDescription": "人工智能赋能全国天然气供需预测与资源优化",
+    "keywords": [
+      "国家石油天然气管网集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家石油天然气管网集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

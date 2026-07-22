@@ -1,9 +1,9 @@
 import { createHmac } from "node:crypto";
 import { NextResponse } from "next/server";
 import { nanoid } from "nanoid";
-import { MongoServerError } from "mongodb";
+import { MongoServerError } from "@/lib/db/cloudbase";
 import { z } from "zod";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import { env } from "@/lib/env";
 import { checkRateLimit } from "@/lib/rate-limit";
 import { PRIVACY_NOTICE_VERSION } from "@/lib/policies";
@@ -93,7 +93,7 @@ export async function POST(request: Request) {
       { error: "invalid_qualified_reader" },
       { status: 400 },
     );
-  if (isMongoConfigured()) {
+  if (isDbConfigured()) {
     const db = await getDb();
     const occurredAt = new Date();
     const dateKey = shanghaiDateKey(occurredAt);

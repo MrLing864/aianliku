@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0065",
+  "version": 1,
+  "slug": "case-2025-0065",
+  "title": "人工智能赋能高性能玻璃纤维研发",
+  "organization": {
+    "id": "org-0065",
+    "name": "南京玻璃纤维研究设计院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "南京玻璃纤维研究设计院将材料基因工程理念与玻璃纤维研发深度融合，构建'分子模拟—AI驱动—高效验证'全链条技术体系，建立模量、密度、粘度、介电等关键性能的高精度机器学习预测模型，组分-工艺-性能多目标优化设计达国际领先。",
+  "background": "高性能玻璃纤维研发周期长、试错成本高，传统'试错法'难以满足迭代需求。",
+  "problem": "玻璃纤维成分设计依赖试错，研发周期长、成本高。",
+  "solution": "南京玻纤院材料基因创新团队将材料基因工程理念与方法运用于玻璃纤维研发，构建'分子模拟—AI驱动—高效验证'全链条技术体系；建立玻璃纤维模量、密度、粘度、介电等关键性能的高精度机器学习预测模型，其中组分-工艺-性能的多目标优化设计技术达国际领先水平。",
+  "implementationSteps": [
+    "融合材料基因工程与玻璃纤维研发",
+    "构建分子模拟—AI驱动—高效验证全链条",
+    "建立关键性能高精度机器学习预测模型",
+    "实现组分-工艺-性能多目标优化设计"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "材料性能预测需高质量实验数据支撑；多目标优化需平衡多约束。",
+  "editorComment": {
+    "suitableFor": "高性能纤维/新材料研发企业AI辅助材料设计",
+    "prerequisites": "具备材料实验数据与计算能力",
+    "priority": "条件具备后开展",
+    "text": "材料基因+机器学习的玻璃纤维研发范式，适合新材料企业提效参考。"
+  },
+  "implementers": [
+    {
+      "name": "南京玻璃纤维研究设计院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-bl-1",
+      "title": "人工智能赋能高性能玻璃纤维研发——南京玻纤院",
+      "sourceType": "news",
+      "publisher": "中国纺织工业联合会",
+      "originalUrl": "https://cntac.org.cn/zixun/hangye/202607/t20260717_4416809.html",
+      "publishedAt": "2026-07-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-bl-2",
+      "title": "材料基因创新团队（南京玻纤院）",
+      "sourceType": "official",
+      "publisher": "南京玻纤院",
+      "originalUrl": "http://www.fiberglasschina.com/product/cxtdDetail3.aspx",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "研发周期",
+    "试错成本",
+    "成分设计"
+  ],
+  "painPointNarrative": "",
+  "highlight": "分子模拟—AI驱动—高效验证全链条，多目标优化达国际领先",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "材料基因工程",
+    "机器学习",
+    "材料研发"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "新材料",
+    "材料基因"
+  ],
+  "seo": {
+    "metaTitle": "南京玻纤院 人工智能赋能高性能玻璃纤维研发",
+    "metaDescription": "南京玻纤院融合材料基因工程与机器学习，构建分子模拟—AI驱动—高效验证全链条研发体系。",
+    "keywords": [
+      "南京玻纤院",
+      "玻璃纤维",
+      "材料基因",
+      "机器学习"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国建材集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

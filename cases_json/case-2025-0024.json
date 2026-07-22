@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0024",
+  "version": 1,
+  "slug": "case-2025-0024",
+  "title": "星火科航科技服务大模型创新应用",
+  "organization": {
+    "id": "org-0024",
+    "name": "山东亿云信息技术有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "山东亿云信息技术有限公司联合山东华智人才科技推出'星火科航'科技服务大模型，面向'科创-企业-资本-园区'全链条科技服务场景，整合数智能力驱动、科创要素融通与供需精准匹配。",
+  "background": "科技服务涉及人才、企业、创新成果等多重要素，传统服务匹配效率低，亟需垂直大模型提升供需对接。",
+  "problem": "科创要素分散、供需对接效率低，科技服务缺乏智能化手段实现精准匹配与生态协同。",
+  "solution": "由山东亿云信息与权属公司山东华智人才科技联合推出'星火科航'科技服务大模型，面向'科创-企业-资本-园区'全链条科技服务场景，涉及人才、企业、创新成果等要素；设计整合数智能力驱动、科创要素融通、供需精准匹配与科创生态协同的科技服务模式；2025年入选省级'模型券'奖补项目。",
+  "implementationSteps": [
+    "构建面向科技服务全链条的行业大模型",
+    "整合人才/企业/创新成果等科创要素",
+    "实现供需精准匹配与科创生态协同",
+    "入选省级'模型券'奖补项目并推广"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "科创数据跨主体、跨域，数据合规与授权复杂；匹配效果依赖数据质量。",
+  "editorComment": {
+    "suitableFor": "科技园区、孵化器与科技服务平台建设垂直大模型",
+    "prerequisites": "具备科创要素数据与服务平台基础",
+    "priority": "条件具备后开展",
+    "text": "科技服务垂直大模型，适合园区与科创服务平台参考。"
+  },
+  "implementers": [
+    {
+      "name": "山东亿云信息技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xh-1",
+      "title": "星火科航科技服务大模型（百科）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%98%9F%E7%81%AB%E7%A7%91%E8%88%AA%E7%A7%91%E6%8A%80%E6%9C%8D%E5%8A%A1%E5%A4%A7%E6%A8%A1%E5%9E%8B/68154967",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xh-2",
+      "title": "山东16个案例入选工信部人工智能应用典型案例",
+      "sourceType": "government_news",
+      "publisher": "山东宣传网",
+      "originalUrl": "https://www.sdxc.gov.cn/sy/jrywsy/202607/t20260719_17943931.htm",
+      "publishedAt": "2026-07-19",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "科创匹配",
+    "要素分散",
+    "服务效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "面向科创-企业-资本-园区全链条的科技服务大模型",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "科技服务大模型",
+    "要素匹配",
+    "科创生态"
+  ],
+  "modelStack": [
+    "星火科航科技服务大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "行业大模型",
+    "科技服务"
+  ],
+  "seo": {
+    "metaTitle": "山东亿云 星火科航科技服务大模型创新应用",
+    "metaDescription": "山东亿云星火科航科技服务大模型面向科创-企业-资本-园区全链条，实现供需精准匹配。",
+    "keywords": [
+      "山东亿云",
+      "星火科航",
+      "科技服务大模型",
+      "科创"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

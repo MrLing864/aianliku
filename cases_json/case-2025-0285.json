@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0285",
+  "version": 1,
+  "slug": "case-2025-0285",
+  "title": "海外5G+AI智慧港创新应用",
+  "organization": {
+    "id": "org-0285",
+    "name": "中移（上海）信息通信科技有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "通信",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移（上海）信息通信科技有限公司（中移国际）实践“海外 5G+AI 智慧港创新应用”，基于感知、连接、算网、应用四层架构，协同海外属地运营商搭建 5G 行业专网与港口私有云管理平台，提供 5G 远控方案（北斗厘米级高精度定位、超低时延高清视频），形成可复制的海外智慧港口解决方案，支撑中资企业出海信息化。",
+  "background": "中移国际面向全球推出智慧交通运输物流行业解决方案，以 5G 专网为基础构建港口私有云管理平台，支持 5G 远控与智慧港口运营；并在“AI+”重点行业解决方案中将海外智慧港作为典型场景。",
+  "problem": "海外港口作业依赖人工、效率低，中资企业出海缺乏本地化智慧港口基础设施。",
+  "solution": "海外 5G+AI 智慧港方案，以 5G 专网+私有云+AI 远控实现港机远程精准操控与智能运营。",
+  "implementationSteps": [
+    "搭建海外 5G 行业专网与港口私有云",
+    "部署 5G 远控（北斗定位+超低时延视频）",
+    "在海外港口落地智慧港应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "海外网络合规、跨境数据与安全。",
+  "editorComment": {
+    "suitableFor": "海外智慧港口与中资企业出海",
+    "prerequisites": "具备 5G 专网与属地运营商合作",
+    "priority": "建议优先",
+    "text": "5G+AI 出海智慧港的可复制范式。"
+  },
+  "implementers": [
+    {
+      "name": "中移（上海）信息通信科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmi-1",
+      "title": "中移国际重磅推出「智慧交通运输物流行业解决方案」",
+      "sourceType": "news",
+      "publisher": "凤凰网",
+      "originalUrl": "https://tech.ifeng.com/c/8lCJzUBgvqJ",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证 5G 远控与北斗厘米级定位方案。",
+      "publishedAt": "2025-07-22"
+    },
+    {
+      "publicId": "src-cmi-2",
+      "title": "一站式境内外企业解决方案落地 助力中资企业出海信息化",
+      "sourceType": "news",
+      "publisher": "新华网上海",
+      "originalUrl": "http://www.sh.xinhuanet.com/20231023/d94475ba54a24bdb93b8e1495e8cf121/c.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证海外 5G 智慧港口私有云方案。",
+      "publishedAt": "2023-10-23"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工",
+    "效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "5G专网",
+    "AI远控"
+  ],
+  "modelStack": [
+    "海外 5G+AI 智慧港方案"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "海外5G",
+    "智慧港",
+    "中移国际",
+    "5G远控"
+  ],
+  "seo": {
+    "metaTitle": "海外5G+AI智慧港创新应用",
+    "metaDescription": "海外5G+AI智慧港创新应用",
+    "keywords": [
+      "中移（上海）信息通信科技有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

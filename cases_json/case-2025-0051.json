@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0051",
+  "version": 1,
+  "slug": "case-2025-0051",
+  "title": "基于 AI 动态优化算法的智能无人行车解决方案实践",
+  "organization": {
+    "id": "org-0051",
+    "name": "南京科远智慧科技集团股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "南京科远智慧自主研发基于AI动态优化算法的智能行车无人库系统，克服重型物料搬运无人化'卡脖子'难题，实现智能识别、自动装卸、精准防摇与行走定位，并与沙钢打造宽厚板智能无人库。",
+  "background": "钢铁、能源等行业重型物料库区依赖人工行车，效率低、安全风险高，无人化需求迫切。",
+  "problem": "重型物料搬运无人化面临智能识别、自动防摇、精准定位等技术难题，传统人工行车效率低。",
+  "solution": "科远智慧推出智能行车无人库系统，以AI动态优化算法为核心，实现复杂重载物料的智能识别、自动装卸、精准防摇和行走定位；与沙钢集团联合打造宽厚板一车间智能无人库，以精准定位、AI图像识别、智能调度为核心，融合三维扫描、电子防摇、数据无线传输、运输系统自动跟车，实现库区全流程无人化。",
+  "implementationSteps": [
+    "研发基于AI动态优化算法的智能行车无人库系统",
+    "实现智能识别/自动装卸/精准防摇/行走定位",
+    "与沙钢打造宽厚板智能无人库（AI图像识别+三维扫描+智能调度）",
+    "实现库区全流程无人化运行"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "重型无人行车安全冗余要求极高；复杂工况下识别与防摇算法需充分验证。",
+  "editorComment": {
+    "suitableFor": "钢铁、能源等重型物料库区无人化改造",
+    "prerequisites": "具备行车自动化与网络基础",
+    "priority": "建议优先",
+    "text": "AI动态优化+无人行车是库区降本提效利器，适合重物料行业参考。"
+  },
+  "implementers": [
+    {
+      "name": "南京科远智慧科技集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ky-1",
+      "title": "智能行车无人库系统-科远智慧",
+      "sourceType": "official",
+      "publisher": "科远智慧",
+      "originalUrl": "https://www.sciyon.com/solution/unmanned-crane.html",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ky-2",
+      "title": "科远智慧'AI+无人行车'入选工信部2025人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1047298394_683016",
+      "publishedAt": "2026-07-08",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ky-3",
+      "title": "科远&沙钢集团打造宽厚板一车间智能无人库",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260520/c676835788.shtml",
+      "publishedAt": "2026-05-20",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "重型物料",
+    "人工行车",
+    "库区效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI动态优化算法驱动重型物料无人库，沙钢宽厚板落地",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI动态优化",
+    "无人行车",
+    "智能调度"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智能制造",
+    "无人化"
+  ],
+  "seo": {
+    "metaTitle": "南京科远智慧 基于AI动态优化算法的智能无人行车解决方案实践",
+    "metaDescription": "科远智慧以AI动态优化算法打造智能无人行车，与沙钢共建宽厚板智能无人库。",
+    "keywords": [
+      "科远智慧",
+      "智能无人行车",
+      "AI动态优化",
+      "沙钢"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

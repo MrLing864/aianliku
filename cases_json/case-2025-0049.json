@@ -1,0 +1,169 @@
+{
+  "id": "case-2025-0049",
+  "version": 1,
+  "slug": "case-2025-0049",
+  "title": "基于钢铁垂直大模型的工业水系统数字孪生应用",
+  "organization": {
+    "id": "org-0049",
+    "name": "河北新金钢铁有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "河北新金钢铁与金谷物联科技合作，基于钢铁垂直大模型构建工业循环水（极致能效）数字孪生系统，覆盖6000多米管线，投用一年来实现显著节能降耗（公开披露节电474万度）。",
+  "background": "钢铁工业循环水系统能耗高、依赖人工经验调节，节能潜力大。",
+  "problem": "工业循环水系统复杂、依赖老师傅经验，能效优化难、能耗高。",
+  "solution": "新金钢铁与金谷物联合作研发工业循环水极致能效大模型，基于钢铁垂直大模型构建工业水系统数字孪生应用，对6000多米管线的循环水系统进行智能调控，投用一年来节能降耗成效显著（公开披露节电474万度，以官方口径为准）。",
+  "implementationSteps": [
+    "研发钢铁极致能效大模型（工业循环水）",
+    "构建工业水系统数字孪生应用",
+    "覆盖6000+米管线智能调控",
+    "实现节能降耗（节电474万度）"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "工业循环水管线",
+      "value": "6000+",
+      "unit": "米",
+      "kind": "actual",
+      "sourceId": "src-xj-1"
+    },
+    {
+      "label": "投用一年节电",
+      "value": "474",
+      "unit": "万度",
+      "kind": "estimated",
+      "sourceId": "src-xj-2"
+    }
+  ],
+  "roi": "",
+  "risks": "数字孪生模型需准确反映管网物理特性；节能效果依赖运行数据质量。",
+  "editorComment": {
+    "suitableFor": "钢铁及高耗能企业工业水系统节能优化",
+    "prerequisites": "具备循环水系统监测数据",
+    "priority": "建议优先",
+    "text": "垂直大模型+数字孪生的工业水节能方案，适合高耗能产线参考。"
+  },
+  "implementers": [
+    {
+      "name": "河北新金钢铁有限公司",
+      "role": "申报单位"
+    },
+    {
+      "name": "金谷物联科技（河北）有限公司",
+      "role": "技术合作方"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xj-1",
+      "title": "河北武安：钢铁大模型'智'造节能'显身手'",
+      "sourceType": "news",
+      "publisher": "河北商界",
+      "originalUrl": "https://shanghui.hebccw.cn/system/2025/08/04/102091233.shtml",
+      "publishedAt": "2025-08-04",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xj-2",
+      "title": "AI赋能钢铁行业：大模型助力节能降耗（新金钢铁节电474万度）",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/927921819_122362510",
+      "publishedAt": "2025-08-26",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "水系统能耗",
+    "经验依赖",
+    "能效优化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "工业水系统数字孪生，6000+米管线节电474万度",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂直大模型",
+    "数字孪生",
+    "工业水系统",
+    "节能"
+  ],
+  "modelStack": [
+    "钢铁垂直大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "节能降耗"
+  ],
+  "seo": {
+    "metaTitle": "河北新金钢铁 基于钢铁垂直大模型的工业水系统数字孪生应用",
+    "metaDescription": "新金钢铁以钢铁垂直大模型构建工业水系统数字孪生，6000+米管线节电474万度。",
+    "keywords": [
+      "河北新金钢铁",
+      "钢铁垂直大模型",
+      "数字孪生",
+      "工业水系统"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

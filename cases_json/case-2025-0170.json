@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0170",
+  "version": 1,
+  "slug": "case-2025-0170",
+  "title": "金属矿山智慧开采与储能一体化大模型应用",
+  "organization": {
+    "id": "org-0170",
+    "name": "山东大学",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "山东大学依托通用智能实验室“大模型一体化平台”及与中国联通智慧矿山军团共建的“人工智能+矿山数智应用创新实验室”，研发“金属矿山智慧开采与储能一体化大模型”，以自研矿山能源领域垂直大模型推动金属矿山智慧开采与储能一体化。",
+  "background": "山东大学通用智能实验室致力于大模型产学研用一体化；2025 年 6 月中国联通智慧矿山军团（山东）与山东大学数智技术装备研究院成立联合创新实验室，共同推进矿山数智应用。",
+  "problem": "金属矿山开采环境复杂、安全风险高，储能与开采协同调度难。",
+  "solution": "金属矿山智慧开采与储能一体化大模型，以矿山能源垂直大模型赋能开采与储能协同。",
+  "implementationSteps": [
+    "构建矿山能源垂直大模型底座",
+    "研发智慧开采与储能一体化大模型",
+    "在金属矿山场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "矿山复杂工况适配、模型可靠性。",
+  "editorComment": {
+    "suitableFor": "金属矿山智慧开采与储能协同",
+    "prerequisites": "具备矿山数据与算力",
+    "priority": "建议优先",
+    "text": "高校垂直大模型赋能矿山数智化的范式。"
+  },
+  "implementers": [
+    {
+      "name": "山东大学",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sdu-1",
+      "title": "大模型一体化平台-山东大学通用智能实验室",
+      "sourceType": "official",
+      "publisher": "山东大学",
+      "originalUrl": "https://gail.sdu.edu.cn/info/1006/1261.htm",
+      "accessibility": "available",
+      "rightsNote": "高校官网，佐证山大通用智能实验室大模型一体化平台。",
+      "publishedAt": "2026-05-21"
+    },
+    {
+      "publicId": "src-sdu-2",
+      "title": "中国联通智慧矿山军团（山东）与山东大学成立创新实验室",
+      "sourceType": "news",
+      "publisher": "山东新闻",
+      "originalUrl": "https://sd.sdnews.com.cn/yw/202506/t20250624_4543791.htm",
+      "accessibility": "available",
+      "rightsNote": "地方媒体报道，佐证人工智能+矿山数智应用创新实验室。",
+      "publishedAt": "2025-06-24"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "环境复杂",
+    "协同难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "矿山能源垂直大模型"
+  ],
+  "modelStack": [
+    "金属矿山智慧开采与储能一体化大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "金属矿山",
+    "智慧开采",
+    "储能一体化",
+    "山大"
+  ],
+  "seo": {
+    "metaTitle": "金属矿山智慧开采与储能一体化大模型应用",
+    "metaDescription": "金属矿山智慧开采与储能一体化大模型应用",
+    "keywords": [
+      "山东大学",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0053",
+  "version": 1,
+  "slug": "case-2025-0053",
+  "title": "转炉底吹多风口 AI 智能评级与精准调控系统应用",
+  "organization": {
+    "id": "org-0053",
+    "name": "宝钢湛江钢铁有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "宝钢湛江钢铁应用转炉底吹多风口AI智能评级与精准调控系统，结合数据驱动智能吹炼控制（炉气分析、音频化渣、火焰监测、副枪），实现350t转炉高效低耗冶炼，平均碳氧积降至0.0020%以下。",
+  "background": "转炉炼钢追求高效脱磷与低氧化性渣控制，高强度吹炼与长寿命复吹难以兼顾。",
+  "problem": "转炉吹炼过程波动大、控制依赖经验，底吹多风口状态评级与精准调控难。",
+  "solution": "湛江钢铁在350t转炉应用环缝底吹控制与数据驱动智能吹炼系统，综合炉气分析、音频化渣、火焰监测、副枪检测等实时数据，构建动态模型架构的智能吹炼控制，并实现转炉底吹多风口AI智能评级与精准调控，提升复吹效果与冶炼稳定性。",
+  "implementationSteps": [
+    "建设350t转炉全自动全模型生产系统（2023.4投运）",
+    "集成炉气分析/音频化渣/火焰监测/副枪实时数据",
+    "研发数据驱动智能吹炼控制动态模型",
+    "落地转炉底吹多风口AI智能评级与精准调控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "转炉平均碳氧积",
+      "value": "0.0020%以下",
+      "kind": "actual",
+      "sourceId": "src-zj-1"
+    }
+  ],
+  "roi": "",
+  "risks": "智能吹炼依赖多源传感器数据质量；模型需随原料与工况持续迭代。",
+  "editorComment": {
+    "suitableFor": "大型钢铁企业转炉炼钢智能吹炼与底吹调控",
+    "prerequisites": "具备转炉自动化与多源传感数据",
+    "priority": "建议优先",
+    "text": "数据驱动智能吹炼+底吹AI评级，提升冶炼稳定性，适合大型钢企参考。"
+  },
+  "implementers": [
+    {
+      "name": "宝钢湛江钢铁有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zj-1",
+      "title": "湛江钢铁350吨转炉环缝底吹控制浅析（碳氧积<0.0020%）",
+      "sourceType": "journal",
+      "publisher": "汉斯出版社",
+      "originalUrl": "https://pdf.hanspub.org/MEng20210300000_53170927.pdf",
+      "publishedAt": "2021",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zj-2",
+      "title": "湛江钢铁一号转炉全自动全模型生产系统正式上线",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/671853451_121123911",
+      "publishedAt": "2023-04-30",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zj-3",
+      "title": "数据驱动的转炉智能吹炼控制系统的开发与应用",
+      "sourceType": "journal",
+      "publisher": "中国冶金",
+      "originalUrl": "https://www.chinamet.cn/article/doi/10.13228/j.boyuan.issn0449-749x.20230384",
+      "publishedAt": "2023",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "吹炼控制",
+    "底吹评级",
+    "冶炼稳定性"
+  ],
+  "painPointNarrative": "",
+  "highlight": "转炉底吹多风口AI评级与精准调控，碳氧积<0.0020%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能吹炼",
+    "数据驱动",
+    "转炉底吹"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "智能炼钢"
+  ],
+  "seo": {
+    "metaTitle": "宝钢湛江钢铁 转炉底吹多风口AI智能评级与精准调控系统应用",
+    "metaDescription": "宝钢湛江以底吹多风口AI评级与数据驱动智能吹炼，实现350t转炉高效低耗冶炼。",
+    "keywords": [
+      "宝钢湛江",
+      "转炉底吹",
+      "AI智能评级",
+      "智能吹炼"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国宝武钢铁集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,142 @@
+{
+  "id": "case-2025-0136",
+  "version": 1,
+  "slug": "case-2025-0136",
+  "title": "个人信息合规检测智能平台应用",
+  "organization": {
+    "id": "org-0136",
+    "name": "中移互联网有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移互联网有限公司“个人信息合规检测智能平台应用”入选工信部 2025 年人工智能应用典型案例。中移互联在产品品质保障中创新建立 AI+数智化测评平台，首创“AI+”自动化测试、“AI+”个人信息合规检测等能力，提升 App 个人信息合规检测的自动化与效率。",
+  "background": "个人信息保护合规要求趋严，企业需自动化检测能力。",
+  "problem": "移动应用个人信息合规检测点多、法规要求严，人工检测效率低、覆盖不足。",
+  "solution": "建立 AI+数智化测评平台，以“AI+”个人信息合规检测自动捕获采集行为并按合规策略判定，实现自动化合规检测。",
+  "implementationSteps": [
+    "构建 AI+数智化测评平台",
+    "研发“AI+”自动化测试与个人信息合规检测",
+    "自动捕获个人信息采集行为并进行合规判定",
+    "在移动应用品质保障中规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "法规更新适配、检测准确率与漏判控制。",
+  "editorComment": {
+    "suitableFor": "移动应用个人信息合规智能检测",
+    "prerequisites": "具备移动应用测评与合规策略基础",
+    "priority": "建议优先",
+    "text": "AI 赋能个人信息合规检测的实践。"
+  },
+  "implementers": [
+    {
+      "name": "中移互联网有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cy-1",
+      "title": "AI赋能，中移互联奏响“心级服务”数智强音（AI+个人信息合规检测）",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/roll/2025-03-18/doc-inepznxr8957504.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证 AI+数智化测评平台与个人信息合规检测。",
+      "publishedAt": "2025-03-18"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "检测效率低",
+    "法规严"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "自动化测试",
+    "合规检测"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中移互联网",
+    "个人信息合规",
+    "合规检测",
+    "AI测评"
+  ],
+  "seo": {
+    "metaTitle": "个人信息合规检测智能平台应用",
+    "metaDescription": "个人信息合规检测智能平台应用",
+    "keywords": [
+      "中移互联网有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

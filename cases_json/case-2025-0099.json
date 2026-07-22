@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0099",
+  "version": 1,
+  "slug": "case-2025-0099",
+  "title": "基于 5G+AI 的纺织后整智能工厂实践",
+  "organization": {
+    "id": "org-0099",
+    "name": "吴江市汉塔纺织整理有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "汉塔纺织以“5G+AI+数字孪生”为核心技术路线，围绕生产、物流、质量、设备、能碳五大场景实施全流程智能，建设纺织后整理行业首个 5G 智慧工厂，推动传统纺织后道工序向柔性化、精益化升级。",
+  "background": "汉塔纺织专注功能性纺织后整理，是国家高新技术企业、江苏省“专精特新”企业、江苏省瞪羚企业，发明专利超 40 项。",
+  "problem": "纺织后整理环节传统依赖人工，柔性化与精益化水平低，质量与能耗管控难。",
+  "solution": "以 5G 工业专网为数字底座，融合人工智能技术构建纺织后整理智能工厂，覆盖生产调度、工艺优化、质量检测等核心环节。",
+  "implementationSteps": [
+    "建设 5G 工业专网数字底座",
+    "围绕生产/物流/质量/设备/能碳五大场景部署 AI 应用",
+    "建成纺织后整理行业首个 5G 智慧工厂"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "后整理工艺多品种适配、5G 专网覆盖与稳定性。",
+  "editorComment": {
+    "suitableFor": "纺织后整理及中小纺织企业智能化",
+    "prerequisites": "具备 5G 专网与产线基础",
+    "priority": "建议优先",
+    "text": "5G+AI+数字孪生赋能传统后整理工序升级。"
+  },
+  "implementers": [
+    {
+      "name": "吴江市汉塔纺织整理有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hanta-1",
+      "title": "纺织行业多项AI实践入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "中国纺织网",
+      "originalUrl": "https://info.texnet.com.cn/detail-1078994.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证 5G+AI 纺织后整智能工厂。",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "publicId": "src-hanta-2",
+      "title": "吴江区3个案例入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "吴江区政府",
+      "originalUrl": "https://www.wujiang.gov.cn/zgwj/qzqd/202607/8e9cfd40d29147b38b87095f772540d5.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证 5G+AI 后整智能工厂技术路线。",
+      "publishedAt": "2026-07-01"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工",
+    "柔性化水平低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "5G专网",
+    "人工智能",
+    "数字孪生"
+  ],
+  "modelStack": [
+    "纺织后整智能工厂 AI 应用"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "5G",
+    "纺织后整",
+    "智能工厂",
+    "数字孪生"
+  ],
+  "seo": {
+    "metaTitle": "基于 5G+AI 的纺织后整智能工厂实践",
+    "metaDescription": "基于 5G+AI 的纺织后整智能工厂实践",
+    "keywords": [
+      "吴江市汉塔纺织整理有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0032",
+  "version": 1,
+  "slug": "case-2025-0032",
+  "title": "工程大模型服务平台应用",
+  "organization": {
+    "id": "org-0032",
+    "name": "中国电建集团华东勘测设计研究院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "建筑建材",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电建集团华东勘测设计研究院构建工程大模型服务平台，围绕工程文档智能理解、知识图谱问答、数字孪生水电与风电报告生成等场景，融合大模型与专业知识图谱。",
+  "background": "工程行业知识密集、文档海量，传统知识管理与报告生成依赖人工，效率低。",
+  "problem": "工程文档理解、知识问答与报告生成耗时费力；大模型在工程领域应用面临专业知识融合与准确性难题。",
+  "solution": "构建工程大模型服务平台，研发面向工程文档智能理解与解析的多模态大模型、大模型与知识图谱分层式协同推理的风电项目报告生成方法，以及基于AI大模型与数字孪生的水电相关技术，提升工程知识管理与生成效率。",
+  "implementationSteps": [
+    "研发面向工程文档智能理解与解析的多模态大模型",
+    "构建大模型与知识图谱分层式协同推理的报告生成方法",
+    "探索基于AI大模型与数字孪生的水电应用",
+    "形成工程大模型服务平台"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "工程知识专业性强，模型幻觉需严格校验；数字孪生与水文数据获取难。",
+  "editorComment": {
+    "suitableFor": "工程设计院、基建与能源工程企业建设工程大模型",
+    "prerequisites": "具备工程知识库与文档数据",
+    "priority": "条件具备后开展",
+    "text": "工程大模型+知识图谱的服务平台，适合设计院智能化参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国电建集团华东勘测设计研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hd-1",
+      "title": "中国电建华东院申请大模型与知识图谱分层式协同推理的风电项目报告生成专利",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/K34MB8NF0519QIKK.html",
+      "publishedAt": "2025-06-28",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hd-2",
+      "title": "中国电建华东院面向工程文档智能理解与解析的多模态大模型项目",
+      "sourceType": "government_news",
+      "publisher": "全国公共资源交易平台",
+      "originalUrl": "https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20260311/0067d4c4cc7a802e4265a0fd5e7708a58225.html",
+      "publishedAt": "2026-03-11",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "工程知识管理",
+    "报告生成",
+    "文档理解"
+  ],
+  "painPointNarrative": "",
+  "highlight": "工程大模型+知识图谱协同，覆盖文档理解/报告生成/数字孪生",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工程大模型",
+    "知识图谱",
+    "数字孪生",
+    "多模态"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "行业大模型",
+    "工程"
+  ],
+  "seo": {
+    "metaTitle": "中国电建华东院 工程大模型服务平台应用",
+    "metaDescription": "中国电建华东院构建工程大模型服务平台，融合大模型与知识图谱，覆盖文档理解、报告生成与数字孪生。",
+    "keywords": [
+      "中国电建华东院",
+      "工程大模型",
+      "知识图谱"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电力建设集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

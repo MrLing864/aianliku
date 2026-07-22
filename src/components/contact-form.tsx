@@ -57,7 +57,7 @@ export function ContactForm({
     if (!response?.ok)
       setErrorMessage(
         data?.error ??
-          "提交没有成功，请稍后重试或发送邮件至 hello@aianliku.cn。",
+          "提交没有成功，请稍后重试或通过页面底部联系方式与我们联系。",
       );
   }
 
@@ -68,7 +68,7 @@ export function ContactForm({
           <CheckCircle2 className="mx-auto size-10 text-primary" />
           <h2 className="mt-4 text-xl font-semibold">信息已经收到</h2>
           <p className="mt-2 max-w-sm text-sm leading-6 text-muted-foreground">
-            我们会先核对内容，再通过你留下的邮箱回复。
+            我们会先核对内容，再通过你留下的手机号联系你。
           </p>
           <Button
             variant="outline"
@@ -123,26 +123,17 @@ export function ContactForm({
           />
         </div>
       </div>
-      <div className="space-y-2">
-        <Label htmlFor="contact-email">联系邮箱 *</Label>
-        <Input
-          id="contact-email"
-          name="email"
-          type="email"
-          required
-          maxLength={254}
-          placeholder="name@company.com"
-        />
-      </div>
       <div className="grid gap-5 sm:grid-cols-2">
         <div className="space-y-2">
-          <Label htmlFor="contact-phone">手机号</Label>
+          <Label htmlFor="contact-phone">手机号 *</Label>
           <Input
             id="contact-phone"
             name="phone"
+            type="tel"
+            required
             inputMode="tel"
             maxLength={30}
-            placeholder="选填"
+            placeholder="13800138000"
           />
         </div>
         <div className="space-y-2">

@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0232",
+  "version": 1,
+  "slug": "case-2025-0232",
+  "title": "基于 AI+个性化教与学的智能学习机应用",
+  "organization": {
+    "id": "org-0232",
+    "name": "四川生学教育科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "四川生学教育科技有限公司（成立于 2015 年，国家级高新技术企业、专精特新中小企业）“基于 AI+个性化教与学的智能学习机应用”入选工信部 2025 年人工智能应用典型案例。公司以人工智能为核心引擎，深度融合大数据、自适应学习、精准教学等技术，打通教、学、练、评、管全流程，实现以学定教、因材施教，并与科大讯飞达成战略合作。",
+  "background": "",
+  "problem": "传统教学难以因材施教，学生个性化学习路径与精准教学缺乏智能化支撑。",
+  "solution": "以 AI+大数据+自适应学习构建个性化教与学解决方案（智能学习机），打通教、学、练、评、管全流程，实现以学定教、因材施教。",
+  "implementationSteps": [
+    "构建学生学习画像与自适应学习引擎",
+    "以 AI 打通教、学、练、评、管全流程",
+    "在智能学习机等终端提供个性化教与学",
+    "在区域与学校场景规模化落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "学情数据质量、个性化推荐效果评估。",
+  "editorComment": {
+    "suitableFor": "K12 个性化教与学与智能学习机",
+    "prerequisites": "具备学情数据与自适应学习能力",
+    "priority": "建议优先",
+    "text": "AI+个性化教育的规模化实践。"
+  },
+  "implementers": [
+    {
+      "name": "四川生学教育科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-232-1",
+      "title": "喜报！生学教育AI方案入选国家级示范案例（基于AI+面向教育的个性化教与学解决方案）",
+      "sourceType": "news",
+      "publisher": "新浪",
+      "originalUrl": "https://k.sina.com.cn/article_5952915705_162d248f906702wfcs.html",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证个性化教与学方案与全流程能力。",
+      "publishedAt": "2026-01-13"
+    },
+    {
+      "publicId": "src-232-2",
+      "title": "AI时代共启新篇！生学教育与科大讯飞达成战略合作",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/885089196_121613636",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证生学教育与科大讯飞战略合作与 AI+教育定位。",
+      "publishedAt": "2025-04-15"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "难因材施教",
+    "个性化不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "自适应学习",
+    "大数据"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "生学教育",
+    "个性化学习",
+    "智能学习机",
+    "AI教育"
+  ],
+  "seo": {
+    "metaTitle": "基于 AI+个性化教与学的智能学习机应用",
+    "metaDescription": "基于 AI+个性化教与学的智能学习机应用",
+    "keywords": [
+      "四川生学教育科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

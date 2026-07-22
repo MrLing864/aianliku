@@ -1,0 +1,158 @@
+{
+  "id": "case-2025-0023",
+  "version": 1,
+  "slug": "case-2025-0023",
+  "title": "“天工开悟”多模态大模型赋能农业生产全链条智能决策",
+  "organization": {
+    "id": "org-0023",
+    "name": "哈尔滨工业大学人工智能研究院有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "哈尔滨工业大学人工智能研究院研发'天工开悟'多模态大模型，系国内首个获批的农业领域大模型，提供农业问答、生长大模型与设施农业管理系统，2.0版本升级问答、预测与决策能力，赋能农业生产全链条智能决策。",
+  "background": "农业生产链条长、地域差异大，亟需面向农业的专业大模型支撑问答、预测与决策。",
+  "problem": "通用大模型缺乏农业专业知识，难以支撑种植、生长、设施管理等全链条决策。",
+  "solution": "由哈工大计算学部、人工智能研究院、智慧农场技术与系统全国重点实验室刘劼教授团队研发'天工开悟'农业大模型（国内首个获批农业领域大模型），涵盖农业问答大模型、生长大模型、设施农业管理系统；2.0版本升级问答、预测与决策能力，赋能农业生产全链条智能决策。",
+  "implementationSteps": [
+    "研发农业领域多模态大模型'天工开悟'",
+    "构建农业问答、生长大模型与设施农业管理系统",
+    "发布2.0版本升级问答/预测/决策能力",
+    "赋能农业生产全链条智能决策"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "农业场景地域性强、数据获取难；模型决策需结合农艺专家校验。",
+  "editorComment": {
+    "suitableFor": "农业科研院所、现代农业企业与种植基地",
+    "prerequisites": "具备农业数据与农艺知识积累",
+    "priority": "条件具备后开展",
+    "text": "农业垂直大模型标杆，适合农业数字化与智能决策参考。"
+  },
+  "implementers": [
+    {
+      "name": "哈尔滨工业大学人工智能研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tg-1",
+      "title": "天工开悟 - 智慧农业大模型平台",
+      "sourceType": "official",
+      "publisher": "哈工大人工智能研究院",
+      "originalUrl": "https://www.tgkwai.com/",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-tg-2",
+      "title": "天工开悟（国内首个获批农业领域大模型）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%A4%A9%E5%B7%A5%E5%BC%80%E6%82%9F/65462343",
+      "publishedAt": "2025-10-23",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-tg-3",
+      "title": "哈工大'天工开悟'农业大模型2.0版本发布",
+      "sourceType": "news",
+      "publisher": "世界农化网",
+      "originalUrl": "https://cn.agropages.com/News/NewsDetail---36252.htm",
+      "publishedAt": "2025-11-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "农业决策",
+    "专业知识",
+    "生产链条"
+  ],
+  "painPointNarrative": "",
+  "highlight": "国内首个获批农业领域大模型，2.0升级问答预测决策",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "农业大模型",
+    "多模态",
+    "智能决策"
+  ],
+  "modelStack": [
+    "天工开悟农业大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "农业大模型",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "哈工大 天工开悟 多模态大模型赋能农业生产全链条智能决策",
+    "metaDescription": "哈工大天工开悟农业大模型（国内首个获批农业大模型）赋能生产全链条智能决策。",
+    "keywords": [
+      "天工开悟",
+      "农业大模型",
+      "哈工大",
+      "智能决策"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "黑龙江省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

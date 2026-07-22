@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { nanoid } from "nanoid";
 import { z } from "zod";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import {
   CONTACT_CONSENT_VERSION,
   PRIVACY_NOTICE_VERSION,
@@ -9,14 +9,13 @@ import {
 import { checkRateLimit } from "@/lib/rate-limit";
 import { recordServerEvent } from "@/lib/server-analytics";
 
-const optionalPhone = z
+const requiredPhone = z
   .string()
   .trim()
+  .min(1, "请输入手机号")
   .max(30)
-  .optional()
   .refine(
-    (value) =>
-      !value || /^(?:\+?86)?1[3-9]\d{9}$/u.test(value.replace(/[\s-]/gu, "")),
+    (value) => /^(?:\+?86)?1[3-9]\d{9}$/u.test(value.replace(/[\s-]/gu, "")),
     "请输入有效的中国大陆手机号",
   );
 
@@ -27,8 +26,7 @@ const schema = z.object({
   caseId: z.string().max(100).optional(),
   name: z.string().trim().min(1).max(50),
   company: z.string().trim().max(100).optional(),
-  email: z.email("请输入有效邮箱").max(254),
-  phone: optionalPhone,
+  phone: requiredPhone,
   wechat: z.string().trim().max(80).optional(),
   message: z.string().trim().min(10).max(3000),
   privacyConsent: z.literal(true),
@@ -52,10 +50,10 @@ export async function POST(request: Request) {
       { status: 400 },
     );
   }
-  if (!isMongoConfigured()) {
+  if (!isDbConfigured()) {
     return NextResponse.json(
       {
-        error: "留言服务正在配置，请稍后重试或发送邮件至 hello@aianliku.cn。",
+        error: "留言服务正在配置，请稍后重试或通过页面底部联系方式与我们联系。",
         code: "CONTACT_STORAGE_NOT_CONFIGURED",
       },
       { status: 503 },
@@ -68,8 +66,7 @@ export async function POST(request: Request) {
   await db.collection("contact_requests").insertOne({
     id,
     ...input,
-    email: input.email.trim().toLocaleLowerCase("en-US"),
-    phone: input.phone?.replace(/[\s-]/gu, "") || undefined,
+    phone: input.phone.replace(/[\s-]/gu, ""),
     wechat: input.wechat?.trim() || undefined,
     status: "new",
     consent: {

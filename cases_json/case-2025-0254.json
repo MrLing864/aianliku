@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0254",
+  "version": 1,
+  "slug": "case-2025-0254",
+  "title": "央视网数字人工工厂实践",
+  "organization": {
+    "id": "org-0254",
+    "name": "央视网网络无锡有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "央视国际网络有限公司（央视网）打造'数字人工厂'，在 2024 年中国国际智能传播论坛签约落地无锡，可提供从生产、运营到营销的数字化全链路解决方案，低成本快速生成 2D、3D 等多种形态数字人，并依托超写实数字人'小 C'（2021 年推出）在新闻播报、综艺、访谈等场景应用。",
+  "background": "央视网在人工智能与数字人领域多年积累后提出'数字人工厂'模式，致力于以 AI 批量、低成本生产数字人与融媒内容。",
+  "problem": "数字人与高质量内容生产周期长、成本高，难以规模化。",
+  "solution": "以数字人工厂提供生产-运营-营销全链路能力，快速生成多形态数字人并落地多场景应用。",
+  "implementationSteps": [
+    "签约落地无锡数字人工厂",
+    "构建数字人生产-运营-营销全链路",
+    "以超写实数字人小 C 落地多场景"
+  ],
+  "duration": "2024 年起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "内容版权与合规、数字人形象管理。",
+  "editorComment": {
+    "suitableFor": "媒体与政务数字人内容生产",
+    "prerequisites": "具备内容制作与传播渠道",
+    "priority": "建议优先",
+    "text": "数字人工厂模式，媒体 AI 化标杆。"
+  },
+  "implementers": [
+    {
+      "name": "央视网网络无锡有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cctv-1",
+      "title": "总台央视网数字人工厂落地无锡",
+      "sourceType": "news",
+      "publisher": "央视网",
+      "originalUrl": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=1123269986727270818",
+      "accessibility": "available",
+      "rightsNote": "官方报道，佐证数字人工厂落地与全链路方案。",
+      "publishedAt": "2024-09-26"
+    },
+    {
+      "publicId": "src-cctv-2",
+      "title": "央视网与无锡经开区签署合作协议 打造“数字人工厂”",
+      "sourceType": "news",
+      "publisher": "央视网",
+      "originalUrl": "https://jingji.cctv.com/2023/07/06/ARTIEDvDx18OrbReUfYY9LgQ230706.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证数字人工厂模式与小 C 数字人。",
+      "publishedAt": "2023-07-06"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "内容生产周期长",
+    "成本高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "生成式AI",
+    "数字人"
+  ],
+  "modelStack": [
+    "数字人工厂"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "数字人工厂",
+    "数字人",
+    "融媒体",
+    "央视网"
+  ],
+  "seo": {
+    "metaTitle": "央视网数字人工工厂实践",
+    "metaDescription": "央视网数字人工工厂实践",
+    "keywords": [
+      "央视网网络无锡有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

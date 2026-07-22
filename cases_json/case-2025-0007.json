@@ -1,0 +1,170 @@
+{
+  "id": "case-2025-0007",
+  "version": 1,
+  "slug": "case-2025-0007",
+  "title": "虚拟机房-电网式算力调度网络实践",
+  "organization": {
+    "id": "org-0007",
+    "name": "北京共绩科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京共绩科技构建'电网式算力调度网络'（虚拟机房），通过供需时序匹配算法与K8S工程体系攻克分布式算力调度难题，实现4个9 SLA稳定性，整合闲置算力，破解算力弹性、低价、稳定'不可能三角'。",
+  "background": "大量企业与科研机构拥有闲置算力却难以有效利用，同时许多AI应用面临算力贵、不稳定的问题。",
+  "problem": "分散、波动、闲时的算力资源无法有效利用；算力服务难以同时满足弹性、低价、稳定，存在'不可能三角'。",
+  "solution": "研发'电网式算力调度网络'，通过供需时序匹配算法、内网穿透及K8S工程体系，实现跨网络、跨系统设备无缝接入与分布式算力调度；整合闲置算力资源，提供低价灵活、安全稳定、绿色低碳的算力服务，促进算力与电力融合的柔性调度。",
+  "implementationSteps": [
+    "研发供需时序匹配算法与内网穿透技术",
+    "构建基于K8S的分布式算力调度工程体系",
+    "实现跨网络、跨系统设备无缝接入",
+    "达到4个9 SLA稳定性保障",
+    "整合闲置算力，构建算电融合柔性调度网络"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "服务可用性SLA",
+      "value": "4个9（99.99%）",
+      "kind": "actual",
+      "sourceId": "src-gj-1"
+    }
+  ],
+  "roi": "",
+  "risks": "分布式闲置算力供给波动大，稳定性保障依赖调度算法；跨网络接入带来安全与合规挑战。",
+  "editorComment": {
+    "suitableFor": "需要低成本弹性算力、对价格敏感的中小企业与科研团队",
+    "prerequisites": "具备可接入的闲置算力或算力需求",
+    "priority": "建议优先",
+    "text": "用'电网式'思路盘活闲置算力，普惠中小企业，注意稳定性与安全保障。"
+  },
+  "implementers": [
+    {
+      "name": "北京共绩科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gj-1",
+      "title": "虚拟机房-电网式算力调度网络（成果库）",
+      "sourceType": "achievement",
+      "publisher": "转果果成果库",
+      "originalUrl": "https://www.imaibj.cn/achievement/details/7e9edaeb165be47d96e4207436df8820",
+      "publishedAt": "2023-10-13",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gj-2",
+      "title": "共绩算力 | 关于我们",
+      "sourceType": "official",
+      "publisher": "共绩科技",
+      "originalUrl": "https://suanli.cn/about/",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gj-3",
+      "title": "清华大学学生双创团队斩获中国国际大学生创新大赛（2024）总决赛奖项",
+      "sourceType": "news",
+      "publisher": "清华大学",
+      "originalUrl": "https://www.tsinghua.edu.cn/info/1180/114557.htm",
+      "publishedAt": "2024-10-15",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "算力成本",
+    "算力弹性",
+    "闲置算力"
+  ],
+  "painPointNarrative": "",
+  "highlight": "电网式算力调度，4个9 SLA，破解算力弹性/低价/稳定三角",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "分布式算力调度",
+    "算电协同",
+    "供需时序匹配"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "算力调度",
+    "算电协同"
+  ],
+  "seo": {
+    "metaTitle": "共绩科技 虚拟机房-电网式算力调度网络实践",
+    "metaDescription": "共绩科技以电网式算力调度网络整合闲置算力，实现4个9 SLA，破解算力弹性/低价/稳定三角。",
+    "keywords": [
+      "共绩科技",
+      "虚拟机房",
+      "算力调度",
+      "算电协同"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

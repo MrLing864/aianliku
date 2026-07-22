@@ -1,0 +1,158 @@
+{
+  "id": "case-2025-0030",
+  "version": 1,
+  "slug": "case-2025-0030",
+  "title": "深信服 AI 创新平台解决方案实践",
+  "organization": {
+    "id": "org-0030",
+    "name": "深信服科技股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "深信服推出AI创新平台（AICP），面向企业大模型开发与部署提供易部署、高性价比的AI基础设施软件平台，并升级'一朵云'匹配DeepSeek等大模型场景的智算承载与应用构建，配套AI安全全域防护。",
+  "background": "企业落地大模型普遍面临部署复杂、成本高、安全合规等难题，需要易用的AI基础设施。",
+  "problem": "企业AI基建部署难、成本高、性价比低；大模型应用伴随安全与合规风险。",
+  "solution": "深信服于2024年3月推出AI创新平台（AICP），面向企业大模型开发与部署，围绕'易部署、高性价比'构建完整能力；'一朵云'面向AI升级，为用户打造更匹配DeepSeek等大模型场景的智算承载与应用构建平台；依托20年安全积淀，以AI安全全域防护体系覆盖企业级AI应用与GenAI使用全场景。",
+  "implementationSteps": [
+    "2024年3月推出AI创新平台AICP",
+    "构建易部署、高性价比的AI基础设施能力",
+    "'一朵云'升级匹配DeepSeek等大模型智算承载",
+    "以AI安全全域防护体系保障企业AI应用"
+  ],
+  "duration": "2024年3月推出至今",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "企业AI基础设施竞争激烈；需持续适配主流大模型与算力生态。",
+  "editorComment": {
+    "suitableFor": "希望低成本、易部署落地大模型的中大型企业",
+    "prerequisites": "具备基本IT基础设施",
+    "priority": "建议优先",
+    "text": "面向企业'易部署、高性价比'的AI基础设施平台，适合中小企业渐进式AI化。"
+  },
+  "implementers": [
+    {
+      "name": "深信服科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sf-1",
+      "title": "一朵云面向AI升级-DeepSeek承载和应用（深信服）",
+      "sourceType": "official",
+      "publisher": "深信服",
+      "originalUrl": "https://www.sangfor.com.cn/campaign/deepseek",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-sf-2",
+      "title": "深信服AICP：灵活部署与高性价比的AI基础设施",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/942550380_121960126",
+      "publishedAt": "2025-10-10",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-sf-3",
+      "title": "深信服AI创新平台（AICP）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%B7%B1%E4%BF%A1%E6%9C%8DAI%E5%88%9B%E6%96%B0%E5%B9%B3%E5%8F%B0(AICP)/68001656",
+      "publishedAt": "2025-08-29",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "部署难度",
+    "成本",
+    "AI安全"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AICP平台：易部署、高性价比的企业AI基础设施",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI基础设施",
+    "大模型部署",
+    "AI安全"
+  ],
+  "modelStack": [
+    "DeepSeek等"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "AI基础设施",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "深信服 AI创新平台（AICP）解决方案实践",
+    "metaDescription": "深信服AICP面向企业大模型开发部署，易部署、高性价比，配套AI安全全域防护。",
+    "keywords": [
+      "深信服",
+      "AICP",
+      "AI基础设施",
+      "DeepSeek"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "深圳市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

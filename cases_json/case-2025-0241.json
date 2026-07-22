@@ -1,0 +1,183 @@
+{
+  "id": "case-2025-0241",
+  "version": 1,
+  "slug": "case-2025-0241",
+  "title": "基于地质工程一体化的钻井优化智能体应用",
+  "organization": {
+    "id": "org-0241",
+    "name": "中国石油集团渤海钻探工程有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "建筑建材",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由中国石油集团渤海钻探工程有限公司申报的“基于地质工程一体化的钻井优化智能体应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由中国石油天然气集团有限公司推荐。该应用以地质工程一体化为核心，构建“数据—决策—执行”三核驱动的智能钻井优化体系，实现地层特性到工程参数的精准映射与随钻工程智能预警。",
+  "background": "中国石油集团渤海钻探工程有限公司是中国石油旗下专业钻探工程单位，承担国内外油气勘探开发钻探作业。面对深部、复杂地层钻探难题，公司持续推进地质工程一体化与数智化转型。",
+  "problem": "传统钻井依赖人工经验，地质与工程参数割裂，复杂地层钻探复杂时效高、钻井周期长，亟需从经验驱动向数据驱动转变。",
+  "solution": "构建基于地质工程一体化的钻井优化智能体，以动态机械比能（MSE）建模与实时优化为核心，实现地层特性到工程参数的精准映射；形成“数据—决策—执行”三核驱动的智能钻井优化，并集成随钻工程智能预警（“三随一导”技术），支持异常压力识别与工况预警。",
+  "implementationSteps": [
+    "整合钻、录、固、测、试油等地质与工程数据，建立地质工程一体化数据底座。",
+    "研发动态机械比能（MSE）建模与实时优化算法，实现地层—工程参数映射。",
+    "构建随钻工程智能预警（“三随一导”）能力，识别异常压力与工况风险。",
+    "通过EISC远程作业支持系统规模化应用，持续优化钻井效率与复杂时效。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "复杂时效同比降低",
+      "value": "43",
+      "unit": "%",
+      "kind": "percentage",
+      "sourceId": "src-news-0241a"
+    },
+    {
+      "label": "应用井数",
+      "value": "53",
+      "unit": "口",
+      "kind": "count",
+      "sourceId": "src-news-0241b"
+    },
+    {
+      "label": "异常压力发现率",
+      "value": "87.04",
+      "unit": "%",
+      "kind": "percentage",
+      "sourceId": "src-news-0241b"
+    },
+    {
+      "label": "监测准确率",
+      "value": "83",
+      "unit": "%",
+      "kind": "percentage",
+      "sourceId": "src-news-0241b"
+    }
+  ],
+  "roi": "",
+  "risks": "智能优化建议需结合现场地质条件与工程经验综合判断，重大工况决策设置人工确认；模型依赖数据质量，需持续积累与校验。",
+  "editorComment": {
+    "suitableFor": "油气勘探开发钻井、复杂地层钻探作业。",
+    "prerequisites": "具备较完整的地质与工程数据积累及远程作业支持系统。",
+    "priority": "high",
+    "text": "地质工程一体化钻井优化智能体实现从经验驱动到数据驱动的转变，复杂时效显著降低，是能源行业“人工智能+”的典型示范。"
+  },
+  "implementers": [
+    {
+      "name": "中国石油集团渤海钻探工程有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0241a",
+      "title": "中国石油渤海钻探深化EISC应用实现质效双升",
+      "sourceType": "media",
+      "publisher": "中国化工报/化工号",
+      "originalUrl": "https://www.ccin.com.cn/detail/c1d0ed89399f3e24ca71ea0e6bfc4950",
+      "externalId": "",
+      "publishedAt": "2024-06-19",
+      "accessibility": "available",
+      "rightsNote": "报道渤海钻探深化EISC系统应用，复杂时效同比降低43%。"
+    },
+    {
+      "publicId": "src-news-0241b",
+      "title": "渤海钻探“三随一导”核心技术取得新突破",
+      "sourceType": "media",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/K8KHK2E805568W0A.html",
+      "externalId": "",
+      "publishedAt": "2025-09-04",
+      "accessibility": "available",
+      "rightsNote": "报道渤海钻探“三随一导”技术已在华北、长庆、玉门等市场应用53口井，异常压力发现率87.04%、监测准确率83%。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机理建模",
+    "机器学习",
+    "智能体",
+    "智能预警"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "地质工程一体化",
+    "钻井优化",
+    "智能钻井",
+    "MSE建模",
+    "随钻预警"
+  ],
+  "seo": {
+    "metaTitle": "基于地质工程一体化的钻井优化智能体应用",
+    "metaDescription": "基于地质工程一体化的钻井优化智能体应用",
+    "keywords": [
+      "中国石油集团渤海钻探工程有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国石油天然气集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

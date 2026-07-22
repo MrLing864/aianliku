@@ -1,0 +1,168 @@
+{
+  "id": "case-2025-0071",
+  "version": 1,
+  "slug": "case-2025-0071",
+  "title": "AI 辅助“绿色船舶+高端海工”设计",
+  "organization": {
+    "id": "org-0071",
+    "name": "招商重工（江苏）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "船舶海工",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "招商局重工（江苏）以AI辅助'绿色船舶+高端海工'设计，自研船舶垂域大模型，融合知识图谱、图像识别与强化学习，搭建AI辅助船舶生产设计系统，自动完成全船电缆最优路径规划，单船万余根电缆计算仅需4小时、综合降本150万元。",
+  "background": "传统船舶设计建模任务繁重、效率偏低，电缆布线、管电舾图纸人工设计易出错、周期长。",
+  "problem": "船舶设计建模效率低、人工图纸设计易出错；电缆布线等复杂任务计算量大、研发周期长。",
+  "solution": "依托自研数字化设计平台，运用人工智能、图像识别等构建智能化设计体系；自研船舶垂域大模型，融合知识图谱、图像识别与强化学习算法，搭建AI辅助船舶生产设计系统，可自动完成全船电缆最优路径规划；在保障数据安全性与自主可控前提下，显著提升设计精度、压缩研发周期。",
+  "implementationSteps": [
+    "建设自研数字化设计平台与船舶垂域大模型",
+    "融合知识图谱/图像识别/强化学习搭建AI辅助设计系统",
+    "实现全船电缆最优路径自动规划",
+    "适配邮轮、PCTC等多类船型并落地集团多基地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "单船万余根电缆计算耗时",
+      "value": "4",
+      "unit": "小时",
+      "kind": "actual",
+      "sourceId": "src-zm-1"
+    },
+    {
+      "label": "单船综合降本",
+      "value": "150",
+      "unit": "万元",
+      "kind": "actual",
+      "sourceId": "src-zm-1"
+    },
+    {
+      "label": "单船安装图出图时间缩减",
+      "value": "30",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-zm-1"
+    }
+  ],
+  "roi": "",
+  "risks": "船舶设计数据涉密，需保障自主可控；垂域大模型需大量专业语料与图纸样本。",
+  "editorComment": {
+    "suitableFor": "船舶与海工装备企业的智能化设计",
+    "prerequisites": "具备数字化设计平台与专业图纸数据",
+    "priority": "建议优先",
+    "text": "AI+垂域大模型的船舶智能设计，单船降本150万，适合装备设计企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "招商局重工（江苏）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zm-1",
+      "title": "南通海门一案例入选工信部2025年人工智能应用典型案例（招商重工AI辅助设计）",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5076a4390a338552",
+      "publishedAt": "2026",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "设计效率",
+    "人工出错",
+    "研发周期"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI辅助船舶设计：单船电缆计算4小时、降本150万",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "船舶垂域大模型",
+    "知识图谱",
+    "智能设计"
+  ],
+  "modelStack": [
+    "船舶垂域大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "船舶海工",
+    "智能设计"
+  ],
+  "seo": {
+    "metaTitle": "招商重工江苏 AI辅助绿色船舶+高端海工设计",
+    "metaDescription": "招商重工以AI辅助船舶设计，自研垂域大模型实现全船电缆最优路径规划，单船降本150万元。",
+    "keywords": [
+      "招商重工",
+      "绿色船舶",
+      "AI辅助设计",
+      "船舶大模型"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "招商局集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

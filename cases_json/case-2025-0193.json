@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0193",
+  "version": 1,
+  "slug": "case-2025-0193",
+  "title": "面向视障人群出行的导盲机器狗实践",
+  "organization": {
+    "id": "org-0193",
+    "name": "长春市万易科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "长春市万易科技有限公司研发导盲机器狗“大易”，专为视障人士出行设计，具备 4 种导航模式、6 大感知能力，可降低约 80% 碰撞风险，作为导盲犬的科技补充重塑视障群体出行自主，入选工信部 2025 年人工智能应用典型案例（助残方向）。",
+  "background": "万易科技基于 WHYE-One/Two 核心框架平台与易数慧治平台，深化大模型、图像识别、联邦学习等核心技术，布局人工智能与无障碍科技；导盲机器狗“大易”已在福祉展等平台展示。",
+  "problem": "视障人士出行依赖导盲犬（培育成本高、数量稀缺），自主出行困难。",
+  "solution": "导盲机器狗“大易”，以多模态感知与导航赋能视障出行。",
+  "implementationSteps": [
+    "研发导盲机器狗大易核心框架平台",
+    "构建多模态感知与导航能力",
+    "在视障出行场景推广应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "碰撞风险降低",
+      "value": "80",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-wy2-1"
+    }
+  ],
+  "roi": "",
+  "risks": "复杂环境导航可靠性、人机交互安全。",
+  "editorComment": {
+    "suitableFor": "视障人士智能出行辅助",
+    "prerequisites": "具备多模态感知与导航能力",
+    "priority": "建议优先",
+    "text": "科技助残、导盲犬补充的普惠范式。"
+  },
+  "implementers": [
+    {
+      "name": "长春市万易科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-wy2-1",
+      "title": "导盲机器狗拥有4种导航模式、6大感知能力（大易）",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20260604A08IN900",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证大易导盲机器狗与 80% 碰撞风险降低。",
+      "publishedAt": "2026-06-04"
+    },
+    {
+      "publicId": "src-wy2-2",
+      "title": "导航机器狗，专为视障人士研发（万易科技）",
+      "sourceType": "news",
+      "publisher": "人民网吉林",
+      "originalUrl": "http://jl.people.com.cn/n2/2026/0605/c349771-41602465.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证万易导盲机器狗研发与无障碍科技布局。",
+      "publishedAt": "2026-06-05"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "自主出行难",
+    "导盲犬稀缺"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态感知",
+    "导航"
+  ],
+  "modelStack": [
+    "导盲机器狗大易"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "导盲机器狗",
+    "大易",
+    "万易",
+    "无障碍"
+  ],
+  "seo": {
+    "metaTitle": "面向视障人群出行的导盲机器狗实践",
+    "metaDescription": "面向视障人群出行的导盲机器狗实践",
+    "keywords": [
+      "长春市万易科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "吉林省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

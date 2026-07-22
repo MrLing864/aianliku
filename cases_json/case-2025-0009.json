@@ -1,0 +1,180 @@
+{
+  "id": "case-2025-0009",
+  "version": 1,
+  "slug": "case-2025-0009",
+  "title": "全调度以太网技术攻关与产业生态构建",
+  "organization": {
+    "id": "org-0009",
+    "name": "中国移动通信有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动研究院原创提出全调度以太网（GSE）技术架构，主导发布全套标准、首颗全量支持GSE的DPU芯片'智算琢光'，并联合30余家伙伴成立GSE推进计划，构建开放无阻塞、高带宽、超低时延的智算中心网络产业生态。",
+  "background": "大模型训练依赖超大规模GPU集群，智算中心网络成为性能瓶颈，需要开放标准化的新型网络。",
+  "problem": "智算中心网络存在性能瓶颈，传统以太网难以满足AI/HPC无阻塞、高带宽、超低时延需求；缺乏开放透明的标准与全产业链协同。",
+  "solution": "中国移动研究院主导提出全调度以太网（GSE）技术架构，在兼容现有以太网前提下融入高性能计算需求，创新提出报文容器（PKTC）概念，实现从'流'分发到'报文'分发；2024年10月发布全套标准及首款设备，联合30余家伙伴成立GSE推进计划；发布首颗全量支持GSE标准的DPU芯片'智算琢光'，可构建超万颗GPU集群。",
+  "implementationSteps": [
+    "2023年5月提出全调度以太网（GSE）技术架构（PKTC报文容器）",
+    "2024年10月发布GSE全套标准及首款设备",
+    "联合30余家伙伴成立GSE推进计划",
+    "2024年11月发布首颗全量支持GSE的DPU芯片'智算琢光'"
+  ],
+  "duration": "2023年至今",
+  "cost": "",
+  "results": [
+    {
+      "label": "DPU芯片",
+      "value": "智算琢光（首颗全量支持GSE）",
+      "kind": "actual",
+      "sourceId": "src-gse-1"
+    },
+    {
+      "label": "生态伙伴",
+      "value": "30+",
+      "unit": "家",
+      "kind": "actual",
+      "sourceId": "src-gse-2"
+    }
+  ],
+  "roi": "",
+  "risks": "新型网络标准生态培育周期长；需芯片、设备、操作系统全产业链协同落地。",
+  "editorComment": {
+    "suitableFor": "智算中心建设方、网络设备与芯片厂商，以及大规模GPU集群训练场景",
+    "prerequisites": "具备智算中心网络与产业链协同能力",
+    "priority": "条件具备后开展",
+    "text": "从网络层突破智算瓶颈的底层标准，适合关注算力基础设施长期演进的企业。"
+  },
+  "implementers": [
+    {
+      "name": "中国移动通信有限公司",
+      "role": "申报单位"
+    },
+    {
+      "name": "中国移动研究院",
+      "role": "技术研发"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gse-1",
+      "title": "全球首颗！中国移动联合产业伙伴发布全调度以太网（GSE）DPU芯片'智算琢光'",
+      "sourceType": "news",
+      "publisher": "中国移动",
+      "originalUrl": "https://www.10086.cn/aboutus/news/groupnews/index_detail_51155.html",
+      "publishedAt": "2024-11-21",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gse-2",
+      "title": "中国移动与合作伙伴发布全调度以太网（GSE）全套标准及首款设备",
+      "sourceType": "news",
+      "publisher": "C114通信网",
+      "originalUrl": "https://www.c114.com.cn/news/118/a1274916.html",
+      "publishedAt": "2024-10-09",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gse-3",
+      "title": "中国移动研究院联合多家单位发布《全调度以太网技术架构白皮书》",
+      "sourceType": "whitepaper",
+      "publisher": "C114通信网",
+      "originalUrl": "https://www.c114.com.cn/news/118/a1231317.html",
+      "publishedAt": "2023-05-09",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "智算网络瓶颈",
+    "网络标准",
+    "算力性能"
+  ],
+  "painPointNarrative": "",
+  "highlight": "原创GSE标准+首颗GSE DPU芯片'智算琢光'，30+伙伴生态",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "全调度以太网GSE",
+    "智算中心网络",
+    "DPU芯片"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智算网络",
+    "GSE"
+  ],
+  "seo": {
+    "metaTitle": "中国移动 全调度以太网技术攻关与产业生态构建",
+    "metaDescription": "中国移动原创GSE全调度以太网标准，发布首颗GSE DPU芯片'智算琢光'，联合30+伙伴构建智算网络生态。",
+    "keywords": [
+      "中国移动",
+      "全调度以太网",
+      "GSE",
+      "智算琢光"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

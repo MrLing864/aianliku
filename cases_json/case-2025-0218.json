@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0218",
+  "version": 1,
+  "slug": "case-2025-0218",
+  "title": "基于光磁一体多模态影像导航的脊柱微创手术解决方案应用",
+  "organization": {
+    "id": "org-0218",
+    "name": "重庆博仕康科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "重庆博仕康科技有限公司自主研发“基于光磁一体多模态影像导航的脊柱微创手术解决方案”，手术精度高达 0.1mm，实现图像实时动态追踪与骨科微创手术精准定位；2023 年 5 月完成全国首例光磁一体手术导航系统辅助下的脊柱内镜手术，并获重庆市首台（套）重大技术装备认定，入选工信部 2025 年人工智能应用典型案例。",
+  "background": "博仕康专注脊柱、神经外科“软件+硬件+服务”手术全流程解决方案，是重庆市专精特新、瞪羚企业；系统由导航主机、显示器、光学及电磁定位设备、手术工具与内窥镜系统组成。",
+  "problem": "脊柱微创手术定位要求极高、依赖专家经验，传统手段精度不足、风险高。",
+  "solution": "光磁一体多模态影像导航，实现 0.1mm 精度实时动态追踪与精准定位。",
+  "implementationSteps": [
+    "研发光磁一体手术导航系统",
+    "完成全国首例光磁一体辅助脊柱内镜手术",
+    "获重庆市首台（套）认定并推广"
+  ],
+  "duration": "2023-05 首例手术",
+  "cost": "",
+  "results": [
+    {
+      "label": "手术精度",
+      "value": "0.1",
+      "unit": "mm",
+      "kind": "actual",
+      "sourceId": "src-boss-1"
+    }
+  ],
+  "roi": "",
+  "risks": "临床安全、导航系统可靠性与注册合规。",
+  "editorComment": {
+    "suitableFor": "脊柱微创手术的精准导航",
+    "prerequisites": "具备影像导航与手术设备",
+    "priority": "建议优先",
+    "text": "光磁一体导航实现亚毫米级骨科手术精准定位。"
+  },
+  "implementers": [
+    {
+      "name": "重庆博仕康科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-boss-1",
+      "title": "重庆博仕康：辅助医生把手术精确到0.1毫米",
+      "sourceType": "news",
+      "publisher": "新华网重庆",
+      "originalUrl": "http://www.cq.xinhuanet.com/20240112/e58a4e9421654e0f8db253ee9fa55bff/c.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证 0.1mm 精度与全国首例光磁一体导航手术。",
+      "publishedAt": "2024-01-12"
+    },
+    {
+      "publicId": "src-boss-2",
+      "title": "两江新区企业博仕康上榜国家级名单",
+      "sourceType": "news",
+      "publisher": "重庆市两江新区政府",
+      "originalUrl": "https://ljxq.gov.cn/zwxx/ljyw/202607/t20260703_15797232.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证脊柱微创手术解决方案入选案例名单。",
+      "publishedAt": "2026-07-05"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "定位要求高",
+    "依赖经验"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "光磁一体导航",
+    "多模态影像"
+  ],
+  "modelStack": [
+    "光磁一体多模态影像导航系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "博仕康",
+    "光磁一体",
+    "脊柱微创",
+    "手术导航"
+  ],
+  "seo": {
+    "metaTitle": "基于光磁一体多模态影像导航的脊柱微创手术解决方案应用",
+    "metaDescription": "基于光磁一体多模态影像导航的脊柱微创手术解决方案应用",
+    "keywords": [
+      "重庆博仕康科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

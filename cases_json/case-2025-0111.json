@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0111",
+  "version": 1,
+  "slug": "case-2025-0111",
+  "title": "工业生产智能体在棒纤缆全产业链中的应用",
+  "organization": {
+    "id": "org-0111",
+    "name": "江苏亨通光电股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "江苏亨通光电股份有限公司将工业生产智能体应用于光纤预制棒、光纤、光缆（棒纤缆）全产业链，依托自研 HioT 工业互联网平台与全工序数据闭环，实现从光棒到拉丝的全流程智能控制，入选行业赋能方向典型案例。",
+  "background": "亨通在光通信行业率先推进智能化、精益化、信息化建设，建成全球光通信行业首座'灯塔工厂'，以 1.2 万余个传感器实现全制程设备物联。",
+  "problem": "棒纤缆产业链工序多达上百道，依赖人工值守与经验调控，效率与一致性提升受限。",
+  "solution": "构建工业生产智能体，结合 HioT 工业互联网平台与全工序数据闭环，实现光纤预制棒到拉丝的全流程智能控制与协同决策。",
+  "implementationSteps": [
+    "部署 1.2 万余个传感器实现全制程设备物联",
+    "构建 HioT 工业互联网平台与数据闭环",
+    "在棒纤缆全产业链落地工业生产智能体"
+  ],
+  "duration": "持续建设",
+  "cost": "",
+  "results": [
+    {
+      "label": "生产效率",
+      "value": "提升 66%",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hengtong-1"
+    },
+    {
+      "label": "成本",
+      "value": "降低 21%",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hengtong-1"
+    }
+  ],
+  "roi": "",
+  "risks": "全产业链数据打通、智能体在多工序协同下的稳定性。",
+  "editorComment": {
+    "suitableFor": "光通信及流程型制造全产业链智能管控",
+    "prerequisites": "具备工业互联网与传感物联基础",
+    "priority": "建议优先",
+    "text": "灯塔工厂+工业智能体范式，适合长流程制造。"
+  },
+  "implementers": [
+    {
+      "name": "江苏亨通光电股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hengtong-1",
+      "title": "十余人管400台设备：一座“灯塔工厂”如何让底层数据真正“跑起来”",
+      "sourceType": "news",
+      "publisher": "工业速派/光明网",
+      "originalUrl": "https://www.industrysourcing.cn/article/471123",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证效率与成本指标。",
+      "publishedAt": "2025-10-23"
+    },
+    {
+      "publicId": "src-hengtong-2",
+      "title": "亨通光电案例入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1047688225_121123840",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证入选方向与棒纤缆智能体。",
+      "publishedAt": "2026-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "工序多依赖人工",
+    "一致性难保障"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业智能体",
+    "工业互联网"
+  ],
+  "modelStack": [
+    "HioT 工业智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "工业智能体",
+    "棒纤缆",
+    "灯塔工厂",
+    "光通信"
+  ],
+  "seo": {
+    "metaTitle": "工业生产智能体在棒纤缆全产业链中的应用",
+    "metaDescription": "工业生产智能体在棒纤缆全产业链中的应用",
+    "keywords": [
+      "江苏亨通光电股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

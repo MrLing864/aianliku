@@ -1,0 +1,164 @@
+{
+  "id": "case-2025-0094",
+  "version": 1,
+  "slug": "case-2025-0094",
+  "title": "人工智能赋能汽车制造领域设备故障诊断与预测性维护",
+  "organization": {
+    "id": "org-0094",
+    "name": "重庆数智融合创新科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国联通（重庆）5G 融合创新中心（法人：重庆数智融合创新科技有限公司）联合长安汽车，以“数据驱动+AI 建模”为核心，构建覆盖汽车工厂冲、焊、涂、总、电池五大专业的设备故障诊断与预测性维护系统，入选工信部人工智能应用典型案例公示。",
+  "background": "重庆推进“人工智能+制造”行动，长安汽车为本地龙头车企；中国联通（重庆）5G 融合创新中心携手长安共建智能新生态。",
+  "problem": "汽车制造关键设备（电机、风机、升降机等）依赖人工点检，故障停机损失大、维护被动。",
+  "solution": "基于“数据驱动+AI 建模”，对关键设备运行状态实时在线监测，提供适用于冲、焊、涂、总、电池五大专业的设备故障诊断与预测性维护解决方案。",
+  "implementationSteps": [
+    "采集汽车工厂五大专业关键设备运行数据",
+    "构建数据驱动+AI 建模的故障诊断与预测模型",
+    "在长安汽车产线部署预测性维护系统"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "设备数据质量与标注、模型对不同产线工况的泛化。",
+  "editorComment": {
+    "suitableFor": "汽车及离散制造设备预测性维护",
+    "prerequisites": "具备设备联网与运行数据采集条件",
+    "priority": "建议优先",
+    "text": "运营商 5G+AI 能力下沉制造业的标杆实践。"
+  },
+  "implementers": [
+    {
+      "name": "重庆数智融合创新科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cq-1",
+      "title": "中国联通（重庆）5G融合创新中心携手长安打造人工智能应用",
+      "sourceType": "news",
+      "publisher": "华龙网",
+      "originalUrl": "https://www.cqnews.net/web/content_1522899970262261760.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证联合长安的设备故障诊断与预测性维护案例入选。",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "publicId": "src-cq-2",
+      "title": "中国联通（重庆）5G融合创新中心携手长安共建智能新生态",
+      "sourceType": "news",
+      "publisher": "人民网重庆",
+      "originalUrl": "http://cq.people.com.cn/n2/2026/0317/c367653-41525803.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证双方智能生态合作背景。",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "publicId": "src-cq-3",
+      "title": "基于AI的汽车工厂设备故障诊断与预测性维护系统",
+      "sourceType": "platform",
+      "publisher": "科创中国",
+      "originalUrl": "https://www.kczg.org.cn/fruit/detail?id=736047",
+      "accessibility": "available",
+      "rightsNote": "平台成果，佐证五大专业设备诊断与预测维护方案。",
+      "publishedAt": "2026-06-05"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工点检",
+    "故障停机损失大"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数据驱动",
+    "AI建模",
+    "预测性维护"
+  ],
+  "modelStack": [
+    "汽车工厂设备故障诊断与预测模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "预测性维护",
+    "设备故障诊断",
+    "长安汽车",
+    "5G+AI"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能汽车制造领域设备故障诊断与预测性维护",
+    "metaDescription": "人工智能赋能汽车制造领域设备故障诊断与预测性维护",
+    "keywords": [
+      "重庆数智融合创新科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

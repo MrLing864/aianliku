@@ -1,0 +1,119 @@
+{
+  "id": "case-2025-0156",
+  "version": 1,
+  "slug": "case-2025-0156",
+  "title": "AI 智审赋能政务信息化项目全生命周期管理",
+  "organization": {
+    "id": "org-0156",
+    "name": "数字湖南有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "政务与公共服务",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "数字湖南有限公司以“AI 智审”赋能政务信息化项目全生命周期管理，结合湖南省政务信息化项目全生命周期管理政策背景，提升政务信息化项目的审核效率与治理水平。",
+  "background": "数字湖南有限公司是湖南省数字政府建设运营主体，承担全省政务信息化与数据要素相关建设。其“AI智审赋能政务信息化项目全生命周期管理”由湖南省/长沙市推荐入选工信部2025人工智能应用典型案例（产品应用方向）。",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "数字湖南有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-shnum-1",
+      "title": "湖南省加强政务信息化项目全生命周期管理的若干措施",
+      "sourceType": "government_record",
+      "publisher": "湖南省人民政府",
+      "originalUrl": "http://www.sp.gov.cn/spxzwfwzx/0600/202505/60f1164813694060a69eb4f7072d813a.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府政策，佐证政务信息化全生命周期管理背景。",
+      "publishedAt": "2024-08-18"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "政务信息化",
+    "AI智审",
+    "全生命周期管理"
+  ],
+  "seo": {
+    "metaTitle": "AI 智审赋能政务信息化项目全生命周期管理",
+    "metaDescription": "AI 智审赋能政务信息化项目全生命周期管理",
+    "keywords": [
+      "数字湖南有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

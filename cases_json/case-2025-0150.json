@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0150",
+  "version": 1,
+  "slug": "case-2025-0150",
+  "title": "大语言模型和机器人赋能 IDC 智能运维",
+  "organization": {
+    "id": "org-0150",
+    "name": "湖北省楚天云有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "湖北省楚天云有限公司以'大语言模型+机器人'赋能 IDC 智能运维，构建'端-边-云'协同体系，通过机器人智能巡检推动数据中心运维革新，入选工信部行业赋能方向典型案例，并曾入选 2025 年武汉市人工智能典型优秀应用场景。",
+  "background": "楚天云是湖北大数据集团旗下、湖北省数字政府建设的中坚力量，面临数据中心规模扩张带来的运维压力。",
+  "problem": "数据中心设备规模大、运维依赖人工巡检，故障发现与处置不及时，影响业务连续性。",
+  "solution": "构建'端-边-云'协同的 IDC 智能运维体系，以机器人在边端执行智能巡检，以大语言模型进行故障分析与决策辅助，实现运维自动化与智能化。",
+  "implementationSteps": [
+    "部署 IDC 智能巡检机器人，实现边端自动巡检",
+    "构建端-边-云协同运维架构",
+    "以大语言模型赋能故障诊断与运维决策"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "机器人在复杂机房环境的可靠性、模型决策的可解释性。",
+  "editorComment": {
+    "suitableFor": "数据中心/IDC 智能运维",
+    "prerequisites": "具备机房自动化与网络基础",
+    "priority": "建议优先",
+    "text": "大模型+机器人驱动 IDC 运维新范式。"
+  },
+  "implementers": [
+    {
+      "name": "湖北省楚天云有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cty-1",
+      "title": "人工智能+⑤ | 楚天云公司项目获评工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "光磁",
+      "originalUrl": "https://www.gm7.org/archives/130931",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证端-边-云协同与大模型+机器人方案。",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "publicId": "src-cty-2",
+      "title": "数智双生，运维革新：省楚天云IDC智能机器人荣膺2025年武汉市人工智能典型优秀应用场景",
+      "sourceType": "news",
+      "publisher": "楚天云",
+      "originalUrl": "https://www.chutianyun.com.cn/xwzx/jytt/1991338885707231234.html",
+      "accessibility": "available",
+      "rightsNote": "企业官方报道，佐证 IDC 智能运维机器人。",
+      "publishedAt": "2025-11-19"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工巡检",
+    "故障处置不及时"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大语言模型",
+    "机器人",
+    "数字孪生"
+  ],
+  "modelStack": [
+    "IDC 智能运维机器人"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "IDC运维",
+    "大模型",
+    "巡检机器人",
+    "端边云"
+  ],
+  "seo": {
+    "metaTitle": "大语言模型和机器人赋能 IDC 智能运维",
+    "metaDescription": "大语言模型和机器人赋能 IDC 智能运维",
+    "keywords": [
+      "湖北省楚天云有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

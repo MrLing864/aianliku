@@ -3,13 +3,13 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { getAdminSession } from "@/lib/auth/dal";
 import { writeAuditLog } from "@/lib/audit";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
-import { deletePrivateObject, isR2Configured, privateObjectUrl, uploadPrivateObject } from "@/lib/storage/r2";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
+import { deletePrivateObject, isCosConfigured, privateObjectUrl, uploadPrivateObject } from "@/lib/storage/cos";
 
 const uploadSchema = z.object({ content: z.string().min(1).max(5_000_000), contentType: z.enum(["text/plain", "text/html", "application/json"]).default("text/plain") });
 
 async function sourceForAdmin(id: string) {
-  if (!isMongoConfigured()) return null;
+  if (!isDbConfigured()) return null;
   const db = await getDb();
   return db.collection("sources").findOne({ id }, { projection: { _id: 0 } });
 }
@@ -20,7 +20,7 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
   const id = (await params).id;
   const source = await sourceForAdmin(id);
   if (!source?.snapshotKey) return NextResponse.json({ error: "快照不存在" }, { status: 404 });
-  if (!isR2Configured()) return NextResponse.json({ error: "R2 尚未配置" }, { status: 503 });
+  if (!isCosConfigured()) return NextResponse.json({ error: "COS 尚未配置" }, { status: 503 });
   const url = await privateObjectUrl(String(source.snapshotKey), 300);
   await writeAuditLog({ actor: session.user?.email ?? "admin", action: "source.snapshot_access", entityType: "source", entityId: id, metadata: { expiresIn: 300 } });
   return NextResponse.redirect(url);
@@ -29,8 +29,8 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getAdminSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  if (!isMongoConfigured()) return NextResponse.json({ error: "MongoDB 尚未配置" }, { status: 503 });
-  if (!isR2Configured()) return NextResponse.json({ error: "R2 尚未配置" }, { status: 503 });
+  if (!isDbConfigured()) return NextResponse.json({ error: "CloudBase 尚未配置" }, { status: 503 });
+  if (!isCosConfigured()) return NextResponse.json({ error: "COS 尚未配置" }, { status: 503 });
   const parsed = uploadSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "快照内容无效或超过 5 MB" }, { status: 400 });
   const id = (await params).id;

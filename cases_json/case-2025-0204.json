@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0204",
+  "version": 1,
+  "slug": "case-2025-0204",
+  "title": "光伏智慧化铺装机器人及智能运维系统应用",
+  "organization": {
+    "id": "org-0204",
+    "name": "中国葛洲坝集团电力有限责任公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国能建葛洲坝电力公司申报的“光伏智慧化铺装机器人及智能运维系统应用”入选工信部产品应用方向典型案例，深度融合“光伏+AI+机器人”技术，构建覆盖光伏钻孔、浇筑、巡检、清洁、运维的全生命周期智能解决方案，破解 GW 级光伏电站人工清扫成本高、运维难等痛点。",
+  "background": "葛洲坝电力公司 2025 年提出持续深耕“光伏+AI+机器人”技术融合，构建覆盖钻孔、浇筑、巡检、清洁、运维的全生命周期智能解决方案，助力全球能源转型。",
+  "problem": "GW 级光伏电站人工清扫成本高、运维难以规模化，组件尺寸增大带来系统匹配新挑战。",
+  "solution": "光伏智慧化铺装机器人+智能运维系统，实现光伏电站钻、浇、巡、清、维全生命周期智能化。",
+  "implementationSteps": [
+    "研发光伏智慧化铺装与清洁机器人",
+    "构建智能运维系统",
+    "在光伏电站运维场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂地形与组件适配、机器人集群协同。",
+  "editorComment": {
+    "suitableFor": "大型光伏电站智能铺装与运维",
+    "prerequisites": "具备光伏电站与作业场景",
+    "priority": "建议优先",
+    "text": "光伏+AI+机器人全生命周期运维范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国葛洲坝集团电力有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gez-1",
+      "title": "中国能建葛洲坝电力公司一人工智能应用入选工信部典型案例",
+      "sourceType": "news",
+      "publisher": "葛洲坝集团",
+      "originalUrl": "http://www.cggc.ceec.net.cn/art/2026/7/17/art_7370_2530002.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证光伏智慧化铺装机器人及智能运维系统入选。",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "publicId": "src-gez-2",
+      "title": "创新科技助力绿色低碳发展（光伏+AI+机器人）",
+      "sourceType": "news",
+      "publisher": "葛洲坝电力",
+      "originalUrl": "http://www.gzbdl.ceec.net.cn/art/2025/3/3/art_12286_2519708.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证覆盖钻孔/浇筑/巡检/清洁/运维全生命周期方案。",
+      "publishedAt": "2025-03-03"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工清扫成本高",
+    "运维难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI+机器人",
+    "全生命周期运维"
+  ],
+  "modelStack": [
+    "光伏智慧化铺装机器人及智能运维系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光伏机器人",
+    "智能运维",
+    "葛洲坝",
+    "光伏+AI"
+  ],
+  "seo": {
+    "metaTitle": "光伏智慧化铺装机器人及智能运维系统应用",
+    "metaDescription": "光伏智慧化铺装机器人及智能运维系统应用",
+    "keywords": [
+      "中国葛洲坝集团电力有限责任公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国能源建设集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

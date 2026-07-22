@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0274",
+  "version": 1,
+  "slug": "case-2025-0274",
+  "title": "天罡大模型评测平台应用",
+  "organization": {
+    "id": "org-0274",
+    "name": "中电信智能网络科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "人工智能基础设施",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-infra",
+      "name": "算力基础设施与AI平台",
+      "slug": "scn-ai-infra",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "云轴科技（ZStack）实践“ZStack 智塔 AI 一体机（DeepSeek 版）大模型私有化部署应用”，以软硬协同的 AI Infra 产品 ZStack AIOS 智塔平台为核心，集成多样化硬件（昇腾、海光、英伟达等主流 GPU）与一站式 AI 平台，支持 DeepSeek 等大模型全栈私有化部署，满足政企行业安全合规的大模型落地需求，并入选中国人工智能产业发展联盟（AIIA）大模型一体机产业图谱。",
+  "background": "ZStack 于 2024 年 8 月发布 AI Infra 基础设施平台 ZStack AIOS 智塔，以 All-in-One 一站式平台优势在算力调度与私有化部署领域具备竞争力。",
+  "problem": "政企大模型落地面临私有化部署、算力异构与安全合规挑战。",
+  "solution": "ZStack 智塔 AI 一体机，软硬协同实现大模型私有化部署与算力统一调度。",
+  "implementationSteps": [
+    "研发 ZStack AIOS 智塔 AI Infra 平台",
+    "推出智塔 AI 一体机（DeepSeek 版）",
+    "在政企私有化大模型部署场景落地"
+  ],
+  "duration": "2024-08 发布平台",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "异构算力适配、私有化部署运维。",
+  "editorComment": {
+    "suitableFor": "政企大模型私有化部署",
+    "prerequisites": "具备算力硬件与私有化需求",
+    "priority": "建议优先",
+    "text": "软硬协同 AI 一体机降低私有化门槛。"
+  },
+  "implementers": [
+    {
+      "name": "中电信智能网络科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zstack-1",
+      "title": "ZStack智塔AI一体机DeepSeek版大模型私有化部署",
+      "sourceType": "official",
+      "publisher": "云轴科技",
+      "originalUrl": "https://www.zstack.io/product/aiosDeepSeek/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证智塔 AI 一体机与软硬协同私有化部署。",
+      "publishedAt": "2026-06-16"
+    },
+    {
+      "publicId": "src-zstack-2",
+      "title": "云轴科技ZStack入选AIIA大模型一体机产业图谱",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/950453364_121123673",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证 AIOS 智塔入选产业图谱。",
+      "publishedAt": "2025-11-03"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "私有化难",
+    "算力异构"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "软硬协同",
+    "AI Infra"
+  ],
+  "modelStack": [
+    "ZStack AIOS 智塔平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "ZStack",
+    "智塔AI一体机",
+    "私有化部署",
+    "AI Infra"
+  ],
+  "seo": {
+    "metaTitle": "天罡大模型评测平台应用",
+    "metaDescription": "天罡大模型评测平台应用",
+    "keywords": [
+      "中电信智能网络科技有限公司",
+      "支撑保障方向"
+    ]
+  },
+  "miitDirection": "支撑保障方向",
+  "miitRecommender": "中国电信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

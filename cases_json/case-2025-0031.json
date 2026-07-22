@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0031",
+  "version": 1,
+  "slug": "case-2025-0031",
+  "title": "曲尺人工智能行业模型开发平台应用",
+  "organization": {
+    "id": "org-0031",
+    "name": "润建股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "润建股份自研生成式人工智能行业模型开发平台'曲尺'，基于1300亿参数自研多模态行业模型底座，支持视觉/语音/文本算法构建、模型微调与私有化部署，依托自建五象云谷智算中心为企业提供一站式AI赋能。",
+  "background": "润建股份运营国内领先的智能算力中心——五象云谷，集中算力、数据与平台资源优势，面向行业客户提供一站式人工智能赋能服务。",
+  "problem": "企业落地行业AI模型面临算力、数据与工程化门槛高，缺乏可私有化部署、支持多模态与智能体编排的行业模型开发平台。",
+  "solution": "自研'曲尺'生成式人工智能行业模型开发平台，基于1300亿参数自研多模态行业模型底座，支持文生图等多模态能力；内置多种预训练模型，支持模型微调与性能优化、可视化智能体编排与模块化设计，并从云到边高效部署；依托五象云谷Token算力，已上线AI需求分析、AI原型界面生成、全行业软件定制与20+主流大模型API调用。",
+  "implementationSteps": [
+    "建设五象云谷智算中心提供Token算力",
+    "研发1300亿参数自研多模态行业模型底座",
+    "构建曲尺平台（模型微调/私有化部署/智能体编排）",
+    "上线AI需求分析、原型生成与软件定制能力"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "自研大模型底座训练与迭代成本高；行业模型落地需结合具体场景数据。",
+  "editorComment": {
+    "suitableFor": "需要私有化行业模型与智能体开发能力的政企客户",
+    "prerequisites": "具备算力资源与行业数据",
+    "priority": "条件具备后开展",
+    "text": "算力+平台一体的行业模型开发平台，适合有算力基础的企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "润建股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-rj-1",
+      "title": "曲尺（生成式人工智能行业模型的开发平台）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%9B%B2%E5%B0%BA/63668546",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-rj-2",
+      "title": "曲尺AI人工智能开放平台（润建股份）",
+      "sourceType": "official",
+      "publisher": "润建股份",
+      "originalUrl": "https://www.quchiai.com/",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-rj-3",
+      "title": "润建股份人工智能-曲尺平台",
+      "sourceType": "official",
+      "publisher": "润建股份",
+      "originalUrl": "https://www.runjian.com/Carpenters_1.html",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "模型开发门槛",
+    "私有化",
+    "算力"
+  ],
+  "painPointNarrative": "",
+  "highlight": "1300亿参数自研多模态底座，云到边私有化部署",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业模型平台",
+    "多模态",
+    "私有化部署",
+    "智能体编排"
+  ],
+  "modelStack": [
+    "曲尺（自研多模态底座）",
+    "DeepSeek",
+    "Qwen",
+    "智谱"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "行业模型平台",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "润建股份 曲尺人工智能行业模型开发平台应用",
+    "metaDescription": "润建股份自研曲尺行业模型开发平台，1300亿参数多模态底座，支持私有化部署与智能体编排。",
+    "keywords": [
+      "润建股份",
+      "曲尺",
+      "行业模型平台",
+      "多模态"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广西壮族自治区工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

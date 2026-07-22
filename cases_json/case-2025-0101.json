@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0101",
+  "version": 1,
+  "slug": "case-2025-0101",
+  "title": "人工智能赋能生物医药行业高精度动物行为分析",
+  "organization": {
+    "id": "org-0101",
+    "name": "广东一湾生命科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "一湾生命科技自主研发 3D-AI 动物行为分析系统（BehaviorAtlas），采用无标记（Markerless）三维动物姿态捕捉技术，整合图像识别、目标检测、姿态估计与视频理解，为脑疾病动物模型与神经行为学提供高精度表型分析，赋能药物研发与评价。",
+  "background": "一湾生命成立于 2020 年，以“人工智能+实验动物技术”为核心，先后获数千万融资，评定为高新技术企业、科技型中小企业，参与多项广东省重点领域研发计划。",
+  "problem": "传统动物行为分析依赖人工观察或有标记方式，效率低、主观性强、难以量化。",
+  "solution": "3D-AI 无标记动物行为分析系统，从复杂实验环境中精准提取结构化行为信息，支撑脑疾病模式动物表型分析与药效评价。",
+  "implementationSteps": [
+    "研发无标记三维动物姿态捕捉与行为识别算法",
+    "整合图像识别/目标检测/姿态估计/视频理解能力",
+    "在脑疾病动物模型与神经药物筛选中应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂环境下的姿态估计精度、跨品系动物泛化。",
+  "editorComment": {
+    "suitableFor": "生物医药动物模型表型分析与药物筛选",
+    "prerequisites": "具备实验动物平台与影像采集条件",
+    "priority": "建议优先",
+    "text": "多模态视觉 AI 赋能生命科学与药物研发。"
+  },
+  "implementers": [
+    {
+      "name": "广东一湾生命科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-bayone-1",
+      "title": "关于一湾生命科技｜AI与多模态表型组学",
+      "sourceType": "official",
+      "publisher": "一湾生命科技",
+      "originalUrl": "https://bayonesci.com/about",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 3D-AI 动物行为分析系统与多模态表型组学定位。",
+      "publishedAt": "2025-12-09"
+    },
+    {
+      "publicId": "src-bayone-2",
+      "title": "行为图谱3D-AI动物行为分析系统 Mouse 04",
+      "sourceType": "platform",
+      "publisher": "仪器信息网",
+      "originalUrl": "https://www.instrument.com.cn/netshow/SH118855/C600635.htm",
+      "accessibility": "available",
+      "rightsNote": "产品平台，佐证无标记三维动物姿态捕捉系统。",
+      "publishedAt": "2026-03-26"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工观察主观",
+    "难以量化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "计算机视觉",
+    "姿态估计",
+    "视频理解"
+  ],
+  "modelStack": [
+    "3D-AI 动物行为分析系统 BehaviorAtlas"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "动物行为分析",
+    "3D-AI",
+    "脑疾病",
+    "药物筛选"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能生物医药行业高精度动物行为分析",
+    "metaDescription": "人工智能赋能生物医药行业高精度动物行为分析",
+    "keywords": [
+      "广东一湾生命科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

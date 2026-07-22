@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0160",
+  "version": 1,
+  "slug": "case-2025-0160",
+  "title": "网络运维运营大模型创新应用",
+  "organization": {
+    "id": "org-0160",
+    "name": "中移九天人工智能科技（北京）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "通信",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动研究院携手江苏移动公司，针对无线网络优化长期痛点，研发基于“九天·网络大模型”的 AI+无线网络自闭环优化应用，将大模型能力用于无线信号传播等复杂场景，重构网络优化模式，推动自智网络升级。",
+  "background": "中国移动“九天”人工智能平台提供从智算基础设施、核心算法到智能化应用的全栈服务，全面支持自智网络等多样场景。",
+  "problem": "传统无线网络优化依靠人员现场勘察、人工取数分析与专家逐站比选，效率低、周期长、难以全局寻优。",
+  "solution": "基于九天·网络大模型的 AI+无线网络自闭环优化应用，将生成式 AI 用于无线信号传播复杂场景，实现网络优化模式重构。",
+  "implementationSteps": [
+    "依托九天平台构建网络大模型",
+    "研发 AI+无线网络自闭环优化应用",
+    "在江苏移动等现网落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "网络生产环境安全、大模型决策可解释性。",
+  "editorComment": {
+    "suitableFor": "无线网络优化与自智运营",
+    "prerequisites": "具备网络运维数据与九天平台",
+    "priority": "建议优先",
+    "text": "网络大模型驱动无线优化自闭环。"
+  },
+  "implementers": [
+    {
+      "name": "中移九天人工智能科技（北京）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jiutian-1",
+      "title": "大模型 | 中国移动九天大模型再赋能！助力无线网络优化智能",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/JIB8FA5T0511N341.html",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证九天网络大模型无线自闭环优化应用。",
+      "publishedAt": "2024-12-01"
+    },
+    {
+      "publicId": "src-jiutian-2",
+      "title": "九天人工智能平台",
+      "sourceType": "official",
+      "publisher": "中国移动",
+      "originalUrl": "https://jiutian.10086.cn/portal/",
+      "accessibility": "available",
+      "rightsNote": "企业官方平台，佐证九天全栈 AI 能力。",
+      "publishedAt": "2026-04-01"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工取数",
+    "难以全局寻优"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "网络大模型",
+    "自闭环优化"
+  ],
+  "modelStack": [
+    "九天·网络大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "九天",
+    "网络大模型",
+    "无线优化",
+    "自智网络"
+  ],
+  "seo": {
+    "metaTitle": "网络运维运营大模型创新应用",
+    "metaDescription": "网络运维运营大模型创新应用",
+    "keywords": [
+      "中移九天人工智能科技（北京）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

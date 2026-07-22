@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0247",
+  "version": 1,
+  "slug": "case-2025-0247",
+  "title": "源网荷储一体化虚拟电厂 AI 智慧运营平台应用",
+  "organization": {
+    "id": "org-0247",
+    "name": "天合光能股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "天合光能股份有限公司以'源网荷储一体化虚拟电厂 AI 智慧运营平台'聚合分布式光储资源，构建从气象预测、长时功率到价格估算的虚拟电厂能力，入选工信部人工智能应用典型案例。",
+  "background": "天合光能由光伏产品制造商向光储智慧能源解决方案服务商转型，2025 年发布电碳一体虚拟电厂解决方案。",
+  "problem": "分布式光储资源分散、难以协同调度与参与电力市场。",
+  "solution": "以 AI 智慧运营平台实现源网荷储聚合与智能调度，提供气象预测、功率估算与价格优化，支撑虚拟电厂运营。",
+  "implementationSteps": [
+    "构建源网荷储一体化虚拟电厂平台",
+    "融合气象/功率/价格 AI 预测",
+    "实现分布式资源聚合与智慧运营"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "分布式资源预测精度、市场交易与调度协同。",
+  "editorComment": {
+    "suitableFor": "光储虚拟电厂与综合能源管理",
+    "prerequisites": "具备分布式光储与计量基础",
+    "priority": "建议优先",
+    "text": "源网荷储聚合+AI 运营，新能源价值跃升。"
+  },
+  "implementers": [
+    {
+      "name": "天合光能股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-trina-1",
+      "title": "工信部公示286个AI典型案例！欣旺达、天合光能等5家能源企业入选",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1043056001_321349",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证源网荷储 AI 虚拟电厂平台入选。",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "publicId": "src-trina-2",
+      "title": "天合：终端聚合撬动万亿市场，虚拟电厂跃升光储价值",
+      "sourceType": "news",
+      "publisher": "北极星电力",
+      "originalUrl": "https://news.bjx.com.cn/html/20250708/1450106.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证电碳一体虚拟电厂解决方案。",
+      "publishedAt": "2025-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "资源分散",
+    "难协同调度"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI预测",
+    "资源聚合"
+  ],
+  "modelStack": [
+    "源网荷储 AI 智慧运营平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "虚拟电厂",
+    "源网荷储",
+    "天合光能",
+    "智慧能源"
+  ],
+  "seo": {
+    "metaTitle": "源网荷储一体化虚拟电厂 AI 智慧运营平台应用",
+    "metaDescription": "源网荷储一体化虚拟电厂 AI 智慧运营平台应用",
+    "keywords": [
+      "天合光能股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

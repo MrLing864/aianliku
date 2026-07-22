@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0259",
+  "version": 1,
+  "slug": "case-2025-0259",
+  "title": "术中外科智能体 SurgSmart 创新应用",
+  "organization": {
+    "id": "org-0259",
+    "name": "成都与睿创新科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "成都与睿创新科技有限公司研发“术中外科智能体 SurgSmart（睿术）”，基于自研外科手术大模型，整合内窥镜和机器人等医疗设备协同能力，实时掌握手术进程并提供精准数据分析；其自主研发的全国首款内窥镜影像监测与手术会诊系统软件于 2024 年 9 月获国家药监局 NMPA 注册证，实现“真正懂手术的人工智能”。",
+  "background": "与睿创新专注 AI 外科技术研发与落地，整合顶级医疗机构专业技术与 AI 技术；2026 年与手术机器人领军企业直观复星携手推动外科手术新范式。",
+  "problem": "外科手术过程复杂、风险高，术中实时决策与协同依赖专家经验，难以标准化。",
+  "solution": "SurgSmart 术中外科智能体基于外科手术大模型，实时监测手术进程、提供数据分析与会诊支持。",
+  "implementationSteps": [
+    "研发外科手术大模型与 SurgSmart 智能体",
+    "获 NMPA 内窥镜影像监测与手术会诊系统注册证",
+    "在微创外科场景落地应用"
+  ],
+  "duration": "2024-09 获注册证",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "临床安全、模型实时性与合规注册。",
+  "editorComment": {
+    "suitableFor": "微创外科手术智能辅助",
+    "prerequisites": "具备内窥镜与手术设备数据",
+    "priority": "建议优先",
+    "text": "全国首款内窥镜手术智能体的医疗范式。"
+  },
+  "implementers": [
+    {
+      "name": "成都与睿创新科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-surg-1",
+      "title": "获批上市，SurgSmart（睿术）拿下智能外科领域首个注册证",
+      "sourceType": "news",
+      "publisher": "雪球/知乎",
+      "originalUrl": "https://xueqiu.com/6559674038/308378290",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证全国首款内窥镜手术系统获 NMPA 注册证。",
+      "publishedAt": "2024-10-17"
+    },
+    {
+      "publicId": "src-surg-2",
+      "title": "“成都造”SurgSmart智能外科系统亮相全球微创外科顶级会议",
+      "sourceType": "news",
+      "publisher": "成都市经信局",
+      "originalUrl": "https://www.toutiao.com/article/7482594094485914138/",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证 SurgSmart 智能外科系统定位。",
+      "publishedAt": "2025-03-17"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "过程复杂",
+    "依赖专家"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "外科手术大模型",
+    "多设备协同"
+  ],
+  "modelStack": [
+    "SurgSmart 术中外科智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "SurgSmart",
+    "术中智能体",
+    "外科手术大模型",
+    "睿术"
+  ],
+  "seo": {
+    "metaTitle": "术中外科智能体 SurgSmart 创新应用",
+    "metaDescription": "术中外科智能体 SurgSmart 创新应用",
+    "keywords": [
+      "成都与睿创新科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

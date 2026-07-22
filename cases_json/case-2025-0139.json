@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0139",
+  "version": 1,
+  "slug": "case-2025-0139",
+  "title": "面向粮食储藏领域的“稷元”储粮大模型技术及应用",
+  "organization": {
+    "id": "org-0139",
+    "name": "中储粮成都储藏研究院有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "农业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中储粮集团公司与中国移动联合研发'稷元'储粮大模型，是国内首个聚焦粮食储藏行业的垂类大模型，面向'大国粮仓'的粮食收储、保管、监管等环节提供智能化能力，入选国务院国资委人工智能'焕新社区'平台。",
+  "background": "粮食安全是国家战略，中储粮作为粮食储备主力，联合中国移动（成都）产业研究院与中储粮成都储藏研究院共同打造粮食行业首款垂类大模型。",
+  "problem": "传统储粮依赖人工巡检与经验判断，粮情监测、虫霉预警、智能通风等环节亟需智能化手段。",
+  "solution": "以垂类大模型融合粮堆多模态感知数据，提供粮情分析、虫霉预警、智能通风决策与政策问答等能力，实现储粮全链条智能化。",
+  "implementationSteps": [
+    "联合中国移动研发粮食储藏垂类大模型",
+    "接入粮堆温湿度、气体、虫害等多模态感知数据",
+    "落地粮情监测、虫霉预警与智能通风决策"
+  ],
+  "duration": "2025 年 7 月发布",
+  "cost": "",
+  "results": [
+    {
+      "label": "行业定位",
+      "value": "国内首个粮食储藏垂类大模型",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-jiyuan-1"
+    }
+  ],
+  "roi": "",
+  "risks": "粮堆环境复杂、模型对极端工况的泛化与误报控制。",
+  "editorComment": {
+    "suitableFor": "粮食储备与仓储行业智能化",
+    "prerequisites": "具备粮情多模态感知数据基础",
+    "priority": "建议优先",
+    "text": "行业垂类大模型标杆，粮食安全的 AI 样板。"
+  },
+  "implementers": [
+    {
+      "name": "中储粮成都储藏研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jiyuan-1",
+      "title": "稷元储粮大模型 - 百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E7%A8%B7%E5%85%83%E5%82%A8%E7%B2%AE%E5%A4%A7%E6%A8%A1%E5%9E%8B/67384996",
+      "accessibility": "available",
+      "rightsNote": "公开百科，佐证国内首个粮食储藏垂类大模型定位。",
+      "publishedAt": "2025-07-26"
+    },
+    {
+      "publicId": "src-jiyuan-2",
+      "title": "“稷元”储粮大模型入驻国务院国资委人工智能“焕新社区”平台",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://m.thepaper.cn/newsDetail_forward_31392877",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证联合研发与发布。",
+      "publishedAt": "2025-08-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工巡检",
+    "虫霉预警难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "多模态感知"
+  ],
+  "modelStack": [
+    "稷元储粮大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "储粮大模型",
+    "粮食储藏",
+    "垂类大模型",
+    "稷元"
+  ],
+  "seo": {
+    "metaTitle": "面向粮食储藏领域的“稷元”储粮大模型技术及应用",
+    "metaDescription": "面向粮食储藏领域的“稷元”储粮大模型技术及应用",
+    "keywords": [
+      "中储粮成都储藏研究院有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国储备粮管理集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0056",
+  "version": 1,
+  "slug": "case-2025-0056",
+  "title": "AI 驱动的特大型能源集团薪酬管理平台应用实践",
+  "organization": {
+    "id": "org-0056",
+    "name": "国能数智科技开发（北京）有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国能数智科技开发（北京）有限公司（国家能源集团信息化产业发展平台）打造 AI 驱动的特大型能源集团薪酬管理平台（薪酬信息监管平台），以人工智能提升集团薪酬管理的效率、准确性与合规管控能力。",
+  "background": "国能数智是国家能源集团整合旗下数字信息产业资源组建的信息化平台，承担集团“人工智能+”战略落地。",
+  "problem": "特大型能源集团薪酬管理体量大、口径多、跨单位差异大，人工处理效率低、合规风险高。",
+  "solution": "AI 驱动的薪酬信息监管平台，实现薪酬数据智能归集、审核与监管。",
+  "implementationSteps": [
+    "沉淀集团薪酬管理业务规则与数据",
+    "研发 AI 驱动的薪酬信息监管平台",
+    "在国家能源集团人力资源管理场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "薪酬数据敏感性与合规、跨单位口径统一。",
+  "editorComment": {
+    "suitableFor": "特大型集团薪酬管理与合规监管",
+    "prerequisites": "具备人力资源信息化数据基础",
+    "priority": "建议优先",
+    "text": "AI 赋能集团级薪酬合规管控的可复制路径。"
+  },
+  "implementers": [
+    {
+      "name": "国能数智科技开发（北京）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gn-1",
+      "title": "国家能源集团数智科技公司受邀前往中航工业交流（薪酬信息监管平台）",
+      "sourceType": "news",
+      "publisher": "中国电力网",
+      "originalUrl": "http://mm.chinapower.com.cn/fd/gdbd/20250220/277639.html",
+      "accessibility": "available",
+      "rightsNote": "佐证国能数智薪酬信息监管平台功能与应用。",
+      "publishedAt": "2024-12-23"
+    },
+    {
+      "publicId": "src-gn-2",
+      "title": "国家能源集团：以“数智”带“数治”",
+      "sourceType": "news",
+      "publisher": "中国能源新闻网",
+      "originalUrl": "https://www.cpnn.com.cn/qiye/jishu2023/202509/t20250909_1830463.html",
+      "accessibility": "available",
+      "rightsNote": "官媒佐证国家能源集团数智化赋能。",
+      "publishedAt": "2025-09-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "体量大",
+    "合规风险高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI驱动的特大型能源集团薪酬管理平台",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能化监管",
+    "数据归集"
+  ],
+  "modelStack": [
+    "AI 薪酬信息监管平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "薪酬管理",
+    "人资AI",
+    "能源集团"
+  ],
+  "seo": {
+    "metaTitle": "国能数智 AI驱动的特大型能源集团薪酬管理平台应用实践",
+    "metaDescription": "国能数智以AI驱动构建特大型能源集团薪酬管理平台，提升核算与合规校验效率。",
+    "keywords": [
+      "国能数智",
+      "薪酬管理",
+      "AI驱动",
+      "能源集团"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家能源投资集团有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

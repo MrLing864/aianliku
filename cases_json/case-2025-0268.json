@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0268",
+  "version": 1,
+  "slug": "case-2025-0268",
+  "title": "面向煤炭采购供应链业务的灵镜智能体应用",
+  "organization": {
+    "id": "org-0268",
+    "name": "中国煤炭开发有限责任公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国煤炭开发有限责任公司（中国中煤）自主研发“中煤灵镜”垂类大模型与智能体生态，构建“1+4+N”全栈自主可控 AI 技术架构（1 套垂类行业大模型、4 层闭环运营的智能体生态、N 个场景数智员工），围绕采购寻源、合同管理、采存一体与业财融合四大模块，实现采购供应链业务全面线上化与合同全生命周期穿透式监管；自 2025 年 6 月上线以来，采购风险降低 70% 以上、物料审核准确率提升 30%、审批显著提效。",
+  "background": "中国中煤以“创新中煤”驱动数智化转型，在供应链领域自主研发“中煤灵镜”大模型，搭建“1+4+N”全栈自主可控 AI 技术架构，落地灵镜智评、灵镜识物、数智员工等核心场景，实现集团全级次企业、全业务类型全面在线运行、全过程可追溯。",
+  "problem": "煤炭采购供应链业务体量大、流程长，风险管控与合规审核依赖人工，透明度不足。",
+  "solution": "中煤灵镜垂类大模型+智能体生态，实现采购全流程数智员工与合同全生命周期穿透式监管。",
+  "implementationSteps": [
+    "构建中煤灵镜垂类大模型与智能体生态",
+    "搭建 1+4+N 全栈 AI 技术架构",
+    "在采购供应链全流程与合同监管落地"
+  ],
+  "duration": "2025-06 上线",
+  "cost": "",
+  "results": [
+    {
+      "label": "采购风险降低",
+      "value": "70",
+      "unit": "%以上",
+      "kind": "actual",
+      "sourceId": "src-ccdc-1"
+    },
+    {
+      "label": "物料审核准确率提升",
+      "value": "30",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-ccdc-1"
+    }
+  ],
+  "roi": "",
+  "risks": "供应链数据安全、模型对复杂业务的泛化。",
+  "editorComment": {
+    "suitableFor": "大型集团采购供应链数智化",
+    "prerequisites": "具备供应链业务线上化基础",
+    "priority": "建议优先",
+    "text": "垂类大模型+智能体生态重塑央企采购监管。"
+  },
+  "implementers": [
+    {
+      "name": "中国煤炭开发有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ccdc-1",
+      "title": "中国中煤智控采购域“中煤灵镜”垂类大模型与智能体生态",
+      "sourceType": "news",
+      "publisher": "中国中煤",
+      "originalUrl": "https://ccdc.chinacoal.com/col/col686/art/2026/art_4a0577cd3dfc4f9ebdf1237af9991428.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 1+4+N 架构与风险降低70%、准确率提升30%。",
+      "publishedAt": "2026-04-30"
+    },
+    {
+      "publicId": "src-ccdc-2",
+      "title": "锻造“韧链·智链·绿链”重塑能源供应链新格局",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://app.xinhuanet.com/news/article.html?articleId=202607205c2cc2fa87714fe6a83f615fffd1a6f8",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证中煤灵镜大模型与全栈自主可控架构。",
+      "publishedAt": "2026-07-20"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "体量大",
+    "依赖人工"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂类大模型",
+    "智能体生态"
+  ],
+  "modelStack": [
+    "中煤灵镜垂类大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中煤灵镜",
+    "采购供应链",
+    "垂类大模型",
+    "数智员工"
+  ],
+  "seo": {
+    "metaTitle": "面向煤炭采购供应链业务的灵镜智能体应用",
+    "metaDescription": "面向煤炭采购供应链业务的灵镜智能体应用",
+    "keywords": [
+      "中国煤炭开发有限责任公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国中煤能源集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

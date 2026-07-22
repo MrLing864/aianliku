@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0224",
+  "version": 1,
+  "slug": "case-2025-0224",
+  "title": "基于图像视频具有边缘计算力的现场焊“智脑”终端应用",
+  "organization": {
+    "id": "org-0224",
+    "name": "中铁物轨道科技服务集团有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中铁物轨道科技服务集团有限公司（中国铁路物资股份有限公司全资子公司，中国国家铁路集团唯一认可的钢轨、焊接接头等检验机构之一）“基于图像视频具有边缘计算力的现场焊‘智脑’终端应用”入选工信部 2025 年人工智能应用典型案例。公司在铁路现场焊领域研发现场焊管理系统，并配套现场焊“智脑”智能环境感知设备，以图像视频+边缘计算对焊接作业关键流程数据进行采集与质量评价。",
+  "background": "",
+  "problem": "铁路现场钢轨焊接作业流程多、质量管控依赖人工，焊缝质量一致性与追溯难。",
+  "solution": "以图像视频+边缘计算构建现场焊“智脑”终端，配套智能环境感知设备，对焊接八大流程关键数据采集分解并进行焊接作业质量评价。",
+  "implementationSteps": [
+    "研发现场焊管理系统与“智脑”终端",
+    "配套智能环境感知设备采集焊接数据",
+    "以边缘计算+图像视频分析焊接质量",
+    "在铁路现场焊作业中规范流程与评价质量"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "现场复杂环境识别、边缘算力与实时性平衡。",
+  "editorComment": {
+    "suitableFor": "铁路现场焊接质量智能管控",
+    "prerequisites": "具备焊接工艺与边缘计算能力",
+    "priority": "建议评估",
+    "text": "边缘计算+图像视频赋能现场焊质量管控的实践。"
+  },
+  "implementers": [
+    {
+      "name": "中铁物轨道科技服务集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-224-1",
+      "title": "铁路轨道交通线路全寿命管理平台（现场焊管理系统、焊接作业八大流程数据采集与质量评价）",
+      "sourceType": "official",
+      "publisher": "中铁物轨道科技服务集团",
+      "originalUrl": "https://gdjt.crmsc.com.cn/ywly/ywe/index.shtml",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证现场焊管理系统与焊接质量评价能力。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-224-2",
+      "title": "中铁物轨道科技服务集团有限公司现场焊智脑配套智能环境感知设备的研发与试制项目招标公告",
+      "sourceType": "government_notice",
+      "publisher": "寻标宝（招标公告）",
+      "originalUrl": "https://xunbiaobao.baidu.com/biddingDetail?id=8dd2edbbe889cecb704a13f49edac51afee76fa9&source=seo",
+      "accessibility": "available",
+      "rightsNote": "招标公告，佐证现场焊“智脑”配套智能环境感知设备研发。",
+      "publishedAt": "2026-02-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "流程多",
+    "质量管控难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "图像视频AI",
+    "边缘计算"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中铁物轨道",
+    "现场焊",
+    "边缘计算",
+    "焊接质量"
+  ],
+  "seo": {
+    "metaTitle": "基于图像视频具有边缘计算力的现场焊“智脑”终端应用",
+    "metaDescription": "基于图像视频具有边缘计算力的现场焊“智脑”终端应用",
+    "keywords": [
+      "中铁物轨道科技服务集团有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国物流集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

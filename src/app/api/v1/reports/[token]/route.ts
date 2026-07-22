@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { start } from "workflow/api";
 import {
   completeAssessmentDeletionTask,
   requestReportDeletionByToken,
@@ -22,36 +21,25 @@ export async function DELETE(
     );
   await recordServerEvent("assessment_delete_request", taskId);
   try {
-    const run = await start(deleteAssessmentDataWorkflow, [taskId]);
+    await deleteAssessmentDataWorkflow(taskId);
     return NextResponse.json(
-      { ok: true, accepted: true, taskId, runId: run.runId },
+      { ok: true, accepted: true, taskId },
       { status: 202 },
     );
-  } catch {
-    try {
-      await completeAssessmentDeletionTask(taskId);
-      await recordServerEvent("assessment_deleted", taskId);
-      return NextResponse.json({
-        ok: true,
-        accepted: true,
+  } catch (error) {
+    await sendOperationalAlert({
+      type: "assessment_deletion_failed",
+      severity: "critical",
+      subjectId: taskId,
+      errorCode: error instanceof Error ? error.name : "UNKNOWN",
+    });
+    return NextResponse.json(
+      {
+        error: "删除任务处理失败，请稍后再次尝试。",
+        code: "DELETION_FAILED",
         taskId,
-        completedSynchronously: true,
-      });
-    } catch (error) {
-      await sendOperationalAlert({
-        type: "assessment_deletion_failed",
-        severity: "critical",
-        subjectId: taskId,
-        errorCode: error instanceof Error ? error.name : "UNKNOWN",
-      });
-      return NextResponse.json(
-        {
-          error: "删除任务已进入重试队列，请稍后再次确认状态。",
-          code: "DELETION_RETRY_PENDING",
-          taskId,
-        },
-        { status: 503 },
-      );
-    }
+      },
+      { status: 503 },
+    );
   }
 }

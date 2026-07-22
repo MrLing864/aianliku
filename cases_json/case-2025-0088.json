@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0088",
+  "version": 1,
+  "slug": "case-2025-0088",
+  "title": "基于多模态大模型融合的人造革表面缺陷检测一体化装备",
+  "organization": {
+    "id": "org-0088",
+    "name": "国器智晖（重庆）科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国器智眸（重庆）科技有限公司（浪潮云洲旗下）推出'基于多模态大模型融合的人造革表面缺陷检测一体化装备'，以离在线结合的方式对PU、PVC、超纤人造革表面缺陷进行智能检测，融合自研智能算法研发云平台与边缘AI，并打造工艺质量认知型工业视觉智能体。",
+  "background": "人造革表面缺陷检测长期依赖人工目检，效率低、漏检率高。",
+  "problem": "人造革表面缺陷检测依赖人工、效率低、一致性差。",
+  "solution": "国器智眸（浪潮云洲旗下）打造人造革表面缺陷检测一体化装备，用于PU、PVC、超纤人造革表面缺陷检测，融合自研智能算法研发云平台与边缘人工智能，以离在线结合方式进行检测；并以'人工智能+机器视觉'为核心，推出工艺质量认知型工业视觉智能体，推动质检技术革新。",
+  "implementationSteps": [
+    "研发人造革表面缺陷检测一体化装备",
+    "融合智能算法云平台与边缘AI（离在线结合）",
+    "构建工艺质量认知型工业视觉智能体",
+    "实现人造革表面缺陷智能检测"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "人造革纹理多样、缺陷形态复杂，视觉算法需强泛化；产线速度匹配要求高。",
+  "editorComment": {
+    "suitableFor": "人造革/柔性材料表面缺陷智能检测",
+    "prerequisites": "具备产线视觉采集与边缘算力",
+    "priority": "建议优先",
+    "text": "多模态大模型融合的人造革缺陷检测一体化装备，适合材料质检参考。"
+  },
+  "implementers": [
+    {
+      "name": "国器智眸（重庆）科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gq-1",
+      "title": "以智提质，人工智能+皮革检测（国器智眸）",
+      "sourceType": "news",
+      "publisher": "国器智眸",
+      "originalUrl": "https://www.inspuriiot.com/news/content/id/100190.html",
+      "publishedAt": "2025-02-07",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gq-2",
+      "title": "工艺质量认知型工业视觉智能体推动质检技术新革新",
+      "sourceType": "article",
+      "publisher": "视觉系统设计",
+      "originalUrl": "https://www.vision-systems-china.com/deitechnology.asp?id=19375",
+      "publishedAt": "2025-06-26",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工目检",
+    "漏检率",
+    "一致性"
+  ],
+  "painPointNarrative": "",
+  "highlight": "多模态大模型融合的人造革表面缺陷检测一体化装备",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "机器视觉",
+    "缺陷检测"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "多模态大模型",
+    "工业质检"
+  ],
+  "seo": {
+    "metaTitle": "国器智眸 基于多模态大模型融合的人造革表面缺陷检测一体化装备",
+    "metaDescription": "国器智眸以多模态大模型融合打造人造革表面缺陷检测一体化装备，边缘AI+工艺质量认知智能体。",
+    "keywords": [
+      "国器智眸",
+      "人造革缺陷检测",
+      "多模态大模型",
+      "工业视觉"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

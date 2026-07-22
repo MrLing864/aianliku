@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0210",
+  "version": 1,
+  "slug": "case-2025-0210",
+  "title": "列车运行状态智能监测识别系统应用",
+  "organization": {
+    "id": "org-0210",
+    "name": "武汉利德测控技术有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉利德测控技术有限公司（神州高铁技术股份有限公司全资子公司，专注轨道交通）自研“列车运行状态智能监测识别系统应用”入选工信部 2025 年人工智能应用典型案例。系统融合图像识别、声音识别、多传感器融合及人工智能与机器学习等技术，对列车运行状态进行智能监测识别，提升列车运行效率与安全性。",
+  "background": "",
+  "problem": "列车运行状态监测点多、依赖人工判读，故障与异常发现不及时、效率与安全难保障。",
+  "solution": "构建列车运行状态智能监测识别系统，融合图像识别、声音识别与多传感器融合，以 AI/机器学习实现运行状态智能判识。",
+  "implementationSteps": [
+    "部署图像/声音与多传感器采集",
+    "构建 AI/机器学习智能识别模型",
+    "对列车运行状态进行智能监测识别",
+    "在轨道交通场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂运行环境识别泛化、多源数据融合可靠性。",
+  "editorComment": {
+    "suitableFor": "轨道交通列车运行状态智能监测",
+    "prerequisites": "具备轨道交通监测与算法基础",
+    "priority": "建议优先",
+    "text": "多模态 AI 赋能列车运行安全监测的实践。"
+  },
+  "implementers": [
+    {
+      "name": "武汉利德测控技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-210-1",
+      "title": "喜报！武汉利德《列车运行状态智能监测识别系统应用》产品成功入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "同花顺（新三板）",
+      "originalUrl": "https://xinsanban.10jqka.com.cn/20260715/c678182045.shtml",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证案例入选与系统定位。",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "publicId": "src-210-2",
+      "title": "武汉利德测控技术有限公司-官网",
+      "sourceType": "official",
+      "publisher": "武汉利德测控技术",
+      "originalUrl": "http://www.leaddo.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证公司轨道交通测控主营业务。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工判读",
+    "监测点多"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "图像识别",
+    "声音识别",
+    "多传感器融合"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "武汉利德",
+    "列车监测",
+    "多模态识别",
+    "轨道交通"
+  ],
+  "seo": {
+    "metaTitle": "列车运行状态智能监测识别系统应用",
+    "metaDescription": "列车运行状态智能监测识别系统应用",
+    "keywords": [
+      "武汉利德测控技术有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "国家开发投资集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

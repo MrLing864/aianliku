@@ -1,0 +1,138 @@
+{
+  "id": "case-2025-0143",
+  "version": 1,
+  "slug": "case-2025-0143",
+  "title": "中移杭研“人工智能+视听”平台赋能视听内容全链路运营",
+  "organization": {
+    "id": "org-0143",
+    "name": "中移（杭州）信息技术有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动通信集团浙江有限公司（杭州）构建'人工智能+视听'平台，赋能视听内容的智能生产与全链路运营。",
+  "background": "视听内容生产向智能化、自动化演进。",
+  "problem": "视听内容生产与运营链路长、环节多，传统方式难以支撑内容全链路高效智能化运营。",
+  "solution": "打造“人工智能+视听”平台，以家庭视听大模型底座赋能视听内容的生产、分发与运营全链路，支撑家庭全场景智能中枢等应用。",
+  "implementationSteps": [
+    "构建家庭视听大模型底座",
+    "以 AI 赋能视听内容生产与分发",
+    "打造视听内容全链路运营能力",
+    "在家庭视听/智能体场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "内容合规与版权、大模型生成质量。",
+  "editorComment": {
+    "suitableFor": "视听内容全链路智能运营",
+    "prerequisites": "具备视听大模型与内容运营基础",
+    "priority": "建议评估",
+    "text": "视听大模型赋能内容全链路运营的实践。"
+  },
+  "implementers": [
+    {
+      "name": "中移（杭州）信息技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-143-1",
+      "title": "中移杭研联合湖北公司首发对话即服务的灵犀家庭智能体（基于家庭视听大模型底座）",
+      "sourceType": "news",
+      "publisher": "中国经济网",
+      "originalUrl": "http://tech.ce.cn/xxfw/202505/t20250512_2183317.shtml",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证家庭视听大模型底座与视听内容能力。",
+      "publishedAt": "2025-05-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "链路长",
+    "运营效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "视听大模型",
+    "内容全链路"
+  ],
+  "modelStack": [
+    "家庭视听大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中移杭研",
+    "视听大模型",
+    "内容运营",
+    "家庭智能体"
+  ],
+  "seo": {
+    "metaTitle": "中移杭研“人工智能+视听”平台赋能视听内容全链路运营",
+    "metaDescription": "中移杭研“人工智能+视听”平台赋能视听内容全链路运营",
+    "keywords": [
+      "中移（杭州）信息技术有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

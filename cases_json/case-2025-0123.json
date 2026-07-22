@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0123",
+  "version": 1,
+  "slug": "case-2025-0123",
+  "title": "基于城轨易智大模型的景芳站智慧车站应用",
+  "organization": {
+    "id": "org-0123",
+    "name": "浙江中控信息产业股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "浙江中控信息产业股份有限公司基于城轨易智大模型打造景芳站 L3 级智慧车站，融合“视觉 AI 算法”与“视觉大模型”，通过一体化车控室、全站 AI 巡检、无人票亭等升级，实现自动开关站、站台无人值守等全场景自动运营，成为全国智慧车站标杆，入选工信部 2025 年人工智能应用典型案例。",
+  "background": "城市轨道交通车站运营管理场景复杂，对智能化调度与服务有需求。",
+  "problem": "城市轨道交通车站运营人力密集、巡检与设备运维依赖人工，少人化/无人化运营难度大。",
+  "solution": "以城轨易智大模型（具备语言、视觉、时序多模态能力）为核心，构建 L3 级少人化智慧车站解决方案，支撑车站管控、乘客服务、设备运维、节能管理等场景。",
+  "implementationSteps": [
+    "构建城轨易智大模型多模态能力",
+    "融合视觉 AI 算法与视觉大模型",
+    "建设一体化车控室、全站 AI 巡检、无人票亭",
+    "在景芳站实现全场景少人化自动运营"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "全场景自动运营安全冗余、极端工况可靠性。",
+  "editorComment": {
+    "suitableFor": "城市轨道交通智慧车站与少人化运营",
+    "prerequisites": "具备城轨自动化与视觉大模型基础",
+    "priority": "建议优先",
+    "text": "城轨大模型驱动 L3 级智慧车站的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "浙江中控信息产业股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sc-1",
+      "title": "喜报｜中控信息“基于城轨易智大模型的L3级智慧车站”入选工信部2025人工智能应用典型案例",
+      "sourceType": "official",
+      "publisher": "浙江中控信息",
+      "originalUrl": "https://supconit.com/NewsDetail?id=852caaac-bae0-438c-b6ee-a9dc939cc5d3",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证案例入选与城轨易智大模型。",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "publicId": "src-sc-2",
+      "title": "“智慧车站”再进阶！中控信息携城轨AI产品亮相中国轨道交通可持续发展大会（景芳站）",
+      "sourceType": "news",
+      "publisher": "搜狐（自动化网）",
+      "originalUrl": "https://www.sohu.com/a/958123179_121962080",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证景芳站智慧车站与全场景自动运营。",
+      "publishedAt": "2025-11-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人力密集",
+    "无人化难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "城轨大模型",
+    "视觉AI"
+  ],
+  "modelStack": [
+    "城轨易智大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中控信息",
+    "城轨易智大模型",
+    "智慧车站",
+    "景芳站"
+  ],
+  "seo": {
+    "metaTitle": "基于城轨易智大模型的景芳站智慧车站应用",
+    "metaDescription": "基于城轨易智大模型的景芳站智慧车站应用",
+    "keywords": [
+      "浙江中控信息产业股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

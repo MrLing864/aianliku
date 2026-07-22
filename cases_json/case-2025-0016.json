@@ -1,0 +1,176 @@
+{
+  "id": "case-2025-0016",
+  "version": 1,
+  "slug": "case-2025-0016",
+  "title": "天然气管网运行高质量数据集建设与应用",
+  "organization": {
+    "id": "org-0016",
+    "name": "国家石油天然气管网集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国家石油天然气管网集团油气调控中心建设天然气管网运行高质量数据集，调控全国近70%骨干管网、覆盖31省市、实时采集近6万公里管道数据，并基于数据集与算法模型开发8大智能体。",
+  "background": "国家管网集团油气调控中心是全球最复杂的天然气管网控制中枢之一，负责全国骨干管网运行调度。",
+  "problem": "天然气管网规模庞大、跨域运行，传统调度依赖人工经验；缺乏统一高质量数据集支撑智能化调控与决策。",
+  "solution": "建设天然气管网运行高质量数据集，汇聚调控全国近70%骨干管网、覆盖31省市、实时采集近6万公里管道的运行数据；基于高质量数据集与核心算法模型，建设天然气管网运行数据应用平台，支持开发进出平衡分析、长思维链等8大智能体，实现数据价值在核心业务场景的深度应用。",
+  "implementationSteps": [
+    "汇聚全国骨干管网运行数据（近70%骨干管网、31省市、6万公里管道）",
+    "建设天然气管网运行高质量数据集",
+    "建设天然气管网运行数据应用平台",
+    "开发进出平衡分析、长思维链等8大智能体"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "调控骨干管网比例",
+      "value": "近70",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-gw-1"
+    },
+    {
+      "label": "覆盖省市",
+      "value": "31",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-gw-1"
+    },
+    {
+      "label": "实时采集管道",
+      "value": "近6",
+      "unit": "万公里",
+      "kind": "actual",
+      "sourceId": "src-gw-1"
+    },
+    {
+      "label": "智能体数量",
+      "value": "8",
+      "unit": "大",
+      "kind": "actual",
+      "sourceId": "src-gw-2"
+    }
+  ],
+  "roi": "",
+  "risks": "管网数据涉及国家能源安全，数据安全与权限管控要求极高；智能体决策需严格校验。",
+  "editorComment": {
+    "suitableFor": "大型能源管网企业建设运行数据集与智能调度",
+    "prerequisites": "具备全国级管网运行数据与调度体系",
+    "priority": "条件具备后开展",
+    "text": "以高质量数据集+智能体驱动管网智能调度，适合能源基础设施企业。"
+  },
+  "implementers": [
+    {
+      "name": "国家石油天然气管网集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gw-1",
+      "title": "高质量数据集典型案例 | 天然气管网运行高质量数据集",
+      "sourceType": "government_case",
+      "publisher": "国家数据局",
+      "originalUrl": "https://www.nda.gov.cn/sjj/ywpd/szkjyjcss/0925/20250925162124898284834_pc.html",
+      "publishedAt": "2025-09-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gw-2",
+      "title": "天然气管网运行高质量数据集（应用平台与8大智能体）",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/938705387_120690910",
+      "publishedAt": "2025-09-25",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "管网调度",
+    "数据汇聚",
+    "智能决策"
+  ],
+  "painPointNarrative": "",
+  "highlight": "调控全国近70%骨干管网，开发8大智能体",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "智能体",
+    "管网调度"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "能源管网"
+  ],
+  "seo": {
+    "metaTitle": "国家管网 天然气管网运行高质量数据集建设与应用",
+    "metaDescription": "国家管网建设天然气管网运行高质量数据集，调控全国近70%骨干管网，开发8大智能体。",
+    "keywords": [
+      "国家管网",
+      "天然气管网",
+      "高质量数据集",
+      "智能体"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家石油天然气管网集团 有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

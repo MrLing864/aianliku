@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0091",
+  "version": 1,
+  "slug": "case-2025-0091",
+  "title": "人工智能驱动铝制汽车零部件质量检测升级",
+  "organization": {
+    "id": "org-0091",
+    "name": "中信戴卡股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中信戴卡在铝制汽车零部件（铝车轮）制造中引入 AI 驱动质量检测，依托全球铝车轮行业首家'灯塔工厂'，自主研发 X 光无损探伤人工智能识别系统、机加尺寸智能检测等能力，以'AI+物联网+知识图谱'三引擎驱动实现智能铸造'零缺陷'。",
+  "background": "中信戴卡是全球铝车轮销量领先企业，2021 年铝车轮六号工厂入选世界经济论坛'灯塔工厂'，在大批量、高精度铝车轮生产中面临质量一致性与缺陷识别挑战。",
+  "problem": "传统人工与规则检测效率低、漏检率高，难以满足零缺陷要求与规模化交付。",
+  "solution": "自主研发 X 光无损探伤人工智能识别系统、机加尺寸智能检测系统等，融合 AI 视觉、物联网与知识图谱，实现关键工序质量自动识别与闭环管控。",
+  "implementationSteps": [
+    "建设灯塔工厂数智化底座，打通铸造、机加、涂装等工序数据",
+    "部署 X 光无损探伤 AI 识别与机加尺寸智能检测模型",
+    "构建知识图谱与闭环质量管控，支撑零缺陷目标"
+  ],
+  "duration": "持续迭代",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂缺陷样本下的模型泛化、数据标注成本与产线实时性要求。",
+  "editorComment": {
+    "suitableFor": "汽车零部件及高端制造质量检测场景",
+    "prerequisites": "已具备 MES/工业互联网数据基础",
+    "priority": "建议优先",
+    "text": "灯塔工厂范式在离散制造质量管控上具备可复制性。"
+  },
+  "implementers": [
+    {
+      "name": "中信戴卡股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-citic-1",
+      "title": "中信戴卡：智能制造赋能“灯塔工厂”再升级",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://m.thepaper.cn/newsDetail_forward_29604245",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，用于佐证案例背景。",
+      "publishedAt": "2024-12-10"
+    },
+    {
+      "publicId": "src-citic-2",
+      "title": "中信戴卡：“灯塔”引领转型",
+      "sourceType": "news",
+      "publisher": "中国证券报",
+      "originalUrl": "https://www.cs.com.cn/ssgs/gsxw/202509/t20250910_6511773.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证三引擎驱动与全链条智能化。",
+      "publishedAt": "2025-09-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "质量检测效率低",
+    "漏检率高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "计算机视觉",
+    "知识图谱",
+    "物联网"
+  ],
+  "modelStack": [
+    "X光无损探伤识别模型",
+    "机加尺寸智能检测模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI视觉",
+    "质量检测",
+    "灯塔工厂",
+    "汽车零部件"
+  ],
+  "seo": {
+    "metaTitle": "人工智能驱动铝制汽车零部件质量检测升级",
+    "metaDescription": "人工智能驱动铝制汽车零部件质量检测升级",
+    "keywords": [
+      "中信戴卡股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

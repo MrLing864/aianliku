@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0086",
+  "version": 1,
+  "slug": "case-2025-0086",
+  "title": "高端能源装备关键部件全链条协同智能体应用",
+  "organization": {
+    "id": "org-0086",
+    "name": "东方电气（成都）创新研究有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "东方电气（成都）创新研究有限公司开展高端能源装备关键部件全链条协同智能体应用，依托四川省能源装备数智化技术创新中心（东方研究院牵头、东成研究院承担），以AI全链条应用攻关覆盖能源装备关键环节。",
+  "background": "高端能源装备关键部件研发制造链条长，协同与智能化水平亟待提升。",
+  "problem": "高端能源装备关键部件全链条协同难，AI应用尚未贯通研发到服务各环节。",
+  "solution": "东方电气（成都）创新研究有限公司开展高端能源装备关键部件全链条协同智能体应用，依托四川省能源装备数智化技术创新中心（由东方电气集团所属东方研究院牵头、东成研究院主要承担），以高价值应用场景为牵引，深度融合人工智能与数字化技术，重点攻关AI全链条应用的六大核心领域，覆盖能源装备关键环节。",
+  "implementationSteps": [
+    "牵头建设四川省能源装备数智化技术创新中心",
+    "构建关键部件全链条协同智能体",
+    "攻关AI全链条应用六大核心领域",
+    "覆盖能源装备研发到服务关键环节"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "能源装备关键部件可靠性要求极高；全链条智能体协同复杂。",
+  "editorComment": {
+    "suitableFor": "高端能源装备企业的关键部件协同智能体",
+    "prerequisites": "具备装备研发与数字化基础",
+    "priority": "条件具备后开展",
+    "text": "关键部件全链条协同智能体，适合高端能源装备数智化参考。"
+  },
+  "implementers": [
+    {
+      "name": "东方电气（成都）创新研究有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-df-1",
+      "title": "首批！东方电气牵头组建四川省能源装备数智化技术创新中心",
+      "sourceType": "news",
+      "publisher": "中国能源新闻网",
+      "originalUrl": "https://www.cnenergynews.cn/article/4O9wscgu5hx",
+      "publishedAt": "2025-07-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-df-2",
+      "title": "工信部公示人工智能应用典型案例 16家成都企业案例拟入选",
+      "sourceType": "government_news",
+      "publisher": "成都市人民政府",
+      "originalUrl": "https://www.chengdu.gov.cn/cdsrmzf/c169603/2026-06/29/content_0aba80458801457bb348b81f6142aea9.shtml",
+      "publishedAt": "2026-06-29",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "链条协同",
+    "AI贯通",
+    "关键环节"
+  ],
+  "painPointNarrative": "",
+  "highlight": "高端能源装备关键部件全链条协同智能体",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "协同智能体",
+    "高端能源装备",
+    "全链条AI"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "协同智能体",
+    "高端能源装备"
+  ],
+  "seo": {
+    "metaTitle": "东方电气成都 高端能源装备关键部件全链条协同智能体应用",
+    "metaDescription": "东方电气成都以关键部件全链条协同智能体+能源装备数智化创新中心赋能高端装备。",
+    "keywords": [
+      "东方电气成都",
+      "协同智能体",
+      "高端能源装备",
+      "数智化"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国东方电气集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,144 @@
+{
+  "id": "case-2025-0271",
+  "version": 1,
+  "slug": "case-2025-0271",
+  "title": "中小科技企业数据资产评估智能体创新应用",
+  "organization": {
+    "id": "org-0271",
+    "name": "上海荟宸信息科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由上海荟宸信息科技有限公司申报的“中小科技企业数据资产评估智能体创新应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由上海市经济和信息化委员会推荐，是名单中唯一的中小企业数据资产评估智能体案例（上海）。公司自主研发“数价锚钉”数据资产估值AI模型，破解中小科技企业数据资产化难题。",
+  "background": "上海荟宸信息科技有限公司成立于2017年，是专注于城市数字化转型的高新技术企业，深度参与上海“一网通办”“一网统管”“城市大脑”等项目建设。",
+  "problem": "中小科技企业数据资产“评估难、入表难、融资难”，缺乏科学、可量化的数据资产估值手段，制约数据要素价值释放。",
+  "solution": "自主研发“数价锚钉”数据资产估值AI模型，面向中小科技企业构建数据资产评估智能体，提供数据资产盘点、质量评价、价值评估与入表辅助能力，破解数据资产化难题。",
+  "implementationSteps": [
+    "梳理中小科技企业数据资产特征与评估痛点。",
+    "研发“数价锚钉”数据资产估值AI模型。",
+    "构建数据资产评估智能体，提供盘点、质量评价与价值评估。",
+    "在中小科技企业数据资产入表与融资场景落地应用。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "唯一性",
+      "value": "名单中唯一中小企业数据资产评估智能体案例（上海）",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-news-0271"
+    }
+  ],
+  "roi": "",
+  "risks": "数据资产估值涉及会计与合规要求，模型须与专业审计/评估衔接；保障企业数据隐私与安全。",
+  "editorComment": {
+    "suitableFor": "中小科技企业数据资产盘点、评估与入表。",
+    "prerequisites": "具备一定数据资产基础与合规意识。",
+    "priority": "medium",
+    "text": "上海荟宸“数价锚钉”是名单中唯一的中小企业数据资产评估智能体案例，具备数据要素价值释放的示范意义。"
+  },
+  "implementers": [
+    {
+      "name": "上海荟宸信息科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0271",
+      "title": "上海荟宸“数价锚钉”AI模型破解数据资产评估难题",
+      "sourceType": "media",
+      "publisher": "百度百家号/上海总工程师协会报道",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1855732472106986646",
+      "externalId": "",
+      "publishedAt": "2026-01-30",
+      "accessibility": "available",
+      "rightsNote": "报道上海荟宸自主研发“数价锚钉”数据资产估值AI模型，破解中小科技企业数据资产化难题，并入选工信部2025人工智能应用典型案例。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂直大模型",
+    "数据估值",
+    "智能体"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "数据资产",
+    "数据资产评估",
+    "数价锚钉",
+    "中小企业",
+    "数据要素"
+  ],
+  "seo": {
+    "metaTitle": "中小科技企业数据资产评估智能体创新应用",
+    "metaDescription": "中小科技企业数据资产评估智能体创新应用",
+    "keywords": [
+      "上海荟宸信息科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "上海市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

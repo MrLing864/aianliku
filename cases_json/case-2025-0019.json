@@ -1,0 +1,171 @@
+{
+  "id": "case-2025-0019",
+  "version": 1,
+  "slug": "case-2025-0019",
+  "title": "红旗乘用车产品智能领域高质量数据集构建与业务赋能实践",
+  "organization": {
+    "id": "org-0019",
+    "name": "中国第一汽车集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国一汽构建红旗乘用车产品智能领域高质量数据集，并基于数据集驱动业务赋能，累计上线20个数字员工、实现23项关键决策智能化，'001号数字员工'将7个业务环节交由AI自动执行。",
+  "background": "中国一汽推进制造业数智化转型，以高质量数据集作为AI时代新引擎，探索汽车产品研发与生产的智能化升级。",
+  "problem": "汽车产品研发、生产计划与运营涉及多环节协同，传统人工处理效率低；缺乏面向产品智能的高质量数据集支撑智能体应用。",
+  "solution": "构建红旗乘用车产品智能领域高质量数据集，驱动业务赋能；基于OpenMind智能体与'一汽·七星云工作台'实现全产业链数据实时流转，将智能体深度融入研发与生产计划等场景，以数字员工自动执行业务环节。",
+  "implementationSteps": [
+    "构建红旗乘用车产品智能领域高质量数据集",
+    "建设OpenMind智能体与七星云工作台实现数据流转",
+    "上线数字员工自动执行研发、排产等业务环节",
+    "持续扩展智能体业务场景"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "上线数字员工",
+      "value": "20",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-faw-1"
+    },
+    {
+      "label": "关键决策智能化",
+      "value": "23",
+      "unit": "项",
+      "kind": "actual",
+      "sourceId": "src-faw-1"
+    },
+    {
+      "label": "自动执行业务环节（001号数字员工）",
+      "value": "7",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-faw-1"
+    }
+  ],
+  "roi": "",
+  "risks": "汽车研发生产数据敏感，需保障数据合规与模型可控；数字员工规模化需流程再造。",
+  "editorComment": {
+    "suitableFor": "汽车及离散制造企业的产品智能数据集与数字员工建设",
+    "prerequisites": "具备产品全生命周期数据与流程数字化基础",
+    "priority": "建议优先",
+    "text": "高质量数据集+数字员工驱动汽车研发生产，适合制造业转型参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国第一汽车集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-faw-1",
+      "title": "中国一汽：以数智赋能发展 探索制造业转型新路径",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "http://www.jl.news.cn/20260503/b7dd57e83d2a4648861f4a2ca1f52ae1/c.html",
+      "publishedAt": "2026-05-03",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-faw-2",
+      "title": "中国一汽：智能提质 焕新产业",
+      "sourceType": "news",
+      "publisher": "中国一汽",
+      "originalUrl": "https://www.faw.com.cn/fawcn/373694/373706/5937527/index.html",
+      "publishedAt": "2026-04-27",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "研发效率",
+    "生产计划",
+    "业务协同"
+  ],
+  "painPointNarrative": "",
+  "highlight": "20个数字员工、23项关键决策智能化",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "数字员工",
+    "智能体"
+  ],
+  "modelStack": [
+    "OpenMind智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "汽车"
+  ],
+  "seo": {
+    "metaTitle": "中国一汽 红旗乘用车产品智能高质量数据集构建与业务赋能",
+    "metaDescription": "中国一汽构建红旗产品智能数据集，上线20个数字员工、23项决策智能化。",
+    "keywords": [
+      "中国一汽",
+      "红旗",
+      "高质量数据集",
+      "数字员工"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国第一汽车集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

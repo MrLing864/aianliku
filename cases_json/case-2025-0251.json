@@ -1,0 +1,145 @@
+{
+  "id": "case-2025-0251",
+  "version": 1,
+  "slug": "case-2025-0251",
+  "title": "面向工程项目全生命周期的 AI 智能体协同应用",
+  "organization": {
+    "id": "org-0251",
+    "name": "同炎数智科技（重庆）有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "建筑建材",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由同炎数智科技（重庆）有限公司申报的“面向工程项目全生命周期的 AI 智能体协同应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由重庆市经济和信息化委员会推荐。同炎数智以“数智化全过程工程咨询”模式见长，该应用基于“i瞰建”数智管理平台与“数智建设大脑”，以BIM、5G、物联网与AI智能体协同覆盖工程全生命周期。",
+  "background": "同炎数智科技（重庆）有限公司是工程项目全生命期数智化服务集成商，2017年提出“数智化全过程工程咨询”模式，自主研发“i瞰建”项目协同管理平台，应用于科学谷、深圳小梅沙等重大项目。",
+  "problem": "工程项目全生命周期跨阶段、跨专业协同难，设计、建造、运维信息割裂，传统管理模式难以实现全周期精细化管理与高效协同。",
+  "solution": "面向工程项目全生命周期构建AI智能体协同应用，基于“i瞰建”数智管理平台与“数智建设大脑”，以BIM、5G、物联网与AI智能体协同驱动设计、建造、运维多环节协同，实现项目全周期精细化管理。",
+  "implementationSteps": [
+    "基于“i瞰建”平台沉淀工程项目全生命期数据与协同流程。",
+    "构建“数智建设大脑”，以BIM、5G、物联网贯通多阶段。",
+    "研发面向设计、建造、运维的AI智能体协同能力。",
+    "在科学谷等重大项目中应用，形成可推广模式。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "科学谷项目节省投资",
+      "value": "1.61",
+      "unit": "亿元",
+      "kind": "currency",
+      "sourceId": "src-news-0251"
+    }
+  ],
+  "roi": "",
+  "risks": "工程数据跨阶段集成复杂，需保障数据安全与标准统一；智能体协同建议须与工程实际及专业判断结合。",
+  "editorComment": {
+    "suitableFor": "工程项目全过程咨询、智能建造与全生命周期管理。",
+    "prerequisites": "具备BIM、物联网等数字化基础与全过程工程咨询能力。",
+    "priority": "medium",
+    "text": "同炎数智以“i瞰建”平台与数智建设大脑实现工程全生命周期AI智能体协同，科学谷项目累计节省投资约1.61亿元，并入选重庆住建领域首批AI应用典型案例。"
+  },
+  "implementers": [
+    {
+      "name": "同炎数智科技（重庆）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0251",
+      "title": "重庆同炎数智荣膺ITSS咨询设计认证 数智工程咨询迈入标准化",
+      "sourceType": "media",
+      "publisher": "CNCMMI",
+      "originalUrl": "https://www.cncmmi.cn/cmmi-news/13794.html",
+      "externalId": "",
+      "publishedAt": "2025-01-01",
+      "accessibility": "available",
+      "rightsNote": "报道同炎数智在西部（重庆）科学城·科学谷项目中运用“数智建设大脑”，累计节省投资约1.61亿元，获住建部智能建造示范。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "BIM",
+    "物联网",
+    "大模型",
+    "多智能体协同"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "工程全生命周期",
+    "智能建造",
+    "i瞰建",
+    "数智建设大脑",
+    "BIM"
+  ],
+  "seo": {
+    "metaTitle": "面向工程项目全生命周期的 AI 智能体协同应用",
+    "metaDescription": "面向工程项目全生命周期的 AI 智能体协同应用",
+    "keywords": [
+      "同炎数智科技（重庆）有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

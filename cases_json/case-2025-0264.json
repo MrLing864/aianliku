@@ -1,0 +1,105 @@
+{
+  "id": "case-2025-0264",
+  "version": 1,
+  "slug": "case-2025-0264",
+  "title": "文档智能体助力县域基层办公减负的密山实践",
+  "organization": {
+    "id": "org-0264",
+    "name": "密山市政务服务中心",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由密山市政务服务中心申报的“文档智能体助力县域基层办公减负的密山实践”入选工业和信息化部办公厅2025年人工智能应用典型案例。该案例公开可检索的详细技术方案与实施成效信息较为有限，本条目暂以入选依据收录，待后续补充完善。",
+  "background": "",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "密山市政务服务中心",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [],
+  "seo": {
+    "metaTitle": "文档智能体助力县域基层办公减负的密山实践",
+    "metaDescription": "文档智能体助力县域基层办公减负的密山实践",
+    "keywords": [
+      "密山市政务服务中心",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "黑龙江省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

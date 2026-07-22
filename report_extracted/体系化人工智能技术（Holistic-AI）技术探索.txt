@@ -1,0 +1,708 @@
+
+===== PAGE 1 =====
+体系化人工智能(Holistic AI)技术探索
+中国移动研究院  张世磊
+2023.11.24
+
+===== PAGE 2 =====
+日趋泛在的智能化需求和智能化技术赋能成本高之间的矛盾
+日趋泛在的智能化需求
+智能化技术赋能成本高
+企业智能化需求持续增长
+0
+900
+1800
+2019
+2022
+中国移动商用落地的智能化
+项目数量三年增长100多倍
+核心技术研发成本高
+GPT-3大模型训练成本
+费用成本
+460万美元
+时间成本
+1 GPU × 355年
+典型AI商用定制化项目成本构成
+定制化研发
+部署交付测试
+售后运维
+售前解决方案
+数据采集
+合同验收
+需求沟通
+定制化、商务、运维成本高
+
+===== PAGE 3 =====
+性能
+自动化
+降成本
+人工智能的应用
+需求复杂、迭代优化、
+运营成本
+数据成本、算法成本
+算力成本、人才成本
+提高定制化任务性能
+提供技术基础
+弱人工智能                   强人工智能
+                  
+（限定领域、人工参与）
+（通用领域、自动化）
+
+===== PAGE 4 =====
+A Survey on Large Language Model based Autonomous Agents
+自
+动
+机
+器
+学
+习
+LLM
+单模型的通用化
+基于AI任务的自动化
+LLM
+使
+能
+的
+自
+主
+智
+能
+体
+神
+经
+网
+络
+架
+构
+搜
+索
+
+===== PAGE 5 =====
+业务本身是规模化的：
+平台化：
+ 实用便捷的工具，运营运维
+共性能力：
+合理评估AI能力的可达性， 构建可达的共性AI能力
+客户规模， 经济规模
+支撑环境适宜：
+选择环境，培育环境
+
+===== PAGE 6 =====
+平台型产品
+个
+① 九天深度学习平台
+② 九天AI能力平台
+③ 智能交互平台
+④ 可视化建模平台
+⑤ 智能推荐平台
+⑥ 网络智能化平台
+⑦ 九天·毕昇教育平台
+通用能力
+网络智能化能力簇
+核心能力 
+ 个
+智能语音
+机器视觉
+自然语言理解
+智能推荐
+智能数据分析
+感知智能
+预测智能
+决策智能
+诊断智能
+控制智能
+规模化应用 
+ 个
+大屏数字内容推荐
+- 服务家庭7600+万户
+- 观看率提升42%
+- 单省收入赋能 7000+万
+甘肃智能客服
+智能基站节电
+智慧党建
+- 服务 2500 万甘肃百姓
+- 6000 万关系政务知识图谱
+- 事项覆盖率 100%
+- 29 省全网部署
+- 单站减排 300 千克/年
+- 单站节电量提升 8%-10%
+- 服务 16 万党员
+- 构建超 5 万条知识点数据库
+- 知识检索效率提升 90%
+CHBN赋能价值
+赋能价值
+服务外部客户
+服务客户
+服务内部客户
+云端能力
+调用次数
+边端能力
+调用次数
+管理领域（M）
+网络领域（N）
+政企领域（B）
+家庭领域（H）
+10086智能客服
+- 服务10+亿客户
+- 峰值月交互量 2.1 亿次
+- 问题一次解决率 94.2%
+个人领域（C)
+⑧ 城市AI平台（合作）
+
+===== PAGE 7 =====
+基础大模型：加快构建适用于泛场景的自主可控通用基础大模型，打造通用智能底座
+行业大模型：聚焦供给侧，加快构建行业大模型，加速国民经济主体行业的智能化转型升级，促进我国整体生产力跃升
+L1
+行业大模型
+衍 生
+支 撑
+L0
+基础大模型
+语言
+大模型
+视觉
+大模型
+语音
+大模型
+政务
+模型
+交通
+模型
+...
+政府
+治理
+能源
+模型
+工业
+生产
+...
+民生
+服务
+医疗
+模型
+司法
+模型
+... 通信
+特色
+网络
+模型
+客服
+模型
+...
+结构化数据
+大模型
+多模态
+大模型
+基于体系化人工
+智能的智力运营
+行业智能化应用
+大小模型
+安全
+评测
+数据
+评测
+算力
+基础
+数据
+基础
+网络
+基础
+性能
+评测
+物联网
+模型
+
+===== PAGE 8 =====
+以九天基础模型为基础，联合通信、能源、航空等行业的骨干企业，共建共享九天·众擎基座大模型
+人工智能训推技术服务平台
+测
+评
+系
+统
+智算引擎
+通信
+九天基础模型
+基础设施
+算力网络
+大规模智算中心
+数据汇聚平台
+能源
+航空
+医疗
+政务
+建筑
+交通
+运输
+冶金
+
+===== PAGE 9 =====
+
+===== PAGE 10 =====
+通常需要在满足计算、传输、安全、可控性等多项约束前提下， 组合使用多个模型或能力，包括基础模型、行业模型
+或面向特定任务的小模型， 并能够端到端优化服务于业务目标
+网络问题投诉 级联优化
+3700+
+支撑生产
+1000+
+AI能力
+7+万亿
+累计调用次数
+
+===== PAGE 11 =====
+体系化人工智能（Holistic AI，HAI）是中国移动研究院九天团队原创技术的攻关方向，依托泛在的网络和AI
+算力，在开放环境中实现对AI能力进行灵活且高效的配置、调度、训练和部署，以满足日益丰富的数智化业务
+需求 ，同时确保AI业务可信可控安全，其主要特征为AI服务大闭环、AI能力原子化重构、网络原生AI及安全
+可信AI。
+根据智能化业务需求， 按需对AI
+能力进行调度、配置和运行监控，
+使其能在最合理的算网资源上运
+行和服务
+行业及个人客户
+AI 核心能力及模型提供方
+泛AI算力提供方
+泛在网络资源提供方
+大闭环
+泛AI算力
+云/网/边/端/…
+GPU/ASIC/
+NPU/CPU/…
+业务
+可信
+体系化AI 
+OS
+可信
+可信
+AI能力
+大闭环
+原子化
+网络原生
+
+===== PAGE 12 =====
+1、“大闭环”（Big Loop AI）
+“大闭环”AI以业务端到端的大闭环优化为目标，重点攻关多能力级联与并联优化、开放动态环境中AI能力优化的基础理论和技
+术， 从而达到AI产业闭环。
+2、AI技术原子化重构（Atomized  AI ）
+AI能力依据高复用、易调度、自闭环、易适配等原则进行原子化拆解和重构。一个典型的原子化AI能力包含通用智能层、适配层、
+接口层，通用智能层可多个能力共享。AI原子化重构是体系化人工智能得以实现的基础。
+3、网络原生（Network Native AI ）
+网络原生AI将AI能力与算力通过标准化的方式接入网络、按需调度，重点攻关AI模型自动伸缩的理论和机制，制定AI计算资源、
+数据、模型、能力、服务的功能、流程、接口和计量的标准，实现AI能力在网云边端弹性部署、计算和迭代。
+4、安全可信（Trusted AI）
+AI数据、模型、能力、业务的安全可信是体系化人工智能服务的重要基础，重点攻关AI服务可追溯、可互信、可审计、抗攻击的
+基础理论与方法。
+
+===== PAGE 13 =====
+Vector DB
+Long-term 
+memory
+Hai大模型
+task instances 
+pool
+思维链
+任务分解
+部署应用
+适配及优化
+开放动态环境优化
+原
+子
+能
+力
+区
+解决方
+案原子
+能力区
+模型算
+法蒸馏
+定制区
+...........
+功
+能
+区
+n
+模型类1
+模型类n
+模型类N
+行
+业
+区
+n
+场景类1
+场景类n
+场景类N
+任
+务
+区
+n
+需求1
+需求n
+需求N
+模型服务提供商
+Standardization & Trusted AI 
+assessment   
+需
+求
+可追溯、可计量 HAI protocol
+分
+层
+次
+多
+粒
+度
+的
+原
+子
+AI
+能
+力
+市
+场
+服
+务
+计
+量
+、
+评
+估
+、
+回
+收
+动
+态
+测
+量
+评
+估
+能力空间
+能力更新
+注
+册
+
+===== PAGE 14 =====
+其中：
+� 是一个复杂的函数，表示体系化人工智能的内部逻辑和流程。
+数据集 D={d1,d2,…, ��}，每个数据d�都有一个类型��∈ {0,1,2, …, �}，表示文本、图像和语音等异构数据类型。
+模型集 M={�1,�2,…, ��}，每个模型��都有一个类型��∈ {0,1,2, …, �}，表示分类模型、预测模型和生成模型等不同模型。
+原子能力集 �= {�1, �2, …, ��}， ��是第�个能力，表示语音识别，语音增强，图像分割，机器翻译等不同的能力。
+真实环境数据分布集 P={�1,�2,…, ��}，每个分布��都有一个类型��∈ {0,1,2, …, �}，表示高斯分布、均匀分布和其他复杂分布。
+原子化评估集 E={�1,�2,…, ��}，每个评估��都有一个指标 ��∈ {0,1,2, …, �}， 表示不同的评估指标。
+标准规范入库集 S={s1,�2,…, ��}，每个入库��都有一个条件 ��∈ {0,1,2, …, �} ，表示入库准则。
+真实场景数据漂移集F={�1,�2,…, ��} ，每个漂移 �� 都有一个类型  ��∈ {0,1,2, …, �} ,表示协变量漂移、先验漂移和概念漂移等。
+数据传输的演化更新集U={�1,�2,…, ��}，每个更新��都有一个方法 ��∈ {0,1,2, …, �}，表示校准模型、和主动学习或迁移学习等方式。
+用户需求服务集 �= {�1, �2, …, ��}，表示用户提出动态的需求和任务；是一个动态的集合。
+�为算力存储资源、网络资源，以及数据隐私等各种资源约束阈值；� 表示每个流程中对应消耗和占据的资源函数。
+max   �(�, �, �, �, �, �, �, �, �, �)
+s. t.     �(�, �, �, �, �, �, �, �, �) ≤�
+
+===== PAGE 15 =====
+其中： 
+端到端跨模态异构数据建模：�( D,   M ) ；
+模型学习机理的优化建模：ℎ(�, �, �, �) ；
+模型的原子化表征和建模： �( M,   E ) ；
+模型的标准规范入库：�( M,   S ) ；
+数据漂移的优化建模： �( D,  �,F )；
+模型数据传输的演化更新： ℓ( M,  F,U )；
+运行架构优化建模： �(�, �, �)，如何在资源约束和安全可信的前提下的完成整体业务流程。
+max �(�, ℎ, �, �, �, ℓ, �)
+考虑体系化人工智能的内部流程和逻辑，进一步可以将 � 分解为以下几个子函数：
+�. �.   �(�, ℎ, �, �, �, ℓ, �) ≤�
+
+===== PAGE 16 =====
+n 原子化
+n 端到端优化
+n 基于大模型的调度体系
+
+===== PAGE 17 =====
+Fig1. 体系化原子模型示意图 (HAI Atomic Model， HAI-AM)其中绿色部分为其中一条可能的路径
+原则
+（1）重用度高
+（2）输入输出清晰，功能清晰
+（3）不过于细小导致模型协同成本高于计算成本 
+（4）适合于独立攻关
+（5）和基础模型能力互补
+模型介绍 
+模型的类型（通用型，特定任务型），模型结构及参
+数量， 应用领域，模态，构建时长及机构
+功能描述
+主要完成的功能描述和列表
+输入输出
+输入输出样例可以是一对多，一对一，多对一等组合
+接口
+模型的前向和后向接口及信息
+适配器
+适配器选择
+性能准确率
+性能，准确率，及测试方法
+约束
+应用环境的约束条件。 
+
+===== PAGE 18 =====
+One-Shot Pruning for Fast-adapting Pre-trained Models on Devices, Haiyan Zhao and Guodong Long，arXiv:2307.04365v1
+ü Automatic Mask Pruning (AMP): automatically 
+identify task-specific filters/nodes for different tasks in 
+the pre-trained model.
+ü apply the Log Expected Empirical Prediction (LEEP) 
+which is used to evaluate the transferability of 
+representations learned by the source task to the 
+target task.
+ü Scalable Mask Selection Pruning (SMSP) : fast-
+adapt the pre-trained model to downstream tasks.
+基础模型的功能解耦
+
+===== PAGE 19 =====
+ Decouple one Model into Atomized networks  
+•
+知识分解：包含结构分解和表征分解
+•
+每个因子网络包含两部分：通用知识网络（CKN）和特定任务网络（TSN）
+•
+一种新的信息衡量指标-InfoMax Bottleneck (IMB)，使输入和通用特征间互信息最大（最大限度保留
+大模型的通用知识），使不同特定任务特征间互信息最小（使特定任务网络之间尽可能解耦）。
+“Factorizing Knowledge in Neural Networks”,  
+Xingyi Yang, Jingwen Ye, Xinchao Wang, ECCV 
+2022.
+
+===== PAGE 20 =====
+模型蒸馏 
+"Generic-to-Specific Distillation of Masked Autoencoders". Wei Huang, Zhiliang Peng,  Li Dong,  Furu Wei, & 
+Jianbin Jiao,  Qixiang Ye. (2023). 15996-16005. 10.1109/CVPR52729.2023.01535
+
+===== PAGE 21 =====
+: Distilling Pre-trained Language Models based on Generative Models, Y.Gao, Shilei Zhang,Zihao 
+Cui, Chao Deng, Junlan Feng*.  Archive-2023
+Teacher Model
+<EOS>
+(a) Distillation
+Frozen
+Feature 
+Extractor
+layer1
+layer2
+layer3
+layer4
+ℎ1
+f
+ℎ2
+ℎ3
+ℎ4
+Input 
+Embedding
+ℎ2
+ℎ1
+ℎ3
+ℎ4
+Predicted 
+Embedding
+<EOS>
+ℎ1
+f
+ℎ2
+ℎ3
+ℎ4
+Generated 
+Input 
+Embedding
+ℎ2
+ℎ1
+ℎ3
+ℎ4
+Predicted 
+Embedding
+Feature 
+Extractor
+⨁
+Weighted Sum
+Downstream Tasks
+GenDistiller
+GenDistiller
+(b) Downstream
+基础模型的功能蒸馏
+
+===== PAGE 22 =====
+: Distilling Pre-trained Language Models based on Generative Models, Y.Gao, Shilei Zhang,Zihao Cui, 
+Chao Deng, Junlan Feng*.  Archive-2023
+Two-dimensional Attention Mechanism：
+T is the frame numbers related with the utterance length, 
+B refers to the batch size，D denotes the feature 
+dimension，H refers the numbers of hidden layers to be 
+predicted plus the original feature.
+Distillation Loss
+ [H×T, B, D]
+基础模型的功能蒸馏
+
+===== PAGE 23 =====
+
+===== PAGE 24 =====
+n 原子化
+n 端到端优化
+n 基于大模型的调度体系
+
+===== PAGE 25 =====
+搜索空间巨大：
+层级搜索、免训练（training free）
+端到端闭环数据稀疏：
+参数量和内存消耗大：
+适配器、蒸馏、剪枝
+接口复杂：
+维度一致、梯度连续
+无监督
+
+===== PAGE 26 =====
+"Meta Auxiliary Learning for Low-resource Spoken Language Understanding", Yingying Gao, Junlan Feng*, Chao 
+Deng,Shilei Zhang. Interspeech 2022
+
+===== PAGE 27 =====
+"Cascaded Multi-task Adaptive Learning Based on Neural Architecture Search", Yingying Gao, Shilei Zhang,Zihao Cui, 
+Chao Deng, Junlan Feng*. Interspeech 2023
+
+===== PAGE 28 =====
+Fuse Multiple Models into one target model
+"Deep Model Reassembly", Xingyi Yang , etc. NeurIPS 2022 
+•
+多个神经元网络层形成一个功能块
+•
+功能相似网络：输入相似时 ，输出相似
+•
+将一个网络分成多个功能块， 相似的功能块形成一个集合，这个集合称为： 等同网络块集合 
+
+===== PAGE 29 =====
+Stitch Multiple Big Models into one target model
+“Stichable Neural Networks”, Zizheng Pan Jianfei 
+Cai Bohan Zhuang,  Archive-2023
+
+===== PAGE 30 =====
+Interfaces
+Top-K:
+Token Embeddings
+softmax values
+Matrix multiply:
+      softmax output *  matrix 
+Gumbel softmax:
+      smooth distribution
+ASR
+NLU
+语音识别+自然语言理解 级联优化【12】
+网络问题投诉 级联优化
+
+===== PAGE 31 =====
+Fuse Multiple Models into one target model
+"Cascaded Multi-task Adaptive Learning Based on Neural Architecture Search", Y.Gao, Shilei 
+Zhang,Zihao Cui, Chao Deng, Junlan Feng*. Interspeech 2023
+
+===== PAGE 32 =====
+Cancade three models  - speech enhancement , ASR， NLU - with Bottleneck Adapter
+"Cascaded Multi-task Adaptive Learning Based on Neural 
+Architecture Search", Y.Gao, Shilei Zhang,Zihao Cui, Chao Deng, 
+Junlan Feng*. Interspeech 2023
+
+===== PAGE 33 =====
+Vision
+Encoder
+Language
+Encoder
+Vision
+Decoder
+Language
+Decoder
+language word tokens
+vision patch tokens
+Cross-modal Adapter
+a cat on 
+a desk
+Q:Describe the 
+photo.
+Under-
+stand
+Generate
+VQA
+Masked Self/Cross-
+Attention
+Cat
+a
+desk
+on
+Language Space
+Vision Space
+cat
+
+===== PAGE 34 =====
+n 原子化
+n 端到端优化
+n 基于大模型的调度体系
+
+===== PAGE 35 =====
+通信网络安全
+业务层
+全生命周期动态可追溯
+业务部署全流程链路安全
+能力层
+模型安全   数据安全
+体系化服务能力可信
+算力层
+AI算力调度标准体系
+可靠可信       安全可控
+开放环境下的动态测量评估
+能
+量
+模
+型
+非规范化概率模型，灵活性
+对数据和模型统一表示和度量
+有效捕捉动态变化并敏感相应
+探索数据和模型的复杂关系模式
+体系化人工智能：将人工智能技术从单点应用向系统集
+成转变，形成具有自主学习、自主决策、自主协同等特
+征的人工智能系统。
+体系化人工智能服务的重要基础：AI数据、模型、能力、
+业务的安全可信
+安全可信：在开放动态环境下，保证人工智能系统的可
+控可靠、透明可释、隐私保护、明确责任和多元包容
+
+===== PAGE 36 =====
+
+===== PAGE 37 =====
+网智能力
+网智应用
+标准
+现网
+网络
+异构多模
+态数据
+网智算
+法模型
+现
+网
+数
+据
+驱
+动
+的
+AI
+端
+到
+端
+仿
+真
+针对主流通信网络仿真系统难以精准模拟现网的难题，提出首个融合常规网络仿真、AI仿真和物理空间孪生的仿真框架，攻
+关多项AI仿真技术，使能仿真系统更贴近现网，基于该框架成功申请并构建“智慧网络国家新一代人工智能开放创新平台”。
+立
+体
+闭
+环
+交
+互
+体
+系
+端到端智
+能仿真
+支持10余种场景仿真，孵化应用31省落地，为亚运通信网络服务保驾护航
+业务行为
+用户轨迹
+AI化程度
+终端仿真
+基站仿真
+信道仿真
+业务服务器
+核心网仿真
+传输网仿真
+
+===== PAGE 38 =====

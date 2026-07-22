@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0253",
+  "version": 1,
+  "slug": "case-2025-0253",
+  "title": "医疗全景智能体应用",
+  "organization": {
+    "id": "org-0253",
+    "name": "沪渝人工智能研究院",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "沪渝人工智能研究院（上海交通大学重庆人工智能研究院）研发“医疗全景智能体”，依托海量医疗专业数据与知识库及先进多模态大模型技术，可 1 分钟精准“画”出病灶准确位置，并在某县域医共体成功落地，通过为基层医疗机构提供专业 AI 支撑弥补当地医疗短板，同时衍生“青囊 AI”服务基层医药场景。",
+  "background": "沪渝人工智能研究院依托上海交通大学科研力量，在西部（重庆）科学城打造人工智能创新平台，聚焦智慧医疗领域跨模态、跨中心、小样本、可解释的人工智能模型与算法。",
+  "problem": "基层医疗机构优质医疗资源匮乏，影像与诊断能力不足，难以满足常见病精准诊疗需求。",
+  "solution": "医疗全景智能体以多模态大模型技术，实现病灶精准定位与辅助诊疗，下沉县域医共体弥补基层短板。",
+  "implementationSteps": [
+    "构建医疗专业数据与知识库",
+    "研发多模态大模型医疗全景智能体",
+    "在县域医共体落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "病灶定位耗时",
+      "value": "1",
+      "unit": "分钟",
+      "kind": "actual",
+      "sourceId": "src-hy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "医疗数据合规、小样本可解释性。",
+  "editorComment": {
+    "suitableFor": "县域医共体与基层医疗 AI 支撑",
+    "prerequisites": "具备医疗影像与知识库",
+    "priority": "建议优先",
+    "text": "多模态大模型下沉基层医疗的范式。"
+  },
+  "implementers": [
+    {
+      "name": "沪渝人工智能研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hy-1",
+      "title": "1分钟，就能精准“画”出病灶的准确位置！",
+      "sourceType": "news",
+      "publisher": "重庆日报",
+      "originalUrl": "https://www.cqrb.cn/contry/dy72/2025-12-01/2494635_pc.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证医疗全景智能体 1 分钟病灶定位与县域落地。",
+      "publishedAt": "2025-12-01"
+    },
+    {
+      "publicId": "src-hy-2",
+      "title": "沪渝人工智能研究院官网-智慧医疗中心",
+      "sourceType": "official",
+      "publisher": "沪渝人工智能研究院",
+      "originalUrl": "https://www.sciai.com.cn/",
+      "accessibility": "available",
+      "rightsNote": "研究院官网，佐证智慧医疗跨模态可解释模型方向。",
+      "publishedAt": "2025-10-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "基层资源匮乏",
+    "诊断能力不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "小样本可解释"
+  ],
+  "modelStack": [
+    "医疗全景智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "医疗全景智能体",
+    "多模态大模型",
+    "县域医共体",
+    "青囊AI"
+  ],
+  "seo": {
+    "metaTitle": "医疗全景智能体应用",
+    "metaDescription": "医疗全景智能体应用",
+    "keywords": [
+      "沪渝人工智能研究院",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

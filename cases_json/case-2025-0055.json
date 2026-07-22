@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0055",
+  "version": 1,
+  "slug": "case-2025-0055",
+  "title": "多模态大模型赋能建材矿山领域应用",
+  "organization": {
+    "id": "org-0055",
+    "name": "中能建装配式建筑产业发展有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中能建装配式建筑产业发展有限公司以多模态大模型驱动AI与建材矿山深度融合，主要应用于露天矿山，解决运输效率低、安全风险高、能耗排放大、生产管理粗放等痛点，并建设5G+无人驾驶等能力。",
+  "background": "建材矿山（露天矿）长期面临运输、安全、能耗与生产管理等多重挑战。",
+  "problem": "露天矿山运输效率低、安全风险高、能耗与排放大、生产管理粗放。",
+  "solution": "以多模态大模型驱动AI与建材矿山深度融合，建设面向露天矿山的智能化应用，通过5G+无人驾驶、智能调度等手段提升运输效率与安全性，降低能耗排放，改善生产管理粗放问题。",
+  "implementationSteps": [
+    "构建多模态大模型驱动矿山AI能力",
+    "面向露天矿山落地5G+无人驾驶与智能调度",
+    "提升运输效率与安全风险管控",
+    "降低能耗排放、改善生产管理"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "露天矿山工况复杂、网络覆盖难；无人驾驶与多模态模型需充分安全验证。",
+  "editorComment": {
+    "suitableFor": "建材/露天矿山企业智能化与绿色化升级",
+    "prerequisites": "具备矿山作业数据与5G/自动驾驶基础",
+    "priority": "条件具备后开展",
+    "text": "多模态大模型+5G无人驾驶赋能露天矿山，适合建材矿山转型参考。"
+  },
+  "implementers": [
+    {
+      "name": "中能建装配式建筑产业发展有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zn-1",
+      "title": "国家级名单！4项人工智能应用案例入选（建材矿山多模态大模型）",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/wm/2026-07-09/doc-inihftws4194728.shtml",
+      "publishedAt": "2026-07-09",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zn-2",
+      "title": "智赋新质！中国能建AI成果亮相2026世界人工智能大会",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://field.10jqka.com.cn/20260719/c678272310.shtml",
+      "publishedAt": "2026-07-19",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "运输效率",
+    "安全风险",
+    "能耗排放"
+  ],
+  "painPointNarrative": "",
+  "highlight": "多模态大模型驱动建材露天矿山智能化",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "露天矿山",
+    "5G无人驾驶"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "建材矿山",
+    "多模态大模型"
+  ],
+  "seo": {
+    "metaTitle": "中能建装配式建筑 多模态大模型赋能建材矿山领域应用",
+    "metaDescription": "中能建以多模态大模型驱动AI与建材露天矿山融合，破解运输/安全/能耗/管理痛点。",
+    "keywords": [
+      "中能建",
+      "多模态大模型",
+      "建材矿山",
+      "露天矿"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国能源建设集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

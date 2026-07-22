@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0017",
+  "version": 1,
+  "slug": "case-2025-0017",
+  "title": "雄安新区全域 IT 运营及安全防护高质量数据集建设与应用",
+  "organization": {
+    "id": "org-0017",
+    "name": "中国雄安集团数字城市科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国雄安集团数字城市科技有限公司建设雄安新区全域IT运营及安全防护高质量数据集，支撑新区数字化运营与安全防护。",
+  "background": "雄安新区以数字孪生城市为底座，全域IT运营与安全防护产生海量运维与安全数据。",
+  "problem": "城市级数字化运营与安全防护缺乏统一、高质量的数据支撑，安全运营多头分散、协同不足。",
+  "solution": "建设雄安新区全域 IT 运营及安全防护高质量数据集，构建统一安全运营平台与三级协同运营体系，集成资产探测、威胁监测、智能分析与应急指挥能力。",
+  "implementationSteps": [
+    "汇聚全域 IT 运营与安全数据构建高质量数据集",
+    "建立统一安全运营平台与三级协同运营体系",
+    "集成资产探测、威胁监测、智能分析与应急指挥",
+    "为城市级数字化运营与安全防护提供数据支撑"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "数据安全合规、跨部门数据协同治理。",
+  "editorComment": {
+    "suitableFor": "城市级数字化运营与网络安全运营",
+    "prerequisites": "具备数据汇聚与安全运营基础",
+    "priority": "建议优先",
+    "text": "技术底座方向，城市级高质量数据集与安全运营协同的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "中国雄安集团数字城市科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hb-1",
+      "title": "我省八项典型案例入选2025年人工智能应用典型案例名单",
+      "sourceType": "government_notice",
+      "publisher": "河北省工业和信息化厅",
+      "originalUrl": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/snxw40/2026072009031739157/index.html",
+      "accessibility": "available",
+      "rightsNote": "省级工信厅公告，佐证雄安数据集案例入选技术底座方向。",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "publicId": "src-xa-1",
+      "title": "数字城市公司--中国雄安集团",
+      "sourceType": "official",
+      "publisher": "中国雄安集团",
+      "originalUrl": "http://www.chinaxiongan.com.cn/kggs/szcskjgs/index.shtml",
+      "accessibility": "available",
+      "rightsNote": "集团官网，佐证数字城市公司定位与业务布局。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据分散",
+    "安全协同不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "雄安新区全域IT运营及安全防护高质量数据集",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数据集建设",
+    "安全运营"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "雄安",
+    "高质量数据集",
+    "网络安全",
+    "数字城市"
+  ],
+  "seo": {
+    "metaTitle": "雄安数字城市 全域IT运营及安全防护高质量数据集",
+    "metaDescription": "雄安数字城市建设全域IT运营及安全防护高质量数据集，支撑新区数字化运营与安全。",
+    "keywords": [
+      "雄安新区",
+      "数字城市",
+      "高质量数据集",
+      "安全防护"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

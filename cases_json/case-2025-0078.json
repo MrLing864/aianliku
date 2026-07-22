@@ -1,0 +1,169 @@
+{
+  "id": "case-2025-0078",
+  "version": 1,
+  "slug": "case-2025-0078",
+  "title": "基于 AI 智能知识库提升维修服务质量实践",
+  "organization": {
+    "id": "org-0078",
+    "name": "广西玉柴机器股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广西玉柴机器股份有限公司以AI智能知识库提升维修服务质量，发布'玉柴智管家4.0'平台，集成智能知识库、客服机器人、智能诊修、智能审单四大智能体，实现资料查阅时长降50%、诊断排查时长降67%、单证审核时长降40%。",
+  "background": "发动机售后维修服务依赖经验，资料查阅与故障排查耗时长、新人培养难。",
+  "problem": "维修服务资料查阅慢、诊断排查依赖老师傅、单证审核效率低。",
+  "solution": "玉柴构建企业AI智能知识库，发布'玉柴智管家4.0'平台，集成智能知识库、客服机器人、智能诊修、智能审单四大智能体，通过AI技术实现资料快速检索、故障智能诊断与单证自动审核，全面升级服务效能。",
+  "implementationSteps": [
+    "构建发动机技术知识库与故障案例库",
+    "发布玉柴智管家4.0（四大智能体）",
+    "实现智能知识检索与故障诊修",
+    "全量智能质检与服务效能提升"
+  ],
+  "duration": "2026年1月发布智管家4.0",
+  "cost": "",
+  "results": [
+    {
+      "label": "资料查阅时长降幅",
+      "value": "50",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-yc-1"
+    },
+    {
+      "label": "诊断排查时长降幅",
+      "value": "67",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-yc-1"
+    },
+    {
+      "label": "单证审核时长降幅",
+      "value": "40",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-yc-1"
+    }
+  ],
+  "roi": "",
+  "risks": "知识库准确性直接影响维修质量；需持续沉淀故障案例与专家经验。",
+  "editorComment": {
+    "suitableFor": "装备制造企业售后维修服务智能化",
+    "prerequisites": "具备产品知识与故障案例数据",
+    "priority": "建议优先",
+    "text": "AI知识库+四大智能体显著提升维修服务效率，适合装备服务化参考。"
+  },
+  "implementers": [
+    {
+      "name": "广西玉柴机器股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yc-1",
+      "title": "玉柴发布智管家4.0，以AI赋能服务再启新程",
+      "sourceType": "news",
+      "publisher": "百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1855259159448787362",
+      "publishedAt": "2026-01-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yc-2",
+      "title": "AI赋能，看'玉林智造'（玉柴AI知识库）",
+      "sourceType": "news",
+      "publisher": "广西工信厅",
+      "originalUrl": "http://gxt.gxzf.gov.cn/wzsy/zwdt/gsgy_82316/t26115039.shtml",
+      "publishedAt": "2025-10-31",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "资料查阅慢",
+    "诊断依赖经验",
+    "审核效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI知识库+四大智能体，诊断排查时长降67%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI知识库",
+    "智能体",
+    "维修服务"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "装备制造",
+    "智能服务"
+  ],
+  "seo": {
+    "metaTitle": "广西玉柴 基于AI智能知识库提升维修服务质量实践",
+    "metaDescription": "玉柴以AI智能知识库+四大智能体（智管家4.0）提升维修服务，诊断排查时长降67%。",
+    "keywords": [
+      "广西玉柴",
+      "AI知识库",
+      "智管家4.0",
+      "维修服务"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广西壮族自治区工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

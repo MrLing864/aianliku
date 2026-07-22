@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0229",
+  "version": 1,
+  "slug": "case-2025-0229",
+  "title": "文明一万年·智能社会体验馆实践",
+  "organization": {
+    "id": "org-0229",
+    "name": "北京大学武汉人工智能研究院",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京大学武汉人工智能研究院与武汉东湖高新区国家智能社会治理实验综合基地共同打造“文明一万年·智能社会体验馆”，是中国首个以“人类文明演进+智能社会治理”为主题的科普场馆。该馆历经两年打造，运用大语言模型、LBE 大空间、XR 虚拟现实、多智能体协同等技术，融合科普教育与智能体验，2024 年 10 月在武汉光谷正式揭幕，相关实践入选工信部 2025 年人工智能应用典型案例。",
+  "background": "",
+  "problem": "人工智能科普与智能社会治理体验缺乏沉浸式、可交互的公共空间载体。",
+  "solution": "以大语言模型+LBE 大空间+XR+多智能体协同打造沉浸式智能社会体验馆，融合科普教育与智能交互体验。",
+  "implementationSteps": [
+    "运用大语言模型与多智能体协同构建智能体验",
+    "集成 LBE 大空间、CAVE 投影、XR 虚拟现实",
+    "打造“古人智能体”等原创交互展项",
+    "在武汉光谷落地智能社会体验馆并对公众开放"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "大模型内容准确性、沉浸式设备运维。",
+  "editorComment": {
+    "suitableFor": "AI 科普与智能社会治理沉浸式体验",
+    "prerequisites": "具备大模型与 XR 大空间能力",
+    "priority": "建议评估",
+    "text": "大模型+XR 打造智能社会科普新地标的实践。"
+  },
+  "implementers": [
+    {
+      "name": "北京大学武汉人工智能研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-229-1",
+      "title": "中国湖北·文明一万年：智能社会体验馆（大语言模型、LBE大空间、XR、多智能体协同）",
+      "sourceType": "news",
+      "publisher": "国际在线（cri.cn）",
+      "originalUrl": "https://city.cri.cn/20260324/7271ba62-ae00-4bfa-9240-c44acc33ecdb.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证体验馆主题、技术与定位。",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "publicId": "src-229-2",
+      "title": "打造智慧与文化交融新地标 “文明一万年·智能社会体验馆”亮相武汉",
+      "sourceType": "news",
+      "publisher": "湖北日报",
+      "originalUrl": "https://news.hubeidaily.net/pc/c_3266020.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证北大武汉AI研究院与东湖高新区共建及揭幕。",
+      "publishedAt": "2024-10-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "科普载体缺乏",
+    "沉浸体验难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大语言模型",
+    "XR大空间",
+    "多智能体协同"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "北大武汉AI研究院",
+    "智能社会体验馆",
+    "大语言模型",
+    "XR"
+  ],
+  "seo": {
+    "metaTitle": "文明一万年·智能社会体验馆实践",
+    "metaDescription": "文明一万年·智能社会体验馆实践",
+    "keywords": [
+      "北京大学武汉人工智能研究院",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

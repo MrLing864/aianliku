@@ -1,13 +1,13 @@
 import { createHash } from "node:crypto";
 import { NextResponse } from "next/server";
-import { MongoServerError } from "mongodb";
+import { MongoServerError } from "@/lib/db/cloudbase";
 import { nanoid } from "nanoid";
 import { z } from "zod";
 import { getAdminSession } from "@/lib/auth/dal";
 import { writeAuditLog } from "@/lib/audit";
 import { getIndustry, getScenario } from "@/lib/catalog";
 import { createDedupVector, sourceIdentity } from "@/lib/dedup";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import type { CaseStudy, SourceRecord } from "@/lib/types";
 
 export const caseInputSchema = z.object({
@@ -41,6 +41,16 @@ export const caseInputSchema = z.object({
   editorComment: z.string().max(2_000).default("建议先核对业务基线、样本质量和人工兜底流程。"),
   suitableFor: z.string().max(500).default("业务流程相近且具备基础数据的企业"),
   prerequisites: z.string().max(500).default("明确业务负责人、样本和验收指标"),
+  highlight: z.string().max(120).optional(),
+  painPointTags: z.array(z.string().max(50)).max(10).optional(),
+  implementationYear: z.number().int().min(1990).max(2100).optional(),
+  implementers: z.array(z.object({ name: z.string().min(1).max(150), role: z.enum(["技术提供方", "系统集成商", "咨询方", "其他"]).optional() })).max(20).optional(),
+  ctaText: z.string().max(200).optional(),
+  techPath: z.array(z.string().max(50)).max(10).optional(),
+  modelStack: z.array(z.string().max(100)).max(20).optional(),
+  investmentRange: z.object({ min: z.number().optional(), max: z.number().optional(), currency: z.enum(["CNY", "USD"]).default("CNY"), disclosed: z.boolean().default(false), narrative: z.string().max(200).optional() }).optional(),
+  projectDuration: z.object({ minWeeks: z.number().optional(), maxWeeks: z.number().optional(), disclosed: z.boolean().default(false), narrative: z.string().max(200).optional() }).optional(),
+  testimonial: z.object({ quote: z.string().min(1).max(500), author: z.string().max(100).optional(), authorTitle: z.string().max(100).optional() }).nullable().optional(),
 });
 
 export type CaseInput = z.infer<typeof caseInputSchema>;
@@ -67,7 +77,7 @@ function makeSlug(title: string, requested?: string) {
 export async function POST(request: Request) {
   const session = await getAdminSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  if (!isMongoConfigured()) return NextResponse.json({ error: "请先配置 MongoDB 后再保存案例" }, { status: 503 });
+  if (!isDbConfigured()) return NextResponse.json({ error: "请先配置 CloudBase 后再保存案例" }, { status: 503 });
   const parsed = caseInputSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "案例字段不完整", fields: parsed.error.flatten().fieldErrors }, { status: 400 });
 
@@ -121,8 +131,17 @@ export async function POST(request: Request) {
     risks: value.risks,
     failureReason: value.failureReason || undefined,
     editorComment: { suitableFor: value.suitableFor, prerequisites: value.prerequisites, priority: value.outcomeStatus === "failure" ? "暂不建议" : "条件具备后开展", text: value.editorComment },
-    implementers: [],
+    implementers: value.implementers ?? [],
     outcomeStatus: value.outcomeStatus,
+    implementationYear: value.implementationYear,
+    painPointTags: value.painPointTags ?? [],
+    highlight: value.highlight,
+    ctaText: value.ctaText,
+    techPath: value.techPath ?? [],
+    modelStack: value.modelStack ?? [],
+    investmentRange: value.investmentRange,
+    projectDuration: value.projectDuration,
+    testimonial: value.testimonial ?? null,
     contentStatus: value.contentStatus,
     confidence: value.confidence,
     sources: [{ id: resolvedSourceId, title: value.sourceTitle, publisher: value.sourcePublisher, type: "media", url: value.sourceUrl || undefined, publishedAt: value.sourcePublishedAt || undefined, collectedAt: now, accessibility: "available", supports: value.sourceSupports }],

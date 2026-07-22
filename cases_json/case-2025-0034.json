@@ -1,0 +1,158 @@
+{
+  "id": "case-2025-0034",
+  "version": 1,
+  "slug": "case-2025-0034",
+  "title": "开源元景万悟智能体开发平台实践",
+  "organization": {
+    "id": "org-0034",
+    "name": "联通数据智能有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "联通数据智能有限公司开源'元景万悟'智能体开发平台（央企首个开源商用级智能体平台），采用Apache 2.0等友好许可、Go语言开发、支持多租户与二次开发，并获信通院政务智能体最高评级4+级。",
+  "background": "企业智能体应用需要安全、高效、合规的一站式开发平台，且希望避免供应商锁定。",
+  "problem": "企业构建智能体面临开发门槛高、License不友好、多模型接入与安全合规等挑战。",
+  "solution": "开源'元景万悟'智能体开发平台（GitHub: UnicomAI/wanwu），以'技术开放、生态共建'为理念，采用商用License友好（Apache 2.0）、Go语言开发、支持多租户与二次开发；提供本地Docker部署，支持LLM、Embedding等模型接入；万悟·政务智能体开发平台通过中国信通院评估，获政务智能体最高评级4+级。",
+  "implementationSteps": [
+    "研发并开源元景万悟智能体开发平台",
+    "支持多租户、本地部署与多模型接入",
+    "构建政务等垂直智能体解决方案",
+    "通过信通院政务智能体最高评级4+级评估"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "开源社区运营与生态培育需持续投入；企业落地仍需集成与定制。",
+  "editorComment": {
+    "suitableFor": "需要开源、合规、可二次开发的智能体平台的企业与政务机构",
+    "prerequisites": "具备基础IT与模型资源",
+    "priority": "建议优先",
+    "text": "央企首个开源商用级智能体平台，License友好，适合避免锁定的企业。"
+  },
+  "implementers": [
+    {
+      "name": "联通数据智能有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-wy-1",
+      "title": "GitHub - UnicomAI/wanwu 元景万悟智能体平台",
+      "sourceType": "code",
+      "publisher": "中国联通",
+      "originalUrl": "https://github.com/UnicomAI/wanwu",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-wy-2",
+      "title": "元景万悟-智能体功能体验（Apache 2.0，多租户）",
+      "sourceType": "article",
+      "publisher": "CSDN",
+      "originalUrl": "https://blog.csdn.net/2504_93533260/article/details/152044506",
+      "publishedAt": "2025-09-24",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-wy-3",
+      "title": "联通万悟·政务智能体开发平台获政务智能体最高评级4+级",
+      "sourceType": "news",
+      "publisher": "知乎",
+      "originalUrl": "https://zhuanlan.zhihu.com/p/1986363147787968689",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "智能体开发",
+    "供应商锁定",
+    "合规"
+  ],
+  "painPointNarrative": "",
+  "highlight": "央企首个开源商用级智能体平台，获政务智能体4+级评级",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能体平台",
+    "开源",
+    "多租户"
+  ],
+  "modelStack": [
+    "元景大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智能体平台",
+    "开源"
+  ],
+  "seo": {
+    "metaTitle": "联通数据智能 开源元景万悟智能体开发平台实践",
+    "metaDescription": "联通开源元景万悟智能体平台，央企首个开源商用级，获政务智能体4+级评级。",
+    "keywords": [
+      "联通",
+      "元景万悟",
+      "智能体平台",
+      "开源"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国联合网络通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

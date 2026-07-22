@@ -1,7 +1,7 @@
 import "server-only";
 
 import { createHmac } from "node:crypto";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import { env } from "@/lib/env";
 
 interface RateLimitRecord { key: string; count: number; resetAt: Date; updatedAt: Date }
@@ -23,13 +23,13 @@ export async function checkRateLimit(request: Request, scope: string, limit: num
   const key = requesterKey(request, scope);
   const now = new Date();
   let existing: RateLimitRecord | null | undefined;
-  if (isMongoConfigured()) {
+  if (isDbConfigured()) {
     const db = await getDb();
     existing = await db.collection<RateLimitRecord>("rate_limits").findOne({ key }, { projection: { _id: 0 } });
   } else existing = memoryStore().get(key);
   const activeRecord = existing && existing.resetAt.getTime() > now.getTime() ? existing : null;
   const record: RateLimitRecord = { key, count: activeRecord ? activeRecord.count + 1 : 1, resetAt: activeRecord ? activeRecord.resetAt : new Date(now.getTime() + windowMs), updatedAt: now };
-  if (isMongoConfigured()) {
+  if (isDbConfigured()) {
     const db = await getDb();
     await db.collection<RateLimitRecord>("rate_limits").updateOne({ key }, { $set: record }, { upsert: true });
   } else memoryStore().set(key, record);

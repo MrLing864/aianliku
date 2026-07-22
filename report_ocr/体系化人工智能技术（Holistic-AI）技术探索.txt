@@ -1,0 +1,1597 @@
+
+===== PAGE 1 =====
+中国移动
+China Mobile
+体系化人工智能(Holistic
+AI)技术探索
+中国移动研究院
+张世磊
+2023.11.24
+===== PAGE 2 =====
+中国移动
+5G
+「[妖]
+人工智能产业发展的主要矛盾
+China Mobile
+日趋泛在的智能化需求和智能化技术赋能成本高之间的矛盾
+日趋泛在的智能化需求
+智能化技术赋能成本高
+企业智能化需求持续增长
+核心技术研发成本高
+GPT-3大模型训练成本
+费用成本
+中国移动商用落地的智能化
+时间成本
+项目数量三年增长100多倍
+460万美元
+1 GPU × 355年
+1800
+定制化、商务、运维成本高
+典型AI商用定制化项目成本构成
+900
+定制化研发
+■部署交付测试
+■售后运维
+■售前解决方案
+■数据采集
+■合同验收
+2019
+2022
+需求沟通
+===== PAGE 3 =====
+中国移动
+[妖]
+China Mobile
+AI应用的挑战
+人工智能的应用
+弱人工智能
+强人工智能
+(限定领域、人工参与）
+（通用领域、自动化）
+需求复杂、
+送代优化、
+运营成本
+提供技术基础
+数据成本、算法成本
+降成本
+自动化
+算力成本、人才成本
+提高定制化任务性能
+===== PAGE 4 =====
+中国移动
+通用人工智能发展
+China Mobile
+EvoLutionary
+160
+L厂M使能的自主智能体
+Number of Papers (cumulated)
+Tree
+GeneralAgent
+140
+2023
+ToolAgent
+Galactica00
+ChatGPTe
+120
+Simulation Agent
+EmbodiedAgent
+Open-Source
+BLOOMO
+YaLNO Min
+Game Agent
+ClosedSource
+LLM
+OPTOO
+PaLyG
+Web Agent
+Inchilldo
+ST-MoEG
+AssistantAgent
+2022
+Code
+ERNIE3.08LM
+MT-NLG
+urassic-
+GPT-JC
+2021-12
+Tool
+AgentGPT
+LLaMA
+AgentGPT 2023-4
+ToolBench 2023-7
+GPT-3 @
+2021-1
+2022-1
+2023-2
+2023-4
+2023-6
+ELECTRAS
+2023-8
+2020
+Time(Year-Month)
+11
+GPT-20
+Figure l: Illustration of the growth trend in the field of LLM-based autonomous agents.
+2019
+GPT-1
+2018
+A Survey on Large Language Model based Autonomous Agents
+Human Experts
+AutoML (computer program)
+神经网络架构搜索
+Number
+Filter
+Filter
+Stride
+Stride
+Number
+Filter
+ofFilters
+Height 
+Width
+Height
+Height
+Width
+ofFilters
+自动机器学习
+Model
+Optimization
+Data
+Problem definition
+Feature
+Evaluation
+Deployment
+in
+Data colletion
+Model selection
+Feature engineering
+Layer N+1
+Layer N-1
+Layer N
+Algorithm selection
+单模型的通用化
+基于AI任务的自动化
+===== PAGE 5 =====
+中国移动
+[妖]
+小模型时代：人工智能走向规模化应用的核心点
+China Mobile
+支撑环境适宜：
+选择环境，培育环境
+共性能力：
+合理评估AI能力的可达性，构建可达的共性AI能力
+平台化：
+实用便捷的工具，运营运维
+业务本身是规模化的：
+客户规模，经济规模
+===== PAGE 6 =====
+中国移动
+China Mobile
+中国移动构建出全面的九天人工智能产品体系，实现规模化赋能价值
+九年耕耘，打磨出完善的九天人工智能产品体系；
+"两给两出”，激发出九天团队人才和研发科技创新活力
+41
+规模化应用
+CHBN赋能价值
+个人领域 (C)
+家庭领域 (H)
+政企领域(B)
+网络领域(N)
+管理领域(M)
+57
+300-
+10086智能客服
+智能基站节电
+大屏数字内容推荐
+甘肃智能客服
+智慧党建
+服务内部客户
+-服务10+亿客户
+-服务2500万甘肃百姓
+-29 省全网部署
+-服务16万党员
+服务家庭7600+万户
+服务外部客户
+峰值月交互量2.1亿次
+-6000万关系政务知识图谱
+-观看率提升42%
+-单站减排300干克/年
+-知识检索效率提升90%
+问题一次解决率94.2%
+单省收入赋能7000+万
+-事项覆盖率100%
+-单站节电量提升8%-10%
+构建超5万条知识点数据库
+3 2 2
+核心能力
+1000
+71000
+通用能力
+网络智能化能力簇
+云端能力
+边端能力
+智能语音
+预测智能
+诊断智能
+决策智能
+感知智能
+智能推荐
+机器视觉
+智能数据分析
+自然语言理解
+控制智能
+调用次数
+调用次数
+平台型产品
+网络智能化平台
+①九天·毕昇教育平台
+城市AI平台 (合作)
+41
+10
+③智能推荐平台
+③智能交互平台
+可视化建模平台
+赋能价值
+服务客户
+①九天深度学习平台
+②九天AI能力平台
+===== PAGE 7 =====
+中国移动
+China Mobile
+中国移动构建“九天”人工智能大模型体系
+基础大模型：
+加快构建适用于泛场景的自主可控通用基础大模型，打造通用智能底座
+行业大模型：
+行业智能化应用
+基于体系化人工
+智能的智力运营
+支撑
+性能
+L1
+安全
+物联网
+数据
+政府
+工业
+民生
+通信
+政务
+能源
+司法
+网络
+交通
+医疗
+客服
+评测
+评测
+模型
+行业大模型
+评测
+治理
+模型
+生产
+模型
+模型
+服务
+模型
+特色
+模型
+模型
+模型
+大小模型
+衍生
+语言
+视觉
+语音
+07
+结构化数据
+多模态
+算力
+数据
+网络
+大模型
+大模型
+大模型
+基础大模型
+大模型
+大模型
+基础
+基础
+基础
+===== PAGE 8 =====
+中国移动
++[妖]
+5G+
+China Mobile
+九天·众擎基座大模型
+以九天基础模型为基础，联合通信、
+能源、
+航空等行业的骨干企业，
+共建共享九天·众擎基座大模型
+交通
+航空
+通信
+能源
+医疗
+政务
+建筑
+冶金
+运输
+测评系统
+众擎基座大模型
+智算引擎
+九天基础模型
+人工智能训推技术服务平台
+基础设施
+算力网络
+大规模智算中心
+数据汇聚平台
+===== PAGE 9 =====
+中国移动
+[妖]
+5G*
+China Mobile
+CCTV2
+CCTVcom
+央视网
+财经
+正点财经
+靳强
+9:00
+MSCI中国A股
+===== PAGE 10 =====
+中国移动
+[妖]
+China Mobile
+生产型应用样例
+3700+
+1000+
+7+万亿
+支撑生产
+Al能力
+累计调用次数
+网络问题投诉级联优化
+网络投诉自服务机器人端到端业务流程
+用户网络
+数据提取
+投诉用户
+投诉语音
+语音识
+实体词
+投诉总
+排障策略智能决策
+数据
+故障处理
+识别
+投诉根因分折
+通常需要在满足计算、传输、安全、可控性等多项约束前提下，
+组合使用多个模型或能力，包括基础模型、行业模型
+或面向特定任务的小模型，并能够端到端优化服务于业务目标
+===== PAGE 11 =====
+中国移动
+5G*
+China Mobile
+体系化人工智能
+体系化人工智能
+(Holistic Al, HAl)
+是中国移动研究院九天团队原创技术的攻关方向，依托泛在的网络和AI
+算力，在开放环境中实现对AI能力进行灵活且高效的配置、调度、训练和部署，以满足日益丰富的数智化业务
+需求，同时确保A/业务可信可控安全，其主要特征为AI服务大闭环、
+AI能力原子化重构、
+网络原生AI及安全
+可信AI。
+体系化AI
+根据智能化业务需求，按需对AI
+能力进行调度、配置和运行监控，
+使其能在最合理的算网资源上运
+行和服务
+泛在网络资源提供方
+泛AI算力
+云/网/边/端/.
+业务
+GPU/ASIC/
+AI能力
+NPU/CPU/.
+大闭环
+原子化
+可信
+可信
+大闭环
+网络原生
+泛AI算力提供方
+可信
+行业及个人客户
+AI核心能力及模型提供方
+===== PAGE 12 =====
+中国移动
+5G
+[妖]
+China Mobile
+体系化人工智能
+(Holistic Al)
+的主要特征
+1、“大闭环"
+(Big Loop Al)
+“大闭环”AI以业务端到端的大闭环优化为目标，重点攻关多能力级联与并联优化、开放动态环境中AI能力优化的基础理论和技
+术，从而达到AI产业闭环。
+2、AI技术原子化重构
+(Atomized Al)
+AI能力依据高复用、易调度、自闭环、易适配等原则进行原子化拆解和重构。一个典型的原子化AI能力包含通用智能层、适配层、
+接口层，通用智能层可多个能力共享。AI原子化重构是体系化人工智能得以实现的基础。
+3、网络原生
+(Network Native Al )
+网络原生AI将AI能力与算力通过标准化的方式接入网络、按需调度，重点攻关AI模型自动伸缩宿的理论和机制，制定AI计算资源、
+数据、模型、能力、服务的功能、流程、接口和计量的标准，实现AI能力在网云边端弹性部署、计算和迭代。
+4、安全可信
+(Trusted Al)
+AI数据、模型、能力、业务的安全可信是体系化人工智能服务的重要基础，重点攻关AI服务可追溯、可互信、可审计、抗攻击的
+基础理论与方法。
+===== PAGE 13 =====
+中国移动
+「[妖]
+体系化AI系统架构图
+China Mobile
+可追溯、
+可计量 HAl protocol
+安全可信
+动态测量评估
+服务计量
+注册
+模型类1
+原子能力区
+能力更新
+功能区n
+分层次多粒度的原子AI能力市场
+task instances
+评估劵回收
+模型类n
+pool
+模型类N
+开放动态环境优化
+场景类1
+解决方
+行业区n
+Vector DB
+案原子
+场景类n
+原子化
+Long-term
+能力区
+场景类N
+memory
+需求1
+大闭环
+模型算
+任务区n
+法蒸馏
+需求n
+网络原生
+能力空间
+思维链
+Hai大模型
+适配及优化
+定制区
+部署应闲
+需求N
+任务分解
+Standardization  Trusted Al
+assessment
+模型服务提供商
+===== PAGE 14 =====
+中国移动
+5G|[妖]
+China Mobile
+体系化AI总体技术方案
+max f(D, M,A, P,O,E,S, F,U,T)
+s.t.(
+c(D,M,P,O,E,S,F,U,T) ≤ C
+其中:
+f是一个复杂的函数，表示体系化人工智能的内部逻辑和流程。
+模型集 M={m1,m2.,mk}，每个模型m;都有一个类型k;E{0,1,2,…,S}，表示分类模型、预测模型和生成模型等不同模型。
+原子能力集 A={α1,α2，…,ai}，a;是第i个能力，表示语音识别，语音增强，图像分割，机器翻译等不同的能力。
+真实环境数据分布集 P={(p1,P2,,Pn}，每个分布p;都有一个类型qjE{0,1,2,…,q}，表示高斯分布、均匀分布和其他复杂分布。
+原子化评估集 E={e1,e2,…,ek}，每个评估e;都有一个指标V; E{0,1,2,,}，表示不同的评估指标。
+标准规范入库集 S=[S1,S2, Sk]，每个入库s;都有一个条件W; E {0,1,2,, w}，表示入库准则。
+真实场景数据漂移集F={f1,f2,,fn}，每个漂移 f;都有一个类型 xE {0,1,2,.,x},表示协变量漂移、先验漂移和概念漂移等。
+数据传输的演化更新集U={u1,u2,,uk}，每个更新u;都有一个方法 y; E{0,1,2,…,y}，表示校准模型、和主动学习或迁移学习等方式。
+用户需求服务集 T={t1,t2，,tz}，表示用户提出动态的需求和任务；是一个动态的集合。
+C为算力存储资源、网络资源，以及数据隐私等各种资源约束阈值；c表示每个流程中对应消耗和占据的资源函数
+===== PAGE 15 =====
+中国移动
+5G[天]
+China Mobile
+体系化AI总体技术方案
+考虑体系化人工智能的内部流程和逻辑，进一步可以将f分解为以下几个子函数：
+max f(g, h, i,j, k,t, o)
+s.t. c(g,h,i,j,k,t,o) ≤ C
+其中:
+端到端跨模态异构数据建模：g（D，M）;
+模型学习机理的优化建模：h(D,M,P,U）;
+模型的原子化表征和建模：i（M，E）；
+模型的标准规范入库：j（M，S）;
+数据漂移的优化建模：k(D，P,F);
+模型数据传输的演化更新：t(M，F,U);
+运行架构优化建模：o（A，T，C），如何在资源约束和安全可信的前提下的完成整体业务流程。
+===== PAGE 16 =====
+中国移动
+5G+
+[妖]
+核心科学问题
+China Mobile
+原子化
+端到端优化
+基于大模型的调度体系
+===== PAGE 17 =====
+中国移动
+5G*
+China Mobile
+体系化AI原子模型
+M, ={intro_i, funtion,input_output,,interface_i,adapter_i,performance_i, constrain_i]
+FMArchi-Para
+Adapter Archi-Para
+Adapter_
+Interface_1
+Interface_1
+Frozen Module
+Output
+Input
+Interface_n
+FineTune Module
+Adapter_m
+Interface_n
+FT Archi-Para
+AdapterArchi-Para_m
+Fig1.体系化原子模型示意图(HAIAtomic Model，HAl-AM)其中绿色部分为其中一条可能的路径
+模型介绍
+模型的类型（通用型，特定任务型），模型结构及参
+原则
+数量，应用领域，模态，构建时长及机构
+(1)
+重用度高
+功能描述
+主要完成的功能描述和列表
+(2)
+输入输出清晰，功能清晰
+输入输出
+输入输出样例可以是一对多，一对一，多对一等组合
+(3)
+不过于细小导致模型协同成本高于计算成本
+接口
+模型的前向和后向接口及信息
+适配器
+适合于独立攻关
+(4)
+适配器选择
+性能准确率
+(5）和基础模型能力互补
+性能，准确率，及测试方法
+约束
+应用环境的约束条件。
+===== PAGE 18 =====
+中国移动
+[妖
+China Mobile
+原子化方式
+基础模型的功能解耦
+MaskforNewTargetTask
+Pre-trained model
+Final pruned model
+Table Comparison between SMSP with baselines for ViT.
+Finetune
+Methods
+Accuracy(%) FLOPs(T) Training Iterations
+AMP
+81.50
+89.83±0.46
+1000
+Prune
+UVC
+26.73
+28]
+ask2
+81.32±0.87
+fask
+100
+PoWER
+20.86
+78.61±1.32
+100
+3.25
+SMSP(ours)
+90.24±0.35
+100
+Poolofpruned modelsforexistingtasks
+Retained nodes
+Pruned nodes
+Calculatesimilarityandgeneratethemaskforthenewtask
+Automatic Mask Pruning (AMP): automatically
+identify task-specific filters/nodes for different tasks in
+Retainedfiltersinlayer-lfornewtask
+TaskNmaskscoresinlayer-l
+the pre-trained model.
+1.29
+1.54
+1.64
+One-shotpruning
+apply the Log Expected Empirical Prediction (LEEP)
+Task3maskscoresinlayer-l
+0.86
+1116
+which is used to evaluate the transferability of
+Mask for new task
+Task2mask
+scoresinlayer-l
+representations learned by the source task to the
+4.02
+0.97
+1.87
+132
+0.97
+2.57
+Addscoresofsimilartasksfornewtask
+target task.
+Maskscoresof similartasks
+Scalable Mask Selection Pruning (SMSP) : fast-
+Task 1
+Task 2
+Task3
+Task N
+17.52
+18.93
+LEEPscore=.10.84
+15.05
+adapt the pre-trained model to downstream tasks.
+Newtask
+Find similar tasks
+One-Shot Pruning for Fast-adapting Pre-trained Models on Devices, Haiyan Zhao and Guodong Long, arXiv:2307.04365v1
+===== PAGE 19 =====
+中国移动
+[妖]
+China Mobile
+原子化方式
+"Factorizing Knowledge in Neural Networks",
+Decouple one Model into Atomized networks
+Xingyi Yang, Jingwen Ye, Xinchao Wang, ECCV
+2022.
+Knowledge TransferLoss
+Mult-Tale
+Predict Task 2
+Predict Task 1
+Predict Task1
+PredictTask2
+Task Head
+Ho
+Representation
+Factorization
+Single Student Netwoe
+Multi-Talen
+MaximizeMl
+Network
+(a) STL2STLKnowledge Distillation
+(b)MTL2MTLKnowledgeDistillation
+MinimizeMI
+(c) Sub-KnowledgeDistillation
+MaximizeMI
+Multi-Talented Teacher Network
+Model Hub
+Custom Deploy
+MaximizeMl
+MaximizeMI
+CommonKnowledge
+Task-Specific
+Multi-task Teacher Model
+Task-Specific
+Network
+Network -1
+Structural
+Network -2
+Factorization
+yledge Leakage
+Factor Network1Factor Network2
+(d) Knowledge
+Factorization
+Fig. 2: The overall framework of the proposed knowledge factorization. The factor
+Factor Networks
+networks are trained to mimic the prediction of the teacher. The CKN learns to
+Fig.l: Illustration of (top) 3 types of Knowledge Distillation and (bottom)
+our proposed Knowledge Factorization. (a) Single-Task Learning to Single-Task
+maximize the mutual information between input and its features, whereas the
+Learning (STL2STL) KD refers to distill a single-tasked student from a single-
+TSNs are dedicated to minimizing the task-wise mutual information.
+tasked teacher, (b) Multi-Task Learning to Multi-Task Learning (MTL2MTL)
+KD stands for distilling a multi-tasked student from a multi-tasked teacher and
+(c) Sub-Knowldege Distillation distill a subset of the teacher's knowledge to its
+student model.
+知识分解：包含结构分解和表征分解
+每个因子网络包含两部分：通用知识网络
+各（CKN）和特定任务网络
+(TSN)
+一种新的信息衡量指标-InfoMax Bottleneck（IMB)，使输入和通用特征间互信息最大（最大限度保留
+大模型的通用知识），使不同特定任务特征间互信息最小（使特定任务网络之间尽可能解耦）。
+===== PAGE 20 =====
+中国移动
+[妖]
+原子化方式
+China Mobile
+Task-specific
+Task-agnostic
+Ground Truth
+模型蒸馏
+LGD
+Knowledge
+Knowledge
+Decoder
+Pre-trainedteacher
+Segmentation
+Generic distilled student
+Fine-tuned teacher
+Detectic
+Classificaion
+Task layers
+Classificaion
+Decoder
+[M[M]MM
+[M [M]
+Student
+00000000
+MM
+MM
+Encoder
+Encoder
+Encoder
+Encoder
+Generic distillation
+Specificdistillation
+Figure 2. Diagram of the proposed generic-to-specific distillation (G2sD). [M] denotes mask token. In the generic distillation stage (left),
+masked images are converted to patches and fed to both the teacher and student encoders for feature extraction. Feature predictions of the
+student decoder are aligned with those of the teacher at both visible and predicted patches. In the specific distillation stage (right), student
+models are trained to have consistent predictions with teacher models fine-tuned on the specific task.
+"Generic-to-Specific Distillation of Masked Autoencoders". Wei Huang, Zhiliang Peng, Li Dong, Furu Wei, &
+Jianbin Jia0, Qixiang Ye. (2023). 15996-16005. 10.1109/CVPR52729.2023.01535
+===== PAGE 21 =====
+中国移动
+[妖]
+China Mobile
+原子化方式
+基础模型的功能蒸馏
+Predicted
+Predicted
+h3
+h1
+h2
+h4
+h1
+h2
+h3
+<EOS>
+Embedding
+h4
+Embedding
+<EOS>
+Frozen
+GenDistiller
+GenDistiller
+Input
+Generated
+h2
+h3
+h1
+h4
+h3
+h2
+Input
+Embedding
+h4
+Embedding
+Feature
+layer1
+layer2
+layer4
+layer3
+Feature
+Extractor
+Extractor
+Weighted Sum
+Teacher Model
+Downstream Tasks
+(a) Distillation
+(b) Downstream
+GenDistiller: Distilling Pre-trained Language Models based on Generative Models, Y.Gao, Shilei Zhang,Zihao
+Cui, Chao Deng, Junlan Feng* Archive-2023
+===== PAGE 22 =====
+中国移动
+China Mobile
+原子化方式
+基础模型的功能蒸馏
+h1.,h1zh1sh2.h22h23h3.,h32h3s
+fuh1.h2,h3uf2h12h2zh32 fsh1sh23
+ff.zfr3h1.h1,zh1t3h2mh2zh2uh3,h3zh3t3
+Two-dimensional Attention Mechanism:
+h1..
+f E RTxBxD
+M ERHxTxBxD
+h21
+h1..
+h3t1
+h1.
+T is the frame numbers related with the utterance length,
+h1z
+h12
+f2
+B refers to the batch size, D denotes the feature
+h12
+h1.
+h13
+dimension, H refers the numbers of hidden layers to be
+h2
+h2,
+h2.2
+predicted plus the original feature. [HX T, B, D]
+h22
+h2
+h3t
+h2
+h2
+h1t3
+h3
+Distillation Loss
+h2
+h32
+h3
+invisible
+h3,
+visible
+h3.3
+c() = C + Xc0
+(a) [TXH, B, D]
+(b) [HXT, B, D]
+(c) [HXT, B, D]
+Figure 2: Different attention mechanisms via different flatten manners. a) flatten to T × H length for attention; b) flatten to H × T
+()
+length for attention; c) the approximation of b).
+GenDisiller: Distilling Pre-trained Language Models based on Generative Models, Y.Gao, Shilei Zhang,Zihao Cui
+Chao Deng, Junlan Feng*. Archive-2023
+===== PAGE 23 =====
+九天?AI能力平台
+△不安全|172.31.197.130:32087/front-service//holistic-ai
+中国移动
+九天人工智能平台
+China Mobile
+体系化AIOS
+体系化AIOS
+泛在网络资源提供方
+泛AI算力
+体系化人工智能(HolisticAl)主要研究对人工智能技术进行体系化重构所需的理论、技
+云/网/边/端/、
+业务
+术、机制、范式和框架，其主要特征为AI服务大闭环、AI能力原子化重构、网络原生
+GPU/ASICI
+NPU/CPU..
+AI及安全可信AI。体系化人工智能依托泛在的网络和AI算力，在开放环境中实现对AI
+A能力
+能力进行灵活且高效的配置、调度、训练和部署，以满足日益丰富的数智化业务需
+大闭环
+大闭环
+原子化
+适AI力谨供万
+求，同时确保AI业务可信可控安全
+行量及个人客户
+网络原生
+A核心能力及提量提供方
+体系化AI原子能力
+图像
+语音
+NLP
+网络智能化
+面向智能助手、业务质检、客户服务等领
+面向人机交互、文本
+面向图像、视频的多
+面向智能助手、业务
+域，构建全面先进的智自语音算法体系
+种类、多样化应用...
+内容分析场景，构...
+质检、客户服务等...
+人物画像一性别
+声纹识别
+语音端点检测（VAD）-能量
+非语音检测-嘟嘟音
+语音特征提取
+语音识别通用层-hybridmodel
+非语音检测-彩铃音
+语音识别适配层-语言模型
+语音识别通用层-v1
+输入归一化-语音
+人物画像一年龄
+语音识别通用层接口
+格式转换-FFmpeg
+语音纠错
+语音识别通用层-V2
+起点
+Rich Transcription
+终点
+音频压缩算法
+语音端点检测（VAD）-模型
+语音情感识别
+语音识别适配层-热词列表
+格式转换-SOX
+语音识别通用层-v3
+角色分割
+语音识别适配（one-best/W-best/lattice）FSM）
+7°℃
+Q搜索
+21:30
+多云
+2023/03/1621:30:52
+===== PAGE 24 =====
+中国移动
+5G+
+[妖]
+核心科学问题
+China Mobile
+原子化
+端到端优化
+基于大模型的调度体系
+===== PAGE 25 =====
+中国移动
+[天
+组合学习的训练方法与挑战
+China Mobile
+搜索空间巨大：
+层级搜索、免训练（training free)
+端到端闭环数据稀疏：
+无监督
+参数量和内存消耗大：
+适配器、蒸馏、剪枝
+接口复杂：
+维度一致、梯度连续
+===== PAGE 26 =====
+中国移动
+5G+
+组合学习的训练方法与挑战-1
+China Mobile
+端到端闭环数据稀疏
+gradient ofmulti-task network
+gradient of label generation network
+Tablel:The interfaces between the two networks and theirat-
+tribute's.
+Interface
+Fixed
+Transcript
+Gradient
+length
+flow
+Slot type
+Intent
+Slot value
+List
+embeddings
+scores
+scores
+Loss_asr
+Loss_slu
+Sequence
+NER tag
+Multi-task network
+NLULabelgenerationnetwork
+Softmax
+Slot valuc
+Sum of softmax
+Slot type
+Intent type
+ASRdecoder
+SLUdecoder
+decoder
+classifier
+classifier
+Append intent and slot types
+(Transformer)
+(Transformer)
+(LSTM)
+Acoustic
+Utterance
+encoder
+encoder
+Table 2: The performance comparison between the proposal
+(Conformer)
+(BLSTM)
+and baselines.
+Manual transeript
+CER
+Fl-score
+Training
+28.76
+Baseline
+52.00
+Evaluation
+Intent type
+Intent
+27.75
+End-to-end
+53.12
+classifier
+type
+Fine-tuned
+21.45
+56.33
+Acoustic
+1-best
+Urterance
+Slot type
+ASRdecoder
+Slot
+21.21
+Proposal(MAXL)
+encoder
+encoder
+58.27
+classifier
+(Transformer)
+hypothesis
+(BLSTM)
+type
+(Conformer)
+21.15
+Proposal(First-order)
+59.64
+Slotvalue
+Slot
+Multi-task
+21.30
+decoder
+value
+59.25
+(LSTM)
+Figurel:Theproposed MAXLbased SLU model.
+"Meta Auxiliary Learning for Low-resource Spoken Language Understanding", Yingying Gao, Junlan Feng*, Chao
+Deng,Shilei Zhang. Interspeech 2022
+===== PAGE 27 =====
+中国移动
+5G+
+「[妖]
+组合学习的训练方法与挑战-2
+China Mobile
+参数量大
+Task2
+Task1
+Fine-tune
+Task3
+Module
+Input
+NFA
+NFA
+NFA
+NFA
+NFA
+NFA
+Output
+Module
+Module
+Module
+Module
+Module
+Architecture
+Input 
+Module
+Parameterl
+Frozen
+Module
+Figure 2: The illustration of an adaptive training framework
+Architecture
+Output
+based on NFA for cascaded multi-task training.
+Parameter2
+Adapterl
+Architecture
+Table 2: The performance of full fine-tuning and the proposed
+Parameter3
+NFA
+Adapter2
+Adapt
+Train
+Selected
+NLU
+Param.
+Method
+Param.
+Architecture
+CER
+Parameter4
+Full Fine-tuning
+189.25M
+189.25M
+12.42%
+14.15M
+14.15M
+BA+fine-tuning NLU
+14.13%
+14.17M
+14.17M
+GA+fine-tuning NLU
+(b) Nas based Fine-tuning and Adapter (NFA) Module
+18.56%
+NFA
+65.11M
+81.39M
+14.57%
+Figure l: The architecture of NA and NFA module. Only the
+81.39M
+16.48M
++parameter control
+12.81%
+green and orange boxes are updated during training, in which
++two stage
+81.39M
+16.48M
+12.32%
+the green parts denotes trainable network parameters and the
+orange parts are architecture parameters.
+"Cascaded Multi-task Adaptive Learning Based on Neural Architecture Search", Yingying Gao, Shilei Zhang,Zihao Cui,
+Chao Deng, Junlan Feng*. Interspeech 2023
+===== PAGE 28 =====
+中国移动
+5G+
+「[妖
+白盒模型的联合及优化－1
+China Mobile
+Fuse Multiple Models into one target model
+Tronsformer
+Loyer
+Source
+MLP
+Transforner
+Toyer
+Norn
+Stitch
+Stitch
+Source2
+EquivalenceSef
+Layer
+Layer
+MHSA
+Loyer3
+Norn
+Loyer2
+Source3
++Supervised +Self-supervised
+layer
+Equivalence Set Il
+Model Zoo
+Network Partition
+Network Reassembly
+Figure l: Overall workflow of DeRy. It partitions pre-trained models into equivalent sets of neural blocks and
+then reassemble them for downstream transfer. Both steps are optimized through solving constrained programs.
+多个神经元网络层形成一个功能块
+功能相似网络：输入相似时，输出相似
+将一个网络分成多个功能块，相似的功能块形成一个集合，这个集合称为：等同网络块集合
+"Deep Model Reassembly", Xingyi Yang , etc. NeurlPS 2022
+===== PAGE 29 =====
+中国移动
+[妖
+白盒模型的联合优化-2
+China Mobile
+Stitch Multiple Big Models into one target model
+DeiT-Ti
+Patch
+Block
+Head
+Embed
+Sstitching
+Stthing
+Sitching
+Sstitching
+Sitching
+Layer
+Layer
+Layer
+Layer
+Layer
+SmallNet
+Model Family
+Subnets
+Large Net
+Supermet
+Sttched Nets
+(a) Network Compression
+(b) One-shotNeural Architecture Search
+DeiT-S
+(c) Stitchable Neural Networks
+Patch
+(One-to-One)
+(One-to-Many)
+Block
+Head
+(Many-to-Many)
+Embed
+Figure l.Compared with previous scalabledeep learningframeworks.(a)Network compression shrinks a large network into a smalloneby
+techniques such as pruning,quantization and knowledge distillation, etc., which is a one-to-one mapping. (b) One-shot neural architecture
+Stiching
+Ssitching
+Stitching
+stitching
+Stitching
+search first trains a supernet that supports diverse architectural settings and then specializes a subnet given the targetresource constraint
+Layer
+Layer
+Layer
+Jeker
+during deployment, which is a case of one-to-many. (c)Our proposed Stitchable Neural Network directly stitches the off-the-rack family
+of pretrained models and quickly obtains new networks for efficient model design and deployment in a novel many-to-many paradigm.
+DeiT-B
+Patch
+Block
+Head
+Embed
+Figure 3. Ilustration of the proposed Stitchable Neural Network, where three pretrained variants of DeiTs are connected with simple
+"Stichable Neural Networks", Zizheng Pan Jianfei
+stitching layers (1 x 1 convolutions). We share the same stitching layer among neighboring blocks (e.g., 2 blocks with a stride of 2 in this
+Cai Bohan Zhuang, Archive-2023
+example)between two models.Apartfrom the basic anchormodels,we obtainmany sub-networks (stitches)by stitching thenearest pairs
+of anchors in complexity, e.g., DeiT-Ti and DeiT-S (the blue line), DeiT-S and DeiT-B (the green line). Best viewed in color.
+===== PAGE 30 =====
+中国移动
+「[妖
+黑盒模型的联合优化：HolisticNeuralNetwork
+(Holi-NN
+China Mobile
+网络问题投诉级联优化
+网络投诉自服务机器人端到端业务流程
+用户网络
+数据提取
+投诉用户
+投诉语音
+语音识
+实体词
+投诉总
+排障策略智能决策
+数据
+投诉根因分折
+故障处理
+识别
+语音识别+自然语言理解级联优化【12】
+ASR
+Transcription
+Interfaces
+OutputSequence
+intent Output
+SiotLabelOutput
+Sequence
+Sn
+AC
+Max
+Max
+Top-K:
+Softmax
+Max
+Softmax
+Token Embeddings
+Linear
+Linear
+Softmax
+个个
+TimeAverage
+Linear
+softmax values
+Transformer
+Speech
+Transformer
+Matrix multiply:
+Encoder
+Speech
+Transformer
+Decoder
+BERT
+softmax output * matrix
+Encoder
+Convolutional
+BERT
+SpeechEmbedder
+Gumbel softmax:
+Embedder
+Differentiable
+个个个
+Text
+smooth distribution
+NLU
+TranscriberOutputs
+Embedder
+Sm
+(Shifted Right)
+SpeechSpectrogramFrames
+===== PAGE 31 =====
+中国移动
+「[妖
+黑盒模型联合优化：
+Holi-NN with Small Modeis
+China Mobile
+Fuse Multiple Models into one target model
+Fine-tune
+Module
+Input
+Architecture
+Parameterl
+Frozen
+Module
+Architecture
+Output
+Task2
+Task3
+Parameter2
+Task1
+Output
+Input
+Adapterl
+NFA
+NFA
+NFA
+NFA
+NFA
+NFA
+Module
+Module
+Module
+Module
+Module
+Module
+Architecture
+Parameter3
+Adapter2
+Figure 2: The illustration of an adaptive training framework
+based on NFA for cascaded multi-task training.
+Architecture
+Parameter4
+(b) Nas based Fine-tuning and Adapter (NFA) Module
+Figure l: The architecture of NA and NFA module. Only the
+green and orange boxes are updated during training, in which
+the green parts denotes trainable network parameters and the
+orange parts are architecture parameters.
+"Cascaded Multi-task Adaptive Learning Based on Neural Architecture Search", Y.Gao, Shilei
+Zhang,Zihao Cui, Chao Deng, Junlan Feng*. Interspeech 2023
+===== PAGE 32 =====
+中国移动
+黑盒模型联合优化：
+Holi-NN with语音增强+语音识别+自然语言理解
+Cancade three models - speech enhancement , ASR, NLU - with Bottleneck Adapter
+0-Frozen,1-Adding anadapter
+1-Frozen,2-Adding an adapter,3
+Table 2: The performance of full fine-tuning and the proposed
+Fine-tuning
+NFA
+Adapt
+Train
+Selected
+NLU
+Method
+Param.
+Param.
+CER
+Full Fine-tuning
+189.25M
+189.25M
+12.42%
+NA+fine-tuningNLUNFA
+14.15M
+BA+fine-tuning NLU
+14.15M
+14.13%
+14.17M
+14.17M
+GA+fine-tuning NLU
+(a) NA
+(b) NA+fine-tuningNLU and NFA
+18.56%
+NFA
+81.39M
+65.11M
+14.57%
+1-Frozen,2-Addinganadapter,3-
+0-Frozen,1-BA,2-GA,3-Fine-
+Fine-tuning
+tuning
+16.48M
+81.39M
++parameter control
+12.81%
+NFAw/ocontrol
+NFA w/control
+81.39M
+16.48M
++two stage
+12.32%
+nianbepffafeeencl
+nlu_deco
+enhance_enc2
+asr_dec1
+enhance_enc3
+Y. Qian, X. Gong, and H. Huang, "Layer-wise fast adaptation for
+asr_deco
+enhance_enc4
+end-to-end multi-accent speech recognition," IEEE/ACM Trans-
+asr_enc_dnn1
+enhance_encs
+actions on Audio, Speech, and Language Processing, vol. 30, Pp.
+enhance_enc6
+asr_enc_dnn0
+2842-2853, 2022.
+asr_enc_cnn1
+enhance_enc7
+BA
+GA..
+BA+GA
+R. Fan, Y. Zhu, J. Wang, and A. Alwan, “Towards better domain
+(c) NFA with and without parame- I (d) NFA with different adapters
+adaptation for self-supervised models: A case study of child asr,
+ter control
+IEEE Journal of Selected Topics in Signal Processing, vol. 16,
+no. 6, pp. 1242-1252, 2022.
+Figure 3: The searched architecture of the cascaded SE-ASR-
+"Cascaded Multi-task Adaptive Learning Based on Neural
+NLU framework based on (a) NA, (b) NA+fine-tuningNLU and
+Architecture Search", Y.Gao, Shilei Zhang,Zihao Cui, Chao Deng,
+the proposed NFA, (c) NFA with and without parameter control
+Junlan Feng*. Interspeech 2023
+and (d) NFA with different adapters.
+===== PAGE 33 =====
+中国移动
+[妖
+」多模态上下文学习
+黑盒模型联合优化：
+Holi-NN
+China Mobile
+desk
+on
+Cat
+Language Space
+Vision Space
+Under-
+stand
+cat
+vision patch tokens
+Vision
+Vision
+Encoder
+Decoder
+Generate
+Masked SeIf/Cross-
+Attention
+Language
+Language
+a cat on
+:VQA
+Q:Describe the
+Encoder
+a desk
+Decoder
+photo.
+Ianguage word tokens
+Cross-modal Adapter
+===== PAGE 34 =====
+中国移动
+5G+
+[妖]
+核心科学问题
+China Mobile
+原子化
+端到端优化
+基于大模型的调度体系
+===== PAGE 35 =====
+中国移动
+安全可信之开放动态环境动态评估
+China Mobile
+可靠可信
+安全可控
+体系化人工智能：将人工智能技术从单点应用向系统集
+通信网络安全
+成转变，形成具有自主学习、自主决策、自主协同等特
+征的人工智能系统。
+业务层
+能力层
+算力层
+体系化人工智能服务的重要基础：AI数据、模型、能力、
+业务的安全可信
+全生命周期动态可追溯
+数据安全
+模型安全
+AI算力调度标准体系
+安全可信：在开放动态环境下，保证人工智能系统的可
+业务部署全流程链路安全
+体系化服务能力可信
+控可靠、透明可释、隐私保护、明确责任和多元包容
+开放环境下的动态测量评估
+Model Shifting
+Data drift detecting
+Model Matching
+True model
+True model
+Learned model
+Learned model
+Learned model
+Drifting data
+Drifting data
+非规范化概率模型，灵活性
+Drifting data
+Observed data
+Initiallyobserved data
+Calibrated data
+能量模型
+对数据和模型统一表示和度量
+f(x)
+探索数据和模型的复杂关系模式
+有效捕捉动态变化并敏感相应
+===== PAGE 36 =====
+欢迎使用算网智脑HAI-OSS
+基于体系化AI(HAI)的智能化服务运营
+获取业务建议
+进行业务咨询
+获取部署方案
+例：“海量数据需要长期存储，要求成本低，安全可靠
+例：“已经开通了安全帽检测服务，明天有新工程项目启
+例：“需要部署病毒防护标准版的安全服务，客户接入方
+不需要实时访问，有什么解决方案吗？
+动，怎么提升服务容量？
+式为移动云，如何部署能做到时延优先？
+算网智脑提供算网业务的简单入口，根据用户输入的业务请求，智能引并发掘用户底层需
+求，并根据已经感知的算网资源和业务指标信息，实时计算和分析，提供业务部署和调整建议
+请提出您的需求
+回到首页
+===== PAGE 37 =====
+中国移动
+5G+
+网络的智能化仿真技术
+China Mobile
+针对主流通信网络仿真系统难以精准模拟现网的难题，提出首个融合常规网络仿真、AI仿真和物理空间李生的仿真框架，攻
+关多项AI仿真技术，使能仿真系统更贴近现网，基于该框架成功申请并构建“智慧网络国家新一代人工智能开放创新平台”。
+现网数据驱动的端到端仿真
+网智能力
+用户轨迹
+网智应用
+现网-全城等蛋盖指标
+业务行为
+97.22%
+91,412
+立体闭环交互体系
+终端仿真
+信道仿真
+网智算
+端到端智
+标准
+基站仿真
+法模型
+能仿真
+核心网仿真
+传输网仿真
+业务服务器
+异构多模
+现网
+AI化程度
+态数据
+网络
+支持10余种场景仿真，孵化应用31省落地，为亚运通信网络服务保驾护航
+===== PAGE 38 =====
+智慧网络仿真平台
+A不安全|172.30.185.201:8085/simfront/#/area
+无痕模式
+错误
+智慧网络仿真平台
+晴天20℃
+miaojiacui
+于都县长证纪念园/毛主席
+赣州市于都县长征纪念园/毛主席旧居附近约2平方公里的居民
+区，有**个建筑物，平均高度*米，密集程度*
+于都县长征纪念园毛主席伯居
+常住人口
+5G小区
+任务
+70个
+10万
+27个
+范围（赣州市于都县长征纪念园/毛主席旧居附近）
+约2平方公里的居民区
+杭州市上城区CBD
+进入场景
+于都市海量天城
+13:01
+平台演示
+智慧网络仿真平台.
+智慧网络仿真平台-...
+录屏
+2023-02-22

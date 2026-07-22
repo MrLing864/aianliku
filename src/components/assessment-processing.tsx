@@ -9,7 +9,6 @@ import {
   CheckCircle2,
   Clock3,
   LoaderCircle,
-  MailCheck,
   RotateCcw,
   ShieldCheck,
 } from "lucide-react";
@@ -22,7 +21,6 @@ type JobState = {
   progress: number;
   stage: string;
   message: string;
-  notificationStatus?: "pending" | "sent" | "failed" | "not_configured";
 };
 
 const initialState: JobState = {
@@ -30,7 +28,6 @@ const initialState: JobState = {
   progress: 8,
   stage: "queued",
   message: "任务正在安全入队。",
-  notificationStatus: "pending",
 };
 
 export function AssessmentProcessing({
@@ -122,7 +119,7 @@ export function AssessmentProcessing({
         <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-muted-foreground">
           {failed
             ? "生成过程未达到结构与质量要求，因此没有保存错误报告。你可以返回重新提交。"
-            : "DeepSeek V4-Pro 正在以最高强度推理。完整报告生成后，我们会发送邮件通知；本页保持打开时也会自动进入报告。"}
+            : "DeepSeek V4-Pro 正在以最高强度推理。完整报告生成后，本页会自动进入私密报告。"}
         </p>
       </div>
 
@@ -137,7 +134,7 @@ export function AssessmentProcessing({
             {networkError ? "网络暂时波动，正在自动重连，不会影响后台生成。" : job.message}
           </p>
 
-          <div className="mt-8 grid gap-3 sm:grid-cols-3">
+          <div className="mt-8 grid gap-3 sm:grid-cols-2">
             <StatusItem
               icon={Clock3}
               title="安全入队"
@@ -151,13 +148,6 @@ export function AssessmentProcessing({
               description="方案优先级与 ROI 假设校验"
               active={job.status === "processing"}
               done={ready}
-            />
-            <StatusItem
-              icon={MailCheck}
-              title="通知与交付"
-              description="邮件发送私密报告入口"
-              active={ready && job.notificationStatus === "pending"}
-              done={job.notificationStatus === "sent" || job.notificationStatus === "not_configured"}
             />
           </div>
 

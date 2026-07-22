@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0159",
+  "version": 1,
+  "slug": "case-2025-0159",
+  "title": "基于审计行业大模型的一体化“AI+审计”系统应用",
+  "organization": {
+    "id": "org-0159",
+    "name": "中国移动通信集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动自主研发审计行业大模型“明铭”与工程审计专业大模型“建审千询”，依托“九天”人工智能平台，构建覆盖知识通问、代码通译、案例通汇、问题通查、文稿通拟、建审千询六大核心能力的审计专业智能体，实现审计工作自动、全量、深入的风险管控；“建审千询”为国内首个工程审计垂直大模型。",
+  "background": "2025 年 10 月 12 日，在 2025 中国移动全球合作伙伴大会期间，中国移动正式发布“明铭”与“建审千询”两大审计模型。",
+  "problem": "审计工作数据复杂、口径多，依赖人工抽样，难以全量、深入识别风险。",
+  "solution": "以审计行业大模型+工程审计垂直大模型构建审计专业智能体，集 AI 工具、监测模型、数字员工于一体。",
+  "implementationSteps": [
+    "依托九天平台研发明铭审计行业大模型",
+    "打造建审千询工程审计垂直大模型",
+    "构建六大核心能力审计专业智能体落地应用"
+  ],
+  "duration": "2025-10 发布",
+  "cost": "",
+  "results": [
+    {
+      "label": "核心能力",
+      "value": "六大",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-cmcc-1"
+    }
+  ],
+  "roi": "",
+  "risks": "审计数据合规、模型对复杂业务口径的理解。",
+  "editorComment": {
+    "suitableFor": "大型企业内部审计与工程审计",
+    "prerequisites": "具备审计数据底座与合规框架",
+    "priority": "建议优先",
+    "text": "审计垂直大模型+智能体的内控范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国移动通信集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmcc-1",
+      "title": "中国移动发布AI+审计行业大模型",
+      "sourceType": "news",
+      "publisher": "中国移动",
+      "originalUrl": "https://www.10086.cn/aboutus/news/groupnews/index_detail_53696.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证明铭与建审千询发布及六大能力。",
+      "publishedAt": "2025-10-12"
+    },
+    {
+      "publicId": "src-cmcc-2",
+      "title": "数智技术赋能审计高质量发展 辽宁移动AI+审计成果亮相",
+      "sourceType": "news",
+      "publisher": "人民邮电报",
+      "originalUrl": "https://www.cnii.com.cn/gxxww/rmydb/202604/t20260402_728486.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证九天平台与审计智能体能力。",
+      "publishedAt": "2026-04-02"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工抽样",
+    "难全量识别风险"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂类大模型",
+    "智能体"
+  ],
+  "modelStack": [
+    "明铭审计行业大模型",
+    "建审千询工程审计大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "审计大模型",
+    "明铭",
+    "建审千询",
+    "九天"
+  ],
+  "seo": {
+    "metaTitle": "基于审计行业大模型的一体化“AI+审计”系统应用",
+    "metaDescription": "基于审计行业大模型的一体化“AI+审计”系统应用",
+    "keywords": [
+      "中国移动通信集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

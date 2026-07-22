@@ -1,0 +1,143 @@
+{
+  "id": "case-2025-0107",
+  "version": 1,
+  "slug": "case-2025-0107",
+  "title": "人工智能赋能半导体模拟芯片 IP 工艺迁移",
+  "organization": {
+    "id": "org-0107",
+    "name": "芯昇科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "芯昇科技有限公司基于 AI 技术与经验知识库，实现模拟芯片自动工艺迁移，在实际项目中验证成功，突破传统手工设计瓶颈，降低中小设计企业的研发门槛。",
+  "background": "模拟芯片 IP 工艺迁移传统依赖资深工程师手工完成，周期长、门槛高。",
+  "problem": "传统手工工艺迁移效率低、对专家依赖强，制约中小芯片设计企业研发效率。",
+  "solution": "构建 AI 驱动的自动工艺迁移能力与经验知识库，实现模拟芯片 IP 的自动化迁移与验证。",
+  "implementationSteps": [
+    "沉淀模拟芯片工艺迁移经验知识库",
+    "构建 AI 自动工艺迁移模型",
+    "在实际项目验证并迭代"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "模型泛化到不同工艺节点的可靠性、知识库覆盖面。",
+  "editorComment": {
+    "suitableFor": "中小芯片设计企业工艺迁移",
+    "prerequisites": "具备模拟 IP 与工艺数据积累",
+    "priority": "建议优先",
+    "text": "降低芯片设计门槛，适合半导体国产化场景。"
+  },
+  "implementers": [
+    {
+      "name": "芯昇科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xinsheng-1",
+      "title": "工信部发布2025年人工智能应用典型案例名单 河北8项入选",
+      "sourceType": "news",
+      "publisher": "河北省人民政府",
+      "originalUrl": "https://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202607/18/0e0ac306-a94c-41c7-87da-35e14eef96d6.html",
+      "accessibility": "available",
+      "rightsNote": "官方报道，佐证芯昇科技模拟芯片自动工艺迁移。",
+      "publishedAt": "2026-07-18"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "手工设计瓶颈",
+    "研发门槛高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "知识库",
+    "AI自动迁移"
+  ],
+  "modelStack": [
+    "模拟芯片自动工艺迁移模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "半导体",
+    "模拟芯片",
+    "工艺迁移",
+    "IP"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能半导体模拟芯片 IP 工艺迁移",
+    "metaDescription": "人工智能赋能半导体模拟芯片 IP 工艺迁移",
+    "keywords": [
+      "芯昇科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

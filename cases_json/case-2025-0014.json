@@ -1,0 +1,178 @@
+{
+  "id": "case-2025-0014",
+  "version": 1,
+  "slug": "case-2025-0014",
+  "title": "风电行业生产运营高质量数据集建设与应用",
+  "organization": {
+    "id": "org-0014",
+    "name": "龙源电力集团股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "龙源电力建设风电行业生产运营高质量数据集，建成全球规模最大新能源生产数字化平台，覆盖1080座场站、接入容量超64.9GW，牵头研发国家能源集团'擎源'发电行业大模型新能源板块。",
+  "background": "风电行业涉及投建营一体化，数据分散于规划设计、工程建设、生产运营、设备维护等多业务域，缺乏统一高质量数据集。",
+  "problem": "风电行业数据孤岛严重，非结构化数据治理难；缺乏覆盖全业务域的高质量数据集支撑智能化运维与行业大模型。",
+  "solution": "建设覆盖风电投建营一体化的高质量数据集，形成风电一体化数据治理体系，重点覆盖规划设计、工程建设、生产运营、设备维护、技术监督、安全监督和市场营销七大核心业务领域及气象类资源通用数据；搭建跨模态数据服务平台，满足跨机构、跨层级、跨区域的数据应用需求；牵头研发国家能源集团'擎源'发电行业大模型新能源板块，开发上线'10大核心应用场景'。",
+  "implementationSteps": [
+    "建设风电投建营一体化高质量数据集与数据治理体系",
+    "覆盖七大核心业务领域及气象资源通用数据",
+    "搭建跨模态数据服务平台",
+    "牵头研发'擎源'发电行业大模型新能源板块（10大核心场景）"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "接入新能源场站",
+      "value": "1080",
+      "unit": "座",
+      "kind": "actual",
+      "sourceId": "src-lyd-1"
+    },
+    {
+      "label": "接入容量",
+      "value": "64.9",
+      "unit": "GW",
+      "kind": "actual",
+      "sourceId": "src-lyd-1"
+    },
+    {
+      "label": "数据规模",
+      "value": "6000+",
+      "unit": "万点",
+      "kind": "actual",
+      "sourceId": "src-lyd-1"
+    },
+    {
+      "label": "风电设备智能诊断数据集总量",
+      "value": "1000+",
+      "unit": "TB",
+      "kind": "actual",
+      "sourceId": "src-lyd-2"
+    }
+  ],
+  "roi": "",
+  "risks": "新能源数据跨场站、跨区域标准不一；数据集持续更新与治理需长期投入。",
+  "editorComment": {
+    "suitableFor": "新能源发电企业、能源集团建设行业高质量数据集与行业大模型",
+    "prerequisites": "具备较完整的风电生产运营与设备数据基础",
+    "priority": "条件具备后开展",
+    "text": "风电行业高质量数据集+行业大模型的标杆，适合能源企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "龙源电力集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-lyd-1",
+      "title": "新能源数字化生产运营（龙源电力数字化平台）",
+      "sourceType": "official",
+      "publisher": "龙源电力",
+      "originalUrl": "http://www.clypg.com.cn/lydlww/newzyyw0601/202604/10862632033043da984659d1c57f8a13.shtml",
+      "publishedAt": "2026-04-29",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-lyd-2",
+      "title": "龙源电力入选国务院国资委首批央企高质量数据集优秀建设成果",
+      "sourceType": "news",
+      "publisher": "中国能源新闻网",
+      "originalUrl": "https://www.ceic.com/gjnyjtww/chnjcxw/202505/1440868ecce849d8b1a0416095426e82.shtml",
+      "publishedAt": "2025-05-12",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据孤岛",
+    "非结构化数据",
+    "运维智能化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "全球最大新能源生产数字化平台，1080座场站、64.9GW",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "新能源数字化",
+    "行业大模型"
+  ],
+  "modelStack": [
+    "擎源发电行业大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "新能源"
+  ],
+  "seo": {
+    "metaTitle": "龙源电力 风电行业生产运营高质量数据集建设与应用",
+    "metaDescription": "龙源电力建设风电高质量数据集，建成全球最大新能源数字化平台（1080座场站、64.9GW），牵头擎源大模型。",
+    "keywords": [
+      "龙源电力",
+      "风电",
+      "高质量数据集",
+      "擎源大模型"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家能源投资集团有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

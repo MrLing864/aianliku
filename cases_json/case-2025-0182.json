@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0182",
+  "version": 1,
+  "slug": "case-2025-0182",
+  "title": "面向工程建筑行业的智慧供应链管理平台应用",
+  "organization": {
+    "id": "org-0182",
+    "name": "葛洲坝集团供应链管理有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "物流供应链",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "葛洲坝集团供应链管理有限公司打造“面向工程建筑行业的智慧供应链管理平台”，以全栈自主可控技术体系为基础，围绕“数字化+工程”场景，构建智慧供应链 iSCM 与工程资源管理服务平台，整合寻源比价、集采保供、物流配送、成本优化等一体化服务，入选工信部 2025 年人工智能应用典型案例。",
+  "background": "葛洲坝供应链公司建设智慧供应链 iSCM，以工程资源管理服务平台为核心集成物料超市、主材统供、大宗定制等业务协同；国务院国资委报道其以数字化转型聚焦价值创造。",
+  "problem": "工程建筑供应链体量大、协同难，传统采购与物流管理效率低、成本高。",
+  "solution": "智慧供应链管理平台，以 AI 与数字化实现寻源比价、集采保供、物流配送一体化。",
+  "implementationSteps": [
+    "构建智慧供应链 iSCM 平台",
+    "集成工程资源管理服务与物料超市",
+    "在工程建筑供应链场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "供应链数据安全、跨单位协同。",
+  "editorComment": {
+    "suitableFor": "工程建筑行业智慧供应链管理",
+    "prerequisites": "具备工程资源与采购数据",
+    "priority": "建议优先",
+    "text": "央企工程供应链数智化的平台范式。"
+  },
+  "implementers": [
+    {
+      "name": "葛洲坝集团供应链管理有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gez2-1",
+      "title": "AI先锋｜公司人工智能创新应用入选工信部典型案例",
+      "sourceType": "news",
+      "publisher": "葛洲坝供应链",
+      "originalUrl": "http://www.gzbgyl.ceec.net.cn/index.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证智慧供应链平台入选工信部案例。",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "publicId": "src-gez2-2",
+      "title": "中国能建葛洲坝供应链公司：聚焦价值创造，以数字化转型赋能",
+      "sourceType": "news",
+      "publisher": "国务院国资委",
+      "originalUrl": "http://www.sasac.gov.cn/n4470048/n13461446/n15390485/n15769618/c28320350/content.html",
+      "accessibility": "available",
+      "rightsNote": "央企官网，佐证 iSCM 智慧供应链与工程资源管理服务平台。",
+      "publishedAt": "2023-07-05"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "体量大",
+    "协同难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数字化+工程",
+    "智能协同"
+  ],
+  "modelStack": [
+    "葛洲坝智慧供应链管理平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智慧供应链",
+    "葛洲坝",
+    "工程建筑",
+    "iSCM"
+  ],
+  "seo": {
+    "metaTitle": "面向工程建筑行业的智慧供应链管理平台应用",
+    "metaDescription": "面向工程建筑行业的智慧供应链管理平台应用",
+    "keywords": [
+      "葛洲坝集团供应链管理有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国能源建设集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "case-2025-0022",
+  "version": 1,
+  "slug": "case-2025-0022",
+  "title": "国产化高性能多模态通用大模型创新应用",
+  "organization": {
+    "id": "org-0022",
+    "name": "北京生数科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京生数科技研发国产化高性能多模态通用大模型，系全球领先的生成式AI基础设施提供商，2022年提出U-ViT架构（早于OpenAI DiT），2024年发布中国首个视频生成模型，入选技术底座方向典型案例。",
+  "background": "多模态生成式AI是产业热点，但底层大模型与训练基础设施长期由海外主导，国产化需求迫切。",
+  "problem": "多模态通用大模型研发门槛高，算力与数据依赖重；亟需自主可控的高性能多模态底座。",
+  "solution": "生数科技（由清华系瑞莱智慧RealAI、蚂蚁集团、百度BV联合孵化）打造可控多模态通用大模型，构建生成式AI基础设施；2022年9月提出U-ViT架构（比OpenAI DiT早三个月），2024年4月在中关村论坛发布中国首个视频生成大模型；以国产化高性能多模态通用大模型支撑多行业应用。",
+  "implementationSteps": [
+    "研发可控多模态通用大模型与生成式AI基础设施",
+    "2022年提出U-ViT架构",
+    "2024年发布中国首个视频生成大模型",
+    "推进国产化高性能多模态大模型产业应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "大模型训练算力成本高；多模态生成内容需安全与版权合规治理。",
+  "editorComment": {
+    "suitableFor": "需要自主可控多模态生成能力的企业与平台",
+    "prerequisites": "具备大模型研发与算力资源",
+    "priority": "条件具备后开展",
+    "text": "国产化多模态通用大模型底座，适合作为内容生成与多模态应用基础设施。"
+  },
+  "implementers": [
+    {
+      "name": "北京生数科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ss-1",
+      "title": "生数科技入选工信部2025年AI典型案例，国产多模态大模型",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260716/c678231695.shtml",
+      "publishedAt": "2026-07-16",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ss-2",
+      "title": "生数科技完成超6亿元A+轮融资，布局多模态大模型",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/984643116_121119003",
+      "publishedAt": "2026-02-06",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多模态底座",
+    "国产化",
+    "生成式AI"
+  ],
+  "painPointNarrative": "",
+  "highlight": "U-ViT架构早于DiT，发布中国首个视频生成大模型",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "生成式AI",
+    "国产化底座"
+  ],
+  "modelStack": [
+    "生数多模态通用大模型",
+    "U-ViT"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "多模态大模型",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "生数科技 国产化高性能多模态通用大模型创新应用",
+    "metaDescription": "生数科技研发可控多模态通用大模型，U-ViT架构早于DiT，发布中国首个视频生成模型。",
+    "keywords": [
+      "生数科技",
+      "多模态大模型",
+      "U-ViT",
+      "国产化"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

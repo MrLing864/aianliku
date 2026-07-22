@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0113",
+  "version": 1,
+  "slug": "case-2025-0113",
+  "title": "面向高端手机精密结构件的模具智能设计制造方案",
+  "organization": {
+    "id": "org-0113",
+    "name": "贝隆精密科技股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "贝隆精密科技股份有限公司面向高端手机精密结构件，构建模具智能设计制造方案，提升模具开发效率与一致性。",
+  "background": "精密结构件对模具精度与一致性要求极高。",
+  "problem": "高端手机精密结构件模具设计制造复杂、精度要求高，传统设计制造依赖经验、周期长。",
+  "solution": "面向高端手机精密结构件构建模具智能设计制造方案，结合自动化工艺与设备研发，在模具精加工、量产与检测环节加大自动化与智能化投入。",
+  "implementationSteps": [
+    "结合精密结构件特点研发自动化工艺与设备",
+    "在模具精加工环节引入智能化",
+    "在产品量产与检测环节应用自动化与 AI",
+    "面向高端手机精密结构件落地智能设计制造"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "高精度模具工艺一致性、多品类快速切换。",
+  "editorComment": {
+    "suitableFor": "精密结构件与模具智能设计制造",
+    "prerequisites": "具备精密模具与自动化基础",
+    "priority": "建议评估",
+    "text": "高端消费电子精密制造智能化的实践。"
+  },
+  "implementers": [
+    {
+      "name": "贝隆精密科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-bl-1",
+      "title": "贝隆精密科技股份有限公司-官网",
+      "sourceType": "official",
+      "publisher": "贝隆精密",
+      "originalUrl": "https://www.beilongmj.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证精密结构件与模具智造定位。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-bl-2",
+      "title": "贝隆精密科技股份有限公司2024年年度报告（自动化与智能化研发投入）",
+      "sourceType": "report",
+      "publisher": "巨潮资讯网",
+      "originalUrl": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225164911.PDF",
+      "accessibility": "available",
+      "rightsNote": "上市公司年报，佐证模具精加工与检测环节自动化智能化投入。",
+      "publishedAt": "2026-04-24"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "精度要求高",
+    "依赖经验"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能设计",
+    "自动化工艺"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "贝隆精密",
+    "精密结构件",
+    "模具",
+    "智能制造"
+  ],
+  "seo": {
+    "metaTitle": "面向高端手机精密结构件的模具智能设计制造方案",
+    "metaDescription": "面向高端手机精密结构件的模具智能设计制造方案",
+    "keywords": [
+      "贝隆精密科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "宁波市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0258",
+  "version": 1,
+  "slug": "case-2025-0258",
+  "title": "中移动无障碍通信智能体创新实践",
+  "organization": {
+    "id": "org-0258",
+    "name": "中移互联网有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "通信",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移互联网有限公司实践“中移动无障碍通信智能体创新实践”，自主研发全国首个 AI 听障康复智能体“中移无障碍”，于 2025 年 12 月 3 日国际残疾人日率先在广东广州落地；方案深度融合 AI 大模型与通信技术，突破传统语音识别局限，构建个性化语音识别体系，集成 5G 新通话、5G 消息等能力，实现毫秒级语音转文字，服务约 2780 万听障人士。",
+  "background": "中移互联网面向听障人士打造“中移无障碍”通信解决方案，通过自研算法为每位听障用户构建个性化语音识别模型，并在“中移无障碍”小程序提供“面对面助手”精准转写与“AI 语训师”发声训练。",
+  "problem": "听障人士长期面临“听不清、说不明”的沟通鸿沟，传统语音识别难以适配个性化发音。",
+  "solution": "AI 听障康复智能体“中移无障碍”，以个性语音识别+5G 新通话实现双向无障碍沟通。",
+  "implementationSteps": [
+    "研发个性化语音识别与 AI 听障康复智能体",
+    "集成 5G 新通话/5G 消息能力",
+    "在广东广州率先落地应用"
+  ],
+  "duration": "2025-12-03 落地",
+  "cost": "",
+  "results": [
+    {
+      "label": "服务听障人群",
+      "value": "2780",
+      "unit": "万",
+      "kind": "actual",
+      "sourceId": "src-cmiot-1"
+    }
+  ],
+  "roi": "",
+  "risks": "个性化模型适配、通信隐私。",
+  "editorComment": {
+    "suitableFor": "听障人士无障碍通信",
+    "prerequisites": "具备 5G 新通话与算力",
+    "priority": "建议优先",
+    "text": "AI 向善、普惠无障碍通信的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "中移互联网有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmiot-1",
+      "title": "全国首个AI听障康复智能体“中移无障碍”落地",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20251204A0718F00",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证中移无障碍智能体落地与 2780 万听障人群。",
+      "publishedAt": "2025-12-04"
+    },
+    {
+      "publicId": "src-cmiot-2",
+      "title": "以AI为桥，让心声被听见——中国移动发布无障碍通信解决方案",
+      "sourceType": "news",
+      "publisher": "C114",
+      "originalUrl": "https://www.c114.com.cn/news/118/a1298428.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证 5G 新通话毫秒级语音转文字。",
+      "publishedAt": "2025-10-11"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "沟通鸿沟",
+    "传统识别局限"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "个性语音识别",
+    "5G新通话"
+  ],
+  "modelStack": [
+    "中移无障碍 AI 听障康复智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中移无障碍",
+    "听障康复",
+    "AI向善",
+    "5G新通话"
+  ],
+  "seo": {
+    "metaTitle": "中移动无障碍通信智能体创新实践",
+    "metaDescription": "中移动无障碍通信智能体创新实践",
+    "keywords": [
+      "中移互联网有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

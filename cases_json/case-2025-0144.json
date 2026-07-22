@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0144",
+  "version": 1,
+  "slug": "case-2025-0144",
+  "title": "慧眼 AI 法律文书校验系统应用",
+  "organization": {
+    "id": "org-0144",
+    "name": "浪潮软件科技有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "浪潮科技“慧眼 AI 法律文书校验系统应用”面向法律文书校验场景，针对人工核验效率低、易出错等痛点，依托“焱宇”大模型，采用“大模型+多智能体”协同架构，融合跨模态语义理解、时序图谱推理与规则引擎，支持 35 类文书预审检验，可对逮捕证、换押证、起诉书等多类法律文书一体化处理。",
+  "background": "浪潮科技是浪潮集团旗下，长期深耕政务与行业信息化；慧眼 AI 法律文书校验系统为基层单位文书核验提供规范化、智能化能力。",
+  "problem": "基层单位在法律文书核验中面临效率、准确性和标准一致性问题，人工核验易出错。",
+  "solution": "依托焱宇大模型，采用“大模型+多智能体”协同架构，融合跨模态语义理解、时序图谱推理与规则引擎，实现多类文书一体化智能校验。",
+  "implementationSteps": [
+    "基于焱宇大模型构建文书校验底座",
+    "研发大模型+多智能体协同校验架构",
+    "支持 35 类文书预审检验落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "支持文书类型",
+      "value": "35",
+      "unit": "类",
+      "kind": "actual",
+      "sourceId": "src-lang-1"
+    }
+  ],
+  "roi": "",
+  "risks": "法律用语严谨性、模型误判风险与人工复核机制。",
+  "editorComment": {
+    "suitableFor": "司法/政务法律文书智能校验",
+    "prerequisites": "具备文书数据与规则库",
+    "priority": "建议优先",
+    "text": "大模型+多智能体赋能司法文书规范化。"
+  },
+  "implementers": [
+    {
+      "name": "浪潮软件科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-lang-1",
+      "title": "浪潮科技“慧眼AI法律文书校验系统应用”入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "山东省国资委",
+      "originalUrl": "http://gzw.shandong.gov.cn/articles/ch00049/202607/aa5978e0-b6c0-4785-830d-29b5bd45bb4e.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证 35 类文书预审与焱宇大模型。",
+      "publishedAt": "2026-07-10"
+    },
+    {
+      "publicId": "src-lang-2",
+      "title": "浪潮慧眼AI系统入选国家AI应用典型示范",
+      "sourceType": "news",
+      "publisher": "酷阅新闻",
+      "originalUrl": "https://www.kuyuenews.com/tech/113164.html",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证大模型+多智能体协同架构。",
+      "publishedAt": "2026-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工核验低效",
+    "易出错"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "多智能体协同",
+    "规则引擎"
+  ],
+  "modelStack": [
+    "慧眼 AI 法律文书校验系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "慧眼AI",
+    "法律文书校验",
+    "焱宇大模型",
+    "多智能体"
+  ],
+  "seo": {
+    "metaTitle": "慧眼 AI 法律文书校验系统应用",
+    "metaDescription": "慧眼 AI 法律文书校验系统应用",
+    "keywords": [
+      "浪潮软件科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,165 @@
+{
+  "id": "case-2025-0004",
+  "version": 1,
+  "slug": "case-2025-0004",
+  "title": "河北移动石家庄智算资源池建设及应用",
+  "organization": {
+    "id": "org-0004",
+    "name": "中国移动通信集团河北有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动通信集团河北有限公司建成石家庄智算资源池（算力超300P，采用昇腾与昆仑芯AI芯片），构建覆盖硬件、网络、软件的自主算力体系，并依托全省'云边端'协同算力（突破1000PFLOPS）支撑本地AI应用。",
+  "background": "河北抢抓'东数西算'战略机遇，需要高效稳定、安全可控的本地算力支撑AI应用普及。",
+  "problem": "AI应用普及面临算力壁垒（高算力、长时效、高并发）；区域本地化、低时延、自主可控算力供给不足。",
+  "solution": "建成投产京津冀（张家口）智算中心等6大省级算力节点，搭建覆盖全省'云边端'协同算力体系（算力突破1000PFLOPS）；其中石家庄智算资源池算力超300P，采用昇腾和昆仑芯AI芯片，构建覆盖硬件、网络、软件的体系，为OpenClaw等AI应用量身定制专属算力支撑。",
+  "implementationSteps": [
+    "建成京津冀（张家口）智算中心等6大省级算力节点",
+    "搭建全省'云边端'协同算力体系",
+    "建设石家庄智算资源池（超300P，昇腾+昆仑芯）",
+    "为本地AI应用提供专属算力支撑方案"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "石家庄智算资源池算力",
+      "value": "300+",
+      "unit": "P",
+      "kind": "actual",
+      "sourceId": "src-hb-1"
+    },
+    {
+      "label": "全省算力能力",
+      "value": "1000+",
+      "unit": "PFLOPS",
+      "kind": "actual",
+      "sourceId": "src-hb-2"
+    }
+  ],
+  "roi": "",
+  "risks": "国产AI芯片软件生态与大规模集群稳定性需持续打磨；算力消纳与可持续运营需匹配本地需求。",
+  "editorComment": {
+    "suitableFor": "地方政府、园区及中小企业需要本地低时延、自主可控算力的场景",
+    "prerequisites": "具备省级算力节点与网络基础设施",
+    "priority": "建议优先",
+    "text": "区域公共算力底座范例，可为中小企业提供普惠专属算力，破解算力壁垒。"
+  },
+  "implementers": [
+    {
+      "name": "中国移动通信集团河北有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hb-1",
+      "title": "工信部发布2025年人工智能应用典型案例名单 河北省八项典型案例入选",
+      "sourceType": "government_news",
+      "publisher": "河北省人民政府",
+      "originalUrl": "http://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202607/18/0e0ac306-a94c-41c7-87da-35e14eef96d6.html",
+      "publishedAt": "2026-07-18",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hb-2",
+      "title": "全力构建高效稳定、安全可控的人工智能应用生态",
+      "sourceType": "news",
+      "publisher": "百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1861037895158967842",
+      "publishedAt": "2026-03-30",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "算力壁垒",
+    "自主可控",
+    "区域算力"
+  ],
+  "painPointNarrative": "",
+  "highlight": "石家庄智算资源池超300P，全省算力突破1000PFLOPS",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智算资源池",
+    "云边端协同",
+    "国产AI芯片"
+  ],
+  "modelStack": [
+    "昇腾",
+    "昆仑芯"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智算资源池",
+    "国产芯片"
+  ],
+  "seo": {
+    "metaTitle": "河北移动 石家庄智算资源池建设及应用",
+    "metaDescription": "河北移动建成石家庄智算资源池（超300P，昇腾+昆仑芯），全省云边端协同算力突破1000PFLOPS。",
+    "keywords": [
+      "河北移动",
+      "智算资源池",
+      "昇腾",
+      "昆仑芯"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

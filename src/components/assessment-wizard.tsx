@@ -9,7 +9,7 @@ import {
   CheckCircle2,
   LoaderCircle,
   LockKeyhole,
-  Mail,
+  Phone,
   Sparkles,
 } from "lucide-react";
 import { MessageResponse } from "@/components/ai-elements/message";
@@ -91,11 +91,11 @@ export function AssessmentWizard() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [preview, setPreview] = useState<Preview | null>(null);
-  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [claiming, setClaiming] = useState(false);
-  const [reportConsent, setReportConsent] = useState(false);
-  const [privacyConsent, setPrivacyConsent] = useState(false);
-  const [marketingConsent, setMarketingConsent] = useState(false);
+  const [reportConsent, setReportConsent] = useState(true);
+  const [privacyConsent, setPrivacyConsent] = useState(true);
+  const [marketingConsent, setMarketingConsent] = useState(true);
   useEffect(() => {
     trackPublicEvent("assessment_started", undefined, {
       policyVersion: PRIVACY_NOTICE_VERSION,
@@ -175,7 +175,7 @@ export function AssessmentWizard() {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
         ...answers,
-        email,
+        phone,
         reportConsent,
         privacyConsent,
         marketingConsent,
@@ -246,23 +246,23 @@ export function AssessmentWizard() {
                 onSubmit={claim}
                 className="rounded-xl border bg-muted/25 p-4"
               >
-                <Label htmlFor="report-email">邮箱接收完整报告通知</Label>
+                <Label htmlFor="report-phone">手机号接收报告进度</Label>
                 <div className="relative mt-2">
-                  <Mail className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+                  <Phone className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
                   <Input
-                    id="report-email"
-                    type="email"
+                    id="report-phone"
+                    type="tel"
                     required
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
+                    value={phone}
+                    onChange={(event) => setPhone(event.target.value)}
                     className="pl-9"
-                    placeholder="name@company.com"
+                    placeholder="13800138000"
                   />
                 </div>
                 <div className="mt-4 space-y-3 text-xs">
                   <label className="flex items-start gap-2.5">
                     <Checkbox checked={reportConsent} onCheckedChange={(value) => setReportConsent(value === true)} />
-                    <span>同意使用本次问诊内容和邮箱生成、发送并管理这份报告。</span>
+                    <span>同意使用本次问诊内容和手机号生成并管理这份报告。</span>
                   </label>
                   <label className="flex items-start gap-2.5">
                     <Checkbox checked={privacyConsent} onCheckedChange={(value) => setPrivacyConsent(value === true)} />
@@ -279,7 +279,7 @@ export function AssessmentWizard() {
                 </Button>
                 <p className="mt-2 text-[11px] leading-5 text-muted-foreground">
                   V4-Pro 最高强度推理通常需要 1–3
-                  分钟。提交后可关闭页面，完成时会发送私密报告链接。
+                  分钟。提交后可关闭页面，完成时可凭本页状态查看私密报告。
                 </p>
               </form>
             </div>

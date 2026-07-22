@@ -1,0 +1,171 @@
+{
+  "id": "case-2025-0098",
+  "version": 1,
+  "slug": "case-2025-0098",
+  "title": "基于 AI 视觉的化纤生产质量管控智能体实践",
+  "organization": {
+    "id": "org-0098",
+    "name": "江苏恒力化纤股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "恒力化纤依托自主研发的 HENGLINK 工业互联网平台，融合机器视觉、深度学习、大小模型协同与工业互联网集成，在高速纺丝、自动落筒、智能转运、自动包装、智能仓储等环节打造基于 AI 视觉的化纤生产质量管控智能体，实现质检环节无人化、质量分析智能化、工艺调控自主化。",
+  "background": "恒力化纤为全球领先涤纶长丝企业；化纤行业质检长期依赖人工目检，检测精度低、人工依赖度高，制约产业高质量升级。",
+  "problem": "传统人工目检检测效率低、标准不统一、漏检率高，难以满足高品质化纤生产要求。",
+  "solution": "将机器视觉与深度学习深度融入纺丝、落筒、包装全流程，构建 AI 视觉质量管控智能体，替代传统人工目检，实现质量异常秒级响应与产品不良率大幅下降。",
+  "implementationSteps": [
+    "基于 HENGLINK 工业互联网平台打通纺丝-落筒-包装全流程数据",
+    "部署 AI 视觉质量管控智能体（机器视觉+深度学习+大小模型协同）",
+    "实现质检无人化与工艺调控自主化闭环"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "质检模式",
+      "value": "无人化",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hengli-1"
+    },
+    {
+      "label": "质量异常响应",
+      "value": "秒级",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hengli-1"
+    }
+  ],
+  "roi": "",
+  "risks": "高速产线实时视觉检测精度、模型对纤度/疵点类型的泛化。",
+  "editorComment": {
+    "suitableFor": "化纤及连续流程制造质量管控",
+    "prerequisites": "具备工业互联网平台与产线联网基础",
+    "priority": "建议优先",
+    "text": "AI 视觉智能体替代人工目检的化纤质检范式。"
+  },
+  "implementers": [
+    {
+      "name": "江苏恒力化纤股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hengli-1",
+      "title": "恒力化纤“AI+制造”项目入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "恒力集团报",
+      "originalUrl": "https://epaper.hengli.com/hlb/20260708/html/content_20260708001003.htm",
+      "accessibility": "available",
+      "rightsNote": "企业官方报纸，佐证 AI 视觉质量管控智能体实践。",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "publicId": "src-hengli-2",
+      "title": "江苏恒力化纤｜AI视觉的化纤生产质量管控智能体实践",
+      "sourceType": "news",
+      "publisher": "新工业网",
+      "originalUrl": "http://www.xingongye.cn/cms/Intelligent_manufacturing/1817.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证智能体技术路线。",
+      "publishedAt": "2026-06-26"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工目检效率低",
+    "漏检率高",
+    "标准不统一"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "计算机视觉",
+    "深度学习",
+    "大小模型协同",
+    "工业互联网"
+  ],
+  "modelStack": [
+    "AI 视觉质量管控智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI视觉",
+    "质量管控智能体",
+    "化纤",
+    "HENGLINK"
+  ],
+  "seo": {
+    "metaTitle": "基于 AI 视觉的化纤生产质量管控智能体实践",
+    "metaDescription": "基于 AI 视觉的化纤生产质量管控智能体实践",
+    "keywords": [
+      "江苏恒力化纤股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

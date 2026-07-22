@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0008",
+  "version": 1,
+  "slug": "case-2025-0008",
+  "title": "元生代（MetaGenAIDC）智算云服务应用",
+  "organization": {
+    "id": "org-0008",
+    "name": "蓝耘科技集团股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "蓝耘科技'元生代（MetaGenAIDC）智算操作系统'集成旗下所有云服务，具备统一调度能力，并通过AICP国际国内标准评估，构建'算力中心+数据工厂+模型广场'三位一体体系，提供全栈式智算赋能。",
+  "background": "AI时代企业需要面向GPU算力的基础设施与服务能力，实现算力、数据、模型一体化管理。",
+  "problem": "算力、数据、模型分散管理，缺乏统一调度与运营；企业获取与运营GPU算力门槛高。",
+  "solution": "蓝耘专注GPU算力云服务，形成以GPU算力解决方案为基础的体系；'元生代'智算操作系统（MetaGen AIDC OS）作为底层核心引擎，集成旗下所有云服务产品能力，具备统一调度能力，通过AICP国际国内标准评估；构建'算力中心+数据工厂+模型广场'三位一体体系，为千行百业提供全栈式智算赋能。",
+  "implementationSteps": [
+    "构建GPU算力云服务体系",
+    "研发元生代智算操作系统（MetaGen AIDC OS）",
+    "通过AICP国际国内标准评估",
+    "打造'算力中心+数据工厂+模型广场'三位一体"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "标准评估",
+      "value": "通过AICP国际国内标准评估",
+      "kind": "actual",
+      "sourceId": "src-ly-1"
+    }
+  ],
+  "roi": "",
+  "risks": "GPU算力供给受上游约束；平台标准化与生态建设需持续投入。",
+  "editorComment": {
+    "suitableFor": "需要GPU算力云服务与统一调度运营的企业",
+    "prerequisites": "具备GPU算力资源或采购能力",
+    "priority": "条件具备后开展",
+    "text": "全栈式智算云平台，适合作为企业GPU算力运营底座。"
+  },
+  "implementers": [
+    {
+      "name": "蓝耘科技集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ly-1",
+      "title": "蓝耘科技元生代智算操作系统通过AICP国际国内标准评估",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/957848731_121810827",
+      "publishedAt": "2025-11-24",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ly-2",
+      "title": "蓝耘科技-AI算力云服务官网",
+      "sourceType": "official",
+      "publisher": "蓝耘科技",
+      "originalUrl": "https://www.lanyun.net/",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "GPU算力",
+    "统一调度",
+    "算力运营"
+  ],
+  "painPointNarrative": "",
+  "highlight": "元生代智算OS通过AICP双标准评估，三位一体智算体系",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "GPU算力云",
+    "智算操作系统",
+    "统一调度"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "GPU算力云",
+    "智算OS"
+  ],
+  "seo": {
+    "metaTitle": "蓝耘科技 元生代 MetaGenAIDC 智算云服务应用",
+    "metaDescription": "蓝耘科技元生代智算OS通过AICP双标准评估，构建算力中心+数据工厂+模型广场三位一体体系。",
+    "keywords": [
+      "蓝耘科技",
+      "元生代",
+      "MetaGenAIDC",
+      "智算云"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

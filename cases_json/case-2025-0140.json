@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0140",
+  "version": 1,
+  "slug": "case-2025-0140",
+  "title": "AI 应急救援一体化平台",
+  "organization": {
+    "id": "org-0140",
+    "name": "中移（成都）信息通信科技有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "政务与公共服务",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移（成都）信息通信科技有限公司构建 AI 应急救援一体化平台，提升应急场景下的智能调度与救援协同能力。",
+  "background": "应急救援对信息汇聚、快速研判与协同调度要求高。",
+  "problem": "院前急救与应急救援中，救援人员难以远程直观掌握现场、求助者难以精准描述位置与伤情，指挥调度效率受限。",
+  "solution": "打造 AI 应急救援一体化平台，发挥 5G+AI 技术优势，构建院前急救专用融合网络与现场视频回传、辅助研判与指挥调度能力。",
+  "implementationSteps": [
+    "构建 5G 院前急救融合网络架构",
+    "现场音视频实时回传与 AI 辅助研判",
+    "打造应急救援一体化指挥调度平台",
+    "在医疗急救等应急场景落地示范"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "网络稳定性、跨部门应急协同。",
+  "editorComment": {
+    "suitableFor": "院前急救与应急救援智能指挥",
+    "prerequisites": "具备 5G 网络与急救调度基础",
+    "priority": "建议优先",
+    "text": "5G+AI 赋能应急救援的国家级典型。"
+  },
+  "implementers": [
+    {
+      "name": "中移（成都）信息通信科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cd16-1",
+      "title": "国家级名单公示！成都16个人工智能应用典型案例入选（含AI应急救援一体化板块）",
+      "sourceType": "news",
+      "publisher": "网易（红星新闻）",
+      "originalUrl": "https://www.163.com/dy/article/L0A535IA051492T3.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证 AI 应急救援一体化案例入选。",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "publicId": "src-140-2",
+      "title": "优秀案例发布丨中移急救团队探索5G+AI救援新模式",
+      "sourceType": "news",
+      "publisher": "人民邮电报（cnii.com.cn）",
+      "originalUrl": "https://www.cnii.com.cn/rmydb/202305/t20230530_474427.html",
+      "accessibility": "available",
+      "rightsNote": "行业官媒报道，佐证 5G+AI 院前急救模式。",
+      "publishedAt": "2023-05-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "现场难掌握",
+    "调度效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "5G融合网络",
+    "AI辅助研判"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中移成都",
+    "应急救援",
+    "5G+AI",
+    "院前急救"
+  ],
+  "seo": {
+    "metaTitle": "AI 应急救援一体化平台",
+    "metaDescription": "AI 应急救援一体化平台",
+    "keywords": [
+      "中移（成都）信息通信科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

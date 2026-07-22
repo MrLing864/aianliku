@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0217",
+  "version": 1,
+  "slug": "case-2025-0217",
+  "title": "面向大规模筛查的 AI 云诊平台及智能终端解决方案实践",
+  "organization": {
+    "id": "org-0217",
+    "name": "武汉兰丁智能医学股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉兰丁智能医学科技有限公司以人工智能和大数据云技术构建 AI 云诊断平台，聚焦宫颈癌等癌症筛查，向全国 2800 县市开放 AI 医疗大数据云诊断平台，并入选中国 AI 出海十大案例，实现千万级大规模筛查实践。",
+  "background": "兰丁自 2017 年起参与湖北省宫颈癌筛查项目，2022 年支撑湖北城乡适龄妇女免费筛查；其 AI 宫颈癌筛查云平台单日筛查标本曾超 5 万例。",
+  "problem": "基层医疗机构细胞学筛查能力弱、病理医生短缺，大规模筛查难以覆盖。",
+  "solution": "以 AI 细胞学筛查技术与高质量 AI 癌症筛查平台闭环，向基层开放云诊断平台，实现大规模自动化筛查。",
+  "implementationSteps": [
+    "研发 AI 细胞学筛查与云诊断平台",
+    "支撑省域大规模免费筛查项目",
+    "向全国 2800 县市开放并出海"
+  ],
+  "duration": "2017 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "云平台单日筛查标本",
+      "value": "超 5 万例",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-landing-1"
+    },
+    {
+      "label": "开放范围",
+      "value": "全国 2800 县市",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-landing-2"
+    }
+  ],
+  "roi": "",
+  "risks": "基层数据质量、诊断准确性与合规。",
+  "editorComment": {
+    "suitableFor": "基层癌症大规模 AI 筛查",
+    "prerequisites": "具备标本采集与网络条件",
+    "priority": "建议优先",
+    "text": "AI 云诊断+基层开放，医疗普惠标杆。"
+  },
+  "implementers": [
+    {
+      "name": "武汉兰丁智能医学股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-landing-1",
+      "title": "光谷这家企业开发的大数据诊断云平台，30秒即可AI“揪”出癌细胞",
+      "sourceType": "news",
+      "publisher": "湖北日报",
+      "originalUrl": "https://news.hubeidaily.net/mobile/c_2545811.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证单日筛查规模。",
+      "publishedAt": "2024-04-25"
+    },
+    {
+      "publicId": "src-landing-2",
+      "title": "医疗AI助力“强基层” 武汉兰丁向全国2800县市开放AI云诊断平台",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "http://hb.news.cn/20250323/7de601786e6745f088af3ad71e17c96c/c.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证开放 2800 县市。",
+      "publishedAt": "2025-03-23"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "病理医生短缺",
+    "基层覆盖难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "计算机视觉",
+    "云诊断"
+  ],
+  "modelStack": [
+    "兰丁 AI 云诊断平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI云诊断",
+    "宫颈癌筛查",
+    "医疗AI",
+    "兰丁"
+  ],
+  "seo": {
+    "metaTitle": "面向大规模筛查的 AI 云诊平台及智能终端解决方案实践",
+    "metaDescription": "面向大规模筛查的 AI 云诊平台及智能终端解决方案实践",
+    "keywords": [
+      "武汉兰丁智能医学股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

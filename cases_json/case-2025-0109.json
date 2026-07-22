@@ -1,0 +1,137 @@
+{
+  "id": "case-2025-0109",
+  "version": 1,
+  "slug": "case-2025-0109",
+  "title": "彩电研产销一体化数智平台及多场景智能体应用实践",
+  "organization": {
+    "id": "org-0109",
+    "name": "TCL 王牌电器（惠州）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "TCL 王牌电器（惠州）有限公司建设彩电研产销一体化数智平台及多场景智能体应用，入选工信部行业赋能方向典型案例，标志惠州'人工智能+制造业'应用获国家级认可。",
+  "background": "TCL 王牌在惠州布局彩电研产销一体化制造，此前已建设彩电柔性制造 5G 全连接工厂。",
+  "problem": "彩电行业面临研发-供应-生产-销售多环节协同复杂、响应市场需求慢等挑战。",
+  "solution": "构建研产销一体化数智平台，并落地多场景智能体应用，打通研发、供应、生产、销售与服务全链路。",
+  "implementationSteps": [
+    "整合研产销数据，建设一体化数智平台",
+    "在研发、排产、供应链、营销等场景部署智能体",
+    "持续迭代多场景智能体能力"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多系统数据打通、智能体在业务场景的可靠性。",
+  "editorComment": {
+    "suitableFor": "消费电子研产销一体化协同",
+    "prerequisites": "具备 5G 全连接工厂与数字化基础",
+    "priority": "建议优先",
+    "text": "研产销一体+多智能体，适合大型制造企业。"
+  },
+  "implementers": [
+    {
+      "name": "TCL 王牌电器（惠州）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tcl-1",
+      "title": "惠州TCL一项目入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "惠州日报/MSN",
+      "originalUrl": "http://e.hznews.com/hzrb/pc/content/202607/19/content_1130229.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证入选行业赋能方向。",
+      "publishedAt": "2026-07-19"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多环节协同复杂",
+    "市场响应慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体",
+    "一体化数智平台"
+  ],
+  "modelStack": [
+    "多场景业务智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "研产销一体化",
+    "多智能体",
+    "彩电",
+    "5G工厂"
+  ],
+  "seo": {
+    "metaTitle": "彩电研产销一体化数智平台及多场景智能体应用实践",
+    "metaDescription": "彩电研产销一体化数智平台及多场景智能体应用实践",
+    "keywords": [
+      "TCL 王牌电器（惠州）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

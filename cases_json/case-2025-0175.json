@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0175",
+  "version": 1,
+  "slug": "case-2025-0175",
+  "title": "多模态“AI+工业互联网”港口安全应急管控实践",
+  "organization": {
+    "id": "org-0175",
+    "name": "辽宁港口集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "辽港集团旗下科技企业招商港科自主研发“基于人工智能和工业互联网协同的港口综合安全应急解决方案”，深度融合多模态人工智能、工业互联网与具身智能等前沿技术，在构建安全领域多模态 AI 大模型基础上，创新研制基于模仿学习的单臂型具身巡检机器人，实现高危作业场景的智能化安全应急管控，入选 2026 中国企业 AI+场景创新解决方案。",
+  "background": "辽港集团（辽宁港口集团）推进“智能操作、智慧运营、智链生态、智感环境”智慧港口建设；该方案由招商港科研发，获 2026 中国企业 AI+场景创新解决方案奖。",
+  "problem": "港口生产单位标准不统一、地域跨度大、老旧设备占比高，安全应急管控难。",
+  "solution": "多模态 AI+工业互联网+具身智能的港口综合安全应急解决方案，含单臂型具身巡检机器人。",
+  "implementationSteps": [
+    "构建安全领域多模态 AI 大模型",
+    "研制单臂型具身巡检机器人",
+    "在辽港高危作业场景落地安全应急管控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "具身机器人高危场景可靠性、多源数据融合。",
+  "editorComment": {
+    "suitableFor": "港口综合安全应急管控",
+    "prerequisites": "具备工业互联网与监测网络",
+    "priority": "建议优先",
+    "text": "多模态 AI+具身智能守护港口安全的范式。"
+  },
+  "implementers": [
+    {
+      "name": "辽宁港口集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-lgang-1",
+      "title": "辽港集团安全管理数智化成果获“2026中国企业AI+场景创新解决方案”",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/jjxw/2026-04-29/doc-inhwefuw7966570.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证多模态 AI+具身巡检机器人与方案获奖。",
+      "publishedAt": "2026-04-29"
+    },
+    {
+      "publicId": "src-lgang-2",
+      "title": "辽港集团安全管理数智化成果获选2026中国企业AI+场景创新",
+      "sourceType": "news",
+      "publisher": "航运在线",
+      "originalUrl": "https://info.shippingchina.com/bluenews/index/detail/id/237262.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证基于 AI 与工业互联网协同的港口综合安全应急方案。",
+      "publishedAt": "2026-04-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "标准不统一",
+    "管控难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态AI",
+    "工业互联网",
+    "具身智能"
+  ],
+  "modelStack": [
+    "港口综合安全应急解决方案"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "辽港",
+    "港口安全",
+    "具身巡检机器人",
+    "多模态AI"
+  ],
+  "seo": {
+    "metaTitle": "多模态“AI+工业互联网”港口安全应急管控实践",
+    "metaDescription": "多模态“AI+工业互联网”港口安全应急管控实践",
+    "keywords": [
+      "辽宁港口集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "招商局集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

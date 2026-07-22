@@ -1,0 +1,151 @@
+{
+  "id": "case-2025-0246",
+  "version": 1,
+  "slug": "case-2025-0246",
+  "title": "基于冶金流程优化大模型的热轧排程智能体应用",
+  "organization": {
+    "id": "org-0246",
+    "name": "冶金自动化研究设计院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由冶金自动化研究设计院有限公司申报的“基于冶金流程优化大模型的热轧排程智能体应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由中国钢研科技集团有限公司推荐。该应用面向钢铁热轧排程难题，构建冶金流程优化大模型与热轧排程智能体，采用大小模型协同与强化学习实现动态排程优化。",
+  "background": "冶金自动化研究设计院有限公司隶属中国钢研科技集团有限公司，长期致力于冶金流程智能化与自动化。面向高炉—转炉—连铸—热轧全流程优化需求，持续开展流程优化与一体化动态调度研究。",
+  "problem": "钢铁热轧排程涉及多约束、强耦合与动态扰动，传统依赖经验的排程难以兼顾交期、能耗与设备负荷，亟需智能化排程手段。",
+  "solution": "基于冶金流程优化大模型构建热轧排程智能体，采用大小模型协同的热轧智能排程方法（相关发明专利：一种大小模型协同的热轧智能排程方法和系统），结合分层强化学习排程模型与动态反馈调整，实现热轧排程的智能化与动态优化。",
+  "implementationSteps": [
+    "梳理热轧排程约束与历史排程数据，构建流程优化大模型知识底座。",
+    "研发大小模型协同的热轧智能排程方法（申请发明专利）。",
+    "构建分层强化学习排程模型与动态反馈调整机制。",
+    "在冶金产线试点应用并迭代优化排程效果。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "知识产权",
+      "value": "热轧智能排程发明专利",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-news-0246"
+    }
+  ],
+  "roi": "",
+  "risks": "排程模型对数据质量与工况覆盖度敏感，需结合现场工艺约束进行校验；关键排程决策建议保留人工确认。",
+  "editorComment": {
+    "suitableFor": "钢铁、冶金行业热轧及全流程排产优化。",
+    "prerequisites": "具备较完整的生产排程数据与工艺约束建模能力。",
+    "priority": "medium",
+    "text": "大小模型协同的热轧排程智能体是冶金行业流程优化的代表性探索，已申请相关发明专利，公开成效指标有限。"
+  },
+  "implementers": [
+    {
+      "name": "冶金自动化研究设计院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0246",
+      "title": "一种大小模型协同的热轧智能排程方法和系统",
+      "sourceType": "patent",
+      "publisher": "冶金自动化研究设计院有限公司；钢研智行（北京）科技有限公司",
+      "originalUrl": "https://www.patentguru.com/cn/CN122155213A",
+      "externalId": "CN122155213A",
+      "publishedAt": "2026-06-05",
+      "accessibility": "available",
+      "rightsNote": "国家知识产权局公开专利，申请人冶金自动化研究设计院有限公司等，佐证其热轧智能排程技术路线。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "强化学习",
+    "大小模型协同",
+    "智能排产"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "热轧排程",
+    "冶金大模型",
+    "大小模型协同",
+    "强化学习",
+    "流程优化"
+  ],
+  "seo": {
+    "metaTitle": "基于冶金流程优化大模型的热轧排程智能体应用",
+    "metaDescription": "基于冶金流程优化大模型的热轧排程智能体应用",
+    "keywords": [
+      "冶金自动化研究设计院有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国钢研科技集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

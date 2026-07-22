@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0108",
+  "version": 1,
+  "slug": "case-2025-0108",
+  "title": "人工智能在半导体全流程缺陷分类中的应用",
+  "organization": {
+    "id": "org-0108",
+    "name": "无锡华润微电子有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "无锡华润微电子依托云边端协同三级架构，融合边缘计算、云计算与人工智能，采用自研异构资源统一抽象、强化学习智能调度等技术，实现半导体制造全流程缺陷分类与良率管理。",
+  "background": "华润微是国内领先的百亿级 IDM 半导体企业，具备从芯片设计、掩模制造、晶圆制造到封装测试的全产业链运营能力。",
+  "problem": "半导体制造工序长、缺陷类型多，缺陷自动分类与良率管理是质量提升的关键难点。",
+  "solution": "构建云边端协同三级架构，融合边缘计算、云计算与人工智能，通过异构资源统一抽象与强化学习智能调度，实现半导体全流程缺陷分类。",
+  "implementationSteps": [
+    "搭建云边端协同三级架构与异构资源统一抽象",
+    "部署强化学习智能调度与缺陷分类模型",
+    "在晶圆制造全流程应用提升良率管理"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "缺陷样本不均衡、云边端协同的实时性与一致性。",
+  "editorComment": {
+    "suitableFor": "半导体制造缺陷分类与良率提升",
+    "prerequisites": "具备晶圆制造自动化与数据基础",
+    "priority": "建议优先",
+    "text": "云边端协同+强化学习的半导体质检范式。"
+  },
+  "implementers": [
+    {
+      "name": "无锡华润微电子有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-crm-1",
+      "title": "国家级案例+4，全市数量最多！",
+      "sourceType": "news",
+      "publisher": "无锡新区政府",
+      "originalUrl": "https://www.wnd.gov.cn/doc/2026/07/06/4800608.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证云边端协同三级架构与强化学习智能调度。",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "publicId": "src-crm-2",
+      "title": "华润微电子与格创东智共建工业软件与AI创新中心",
+      "sourceType": "news",
+      "publisher": "中国经济网",
+      "originalUrl": "http://tech.ce.cn/xxfw/202601/t20260109_2692271.shtml",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证华润微半导体 AI 实践与全产业链背景。",
+      "publishedAt": "2026-01-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "缺陷类型多",
+    "良率管理难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "边缘计算",
+    "云计算",
+    "强化学习"
+  ],
+  "modelStack": [
+    "半导体全流程缺陷分类模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "半导体",
+    "缺陷分类",
+    "云边端协同",
+    "强化学习"
+  ],
+  "seo": {
+    "metaTitle": "人工智能在半导体全流程缺陷分类中的应用",
+    "metaDescription": "人工智能在半导体全流程缺陷分类中的应用",
+    "keywords": [
+      "无锡华润微电子有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "华润（集团）有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

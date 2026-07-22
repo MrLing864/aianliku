@@ -1,0 +1,168 @@
+{
+  "id": "case-2025-0192",
+  "version": 1,
+  "slug": "case-2025-0192",
+  "title": "工业具身智能机器人赋能整车检测应用",
+  "organization": {
+    "id": "org-0192",
+    "name": "常州微亿智造科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "常州微亿智造科技股份有限公司“工业具身智能机器人赋能整车检测应用”入选工信部 2025 年人工智能应用典型案例，基于自研工业 VLA 模型、具身数据飞轮和垂类专家模型，结合专用硬件实现“具身质检-多臂协同机器人”，在复杂纹理背景下精准标记缺陷，漏检率控制在 0.1% 以内、重大缺陷零遗漏，全检出货标准达 AQL0.4 国际高水平，已在多家全球顶级工厂部署应用。",
+  "background": "微亿智造以工业人工智能+机器视觉为主线，提供“视觉感知模组+机器人智能控制+工业 AI 算法+云计算”智能视觉系统，成为工业具身智能标杆。",
+  "problem": "整车及精密制造缺陷检测依赖人工、漏检率高、标准难统一。",
+  "solution": "工业具身智能机器人（多臂协同），以工业 VLA 模型实现精准质检。",
+  "implementationSteps": [
+    "研发工业 VLA 模型与具身数据飞轮",
+    "构建具身质检-多臂协同机器人",
+    "在整车及全球顶级工厂部署应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "缺陷漏检率",
+      "value": "0.1",
+      "unit": "%以内",
+      "kind": "actual",
+      "sourceId": "src-wy-1"
+    },
+    {
+      "label": "全检出货标准",
+      "value": "AQL0.4",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-wy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "复杂纹理缺陷识别、多臂协同稳定性。",
+  "editorComment": {
+    "suitableFor": "整车及精密制造智能质检",
+    "prerequisites": "具备机器视觉与机器人基础",
+    "priority": "建议优先",
+    "text": "工业具身智能机器人进厂打工的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "常州微亿智造科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-wy-1",
+      "title": "微亿智造入选工信部人工智能应用典型案例（整车检测）",
+      "sourceType": "news",
+      "publisher": "常州钟楼区政府",
+      "originalUrl": "https://www.zhonglou.gov.cn/html/czzl/2026/DMBJPILK_0625/392813.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证工业具身智能机器人赋能整车检测。",
+      "publishedAt": "2026-06-25"
+    },
+    {
+      "publicId": "src-wy-2",
+      "title": "江苏新质生产力观察丨微亿智造：工业具身智能打通制造数智化",
+      "sourceType": "news",
+      "publisher": "新华网江苏",
+      "originalUrl": "http://www.js.xinhuanet.com/20251113/91cd08f8c2d44f268d128eb9d9d08419/c.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证漏检率 0.1%、重大缺陷零遗漏与 AQL0.4。",
+      "publishedAt": "2025-11-13"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工",
+    "漏检率高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业VLA",
+    "具身数据飞轮"
+  ],
+  "modelStack": [
+    "工业具身智能机器人（多臂协同）"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "微亿",
+    "具身质检",
+    "整车检测",
+    "VLA"
+  ],
+  "seo": {
+    "metaTitle": "工业具身智能机器人赋能整车检测应用",
+    "metaDescription": "工业具身智能机器人赋能整车检测应用",
+    "keywords": [
+      "常州微亿智造科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0038",
+  "version": 1,
+  "slug": "case-2025-0038",
+  "title": "OneNET 数据治理平台应用",
+  "organization": {
+    "id": "org-0038",
+    "name": "中移物联网有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "政务与公共服务",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移物联网自主研发'OneNET数据治理平台'，构建覆盖数据采集、汇聚接入、标准治理、质量管控、安全共享和智能应用的全链路数据治理体系，破解物联网数据多源异构难题。",
+  "background": "物联网数据规模持续增长、来源多样、结构复杂，数据治理成为AI应用前提。",
+  "problem": "物联网数据多源、异构、质量参差，缺乏统一接入、标准化治理与安全共享能力，制约AI应用。",
+  "solution": "OneNET数据治理平台构建覆盖数据采集、汇聚接入、标准治理、质量管控、安全共享和智能应用的全链路数据治理体系，具备多源数据统一接入、数据标准化治理等能力，为上层AI应用提供高质量数据基础。",
+  "implementationSteps": [
+    "构建全链路数据治理体系（采集-接入-治理-质控-共享-应用）",
+    "实现多源数据统一接入与标准化治理",
+    "强化数据质量管控与安全共享",
+    "支撑物联网AI智能应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "物联网数据安全与隐私合规要求高；跨设备数据标准统一难度大。",
+  "editorComment": {
+    "suitableFor": "物联网平台企业与城市/行业物联网数据治理",
+    "prerequisites": "具备物联网设备接入与数据基础",
+    "priority": "建议优先",
+    "text": "全链路物联网数据治理平台，适合城市与企业物联网AI化基础。"
+  },
+  "implementers": [
+    {
+      "name": "中移物联网有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-on-1",
+      "title": "中移物联OneNET数据治理平台入选2025年工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://www.news.cn/info/20260710/0524b52f027f4f5ab00321938fe97f21/c.html",
+      "publishedAt": "2026-07-10",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-on-2",
+      "title": "经开企业中移物联OneNET数据治理平台入选工信部典型案例",
+      "sourceType": "news",
+      "publisher": "MSN",
+      "originalUrl": "https://www.msn.cn/zh-cn/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF%E5%85%AC%E5%8F%B8/%E7%BB%8F%E5%BC%80%E4%BC%81%E4%B8%9A-%E4%B8%AD%E7%A7%BB%E7%89%A9%E8%81%94onenet%E6%95%B0%E6%8D%AE%E6%B2%BB%E7%90%86%E5%B9%B3%E5%8F%B0%E5%85%A5%E9%80%892025%E5%B9%B4%E5%B7%A5%E4%BF%A1%E9%83%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%BA%94%E7%94%A8%E5%85%B8%E5%9E%8B%E6%A1%88%E4%BE%8B/ar-AA27Cex2",
+      "publishedAt": "2026-07-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "物联网数据",
+    "数据治理",
+    "多源异构"
+  ],
+  "painPointNarrative": "",
+  "highlight": "OneNET全链路数据治理，覆盖采集到智能应用",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数据治理",
+    "物联网",
+    "全链路"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "数据治理",
+    "物联网"
+  ],
+  "seo": {
+    "metaTitle": "中移物联网 OneNET数据治理平台应用",
+    "metaDescription": "中移物联网OneNET构建全链路数据治理体系，覆盖采集、治理、质控、共享与智能应用。",
+    "keywords": [
+      "中移物联网",
+      "OneNET",
+      "数据治理",
+      "物联网"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

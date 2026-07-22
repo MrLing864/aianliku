@@ -1,0 +1,157 @@
+{
+  "id": "case-2025-0080",
+  "version": 1,
+  "slug": "case-2025-0080",
+  "title": "面向机械制造业的 AI 全要素感知与智能决策",
+  "organization": {
+    "id": "org-0080",
+    "name": "武汉益模科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉益模科技面向机械制造业，以'工具集+智能体+多模态模型'复合架构，依托多智能体、多模态感知与决策实现跨行业跨域协同，让AI贯穿设计、工艺、生产、质量、设备全流程，已落地近2000个数字化工厂项目。",
+  "background": "机械制造业流程长、跨域协同难，传统信息化难以实现全要素智能决策。",
+  "problem": "制造全流程数据分散、跨域协同难，缺乏贯穿设计到设备的AI决策能力。",
+  "solution": "益模创新采用'工具集+智能体+多模态模型'复合架构，依托多智能体、通过多模态感知与决策，实现跨行业、跨域协同，让人工智能贯穿设计、工艺、生产、质量、设备的制造全流程；其MIE大模型入选武汉市培育库，已成功落地近2000个数字化工厂项目。",
+  "implementationSteps": [
+    "构建'工具集+智能体+多模态模型'复合架构",
+    "以多智能体实现跨域协同决策",
+    "AI贯穿设计/工艺/生产/质量/设备全流程",
+    "落地近2000个数字化工厂项目"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "数字化工厂项目落地",
+      "value": "近2000",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-ym-1"
+    }
+  ],
+  "roi": "",
+  "risks": "多智能体协同复杂度高；跨行业适配需大量场景沉淀。",
+  "editorComment": {
+    "suitableFor": "机械制造企业的全要素AI感知与智能决策",
+    "prerequisites": "具备全流程数字化基础",
+    "priority": "建议优先",
+    "text": "工具集+智能体+多模态的制造业AI操作系统，适合机械制造参考。"
+  },
+  "implementers": [
+    {
+      "name": "武汉益模科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ym-1",
+      "title": "AI再添国家级认可！益模入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1044599523_120236305",
+      "publishedAt": "2026-07-02",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ym-2",
+      "title": "益模科技布局AI与智能制造深度融合（近2000项目）",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://xinsanban.10jqka.com.cn/20241119/c663683362.shtml",
+      "publishedAt": "2024-11-19",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "跨域协同",
+    "数据分散",
+    "全流程决策"
+  ],
+  "painPointNarrative": "",
+  "highlight": "工具集+智能体+多模态，近2000个数字化工厂落地",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体",
+    "多模态感知",
+    "制造全流程"
+  ],
+  "modelStack": [
+    "益模MIE大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "机械制造",
+    "多智能体"
+  ],
+  "seo": {
+    "metaTitle": "武汉益模 面向机械制造业的AI全要素感知与智能决策应用",
+    "metaDescription": "益模以工具集+智能体+多模态模型复合架构，AI贯穿制造全流程，落地近2000个数字化工厂。",
+    "keywords": [
+      "武汉益模",
+      "机械制造",
+      "AI全要素感知",
+      "多智能体"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0149",
+  "version": 1,
+  "slug": "case-2025-0149",
+  "title": "企业 AI 智能运维平台实践",
+  "organization": {
+    "id": "org-0149",
+    "name": "北京百度网讯科技有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京百度网讯科技有限公司将人工智能应用于企业级智能运维（AIOps），以百度智能云 AIOps 体系实现监控告警、故障定位、根因分析与容量预测等环节的智能化，缓解海量指标、复杂告警与频繁变更带来的运维压力。",
+  "background": "百度在智能运维领域有长期实践（如 Noah 智能监控体系），并对外提供百度智能云 AIOps 产品与帮助文档。",
+  "problem": "企业 IT 系统规模指数级增长，传统依赖人工巡检与阈值告警的运维模式难以应对海量指标、复杂告警和频繁变更。",
+  "solution": "构建端到端的 AIOps 平台，覆盖数据采集、智能分析、自动化执行，提供时序异常检测、告警聚合、故障自愈与根因分析等能力。",
+  "implementationSteps": [
+    "建设统一指标/日志/链路数据采集与存储",
+    "落地异常检测、告警聚合与根因分析模型",
+    "实现故障自愈与容量预测闭环"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "告警噪声与误报、模型对业务变化的适应。",
+  "editorComment": {
+    "suitableFor": "大型企业 IT 系统智能运维",
+    "prerequisites": "具备监控数据与自动化运维基础",
+    "priority": "建议优先",
+    "text": "成熟 AIOps 体系，适合中大型企业运维升级。"
+  },
+  "implementers": [
+    {
+      "name": "北京百度网讯科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-baidu-1",
+      "title": "aiops智能化运维帮助文档_百度智能云",
+      "sourceType": "official",
+      "publisher": "百度智能云",
+      "originalUrl": "https://intl.cloud.baidu.com/theme/others/1867174-1",
+      "accessibility": "available",
+      "rightsNote": "企业官方文档，佐证百度 AIOps 产品能力。",
+      "publishedAt": "2025-01-01"
+    },
+    {
+      "publicId": "src-baidu-2",
+      "title": "百度智能运维架构深度解析",
+      "sourceType": "news",
+      "publisher": "锐报安途",
+      "originalUrl": "http://www.ruibaoantu.com/article/detail.html?id=4717730",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证端到端 AIOps 架构。",
+      "publishedAt": "2025-11-04"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "告警复杂",
+    "人工运维难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "异常检测",
+    "根因分析",
+    "故障自愈"
+  ],
+  "modelStack": [
+    "百度智能云 AIOps"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AIOps",
+    "智能运维",
+    "百度智能云"
+  ],
+  "seo": {
+    "metaTitle": "企业 AI 智能运维平台实践",
+    "metaDescription": "企业 AI 智能运维平台实践",
+    "keywords": [
+      "北京百度网讯科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

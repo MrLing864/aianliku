@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0067",
+  "version": 1,
+  "slug": "case-2025-0067",
+  "title": "基于知识图谱的选矿过程工艺优化控制系统应用",
+  "organization": {
+    "id": "org-0067",
+    "name": "中国科学院沈阳自动化研究所",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "有色金属",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国科学院沈阳自动化研究所针对选矿工艺控制难、生产追踪难、协同管理难，开展贫铁矿选矿全流程智能优化控制与智慧决策，创新应用'知识图谱+机器学习'融合的边云协同人工智能技术。",
+  "background": "选矿过程工艺复杂、变量耦合强，传统控制难以实现全流程优化。",
+  "problem": "选矿工艺控制难、生产过程追踪难、生产协同管理难，制约贫铁矿选矿效率。",
+  "solution": "沈阳自动化所针对选矿三大难题，开展贫铁矿选矿全流程智能优化控制与智慧决策技术研究及工业应用，实现工艺流程自动化、过程控制智能化；创新应用知识图谱与机器学习相融合的边云协同人工智能技术，构建智慧矿山工业互联网平台和智能管控技术。",
+  "implementationSteps": [
+    "研发贫铁矿选矿全流程智能优化控制",
+    "融合知识图谱+机器学习的边云协同AI",
+    "构建智慧矿山工业互联网平台",
+    "实现选矿智慧决策与工业应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "选矿工艺耦合强、数据噪声大；边云协同对网络与算力要求高。",
+  "editorComment": {
+    "suitableFor": "矿山/选矿企业全流程智能优化与智慧管控",
+    "prerequisites": "具备选矿过程数据与工业互联网基础",
+    "priority": "条件具备后开展",
+    "text": "知识图谱+机器学习的选矿全流程智能优化，适合矿山智能化参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国科学院沈阳自动化研究所",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sia-1",
+      "title": "沈阳自动化所智慧矿山项目通过科技成果鉴定",
+      "sourceType": "news",
+      "publisher": "中科院沈阳自动化所",
+      "originalUrl": "https://www.sia.cas.cn/xwzx/kydt/202408/t20240815_7273242.html",
+      "publishedAt": "2024-08-14",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-sia-2",
+      "title": "沈阳自动化所STS项目'智慧矿山工业互联网平台和智能管控技术研发'",
+      "sourceType": "news",
+      "publisher": "中科院沈阳自动化所",
+      "originalUrl": "https://www.sia.cas.cn/xwzx/kydt/202310/t20231007_6890151.html",
+      "publishedAt": "2023-10-07",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "工艺控制",
+    "生产追踪",
+    "协同管理"
+  ],
+  "painPointNarrative": "",
+  "highlight": "知识图谱+机器学习融合的选矿全流程智能优化控制",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "知识图谱",
+    "机器学习",
+    "智慧矿山"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "选矿",
+    "智慧矿山"
+  ],
+  "seo": {
+    "metaTitle": "中科院沈阳自动化所 基于知识图谱的选矿过程工艺优化控制系统应用",
+    "metaDescription": "沈阳自动化所以知识图谱+机器学习融合的边云协同AI，实现贫铁矿选矿全流程智能优化控制。",
+    "keywords": [
+      "中科院沈阳自动化所",
+      "知识图谱",
+      "选矿优化",
+      "智慧矿山"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "辽宁省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0228",
+  "version": 1,
+  "slug": "case-2025-0228",
+  "title": "智能机器人驱动末端配送：AI 终端筑基便民生活新范式",
+  "organization": {
+    "id": "org-0228",
+    "name": "成都越凡创新科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "成都越凡创新科技有限公司（成都高新区商用移动机器人解决方案提供商）“智能机器人驱动末端配送”实践入选工信部 2025 年人工智能应用典型案例。公司产品涵盖室内外一体配送机器人、楼宇配送机器人等，旗下“享递 Ultra”“越凡路宝”等机器人已在社区、公寓等末端配送场景多点示范落地，打造末端智慧配送便民新范式。",
+  "background": "",
+  "problem": "社区、公寓等末端配送“最后一百米”人力成本高、效率与体验不稳定。",
+  "solution": "以室内外一体化配送机器人+AI 自主导航构建末端无人配送方案，打通社区/楼宇末端智慧配送闭环。",
+  "implementationSteps": [
+    "研发室内外一体化配送机器人与梯控物联模组",
+    "以 AI 自主导航实现末端无人配送",
+    "在社区、公寓等真实场景多点示范",
+    "推动成都都市圈末端配送规模化推广"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂场景导航泛化、多机与电梯物业协同。",
+  "editorComment": {
+    "suitableFor": "社区/楼宇末端无人配送",
+    "prerequisites": "具备移动机器人与物联协同能力",
+    "priority": "建议优先",
+    "text": "AI 机器人赋能末端便民配送的实践。"
+  },
+  "implementers": [
+    {
+      "name": "成都越凡创新科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-228-1",
+      "title": "“成都高新造”末端无人配送机器人多点示范落地",
+      "sourceType": "news",
+      "publisher": "新华网四川",
+      "originalUrl": "http://www.sc.xinhuanet.com/20260618/4a2e0255e39f4d4ea7f86e9018c2f3f1/c.html",
+      "accessibility": "available",
+      "rightsNote": "新华网报道，佐证末端无人配送机器人多点示范落地。",
+      "publishedAt": "2026-06-18"
+    },
+    {
+      "publicId": "src-228-2",
+      "title": "越凡创新-商用移动机器人解决方案提供商（室内外一体配送机器人）",
+      "sourceType": "official",
+      "publisher": "成都越凡创新科技",
+      "originalUrl": "https://www.eventec.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证配送机器人产品体系。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "最后一百米",
+    "人力成本高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "自主导航",
+    "移动机器人"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "越凡创新",
+    "末端配送",
+    "配送机器人",
+    "便民"
+  ],
+  "seo": {
+    "metaTitle": "智能机器人驱动末端配送：AI 终端筑基便民生活新范式",
+    "metaDescription": "智能机器人驱动末端配送：AI 终端筑基便民生活新范式",
+    "keywords": [
+      "成都越凡创新科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

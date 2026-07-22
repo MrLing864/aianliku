@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0214",
+  "version": 1,
+  "slug": "case-2025-0214",
+  "title": "人工智能辅助心脑血管卒中临床评估与诊断",
+  "organization": {
+    "id": "org-0214",
+    "name": "东软医疗系统股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "东软医疗系统股份有限公司研发“人工智能辅助心脑血管卒中临床评估与诊断”软件，入选国务院国资委首批中央企业人工智能战略性高价值场景（40 项之一，由通用技术集团推荐）；产品依托 eStroke 国家溶栓取栓影像平台与泛血管智能影像评估能力，实现缺血性脑卒中半暗带、脑微出血、脑侧支循环定量评价，赋能卒中急诊救治。",
+  "background": "东软医疗联合首都医科大学宣武医院互联网医疗诊治技术国家工程实验室研发 eStroke 平台；在 AI+医学影像方面已推出飞标医学影像标注平台、泛血管智能影像评估与辅助诊疗系统等产品。",
+  "problem": "急性缺血性脑卒中救治对时间极度敏感，传统影像评估依赖专家、耗时长，难以快速决策溶栓取栓。",
+  "solution": "AI 辅助心脑血管卒中临床评估与诊断软件，基于多模态医学影像实现半暗带、微出血、侧支循环定量评价，支撑卒中急诊快速决策。",
+  "implementationSteps": [
+    "研发 eStroke 溶栓取栓影像平台",
+    "构建泛血管智能影像评估与辅助诊疗系统",
+    "在卒中中心和县域医院落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "临床可靠性、模型可解释性与合规注册。",
+  "editorComment": {
+    "suitableFor": "卒中中心与县域急诊影像评估",
+    "prerequisites": "具备 CT/MR 影像设备与数据",
+    "priority": "建议优先",
+    "text": "AI 赋能卒中急诊时间窗决策的医疗范式。"
+  },
+  "implementers": [
+    {
+      "name": "东软医疗系统股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-neusoft-1",
+      "title": "央企首批！通用技术集团推荐的东软医疗AI项目入选高价值场景",
+      "sourceType": "news",
+      "publisher": "通用技术集团",
+      "originalUrl": "https://cmc.gt.cn/xwzx/jtxw/art/2025/art_42fb81d103d94edcad5c723e227140c1.html",
+      "accessibility": "available",
+      "rightsNote": "央企官网，佐证东软医疗心脑血管卒中软件入选。",
+      "publishedAt": "2025-07-30"
+    },
+    {
+      "publicId": "src-neusoft-2",
+      "title": "关于我们-eStroke 国家溶栓取栓影像平台",
+      "sourceType": "official",
+      "publisher": "东软医疗",
+      "originalUrl": "https://estroke.medimagecloud.com/gywm",
+      "accessibility": "available",
+      "rightsNote": "企业平台，佐证 eStroke 半暗带/侧支循环定量评价能力。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "时间敏感",
+    "依赖专家"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态医学影像",
+    "定量评价"
+  ],
+  "modelStack": [
+    "AI 心脑血管卒中临床评估与诊断软件"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "心脑血管",
+    "卒中",
+    "医学影像AI",
+    "eStroke"
+  ],
+  "seo": {
+    "metaTitle": "人工智能辅助心脑血管卒中临床评估与诊断",
+    "metaDescription": "人工智能辅助心脑血管卒中临床评估与诊断",
+    "keywords": [
+      "东软医疗系统股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国通用技术（集团）控股有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

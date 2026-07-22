@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0190",
+  "version": 1,
+  "slug": "case-2025-0190",
+  "title": "面向制造业的具身智能复检机器人应用",
+  "organization": {
+    "id": "org-0190",
+    "name": "征图新视（江苏）科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "征图新视（江苏）科技股份有限公司“产线级智能复检机器人”入选工信部 2025 年人工智能应用典型案例，针对精密制造缺陷误判、人工复检成本高、品控标准不一、数据断层等痛点，推出 AI 智能闭环质检解决方案，通过主动成像、工业质检大模型与柔性执行机构实现智能复检；其偏光片高端光学检测装备成功打破国外垄断、填补国内空白。",
+  "background": "征图新视成立于 2009 年，专注机器视觉检测装备与自动化系统，构建涵盖机器视觉软件、工业 AI 算法、光学成像、运动控制、3D 视觉等全栈技术平台，连续两年获国家级认定。",
+  "problem": "精密制造缺陷误判、人工复检成本高、品控标准不一。",
+  "solution": "产线级智能复检机器人+AI 闭环质检，工业质检大模型实现智能复检。",
+  "implementationSteps": [
+    "构建全栈机器视觉技术平台",
+    "研发 AI 智能闭环质检与智能复检机器人",
+    "在偏光片/3C 等精密制造场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多材质缺陷泛化、误判控制。",
+  "editorComment": {
+    "suitableFor": "精密制造智能复检与闭环质检",
+    "prerequisites": "具备机器视觉与产线基础",
+    "priority": "建议优先",
+    "text": "工业质检大模型+复检机器人的闭环范式。"
+  },
+  "implementers": [
+    {
+      "name": "征图新视（江苏）科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zt-3",
+      "title": "连续两年！征图入选国家级名单（产线级智能复检机器人）",
+      "sourceType": "news",
+      "publisher": "腾讯",
+      "originalUrl": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1846a44dbc382152",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证征图智能复检机器人与 AI 闭环质检入选。",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "publicId": "src-zt-4",
+      "title": "征图新视-机器视觉检测装备商",
+      "sourceType": "official",
+      "publisher": "征图新视",
+      "originalUrl": "https://www.fsaoi.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证全栈机器视觉技术平台与偏光片检测。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工复检成本高",
+    "品控不一"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业AI算法",
+    "3D视觉"
+  ],
+  "modelStack": [
+    "产线级智能复检机器人"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "征图",
+    "智能复检",
+    "工业AI质检",
+    "闭环质检"
+  ],
+  "seo": {
+    "metaTitle": "面向制造业的具身智能复检机器人应用",
+    "metaDescription": "面向制造业的具身智能复检机器人应用",
+    "keywords": [
+      "征图新视（江苏）科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

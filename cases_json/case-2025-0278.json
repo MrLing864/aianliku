@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0278",
+  "version": 1,
+  "slug": "case-2025-0278",
+  "title": "企业软件与智能服务平台“用友 BIP 企业 AI”",
+  "organization": {
+    "id": "org-0278",
+    "name": "用友网络科技股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "专项应用",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "用友网络科技股份有限公司发布'用友 BIP 企业 AI'，采用'智能平台层+解决方案层+智能体集群层'三层架构，以企业服务大模型 YonGPT 与'本体智能体'为核心，将 AI 与企业业务流程融合，覆盖财务、人力、供应链等核心领域，入选工信部人工智能应用典型案例。",
+  "background": "用友 BIP 5 发布企业 AI 新架构，提供从数据层、模型矩阵层、平台层到应用层的完整能力体系；2026 年率先发布业界'本体智能体'（Ontology-Driven Agent），将企业 AI 从'概率生成'转向'逻辑执行'。",
+  "problem": "企业 AI 落地面临业务不确定性、数据与流程割裂、缺乏确定性执行。",
+  "solution": "以 YonGPT 企业服务大模型与本体智能体，将 AI 能力原生融入企业业务流程，实现从辅助决策到自主执行的升级。",
+  "implementationSteps": [
+    "构建用友 BIP 企业 AI 三层架构",
+    "研发 YonGPT 企业服务大模型与本体智能体",
+    "在财务、人力、供应链等场景规模落地"
+  ],
+  "duration": "2024 年起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "企业数据治理、模型与业务确定性的平衡。",
+  "editorComment": {
+    "suitableFor": "大型企业业务全流程 AI 化",
+    "prerequisites": "具备 BIP/ERP 与数据基础",
+    "priority": "建议优先",
+    "text": "AI×数据×流程原生一体，企业软件智能伙伴。"
+  },
+  "implementers": [
+    {
+      "name": "用友网络科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yonyou-1",
+      "title": "“用友BIP企业AI”入选工信部组织遴选的2025年度人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "和讯",
+      "originalUrl": "https://news.hexun.com/2026-07-20/224664234.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证入选与产品定位。",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "publicId": "src-yonyou-2",
+      "title": "一文读懂用友BIP企业AI产品矩阵",
+      "sourceType": "official",
+      "publisher": "用友",
+      "originalUrl": "https://www.yonyou.com/news/4458",
+      "accessibility": "available",
+      "rightsNote": "企业官方文章，佐证三层架构与 YonGPT。",
+      "publishedAt": "2025-12-05"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "业务不确定性",
+    "数据流程割裂"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "企业服务大模型",
+    "智能体"
+  ],
+  "modelStack": [
+    "用友 BIP 企业 AI",
+    "YonGPT"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "用友BIP",
+    "企业AI",
+    "YonGPT",
+    "本体智能体"
+  ],
+  "seo": {
+    "metaTitle": "企业软件与智能服务平台“用友 BIP 企业 AI”",
+    "metaDescription": "企业软件与智能服务平台“用友 BIP 企业 AI”",
+    "keywords": [
+      "用友网络科技股份有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0166",
+  "version": 1,
+  "slug": "case-2025-0166",
+  "title": "建筑能源管控智能体开发及应用",
+  "organization": {
+    "id": "org-0166",
+    "name": "中建西南咨询顾问有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中建西南院联合中建西南咨询、电子科技大学、湖南大学等单位申报“建筑能源管控智能体开发及应用”，以“领域知识+AI”深度融合破局数据-机理割裂、算法可解释性不足痛点，采用模型-数据双驱动训练环境（专利），基于深度强化学习优化建筑能源效率、助力节能减排。",
+  "background": "中建西南咨询自研建筑能源管控智能体，与电子科技大学、天府永兴实验室携手将 AI 前沿算法与 AIoT 深度集成，智能优化能源效率。",
+  "problem": "建筑能源管理存在数据-机理割裂、算法可解释性不足，节能优化难落地。",
+  "solution": "模型-数据双驱动的建筑能源管控智能体，基于深度强化学习实现能源效率智能优化。",
+  "implementationSteps": [
+    "研发模型-数据双驱动建筑能源管控智能体",
+    "融合领域知识与 AI 优化能源效率",
+    "在建筑节能减排场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "建筑多工况适配、强化学习训练稳定性。",
+  "editorComment": {
+    "suitableFor": "大型公共建筑能源管控与节能",
+    "prerequisites": "具备建筑能源监测与 AIoT 基础",
+    "priority": "建议优先",
+    "text": "领域知识+AI 深度融合的建筑节能智能体。"
+  },
+  "implementers": [
+    {
+      "name": "中建西南咨询顾问有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cscec-1",
+      "title": "金牛企业再获国家级殊荣，建筑能源AI案例入选工信部名单",
+      "sourceType": "news",
+      "publisher": "金牛区政府",
+      "originalUrl": "https://www.jinniu.gov.cn/jinniu/c107144/2026-07/09/content_79dd864adc454e8eb485b2d2dac8feb3.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证建筑能源管控智能体申报单位与技术路线。",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "publicId": "src-cscec-2",
+      "title": "成都高新区10项AI成果获评国家级典型",
+      "sourceType": "news",
+      "publisher": "中国高新网",
+      "originalUrl": "http://www.chinahightech.com/yuanqu/2026-07/03/content_541604.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证领域知识+AI 破局数据-机理割裂。",
+      "publishedAt": "2026-07-03"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据-机理割裂",
+    "可解释性不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "深度强化学习",
+    "模型-数据双驱动"
+  ],
+  "modelStack": [
+    "建筑能源管控智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "建筑能源",
+    "智能体",
+    "深度强化学习",
+    "节能减排"
+  ],
+  "seo": {
+    "metaTitle": "建筑能源管控智能体开发及应用",
+    "metaDescription": "建筑能源管控智能体开发及应用",
+    "keywords": [
+      "中建西南咨询顾问有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国建筑集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

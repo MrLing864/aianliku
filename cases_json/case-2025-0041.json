@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0041",
+  "version": 1,
+  "slug": "case-2025-0041",
+  "title": "机智云 AIoT 开发及云服务平台应用",
+  "organization": {
+    "id": "org-0041",
+    "name": "广州机智云物联网科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广州机智云物联网科技有限公司提供全球领先的AIoT开发及云服务平台，是国内首个物联网自助开发平台，为开发者与企业提供设备接入、云服务和快速应用开发能力。",
+  "background": "物联网应用开发门槛高，开发者需要快速、稳定、安全的硬件接入与云服务。",
+  "problem": "智能硬件与企业物联网应用开发周期长、接入复杂，缺乏自助式开发平台。",
+  "solution": "机智云作为AIoT全栈物联网平台服务商，提供物联网开发中心与云服务平台，让开发者快速开发安全稳定的智能硬件，并为企业提供安全可靠的设备云服务接入，降低物联网应用开发门槛。",
+  "implementationSteps": [
+    "构建AIoT开发及云服务平台",
+    "提供设备云服务接入与自助开发能力",
+    "服务个人与企业开发者快速落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "平台需持续适配多样设备协议；设备数据安全与连接稳定性是关键。",
+  "editorComment": {
+    "suitableFor": "智能硬件开发者与需快速物联网化的中小企业",
+    "prerequisites": "具备联网设备与基本开发能力",
+    "priority": "建议优先",
+    "text": "成熟AIoT开发平台，适合中小企业快速实现设备智能化。"
+  },
+  "implementers": [
+    {
+      "name": "广州机智云物联网科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "high",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jzy-1",
+      "title": "关于我们 - 机智云（AIoT开发及云服务平台）",
+      "sourceType": "official",
+      "publisher": "机智云",
+      "originalUrl": "https://www.gizwits.com/we",
+      "publishedAt": "2026-07-08",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jzy-2",
+      "title": "物联网开发中心_机智云",
+      "sourceType": "official",
+      "publisher": "机智云",
+      "originalUrl": "https://dev.gizwits.com/zh-cn/developer/intro",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jzy-3",
+      "title": "机智云（百度百科）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%9C%BA%E6%99%BA%E4%BA%91/18715520",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "物联网开发门槛",
+    "设备接入",
+    "开发周期"
+  ],
+  "painPointNarrative": "",
+  "highlight": "国内首个物联网自助开发平台，全球领先AIoT云服务",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AIoT",
+    "物联网平台",
+    "设备云服务"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "AIoT平台",
+    "物联网"
+  ],
+  "seo": {
+    "metaTitle": "广州机智云 AIoT开发及云服务平台应用",
+    "metaDescription": "机智云是全球领先AIoT开发及云服务平台，国内首个物联网自助开发平台。",
+    "keywords": [
+      "机智云",
+      "AIoT",
+      "物联网平台",
+      "设备云服务"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

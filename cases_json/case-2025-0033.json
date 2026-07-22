@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0033",
+  "version": 1,
+  "slug": "case-2025-0033",
+  "title": "全国产电力专用大模型工具链创新应用",
+  "organization": {
+    "id": "org-0033",
+    "name": "国电南京自动化股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国电南京自动化股份有限公司开展'全国产电力专用大模型工具链'关键技术研究，支撑电力场景的异构服务编排与定制开发，推动AI开发工具链层面自主可控。",
+  "background": "电力系统对安全可控要求极高，AI应用开发依赖工具链，国产化工具链是行业自主可控的关键环节。",
+  "problem": "电力AI应用开发缺乏全国产、面向电力专用场景的大模型工具链，异构服务编排与定制开发能力不足。",
+  "solution": "开展全国产电力专用大模型工具链关键技术研究，构建支撑电力场景的异构服务编排与定制开发能力，推动电力AI开发工具链的自主可控（具体技术细节以官方后续披露为准）。",
+  "implementationSteps": [
+    "开展全国产电力专用大模型工具链关键技术研究",
+    "支撑电力场景异构服务编排与定制开发",
+    "推动电力AI开发工具链自主可控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "全国产工具链生态适配与稳定性需持续验证；电力场景安全合规要求高。",
+  "editorComment": {
+    "suitableFor": "电力企业建设自主可控AI开发工具链",
+    "prerequisites": "具备电力AI应用场景与国产化技术栈",
+    "priority": "条件具备后开展",
+    "text": "电力专用大模型工具链方向，建议待官方披露更多细节后补充。"
+  },
+  "implementers": [
+    {
+      "name": "国电南京自动化股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gd-1",
+      "title": "国电南自全国产电力专用大模型工具链关键技术研究项目",
+      "sourceType": "tender",
+      "publisher": "电力招标网",
+      "originalUrl": "http://www.dlzb.cn/cpeinet/202601/96665.html",
+      "publishedAt": "2026-01-06",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gd-2",
+      "title": "国电南自发布大模型工具链技术规范咨询服务招标结果",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1005648249_121956424",
+      "publishedAt": "2026-04-05",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "工具链自主可控",
+    "异构编排",
+    "电力AI"
+  ],
+  "painPointNarrative": "",
+  "highlight": "全国产电力专用大模型工具链关键技术研究",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型工具链",
+    "全国产",
+    "电力AI"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "大模型工具链",
+    "电力"
+  ],
+  "seo": {
+    "metaTitle": "国电南自 全国产电力专用大模型工具链创新应用",
+    "metaDescription": "国电南自开展全国产电力专用大模型工具链研究，支撑电力场景异构服务编排与定制开发。",
+    "keywords": [
+      "国电南自",
+      "电力专用大模型",
+      "工具链",
+      "全国产"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

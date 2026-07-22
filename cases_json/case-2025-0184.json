@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0184",
+  "version": 1,
+  "slug": "case-2025-0184",
+  "title": "大模型在智慧政法领域的应用解决方案",
+  "organization": {
+    "id": "org-0184",
+    "name": "高新兴科技集团股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "高新兴科技集团推出“政法大模型”（“棱镜”）并首次亮相政法装备展，以基层办案民警和法制民警的业务痛点出发，基于大模型能力底座通过自动化手段实现智能办案辅助、案件要素提取与执法规范化，赋能智慧政法建设。",
+  "background": "高新兴聚焦智慧政法领域，2024 年政法装备展上以“政法大模型”引关注，提出基于大模型底座自动化办案，服务基层民警。",
+  "problem": "基层政法办案依赖人工、文书与要素提取工作量大、执法规范化要求高。",
+  "solution": "政法大模型（棱镜），以大模型底座实现自动化办案辅助与执法规范。",
+  "implementationSteps": [
+    "研发政法大模型（棱镜）底座",
+    "构建智能办案辅助与要素提取能力",
+    "在政法基层单位落地应用"
+  ],
+  "duration": "2024 亮相",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "执法数据合规、模型输出可靠性与人工复核。",
+  "editorComment": {
+    "suitableFor": "基层政法智能办案辅助",
+    "prerequisites": "具备政法业务数据与合规框架",
+    "priority": "建议优先",
+    "text": "政法大模型赋能基层办案规范化的范式。"
+  },
+  "implementers": [
+    {
+      "name": "高新兴科技集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gosun-1",
+      "title": "北京政法展丨高新兴政法大模型引关注，“棱镜”首次亮相",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/J6QFC6M60552DHKR.html",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证高新兴政法大模型（棱镜）与自动化办案。",
+      "publishedAt": "2024-07-11"
+    },
+    {
+      "publicId": "src-gosun-2",
+      "title": "高新兴科技集团官网-智慧政法",
+      "sourceType": "official",
+      "publisher": "高新兴",
+      "originalUrl": "https://www.gosuncn.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证智慧政法业务方向。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工",
+    "工作量大"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "政法大模型",
+    "自动化办案"
+  ],
+  "modelStack": [
+    "高新兴政法大模型（棱镜）"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智慧政法",
+    "政法大模型",
+    "棱镜",
+    "高新兴"
+  ],
+  "seo": {
+    "metaTitle": "大模型在智慧政法领域的应用解决方案",
+    "metaDescription": "大模型在智慧政法领域的应用解决方案",
+    "keywords": [
+      "高新兴科技集团股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

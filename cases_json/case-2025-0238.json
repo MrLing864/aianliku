@@ -1,0 +1,136 @@
+{
+  "id": "case-2025-0238",
+  "version": 1,
+  "slug": "case-2025-0238",
+  "title": "面向基层管理者的鲁班生产智能体应用",
+  "organization": {
+    "id": "org-0238",
+    "name": "摩托罗拉（武汉）移动技术通信有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由摩托罗拉（武汉）移动技术通信有限公司申报的“面向基层管理者的鲁班生产智能体应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由湖北省经济和信息化厅推荐。摩托罗拉（武汉）是联想集团全球智能制造基地之一，承担折叠屏等高端移动终端生产，其“鲁班生产智能体”面向产线基层管理者，将生产经验与流程知识沉淀为可交互的智能体，辅助排产协调、异常研判与一线决策。",
+  "background": "摩托罗拉（武汉）移动技术通信有限公司位于武汉东湖新技术开发区，是联想集团全球智能制造基地之一，主要生产折叠屏等高端移动通信产品，产品出口全球多个市场。随着高端移动终端工艺复杂度提升与多品种小批量趋势，产线基层管理者面临大量排产协调、工艺异常处置与经验传承压力。",
+  "problem": "高端移动终端产线工艺链条长、换线频繁，基层管理者日常需在经验驱动下处理排产冲突、质量异常与设备告警，决策依赖个人经验，响应速度与一致性难以保障，且资深经验难以快速沉淀复用。",
+  "solution": "“鲁班生产智能体”面向产线基层管理者，将生产流程知识、工艺规则与历史处置经验沉淀为可交互的AI智能体，支持自然语言问答、异常研判建议与排产协调辅助，帮助一线管理者快速获取决策依据，提升响应效率与处置一致性。",
+  "implementationSteps": [
+    "梳理产线工艺流程、常见异常与处置经验，构建知识库与流程规则。",
+    "基于大模型与检索增强（RAG）搭建“鲁班生产智能体”，对接生产系统与告警数据。",
+    "面向基层管理者提供自然语言交互、异常研判与排产协调辅助。",
+    "在摩托罗拉（武汉）智能制造基地试点应用并迭代优化。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "智能体给出的处置建议需与现场实际结合，须设置人工确认与回退机制，避免对高风险工艺环节盲目自动化；同时需保障生产数据安全与权限管控。",
+  "editorComment": {
+    "suitableFor": "高端电子制造、消费电子等产线基层管理场景。",
+    "prerequisites": "具备一定数字化基础与生产数据积累，需梳理工艺知识与处置经验。",
+    "priority": "medium",
+    "text": "面向基层管理者的生产智能体是“人工智能+制造”落地一线管理的有益探索，公开可检索的详细成效指标有限，引用时以入选依据与企业公开资料为准。"
+  },
+  "implementers": [
+    {
+      "name": "摩托罗拉（武汉）移动技术通信有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-list-0238",
+      "title": "2025年人工智能应用典型案例名单",
+      "sourceType": "government_notice",
+      "publisher": "中国煤炭工业协会（转载）",
+      "originalUrl": "https://www.coalchina.org.cn/uploadfile/2026/0716/20260716105905984.pdf",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-16",
+      "accessibility": "available",
+      "rightsNote": "名单PDF确认摩托罗拉（武汉）移动技术通信有限公司“面向基层管理者的鲁班生产智能体应用”入选。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "RAG检索增强",
+    "智能体"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "生产智能体",
+    "智能制造",
+    "基层管理",
+    "联想",
+    "摩托罗拉"
+  ],
+  "seo": {
+    "metaTitle": "面向基层管理者的鲁班生产智能体应用",
+    "metaDescription": "面向基层管理者的鲁班生产智能体应用",
+    "keywords": [
+      "摩托罗拉（武汉）移动技术通信有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

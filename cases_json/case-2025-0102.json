@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0102",
+  "version": 1,
+  "slug": "case-2025-0102",
+  "title": "AI 驱动虚拟筛选+合成设计的药物智能研发",
+  "organization": {
+    "id": "org-0102",
+    "name": "湖南九典宏阳制药有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "湖南九典宏阳制药有限公司以“AI 驱动虚拟筛选+合成设计的药物智能研发”项目入选工信部 2025 年人工智能应用典型案例（湖南 9 个入选代表之一），利用 AI 加速先导化合物发现与合成路线规划。",
+  "background": "九典宏阳是九典制药子公司，专注原料药、药用辅料、医药中间体的研发、生产与销售，2025 年与九典制药双双入选湖南先进级智能工厂。",
+  "problem": "药物研发周期长、成本高，传统实验筛选效率低、合成路线设计依赖专家经验。",
+  "solution": "构建 AI 驱动虚拟筛选与合成设计的药物智能研发能力，加速先导化合物发现与合成路线规划。",
+  "implementationSteps": [
+    "建设 AI 虚拟筛选与合成设计平台",
+    "应用于原料药/中间体研发场景",
+    "入选国家级人工智能应用典型案例"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "AI 预测结果与湿实验验证的一致性、数据壁垒。",
+  "editorComment": {
+    "suitableFor": "制药企业 AI 辅助药物研发",
+    "prerequisites": "具备化合物库与研发数据基础",
+    "priority": "建议优先",
+    "text": "中小企业 AI 制药的可落地路径。"
+  },
+  "implementers": [
+    {
+      "name": "湖南九典宏阳制药有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jiudian-1",
+      "title": "全省仅9个！望城这家药企AI药物研发项目入选工信部全国典型",
+      "sourceType": "news",
+      "publisher": "长沙晚报/星辰在线",
+      "originalUrl": "https://gfjyzk.icswb.com/h/103024/20260715/987037.html",
+      "accessibility": "available",
+      "rightsNote": "地方媒体报道，佐证九典宏阳 AI 药物研发入选全国典型。",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "publicId": "src-jiudian-2",
+      "title": "九典制药、九典宏阳双双入选湖南先进级智能工厂",
+      "sourceType": "news",
+      "publisher": "九典制药",
+      "originalUrl": "https://www.hnjiudian.com/news/287.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证智能工厂背景。",
+      "publishedAt": "2025-05-16"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "研发周期长",
+    "实验筛选效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "虚拟筛选",
+    "合成设计",
+    "AI制药"
+  ],
+  "modelStack": [
+    "药物智能研发 AI 平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI制药",
+    "虚拟筛选",
+    "合成设计",
+    "原料药"
+  ],
+  "seo": {
+    "metaTitle": "AI 驱动虚拟筛选+合成设计的药物智能研发",
+    "metaDescription": "AI 驱动虚拟筛选+合成设计的药物智能研发",
+    "keywords": [
+      "湖南九典宏阳制药有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

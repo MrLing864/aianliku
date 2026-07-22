@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0132",
+  "version": 1,
+  "slug": "case-2025-0132",
+  "title": "“腾云”民航机场离港运维平台智能化创新与实践",
+  "organization": {
+    "id": "org-0132",
+    "name": "中国民航信息网络股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国民航信息网络股份有限公司（中国航信）“腾云”民航机场离港运维平台智能化创新与实践，是国内面向民航机场离港重要信息系统的智能运维配套平台，依托国产 GPU 芯片构建全栈国产化算力底座、全面适配信创环境，通过本体论构建机场离港系统的数字本体，实现智能运维与故障自愈。",
+  "background": "中国航信携手中国电子组成创新联合体打造离港系统国产化解决方案；此前“腾云”平台已荣获行业奖项，并成功入选工信部 2025 年人工智能应用典型案例（行业赋能方向）。",
+  "problem": "民航机场离港系统是关键核心信息系统，运维复杂、对高可用要求严苛，传统人工运维难以及时响应。",
+  "solution": "“腾云”平台以全栈国产化算力底座与数字本体（本体论构建），实现离港运维平台智能化与故障自愈。",
+  "implementationSteps": [
+    "构建全栈国产化算力底座与信创适配",
+    "以本体论构建机场离港系统数字本体",
+    "落地智能运维与故障自愈能力"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "关键信息系统高可用要求、国产化生态适配。",
+  "editorComment": {
+    "suitableFor": "民航机场离港系统智能运维",
+    "prerequisites": "具备信创环境与运维数据",
+    "priority": "建议优先",
+    "text": "全栈国产化的民航离港智能运维标杆。"
+  },
+  "implementers": [
+    {
+      "name": "中国民航信息网络股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ts-1",
+      "title": "喜报！中国航信“腾云”平台入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "中国航信",
+      "originalUrl": "https://www.travelsky.cn/travelsky/xwzx/jtdt/2026/7/I1524422377977413632.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证腾云平台全栈国产化与数字本体。",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "publicId": "src-ts-2",
+      "title": "我国千万级机场实现离港系统全栈国产化改造",
+      "sourceType": "news",
+      "publisher": "国务院国资委",
+      "originalUrl": "https://wap.sasac.gov.cn/n2588025/n2588124/c35346643/content.html",
+      "accessibility": "available",
+      "rightsNote": "央企官网，佐证离港系统国产化背景。",
+      "publishedAt": "2026-02-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "运维复杂",
+    "高可用要求严"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "全栈国产化",
+    "数字本体"
+  ],
+  "modelStack": [
+    "腾云离港运维平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "腾云",
+    "离港运维",
+    "信创",
+    "民航"
+  ],
+  "seo": {
+    "metaTitle": "“腾云”民航机场离港运维平台智能化创新与实践",
+    "metaDescription": "“腾云”民航机场离港运维平台智能化创新与实践",
+    "keywords": [
+      "中国民航信息网络股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国民航信息集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

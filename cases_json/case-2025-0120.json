@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0120",
+  "version": 1,
+  "slug": "case-2025-0120",
+  "title": "面向企业研发场景的开源 AI 编程平台 CoStrict 应用",
+  "organization": {
+    "id": "org-0120",
+    "name": "深信服科技股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "深信服科技股份有限公司研发面向企业研发场景的开源 AI 编程平台 CoStrict（读作 Co-Strict，取自 strict coding），以“严肃编程”模式为企业内网开发、高质量要求场景提供可私有化部署的开源 AI Coding 解决方案，入选工信部 2025 年人工智能应用典型案例（产品应用方向）。",
+  "background": "CoStrict 由深信服 2025 年 10 月开源，是企业严肃编程（Strict）的最佳选择，支持企业私有化部署，核心能力覆盖代码审查、需求澄清、多模块拆解等。",
+  "problem": "企业内网开发场景对代码质量、合规与安全要求高，通用 AI 编程工具难以满足“严肃、可控”的开发诉求。",
+  "solution": "开源、可私有化部署的 AI 编程平台 CoStrict，以严肃编程模式严格践行质量与安全，系统化解构用户需求为多模块协同开发。",
+  "implementationSteps": [
+    "开源并发布 CoStrict AI 编程平台",
+    "构建严肃编程（Strict）模式与代码审查能力",
+    "在金融、政企等内网开发场景落地"
+  ],
+  "duration": "2025-10 开源",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "企业内网代码合规、私有化部署的算力与适配。",
+  "editorComment": {
+    "suitableFor": "企业内网/高质量要求的严肃开发",
+    "prerequisites": "具备代码仓库与私有化算力",
+    "priority": "建议优先",
+    "text": "开源可私有化部署的严肃编程范式，安全可控。"
+  },
+  "implementers": [
+    {
+      "name": "深信服科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-co-1",
+      "title": "CoStrict 入选工信部2025人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "稀土掘金",
+      "originalUrl": "https://juejin.cn/post/7662624197682446388",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证 CoStrict 入选名单。",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "publicId": "src-co-2",
+      "title": "深信服 AI 编程工具 CoStrict 首推严肃编程模式",
+      "sourceType": "news",
+      "publisher": "InfoQ",
+      "originalUrl": "https://www.infoq.cn/article/bpLGwqTYhNCx6MmJhuj1",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证严肃编程模式与私有化部署。",
+      "publishedAt": "2025-10-20"
+    },
+    {
+      "publicId": "src-co-3",
+      "title": "CoStrict - 开源AI Coding解决方案（深信服）",
+      "sourceType": "official",
+      "publisher": "深信服",
+      "originalUrl": "https://www.sangfor.com.cn/AIfirst/CoStrict",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 CoStrict 定位与能力。",
+      "publishedAt": "2026-06-26"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "合规要求高",
+    "代码质量难控"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "严肃编程"
+  ],
+  "modelStack": [
+    "CoStrict 开源 AI 编程平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI编程",
+    "CoStrict",
+    "开源",
+    "私有化部署"
+  ],
+  "seo": {
+    "metaTitle": "面向企业研发场景的开源 AI 编程平台 CoStrict 应用",
+    "metaDescription": "面向企业研发场景的开源 AI 编程平台 CoStrict 应用",
+    "keywords": [
+      "深信服科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "深圳市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0197",
+  "version": 1,
+  "slug": "case-2025-0197",
+  "title": "一汽繁荣工厂人形机器人应用",
+  "organization": {
+    "id": "org-0197",
+    "name": "乐聚智能（深圳）股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "乐聚机器人（国家级专精特新“小巨人”）多台“夸父”人形机器人“入职”中国一汽红旗繁荣工厂总装车间，在复杂汽车总装任务中（如空箱回库自动化）实现自主长时间稳定作业，从“本体—小脑—大脑”三方面技术迭代满足车企应用要求，是具身智能人形机器人规模化进厂应用的标杆。",
+  "background": "乐聚 2025 年 4 月发布多台夸父人形机器人入职中国一汽；2025 年 1 月交付第 100 台全尺寸人形机器人；2026 年联合东方精工打造全球首条万台级人形机器人自动化产线。",
+  "problem": "汽车总装存在高重复、非标准搬运作业，人形机器人需稳定长时间作业并适应真实车间环境。",
+  "solution": "夸父人形机器人从本体、小脑到大脑三方面数据驱动迭代，实现总装车间空箱回库等自动化作业。",
+  "implementationSteps": [
+    "研发夸父人形机器人本体与具身智能",
+    "在总装车间空箱回库等任务落地",
+    "持续数据驱动迭代满足车企要求"
+  ],
+  "duration": "2025-04 入职一汽",
+  "cost": "",
+  "results": [
+    {
+      "label": "交付全尺寸人形机器人",
+      "value": "100",
+      "unit": "台",
+      "kind": "actual",
+      "sourceId": "src-leju-1"
+    }
+  ],
+  "roi": "",
+  "risks": "车间复杂环境适应、长时间作业可靠性。",
+  "editorComment": {
+    "suitableFor": "汽车总装等非标准搬运作业",
+    "prerequisites": "具备人形机器人本体与具身能力",
+    "priority": "建议优先",
+    "text": "人形机器人规模化进厂应用的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "乐聚智能（深圳）股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-leju-1",
+      "title": "“小巨人”乐聚多台人形机器人“入职”中国一汽",
+      "sourceType": "news",
+      "publisher": "南方+",
+      "originalUrl": "https://www.nfnews.com/content/R6gZMdVN3p.html",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证夸父人形机器人入职一汽红旗总装。",
+      "publishedAt": "2025-04-03"
+    },
+    {
+      "publicId": "src-leju-2",
+      "title": "乐聚交付第100台全尺寸人形机器人",
+      "sourceType": "news",
+      "publisher": "龙华网",
+      "originalUrl": "https://ilonghua.sznews.com/content/2026-07/07/content_32113575.htm",
+      "accessibility": "available",
+      "rightsNote": "地方媒体报道，佐证乐聚人形机器人规模化交付。",
+      "publishedAt": "2025-01-21"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "高重复搬运",
+    "非标准作业"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "数据驱动迭代"
+  ],
+  "modelStack": [
+    "夸父人形机器人"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "夸父",
+    "人形机器人",
+    "一汽红旗",
+    "总装"
+  ],
+  "seo": {
+    "metaTitle": "一汽繁荣工厂人形机器人应用",
+    "metaDescription": "一汽繁荣工厂人形机器人应用",
+    "keywords": [
+      "乐聚智能（深圳）股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "深圳市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

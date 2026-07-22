@@ -2,7 +2,7 @@ import "server-only";
 
 import { verify } from "@node-rs/argon2";
 import { writeAuditLog } from "@/lib/audit";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import { env } from "@/lib/env";
 
 interface AdminRecord {
@@ -34,19 +34,19 @@ function memoryLimits() {
 }
 
 async function getLoginLimit(key: string) {
-  if (!isMongoConfigured()) return memoryLimits().get(key) ?? null;
+  if (!isDbConfigured()) return memoryLimits().get(key) ?? null;
   const db = await getDb();
   return db.collection<LoginLimit>("admin_login_limits").findOne({ key }, { projection: { _id: 0 } });
 }
 
 async function setLoginLimit(limit: LoginLimit) {
-  if (!isMongoConfigured()) { memoryLimits().set(limit.key, limit); return; }
+  if (!isDbConfigured()) { memoryLimits().set(limit.key, limit); return; }
   const db = await getDb();
   await db.collection<LoginLimit>("admin_login_limits").updateOne({ key: limit.key }, { $set: limit }, { upsert: true });
 }
 
 async function clearLoginLimit(key: string) {
-  if (!isMongoConfigured()) { memoryLimits().delete(key); return; }
+  if (!isDbConfigured()) { memoryLimits().delete(key); return; }
   const db = await getDb();
   await db.collection("admin_login_limits").deleteOne({ key });
 }
@@ -70,7 +70,7 @@ export async function verifyAdminCredentials(email: string, password: string) {
   }
   let admin: AdminRecord | null = null;
 
-  if (isMongoConfigured()) {
+  if (isDbConfigured()) {
     const db = await getDb();
     admin = await db.collection<AdminRecord>("admin_users").findOne({ email: normalizedEmail, status: "active" }, { projection: { _id: 0 } });
   }

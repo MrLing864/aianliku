@@ -1,0 +1,109 @@
+{
+  "id": "case-2025-0125",
+  "version": 1,
+  "slug": "case-2025-0125",
+  "title": "AI 赋能板卡级 EDA 电路图自动生成",
+  "organization": {
+    "id": "org-0125",
+    "name": "三微电子科技（苏州）有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "三微电子科技（苏州）有限公司以人工智能赋能板卡级 EDA 电路图自动生成，提升硬件原理图设计效率。",
+  "background": "板级电子设计依赖人工绘制电路图，周期长。",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "三微电子科技（苏州）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "EDA",
+    "电路图生成",
+    "板卡级"
+  ],
+  "seo": {
+    "metaTitle": "AI 赋能板卡级 EDA 电路图自动生成",
+    "metaDescription": "AI 赋能板卡级 EDA 电路图自动生成",
+    "keywords": [
+      "三微电子科技（苏州）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电子科技集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

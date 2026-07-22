@@ -1,0 +1,169 @@
+{
+  "id": "case-2025-0242",
+  "version": 1,
+  "slug": "case-2025-0242",
+  "title": "转炉“AI 炉长”实践",
+  "organization": {
+    "id": "org-0242",
+    "name": "宝山钢铁股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "宝山钢铁股份有限公司以'转炉 AI 炉长'借助多模态大模型实现冶炼全流程自主决策，配合'高炉 AI 炉长'等关键指标预测命中率突破 90%、单座高炉年降本超千万元，推动宝钢股份建成 AI 场景 600 余个、AI 累计创效超 2.7 亿元。",
+  "background": "宝钢股份 2024 年发布'AI+'数智化转型战略，深化冶金机理、专家经验与大模型技术结合，已上线近 300 个 AI 应用场景、打造 5 个 AI 标杆产线。",
+  "problem": "钢铁长流程核心工艺依赖经验、波动大，亟需智能化稳定控制与降本。",
+  "solution": "以转炉 AI 炉长/高炉 AI 炉长等多模态大模型实现关键指标预测与全流程自主决策，并将 AI 覆盖炼铁、炼钢、轧制、质检全流程。",
+  "implementationSteps": [
+    "发布 AI+ 数智化转型战略",
+    "研发高炉/转炉 AI 炉长多模态大模型",
+    "规模化推广 600+ AI 场景"
+  ],
+  "duration": "2024 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "AI 关键指标预测命中率",
+      "value": "突破 90%",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-baosteel-1"
+    },
+    {
+      "label": "单座高炉年降本",
+      "value": "超千万元",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-baosteel-1"
+    },
+    {
+      "label": "AI 累计创效",
+      "value": "超 2.7 亿元",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-baosteel-2"
+    }
+  ],
+  "roi": "",
+  "risks": "工艺数据质量、模型在极端工况下的泛化。",
+  "editorComment": {
+    "suitableFor": "钢铁长流程智能冶炼",
+    "prerequisites": "具备工艺数据与自动化控制基础",
+    "priority": "建议优先",
+    "text": "AI 炉长范式，钢铁智能化标杆。"
+  },
+  "implementers": [
+    {
+      "name": "宝山钢铁股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-baosteel-1",
+      "title": "宝钢股份发布多项AI创新成果",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/KRJ529QT053469RG.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证命中率与单座降本。",
+      "publishedAt": "2026-04-28"
+    },
+    {
+      "publicId": "src-baosteel-2",
+      "title": "宝钢股份建成投运AI场景600余个，AI累计创效超2.7亿元",
+      "sourceType": "news",
+      "publisher": "上观新闻",
+      "originalUrl": "https://export.shobserver.com/baijiahao/html/1103728.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 600+ 场景与创效规模。",
+      "publishedAt": "2026-04-27"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖经验",
+    "工艺波动大"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "冶金机理融合"
+  ],
+  "modelStack": [
+    "转炉 AI 炉长",
+    "高炉 AI 炉长"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI炉长",
+    "智能炼钢",
+    "钢铁大模型"
+  ],
+  "seo": {
+    "metaTitle": "转炉“AI 炉长”实践",
+    "metaDescription": "转炉“AI 炉长”实践",
+    "keywords": [
+      "宝山钢铁股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国宝武钢铁集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

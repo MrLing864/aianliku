@@ -1,0 +1,142 @@
+{
+  "id": "case-2025-0116",
+  "version": 1,
+  "slug": "case-2025-0116",
+  "title": "AI 视觉智造与智能调优在离散制造业的融合应用",
+  "organization": {
+    "id": "org-0116",
+    "name": "鸿富锦精密电子（成都）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "鸿富锦精密电子（成都）有限公司将 AI 视觉智造与智能调优融合应用于离散制造业，提升电子制造的质量与工艺自优化能力。",
+  "background": "离散制造多品种小批量，对视觉质检与工艺调优要求高。",
+  "problem": "离散制造业质检与工艺调优环节多、依赖人工经验，缺陷检出与参数调优难以统一高效。",
+  "solution": "将 AI 视觉智造与智能调优融合应用于离散制造业，以机器视觉缺陷检测结合智能工艺调优，提升生产效能与质量一致性。",
+  "implementationSteps": [
+    "部署 AI 视觉检测能力用于缺陷识别",
+    "构建智能调优实现工艺参数优化",
+    "在离散制造产线融合应用",
+    "推动智能工厂建设与生产效能提升"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多产品视觉泛化、调优模型稳定性。",
+  "editorComment": {
+    "suitableFor": "离散制造 AI 视觉质检与工艺调优",
+    "prerequisites": "具备机器视觉与产线数据基础",
+    "priority": "建议优先",
+    "text": "技术底座方向，视觉智造与智能调优融合的实践。"
+  },
+  "implementers": [
+    {
+      "name": "鸿富锦精密电子（成都）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hf-1",
+      "title": "AI视觉智造与智能调优在离散制造业的融合应用（入选说明）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/AI%E8%A7%86%E8%A7%89%E6%99%BA%E9%80%A0%E4%B8%8E%E6%99%BA%E8%83%BD%E8%B0%83%E4%BC%98%E5%9C%A8%E7%A6%BB%E6%95%A3%E5%88%B6%E9%80%A0%E4%B8%9A%E7%9A%84%E8%9E%8D%E5%90%88%E5%BA%94%E7%94%A8/68190121",
+      "accessibility": "available",
+      "rightsNote": "百科词条，佐证案例名称、申报单位与入选方向。",
+      "publishedAt": "2026-06-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖经验",
+    "质检效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "智能调优"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "富士康",
+    "鸿富锦",
+    "视觉智造",
+    "智能调优"
+  ],
+  "seo": {
+    "metaTitle": "AI 视觉智造与智能调优在离散制造业的融合应用",
+    "metaDescription": "AI 视觉智造与智能调优在离散制造业的融合应用",
+    "keywords": [
+      "鸿富锦精密电子（成都）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

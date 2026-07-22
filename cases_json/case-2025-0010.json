@@ -1,0 +1,164 @@
+{
+  "id": "case-2025-0010",
+  "version": 1,
+  "slug": "case-2025-0010",
+  "title": "节能光伏一体化 AI 技术赋能综合能源高质量数据集建设应用",
+  "organization": {
+    "id": "org-0010",
+    "name": "中节能太阳能科技（镇江）有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中节能太阳能科技（镇江）有限公司建设'节能光伏一体化综合能源高质量数据集'，解决光伏行业数据孤岛，提升数字化管理精度，构建全要素应用体系，入选国家首批高质量数据集建设先行先试。",
+  "background": "光伏行业数据资源分散、汇聚治理存在孤岛，制约数字化管理与AI应用。",
+  "problem": "光伏行业数据资源汇聚治理孤岛；数字化管理精度不足；缺乏全要素应用体系与生态。",
+  "solution": "通过节能光伏一体化综合能源高质量数据集建设，打通光伏行业数据资源的汇聚与治理，提升数字化管理精度，构建全要素应用体系与生态，经中国节能环保集团推荐入选国家首批高质量数据集建设先行先试。",
+  "implementationSteps": [
+    "开展节能光伏一体化综合能源数据采集与汇聚",
+    "建设高质量数据集治理体系",
+    "提升数字化管理精度",
+    "构建全要素应用体系与生态",
+    "入选国家首批高质量数据集建设先行先试"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "入选",
+      "value": "国家首批高质量数据集建设先行先试",
+      "kind": "actual",
+      "sourceId": "src-zj-1"
+    }
+  ],
+  "roi": "",
+  "risks": "数据集质量与持续更新依赖现场采集与治理投入；跨企业数据共享需解决权属与合规。",
+  "editorComment": {
+    "suitableFor": "新能源、综合能源企业建设行业高质量数据集、支撑AI应用",
+    "prerequisites": "具备较完整的能源生产与运维数据基础",
+    "priority": "条件具备后开展",
+    "text": "高质量数据集是AI赋能的基础，适合同行业企业参考数据治理与汇聚路径。"
+  },
+  "implementers": [
+    {
+      "name": "中节能太阳能科技（镇江）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zj-1",
+      "title": "高质量数据集典型案例 | 节能光伏一体化综合能源高质量数据集",
+      "sourceType": "government_case",
+      "publisher": "国家数据局",
+      "originalUrl": "https://www.nda.gov.cn/sjj/ywpd/szkjyjcss/1127/20251127143319699902044_pc.html",
+      "publishedAt": "2025-11-27",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zj-2",
+      "title": "中节能太阳能镇江公司入选国家首批高质量数据集建设先行先试",
+      "sourceType": "news",
+      "publisher": "中国工业新闻网",
+      "originalUrl": "https://www.cinn.cn/difang/jiangsu/2025/09-18/qkNpdndr.html",
+      "publishedAt": "2025-09-18",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zj-3",
+      "title": "太阳能镇江公司《节能光伏一体化综合能源高质量数据集建设》案例入选",
+      "sourceType": "news",
+      "publisher": "索比光伏网",
+      "originalUrl": "https://news.solarbe.com/202509/08/50007973.html",
+      "publishedAt": "2025-09-08",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据孤岛",
+    "数据治理",
+    "数字化精度"
+  ],
+  "painPointNarrative": "",
+  "highlight": "入选国家首批高质量数据集先行先试，破解光伏数据孤岛",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "数据治理",
+    "综合能源"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "综合能源"
+  ],
+  "seo": {
+    "metaTitle": "中节能太阳能镇江 节能光伏一体化AI技术赋能综合能源高质量数据集",
+    "metaDescription": "中节能太阳能镇江建设节能光伏一体化综合能源高质量数据集，入选国家首批先行先试，破解数据孤岛。",
+    "keywords": [
+      "中节能太阳能",
+      "高质量数据集",
+      "综合能源",
+      "光伏"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国节能环保集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

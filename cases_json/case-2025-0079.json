@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0079",
+  "version": 1,
+  "slug": "case-2025-0079",
+  "title": "知业大模型赋能高档数控机床行业数智化转型",
+  "organization": {
+    "id": "org-0079",
+    "name": "浪潮云洲工业互联网有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "浪潮云洲以'知业大模型'赋能高档数控机床行业数智化转型，打造知识问答、智能报表、AI辅助设计、3D质量检测、智能安全识别五大场景，融合机理与数据双驱动建模、RAG检索增强生成，解决知识传承难、设计效率低、质检精度不足等问题。",
+  "background": "高档数控机床行业知识传承难、设计效率低、质检精度不足，制约国产化与高质量发展。",
+  "problem": "行业知识传承难、设计效率低、质检精度不足。",
+  "solution": "依托浪潮云洲知业大模型，打造知识问答、智能报表、AI辅助设计、3D质量检测、智能安全识别五大场景应用，通过融合机理与数据双驱动建模、RAG检索增强生成等核心技术，赋能高档数控机床行业数智化转型。",
+  "implementationSteps": [
+    "构建知业大模型（数字化转型领域调优）",
+    "打造五大场景（知识问答/智能报表/AI辅助设计/3D质检/安全识别）",
+    "融合机理+数据双驱动建模与RAG",
+    "赋能高档数控机床行业转型"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "机床工艺知识专业性强；RAG知识库需持续更新与校验。",
+  "editorComment": {
+    "suitableFor": "高档数控机床及装备制造企业数智化",
+    "prerequisites": "具备工艺知识与生产数据",
+    "priority": "建议优先",
+    "text": "知业大模型五大场景赋能机床行业，适合装备制造企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "浪潮云洲工业互联网有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-iy-1",
+      "title": "浪潮云洲两项目入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1869701361356665185",
+      "publishedAt": "2026-07-03",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-iy-2",
+      "title": "浪潮集团多个案例入选工信部典型案例（知业大模型五大场景）",
+      "sourceType": "news",
+      "publisher": "百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1870304919395308033",
+      "publishedAt": "2026-07-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "知识传承",
+    "设计效率",
+    "质检精度"
+  ],
+  "painPointNarrative": "",
+  "highlight": "知业大模型五大场景赋能高档数控机床",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "RAG",
+    "机床数智化"
+  ],
+  "modelStack": [
+    "知业大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "行业大模型",
+    "数控机床"
+  ],
+  "seo": {
+    "metaTitle": "浪潮云洲 知业大模型赋能高档数控机床行业数智化转型",
+    "metaDescription": "浪潮云洲知业大模型打造五大场景，融合机理+数据双驱动与RAG赋能机床行业。",
+    "keywords": [
+      "浪潮云洲",
+      "知业大模型",
+      "高档数控机床",
+      "RAG"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

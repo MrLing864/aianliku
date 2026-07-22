@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0137",
+  "version": 1,
+  "slug": "case-2025-0137",
+  "title": "基于 AI 算法的数据机房节能优化控制平台应用",
+  "organization": {
+    "id": "org-0137",
+    "name": "南京群顶科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "南京群顶科技股份有限公司“基于 AI 算法的数据机房节能优化控制平台应用”入选工信部 2025 年人工智能应用典型案例。群顶科技为国家高新技术企业，深耕数据中心管理十余年，以 AI 算法与大数据构建数据机房节能优化控制平台，实现从数据感知、智能分析到精准调控的绿色算力节能。",
+  "background": "数据中心能耗高，节能降碳需求迫切。",
+  "problem": "数据中心机房能耗高、空调群控依赖经验，节能优化难以精准化。",
+  "solution": "构建基于 AI 算法的数据机房节能优化控制平台，融合自动化群控、大数据与 AI，实现精准节能调控。",
+  "implementationSteps": [
+    "采集机房基础设施与能耗运行数据",
+    "构建 AI 算法节能优化模型",
+    "实现空调群控动态分组与策略批量调控",
+    "在数据中心机房落地精准节能"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "不同机房工况泛化、节能与安全平衡。",
+  "editorComment": {
+    "suitableFor": "数据中心机房 AI 节能优化",
+    "prerequisites": "具备机房能耗数据与群控基础",
+    "priority": "建议优先",
+    "text": "AI 驱动数据机房精准节能的实践。"
+  },
+  "implementers": [
+    {
+      "name": "南京群顶科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-qd-1",
+      "title": "群顶科技-官网",
+      "sourceType": "official",
+      "publisher": "南京群顶科技",
+      "originalUrl": "https://www.trendytech.com.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证数据中心节能与 AI 大数据能力。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-qd-2",
+      "title": "AI驱动精准节能 打造绿色算力底座（基于AI算法的数据机房节能优化控制平台）",
+      "sourceType": "news",
+      "publisher": "知乎（媒体转载）",
+      "originalUrl": "https://zhuanlan.zhihu.com/p/2015723005947422300",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证基于 AI 算法的数据机房节能优化控制平台。",
+      "publishedAt": "2026-03-13"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "能耗高",
+    "调优经验依赖"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI算法",
+    "大数据群控"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "群顶科技",
+    "数据中心",
+    "节能优化",
+    "AI群控"
+  ],
+  "seo": {
+    "metaTitle": "基于 AI 算法的数据机房节能优化控制平台应用",
+    "metaDescription": "基于 AI 算法的数据机房节能优化控制平台应用",
+    "keywords": [
+      "南京群顶科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

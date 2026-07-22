@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0207",
+  "version": 1,
+  "slug": "case-2025-0207",
+  "title": "基于三姆森工业 AI 质检算法模型平台的一体化智能检测装备",
+  "organization": {
+    "id": "org-0207",
+    "name": "广东三姆森科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广东三姆森科技股份有限公司基于自研工业 AI 质检算法模型平台，打造一体化智能检测装备，融合视觉、激光、光谱等光运用核心技术，赋予 AOI 设备更高准确率与更低误判率，面向 3C、半导体、汽车等高精度制造检测需求实现智能缺陷检测与尺寸量测。",
+  "background": "三姆森是广东省双软认证企业，充分掌握视觉、激光、光谱等光运用核心技术，实现自动化量测与智能检测；面对客户对准确率与误判率的更高要求，以智能缺陷检测系统赋予 AOI 设备更强的 AI 能力。",
+  "problem": "客户对检测准确率与误判率指标要求提升，传统机器视觉难以满足高精度检测需求。",
+  "solution": "工业 AI 质检算法模型平台+一体化智能检测装备，实现高精度缺陷识别与尺寸量测。",
+  "implementationSteps": [
+    "研发工业 AI 质检算法模型平台",
+    "构建一体化智能检测装备",
+    "在高精度制造检测场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多材质/多缺陷泛化、模型误判控制。",
+  "editorComment": {
+    "suitableFor": "精密制造智能检测与量测",
+    "prerequisites": "具备机器视觉与检测设备基础",
+    "priority": "建议优先",
+    "text": "光运用+AI 质检平台赋能精密制造。"
+  },
+  "implementers": [
+    {
+      "name": "广东三姆森科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sams-1",
+      "title": "AI智能检测-广东三姆森科技股份有限公司",
+      "sourceType": "official",
+      "publisher": "三姆森",
+      "originalUrl": "http://www.samsuncn.com/cn/solutions/AI/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证工业 AI 质检方案与 AOI 智能缺陷检测。",
+      "publishedAt": "2024-11-27"
+    },
+    {
+      "publicId": "src-sams-2",
+      "title": "广东三姆森科技股份有限公司-光谱量测与机器视觉",
+      "sourceType": "official",
+      "publisher": "三姆森",
+      "originalUrl": "http://www.samsuncn.com/index.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证视觉/激光/光谱光运用核心技术。",
+      "publishedAt": "2025-02-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "准确率要求高",
+    "传统视觉难满足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "深度学习"
+  ],
+  "modelStack": [
+    "工业 AI 质检算法模型平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "工业AI质检",
+    "三姆森",
+    "机器视觉",
+    "尺寸量测"
+  ],
+  "seo": {
+    "metaTitle": "基于三姆森工业 AI 质检算法模型平台的一体化智能检测装备",
+    "metaDescription": "基于三姆森工业 AI 质检算法模型平台的一体化智能检测装备",
+    "keywords": [
+      "广东三姆森科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

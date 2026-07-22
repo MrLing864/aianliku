@@ -30,7 +30,7 @@ export async function sendOperationalAlert(alert: OperationalAlert) {
         schemaVersion: 1,
         service: "aianliku",
         environment:
-          process.env.VERCEL_ENV ?? process.env.NODE_ENV ?? "unknown",
+          process.env.NODE_ENV ?? "unknown",
         occurredAt: new Date().toISOString(),
         ...alert,
       }),

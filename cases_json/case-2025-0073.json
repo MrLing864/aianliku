@@ -1,0 +1,172 @@
+{
+  "id": "case-2025-0073",
+  "version": 1,
+  "slug": "case-2025-0073",
+  "title": "多模态大模型驱动新型制造全场景智能生产与设备运维",
+  "organization": {
+    "id": "org-0073",
+    "name": "苏州协同创新智能制造科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "苏州协同创新智能制造科技有限公司（国家专精特新重点'小巨人'）以'人工智能+数据+服务'模式，自研业内首个结合标识解析与区块链可信确权技术的多模态数据大模型，驱动新型制造全场景智能生产与设备运维，累计服务企业4500+家。",
+  "background": "新型制造面临多源异构数据融合难、设备运维被动等挑战。",
+  "problem": "制造数据多源异构、确权难，全场景智能生产与设备运维缺乏统一AI底座。",
+  "solution": "协同科技秉持'人工智能+数据+服务'创新发展模式，提供人工智能大模型、工业互联网、工业智改数转服务；自研业内首个结合标识解析及区块链可信确权技术的多模态数据大模型，以多模态大模型驱动新型制造全场景智能生产与设备运维，推动产业数智化转型。",
+  "implementationSteps": [
+    "构建多模态工业数据大模型（标识解析+区块链确权）",
+    "以多模态大模型驱动全场景智能生产",
+    "落地设备智能运维",
+    "累计服务4500+家企业"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "累计服务企业",
+      "value": "4500+",
+      "unit": "家",
+      "kind": "actual",
+      "sourceId": "src-xt-1"
+    }
+  ],
+  "roi": "",
+  "risks": "多模态工业数据治理与确权复杂；中小企业数据基础参差。",
+  "editorComment": {
+    "suitableFor": "制造业企业全场景智能生产与设备运维",
+    "prerequisites": "具备工业互联网与数据基础",
+    "priority": "建议优先",
+    "text": "多模态数据大模型+标识确权驱动制造全场景，适合中小企业数智化参考。"
+  },
+  "implementers": [
+    {
+      "name": "苏州协同创新智能制造科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xt-1",
+      "title": "苏州市'AI+制造'典型应用场景丨协同科技多模态工业数据赋能",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/975688701_121106832",
+      "publishedAt": "2026-01-13",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xt-2",
+      "title": "工信部人工智能应用典型案例'吴中样本'|协同科技",
+      "sourceType": "news",
+      "publisher": "中国金融信息网",
+      "originalUrl": "https://www.cnfin.com/cmjj-lb/detail/20260626/4432501_1.html",
+      "publishedAt": "2026-06-26",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xt-3",
+      "title": "协同平台-苏州协同创新智能制造",
+      "sourceType": "official",
+      "publisher": "协同科技",
+      "originalUrl": "https://szxtzx.cn/",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据融合",
+    "设备运维",
+    "数智化转型"
+  ],
+  "painPointNarrative": "",
+  "highlight": "多模态数据大模型驱动制造全场景，服务4500+企业",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态数据大模型",
+    "标识解析",
+    "设备运维"
+  ],
+  "modelStack": [
+    "多模态工业数据大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "多模态大模型",
+    "智能制造"
+  ],
+  "seo": {
+    "metaTitle": "苏州协同科技 多模态大模型驱动新型制造全场景智能生产与设备运维",
+    "metaDescription": "苏州协同科技以多模态数据大模型驱动制造全场景智能生产与设备运维，服务4500+企业。",
+    "keywords": [
+      "苏州协同科技",
+      "多模态大模型",
+      "智能制造",
+      "设备运维"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

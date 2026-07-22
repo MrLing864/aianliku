@@ -1,0 +1,160 @@
+{
+  "id": "case-2025-0119",
+  "version": 1,
+  "slug": "case-2025-0119",
+  "title": "MiniLED 模组工艺全流程光学智能检测应用",
+  "organization": {
+    "id": "org-0119",
+    "name": "成都考拉悠然科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "成都考拉悠然科技有限公司自主研发 Mini LED 模组 AOI 光学智能检测设备，面向 Mini LED 模组固晶、灯珠检测等环节提供全流程光学智能检测，以“主动学习 AI”算法与高精度光学系统深度融合，实现从被动筛查到主动拦截；固晶检测漏检率可达百万分之三，并曾获行家极光奖年度优秀创新产品，入选工信部 2025 年人工智能应用典型案例。",
+  "background": "MiniLED 模组对光学均匀性与微米级缺陷要求严苛。",
+  "problem": "Mini LED 模组固晶、灯珠等检测点多、缺陷微小，传统检测漏检率高、依赖人工。",
+  "solution": "自研 Mini LED 模组 AOI 全流程光学智能检测设备，以主动学习 AI 算法+高精度光学系统实现高精度缺陷检测。",
+  "implementationSteps": [
+    "打造高度自动化光学检测平台（AOI）",
+    "研发主动学习 AI 算法与高精度光学系统",
+    "覆盖固晶、灯珠等全流程检测环节",
+    "在 Mini LED 高端屏显制造场景应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "固晶检测漏检率",
+      "value": "百万分之三",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-kl-2"
+    }
+  ],
+  "roi": "",
+  "risks": "微小缺陷识别泛化、新工艺检测适配。",
+  "editorComment": {
+    "suitableFor": "Mini LED 模组光学智能检测",
+    "prerequisites": "具备光学检测与 AI 算法基础",
+    "priority": "建议优先",
+    "text": "AI+高端屏显检测、低漏检率的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "成都考拉悠然科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-kl-1",
+      "title": "考拉悠然亮相2025世界显示产业创新发展大会 以AI+高端屏显检测（Mini LED 模组 AOI）",
+      "sourceType": "official",
+      "publisher": "考拉悠然",
+      "originalUrl": "http://www.kaolayouran.cn/info.aspx?t=38&contentid=241",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 Mini LED 模组 AOI 全流程光学智能检测。",
+      "publishedAt": "2025-11-04"
+    },
+    {
+      "publicId": "src-kl-2",
+      "title": "漏检率百万分之三！这家企业造出MiniLED固晶检测“火眼金睛”",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7533207771748073984/",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证固晶检测漏检率百万分之三。",
+      "publishedAt": "2025-07-31"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "缺陷微小",
+    "漏检率高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "主动学习AI",
+    "光学检测"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "考拉悠然",
+    "MiniLED",
+    "AOI",
+    "光学检测"
+  ],
+  "seo": {
+    "metaTitle": "MiniLED 模组工艺全流程光学智能检测应用",
+    "metaDescription": "MiniLED 模组工艺全流程光学智能检测应用",
+    "keywords": [
+      "成都考拉悠然科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0195",
+  "version": 1,
+  "slug": "case-2025-0195",
+  "title": "面向 10kV 配网带电作业场景的智能机器人应用",
+  "organization": {
+    "id": "org-0195",
+    "name": "深圳供电局有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "深圳供电局（南方电网深圳宝安供电局）10kV 配网带电作业智能机器人应用入选工信部 2025 年人工智能应用典型案例。该配网带电作业机器人搭载双机械臂，融合仿真建模、视觉识别及运动控制三大核心技术，可高效完成带电拆火接火等作业，2025 年 3 月完成深圳全市首单配网机器人带电作业。",
+  "background": "配网带电作业高危，对机器人替代需求强。",
+  "problem": "10kV 配网带电作业风险高、依赖人工登高操作，安全与效率难以兼顾。",
+  "solution": "研发配网带电作业智能机器人，以双机械臂+仿真建模+视觉识别+运动控制实现带电作业自动化，减少人工登高风险。",
+  "implementationSteps": [
+    "研制搭载双机械臂的配网带电作业机器人",
+    "融合仿真建模、视觉识别与运动控制",
+    "地面技术人员配合机器人协同作业",
+    "在配电网带电拆接火等场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂线路环境适应性、带电作业安全冗余。",
+  "editorComment": {
+    "suitableFor": "配网带电作业机器人替代人工登高",
+    "prerequisites": "具备电力作业规范与机器人技术",
+    "priority": "建议优先",
+    "text": "配网带电作业机器人+AI 的国家级典型。"
+  },
+  "implementers": [
+    {
+      "name": "深圳供电局有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-195-1",
+      "title": "我市首个配网带电作业机器人上岗",
+      "sourceType": "government_notice",
+      "publisher": "深圳政府在线",
+      "originalUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12071259.html",
+      "accessibility": "available",
+      "rightsNote": "政府发布，佐证配网带电作业机器人上岗与作业。",
+      "publishedAt": "2025-03-14"
+    },
+    {
+      "publicId": "src-195-2",
+      "title": "配网带电作业机器人“上岗”（融合仿真建模、视觉识别及运动控制）",
+      "sourceType": "news",
+      "publisher": "南方电网报",
+      "originalUrl": "https://www.csg.cn/epaper/epaper/nfdwb/html/2025-03/18/content_782.htm",
+      "accessibility": "available",
+      "rightsNote": "行业官媒报道，佐证三大核心技术与作业能力。",
+      "publishedAt": "2025-03-18"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "作业风险高",
+    "人工登高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "仿真建模",
+    "视觉识别",
+    "运动控制"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "深圳供电局",
+    "配网带电作业",
+    "机器人",
+    "南方电网"
+  ],
+  "seo": {
+    "metaTitle": "面向 10kV 配网带电作业场景的智能机器人应用",
+    "metaDescription": "面向 10kV 配网带电作业场景的智能机器人应用",
+    "keywords": [
+      "深圳供电局有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国南方电网有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

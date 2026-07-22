@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0082",
+  "version": 1,
+  "slug": "case-2025-0082",
+  "title": "面向高端能源装备行业的研发垂类大模型与智能体应用",
+  "organization": {
+    "id": "org-0082",
+    "name": "工业云制造（四川）创新中心有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "工业云制造（四川）创新中心面向高端能源装备行业，打造研发垂类大模型与智能体应用，研发国内首款压缩机垂域大模型、工业软件智能体系统，打通工业知识与AI融合落地路径，其'蜀天云数'大模型完成国家生成式AI服务备案。",
+  "background": "高端能源装备研发知识密集、周期长，工业知识与AI融合落地难。",
+  "problem": "高端能源装备研发知识传承难、工业软件智能化不足，知识与AI融合路径不畅。",
+  "solution": "工业云制造（四川）创新中心打造高端能源装备研发垂类大模型与智能应用，研发国内首款压缩机垂域大模型、工业软件智能体系统，打通工业知识与AI融合落地路径；'蜀天云数'大模型完成国家生成式人工智能服务备案，赋能高端制造研发。",
+  "implementationSteps": [
+    "打造高端能源装备研发垂类大模型",
+    "研发国内首款压缩机垂域大模型",
+    "构建工业软件智能体系统",
+    "蜀天云数大模型完成国家生成式AI备案"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "压缩机垂域大模型",
+      "value": "国内首款",
+      "kind": "actual",
+      "sourceId": "src-gy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "工业知识沉淀与标注成本高；垂域大模型需与研发流程深度结合。",
+  "editorComment": {
+    "suitableFor": "高端能源装备企业的研发智能化",
+    "prerequisites": "具备装备研发知识与数据",
+    "priority": "条件具备后开展",
+    "text": "研发垂类大模型+工业软件智能体，适合高端装备研发提效参考。"
+  },
+  "implementers": [
+    {
+      "name": "工业云制造（四川）创新中心有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gy-1",
+      "title": "市州动态丨工业云制造四川创新中心打造高端能源装备研发垂类大模型",
+      "sourceType": "government_news",
+      "publisher": "四川省经信厅",
+      "originalUrl": "https://jxt.sc.gov.cn/scjxt/szgz/2026/7/9/a913614095244a71b989152ece62a9d4.shtml",
+      "publishedAt": "2026-07-09",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gy-2",
+      "title": "蜀天云数大模型完成国家生成式人工智能服务备案",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%B7%A5%E4%B8%9A%E4%BA%91%E5%88%B6%E9%80%A0%EF%BC%88%E5%9B%9B%E5%B7%9D%EF%BC%89%E5%88%9B%E6%96%B0%E4%B8%AD%E5%BF%83%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/51159485",
+      "publishedAt": "2026-06-22",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "研发知识",
+    "工业软件",
+    "知识融合"
+  ],
+  "painPointNarrative": "",
+  "highlight": "国内首款压缩机垂域大模型+工业软件智能体",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "研发垂类大模型",
+    "工业软件智能体",
+    "高端能源装备"
+  ],
+  "modelStack": [
+    "蜀天云数大模型",
+    "压缩机垂域大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "研发大模型",
+    "高端能源装备"
+  ],
+  "seo": {
+    "metaTitle": "工业云制造四川 面向高端能源装备行业的研发垂类大模型与智能体应用",
+    "metaDescription": "工业云制造四川打造高端能源装备研发垂类大模型与工业软件智能体，蜀天云数完成备案。",
+    "keywords": [
+      "工业云制造四川",
+      "研发垂类大模型",
+      "压缩机大模型",
+      "高端能源装备"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

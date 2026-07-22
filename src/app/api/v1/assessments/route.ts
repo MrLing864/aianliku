@@ -1,11 +1,9 @@
 import { nanoid } from "nanoid";
 import { NextResponse } from "next/server";
-import { start } from "workflow/api";
-import { hasAI, hasMongo } from "@/lib/env";
+import { hasAI, hasDb } from "@/lib/env";
 import {
   createAssessmentJob,
   markAssessmentJobFailed,
-  setAssessmentJobRunId,
 } from "@/lib/repositories/reports";
 import { assessmentSubmissionSchema } from "@/lib/validation/assessment";
 import { checkRateLimit } from "@/lib/rate-limit";
@@ -36,13 +34,13 @@ export async function POST(request: Request) {
   if (!parsed.success) {
     return NextResponse.json(
       {
-        error: "请补充完整的问诊信息和有效邮箱",
+        error: "请补充完整的问诊信息和有效手机号",
         fields: parsed.error.flatten().fieldErrors,
       },
       { status: 400 },
     );
   }
-  if (!hasMongo) {
+  if (!hasDb) {
     return NextResponse.json(
       {
         error: "报告队列正在配置，暂时无法提交。请稍后再试。",
@@ -61,7 +59,7 @@ export async function POST(request: Request) {
     );
   }
 
-  const { email, reportConsent, privacyConsent, marketingConsent, ...answers } =
+  const { phone, reportConsent, privacyConsent, marketingConsent, ...answers } =
     parsed.data;
   const jobId = nanoid(24);
   const statusToken = nanoid(36);
@@ -70,21 +68,24 @@ export async function POST(request: Request) {
   try {
     await createAssessmentJob({
       id: jobId,
-      email: email.trim().toLowerCase(),
+      phone: phone.trim(),
       answers,
       statusToken,
       reportToken,
       consent: { reportConsent, privacyConsent, marketingConsent },
     });
-    const run = await start(generateAssessmentReportWorkflow, [jobId]);
-    await setAssessmentJobRunId(jobId, run.runId);
+    void generateAssessmentReportWorkflow(jobId).catch((error) => {
+      console.error("assessment_report_generation_failed", {
+        jobId,
+        error: error instanceof Error ? error.message : "unknown_error",
+      });
+    });
     await recordServerEvent("assessment_job_queued", jobId);
 
     return NextResponse.json(
       {
         ok: true,
         jobId,
-        runId: run.runId,
         statusToken,
         reportToken,
         statusUrl: `/api/v1/assessment-jobs/${statusToken}`,
@@ -97,19 +98,19 @@ export async function POST(request: Request) {
       jobId,
       error: error instanceof Error ? error.name : "unknown_error",
     });
-    await markAssessmentJobFailed(jobId, "WORKFLOW_START_FAILED").catch(
+    await markAssessmentJobFailed(jobId, "REPORT_START_FAILED").catch(
       () => undefined,
     );
     await sendOperationalAlert({
       type: "assessment_start_failed",
       severity: "critical",
       subjectId: jobId,
-      errorCode: "WORKFLOW_START_FAILED",
+      errorCode: "REPORT_START_FAILED",
     });
     return NextResponse.json(
       {
         error: "报告任务启动失败，请稍后重试。",
-        code: "WORKFLOW_START_FAILED",
+        code: "REPORT_START_FAILED",
       },
       { status: 503 },
     );

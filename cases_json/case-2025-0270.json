@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0270",
+  "version": 1,
+  "slug": "case-2025-0270",
+  "title": "供应链全流程 AI 风控与智能审核",
+  "organization": {
+    "id": "org-0270",
+    "name": "江苏苏美达集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "金融",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "江苏苏美达集团有限公司实践“供应链全流程 AI 风控与智能审核”，面对贸易与全球化供应链人工风控响应滞后、审核低效、核查盲区等痛点，自研“供应链全流程 AI 风控与智能审核”体系，并与阿里云签署全面合作发布智能大风控等 AI 平台，实现进出口单证自动填录、比核与全流程智能审核，直接受益单证商务运营人员约 400 多人。",
+  "background": "苏美达是国机集团核心成员单位，持续打造数字化驱动的国际化产业链和供应链，与阿里云合作发布智能大风控、智能招投标、AI 智能助手等多款 AI 应用。",
+  "problem": "全球化供应链贸易风控依赖人工，响应滞后、审核低效、存在核查盲区。",
+  "solution": "供应链全流程 AI 风控与智能审核，以 AI 实现进出口单证自动填录、比核与全流程智能审核。",
+  "implementationSteps": [
+    "构建供应链全流程 AI 风控与智能审核体系",
+    "与阿里云合作发布智能大风控平台",
+    "在进出口单证与商务运营场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "受益人员",
+      "value": "400",
+      "unit": "余人",
+      "kind": "actual",
+      "sourceId": "src-sumed-1"
+    }
+  ],
+  "roi": "",
+  "risks": "贸易合规、跨境数据与安全。",
+  "editorComment": {
+    "suitableFor": "全球化供应链风控与单证审核",
+    "prerequisites": "具备进出口业务与单证数据",
+    "priority": "建议优先",
+    "text": "央企供应链 AI 风控可复制路径。"
+  },
+  "implementers": [
+    {
+      "name": "江苏苏美达集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sumed-1",
+      "title": "玄武智涌，慧动全球：两大国家级AI案例见证老城“智”变（苏美达）",
+      "sourceType": "news",
+      "publisher": "扬子晚报",
+      "originalUrl": "https://www.yzwb.net/news/jiangsu/nanjing/202607/t20260718_373617.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证苏美达供应链全流程 AI 风控与智能审核。",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "publicId": "src-sumed-2",
+      "title": "苏美达：持续打造数字化驱动的国际化产业链和供应链",
+      "sourceType": "news",
+      "publisher": "上海证券报",
+      "originalUrl": "https://www.cnstock.com/commonDetail/460867",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证智能大风控等 AI 平台发布。",
+      "publishedAt": "2025-06-27"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "响应滞后",
+    "审核低效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI风控",
+    "单证自动比核"
+  ],
+  "modelStack": [
+    "供应链全流程 AI 风控与智能审核"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "供应链风控",
+    "智能审核",
+    "苏美达",
+    "智能大风控"
+  ],
+  "seo": {
+    "metaTitle": "供应链全流程 AI 风控与智能审核",
+    "metaDescription": "供应链全流程 AI 风控与智能审核",
+    "keywords": [
+      "江苏苏美达集团有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国机械工业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

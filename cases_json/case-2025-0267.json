@@ -1,0 +1,151 @@
+{
+  "id": "case-2025-0267",
+  "version": 1,
+  "slug": "case-2025-0267",
+  "title": "中科通达智周灵厚智能体应用",
+  "organization": {
+    "id": "org-0267",
+    "name": "武汉中科通达高新技术股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由武汉中科通达高新技术股份有限公司申报的“智周灵犀智能体应用”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由湖北省/武汉市推荐。智周灵犀是中科通达自研的国产化垂直行业AI智能体开发平台，凭借国产化底层架构、零代码快速搭建能力、公安政务全场景落地成效成功上榜。",
+  "background": "中科通达（688038）是高度聚焦公安信息化领域的科技企业，2025年4月正式发布智周灵犀可视化智能体开发平台。",
+  "problem": "公安政务业务专业性强、流程复杂，传统开发效率低，亟需低门槛、高扩展的国产化智能体平台支撑多场景快速落地。",
+  "solution": "智周灵犀是面向警务业务的可视化智能体（AI Agent）开发平台，整合模型管理、工具管理和应用管理，提供低门槛、高扩展、易集成的AI能力，支持零代码快速搭建，实现公安政务全场景智能体落地。",
+  "implementationSteps": [
+    "研发国产化底层架构与垂直行业AI智能体平台“智周灵犀”。",
+    "整合模型管理、工具管理、应用管理，提供可视化开发能力。",
+    "支持零代码快速搭建行业智能体。",
+    "在公安政务全场景落地应用，形成示范成效。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "入选级别",
+      "value": "国家级",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-miit-340"
+    },
+    {
+      "label": "技术特征",
+      "value": "国产化+零代码",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-news-0267"
+    }
+  ],
+  "roi": "",
+  "risks": "公安政务场景对数据安全与合规要求极高，须强化国产化与安全管控；智能体输出须可审计、可解释。",
+  "editorComment": {
+    "suitableFor": "公安政务、城市治理等需要国产化智能体的场景。",
+    "prerequisites": "关注国产化与安全合规。",
+    "priority": "high",
+    "text": "智周灵犀凭借国产化底层架构与零代码搭建能力、公安政务全场景落地成效入选国家级典型案例，是垂直行业智能体平台代表。"
+  },
+  "implementers": [
+    {
+      "name": "武汉中科通达高新技术股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0267",
+      "title": "中科通达智周灵犀上榜“国字号”AI典型案例，赋能行业产品升级",
+      "sourceType": "media",
+      "publisher": "同花顺/新浪财经",
+      "originalUrl": "https://stock.10jqka.com.cn/20260629/c677798052.shtml",
+      "externalId": "",
+      "publishedAt": "2026-06-29",
+      "accessibility": "available",
+      "rightsNote": "报道中科通达“智周灵犀智能体应用”凭借国产化底层架构、零代码快速搭建能力、公安政务全场景落地成效入选工信部2025人工智能应用典型案例。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能体",
+    "可视化开发",
+    "国产大模型"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能体平台",
+    "智周灵犀",
+    "公安政务",
+    "国产化",
+    "零代码"
+  ],
+  "seo": {
+    "metaTitle": "中科通达智周灵厚智能体应用",
+    "metaDescription": "中科通达智周灵厚智能体应用",
+    "keywords": [
+      "武汉中科通达高新技术股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

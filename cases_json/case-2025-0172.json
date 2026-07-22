@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0172",
+  "version": 1,
+  "slug": "case-2025-0172",
+  "title": "油气安全风险智能研判及防控实践",
+  "organization": {
+    "id": "org-0172",
+    "name": "中国石油集团安全环保技术研究院有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "石油石化",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国石油集团安全环保技术研究院有限公司实践“油气安全风险智能研判及防控”，依托自主研发的油气田环境风险预警平台等成果，整合卫星遥感、无人机巡检与地面传感器网络形成多维监测矩阵，实现油气安全风险智能研判与提前预警防控。",
+  "background": "中国石油安全环保技术研究院是中国石油直属科研机构，定位“一部三中心”，承担安全环保战略决策参谋与技术研究；其“油气田环境风险预警平台”已在长庆油田规模化应用。",
+  "problem": "油气生产安全风险高、环境风险防控难，传统手段难以及时感知与研判。",
+  "solution": "整合卫星遥感、无人机巡检与地面传感器网络，构建油气安全多维监测矩阵，以 AI 实现风险智能研判与提前预警。",
+  "implementationSteps": [
+    "构建油气田环境风险预警平台",
+    "整合卫星/无人机/地面传感器多维监测",
+    "在长庆油田等场景规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "提前预警",
+      "value": "48",
+      "unit": "小时",
+      "kind": "estimated",
+      "sourceId": "src-cnpc-1"
+    }
+  ],
+  "roi": "",
+  "risks": "油气生产高危场景可靠性、监测数据融合精度。",
+  "editorComment": {
+    "suitableFor": "油气生产安全与环境风险防控",
+    "prerequisites": "具备监测网络与传感数据",
+    "priority": "建议优先",
+    "text": "多维监测矩阵+AI 研判的能源安全范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国石油集团安全环保技术研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cnpc-1",
+      "title": "中国石油安全环保技术研究院-油气田环境风险预警平台",
+      "sourceType": "news",
+      "publisher": "百度文库",
+      "originalUrl": "https://wenku.baidu.com/view/91ea6dbbf6335a8102d276a20029bd64793e62f3.html",
+      "accessibility": "available",
+      "rightsNote": "资料佐证预警平台在长庆油田应用与提前预警能力。",
+      "publishedAt": "2025-03-01"
+    },
+    {
+      "publicId": "src-cnpc-2",
+      "title": "中国石油安全环保技术研究院简介",
+      "sourceType": "official",
+      "publisher": "中国石油",
+      "originalUrl": "https://www.cnpc.com.cn/cnpc/aqhbjsyzp/zp_list.shtml",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证研究院定位与能力。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "安全风险高",
+    "防控难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "卫星遥感",
+    "无人机巡检",
+    "多维监测"
+  ],
+  "modelStack": [
+    "油气田环境风险预警平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "油气安全",
+    "智能研判",
+    "风险防控",
+    "环境预警"
+  ],
+  "seo": {
+    "metaTitle": "油气安全风险智能研判及防控实践",
+    "metaDescription": "油气安全风险智能研判及防控实践",
+    "keywords": [
+      "中国石油集团安全环保技术研究院有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国石油天然气集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0138",
+  "version": 1,
+  "slug": "case-2025-0138",
+  "title": "多智能体协同 AI 计算仿真服务平台实践",
+  "organization": {
+    "id": "org-0138",
+    "name": "中国电力工程顾问集团 西南电力设计院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电力工程顾问集团西南电力设计院有限公司“多智能体协同 AI 计算仿真服务平台实践”入选工信部 2025 年人工智能应用典型案例。西南院为中国电力工程顾问集团全资子企业，将每个专业能力封装为“智能体”在统一工程知识基础设施上协同工作，并研发基于知识图谱和多 Agent 协同的电力工程多模态 RAG 系统，赋能电力工程设计与计算仿真。",
+  "background": "电力工程设计涉及大量仿真计算任务。",
+  "problem": "电力工程设计涉及多专业协同、计算仿真复杂，传统工具协同效率低。",
+  "solution": "构建多智能体协同 AI 计算仿真服务平台，以知识图谱+多 Agent 协同 RAG 实现多专业智能体在统一知识基础设施上并行工作。",
+  "implementationSteps": [
+    "将各专业能力封装为智能体",
+    "构建统一工程知识基础设施与知识图谱",
+    "研发多 Agent 协同多模态 RAG 系统",
+    "在电力工程设计与计算仿真中应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多智能体协同一致性、专业知识准确性。",
+  "editorComment": {
+    "suitableFor": "电力工程设计多智能体协同与计算仿真",
+    "prerequisites": "具备工程知识库与仿真能力",
+    "priority": "建议优先",
+    "text": "多智能体+知识图谱重构电力工程设计范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国电力工程顾问集团 西南电力设计院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xn-1",
+      "title": "中国电力工程顾问集团西南电力设计院有限公司-官网",
+      "sourceType": "official",
+      "publisher": "西南电力设计院",
+      "originalUrl": "http://www.swepdi.ceec.net.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证西南院定位与电力工程设计能力。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-xn-2",
+      "title": "西南电力设计院取得“基于知识图谱和多Agent协同的电力工程多模态RAG系统”专利",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/KLFOV8AJ0519QIKK.html",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证多 Agent 协同多模态 RAG 系统。",
+      "publishedAt": "2026-02-11"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多专业协同",
+    "仿真复杂"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体协同",
+    "知识图谱RAG"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "西南电力设计院",
+    "多智能体",
+    "AI仿真",
+    "电力工程"
+  ],
+  "seo": {
+    "metaTitle": "多智能体协同 AI 计算仿真服务平台实践",
+    "metaDescription": "多智能体协同 AI 计算仿真服务平台实践",
+    "keywords": [
+      "中国电力工程顾问集团 西南电力设计院有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国能源建设集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

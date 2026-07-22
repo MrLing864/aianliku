@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0145",
+  "version": 1,
+  "slug": "case-2025-0145",
+  "title": "人工智能赋能“消化健康”专科能力提升",
+  "organization": {
+    "id": "org-0145",
+    "name": "青岛美迪康数字工程有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "青岛美迪康数字工程有限公司以人工智能技术打造智能消化道内镜信息系统，赋能消化健康专科能力提升，是青岛市南区“AI+生命健康”产业生态的代表性应用，入选工信部 2025 年人工智能应用典型案例。",
+  "background": "美迪康深耕医疗信息化 20 余年，专注智慧医疗，方案覆盖临床与各医技科室（影像、消化、心脏、呼吸、耳鼻喉、病理等），形成各专科完整患者诊疗数据。",
+  "problem": "消化内镜检查阅片量大、依赖医生经验，存在漏诊风险与效率瓶颈。",
+  "solution": "以 AI 技术构建智能消化道内镜信息系统，提升消化健康专科的辅助诊断与质控能力。",
+  "implementationSteps": [
+    "沉淀消化内镜专科诊疗数据与影像积累",
+    "研发智能消化道内镜信息系统",
+    "在医疗机构落地赋能消化健康专科"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "医疗数据合规、模型对早期病变的敏感性。",
+  "editorComment": {
+    "suitableFor": "医疗机构消化内镜专科智能化",
+    "prerequisites": "具备内镜影像数据与信息化基础",
+    "priority": "建议优先",
+    "text": "AI+生命健康在专科能力提升的落地样本。"
+  },
+  "implementers": [
+    {
+      "name": "青岛美迪康数字工程有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-medicon-1",
+      "title": "市南：构建“AI+生命健康”融合发展产业生态圈",
+      "sourceType": "news",
+      "publisher": "青岛政务网",
+      "originalUrl": "http://www.qingdao.gov.cn/ywdt/qsdt/202603/t20260330_10549220.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证美迪康智能消化道内镜信息系统。",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "publicId": "src-medicon-2",
+      "title": "青岛市南区两项目入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "青岛新闻网",
+      "originalUrl": "https://finance.qingdaonews.com/content/2026-06/26/content_23742268.htm",
+      "accessibility": "available",
+      "rightsNote": "地方媒体报道，佐证案例入选。",
+      "publishedAt": "2026-06-26"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "阅片量大",
+    "漏诊风险"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "医疗AI",
+    "专科信息系统"
+  ],
+  "modelStack": [
+    "智能消化道内镜信息系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "消化健康",
+    "内镜",
+    "医疗AI",
+    "专科能力"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能“消化健康”专科能力提升",
+    "metaDescription": "人工智能赋能“消化健康”专科能力提升",
+    "keywords": [
+      "青岛美迪康数字工程有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,6 +1,6 @@
 import "server-only";
 import { demoCases } from "@/data/demo-cases";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import type {
   Appointment,
   AssessmentJob,
@@ -10,7 +10,7 @@ import type {
 } from "@/lib/types";
 
 export async function getAdminStats() {
-  if (!isMongoConfigured())
+  if (!isDbConfigured())
     return {
       cases: demoCases.length,
       drafts: 0,
@@ -47,13 +47,7 @@ export async function getAdminStats() {
       deletedAt: { $exists: false },
     }),
     db.collection("assessment_jobs").countDocuments({
-      $or: [
-        { status: "failed" },
-        {
-          status: "ready",
-          notificationStatus: { $in: ["failed", "not_configured"] },
-        },
-      ],
+      status: "failed",
       deletedAt: { $exists: false },
     }),
     db.collection("contact_requests").countDocuments({
@@ -80,7 +74,7 @@ export async function getAdminStats() {
   };
 }
 export async function listAdminCases(limit = 100): Promise<CaseStudy[]> {
-  if (!isMongoConfigured()) return demoCases;
+  if (!isDbConfigured()) return demoCases;
   const db = await getDb();
   return db
     .collection<CaseStudy>("cases")
@@ -91,7 +85,7 @@ export async function listAdminCases(limit = 100): Promise<CaseStudy[]> {
     .toArray();
 }
 export async function getAdminCase(id: string): Promise<CaseStudy | null> {
-  if (!isMongoConfigured())
+  if (!isDbConfigured())
     return demoCases.find((item) => item.id === id || item.slug === id) ?? null;
   const db = await getDb();
   return db
@@ -102,7 +96,7 @@ export async function getAdminCase(id: string): Promise<CaseStudy | null> {
     );
 }
 export async function listAppointments(limit = 100): Promise<Appointment[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<Appointment>("appointments")
@@ -115,7 +109,7 @@ export async function listAppointments(limit = 100): Promise<Appointment[]> {
 export async function listDuplicateCandidates(
   limit = 100,
 ): Promise<DuplicateCandidate[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<DuplicateCandidate>("duplicate_candidates")
@@ -131,23 +125,19 @@ export type AdminAssessmentJob = Pick<
   | "id"
   | "status"
   | "reportId"
-  | "notificationStatus"
-  | "notificationAttempts"
   | "errorCode"
   | "createdAt"
   | "startedAt"
   | "completedAt"
-  | "notifiedAt"
   | "updatedAt"
 > & {
-  emailMasked: string;
-  canRetryNotification: boolean;
+  phoneMasked: string;
 };
 
 export async function listAssessmentJobs(
   limit = 100,
 ): Promise<AdminAssessmentJob[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   const jobs = await db
     .collection<AssessmentJob>("assessment_jobs")
@@ -172,30 +162,23 @@ export async function listAssessmentJobs(
     id: job.id,
     status: job.status,
     reportId: job.reportId,
-    notificationStatus: job.notificationStatus,
-    notificationAttempts: job.notificationAttempts,
     errorCode: job.errorCode,
     createdAt: job.createdAt,
     startedAt: job.startedAt,
     completedAt: job.completedAt,
-    notifiedAt: job.notifiedAt,
     updatedAt: job.updatedAt,
-    emailMasked: maskEmail(job.email),
-    canRetryNotification:
-      job.status === "ready" &&
-      ["failed", "not_configured"].includes(job.notificationStatus),
+    phoneMasked: maskPhone(job.phone),
   }));
 }
 
-function maskEmail(email: string) {
-  const [local = "", domain = ""] = email.split("@");
-  if (!domain) return "***";
-  const visible = local.slice(0, Math.min(2, local.length));
-  return `${visible}${"*".repeat(Math.max(3, local.length - visible.length))}@${domain}`;
+function maskPhone(phone: string) {
+  const cleaned = phone.replace(/[\s-]/gu, "");
+  if (cleaned.length < 7) return "***";
+  return `${cleaned.slice(0, 3)}****${cleaned.slice(-4)}`;
 }
 
 export async function listSources(limit = 200): Promise<SourceRecord[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<SourceRecord>("sources")
@@ -218,7 +201,7 @@ export interface AdminOrganizationSummary {
 export async function listOrganizations(
   limit = 200,
 ): Promise<AdminOrganizationSummary[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<CaseStudy>("cases")
@@ -258,7 +241,7 @@ export interface AdminImplementerSummary {
 export async function listImplementers(
   limit = 100,
 ): Promise<AdminImplementerSummary[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<CaseStudy>("cases")
@@ -270,7 +253,7 @@ export async function listImplementers(
         },
       },
       { $unwind: "$implementers" },
-      { $group: { _id: "$implementers", caseCount: { $sum: 1 } } },
+      { $group: { _id: "$implementers.name", caseCount: { $sum: 1 } } },
       { $sort: { caseCount: -1 } },
       { $limit: limit },
       { $project: { _id: 0, name: "$_id", caseCount: 1 } },
@@ -294,7 +277,7 @@ export async function listContactRequests(
   type?: string,
   limit = 200,
 ): Promise<AdminContactRequest[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<AdminContactRequest>("contact_requests")
@@ -315,7 +298,7 @@ export interface AdminAuditEntry {
   createdAt: Date;
 }
 export async function listAuditLogs(limit = 250): Promise<AdminAuditEntry[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<AdminAuditEntry>("audit_logs")
@@ -338,7 +321,7 @@ export interface AdminImportJob {
   updatedAt: Date;
 }
 export async function listImportJobs(limit = 50): Promise<AdminImportJob[]> {
-  if (!isMongoConfigured()) return [];
+  if (!isDbConfigured()) return [];
   const db = await getDb();
   return db
     .collection<AdminImportJob>("import_jobs")
@@ -349,8 +332,16 @@ export async function listImportJobs(limit = 50): Promise<AdminImportJob[]> {
     .toArray();
 }
 
-export async function getAnalyticsSummary() {
-  if (!isMongoConfigured())
+export async function getAnalyticsSummary(): Promise<{
+  qualified7d: number;
+  qualified30d: number;
+  searches30d: number;
+  zeroSearches30d: number;
+  assessments30d: number;
+  appointments30d: number;
+  topCases: Array<{ caseId: string; readers: number }>;
+}> {
+  if (!isDbConfigured())
     return {
       qualified7d: 0,
       qualified30d: 0,
@@ -399,7 +390,6 @@ export async function getAnalyticsSummary() {
           "assessment_job_queued",
           "assessment_job_ready",
           "assessment_job_failed",
-          "assessment_email_sent",
         ],
       },
       occurredAt: { $gte: thirtyDaysAgo },

@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0233",
+  "version": 1,
+  "slug": "case-2025-0233",
+  "title": "脑机接口智能康复设备创新生态构建与规模化应用实践",
+  "organization": {
+    "id": "org-0233",
+    "name": "力之智能科技（广州）有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "力之智能科技（广州）有限公司（成立于 2022 年，番禺，脑机接口+具身智能机器人智能康复科技企业，依托华南理工大学、中山大学等）“脑机接口智能康复设备创新生态构建与规模化应用实践”入选工信部 2025 年人工智能应用典型案例。公司深耕智慧康复、医养结合，通过构建“全域技术链”与脑机接口数据系统，推动脑机接口智能康复设备走进医院与社区。",
+  "background": "",
+  "problem": "传统康复依赖人工、周期长，脑机接口康复设备价格高、生态不成熟，规模化落地难。",
+  "solution": "以脑机接口+具身智能康复设备+数据系统构建创新生态，融合人工智能算法实现意念驱动康复训练并推动规模化应用。",
+  "implementationSteps": [
+    "构建脑机接口+具身智能全域技术链",
+    "研发脑机接口智能康复设备",
+    "建设脑机接口数据系统形成数据闭环",
+    "推动设备在医院、社区规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "脑机信号解码稳定性、临床安全与合规。",
+  "editorComment": {
+    "suitableFor": "脑机接口智能康复与医养结合",
+    "prerequisites": "具备脑机接口与康复算法能力",
+    "priority": "建议优先",
+    "text": "脑机接口康复设备生态化、规模化的实践。"
+  },
+  "implementers": [
+    {
+      "name": "力之智能科技（广州）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-233-1",
+      "title": "力之智能科技官网-关于力之（脑机接口与人工智能算法，依托华南理工、中山大学）",
+      "sourceType": "official",
+      "publisher": "力之智能科技（广州）",
+      "originalUrl": "https://www.lycheemed.com/gylz",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证脑机接口康复技术与研发依托。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-233-2",
+      "title": "从单点硬件到数据闭环，力之智能创新发布脑机接口数据系统",
+      "sourceType": "news",
+      "publisher": "南方日报（南方+）",
+      "originalUrl": "https://static.nfnews.com/content/202606/29/c12574753.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证脑机接口数据系统与规模化应用布局。",
+      "publishedAt": "2026-06-29"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "康复周期长",
+    "规模化难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "脑机接口",
+    "AI康复算法"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "力之智能",
+    "脑机接口",
+    "智能康复",
+    "具身智能"
+  ],
+  "seo": {
+    "metaTitle": "脑机接口智能康复设备创新生态构建与规模化应用实践",
+    "metaDescription": "脑机接口智能康复设备创新生态构建与规模化应用实践",
+    "keywords": [
+      "力之智能科技（广州）有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "广东省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

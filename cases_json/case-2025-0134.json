@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0134",
+  "version": 1,
+  "slug": "case-2025-0134",
+  "title": "乐政 AI 公安智能体平台应用",
+  "organization": {
+    "id": "org-0134",
+    "name": "四川乐政科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "四川乐政科技有限公司“乐政 AI 公安智能体平台应用”入选工信部 2025 年人工智能应用典型案例。乐政科技为国家级高新技术企业、专精特新中小企业，以人工智能技术为核心，依托“多模型融合+海量数据”双引擎，为政府和公安等提供 AI 智能体全域应用与政务公共服务。",
+  "background": "基层警务与政务存在大量重复性咨询与审批场景。",
+  "problem": "公安/政务业务场景多、事务繁杂，传统信息化难以支撑智能辅助与高效协同。",
+  "solution": "构建乐政 AI 公安智能体平台，以多模型融合+海量数据驱动，提供面向公安业务的智能体应用。",
+  "implementationSteps": [
+    "构建多模型融合+海量数据双引擎",
+    "研发面向公安业务的 AI 智能体",
+    "打造乐政 AI 公安智能体平台",
+    "在公安/政务场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "数据安全与权限合规、业务场景准确性。",
+  "editorComment": {
+    "suitableFor": "公安/政务 AI 智能体应用",
+    "prerequisites": "具备政务数据与合规基础",
+    "priority": "建议评估",
+    "text": "AI 智能体赋能公安政务的实践。"
+  },
+  "implementers": [
+    {
+      "name": "四川乐政科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-lz-1",
+      "title": "乐政科技-官网",
+      "sourceType": "official",
+      "publisher": "四川乐政科技",
+      "originalUrl": "https://www.joygov.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证公司定位与 AI 智能体业务。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-lz-2",
+      "title": "四川乐政科技有限公司-百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E4%B9%90%E6%94%BF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/49761829",
+      "accessibility": "available",
+      "rightsNote": "百科词条，佐证高新技术企业、AI 智能体全域应用定位。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "事务繁杂",
+    "协同效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模型融合",
+    "智能体"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "乐政科技",
+    "公安智能体",
+    "政务AI",
+    "智能体平台"
+  ],
+  "seo": {
+    "metaTitle": "乐政 AI 公安智能体平台应用",
+    "metaDescription": "乐政 AI 公安智能体平台应用",
+    "keywords": [
+      "四川乐政科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0260",
+  "version": 1,
+  "slug": "case-2025-0260",
+  "title": "基于光明电力大模型和电网一张图的应用实践",
+  "organization": {
+    "id": "org-0260",
+    "name": "国网浙江省电力有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国网浙江省电力有限公司实践“基于光明电力大模型和电网一张图的应用”，依托国家电网 2024 年 12 月发布的国内首个千亿级多模态电力行业大模型“光明电力大模型”，结合“电网一张图”数字孪生底座，构建省级人工智能中心并落地杭电“光擎智脑”、评标智能体等场景应用。",
+  "background": "国家电网构建以光明电力大模型为核心的“6541”人工智能总体规划布局；国网浙江电力率先建成省级人工智能中心，部署全尺寸光明电力大模型，推进“数字浙电”智能转型。",
+  "problem": "省级电网业务场景多、数据分散，传统模式难以实现跨环节智能协同与决策。",
+  "solution": "以光明电力大模型+电网一张图数字孪生底座，构建省级 AI 中心与多场景智能体（如光擎智脑、评标智能体）。",
+  "implementationSteps": [
+    "部署光明电力大模型与电网一张图底座",
+    "建成省级人工智能中心",
+    "落地光擎智脑、评标智能体等场景"
+  ],
+  "duration": "2024-12 大模型发布",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "电力生产安全边界、大模型决策可靠性。",
+  "editorComment": {
+    "suitableFor": "省级电网多场景智能应用",
+    "prerequisites": "具备电网一张图与运行数据",
+    "priority": "建议优先",
+    "text": "光明大模型+电网一张图的省级电网范式。"
+  },
+  "implementers": [
+    {
+      "name": "国网浙江省电力有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zj-1",
+      "title": "一个省级电网智能转型的“光明”解法",
+      "sourceType": "news",
+      "publisher": "能源发展网",
+      "originalUrl": "https://www.nationalee.com/newsinfo/8287358.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证国网浙江光明大模型与电网一张图应用。",
+      "publishedAt": "2025-04-22"
+    },
+    {
+      "publicId": "src-zj-2",
+      "title": "国网浙江电力应用基于光明电力大模型构建的评标智能体",
+      "sourceType": "news",
+      "publisher": "北极星电力网",
+      "originalUrl": "https://news.bjx.com.cn/html/20251023/1466243.shtml",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证光明大模型场景落地。",
+      "publishedAt": "2025-10-23"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据分散",
+    "难协同"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "数字孪生"
+  ],
+  "modelStack": [
+    "光明电力大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光明电力大模型",
+    "电网一张图",
+    "省级AI中心",
+    "光擎智脑"
+  ],
+  "seo": {
+    "metaTitle": "基于光明电力大模型和电网一张图的应用实践",
+    "metaDescription": "基于光明电力大模型和电网一张图的应用实践",
+    "keywords": [
+      "国网浙江省电力有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "国家电网有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

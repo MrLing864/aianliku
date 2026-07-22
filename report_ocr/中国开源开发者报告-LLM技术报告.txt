@@ -1,0 +1,1736 @@
+
+===== PAGE 1 =====
+OSCHINA
+Ggitee
+2023中国开源开发者报告
+China Open Source 2023 Annual Report
+LLM技术报告
+出品:OSCHINA&Gitee
+编委会：
+雨多田光，OSCHINA总编
+局长，OSCHINA主编
+王茜，OSCHINA主编
+叶子，OSCHINA新媒体运营
+鱼仔，OSCHINA新媒体运营
+诺墨，Gitee开源社区产品负责人
+张力文，Gitee公有云研发负责人
+李泽辰，Gitee主编
+李涛，APUS 董事长兼CEO
+2023年12月发布
+设计：张琪
+===== PAGE 2 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+技术报告
+大语言模型（LLM）技术作为人工智能领域的一项重要创
+新在今年引起了广泛的关注。
+LLM是利用深度学习和大数据训练的人工智能系统，专门
+设计来理解、生成和回应自然语言。这些模型通过分析大量
+的文本数据来学习语言的结构和用法，从而能够执行各种语
+言相关任务。以 GPT 系列为代表，LLM 以其在自然语言
+处理领域的卓越表现，成为推动语言理解、生成和应用的引
+LLM
+擎。
+LARGELANGUAGE MODEL
+LLM在多个领域都取得了令人瞩目的成就。在自然语言处
+理领域，GPT系列模型在文本生成、问答系统和对话生成
+等任务中展现出色的性能。在知识图谱构建、智能助手开发
+等方面，LLM 技术也发挥了关键作用。此外，它还在代码
+生成、文本摘要、翻译等任务中展现了强大的通用性。
+本报告从技术人视角出发，将深入探讨LLM技术的背景、
+基础设施、应用现状，以及相关的工具和平台。
+===== PAGE 3 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM Tech Map
+LLMTechMap大模型技术图谱
+基础设施
+向量致据库
+敌据库向量支持
+大模型程架、微调 (Fine Tuning)
+0AquilaDB
+[ROCKSET]
+pgvector
+OMilvus
+MLMFLOWHLORA参
+AI 编程
+大模型
+Annoy
+supabase
+:ne04j
+OVEARCH
+marqo
+LLaMA-EFficient-Tuning
+elastic LUCENE
+MongoDB.
+Pinecone
+XTuring
+SOpenSearch
+Faiss
+Solr
+III lickHouse
+P-tuning v2
+Dchroma
+ Weaviate
+CASSANDRA
+备案上线的中国大模型
+h20-llmstudio
+vespa
+q drant
+OsinglesStore
+redis
+>插件、IDE、终端
+ChatGLM-Efficient-Tuning
+ScaNN
+nucliaco
+kin=tica
+Timescale
+知名大模型
+Alpaca-LoRA
+>代码生成工具
+知名大模型应用
+大模型训练平台与工具
+ deepspeed
+[M]
+oPyTorch
+colossalAl
+XGBoost
+TensorFlow
+mxnet
+ransformers
+ RAY
+BMtrain
+/ PaddlePaddle
+工具和平台
+基础设施
+AI Agent (LLM Agent)
+AI编程
+国Rivet
+<>CodeGeex
+JARVIS
+姜子牙
+GPTeam
+向量数据库
+GPT Researcher
+OCode Llama
+Generative Agents
+ LLMOps
+Copilot
+NexusGPT
+StableCode
+AutoGPT
+数据库向量支持
+Cur
+大模型聚合平台
+BabyAGI
+MetaGPT
+Amazon Bedrock Agents
+CodeArts Snap
+TabbyML Comate
+开发工具
+大模型框架、微调 (Fine Tuning)
+大模型
+大模型训练平台与工具
+备案上线的中国大模型
+知名大模型
+知名大模型应用
+ DALLE3
+文心一
+安通义大模型
+BLAoM
+chatGPT
+混元
+Tb Bing
+DragGAN
+AN claude
+查书生
+文心一言
+业盘古
+Llama2
+cursor
+MINMAX
+@Dolly 
++Bard
+算力
+Stable Diffusion
+LLM Agent
+Midjourney
+@GLM-1308
+GPT-4 Falcon
+PaLM2Gemini一#
+Mochi Diffusion
+工具和平台
+大模型聚合平台
+LLMOps
+开发工具
+面 BentoML
+MakerSuite
+LangChain
+Hugging Face
+vO.dev
+D Dify.Al
+Cicodium
+imgcok
+FlowiseAl
+ModetScope
+编程语言
+CECS
+QUESTAI
+SOTA!模型
+Gitee Al辰
+Phoenix
+GPTCache
+Project IDX
+Jina
+codeium
+算力
+人AstandAMDZ
+nVIDIA
+HYGON
+===== PAGE 4 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+技术背景
+Transformer架构和预训练与微调策略是LLM 技术的核心，随着大规模语言数据集的可用性和计算能
+力的提升，研究者们开始设计更大规模的神经网络，以提高对语言复杂性的理解。
+GPT（Generative Pre-trained Transformer）的提出标志着 LLM 技术的飞速发展，其预训练和微调的
+方法为语言任务提供了前所未有的性能，以此为基础，多模态融合的应用使得LLM更全面地处理各种
+信息，支持更广泛的应用领域。
+DataTransformation
+Model Inference
+ModelTrainingandDevelopment
+Integration
+Data
+WorkflowManager
+Sources
+(Aow,Prefect, Pachydem, 
+Clients
+Query Engines
+Feature Store
+Feature Server
+[Tecton, Feast, Databricks)
+(Tecton, Feast, Databricks)
+Data Science Libraries
+Pre-trained Models
+(Tecton, Feast, Databricks)
+ML APIs
+[Tecton, Feast, Databricks)
+Data Science / Machine Learning Platform
+Model Registry
+Batch Predictor
+App Framework
+(Spark, etc.)
+(Flask, streamit, Rasa, etc)
+ML Framework
+Compiler
+(OctoML/TVM)
+(Sciki-learn, XGBoost, MLIib)
+Online Model Server
+VectorDatabase
+DL Framework
+Validation
+ensorfow, Keyas, Pytorch, H20]
+RL Libraries
+Auditing
+(ym, Dopamine, RLLib, Coach)
+(Credo, Armilla
+Distributed Processing
+Experiment Tracking
+Monitoring
+(Weights &E
+Low Code ML
+(DataRobot, H20, Databricks AutoML, Google A
+nual, Mage, MindsDB, Obviously A, Roboflow, Akkio)
+图源：https://postgresml.org/docs/.gitbook/assets/m/_system.svg
+32
+===== PAGE 5 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+基础设施
+向量数据库/数据库向量支持
+大模型框架及微调
+(Fine
+01
+02
+Tuning)
+为大模型提供高效的存储和检索能力
+大模型框架提供基本能力和普适性，而微调
+则是实现特定应用和优化性能的关键环节
+大模型训练平台&工具
+编程语言
+03
+04
+提供了在不同硬件和环境中训练大语言模型
+以 Python 为代表
+所需的基础设施和支持
+===== PAGE 6 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：[
+LLM
+向量数据库/数据库向量支持
+向量数据库是专门用于存储和检索向量数据的数据库，它可以为LLM提供高效的存储和检索能力。通过数据向量化，实现了
+在向量数据库中进行高效的相似性计算和查询。
+根据向量数据库的的实现方式，可以将向量数据库大致分为两类：
+>原生向量数据库
+>添加“向量支持”的传统数据库
+原生的向量数据库专门为存储和检索向量而设计，
+除了选择专业的向量数据库，对传统数据库添加
+所管理的数据是基于对象或数据点的向量表示进行
+“向量支持”也是主流方案。比如Redis、
+组织和索引。
+PostgresQL、ClickHouse、Elasticsearch 等传
+包括 Chroma、LanceDB、Margo、Milvus、
+统数据库均已支持向量检索。
+Pinecone 等均属于原生向量数据库。
+deeplake
+SingleStore
+LanceDB
+Timescale
+ROCKSET
+nucliadb
+Faiss
+marqo
+MongoDB
+redis :ne04j
+ Solr
+ScaNN
+LUCENE
+VEARCH
+AquilaDB
+Milvus
+Apache
+Il ClickHouse
+pgvector
+vespa
+Pinecone
+CASSANDRA
+Chroma
+Weaviate
+SOpenSearch
+kin=tica
+Vald
+elastic
+Annoy
+drant
+supabase
+===== PAGE 7 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：「
+LLM
+向量数据库/数据库向量支持
+自2022年ChatGPT问世以来，大模型星火初始，向量数据
+库不但获得了技术领域的关注，也逐渐吸引了市场和资本的注
+Funding to vector database startups takes off
+意力。近两年来，向量数据库公司迎来了一波融资潮：
+Disclosed equity funding & deals (as of 04/27/2023)
+Funding
+>Pinecone：已融资1.38亿美元
+$176M
+Zilliz：已融资1.15亿美元
+>Weaviate：已融资6770万美元
+>Vespa：已融资3100万美元
+>Chroma：已融资2000万美元
+Deals
+>Qdrant：已融资980万美元
+>Marqo：已融资440万美元
+$10M
+$44M
+SOM
+>LanceDB：已融资50万美元
+$109M
+2019
+2020
+2021
+2022
+2023YTD
+CBINSIGHTS
+据西南证券研究发展中心预测，2025年向量数据库渗透率约
+为30%，则全球向量数据库市场规模约为99.5亿美元，中
+2023年前四个月，向量数据库公司融资额已经达到1.76亿美元，超过了2022
+国向量数据库市场规模约为82.56亿元。
+年的总和
+(图源：https://www.cbinsights.com/research/generative-ai-infrastructure
+vector-database/)
+===== PAGE 8 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型框架及微调
+基础设施：
+LLM
+(Fine Tuning)
+大模型框架指专门设计用于构建、训练和部署大型机器
+学习模型和深度学习模型的软件框架。这些框架提供了
+YiVal
+必要的工具和库，使开发者能够更容易地处理大量的数
+据、管理巨大的网络参数量，并有效地利用硬件资源。
+PEFT
+微调（Fine Tuning）是在大模型框架基础上进行的一个
+H20.ai
+关键步骤。在模型经过初步的大规模预训练后，微调是
+h2o-llmstudio
+用较小、特定领域的数据集对模型进行后续训练，以使
+其更好地适应特定的任务或应用场景。这一步骤使得通
+xTuring
+ONEFLOW
+用的大型模型能够在特定任务上表现出更高的精度和更
+LORA
+好的效果。
+大模型框架提供了LLM的基本能力和普适性，而微调
+则是实现特定应用和优化性能的关键环节。两者相结合，
+OpenLLM
+finetuner
+使得LLM 在广泛的应用场景中都能发挥出色的性能。
+===== PAGE 9 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型框架及微调
+基础设施：1
+LLM
+ Tuning)
+(Fine
+大模型框架有哪些特点：
+>抽象和简化：大模型开发框架通过提供高
+模型库
+计算机视觉
+语音识别
+自然语言处理
+广告/推荐系统
+Model Zoo
+cnn/detection/face
+Istm/rnn
+bert/transformer
+fm/deep_n_wide
+层次的API简化了复杂模型的构建过程。这
+些API抽象掉了许多底层细节，使开发者能
+接口层
+模型转换
+用户接口
+静态执行
+动态执行
+API
+keras/onnx
+define and run
+python
+够专注于模型的设计和训练策略。
+define by run
+算子描述
+自动梯度求导
+图优化
+自动并行
+graph optimization
+autograd
+编译时
+operator
+data/model/pipelining parallelism
+》性能优化：这些框架经过优化，以充分利用
+Compiler
+代价模型
+自动放置
+数据路由
+内存规划
+auto placement
+cost model
+bandwidthplanner
+GPU、TPU等高性能计算硬件，以加速模型
+memoryplanner
+的训练和推理过程。
+运行时
+消息中枢
+执行体
+状态机
+控制平面
+message/bus
+actor
+finite state machine
+Runtime
+rpc
+》易于扩展：为了处理大型数据集和大规模参
+支撑库
+平台及通用套件
+算子实现
+张量计算库
+张量编译器及代码生成
+Libraries
+platform/common
+kernel
+ndarray
+数网络，这些框架通常设计得易于水平扩展
+xla/tensorrt
+支持在多个处理器或多个服务器上并行处理。
+硬件库
+系统管理
+加速器计算库
+通信库
+文件系统库
+Lardware
+memory/thread/driver
+epoll/ibverbs/nccl
+cpu/gpu/fpga/npu
+Interfaces
+hdfs/posix/nfs/s3/oss
+>支持大数据集：它们提供工具来有效地加
+国产深度学习框架OneFlow架构
+载、处理和迭代大型数据集，这对于训练大
+(图源：https://www.oneflow.org/a/chanpin/oneflowl)
+型模型尤为重要。
+===== PAGE 10 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型框架及微调
+基础设施：
+(Fine Tuning)
+LLM
+想要微调一个模型，一般包含以下关键步骤：
+Task Specific Examples
+Base Model
+InstructModel
+trained on
+results in
+PROMPT ...,. COMPLETION.. ]
+1.选择预训练模型：选取一个已经在大量数据上进
+PROMPT [..], COMPLETION..]
+Pre-trained
+Fine Tuned
+行过预训练的模型作为起点；
+PROMPT [..., COMPLETION[... 
+LLM
+LLM
+PROMPT [..., COMPLETION[.. ]
+2.准备任务特定数据：收集与目标任务直接相关的
+数据集，这些数据将用于微调模型；
+Summarisethefollowingtext
+Translate this sentence to..
+[Example Text]
+[Example Text]
+[Example Completion]
+[Example Completion]
+3.微调训练：在任务特定数据上训练预训练的模型
+调整模型参数以适应特定任务；
+Instruction dataset
+LLM Completion
+Instruction dataset
+PROMPT [.-], COMPLETION[-]
+PROMPT [.] COMPLETION[]
+Validatior
+4.评估：在验证集上评估模型性能，确保模型对新
+Validation
+PROMPT [.] COMPLETION[.-]
+Pre-trained
+PROMPT[-] COMPLETION[]
+PROMPT [.] COMPLETION[]
+Actual Label
+Accuracy
+数据有良好的泛化能力;
+LLM
+PROMPT [.] COMPLETION[]
+PROMPT [-] COMPLETION[]
+Test
+5.部署：将性能经验证的模型部署到实际应用中去。
+Accuracy
+Loss : Cross Entropy
+微调的过程也是分类模型训练的过程
+(图源：https://medium.com/mlearning-ai/what-is-a-fine-tuned-llm-67bfOb5df081)
+10132
+===== PAGE 11 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：
+LLM
+大模型训练平台与工具
+大模型训练平台和工具提供了强大且灵活的基础设施，使得开发和训练复杂的语言模型变得可行且高
+效。
+这些工具提供了先进的算法、预训练模型和优化技术，极大地简化了模型开发过程，加速了实验周期，
+并使得模型能够更好地适应各种不同的应用场景。此外，它们还促进了学术界和工业界之间的合作与
+知识共享，推动了自然语言处理技术的快速发展和广泛应用。
+相比前边的大模型框架和微调，一言以蔽之：平台化（训练平台）、灵活化（各种工具）
+dmlc
+[M】
+RAY
+XGBoost
+PaddlePaddle
+MindSpore
+deepspeed
+xnet
+BMtrain
+TensorFlow
+O PyTorch
+colossalAl
+Transformers
+===== PAGE 12 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：
+LLM
+大模型训练平台与工具
+大模型训练平台与工具根据其性质不同，可分为以下几类：
+Training Libraries
+InterfaceLibraries
+1.云服务和商业平台
+这些平台提供了从模型开发到部署的综合解决方案，包括计算资源
+Python Client
+C++ Client
+数据存储、模型训练和部署服务。它们通常提供易于使用的界面，支
+持快速迭代和大规模部署。Amazon SageMaker、Google Cloud
+Al Platform 和 Microsoft Azure Machine Learning 都是提供端到
+CAPI
+端机器学习服务的云平台。
+2.专用硬件加速工具
+DistributedMaster
+DataflowExecutor
+这些工具和库专门为加速机器学习模型的训练和推理而设计，通常利
+用GPU或TPU等硬件。这类工具可以显著提高训练和推理的速度，
+使得处理大规模数据集和复杂模型变得可行。NVIDIACUDA和
+KernelImplementation
+Google Cloud TPU 均是此类工具。
+NetworkLayer
+Device Layer
+3.开源框架和库
+这类工具通常由开源社区支持和维护，提供了灵活、可扩展的工具和
+库来构建和训练大型机器学习模型，如TensorFlow和PyTorch和
+Hugging Face Transformers 等 。
+TensorFlow架构图
+(图源：https://www.geeksforgeeks.org/architecture-of
+tensorflowh
+===== PAGE 13 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：
+LLM
+编程语言
+Swift
+JavaScript
+C#MATIAB。
+C++
+C++
+Rust
+Julia
+Golang
+LLM的训练和应用通常使用多种编程语言，取决于任务的需求和团
+ia
+Java
+Pythan
+Golang
+Bython
+队的偏好。
+Python
+CH MATLAB
+Swift
+RRTLA
+Julia Python
+Golang
+Swift
+Python 是 LLM 开发中最常用的编程语言。它的广泛使用得
+Java
+Julia
+JavaScript
+JavaScript
+Rust
+MATLABC++
+益于其简洁的语法、强大的库支持（如NumPy，Pandas，
+Julia
+Python
+JavaScript
+Julia
+JavaScript
+MATLAR
+Matplotlib）和深度学习框架（如TensorFlow，PyTorch，Keras）
+Julia
+MATLAB"
+此外，Al开发领域也有崛起的新秀语言 Mojo，C++有时
+Java
+JavaScriptGolang
+Golang
+Swift
+用于优化计算密集型任务，而Java在企业环境中处理模型部署和系
+统集成方面常见。JavaScript 适用于 Web 环境的 LLM 应用。
+Rust
+Python
+Mojo
+Juia Mojo
+Juta Mojo
+Java
+Swift
+Swift
+Python
+Swift
+Python
+C#
+Golarg
+Swift
+C#
+RuSt
+Swift
+C++
+Julia
+===== PAGE 14 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：
+LLM
+编程语言
+2023年是大语言模型（LLM）之年，Python作为人工智能领域使用度最高的编程语言，在2023年到底有多火？
+从各种开发者报告、编程语言榜单来看。只要出现有关编程语言流行度的排名，Python 始终位列前茅，而 Java、C/C++ 等
+同样在LLM开发中发挥关键作用的语言紧随其后。
+RedMonk LanguageRankings
+September2012-January2023
+TopProgrammingLanguages2023
+JavaScript
+JavaScript
+Clickabuttontoseeadifferentlyweightedranking
+Java
+Python
+Spectrum
+Jobs
+Trending
+PHP
+Java
+Python
+PHP
+Python
+C#
+Ruby
+Java
+0.7358
+JavaScript
+Q.554
+C++
+0.4599
+SQL
+Change
+Dec 2023
+Dec 2022
+Programming Language
+Ratings
+Change
+0.4427
+0.4187
+Python
+13.86%
+-2.80%
+0.3497
+HTML
+0.202
+11.44%
+-5.12%
+0.1921
+TypeScript
+10.01%
+-1.92%
+C++
+0.1882
+Shell
+0.142
+PHP
+7.99%
+-3.83%
+Java
+0.1144
+0.108
+7.30%
+C#
++2.38%
+Swift
+===== PAGE 15 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+基础设施：
+LLM
+编程语言
+Mojo
+新势力
+2023年9月面向大众开放
+>LLVM/Swift 之父创业公司 Modular Al开
+结合了 Python 的易用性以及 C 语言的可移
+植性和性能
+支持与任意Python 代码无缝集成
+LANGUAGES
+TIME（S）*
+SPEEDUP VS PYTHON
+性能是 Python 的 68000 倍
+PYTHON
+1027 s
+3.10.9
+Mojo与其他语言性能对比
+PYPY
+46.1s
+22x
+（图源：https://www.modular.com/max/mojo）
+SCALAR C++
+0.20s
+5000x
+0.03 s
+MOJOW
+68000x
+===== PAGE 16 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型应用现状
+ChatGPT
+2022年底大模型应用ChatGPT发布后，点燃了世界范
+AI
+Claude
+围内对于大模型技术及其应用的关注和热情。2023年，
+国内外各大厂商均投身于大模型的浪潮当中，涌现了诸多
+知名的大模型及应用，它们结合了文本、图片、视频、音
+频多种介质，在文本生成、图片生成、AI编程等方向均
+有出色的表现。
+Midjourey
+文心一言
+GitHub Copilot
+===== PAGE 17 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型应用现状：
+知名大模型
+Dolly
+MOSS
+百川智能
+BAICHUAN AI
+LABS
+盘古
+文心一言
+GPT-4
+HUAWEI
+在全球范围内，已经发布了多款知名大模型，这些大模
+型在各个领域都取得了突破性的进展。
+ChatGLM
+Gemini
+处理文本数据的GPT-4，能同时处理和理解多种类型数
+讯飞星火
+据的多模态模型DALL-E3，以及开源大模型的代表
+StableLM
+PaLM2
+OpenLLaMA
+LIlama 2 都在短时间内获得了大量关注和用户，构成了
+大模型领域的「第一梯队」。
+通义大模型
+DALLE 3
+Technology
+nnovation
+Stable Diffusion
+Llama 2
+nstitute
+Falcon
+MISTRAL
+BL*M
+AI-
+零一万物
+01.AP
+===== PAGE 18 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型应用现状：
+首批备案上线的中国大模型
+8月31日，百度、字节、商汤、中科院旗下
+紫东太初、百川智能、智谱华章等8家企业／
+机构的大模型产品首批通过《生成式人工智能
+百川智能
+云雀
+服务管理暂行办法》备案，可正式上线面向公
+书生
+众提供服务。
+BAICHUAN AI
+具体包括：百度（文心一言）、抖音（云雀大
+模型）、智谱AI（GLM大模型）、中科院
+日日新
+MINIMAX
+（紫东太初大模型）、百川智能（百川大模
+GLM-130B
+型）、商汤（日日新大模型）、MiniMax
+An Open Bilingual Pre-Trained Model
+（ABAB大模型）、上海人工智能实验室（书
+生通用大模型）、腾讯（混元大模型，9月15
+混元
+日通过）
+紫东太初
+文心一言
+ZIDONGTAICHU
+认识世界理解世界
+===== PAGE 19 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型应用现状：
+知名大模型应用
+LLM已经在多种应用场景中得到了应用，包括文本生成、机器翻译、问答、自然语言推理
+等。
+nature
+以ChatGPT、Claude、Bard为代表的文本生成应用，Midjourney为代表的图片生成
+应用，以 GitHub Copilot 为代表的 Al 编程应用，以 HeyGen 为代表的数字人生成应用，
+在推出后都获得了大量用户的青睐。
+ChatGPT、llyaSutskever
+入选《Nature》
+年度十大科学人物
+ONE YEAR
+TEN STORIES.
+10peoplewhohelpedshape
+sciencein2023
+《自然》2023年度十大人物中，ChatGPT破例成为第11
+(图源：https://www.nature.com/articles/d41586-023-03930-6
+QpenAl联合创始人和前首席科学家llyaSutskever
+===== PAGE 20 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+大模型应用现状：
+知名大模型应用
+ HeyGen
+# newbies-23
+描16
+om for new u.
+>Create Vide
+40 new messages sihce 5-43FPM
+Masrk As Read 
+y Bot king of the mountain
+How do you want to create videos today?
+ChatGPT
+ Templote
+Stort with o Templote
+Continue My Project
+Start with an A
+@ Avot
+D Vide
+Uimitation
+ HeyGen News
+Lie Sou
+C Hayoen XCan
++ newbies-23
+v4.1
+Midjourney：最强文本生成图像A/应用
+ChatGPT：最强生成式对话大模型产品
+HeyGen：年度最火热A/视频生成工具
+Convert codeto your programming
+白 Poe
+Explore bots
+AI赋能原生产品矩阵
+APUS
+languageofchoice
+Sage
+sinclude cstdio.h>
+def fibonaccitn):
+woid ribonaces(int n) (
+orintt"Fibo
+-0.1
+int a - e, b - 1, next?
+onacci Series: )
+printr(*Fibenscei Series: *];
+for (int
+ n; i++) (
+101848
+19-
+VideoGen
+ImageGen
+AudioGen
+TextGen
+ChatGPT
+APUS大模型
+return e;
+ NeevaAl
+Dragonty
+ Explore bots
+1.3K foilc
+干亿级多模态通用A/大模型
+Codeverter：代码转换器
+APUS:
+Poe：集成主流大模型的对话机器人
+===== PAGE 21 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+AI 编程
+Applicationtypes:Usersandexperimenters
+Experimenters
+Users
+Programming
+生成式AI正经历前所未有的快速普及，
+Data analysis
+而开发者们正积极将 AI作为自己的生
+产力工具，随着众多 AI编程工具的普
+Customer support
+及，开发者们使用AI辅助工作已经逐
+渐司空见惯。
+Othercopy
+分析公司O’Reilly日前发布一份
+《2023 Generative Al in the
+Marketing copy
+Enterprise》报告，报告中指出，有
+77%受访者正在使用AI来辅助编程。
+Research
+Webdesign
+Art
+40
+50
+10
+20
+30
+70
+60
+80
+图源：https://www.oreilly.com/radar/generative-ai-in-the-enterprisel
+===== PAGE 22 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+编程工具：
+Al:
+插件、IDE、终端
+Ask me anything
+Cocleium: Refactor | Explain| Generate Docstring
+Use @* to mention code blocks
+import matplotlib.pyplot as plt
+import nunpy as np
+import pandas as pd
+Generate docstring for function:
+plot_two_variabl
+col_b)t
+11:14)
+GITHUB COPILOT: CHAT
+目前最常见的 AI编程工具大多以插件、IDE 和终端
+i addresses.rb X
+ parse_expenses.py X
+s sentiments.ts )
+monalisa
+import datetime
+的形式出现，它们大多交互直观且使用门槛低，大大
+Proposedc
+Write unit tests for this function
+Inserting at
+def parse_expenses (expenses_string):
+Parse the list of expenses and return the list of triples (date
+提高了AI 编程工具的使用率。
+Applied!
+GitHub Copilot
+Ignore lines starting with s.
+Parse the dete using datetime.
+Exanple expenses_string:
+import unittest
+Plots as
+import datetime
+2823-01-83 2.59 DKK
+GitHub Copilot 和 Codeium 是比较常见的 Al 编程
+2823-01-83-2.72EUR
+clas
+data (
+插件，而 Cursor 和 Warp 分别是具有 Al 编程能力
+col_a
+getActivePHUsers.pyX
+colb
+33
+的 IDE 和终端工具。
+headers = {
+Returns
+34
+"Authorization": f"Bearer {POSTHOG_API_KEY}"
+None
+/warp/app
+WarpAl
+use paginat
+除了海外产品，国内如姜子牙、CodeFuse、
+ Accept
+How doIfix this?
+CodeGeeX、百度 Comate 等都是十分优秀的 Al 编
+while url:
+The cot
+cases c
+respons
+page = 1
+36
+The error message indicates that the
+程工具。
+with co
+37
+whize True:
+image with the ID '12ef77b9fab6’ cannot
+GitHub Copilot
+38
+params
+be deleted because it is being used by a
+respons
+~/warp
+running container with the ID
+data =
+48
+"b15d383b5eda'. To fix this, you need to
+Ask a
+cd app
+if not
+stop and remove the container before you
+bre
+can delete the image.
+43
+for res
+~/warp/app
+yie
+44
+docker rmi -f 12ef77b9fab6
+You can use the following commands to
+urz  d
+stop and remove the container:
+45
+page +=
+46
+Error response from daemon:
+conflict: unable to delete
+cohort_users
+docker stop,b15d383b5eda
+Codeium
+12ef77b9fab6 (cannot be forced)
+docker rm b15d383b5eda
+image is being used by running
+container b15d383b5eda
+After stopping and removing the container,
+you should be able to delete the image
+-/warp/app
+Warp
+Ask a question..
+132
+===== PAGE 23 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+编程新形态：
+代码生成工具
+通过原型或图片直接生成包含代码的完整页面，生成的样式一般配
+有多种可选语言的代码。
+"content-"vidthrdevice-vidth,tnittal-scalew1.t">
+ctitte>Custoner Database Forsk/tities
+cseriptsrce'sttps://cdn.tatlwindess.com'x/script
+Customer database
+/- Addttonat stytes tf needed -/
+Customer database
+vO、Screenshot to code、tldraw都是该形态出色的产品。
+div class
+screes flex ttes-center Justify-centers
+oi class
+text-2xt-font-
+Comearn
+<label fors'name' ctasse"block text-sm font-
+edtun text-g
+a landscape view of LLM,inclusng some tech fielid,P
+Star ☆Fork 
+Share 
+Code /
+Submit
+full px-3 py-2
+(naigo-efocus:border-indg-e'placeholderEntern
+Technology Landscape
+Explore the world of cutting-edge technology
+Screenshot to Code
+Learn more →
+Generating:
+HTML + Tailwind
+Artificial Intelligence
+clabet fors'esatt'class-'block.text-sn font-medium text.
+Blockchain
+Internet of Things
+Tell the Al what to change.
+2023中国开源技术趋势报
+Include scre
+tldraw
+Update
+100时G
+AIGC&LLM
+±Download
+2023，当之无的技术主照调(LLM)无短！
+Al is changing the worid in ways unimaginable.
+Unlock the potential of decentra
+lized finance
+Connectivity is the new norm.
+开源开发者事件回顾
+OpenAI正式发布GPT-4
+2023年3月14日，0penAI正式馆出GPT-4
+AIGC&LLM
+文心一盲
+MultiModal Model), B承 GPT-3 的)
+一系列特性，它的细节处理和学习能力大幅提升，
+OpenAl sNx GPT-4
+可以处理更加复杂的场量。
+文心
+生成式
+FAQ
+Meta aLlama 2
+vO.dev
+最强大美Gemini
+Screenshotto code
+Gemini
+Anthropic推出Claude
+ORIGINAL SCREENSHOT
+2023年3月15日，由0penAI前成员创立的
+Versions
+de，金名为520.代号“营度
+Create
+23132
+===== PAGE 24 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM Agent
+(Al Agent)
+ README
+testing
+ Code of conduct
+ MIT license
+LLM Agent 是一种基于 LLM 的智能代理，它能够自主学习和执行任务
++ 345 deployments
+具有一定的“认知能力和决策能力”。LLM Agent 的出现，标志着
+AutoGPT:build&useAlagents
+Languages
+LLM 从传统的模型训练和应用模式，转向以Agent 为中心的智能化模
+JavaScript 67.2%
+AutOGPT
+50310 members
+X Follow eAuto_GPT
+Luicense MIT
+ Python 20.0%
+Jupyter Notebook 8.1%
+式。
+Dart 3.4%
+AutoGPT is the vision of the power of Al accessible to everyone, to use and to build on. Our mission is to provide
+C++ 0.4%
+the tools, so that you can focus on what matters:
+Other 0.5%
+•  Building - Lay the foundation for something amazing.
+LLM Agent 打破了传统 LLM 的被动性，使 LLM 能够主动学习和执行
+• / Testing - Fine-tune your agent to perfection.
+ Delegating - Let Al work for you, and have your ideas come to life.
+任务，从而提高了LLM 的应用范围和价值；它为 LLM 的智能化发展提
+Be part of the revolution! AutoGPT is here to stay, at the forefront of Al innovation.
+供了新的方向，使 LLM 能够更加接近于人类智能。
+Documentation IContributing 1Build your ownAgent-Quickstart
+CurrentBestAgent:evo.ninja
+The AutoGPT Arena Hackathon saw evo.ninja earn the top spot on our Arena Leaderboard, proving itself as the
+best open-source generalist agent. Try it now at https://evo.ninja!
+ To challenge evo.ninja, AutoGPT, and others, submit your benchmark run to the Leaderboard, and maybe your
+数据和文档
+运行代码
+agent will be up here next!
+自然语言/SQL
+代码
+查询
+查询响应
+运行响应
+Al agent
+AutoGPT 就是一个典型的 LLM Agent。在给定 AutoGPT 一个自然
+语言目标后，它会尝试将其分解为多个子任务，并在自动循环中使用
+提示词
+>任务输出
+互联网和其他工具来实现该目标。它使用的是 OpenAl的 GPT-4 或
+用户
+自然语言理解提示词、
+生成任务列表并执行
+GPT-3.5 API，是首个使用 GPT-4 执行自主任务的应用程序实例。
+关文档
+模型响应
+自然语言查询
+查询
+AutoGPT 最大的特点在于能根据任务指令自主分析和执行，当收到
+大模型
+机器学习模型
+一个需求或任务时，它会开始分析这个问题，并且给出执行目标和具
+8-
+推理
+优化
+预测
+体任务，然后开始执行。
+(0)
+聊天机器人
+其他Agent
+ipercharge
+24132
+===== PAGE 25 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+的工具和平台
+>LLMOpS：LLMOps 平台专注于提供大模型的部署、运维和优化服务，旨在帮助企业和开发者更高效地管理和使用这些先进的 AI 模型,
+快速完成从模型到应用的跨越，如 Dify.Al、LangChain等。
+>大模型聚合平台：大模型聚合平台主要用于整合和管理多个大型机器学习模型，在聚合平台之上，衍生出 MaaS（Model-as-a-
+Service，大模型即服务）的服务模式一一通过提供统一的接口和框架，以更高效地部署、运行和优化这些模型，Hugging Face、
+Replicate以及GiteeAl均为MaaS平台。
+>开发工具：其它开发相关的 LLM 工具，如云原生构建多模态AI应用的工具 Jina，嵌入式数据库 txtai 等。
+LLMOps
+大模型聚合平台
+开发工具
+txtai
+BentoML
+MakerSuite
+vo.dev
+LangChain
+Hugging Face
+imgcaok
+Dify.Al
+ocodium
+E-ModelScope
+FlowiseAl
+RUESTAI
+SEMANTIC
+SOTA！模型
+KERNEL
+[..]
+Gitee Al
+GPTCache
+codeium
+Phoenix
+Jina
+ProjectIDX
+===== PAGE 26 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+的工具、平台和资源
+开发
+工具
+另一个视角来看，在大模型繁荣发展的背后，少不了工
+具和平台的发力，如 LLMOps 平台、大模型聚合平台
+以及相关的开发工具，此外还有它们所依赖的最重要的
+LLMOps
+资源一一算力。
+在这些工具、平台和资源的有力支撑下，大模型才得以
+一步一个台阶，引领全球开发者步入一个技术新时代。
+大模型聚合平台
+算力
+267 32
+===== PAGE 27 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+的工具和平台：LLMOps
+LLM
+OBSERVABILITY
+LangSmith
+DEPLOYMENT
+LangServe
+Chains as Rest APls
+开源框架 LangChain
+Monitoring
+Templates
+Reference Applications
+COGNITIVE ARCHITECTURES
+LangChain 是一个帮助开发者使用 LLM 创建应用的开源框
+Feedback
+架，它可以将 LLM 与外部数据源进行连接，并允许与 LLM
+LangChain
+Python
+JavaScript
+进行交互。
+Chains, Agents, Advanced Retrieval Strategies
+Evaluation
+LangChain 于 2022 年 10 月作为开源项目推出，并于
+2023年4月注册成立公司，累计获得超过3000万美元的
+LangChain-Community
+Python
+JavaScript
+投资，估值达到了2亿美元。
+Annotation
+Models I/0
+Retrieval
+Agent Tooling
+INTEGRATIONS
+COMPONENTS
+在 GitHub 上，LangChain 已经获得了超过 7 万个 Star 和
+Retriever
+Model
+Document Loader
+Playground
+Prompt
+超过2000名贡献者。
+VectorStore
+Example Selector
+Text Splitter
+Tools
+Output Parser
+Embedding Model
+Toolkits
+Testing
+LangChain-Core
+Python
+JavaScript
+PROTOCOL
+LCEL-LangChain Expression Language
+Debugging
+Parallelization ·Fallbacks ·Tracing ·Batching·Streaming ·Async · Composition
+LangChain 架构图
+（图源：/https:/pythom.langchain.com/docs/get_started/introduction）
+===== PAGE 28 =====
+OSCHINA
+2023中国开源开发者报告
+gitee
+的工具和平台：「
+LLM
+Maas
+平台
+Gitee Al是开源中国旗下的 MaaS 平台，提供模型、数据集，以及应用托管能力，同时接入了丰富的国产算力平台，为开发者
+提供了更高效、实惠的微调方案，降低使用门槛，目前已进入内测阶段。
+Gitee AI
+模型
+数据集
+应用
+解决方案
+文档
+开始体验
+Gitee Al
+致据集
+应用
+解决方案
+Q.提索模型、致据赁、应用
+FEATURES
+模型
+热门提索：计算机视觉ChatGLM
++ 新建模型
+全面覆盖AI核心能力
+多模态
+自然语言处理
+AI 编程
+国产大模型
+特征抽章
+图像摄达
+图彤机器学习
+文本生践
+文本损要
+文本分类
+零样本分类
+视觉问落
+文本持视频
+文精网管
+序列标注
+每子相似度
+瑞到通文本生质
+对语生成
+表格问管
+计算机视觉
+表格
+音频
+强化学习
+天数智芯
+物体检测
+无条件图像生成
+音频转音频
+表格分类
+强化学习
+深度估计
+语鲁合成
+曙光智算sujon
+图像分类
+...
+国产算力专题
+零样本图像分类
+图像分制
+音频分类
+语音活动检测
+机器人学
+视质分类
+国产其力专路
+在线体验
+最丰富的开源模型
+一站式服务轻松上手
+文术生院
+共2112个模型
+排序：热门
+为”关于致学的演讲“提出一个有是的想试
+全部许可证
+全部狂架
+更多的模型资源、更广的应用额域
+在线体验。推断和训练，即点即用
+最前沿、最热门，掌握第一手资源
+键创建应用，部著更轻松
+@ jonatasgrosman/wav2vec2-large-xlsr-53-english
+@ timm/mobilenetv3_large_100.ra_in1k
+@ bert-base-uncased
+自动适育识测
+图像分类
+Transformers
+Safetensors
+Safetensors
+PyTorch
+PyTorch
+JAX
+PyTorch
+TensorFlow
+JAX
+Transformers
+jonatasgrosman 7天
+± 74.3M 0 4
+timm7天前
+ 60M 1
+hugpingisce 7天
+ 52.1M °12
+@distilbert-base-uncased-finetuned-sst-2-english
+@ openaj/clip-vit-large-patch14
+@gpt2
+Transformers
+零样本图像分类
+文本分类
+PyTorch
+ONNX
+PyTorch
+TensorFlow
+JAX
+文本生成
+PyTorch
+TensorFlow
+TensorFlow
+Transforme
+huggingtace 7 天前
+± 42.1M 0
+openai 7 天前
+± 25.5M 02
+Y  00e;tu,66n
+专业社区共同成长
+无缝对接多种算力资源
+± 23.2M °4
+提供各种算力平台，包括：英伟达
+AI大牛益萃，和你的优秀同行一起前行
+@ tiuae/falcon-7b-instruct
+@ xlm-roberta-base
+@ distilbert-base-uncased
+异腾、天数、曙光等，满足众多需求
+详尽的文档和教程，快速上手和解决问题
+Core ML
+填空PyTorch
+Transformers
+文本生成
+PyTorch
+TensorFiow
+请空PyTorch
+TensorFlow
+tiuse 7天能
+ 12.1M  0
+hugpinglsce 7天期
+1M 01
+@ sentence-transformers/all-mpnet-base-v2
+@ stabilityai/stablediffusion-xl-base-1.0
+@ openaijclip-vit-base-patch32
+文本转图像
+ONX
+每子相似度
+特征抽取
+Diffusers
+PyTeoreh
+零样本图像分类
+Pyforch
+TensorFlow
+JAX
+Transformers
+sentence-transformers 7 天
+±.10.8M  0
+stabiltyai 7 天前
+± 8.9M 0
+openai 7天前
+±8.6M 0
+@ cardiffnlp/twitter-roberta-base-sentiment
+@ stabiltyai/stablediffusion-xl-refiner-1.0
+@ roberta-base
+JAXTransformers
+文本分类
+PyTorch
+TensorFlow
+图像转图像
+Diffusers
+填空
+PyTorch
+TensorFlov
+carditnip 7天丽
+8. 8.5M  0
+stailtyai 7 天
+± 8.3M 0
+8 8.1M  0
+28132.
+===== PAGE 29 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+的工具和平台：天
+LLM
+开发工具
+Original prompt
+比较有代表性的LLM开发工具有：
+write a rap between ChatGPT and JinaChat
+Porsche 911
+2 words
+Optimized for Claude
+Optimized for DALL-E 2
+>PromptPerfect：帮助用户极致优化
+Add-ons: Before/after preview, Always optimized to English, Mark as non-gibberish
+Add-ons: Before/after preview, Mark as non-gibberish
+Optimized prompt
+What has been optimized?
+Optimized prompt
+Original prompt
+Original prompt
+给大模型的提示词（prompt），使得对大语
+What has been optimized?
++111 -0mEH
+7 words → 136 words
+言模型提问时，可以获得更理想的输出。
+2 words → 73 words
+Your task is to write a rap battle between ChatGPT and JinaChat. The rap should be
+一辆时尚的黑色保时捷911TurboS停在蜱竭的山路上，夕阳在它身后，在汽车的曲线
+creative, original, and entertaining, featuring clever rhymes and wordplay. Each
+和轮廊上投下温暖的橙色光芒。图像使用广角镜头以HDR拍摄，以捕捉场景的全部威
+character should have their own unique personality and style, with their lyrics reflecting
+>txtai：用于语义搜索、LLM 编排和语言模
+their individual strengths and flaws.
+Please note that your rap should be appropriate and respectful, avoiding any offensive
+Before via the original prompt
+型工作流的一体化嵌入数据库，可以使用
+or derogatory language. The goal is to create a fun and engaging rap battle that
+After via the optimized prompt
+showcases the unique personalities of ChatGPT and JinaChat while also highlighting
+SQL、对象存储、主题建模、图形分析和多模
+their respective strengths and weaknesses.
+态索引进行矢量搜索。
+Your rap should be well-crafted and polished, demonstrating a strong command of
+language and rhythm, You should also aim to make your audience laugh, while also
+impressing them with your lyrical skills.
+>imgcook：专注以 Sketch、PsD、静态
+Before via the original prompt
+After via the optimized prompt
+User
+图片等形式的视觉稿作为输入，通过智能化技
+User
+write a rap between ChatGPT and JinaChat
+Your task is to write a rap battle between
+ChatGPT and JinaChat. The rap should be
+术一键生成可维护的前端代码，包含视图代码、
+creative, origina..
+Claude
+Here's a rap between ChatGPT and
+数据字段绑定、组件代码、部分业务逻辑代码。
+laude
+JinaChat:
+Hereismyattemptatarespectful.rap
+ChatGPT:
+battlebetween ChatGPT and JinaChat:
+JinaChat: Yo what's up ChatGPT,you text-
+Yo yo yo it's ChatGPT in the place
+ppping knowledge with Al grace
+basedAl
+PromptPerfect
+29
+9132
+===== PAGE 30 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+世界的基石：算力
+LLM的算力指的是执行这些模型所需的计算资源。这包括用于训练和运行模型的硬件（如GPU或TPU）、内存、存储空间以及处理
+大量数据的能力。LLM需要非常强大的算力来处理、理解和生成文本，因为它们涉及到数十亿甚至数万亿个参数的训练和推理。
+LLM 的基石是算力，而算力的基石是硬件，硬件的性能直接影响着计算任务的速度、效率和能力。
+DVIDIA
+>NVIDIA 是全球领先的 GPU 制造商，提供了强大的图形处理单元，专门用于深度学习和AI计算。
+>华为昇腾系列（HUAWEIAscend）
+Ascend
+AI处理器和基础软件构建Atlas人工智能计算解决
+方案，打造面向“端、边、云”的全场景AI基础设施方案，覆盖深度学习领域推理和训练全流程。
+>AMD补
+AMD
+被外界视为打破 NVIDIA 垄断 AI 算力市场的多一种选择，其基于第三代 CDNA 架构，为生
+成式AI大语言模型设计的MI300X内存高达192GB，集成了高达1530亿个晶体管，为历代产品
+之最。
+昆仑芯
+>昆仑芯
+科技团队自研，面向通用AI计算的芯片核心架构昆仑芯XPU从AI落地的实际需求出发，按
+KUNLUNXIN
+照复杂前沿的人工智能场景需求开展迭代，致力为开发者提供通用、易用、高性能的算力来源。
+>海光 DCU 系列产品以 GPGPU 架构为基础，兼容通用的“类 CUDA”环境以及国际主流商业计
+HYGON
+算软件和人工智能软件，可广泛应用于大数据处理、人工智能、商业计算等应用领域。
+天数智芯
+>天数智芯
+通用GPU高端芯片及超级算力系统提供商。拥有云边协同训推组合的完整通用算力
+lluvatarCorex
+系统全方案，其系统架构、指令集、核心算子、软件栈均为自主研发、可独立发展演进
+301 32
+===== PAGE 31 =====
+OSCHINA
+gitee
+2023中国开源开发者报告
+LLM
+世界的基石：算力
+算力也是全国乃至世界范围内LLM相关企业遇到的最大难题：
+TwoDistinctErasofComputeUsageinAI
+Petaflop/s-days
+》资源少
+1e+4
+AlphaGoZero
+随着国内大模型数量激增，AI算力需求从2022年开始持续上
+1e+2
+Neural Machine
+涨，国内市场出现一卡难求的情况。根据 IDC 预计，到2026
+Translation
+TI7Dota1v1
+年AI推理的负载比例将进一步提升至62.2%，特别是预训练大
+1e+0
+模型几乎成为 AI 开发的标准范式。同时，这一需求也导致了
+VGG
+ResNets
+1e-2
+NVIDIAA100GPU的价格在几个月内暴涨超过 50%，而且大
+AlexNet
+量断货。
+3.4-month doubling
+1e4
+Deep Belief Nets and
+layer-wise pretraining
+DQN
+》成本高
+1e-6
+TD-Gammon v2.1
+根据研究测算，单次 GPT-3 模型（175B）训练，在规模
+BiLSTMforSpeech
+1e-8
+LeNet-5
+300B token下成本约为 35000卡·天（A100），也就是相当
+NETtalk
+RNNforSpeech
+于 35000块A100GPU跑1天能完成单次训练，或者2500
+ALVINN
+1e-10
+块A100 GPU跑 2 周。以每张卡 10 万人民币的价格计算，单
+次训练成本就将达到25-35亿人民币。
+1e-12
+2-year doubling (Moore's Law)
+1e-14 Perceptron
+← First Era
+客观限制
+Modern Era →
+1960
+2010
+1970
+1980
+1990
+2000
+10月17日，美国商务部工业和安全局(BIS)公布新的先进计算芯
+2020
+片、半导体制造设备出口管制规则，限制中国购买和制造高端芯
+片的能力，受管制的包括但不限于 NVIDIA A100、H100、
+据OpenA/测算，自2012年以来，人工智能模型训练算力需求每3~4个月就翻一番，每年
+A800、H800、L40、L40S以及集成这些高性能计算的
+训练A/模型所需算力增长幅度高达10倍
+(图源:https://openai.com/research/ai-and-compute)
+DGX/HGX系统并将中国GPU企业及其子公司列入了实体清

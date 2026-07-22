@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0157",
+  "version": 1,
+  "slug": "case-2025-0157",
+  "title": "“探脉”大模型赋能地质勘探和智慧矿山应用",
+  "organization": {
+    "id": "org-0157",
+    "name": "中煤航测遥感集团有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中煤地质总局煤航集团（中煤航测遥感）研发“探脉”大模型，2025 年 10 月正式发布，是专注煤炭、化工行业地质勘查领域的专业大模型，以百亿、千亿、万亿级多阶基座模型为核心，运用 70 余年地勘行业数据资料与专家知识，根据不同场景构建，开启地勘行业数智化新征程。",
+  "background": "中国煤炭地质总局深化“地质+AI”，由煤航集团（中煤航测遥感）承担“探脉”大模型研发，面向煤炭、化工行业地质勘查与智慧矿山场景。",
+  "problem": "地质勘查依赖专家经验、数据处理复杂、效率低，行业数智化水平待提升。",
+  "solution": "“探脉”专业大模型以多阶基座模型+70 余年行业数据资料与专家知识，构建面向地质勘探、智慧矿山等场景的 AI 能力。",
+  "implementationSteps": [
+    "沉淀 70 余年地勘行业数据资料与专家知识",
+    "研发百亿/千亿/万亿级多阶基座的探脉大模型",
+    "在地质勘查与智慧矿山场景落地应用"
+  ],
+  "duration": "2025 年发布",
+  "cost": "",
+  "results": [
+    {
+      "label": "发布时间",
+      "value": "2025-10",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-tanmai-1"
+    }
+  ],
+  "roi": "",
+  "risks": "地勘专业语料稀缺、野外复杂场景适配。",
+  "editorComment": {
+    "suitableFor": "煤炭/化工地质勘查与智慧矿山",
+    "prerequisites": "具备地勘数据资料与算力",
+    "priority": "建议优先",
+    "text": "地勘行业专业大模型的央企范式。"
+  },
+  "implementers": [
+    {
+      "name": "中煤航测遥感集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tanmai-1",
+      "title": "国务院国资委网站 | 中国煤炭地质总局“探脉”大模型 开启地勘行业数智化",
+      "sourceType": "news",
+      "publisher": "国务院国资委",
+      "originalUrl": "https://www.ccgc.cn/?mod=news_detail&id=189277",
+      "accessibility": "available",
+      "rightsNote": "央企官网，佐证探脉大模型发布与定位。",
+      "publishedAt": "2025-11-07"
+    },
+    {
+      "publicId": "src-tanmai-2",
+      "title": "“地质+AI”探脉大模型为中国煤炭地质智慧赋能",
+      "sourceType": "news",
+      "publisher": "中国网",
+      "originalUrl": "https://ydyl.china.com.cn/2025-10/24/content_118139880.shtml",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证探脉大模型技术架构。",
+      "publishedAt": "2025-10-24"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖经验",
+    "数据处理复杂"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂类大模型",
+    "行业知识"
+  ],
+  "modelStack": [
+    "探脉大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "地质勘探",
+    "探脉大模型",
+    "煤炭",
+    "智慧矿山"
+  ],
+  "seo": {
+    "metaTitle": "“探脉”大模型赋能地质勘探和智慧矿山应用",
+    "metaDescription": "“探脉”大模型赋能地质勘探和智慧矿山应用",
+    "keywords": [
+      "中煤航测遥感集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国煤炭地质总局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

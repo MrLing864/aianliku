@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0013",
+  "version": 1,
+  "slug": "case-2025-0013",
+  "title": "FabSyn-FDC 面向全厂的集成电路装备智能监控与故障分类系统应用",
+  "organization": {
+    "id": "org-0013",
+    "name": "深圳智现未来工业软件有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "深圳智现未来基于自研'灵犀'大模型打造FabSyn FDC，融合设备工艺知识库、自适应算法与自然语言交互引擎，实现集成电路装备智能监控与故障分类，覆盖智能选参、自适应监控，12吋厂实战超越传统FDC。",
+  "background": "半导体晶圆厂（FAB）对设备监控与故障检测（FDC）要求极高，传统FDC依赖人工规则与手动选参，难以应对复杂工艺。",
+  "problem": "传统FDC手动选参效率低、覆盖面有限，难以应对12吋厂复杂工艺与海量参数，故障分类与异常监控滞后。",
+  "solution": "融合原FDC系统17余年研发经验与160+全球FAB落地经验，推出基于AI大模型技术的全新一代FabSyn FDC；基于'灵犀'大模型，融合设备工艺知识库、自适应算法与自然语言交互引擎，构建覆盖智能选参、自适应监控的AI升级形态，实现集成电路装备智能监控与故障分类。",
+  "implementationSteps": [
+    "沉淀17年FDC研发与160+全球FAB落地经验",
+    "研发基于'灵犀'大模型的FabSyn FDC",
+    "融合设备工艺知识库、自适应算法与自然语言交互引擎",
+    "在12吋厂实战应用，超越传统FDC手动选参"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "半导体现场对可靠性要求极高，AI模型需充分验证；工艺知识库积累与持续迭代投入大。",
+  "editorComment": {
+    "suitableFor": "晶圆厂、半导体设备与制造企业提升装备监控与良率",
+    "prerequisites": "具备FAB现场数据与工艺知识积累",
+    "priority": "条件具备后开展",
+    "text": "大模型赋能FDC是半导体智能制造方向，适合有FAB基础的企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "深圳智现未来工业软件有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-fab-1",
+      "title": "智现未来全新一代FabSyn FDC来袭！异常监控更快、更准",
+      "sourceType": "official",
+      "publisher": "智现未来",
+      "originalUrl": "https://www.futurefab.cn/sys-nd/97.html",
+      "publishedAt": "2025-06-11",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-fab-2",
+      "title": "案例拆解：FabSyn FDC——12吋厂实战，超越传统FDC手动",
+      "sourceType": "official",
+      "publisher": "智现未来",
+      "originalUrl": "https://www.futurefab.cn/sys-nd/134.html",
+      "publishedAt": "2026-06-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "装备监控",
+    "故障分类",
+    "FDC效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "灵犀大模型打造FabSyn FDC，12吋厂实战超越传统FDC",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业软件",
+    "FDC",
+    "大模型",
+    "半导体智能制造"
+  ],
+  "modelStack": [
+    "灵犀大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "半导体",
+    "工业软件"
+  ],
+  "seo": {
+    "metaTitle": "智现未来 FabSyn-FDC 集成电路装备智能监控与故障分类",
+    "metaDescription": "智现未来基于灵犀大模型打造FabSyn FDC，实现集成电路装备智能监控与故障分类，12吋厂实战超越传统FDC。",
+    "keywords": [
+      "智现未来",
+      "FabSyn",
+      "FDC",
+      "集成电路"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "深圳市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

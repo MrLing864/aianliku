@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0167",
+  "version": 1,
+  "slug": "case-2025-0167",
+  "title": "智能体在新型电力系统预测分析与运行决策中的应用",
+  "organization": {
+    "id": "org-0167",
+    "name": "中国电力科学研究院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电力科学研究院聚焦新型电力系统高精度预测、自主分析、智能决策，突破配网态势感知、智能推理、决策优化等关键技术，研发“大小模型协同”的新型配电系统态势感知与智能决策系统，以数据机理融合人工智能技术助力电网智能化水平提升。",
+  "background": "中国电科院在面向新型配电系统的数据机理融合人工智能技术及应用方面持续攻关，提出基础技术、数据智能、感知智能、认知智能、决策智能五大方向的电力人工智能技术图谱。",
+  "problem": "新型电力系统面临高精度预测、自主分析、智能决策等挑战，传统方法难以兼顾机理与数据。",
+  "solution": "大小模型协同的新型配电系统态势感知与智能决策系统，数据机理融合实现精准感知、数据融合、实时决策。",
+  "implementationSteps": [
+    "攻关配网态势感知/智能推理/决策优化关键技术",
+    "研发大小模型协同态势感知与智能决策系统",
+    "在新型配电系统落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "电力系统安全边界、大模型决策的可靠性与可解释性。",
+  "editorComment": {
+    "suitableFor": "新型电力系统预测分析与运行决策",
+    "prerequisites": "具备调度知识与电网运行数据",
+    "priority": "建议优先",
+    "text": "大小模型协同赋能电网智能决策的科研范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国电力科学研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-epri-1",
+      "title": "三项技术突破助推新型电力系统智能化转型",
+      "sourceType": "news",
+      "publisher": "国家科技基础条件平台中心",
+      "originalUrl": "https://www.ncsti.gov.cn/kjdt/kjrd/qtrd_kjrd/202605/t20260506_245771.html",
+      "accessibility": "available",
+      "rightsNote": "科技平台报道，佐证精准感知、数据融合、实时决策三大突破。",
+      "publishedAt": "2026-05-06"
+    },
+    {
+      "publicId": "src-epri-2",
+      "title": "中国电力科学研究院-面向新型配电系统的数据机理融合人工智能技术及应用",
+      "sourceType": "news",
+      "publisher": "中国电科院",
+      "originalUrl": "https://www.epri.sgcc.com.cn/html/epri/gb/xwzx/xwdt/mtjj/20250730/822184202507301640000001.shtml",
+      "accessibility": "available",
+      "rightsNote": "院所官网，佐证大小模型协同态势感知与智能决策系统。",
+      "publishedAt": "2025-07-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "高精度预测难",
+    "智能决策难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大小模型协同",
+    "数据机理融合"
+  ],
+  "modelStack": [
+    "新型配电系统态势感知与智能决策系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "新型电力系统",
+    "大小模型协同",
+    "预测分析",
+    "运行决策"
+  ],
+  "seo": {
+    "metaTitle": "智能体在新型电力系统预测分析与运行决策中的应用",
+    "metaDescription": "智能体在新型电力系统预测分析与运行决策中的应用",
+    "keywords": [
+      "中国电力科学研究院有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家电网有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

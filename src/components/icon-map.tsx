@@ -1,4 +1,4 @@
-import { Bot, ChartNoAxesCombined, Code2, Factory, Globe2, GraduationCap, HeartPulse, Landmark, LibraryBig, MessagesSquare, ReceiptText, ScanSearch, ScanText, ShoppingBag, Sparkles, TrendingUp, Truck, Workflow, type LucideIcon } from "lucide-react";
+import { Bot, Building2, ChartNoAxesCombined, Code2, Cpu, Factory, FlaskConical, Gauge, Globe2, GraduationCap, HeartPulse, Landmark, Layers, LibraryBig, MessagesSquare, ReceiptText, Rocket, ScanSearch, ScanText, ShoppingBag, Sparkles, Sprout, TrendingUp, Truck, Workflow, Wrench, type LucideIcon } from "lucide-react";
 
-const icons: Record<string, LucideIcon> = { Bot, ChartNoAxesCombined, Code2, Factory, Globe2, GraduationCap, HeartPulse, Landmark, LibraryBig, MessagesSquare, ReceiptText, ScanSearch, ScanText, ShoppingBag, Sparkles, TrendingUp, Truck, Workflow };
+const icons: Record<string, LucideIcon> = { Bot, Building2, ChartNoAxesCombined, Code2, Cpu, Factory, FlaskConical, Gauge, Globe2, GraduationCap, HeartPulse, Landmark, Layers, LibraryBig, MessagesSquare, ReceiptText, Rocket, ScanSearch, ScanText, ShoppingBag, Sparkles, Sprout, TrendingUp, Truck, Workflow, Wrench };
 export function CatalogIcon({ name, className }: { name: string; className?: string }) { const Icon = icons[name] ?? Sparkles; return <Icon className={className} />; }

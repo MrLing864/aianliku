@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0198",
+  "version": 1,
+  "slug": "case-2025-0198",
+  "title": "面向智能制造领域的全尺寸自主换电人形机器人 WalkerS2 应用",
+  "organization": {
+    "id": "org-0198",
+    "name": "深圳市优必选科技股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "深圳市优必选科技股份有限公司推出面向智能制造领域的全尺寸自主换电人形机器人 Walker S2，是全球首个实现自主换电的人形机器人，可在工厂流水线执行搬运、质检、贴标等任务并 7×24 小时不间断作业，已在比亚迪等车企实训并显著提升效率。",
+  "background": "优必选自 2012 年起布局人形机器人全栈技术（运动控制、伺服、计算机视觉、SLAM、ROSA 等），Walker S 系列面向工业制造，已在极氪 5G 智慧工厂展示多台协同实训。",
+  "problem": "人形机器人续航受限、难以支撑连续工业生产，单机作业效率与稳定性待提升。",
+  "solution": "以 Walker S2 自主换电实现 7×24 小时不间断作业，结合多模态感知与群体智能，在汽车工厂执行搬运、质检、贴标等任务。",
+  "implementationSteps": [
+    "研发 Walker S2 自主换电与全尺寸人形平台",
+    "在比亚迪等车企开展产线实训",
+    "以群体智能实现多机器人协同作业"
+  ],
+  "duration": "持续实训",
+  "cost": "",
+  "results": [
+    {
+      "label": "实训作业效率",
+      "value": "提升约 1 倍",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-ubt-1"
+    },
+    {
+      "label": "作业稳定性",
+      "value": "提高约 30%",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-ubt-1"
+    }
+  ],
+  "roi": "",
+  "risks": "复杂工业环境的鲁棒性、规模化成本与安全性。",
+  "editorComment": {
+    "suitableFor": "汽车等智能制造产线的人形机器人应用",
+    "prerequisites": "具备柔性产线与协同调度基础",
+    "priority": "建议优先",
+    "text": "全球首个自主换电人形机器人，工业范式标杆。"
+  },
+  "implementers": [
+    {
+      "name": "深圳市优必选科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ubt-1",
+      "title": "优必选人形机器人入选国家典型应用案例：重塑汽车制造的未来",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/846535874_121924584",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证实训效率与稳定性指标。",
+      "publishedAt": "2024-12-18"
+    },
+    {
+      "publicId": "src-ubt-2",
+      "title": "Walker S 工业版人形机器人（优必选官网）",
+      "sourceType": "official",
+      "publisher": "优必选",
+      "originalUrl": "https://www.ubtrobot.com/cn/humanoid/products/WalkerS",
+      "accessibility": "available",
+      "rightsNote": "企业官方页面，佐证工业版人形机器人能力。",
+      "publishedAt": "2025-01-01"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "续航受限",
+    "单机效率待提升"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "群体智能"
+  ],
+  "modelStack": [
+    "Walker S2 工业人形机器人"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "人形机器人",
+    "Walker S2",
+    "自主换电",
+    "智能制造"
+  ],
+  "seo": {
+    "metaTitle": "面向智能制造领域的全尺寸自主换电人形机器人 WalkerS2 应用",
+    "metaDescription": "面向智能制造领域的全尺寸自主换电人形机器人 WalkerS2 应用",
+    "keywords": [
+      "深圳市优必选科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "深圳市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

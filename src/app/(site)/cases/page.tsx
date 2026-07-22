@@ -9,6 +9,7 @@ import { SearchEventTracker } from "@/components/search-event-tracker";
 import { Button } from "@/components/ui/button";
 import { listCases } from "@/lib/repositories/cases";
 import type { CaseQuery, OutcomeStatus } from "@/lib/types";
+export const dynamic = "force-dynamic";
 
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 function one(value: string | string[] | undefined) {
@@ -20,7 +21,13 @@ export async function generateMetadata({
 }: {
   searchParams: SearchParams;
 }): Promise<Metadata> {
-  const raw = await searchParams;
+  let raw: Record<string, string | string[] | undefined> = {};
+  try {
+    const resolved = await searchParams;
+    if (resolved && typeof resolved === "object") raw = resolved as Record<string, string | string[] | undefined>;
+  } catch {
+    raw = {};
+  }
   const hasQuery = Object.values(raw).some((value) =>
     Array.isArray(value) ? value.length > 0 : Boolean(value),
   );
@@ -41,7 +48,13 @@ export default async function CasesPage({
 }: {
   searchParams: SearchParams;
 }) {
-  const raw = await searchParams;
+  let raw: Record<string, string | string[] | undefined> = {};
+  try {
+    const resolved = await searchParams;
+    if (resolved && typeof resolved === "object") raw = resolved as Record<string, string | string[] | undefined>;
+  } catch {
+    raw = {};
+  }
   const query: CaseQuery = {
     q: one(raw.q),
     industry: one(raw.industry),

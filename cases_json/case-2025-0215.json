@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0215",
+  "version": 1,
+  "slug": "case-2025-0215",
+  "title": "AI 数智化口腔诊疗设备与多模态影像云平台实践",
+  "organization": {
+    "id": "org-0215",
+    "name": "赛乐（常州）医疗科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "赛乐（常州）医疗科技股份有限公司实践“AI 数智化口腔诊疗设备与多模态影像云平台”，以“八颗牙”品牌口腔数字印模仪等硬件为基础，构建口腔多模态智能体平台：半分钟即可完成口腔高精度建模，诊断模型 1 分钟生成全维度口腔健康报告，设计智能体 1—2 分钟生成牙冠虚拟模型，覆盖辅助诊断与辅助设计。",
+  "background": "赛乐医疗是常州“小巨人”企业，2022 年以来已在临床投放超 10 万台影像设备、累计产生超 8000 万份影像数据，经筛选脱敏后用于垂类模型训练。",
+  "problem": "口腔诊疗依赖手工取模与经验，流程长、患者体验差，诊断与设计效率低。",
+  "solution": "AI 数智化口腔诊疗设备+多模态影像云平台，实现口腔高精度建模、健康报告生成与牙冠虚拟模型设计的智能化。",
+  "implementationSteps": [
+    "投放口腔影像设备并积累影像数据",
+    "训练口腔垂类模型",
+    "落地数字印模仪+诊断/设计智能体"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "口腔建模耗时",
+      "value": "30",
+      "unit": "秒",
+      "kind": "actual",
+      "sourceId": "src-saile-1"
+    },
+    {
+      "label": "健康报告生成",
+      "value": "1",
+      "unit": "分钟",
+      "kind": "actual",
+      "sourceId": "src-saile-1"
+    }
+  ],
+  "roi": "",
+  "risks": "口腔数据隐私、模型对复杂病例的泛化。",
+  "editorComment": {
+    "suitableFor": "口腔诊疗数字化与智能设计",
+    "prerequisites": "具备口腔影像设备与数据",
+    "priority": "建议优先",
+    "text": "AI 重塑口腔诊疗新范式的中小制造企业样本。"
+  },
+  "implementers": [
+    {
+      "name": "赛乐（常州）医疗科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-saile-1",
+      "title": "常州唯一！薛家“小巨人”赛乐医疗惊艳省级AI+路演",
+      "sourceType": "news",
+      "publisher": "凤凰网",
+      "originalUrl": "https://js.ifeng.com/c/8tFskBvbgU0",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证半分钟建模、1 分钟报告等能力。",
+      "publishedAt": "2026-05-19"
+    },
+    {
+      "publicId": "src-saile-2",
+      "title": "赛乐医疗亮相全省“人工智能+制造”路演",
+      "sourceType": "news",
+      "publisher": "常高新",
+      "originalUrl": "https://www.cznd.gov.cn/html/cznd/2026/IQBIILNJ_0402/570802.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证人工智能+口腔诊疗融合应用。",
+      "publishedAt": "2026-04-02"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "流程长",
+    "依赖经验"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态智能体",
+    "垂类模型训练"
+  ],
+  "modelStack": [
+    "AI 数智化口腔诊疗设备与多模态影像云平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "口腔诊疗",
+    "数字印模",
+    "多模态影像云",
+    "八颗牙"
+  ],
+  "seo": {
+    "metaTitle": "AI 数智化口腔诊疗设备与多模态影像云平台实践",
+    "metaDescription": "AI 数智化口腔诊疗设备与多模态影像云平台实践",
+    "keywords": [
+      "赛乐（常州）医疗科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

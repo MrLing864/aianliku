@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0201",
+  "version": 1,
+  "slug": "case-2025-0201",
+  "title": "高寒环境露天矿百台级无人纯电动矿卡智能高效运输系统应用",
+  "organization": {
+    "id": "org-0201",
+    "name": "华能内蒙古东部能源有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "有色金属",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "华能内蒙古东部能源有限公司伊敏露天矿建成全球首个百台级纯电动无人矿卡集群“华能睿驰”，2025 年 5 月 15 日正式投入编组运营，构建全球首套“零碳、无人、智能”露天矿运输系统。伊敏露天矿地处高寒、软岩、富水、风雪周期长的复杂环境，该高寒环境露天矿百台级无人纯电动矿卡智能高效运输系统应用入选工信部 2025 年人工智能应用典型案例。",
+  "background": "露天矿运输高危、高强度，无人化运输价值大。",
+  "problem": "高寒露天矿环境复杂（软岩、富水、风雪周期长），传统燃油有人矿卡运输安全、效率与减碳压力大。",
+  "solution": "建设百台级纯电动无人矿卡集群“华能睿驰”，结合 5G-A 网络与智能调度，构建“零碳、无人、智能”露天矿运输系统。",
+  "implementationSteps": [
+    "定制化研发纯电动无人矿卡“华能睿驰”",
+    "部署 5G-A 网络支撑车群通信",
+    "建设无人矿卡集群编组与智能调度系统",
+    "在伊敏露天矿实现百台级商业化运营"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "无人纯电动矿卡集群规模",
+      "value": "百台级",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-201-1"
+    }
+  ],
+  "roi": "",
+  "risks": "高寒工况可靠性、大规模车群协同调度安全。",
+  "editorComment": {
+    "suitableFor": "露天矿无人化智能运输与绿色矿山",
+    "prerequisites": "具备矿区网络与无人驾驶基础",
+    "priority": "建议优先",
+    "text": "全球首个百台级纯电无人矿卡集群的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "华能内蒙古东部能源有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-201-1",
+      "title": "全球首次百台无人纯电动矿卡编组在呼伦贝尔投运",
+      "sourceType": "news",
+      "publisher": "新华网内蒙古",
+      "originalUrl": "http://www.nmg.xinhuanet.com/20250517/4708eb30c50b4859b3c13b3d3cc95546/c.html",
+      "accessibility": "available",
+      "rightsNote": "新华网报道，佐证百台无人纯电动矿卡投运与零碳无人智能运输系统。",
+      "publishedAt": "2025-05-17"
+    },
+    {
+      "publicId": "src-201-2",
+      "title": "全球首个5G-A百台无人电动矿卡落地伊敏，打造智慧矿山",
+      "sourceType": "official",
+      "publisher": "华为",
+      "originalUrl": "https://www.huawei.com/cn/news/2025/5/yimin-huaneng-intelligent-mining",
+      "accessibility": "available",
+      "rightsNote": "佐证 5G-A 网络支撑与百台无人电动矿卡集群运营。",
+      "publishedAt": "2025-05-15"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "高寒复杂",
+    "运输减碳"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "无人驾驶",
+    "5G-A",
+    "智能调度"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "华能蒙东",
+    "伊敏露天矿",
+    "无人矿卡",
+    "智慧矿山"
+  ],
+  "seo": {
+    "metaTitle": "高寒环境露天矿百台级无人纯电动矿卡智能高效运输系统应用",
+    "metaDescription": "高寒环境露天矿百台级无人纯电动矿卡智能高效运输系统应用",
+    "keywords": [
+      "华能内蒙古东部能源有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国华能集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

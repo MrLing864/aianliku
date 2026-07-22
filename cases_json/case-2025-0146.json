@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0146",
+  "version": 1,
+  "slug": "case-2025-0146",
+  "title": "基于 CPS 信息物理系统的数字孪生消防云平台应用",
+  "organization": {
+    "id": "org-0146",
+    "name": "潍坊市平安消防工程有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "潍坊市平安消防工程有限公司打造基于 CPS 信息物理系统的数字孪生消防云平台，融合物联网、云计算、大数据与 AI，通过智能研判将消防误报率降低 95% 以上，有效解决行业共性痛点，入选工信部 2025 年人工智能应用典型案例（潍坊全市唯一入选）。",
+  "background": "公司整合运用物联网、云计算、大数据等科技手段，研发具备全面感知、计算分析、智能研判、自动控制及业务管理的数字消防云平台。",
+  "problem": "传统消防报警误报率高、依赖人工处置，基层应急消防治理能力薄弱。",
+  "solution": "基于 CPS 信息物理系统的数字孪生消防云平台，以 AI 智能研判降低误报率，实现火灾报警、应急调度、资源管理一体化。",
+  "implementationSteps": [
+    "构建 CPS+数字孪生消防云平台的全面感知底座",
+    "部署 AI 智能研判降低误报率",
+    "在潍坊等地落地城市消防指挥“智慧大脑”"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "消防误报率降低",
+      "value": "95",
+      "unit": "%以上",
+      "kind": "actual",
+      "sourceId": "src-paxf-1"
+    }
+  ],
+  "roi": "",
+  "risks": "多源感知数据质量、误报与漏报的平衡。",
+  "editorComment": {
+    "suitableFor": "城市消防与应急智慧化",
+    "prerequisites": "具备物联感知与网络覆盖基础",
+    "priority": "建议优先",
+    "text": "CPS+数字孪生驱动消防误报治理的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "潍坊市平安消防工程有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-paxf-1",
+      "title": "潍坊1个应用项目入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "大众网潍坊",
+      "originalUrl": "https://weifang.dzwww.com/wfxwn/202607/t20260703_17899885.htm",
+      "accessibility": "available",
+      "rightsNote": "地方媒体报道，佐证平台误报率降低95%以上。",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "publicId": "src-paxf-2",
+      "title": "平安消防与杭州八维通共探数字孪生技术赋能数字消防升级",
+      "sourceType": "official",
+      "publisher": "平安消防",
+      "originalUrl": "http://www.pinganxiaofang.com/news1/199.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证数字孪生消防技术路线。",
+      "publishedAt": "2025-08-07"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "误报率高",
+    "人工处置"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "CPS信息物理系统",
+    "数字孪生",
+    "物联网"
+  ],
+  "modelStack": [
+    "数字孪生消防云平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "数字孪生",
+    "消防云",
+    "CPS",
+    "误报率"
+  ],
+  "seo": {
+    "metaTitle": "基于 CPS 信息物理系统的数字孪生消防云平台应用",
+    "metaDescription": "基于 CPS 信息物理系统的数字孪生消防云平台应用",
+    "keywords": [
+      "潍坊市平安消防工程有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

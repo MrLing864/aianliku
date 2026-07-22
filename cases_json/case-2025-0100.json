@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0100",
+  "version": 1,
+  "slug": "case-2025-0100",
+  "title": "中粮集团智能配麦工艺创新实践",
+  "organization": {
+    "id": "org-0100",
+    "name": "中粮面业（秦皇岛）鹏泰有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中粮面业（秦皇岛）鹏泰有限公司联合金现代，打造智能配麦工艺创新实践，通过智能配麦系统优化小麦生产配比流程，平衡产品品质与生产成本。",
+  "background": "面粉加工中配麦环节传统依赖人工经验，需在多品种小麦间优化配比以兼顾品质与成本。",
+  "problem": "传统配麦模式依赖人工、难以平衡产品品质与生产成本，行业共性难题突出。",
+  "solution": "依托 AI 技术优化配麦生产配比流程，构建智能配麦系统，实现配比优化与工艺稳定。",
+  "implementationSteps": [
+    "梳理配麦工艺参数与品质-成本约束",
+    "构建 AI 优化配比模型与智能配麦系统",
+    "在产线落地验证并迭代"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "原料波动、模型对小麦品质指标的适应性与工艺约束建模。",
+  "editorComment": {
+    "suitableFor": "粮油食品加工配方的智能优化",
+    "prerequisites": "具备工艺参数与质检数据积累",
+    "priority": "建议优先",
+    "text": "食品配方优化类场景，投入小、复制性强。"
+  },
+  "implementers": [
+    {
+      "name": "中粮面业（秦皇岛）鹏泰有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cofco-1",
+      "title": "金现代联合中粮打造国家级AI应用标杆",
+      "sourceType": "news",
+      "publisher": "同花顺财经",
+      "originalUrl": "https://stock.10jqka.com.cn/20260709/c678074760.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证智能配麦系统与应用方向。",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "publicId": "src-cofco-2",
+      "title": "金现代联合中粮打造国家级AI应用标杆",
+      "sourceType": "news",
+      "publisher": "金现代",
+      "originalUrl": "https://www.jxdinfo.com/xinwenOther/5616.jhtml",
+      "accessibility": "available",
+      "rightsNote": "企业官方报道，佐证智能配麦工艺创新实践。",
+      "publishedAt": "2026-07-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工",
+    "品质与成本难平衡"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "运筹优化",
+    "AI"
+  ],
+  "modelStack": [
+    "智能配麦优化模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能配麦",
+    "粮油加工",
+    "配方优化"
+  ],
+  "seo": {
+    "metaTitle": "中粮集团智能配麦工艺创新实践",
+    "metaDescription": "中粮集团智能配麦工艺创新实践",
+    "keywords": [
+      "中粮面业（秦皇岛）鹏泰有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

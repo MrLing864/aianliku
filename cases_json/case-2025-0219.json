@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0219",
+  "version": 1,
+  "slug": "case-2025-0219",
+  "title": "智能车载多音区音频管理系统应用",
+  "organization": {
+    "id": "org-0219",
+    "name": "科大讯飞（苏州）科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "科大讯飞（苏州）科技有限公司以'飞鱼智能音频管理系统'（iFLYSOUND 智慧声场）实现全车独立声场分区与多音区音频管理，落地超 100 万辆汽车、合作 19 家车企，以全链自研 AI 声学算法重塑车载音频体验。",
+  "background": "车载音响长期由国外品牌主导，科大讯飞基于全链自研 AI 声学算法推出飞鱼/iFLYSOUND，覆盖路噪主动降噪、3D 沉浸环绕音与多音区互不干扰语音交互。",
+  "problem": "车内多乘客音频体验相互干扰、高端车载音响被国外品牌垄断。",
+  "solution": "以飞鱼智能音频管理系统实现全车独立声场分区、主副驾与后排互不干扰的多音区语音交互，并提供 3D 沉浸环绕音等高级音效。",
+  "implementationSteps": [
+    "研发全链自研 AI 声学算法",
+    "推出飞鱼/iFLYSOUND 智慧声场系统",
+    "在 19 家车企、超 100 万辆汽车规模落地"
+  ],
+  "duration": "2021 年起量产",
+  "cost": "",
+  "results": [
+    {
+      "label": "合作车企",
+      "value": "19 家",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-iflyaudio-1"
+    },
+    {
+      "label": "落地汽车",
+      "value": "超 100 万辆",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-iflyaudio-1"
+    }
+  ],
+  "roi": "",
+  "risks": "车规级可靠性、与车型音响硬件适配。",
+  "editorComment": {
+    "suitableFor": "智能座舱车载音频体验升级",
+    "prerequisites": "具备车载音频硬件与车机基础",
+    "priority": "建议优先",
+    "text": "全链自研 AI 声学算法，规模化车载落地。"
+  },
+  "implementers": [
+    {
+      "name": "科大讯飞（苏州）科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-iflyaudio-1",
+      "title": "科大讯飞iFLYSOUND智慧声场系统：19家车企合作，装机量超100万",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/953388604_122454042",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证车企合作与装机规模。",
+      "publishedAt": "2025-11-12"
+    },
+    {
+      "publicId": "src-iflyaudio-2",
+      "title": "全车独立声场分区！科大讯飞飞鱼智能音频管理系统发布",
+      "sourceType": "news",
+      "publisher": "快科技",
+      "originalUrl": "https://news.mydrivers.com/1/797/797669.htm",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证独立声场分区能力。",
+      "publishedAt": "2021-11-21"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多音区互相干扰",
+    "国外品牌垄断"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI声学算法",
+    "主动降噪"
+  ],
+  "modelStack": [
+    "飞鱼智能音频管理系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能车载音频",
+    "飞鱼",
+    "iFLYSOUND",
+    "多音区"
+  ],
+  "seo": {
+    "metaTitle": "智能车载多音区音频管理系统应用",
+    "metaDescription": "智能车载多音区音频管理系统应用",
+    "keywords": [
+      "科大讯飞（苏州）科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

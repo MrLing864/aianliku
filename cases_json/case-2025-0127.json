@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0127",
+  "version": 1,
+  "slug": "case-2025-0127",
+  "title": "“大模型+智能体”驱动的汽车电子设备测试系统应用",
+  "organization": {
+    "id": "org-0127",
+    "name": "宁波普瑞均胜汽车电子有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "宁波普瑞均胜汽车电子有限公司（均胜电子旗下）申报的“大模型+智能体”驱动的汽车电子设备测试系统应用，入选工信部 2025 年人工智能应用典型案例。系统融合大模型、多智能体及仿真建模等技术，已在汽车电子研发测试与质量验证环节规模化应用，累计支撑 1000 余个汽车电子产品型号、项目版本及测试任务，测试效率提升约 6 倍。",
+  "background": "汽车电子测试场景复杂、用例繁多。",
+  "problem": "汽车电子研发测试与质量验证环节测试用例编写复杂、依赖人工、效率低、覆盖面难保证。",
+  "solution": "打造“大模型+智能体”电子测试系统，融合大模型、多智能体与仿真建模，实现测试自动化与智能化。",
+  "implementationSteps": [
+    "构建大模型+多智能体测试系统与仿真建模",
+    "自动化生成与执行测试用例",
+    "在研发测试与质量验证环节部署",
+    "覆盖多型号汽车电子产品规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "测试效率提升",
+      "value": "6",
+      "unit": "倍",
+      "kind": "actual",
+      "sourceId": "src-js-1"
+    },
+    {
+      "label": "累计支撑产品型号/版本/测试",
+      "value": "1000",
+      "unit": "余个",
+      "kind": "actual",
+      "sourceId": "src-js-2"
+    }
+  ],
+  "roi": "",
+  "risks": "测试用例覆盖完整性、车规级可靠性验证。",
+  "editorComment": {
+    "suitableFor": "汽车电子研发测试与质量验证智能化",
+    "prerequisites": "具备车规级工程体系与测试数据",
+    "priority": "建议优先",
+    "text": "大模型+智能体赋能汽车电子测试的国家级典型。"
+  },
+  "implementers": [
+    {
+      "name": "宁波普瑞均胜汽车电子有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-js-1",
+      "title": "效率提升6倍！均胜电子“大模型+智能体”测试系统入选工信部典型案例",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/wm/2026-07-07/doc-inifyvaw8374251.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证效率提升 6 倍与入选。",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "publicId": "src-js-2",
+      "title": "均胜电子“大模型+智能体”测试系统入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/jjxw/2026-07-08/doc-inihatua4856092.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证累计支撑 1000 余个型号/版本/测试。",
+      "publishedAt": "2026-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "用例复杂",
+    "测试效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "多智能体",
+    "仿真建模"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "均胜电子",
+    "汽车电子",
+    "大模型",
+    "智能体测试"
+  ],
+  "seo": {
+    "metaTitle": "“大模型+智能体”驱动的汽车电子设备测试系统应用",
+    "metaDescription": "“大模型+智能体”驱动的汽车电子设备测试系统应用",
+    "keywords": [
+      "宁波普瑞均胜汽车电子有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "宁波市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

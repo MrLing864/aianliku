@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0093",
+  "version": 1,
+  "slug": "case-2025-0093",
+  "title": "SolutionX 多模态 AI 协同平台在柔性制造中的应用",
+  "organization": {
+    "id": "org-0093",
+    "name": "中国汽车工业工程有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国汽车工业工程有限公司（中汽工程）打造 SolutionX 多模态 AI 协同平台，融合多模态 AI 与智能优化算法，攻克岛式柔性生产动态布局、人机协同匹配与工艺数字化沉淀难题，赋能柔性制造。",
+  "background": "中汽工程是国机集团旗下专业从事汽车工厂工程设计与总承包的企业，持续推动汽车智能制造系统向“柔性、精益、智能、绿色”升级。",
+  "problem": "柔性化岛式生产面临动态布局难、人机协同匹配复杂、工艺知识难以数字化沉淀等挑战。",
+  "solution": "SolutionX 平台融合多模态 AI 与智能优化算法，构建柔性装配“AI+数字孪生”能力，实现产线动态布局、人机协同与工艺知识沉淀。",
+  "implementationSteps": [
+    "构建多模态 AI 与数字孪生融合的柔性装配平台",
+    "研发岛式柔性生产动态布局与人机协同匹配算法",
+    "在汽车工厂工程项目中落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "柔性产线工艺知识建模难度、人机协同安全与实时性要求。",
+  "editorComment": {
+    "suitableFor": "汽车及离散制造柔性产线设计与优化",
+    "prerequisites": "具备产线工程设计与仿真基础",
+    "priority": "建议优先",
+    "text": "多模态 AI+数字孪生驱动柔性制造的工程范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国汽车工业工程有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-caee-1",
+      "title": "数智国机丨AI重塑“智造筋骨”，探秘柔性装配黑科技",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://www.thepaper.cn/newsDetail_forward_31756015",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证柔性装配 AI+数字孪生平台。",
+      "publishedAt": "2025-10-10"
+    },
+    {
+      "publicId": "src-caee-2",
+      "title": "中汽工程在国机集团人工智能创新大赛中荣获多个奖项",
+      "sourceType": "news",
+      "publisher": "国机汽车",
+      "originalUrl": "http://www.sinomach-auto.com/xwzx/gsxw/202505/t20250529_548789.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网报道，佐证 SolutionX 多模态 AI 协同平台获奖。",
+      "publishedAt": "2025-05-29"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "动态布局难",
+    "人机协同复杂",
+    "工艺知识难沉淀"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态AI",
+    "数字孪生",
+    "智能优化算法"
+  ],
+  "modelStack": [
+    "SolutionX 多模态 AI 协同平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "多模态AI",
+    "柔性制造",
+    "数字孪生",
+    "岛式生产"
+  ],
+  "seo": {
+    "metaTitle": "SolutionX 多模态 AI 协同平台在柔性制造中的应用",
+    "metaDescription": "SolutionX 多模态 AI 协同平台在柔性制造中的应用",
+    "keywords": [
+      "中国汽车工业工程有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国机械工业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -39,7 +39,7 @@ export function scoreDuplicate(incoming: IncomingCase, existing: CaseStudy, vect
   const existingTime = existing.publishedAt ? Date.parse(existing.publishedAt) : Number.NaN;
   const hasTime = Number.isFinite(incomingTime) && Number.isFinite(existingTime);
   const time = hasTime ? (Math.abs(incomingTime - existingTime) <= 1000 * 60 * 60 * 24 * 365 ? 1 : .25) : 0;
-  const implementer = incoming.implementer ? Math.max(0, ...existing.implementers.map((item) => equalScore(incoming.implementer, item))) : 0;
+  const implementer = incoming.implementer ? Math.max(0, ...existing.implementers.map((item) => equalScore(incoming.implementer, item.name))) : 0;
   const metrics = incoming.result ? Math.max(...existing.results.map((item) => textSimilarity(incoming.result ?? "", `${item.label}${item.value}`))) : 0;
   const features = [
     { value: organization, weight: .30, active: true },

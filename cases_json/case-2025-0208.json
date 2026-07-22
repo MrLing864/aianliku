@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0208",
+  "version": 1,
+  "slug": "case-2025-0208",
+  "title": "工业多模态垂类智能检测装备及平台实践",
+  "organization": {
+    "id": "org-0208",
+    "name": "菲特（天津）检测技术有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "菲特（天津）检测技术有限公司以'AI+光学'为根技术，构建工业多模态垂类智能检测能力，并推出'菲凡'工业垂类大模型，实现从感知、分析到决策与执行的智能闭环，服务汽车、生物医药、半导体、军工等领域，入选工信部人工智能应用典型案例（天津市仅 2 项上榜）。",
+  "background": "菲特成立于 2013 年，专注光学、人工智能与先进传感，是工业智能体领域民营科技'小巨人'，不追求通用大模型，而是深耕工业制造特定场景的垂类大模型。",
+  "problem": "工业质检依赖人工目检、非标缺陷识别难，跨行业复用困难。",
+  "solution": "以 AI+光学融合构建工业多模态垂类智能检测，并以菲凡工业垂类大模型实现感知-分析-决策-执行闭环，跨行业复制。",
+  "implementationSteps": [
+    "研发 AI+光学工业检测根技术",
+    "发布菲凡工业垂类大模型",
+    "在汽车/半导体/生物医药等领域落地"
+  ],
+  "duration": "2013 年成立以来持续",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "跨行业样本泛化、光学成像与复杂缺陷适配。",
+  "editorComment": {
+    "suitableFor": "工业制造多模态质检与垂类大模型",
+    "prerequisites": "具备光学成像与质检数据基础",
+    "priority": "建议优先",
+    "text": "AI+光学根技术，工业垂类大模型标杆。"
+  },
+  "implementers": [
+    {
+      "name": "菲特（天津）检测技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-fitow-1",
+      "title": "国家级示范落地！菲特入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "菲特",
+      "originalUrl": "https://www.fitow.com/article-detail/NZ4xOpmb",
+      "accessibility": "available",
+      "rightsNote": "企业官方报道，佐证实入选与工业多模态方向。",
+      "publishedAt": "2026-07-15"
+    },
+    {
+      "publicId": "src-fitow-2",
+      "title": "菲特智能：以“AI+光学”为根技术，构建全球工业智能新生态",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/911840675_121722234",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 AI+光学与菲凡大模型。",
+      "publishedAt": "2025-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工目检",
+    "非标缺陷难识别"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态",
+    "工业大模型"
+  ],
+  "modelStack": [
+    "菲凡工业垂类大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "工业垂类大模型",
+    "AI+光学",
+    "智能检测",
+    "菲凡"
+  ],
+  "seo": {
+    "metaTitle": "工业多模态垂类智能检测装备及平台实践",
+    "metaDescription": "工业多模态垂类智能检测装备及平台实践",
+    "keywords": [
+      "菲特（天津）检测技术有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "天津市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

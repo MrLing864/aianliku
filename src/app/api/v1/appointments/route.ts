@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { nanoid } from "nanoid";
 import { z } from "zod";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import {
   APPOINTMENT_CONSENT_VERSION,
   PRIVACY_NOTICE_VERSION,
@@ -55,7 +55,7 @@ export async function POST(request: Request) {
       { status: 400 },
     );
   }
-  if (!isMongoConfigured()) {
+  if (!isDbConfigured()) {
     return NextResponse.json(
       {
         error: "预约服务正在配置，请稍后重试或通过邮件联系我们。",

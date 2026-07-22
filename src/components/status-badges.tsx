@@ -14,5 +14,11 @@ const confidenceMap: Record<ConfidenceLevel, { label: string; className: string 
   pending: { label: "待核验", className: "text-amber-700 dark:text-amber-300" },
 };
 
-export function OutcomeBadge({ status }: { status: OutcomeStatus }) { const item = outcomeMap[status]; return <Badge variant="outline" className={cn("font-medium", item.className)}>{item.label}</Badge>; }
-export function ConfidenceBadge({ level }: { level: ConfidenceLevel }) { const item = confidenceMap[level]; return <Badge variant="outline" className={cn("bg-background/50 font-medium", item.className)}>{item.label}</Badge>; }
+export function OutcomeBadge({ status }: { status: OutcomeStatus }) {
+  const item = outcomeMap[status] ?? outcomeMap.undisclosed;
+  return <Badge variant="outline" className={cn("font-medium", item.className)}>{item.label}</Badge>;
+}
+export function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
+  const item = confidenceMap[level] ?? confidenceMap.pending;
+  return <Badge variant="outline" className={cn("bg-background/50 font-medium", item.className)}>{item.label}</Badge>;
+}

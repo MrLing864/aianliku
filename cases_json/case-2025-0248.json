@@ -1,0 +1,161 @@
+{
+  "id": "case-2025-0248",
+  "version": 1,
+  "slug": "case-2025-0248",
+  "title": "炼化全流程计划优化智能体应用",
+  "organization": {
+    "id": "org-0248",
+    "name": "中石化（大连）石油化工研究院有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "石油石化",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中石化（大连）石油化工研究院有限公司实践“炼化全流程计划优化智能体应用”，依托自研计划优化模型软件（S-GROMS，已组织 30 家炼油企业全面应用）与“分子炼油”理念，构建以 MES 标准化管控为核心的炼化一体化生产计划优化体系；并开展基于多模态大模型的炼化制造资源能源流程智能调控技术研究。",
+  "background": "中石化大连院（石科院体系）在流程模拟建模优化方面积淀深厚，曾为 26 家炼化企业建模、测算 4000 余项优化方案；其 S-GROMS 计划优化软件已组织 30 家炼油企业全面应用。",
+  "problem": "炼化全流程计划与调度依赖经验、市场波动下难以快速响应与全局优化。",
+  "solution": "炼化全流程计划优化智能体，融合流程模拟优化与多模态大模型，实现资源能源流程智能调控与生产计划精准优化。",
+  "implementationSteps": [
+    "研发 S-GROMS 计划优化软件并全面推广",
+    "构建炼化全流程计划优化智能体",
+    "在炼化企业计划调度场景应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "应用企业",
+      "value": "30",
+      "unit": "家炼油企业",
+      "kind": "actual",
+      "sourceId": "src-sinopec-3"
+    }
+  ],
+  "roi": "",
+  "risks": "炼化工艺复杂、模型对装置特性的泛化。",
+  "editorComment": {
+    "suitableFor": "炼化企业计划优化与智能调度",
+    "prerequisites": "具备 MES 与流程模拟数据",
+    "priority": "建议优先",
+    "text": "炼化全流程计划优化智能体，降本增效。"
+  },
+  "implementers": [
+    {
+      "name": "中石化（大连）石油化工研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sinopec-3",
+      "title": "中石化计划优化软件全面应用",
+      "sourceType": "news",
+      "publisher": "中化新网",
+      "originalUrl": "https://www.ccin.com.cn/detail/bdbd50eb406633a85ef34e4b34f60e78/news",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证 S-GROMS 在 30 家炼油企业应用。",
+      "publishedAt": "2025-02-07"
+    },
+    {
+      "publicId": "src-sinopec-4",
+      "title": "数智升级：驱动炼化企业高端化、智能化、绿色化发展",
+      "sourceType": "news",
+      "publisher": "中国石化新闻网",
+      "originalUrl": "http://www.sinopecnews.com.cn/xnews/content/2025-01/08/content_7115955.html",
+      "accessibility": "available",
+      "rightsNote": "企业官媒，佐证分子炼油与调度优化体系。",
+      "publishedAt": "2025-01-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖经验",
+    "难快速响应"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "流程模拟优化",
+    "多模态大模型"
+  ],
+  "modelStack": [
+    "炼化全流程计划优化智能体"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "炼化",
+    "计划优化",
+    "智能体",
+    "S-GROMS"
+  ],
+  "seo": {
+    "metaTitle": "炼化全流程计划优化智能体应用",
+    "metaDescription": "炼化全流程计划优化智能体应用",
+    "keywords": [
+      "中石化（大连）石油化工研究院有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国石油化工集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

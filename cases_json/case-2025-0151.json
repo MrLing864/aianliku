@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0151",
+  "version": 1,
+  "slug": "case-2025-0151",
+  "title": "装维调度与自服务数字员工应用",
+  "organization": {
+    "id": "org-0151",
+    "name": "中国电信集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电信集团有限公司构建装维调度与自服务数字员工，依托“启明”“磐石”等大模型平台打造装维高频支撑 AI 智能体，覆盖家宽装维等场景，推动网络大模型赋能云网智慧营维；该方向入选国务院国资委“百业智景”中央企业人工智能战略性高价值场景。",
+  "background": "中国电信推进“云改数转智惠”战略，以 AI 重塑监控维护、网络优化、家宽装维三大核心场景作业流程，实现质效双升。",
+  "problem": "装维支撑需求激增、人工效率不高，传统运维存在瓶颈。",
+  "solution": "装维调度与自服务数字员工（AI 智能体），依托网络大模型构建“AI+装维”数智化支撑体系。",
+  "implementationSteps": [
+    "依托“启明”“磐石”平台构建装维 AI 智能体",
+    "在家宽装维等高频场景部署数字员工",
+    "推动网络大模型赋能云网智慧营维"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "数字员工在复杂装维场景的可靠性、数据安全。",
+  "editorComment": {
+    "suitableFor": "通信运营商装维与营维智能化",
+    "prerequisites": "具备网络大模型与运维数据底座",
+    "priority": "建议优先",
+    "text": "运营商数字员工驱动营维效能跃迁。"
+  },
+  "implementers": [
+    {
+      "name": "中国电信集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ct-1",
+      "title": "中国电信“网络大模型赋能云网智慧营维场景”入选央企AI战略高价值场景",
+      "sourceType": "news",
+      "publisher": "知乎",
+      "originalUrl": "https://zhuanlan.zhihu.com/p/2062544631540216076",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证网络大模型赋能云网营维与家宽装维场景。",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "publicId": "src-ct-2",
+      "title": "无锡电信AI智能体驱动运维服务效能升级",
+      "sourceType": "news",
+      "publisher": "人民邮电报",
+      "originalUrl": "https://www.cnii.com.cn/rmydb/202605/t20260514_737605.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证装维高频支撑 AI 智能体实践。",
+      "publishedAt": "2026-05-14"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "支撑需求激增",
+    "人工效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "AI智能体"
+  ],
+  "modelStack": [
+    "装维调度与自服务数字员工"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "数字员工",
+    "装维",
+    "网络大模型",
+    "云网营维"
+  ],
+  "seo": {
+    "metaTitle": "装维调度与自服务数字员工应用",
+    "metaDescription": "装维调度与自服务数字员工应用",
+    "keywords": [
+      "中国电信集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0181",
+  "version": 1,
+  "slug": "case-2025-0181",
+  "title": "租仓库点智慧监管风险预警模型应用",
+  "organization": {
+    "id": "org-0181",
+    "name": "中国储备粮管理集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国储备粮管理集团有限公司实践“租仓库点智慧监管风险预警模型应用”，依托中储粮智慧监管平台，对全国 900 余家直属库及分库粮情信息实现 3D 立体可视化数字仓储管理与 AI 预警，并加强对租仓和委托代储库点的信息化升级改造与风险预警，守牢粮食安全。",
+  "background": "中储粮坚持创新驱动建设“智慧粮仓”，在总结试点成效基础上选择 100 家直属库开展中试，推广智能扦检、数字仓储、实时粮情、AI 预警等；其智慧监管平台已接入全国 900 余家库点粮情信息。",
+  "problem": "租仓与委托代储库点分布广、监管薄弱，粮食数量与质量风险难以实时掌握。",
+  "solution": "构建租仓库点智慧监管风险预警模型，依托智慧监管平台对库点粮情、数量、质量进行 AI 预警与风险评价。",
+  "implementationSteps": [
+    "建设智慧监管平台与数字仓储管理",
+    "构建租仓库点风险预警模型",
+    "对委托代储库点信息化升级与风险预警"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "接入库点",
+      "value": "900",
+      "unit": "余家",
+      "kind": "actual",
+      "sourceId": "src-cc-1"
+    }
+  ],
+  "roi": "",
+  "risks": "库点数据接入质量、预警误报与人工核查。",
+  "editorComment": {
+    "suitableFor": "粮库与租仓库点智慧监管",
+    "prerequisites": "具备粮情监测与库点数据接入",
+    "priority": "建议优先",
+    "text": "AI 预警守护大国粮仓的央企范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国储备粮管理集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cc-1",
+      "title": "智慧粮仓来了：中储粮智慧监管平台全国900余家库点粮情尽收眼底",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/910618609_122014422",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证智慧监管平台与 AI 预警能力。",
+      "publishedAt": "2025-07-04"
+    },
+    {
+      "publicId": "src-cc-2",
+      "title": "中储粮探索粮食仓储转型：建设“智慧粮仓”",
+      "sourceType": "news",
+      "publisher": "国务院国资委",
+      "originalUrl": "http://www.sasac.gov.cn/n4470048/n29955503/n30329277/n30329358/c30380870/content.html",
+      "accessibility": "available",
+      "rightsNote": "央企官网，佐证智慧粮仓中试与智能扦检部署。",
+      "publishedAt": "2024-03-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "监管薄弱",
+    "风险难掌握"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "3D可视化",
+    "AI预警"
+  ],
+  "modelStack": [
+    "租仓库点智慧监管风险预警模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智慧粮仓",
+    "租仓库点",
+    "风险预警",
+    "粮食安全"
+  ],
+  "seo": {
+    "metaTitle": "租仓库点智慧监管风险预警模型应用",
+    "metaDescription": "租仓库点智慧监管风险预警模型应用",
+    "keywords": [
+      "中国储备粮管理集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国储备粮管理集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

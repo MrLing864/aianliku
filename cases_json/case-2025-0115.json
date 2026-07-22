@@ -1,0 +1,136 @@
+{
+  "id": "case-2025-0115",
+  "version": 1,
+  "slug": "case-2025-0115",
+  "title": "OPPO“平台+场景”大小模型赋能全链条制造",
+  "organization": {
+    "id": "org-0115",
+    "name": "OPPO 广东移动通信有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "OPPO 广东移动通信有限公司以'平台+场景'模式，运用大小模型协同赋能手机制造全链条，依托安第斯（Andes）大模型端云协同'1+N'架构，在研发、生产、供应链等场景落地 AI 能力。",
+  "background": "OPPO 自 2019 年布局 AI 大模型，2023 年推出自主训练的安第斯大模型（AndesGPT），采用端云协同'1+N'架构。",
+  "problem": "手机制造全链条环节多、协同复杂，需以平台化 AI 能力支撑多场景。",
+  "solution": "构建'平台+场景'的大小模型协同体系，以安第斯大模型为底座，在制造全链条场景部署 AI 应用。",
+  "implementationSteps": [
+    "建设安第斯大模型端云协同平台",
+    "在研发、生产、供应链等场景落地大小模型协同",
+    "持续扩展制造全链条 AI 场景"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "端云协同算力与隐私、制造场景模型可靠性。",
+  "editorComment": {
+    "suitableFor": "消费电子全链条智能制造",
+    "prerequisites": "具备大模型平台与数字化产线基础",
+    "priority": "建议优先",
+    "text": "大小模型协同+平台化，适合大型电子制造。"
+  },
+  "implementers": [
+    {
+      "name": "OPPO 广东移动通信有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-oppo-1",
+      "title": "OPPO AI | OPPO 官方网站",
+      "sourceType": "official",
+      "publisher": "OPPO",
+      "originalUrl": "https://www.oppo.com/cn/discover/technology/oppo-ai/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证安第斯大模型与端云协同架构。",
+      "publishedAt": "2025-10-15"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "制造链条协同复杂"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "端云协同"
+  ],
+  "modelStack": [
+    "安第斯大模型 AndesGPT"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "大小模型协同",
+    "安第斯大模型",
+    "手机制造",
+    "平台+场景"
+  ],
+  "seo": {
+    "metaTitle": "OPPO“平台+场景”大小模型赋能全链条制造",
+    "metaDescription": "OPPO“平台+场景”大小模型赋能全链条制造",
+    "keywords": [
+      "OPPO 广东移动通信有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

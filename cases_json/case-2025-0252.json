@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0252",
+  "version": 1,
+  "slug": "case-2025-0252",
+  "title": "招财 SMART 平台推动财务全面智能化转型",
+  "organization": {
+    "id": "org-0252",
+    "name": "招商局集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "招商局集团有限公司以'招财 SMART 平台'推动财务全面智能化转型，构建集财务报表编制、财务数据分析、财务信息管理于一体的规范化、精细化、智能化、一体化财务体系。",
+  "background": "招商局集团提出打造价值创造型财务管理体系，以'招财并表'等系统迈向财务数字化，并持续推动财务全面智能化。",
+  "problem": "大型集团财务数据分散、报表编制与合并工作量大、决策支持不足。",
+  "solution": "以招财 SMART 平台整合财务报表编制、数据分析与信息管理，推动财务从核算向智能决策转型。",
+  "implementationSteps": [
+    "建设招财并表等智能化财务系统",
+    "构建招财 SMART 一体化平台",
+    "推动财务全面智能化转型"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "财务数据质量、合规与跨板块口径统一。",
+  "editorComment": {
+    "suitableFor": "大型集团财务智能化",
+    "prerequisites": "具备财务共享与数据基础",
+    "priority": "建议优先",
+    "text": "财务智能化转型标杆，集团可复制。"
+  },
+  "implementers": [
+    {
+      "name": "招商局集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmh-1",
+      "title": "招商局集团智能化合并报表系统正式上线",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/744355717_639898",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证招财并表与财务智能化。",
+      "publishedAt": "2023-12-15"
+    },
+    {
+      "publicId": "src-cmh-2",
+      "title": "招商局集团：一流财务管理体系",
+      "sourceType": "news",
+      "publisher": "金蝶",
+      "originalUrl": "https://www.kingdee.com/success-stories/1872220684273389570.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证财务数字化转型目标。",
+      "publishedAt": "2025-04-24"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据分散",
+    "报表工作量大"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "财务大模型",
+    "数据分析"
+  ],
+  "modelStack": [
+    "招财 SMART 平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "财务智能化",
+    "招财SMART",
+    "集团财务"
+  ],
+  "seo": {
+    "metaTitle": "招财 SMART 平台推动财务全面智能化转型",
+    "metaDescription": "招财 SMART 平台推动财务全面智能化转型",
+    "keywords": [
+      "招商局集团有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "招商局集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

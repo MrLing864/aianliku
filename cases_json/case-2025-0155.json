@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0155",
+  "version": 1,
+  "slug": "case-2025-0155",
+  "title": "城市综合管廊多灾种风险综合防控智能系统实践",
+  "organization": {
+    "id": "org-0155",
+    "name": "四川君逸数码科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "政务与公共服务",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "四川君逸数码科技股份有限公司“城市综合管廊多灾种风险综合防控智能系统”联合中国矿业大学（北京）、清华大学、应急管理部大数据中心、中国建筑设计研究院等九家单位，在厦门、合肥、珠海、北京等多地重大管廊项目应用并成功预警，凭借领先技术创新性入选工信部 2025 年人工智能应用典型案例。",
+  "background": "君逸数码专注智慧城市与数字管廊领域，曾联合产学研顶尖力量荣获国家首届应急管理科技创新奖。",
+  "problem": "城市综合管廊面临火灾、渗水等多灾种风险，传统防控手段难以实现早期预警与综合研判。",
+  "solution": "构建城市综合管廊多灾种风险综合防控智能系统，以 AI 实现多灾种风险智能预警与辅助决策。",
+  "implementationSteps": [
+    "联合高校与部委单位研发多灾种防控智能系统",
+    "在厦门、合肥、珠海、北京等地重大管廊项目落地",
+    "实现风险成功预警与辅助决策"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "落地城市",
+      "value": "厦门/合肥/珠海/北京等",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-jy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "多灾种耦合建模、地下空间感知数据质量。",
+  "editorComment": {
+    "suitableFor": "城市生命线/综合管廊安全防控",
+    "prerequisites": "具备管廊物联感知与数据基础",
+    "priority": "建议优先",
+    "text": "产学研联合的城市生命线 AI 防控范式。"
+  },
+  "implementers": [
+    {
+      "name": "四川君逸数码科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jy-1",
+      "title": "君逸数码“城市综合管廊多灾种风险综合防控智能系统实践”入选",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://news.10jqka.com.cn/field/20260702/677893548.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证多灾种防控系统入选。",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "publicId": "src-jy-2",
+      "title": "君逸数码联合产学研顶尖力量荣获国家首届应急管理科技创新奖",
+      "sourceType": "news",
+      "publisher": "君逸数码",
+      "originalUrl": "http://www.joyoudigital.com/active/469.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证产学研联合与多地管廊项目预警。",
+      "publishedAt": "2025-12-03"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多灾种风险",
+    "防控难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多灾种风险建模",
+    "智能预警"
+  ],
+  "modelStack": [
+    "城市综合管廊多灾种防控智能系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "城市管廊",
+    "多灾种防控",
+    "智能预警",
+    "城市生命线"
+  ],
+  "seo": {
+    "metaTitle": "城市综合管廊多灾种风险综合防控智能系统实践",
+    "metaDescription": "城市综合管廊多灾种风险综合防控智能系统实践",
+    "keywords": [
+      "四川君逸数码科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

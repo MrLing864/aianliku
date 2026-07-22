@@ -2,12 +2,8 @@ import "server-only";
 
 import { createHash } from "node:crypto";
 import type { AssessmentInput } from "@/lib/assessment";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
-import type {
-  AssessmentJob,
-  AssessmentReport,
-  NotificationStatus,
-} from "@/lib/types";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
+import type { AssessmentJob, AssessmentReport } from "@/lib/types";
 import { nanoid } from "nanoid";
 import { PRIVACY_NOTICE_VERSION, REPORT_CONSENT_VERSION } from "@/lib/policies";
 
@@ -19,7 +15,7 @@ export function hashReportToken(token: string) {
 
 export async function createAssessmentJob(input: {
   id: string;
-  email: string;
+  phone: string;
   answers: AssessmentInput;
   statusToken: string;
   reportToken: string;
@@ -37,10 +33,8 @@ export async function createAssessmentJob(input: {
     statusTokenHash: hashReportToken(input.statusToken),
     reportTokenHash: hashReportToken(input.reportToken),
     reportToken: input.reportToken,
-    email: input.email,
+    phone: input.phone,
     input: input.answers as unknown as Record<string, unknown>,
-    notificationStatus: "pending",
-    notificationAttempts: 0,
     createdAt: now,
     updatedAt: now,
     privacyNoticeVersion: PRIVACY_NOTICE_VERSION,
@@ -58,7 +52,7 @@ export async function createAssessmentJob(input: {
       $set: {
         id: input.id,
         input: input.answers,
-        email: input.email,
+        phone: input.phone,
         status: "queued",
         consent: {
           privacyNoticeVersion: PRIVACY_NOTICE_VERSION,
@@ -77,16 +71,6 @@ export async function createAssessmentJob(input: {
   return job;
 }
 
-export async function setAssessmentJobRunId(jobId: string, runId: string) {
-  const db = await getDb();
-  await db
-    .collection<AssessmentJob>("assessment_jobs")
-    .updateOne(
-      { id: jobId, status: "queued" },
-      { $set: { runId, updatedAt: new Date().toISOString() } },
-    );
-}
-
 export async function getAssessmentJobForWorkflow(jobId: string) {
   const db = await getDb();
   return db
@@ -98,14 +82,14 @@ export async function getAssessmentJobForWorkflow(jobId: string) {
 }
 
 export async function getAssessmentJobByStatusToken(token: string) {
-  if (!isMongoConfigured()) return null;
+  if (!isDbConfigured()) return null;
   const db = await getDb();
   return db.collection<AssessmentJob>("assessment_jobs").findOne(
     { statusTokenHash: hashReportToken(token), deletedAt: { $exists: false } },
     {
       projection: {
         _id: 0,
-        email: 0,
+        phone: 0,
         input: 0,
         reportToken: 0,
         reportTokenHash: 0,
@@ -149,7 +133,7 @@ export async function persistAssessmentReport(
   const completedAt = new Date().toISOString();
   const stored: StoredReport = {
     ...report,
-    email: job.email,
+    phone: job.phone,
     claimedAt: completedAt,
     accessTokenHash: job.reportTokenHash,
   };
@@ -186,7 +170,7 @@ export async function markAssessmentJobFailed(
   jobId: string,
   errorCode: string,
 ) {
-  if (!isMongoConfigured()) return;
+  if (!isDbConfigured()) return;
   const db = await getDb();
   const now = new Date().toISOString();
   await Promise.all([
@@ -205,66 +189,8 @@ export async function markAssessmentJobFailed(
   ]);
 }
 
-export async function getNotificationPayload(jobId: string) {
-  const job = await getAssessmentJobForWorkflow(jobId);
-  if (!job?.reportId || !job.reportToken) return null;
-  const report = await getReportById(job.reportId);
-  if (!report) return null;
-  return {
-    report: { ...report, email: job.email },
-    reportToken: job.reportToken,
-  };
-}
-
-export async function recordNotificationResult(
-  jobId: string,
-  status: Exclude<NotificationStatus, "pending">,
-) {
-  const db = await getDb();
-  const now = new Date().toISOString();
-  if (status === "sent") {
-    await db.collection<AssessmentJob>("assessment_jobs").updateOne(
-      { id: jobId },
-      {
-        $set: { notificationStatus: status, notifiedAt: now, updatedAt: now },
-        $inc: { notificationAttempts: 1 },
-        $unset: { reportToken: "" },
-      },
-    );
-    return;
-  }
-  await db.collection<AssessmentJob>("assessment_jobs").updateOne(
-    { id: jobId },
-    {
-      $set: { notificationStatus: status, updatedAt: now },
-      $inc: { notificationAttempts: 1 },
-    },
-  );
-}
-
-export async function queueAssessmentNotificationRetry(jobId: string) {
-  const db = await getDb();
-  const now = new Date().toISOString();
-  const result = await db
-    .collection<AssessmentJob>("assessment_jobs")
-    .updateOne(
-      {
-        id: jobId,
-        status: "ready",
-        notificationStatus: { $in: ["failed", "not_configured"] },
-        reportToken: { $type: "string" },
-        deletedAt: { $exists: false },
-      },
-      {
-        $set: { notificationStatus: "pending", updatedAt: now },
-        $unset: { notificationRetryError: "" },
-      },
-    );
-  return result.modifiedCount === 1;
-}
-
 export async function getReportById(id: string) {
-  if (!isMongoConfigured()) return null;
+  if (!isDbConfigured()) return null;
   const db = await getDb();
   return db
     .collection<AssessmentReport>("assessment_reports")
@@ -272,7 +198,7 @@ export async function getReportById(id: string) {
 }
 
 export async function getReportByToken(token: string) {
-  if (!isMongoConfigured()) return null;
+  if (!isDbConfigured()) return null;
   const db = await getDb();
   return db
     .collection<StoredReport>("assessment_reports")
@@ -295,7 +221,7 @@ export async function saveRoiVersionByToken(
     anomaliesConfirmedAt?: string;
   },
 ) {
-  if (!isMongoConfigured()) return null;
+  if (!isDbConfigured()) return null;
   const db = await getDb();
   const tokenHash = hashReportToken(token);
   const report = await db
@@ -323,7 +249,7 @@ export async function saveRoiVersionByToken(
 }
 
 export async function requestReportDeletionByToken(token: string) {
-  if (!isMongoConfigured()) return null;
+  if (!isDbConfigured()) return null;
   const db = await getDb();
   const tokenHash = hashReportToken(token);
   const report = await db
@@ -344,7 +270,7 @@ export async function requestReportDeletionByToken(token: string) {
         deletedAt: { $exists: false },
       },
       {
-        $set: { deletedAt, deletionStatus: "pending", email: null },
+        $set: { deletedAt, deletionStatus: "pending", phone: null },
         $unset: { accessTokenHash: "" },
       },
     );
@@ -378,7 +304,7 @@ export async function completeAssessmentDeletionTask(taskId: string) {
         { id: task.sessionId },
         {
           $set: { status: "deleted", deletedAt },
-          $unset: { input: "", email: "", reportId: "" },
+          $unset: { input: "", phone: "", reportId: "" },
         },
       );
     await db
@@ -389,7 +315,6 @@ export async function completeAssessmentDeletionTask(taskId: string) {
           $set: { status: "deleted", deletedAt, updatedAt: deletedAt },
           $unset: {
             input: "",
-            email: "",
             reportToken: "",
             reportTokenHash: "",
             statusTokenHash: "",
@@ -423,7 +348,6 @@ export async function completeAssessmentDeletionTask(taskId: string) {
         {
           $set: { deletionStatus: "completed", deletedAt },
           $unset: {
-            email: "",
             companyProfile: "",
             diagnosis: "",
             recommendations: "",

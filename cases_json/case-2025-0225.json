@@ -1,0 +1,137 @@
+{
+  "id": "case-2025-0225",
+  "version": 1,
+  "slug": "case-2025-0225",
+  "title": "基于 AR 的智能仓储拣货系统及解决方案实践",
+  "organization": {
+    "id": "org-0225",
+    "name": "北京京邦达贸易有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "物流供应链",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京京邦达贸易有限公司（京东物流）“基于 AR 的智能仓储拣货系统及解决方案”入选工信部 2025 年人工智能应用典型案例。系统面向仓储拣货效率瓶颈，通过京邦达自研 AR 眼镜、多模态识别技术与路径规划导航，让拣货员像“跟着导航开车”一样作业，解放双手并确保动作流、信息流一致，降低错拣。",
+  "background": "",
+  "problem": "传统仓储拣货需一手持终端、一手扫码核对，作业效率低、易出错。",
+  "solution": "以 AR 眼镜+多模态识别+路径规划导航构建智能仓储拣货系统，实现免手持终端的可视化引导拣货。",
+  "implementationSteps": [
+    "自研 AR 眼镜与可视化拣货引导",
+    "融合多模态识别与路径规划导航",
+    "拣货作业“跟着导航”可视化引导",
+    "在仓储拣货场景规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂货位识别泛化、AR 设备佩戴体验。",
+  "editorComment": {
+    "suitableFor": "仓储拣货 AR 可视化智能引导",
+    "prerequisites": "具备 AR 硬件与仓储系统基础",
+    "priority": "建议优先",
+    "text": "AR+多模态识别赋能仓储拣货的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "北京京邦达贸易有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-225-1",
+      "title": "四家企业入选国家级AI应用典型案例（京邦达 基于AR的智能仓储拣货系统）",
+      "sourceType": "government_notice",
+      "publisher": "首都之窗（北京市人民政府）",
+      "originalUrl": "https://www.beijing.gov.cn/ywdt/gzdt/202607/t20260706_4748889.html",
+      "accessibility": "available",
+      "rightsNote": "政府发布，佐证 AR 眼镜+多模态识别+路径规划导航的拣货系统。",
+      "publishedAt": "2026-07-06"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "拣货低效",
+    "易出错"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AR",
+    "多模态识别",
+    "路径规划"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "京东物流",
+    "京邦达",
+    "AR拣货",
+    "智能仓储"
+  ],
+  "seo": {
+    "metaTitle": "基于 AR 的智能仓储拣货系统及解决方案实践",
+    "metaDescription": "基于 AR 的智能仓储拣货系统及解决方案实践",
+    "keywords": [
+      "北京京邦达贸易有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

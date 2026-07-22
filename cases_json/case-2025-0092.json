@@ -1,0 +1,157 @@
+{
+  "id": "case-2025-0092",
+  "version": 1,
+  "slug": "case-2025-0092",
+  "title": "大模型赋能汽车零部件行业智能生产排程",
+  "organization": {
+    "id": "org-0092",
+    "name": "长春启璞科技信息咨询有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "长春启璞科技面向汽车零部件及装备制造行业，研发工业级 AI 生产优化垂直大模型，重点突破智能生产排产、设计图纸 BOM 自动识别提取、关键设备健康预防性维护、产品外观检测等环节，已赋能数百家制造企业数字化转型。",
+  "background": "启璞科技成立于 2011 年，主营工业互联网平台及数字化系统研发，覆盖 PLM、MES、WMS 等模块，聚焦汽车零部件及制造业数字化转型，客户包括大众一汽平台、旭阳佛吉亚、高新东卓汽车电子等数百家制造企业。",
+  "problem": "汽车及装备制造企业排产依赖经验、效率低，设备运维被动抢修，图纸/BOM 信息提取人工成本高、易错。",
+  "solution": "研发工业级 AI 生产优化垂直大模型，融合智能生产排产、设计图纸 BOM 自动识别提取、关键设备健康预防性维护、产品外观缺陷检测等能力，依托工业互联网平台在制造业客户中落地。",
+  "implementationSteps": [
+    "沉淀汽车零部件与装备制造行业的工艺数据与行业知识",
+    "研发生产优化垂直大模型（排产/识别/预测/检测）",
+    "在数百家制造企业客户中落地应用并持续迭代"
+  ],
+  "duration": "持续迭代（2024 年起）",
+  "cost": "",
+  "results": [
+    {
+      "label": "赋能制造企业数量",
+      "value": "数百家",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-qipu-1"
+    }
+  ],
+  "roi": "",
+  "risks": "垂直大模型对行业数据的依赖、跨企业工艺差异带来的泛化挑战。",
+  "editorComment": {
+    "suitableFor": "汽车零部件及装备制造生产优化与排程",
+    "prerequisites": "具备 MES/PLM 等数字化系统基础",
+    "priority": "建议优先",
+    "text": "区域工业互联网服务商深耕垂直行业的典型范式。"
+  },
+  "implementers": [
+    {
+      "name": "长春启璞科技信息咨询有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-qipu-1",
+      "title": "启璞科技：以“智”引领 赋能制造业数字化转型",
+      "sourceType": "news",
+      "publisher": "中国吉林网",
+      "originalUrl": "https://cc.cnjiwang.com/qymk/ccxqqy/202407/3866334.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证启璞科技赋能数百家制造企业。",
+      "publishedAt": "2024-07-16"
+    },
+    {
+      "publicId": "src-qipu-2",
+      "title": "汽车零部件与装备制造的生产优化AI大模型研发及应用（项目备案）",
+      "sourceType": "government_record",
+      "publisher": "长春新区发展改革局",
+      "originalUrl": "https://dinggc.cbi360.net/project/4552345880778305536.html",
+      "accessibility": "available",
+      "rightsNote": "项目备案信息，佐证 AI 生产优化大模型研发方向。",
+      "publishedAt": "2026-03-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "排产依赖经验",
+    "设备被动抢修",
+    "信息提取人工成本高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂直大模型",
+    "生产优化",
+    "工业互联网"
+  ],
+  "modelStack": [
+    "生产优化 AI 垂直大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "生产排程",
+    "垂直大模型",
+    "汽车零部件",
+    "工业软件"
+  ],
+  "seo": {
+    "metaTitle": "大模型赋能汽车零部件行业智能生产排程",
+    "metaDescription": "大模型赋能汽车零部件行业智能生产排程",
+    "keywords": [
+      "长春启璞科技信息咨询有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "吉林省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

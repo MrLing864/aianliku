@@ -1,0 +1,175 @@
+{
+  "id": "case-2025-0169",
+  "version": 1,
+  "slug": "case-2025-0169",
+  "title": "光明大模型在电网调度负荷转供场景中的应用",
+  "organization": {
+    "id": "org-0169",
+    "name": "国网湖南省电力有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国网湖南省电力有限公司基于国家电网'光明'电力大模型，在配电网调度负荷转供场景中实现'数学机理+人工智能'的可解释决策，单次负荷转供决策由 30 分钟缩短至 1 分钟，大型保供电方案编制由 10 小时缩短至 10 分钟，是国网长沙供电公司自主研发、全国电力调度领域首个可解释人工智能应用落地实践。",
+  "background": "国家电网 2024 年 12 月 19 日发布国内首个千亿级多模态电力行业大模型'光明'，融合气象、电网等多源数据，可实时监测电网运行状态并生成最优负荷转供方案。",
+  "problem": "传统人工调度依赖经验，负荷转供决策效率低、考虑维度有限，难以应对迎峰度夏度冬与极端天气。",
+  "solution": "以'数学机理+人工智能'决策模型，基于光明电力大模型开发配网调度负荷转供智能体，自主巡航、识别过载风险并生成最优供电路径。",
+  "implementationSteps": [
+    "引入光明电力大模型并开展调度业务特训",
+    "构建'数学机理+AI'负荷转供决策模型",
+    "在长沙配网落地可解释负荷转供智能体"
+  ],
+  "duration": "2024 年 12 月起",
+  "cost": "",
+  "results": [
+    {
+      "label": "单次负荷转供决策时间",
+      "value": "30 分钟缩短至 1 分钟",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-guangming-1"
+    },
+    {
+      "label": "大型保供电方案编制时间",
+      "value": "10 小时缩短至 10 分钟",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-guangming-1"
+    },
+    {
+      "label": "综合研判决策维度",
+      "value": "达 35 个",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-guangming-1"
+    }
+  ],
+  "roi": "",
+  "risks": "模型可解释性要求高、极端工况下的决策可靠性。",
+  "editorComment": {
+    "suitableFor": "电网调度与配网负荷转供",
+    "prerequisites": "具备调度知识与电网运行数据",
+    "priority": "建议优先",
+    "text": "可解释 AI 调度标杆，决策效率数量级提升。"
+  },
+  "implementers": [
+    {
+      "name": "国网湖南省电力有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-guangming-1",
+      "title": "国网系统光明电力大模型应用场景盘点",
+      "sourceType": "news",
+      "publisher": "北极星智能电网",
+      "originalUrl": "http://www.chinasmartgrid.com.cn/news/20250324/659862.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证转供决策与方案编制时间指标。",
+      "publishedAt": "2025-03-24"
+    },
+    {
+      "publicId": "src-guangming-2",
+      "title": "“光明”赋能：大模型开启配电网智能调度新时代",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/867251933_121386321",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证光明大模型与可解释决策。",
+      "publishedAt": "2025-01-01"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工调度效率低",
+    "考虑维度有限"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "数学机理+AI"
+  ],
+  "modelStack": [
+    "光明电力大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光明大模型",
+    "电网调度",
+    "负荷转供",
+    "可解释AI"
+  ],
+  "seo": {
+    "metaTitle": "光明大模型在电网调度负荷转供场景中的应用",
+    "metaDescription": "光明大模型在电网调度负荷转供场景中的应用",
+    "keywords": [
+      "国网湖南省电力有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家电网有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

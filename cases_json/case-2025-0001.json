@@ -1,0 +1,186 @@
+{
+  "id": "case-2025-0001",
+  "version": 1,
+  "slug": "case-2025-0001",
+  "title": "新一代光电混合计算芯片与系统创新应用",
+  "organization": {
+    "id": "org-0001",
+    "name": "上海曦智科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "曦智科技以光子计算+光子网络融合推出新一代光电混合计算卡（天枢），突破冯·诺依曼瓶颈与功耗墙，在AI推理与科学计算中较主流GPU实现数量级加速。",
+  "background": "伴随ChatGPT、DeepSeek等大模型爆发，传统电子计算面临冯·诺依曼瓶颈、摩尔定律放缓与'功耗墙'，算力增长难以匹配AI需求。曦智科技自2021年起布局光电混合计算。",
+  "problem": "传统GPU在大规模AI推理与科学计算中受限于功耗、带宽与互连瓶颈，难以持续扩展算力；市场亟需高能效、高算力的新型计算范式。",
+  "solution": "采用'光子计算+光子网络'融合架构，推出'曦智天枢'光电混合计算卡，采用128×128光子矩阵，将光学引擎与计算芯片协同，支持ResNet50等商用AI算法及伊辛模型等科学计算，实现光电混合计算产品化。",
+  "implementationSteps": [
+    "2021年12月首次发布光电混合计算产品，验证特定算法较主流GPU数百倍速度优势",
+    "2025年3月发布'天枢'光电混合计算卡（128×128光子矩阵，算力提升4倍）",
+    "2025年7月WAIC以'光电融合突破算力边界'主题全面展示光子计算+光子网络成果",
+    "携手生态伙伴在国家馆及'人工智能+'创新成果展落地应用"
+  ],
+  "duration": "2021年至今持续迭代",
+  "cost": "",
+  "results": [
+    {
+      "label": "光子矩阵规模",
+      "value": "128×128",
+      "kind": "actual"
+    },
+    {
+      "label": "算力提升",
+      "value": "4",
+      "unit": "倍",
+      "kind": "actual",
+      "sourceId": "src-xz-2"
+    },
+    {
+      "label": "特定算法相对主流GPU速度优势",
+      "value": "数百倍",
+      "kind": "actual",
+      "sourceId": "src-xz-3"
+    }
+  ],
+  "roi": "",
+  "risks": "光电混合计算属新兴技术，生态与软件栈成熟度、规模化制造与成本仍需持续验证；需与主流AI框架深度适配方能大规模落地。",
+  "editorComment": {
+    "suitableFor": "对算力能效、推理延迟极度敏感的AI推理、科学计算与大模型推理场景，尤其是受功耗墙制约的智算中心",
+    "prerequisites": "需具备光子芯片流片与封装能力，并与AI框架/算法栈适配",
+    "priority": "条件具备后开展",
+    "text": "代表新型算力底座方向，适合作为高能效算力补充而非立即替代GPU；中小企业可关注其云服务化后的可用性。"
+  },
+  "implementers": [
+    {
+      "name": "上海曦智科技股份有限公司",
+      "role": "申报单位/技术提供方"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xz-1",
+      "title": "曦智科技光电融合技术突破算力边界，推动AI产业新发展",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/918242469_122362510",
+      "publishedAt": "2025-07-27",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xz-2",
+      "title": "128x128光子矩阵！曦智科技全球首发新一代光电混合计算卡",
+      "sourceType": "news",
+      "publisher": "腾讯云开发者",
+      "originalUrl": "https://cloud.tencent.com/developer/article/2641795",
+      "publishedAt": "2026-03-19",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xz-3",
+      "title": "国内光子计算新突破！全球首度支持商用AI算法，能跑大模型",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20250325A09ORW00",
+      "publishedAt": "2025-03-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xz-4",
+      "title": "为AI带来新范式，曦智科技新一代光电混合计算卡实现4倍性能",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20250331A05OAJ00",
+      "publishedAt": "2025-03-31",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "算力瓶颈",
+    "功耗墙",
+    "能效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "全球光子计算赛道领先，首款支持商用AI算法的光电混合计算卡",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "光电混合计算",
+    "光子矩阵",
+    "光子网络"
+  ],
+  "modelStack": [
+    "支持ResNet50等商用AI算法"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "算力底座",
+    "光子计算"
+  ],
+  "seo": {
+    "metaTitle": "曦智科技 光电混合计算芯片与系统创新应用",
+    "metaDescription": "曦智科技以光子计算+光子网络融合推出光电混合计算卡（天枢），突破功耗墙，实现AI推理数量级加速。",
+    "keywords": [
+      "曦智科技",
+      "光电混合计算",
+      "光子计算",
+      "算力底座"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国国新控股有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0237",
+  "version": 1,
+  "slug": "case-2025-0237",
+  "title": "智慧燃气安全生产大模型建设关键技术研究与应用示范",
+  "organization": {
+    "id": "org-0237",
+    "name": "泰能天然气有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "泰能天然气有限公司（青岛）“智慧燃气安全生产大模型建设关键技术研究与应用示范”入选工信部 2025 年人工智能应用典型案例。该智慧燃气大模型项目是山东省工业大模型“揭榜挂帅”重点工程，针对燃气管网分布广、管控半径大、运维响应滞后等痛点，以“大模型+智能体”架构落地智慧知识库、智能巡检、智能质检、智慧监盘等六大智能场景。",
+  "background": "",
+  "problem": "城镇燃气管网分布广、管控半径大，安全生产运维响应滞后，隐患管控依赖人工。",
+  "solution": "建设智慧燃气安全生产大模型，以“大模型+智能体”架构落地智慧知识库、智能巡检、智能质检、智慧监盘等场景，提升安全管控与运营效率。",
+  "implementationSteps": [
+    "开展数据治理与燃气安全生产大模型训练",
+    "构建“大模型+智能体”应用架构",
+    "落地智慧知识库、智能巡检、智能质检等六大场景",
+    "在城镇燃气安全生产中示范应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "燃气专业知识准确性、场景数据质量。",
+  "editorComment": {
+    "suitableFor": "城镇燃气安全生产大模型与智能体",
+    "prerequisites": "具备燃气数据治理与大模型能力",
+    "priority": "建议优先",
+    "text": "行业大模型赋能燃气安全生产的示范（山东省揭榜挂帅重点工程）。"
+  },
+  "implementers": [
+    {
+      "name": "泰能天然气有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-237-1",
+      "title": "青岛市市南区两项目入选工信部2025年人工智能应用典型案例（智慧燃气大模型，山东省工业大模型揭榜挂帅重点工程）",
+      "sourceType": "government_notice",
+      "publisher": "青岛市人民政府",
+      "originalUrl": "http://www.qingdao.gov.cn/ywdt/qsdt/202606/t20260629_10645272.shtml",
+      "accessibility": "available",
+      "rightsNote": "政府发布，佐证案例入选与项目定位。",
+      "publishedAt": "2026-06-29"
+    },
+    {
+      "publicId": "src-237-2",
+      "title": "智慧燃气“人工智能+”白皮书（泰能天然气“揭榜挂帅”项目落地六大智能场景）",
+      "sourceType": "report",
+      "publisher": "腾讯云",
+      "originalUrl": "https://cloud.tencent.com/developer/article/2625488",
+      "accessibility": "available",
+      "rightsNote": "白皮书，佐证“大模型+智能体”架构与六大智能场景。",
+      "publishedAt": "2026-01-29"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "管网分布广",
+    "响应滞后"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "智能体"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "泰能天然气",
+    "智慧燃气",
+    "安全生产大模型",
+    "智能体"
+  ],
+  "seo": {
+    "metaTitle": "智慧燃气安全生产大模型建设关键技术研究与应用示范",
+    "metaDescription": "智慧燃气安全生产大模型建设关键技术研究与应用示范",
+    "keywords": [
+      "泰能天然气有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

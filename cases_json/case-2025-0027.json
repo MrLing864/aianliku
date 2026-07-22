@@ -1,0 +1,119 @@
+{
+  "id": "case-2025-0027",
+  "version": 1,
+  "slug": "case-2025-0027",
+  "title": "航空行业大模型创新实践",
+  "organization": {
+    "id": "org-0027",
+    "name": "中国航空研究院",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "航空航天",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国航空研究院探索“航空行业大模型创新实践”，面向航空科技“战略性、整体性、前瞻性、基础性、共用性”技术研究，推动大模型在航空科研复杂系统与装备研制中的应用。",
+  "background": "中国航空研究院是中国航空工业集团有限公司直属的综合性科研机构，面向航空行业大模型创新应用，探索航空研发、试验、保障等场景的智能化。该案例由航空工业集团推荐入选工信部2025人工智能应用典型案例（产品应用方向）。",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "中国航空研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-avic-1",
+      "title": "成果｜中国航空研究院：科研院所多模态复杂系统的七巧板式探索",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://www.thepaper.cn/newsDetail_forward_29931303",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证中国航空研究院多模态复杂系统研究背景。",
+      "publishedAt": "2025-01-14"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "航空行业大模型创新实践",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "航空行业大模型",
+    "航空科研"
+  ],
+  "seo": {
+    "metaTitle": "中国航空研究院 航空行业大模型创新实践",
+    "metaDescription": "中国航空研究院开展航空行业大模型创新实践，推动航空科技自立自强。",
+    "keywords": [
+      "中国航空研究院",
+      "航空行业大模型",
+      "航空研发"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国航空工业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

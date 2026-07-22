@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0283",
+  "version": 1,
+  "slug": "case-2025-0283",
+  "title": "面向国家粮食安全的智慧农机监管平台",
+  "organization": {
+    "id": "org-0283",
+    "name": "西安煤航遥感信息有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "农业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "上海市商汤科技开发有限公司实践“商汤日日新大模型行业应用典型案例”，以“日日新 SenseNova”多模态大模型体系为核心，融合深度推理与多模态信息处理能力，面向医疗（日日新·大医医疗健康大模型）、金融、城市、工业等行业推出系列大模型应用，并通过商汤 AI 大装置 SenseCore 与日日新平台赋能百业。",
+  "background": "商汤 2023 年 WAIC 发布“日日新 SenseNova”大模型体系，后续迭代至 V6；日日新·大医覆盖健康管理、临床诊断辅助、医学科研等场景。",
+  "problem": "行业智能化需要可靠的多模态大模型与行业知识融合。",
+  "solution": "日日新多模态大模型体系，面向医疗、金融、城市等行业的落地应用。",
+  "implementationSteps": [
+    "构建日日新 SenseNova 多模态大模型体系",
+    "研发日日新·大医等行业大模型",
+    "在医疗/金融/城市等场景落地"
+  ],
+  "duration": "2023 发布",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "行业数据合规、多模态模型可靠性。",
+  "editorComment": {
+    "suitableFor": "行业多模态大模型应用",
+    "prerequisites": "具备行业数据与算力",
+    "priority": "建议优先",
+    "text": "日日新多模态大模型赋能行业的范式。"
+  },
+  "implementers": [
+    {
+      "name": "西安煤航遥感信息有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sens-1",
+      "title": "日日新-商汤科技大模型平台",
+      "sourceType": "official",
+      "publisher": "商汤科技",
+      "originalUrl": "https://www.sensenova.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证日日新 SenseNova 多模态大模型体系。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-sens-2",
+      "title": "从个人办公到城市级应用 商汤日日新5.5大模型落地多点开花",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/jjxw/2024-07-09/doc-inccpaqr7552119.shtml",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证日日新行业落地与日日新·大医。",
+      "publishedAt": "2024-07-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "需可靠多模态",
+    "行业知识融合"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "行业融合"
+  ],
+  "modelStack": [
+    "日日新 SenseNova"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "日日新",
+    "SenseNova",
+    "多模态大模型",
+    "商汤"
+  ],
+  "seo": {
+    "metaTitle": "面向国家粮食安全的智慧农机监管平台",
+    "metaDescription": "面向国家粮食安全的智慧农机监管平台",
+    "keywords": [
+      "西安煤航遥感信息有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "中国煤炭地质总局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

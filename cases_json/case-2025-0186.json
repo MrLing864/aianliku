@@ -1,0 +1,161 @@
+{
+  "id": "case-2025-0186",
+  "version": 1,
+  "slug": "case-2025-0186",
+  "title": "基于光明电力大模型的配电网抢修管理应用",
+  "organization": {
+    "id": "org-0186",
+    "name": "国网湖北省电力有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国网湖北省电力有限公司基于国家电网'光明'电力大模型开展配电网抢修管理应用，构建配网抢修指挥 AI 助手，智能研判停电原因、影响范围及风险设备并生成处置建议，将故障精准定位由'公里级'精确到'百米级'，整体抢修效率提高约 10%。",
+  "background": "国网湖北围绕配网工程立项、建设、结算决算及评价四阶段，依托光明电力大模型开发配网全过程辅助决策及智能管控应用，并完成 29 个智能体与系统集成。",
+  "problem": "配网故障定位粗、抢修调度依赖经验，停电影响评估慢。",
+  "solution": "以光明电力大模型构建配网抢修指挥 AI 助手，自动监测停电、智能研判原因与影响范围、生成处置建议，并深化'人工智能+抢修'应用。",
+  "implementationSteps": [
+    "部署配网抢修指挥 AI 助手",
+    "以光明大模型智能研判停电原因与影响范围",
+    "实现故障精准定位与抢修效率提升"
+  ],
+  "duration": "2025 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "故障定位精度",
+      "value": "公里级提升至百米级",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hb-1"
+    },
+    {
+      "label": "整体抢修效率",
+      "value": "提高约 10%",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hb-1"
+    }
+  ],
+  "roi": "",
+  "risks": "模型对复杂故障的研判准确性、现场网络条件。",
+  "editorComment": {
+    "suitableFor": "配电网故障抢修与主动服务",
+    "prerequisites": "具备配网拓扑与运行数据",
+    "priority": "建议优先",
+    "text": "光明大模型+抢修，供电保障可复制。"
+  },
+  "implementers": [
+    {
+      "name": "国网湖北省电力有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hb-1",
+      "title": "国网湖北电力应用人工智能赋能电网高质量发展",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/919765924_120578424",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证故障定位精度与抢修效率。",
+      "publishedAt": "2025-08-01"
+    },
+    {
+      "publicId": "src-hb-2",
+      "title": "光明电力大模型 - 百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%85%89%E6%98%8E%E7%94%B5%E5%8A%9B%E5%A4%A7%E6%A8%A1%E5%9E%8B/65228636",
+      "accessibility": "available",
+      "rightsNote": "公开百科，佐证光明电力大模型定位。",
+      "publishedAt": "2024-12-19"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "故障定位粗",
+    "抢修依赖经验"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "电力大模型",
+    "智能研判"
+  ],
+  "modelStack": [
+    "光明电力大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光明大模型",
+    "配网抢修",
+    "故障定位"
+  ],
+  "seo": {
+    "metaTitle": "基于光明电力大模型的配电网抢修管理应用",
+    "metaDescription": "基于光明电力大模型的配电网抢修管理应用",
+    "keywords": [
+      "国网湖北省电力有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家电网有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

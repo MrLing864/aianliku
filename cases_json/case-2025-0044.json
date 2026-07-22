@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0044",
+  "version": 1,
+  "slug": "case-2025-0044",
+  "title": "智晔工业中枢大模型赋能钢铁行业应用",
+  "organization": {
+    "id": "org-0044",
+    "name": "武汉钢铁有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉钢铁有限公司依托中国宝武协同优势，以'智晔工业中枢大模型'与机器人融合为核心抓手，在硅钢产线、智慧制造等多个关键场景实现AI规模化应用，打造可复制推广的'武钢方案'。",
+  "background": "武钢正从'制造执行'向'价值创造'跃迁，以数智赋能驱动高质量发展。",
+  "problem": "钢铁生产多工序、长流程，智能化转型需大模型与机器人融合落地，且要可复制推广。",
+  "solution": "依托中国宝武协同优势，以AI大模型与机器人融合为核心抓手，在硅钢产线、智慧制造等多个关键场景实现规模化应用，构建'智晔工业中枢大模型'赋能钢铁行业，形成可复制、可推广的'武钢方案'。",
+  "implementationSteps": [
+    "依托宝武协同优势引入AI大模型",
+    "以大模型与机器人融合落地关键场景",
+    "在硅钢产线等实现规模化应用",
+    "形成可复制推广的武钢方案"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "大模型与机器人融合现场落地复杂；产线安全与稳定性要求高。",
+  "editorComment": {
+    "suitableFor": "大型钢铁企业大模型与机器人融合应用",
+    "prerequisites": "具备智能化产线与集团协同资源",
+    "priority": "条件具备后开展",
+    "text": "工业中枢大模型+机器人融合的钢铁智能化方案，适合大型钢企参考。"
+  },
+  "implementers": [
+    {
+      "name": "武汉钢铁有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-wg-1",
+      "title": "我国钢铁业加快'机器人+钢铁'深度协同（武钢方案）",
+      "sourceType": "government_news",
+      "publisher": "湖北省发改委",
+      "originalUrl": "https://fgw.hubei.gov.cn/fbjd/xxgkml/jgzn/nsjg/gyc/gzdt/202604/t20260427_5923027.shtml",
+      "publishedAt": "2026-04-27",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-wg-2",
+      "title": "钢铁行业大模型应用前景（宝武钢铁大模型SAIL奖）",
+      "sourceType": "news",
+      "publisher": "中国钢铁新闻网",
+      "originalUrl": "http://www.csteelnews.com/xwzx/znzz/202510/t20251014_104319.html",
+      "publishedAt": "2025-10-14",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "长流程智能化",
+    "可复制性",
+    "产线升级"
+  ],
+  "painPointNarrative": "",
+  "highlight": "智晔工业中枢大模型+机器人融合，多场景规模化应用",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业中枢大模型",
+    "机器人融合",
+    "钢铁智能化"
+  ],
+  "modelStack": [
+    "智晔工业中枢大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "工业大模型",
+    "钢铁冶金"
+  ],
+  "seo": {
+    "metaTitle": "武汉钢铁 智晔工业中枢大模型赋能钢铁行业应用",
+    "metaDescription": "武钢以智晔工业中枢大模型与机器人融合，在硅钢产线等多场景规模化应用，形成武钢方案。",
+    "keywords": [
+      "武汉钢铁",
+      "智晔工业中枢大模型",
+      "机器人",
+      "钢铁智能化"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国宝武钢铁集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

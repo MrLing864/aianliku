@@ -1,0 +1,164 @@
+{
+  "id": "case-2025-0060",
+  "version": 1,
+  "slug": "case-2025-0060",
+  "title": "SmartDrilling 钻井软件智能化研发与应用",
+  "organization": {
+    "id": "org-0060",
+    "name": "中国石油集团工程技术研究院有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国石油集团工程技术研究院自主研发'钻井工程设计与优化决策一体化软件SmartDrilling'（2025年3月发布1.0版），打破该类软件长期依赖进口局面，集成地质-工程多学科数据，以钻井'中国智脑'实现智能设计与优化决策。",
+  "background": "钻井工程核心工业软件长期依赖进口，自主可控关乎油气勘探安全与成本。",
+  "problem": "钻井设计与优化决策软件长期进口依赖，成本高、适配性差，制约油气勘探效率。",
+  "solution": "工程院自主研发SmartDrilling 1.0（'一个平台+三大软件包'：一体化软件平台、钻完井工程设计软件包、钻井实时优化与预警软件包、地质导向软件包），集成地质-工程多学科数据，以数据驱动与智能算法实现钻井'中国智脑'，支撑智能设计与优化决策，已在国内多个油气田成功应用。",
+  "implementationSteps": [
+    "自主研发SmartDrilling 1.0（2025.3发布）",
+    "构建'一个平台+三大软件包'一体化架构",
+    "集成地质-工程多学科数据实现智能设计与优化",
+    "在国内多油气田成功应用"
+  ],
+  "duration": "2025年3月发布1.0至今",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "工业软件生态与兼容性建设周期长；需持续迭代适配复杂地质。",
+  "editorComment": {
+    "suitableFor": "油气勘探钻井工程智能化与软件自主可控",
+    "prerequisites": "具备钻井工程数据与软件研发能力",
+    "priority": "建议优先",
+    "text": "自主SmartDrilling打破进口垄断，适合油气工程数智化与自主可控参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国石油集团工程技术研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cd-1",
+      "title": "钻井'中国智脑'亮剑勘探主战场（SmartDrilling）",
+      "sourceType": "news",
+      "publisher": "中国石油报",
+      "originalUrl": "http://cdri.cnpc.com.cn/cdri/mtzs/202512/0a6ccc537b2f43ed85f4a1129facdac1.shtml",
+      "publishedAt": "2025-12-02",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-cd-2",
+      "title": "关键技术自主可控！钻井工程核心工业软件SmartDrilling发布1.0",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/tech/roll/2025-12-01/doc-infzhpke4260678.shtml",
+      "publishedAt": "2025-12-01",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-cd-3",
+      "title": "SmartDrilling产品介绍",
+      "sourceType": "official",
+      "publisher": "中国石油",
+      "originalUrl": "http://equip.cnpc.com.cn/emc/gcjsyjy/202304/4a774626cfe149bda0119cb58f898843.shtml",
+      "publishedAt": "2023-04-17",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "软件进口依赖",
+    "设计效率",
+    "自主可控"
+  ],
+  "painPointNarrative": "",
+  "highlight": "SmartDrilling 1.0打破钻井软件进口依赖，钻井'中国智脑'",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业软件",
+    "钻井智能化",
+    "自主可控"
+  ],
+  "modelStack": [
+    "SmartDrilling"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "工业软件",
+    "油气"
+  ],
+  "seo": {
+    "metaTitle": "中国石油工程技术研究院 SmartDrilling钻井软件智能化研发与应用",
+    "metaDescription": "中石油工程院自主研发SmartDrilling 1.0钻井一体化软件，打破进口依赖，实现钻井中国智脑。",
+    "keywords": [
+      "中石油",
+      "SmartDrilling",
+      "钻井软件",
+      "自主可控"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国石油天然气集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

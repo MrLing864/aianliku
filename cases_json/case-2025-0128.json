@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0128",
+  "version": 1,
+  "slug": "case-2025-0128",
+  "title": "人工智能内容安全鉴真解决方案实践",
+  "organization": {
+    "id": "org-0128",
+    "name": "国投智能信息科技股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国投智能信息科技股份有限公司的'人工智能内容安全鉴真解决方案'（美亚鉴真）具备全自研、国产化适配核心能力，已建成涵盖 AI 内容检测、溯源、存证、辟谣的全链路技术体系，成为本次名单中内容安全方向的入选案例。",
+  "background": "随着生成式 AI 内容泛滥，内容鉴真与标识成为合规刚需，国投智能参与人工智能内容标识标准化进程。",
+  "problem": "AI 生成合成内容难以辨识与溯源，带来内容安全与合规风险。",
+  "solution": "以全自研、国产化适配的美亚鉴真方案，构建 AI 内容检测、溯源、存证、辟谣全链路能力，支撑内容安全治理与合规标识。",
+  "implementationSteps": [
+    "研发全自研 AI 内容检测与溯源模型",
+    "构建存证与辟谣全链路技术体系",
+    "推进人工智能生成内容标识标准化适配"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "生成式对抗技术的迭代、误报与漏报平衡。",
+  "editorComment": {
+    "suitableFor": "政企内容安全治理与 AI 内容合规",
+    "prerequisites": "具备内容审核与合规需求",
+    "priority": "建议优先",
+    "text": "全自研国产化内容鉴真，安全合规刚需。"
+  },
+  "implementers": [
+    {
+      "name": "国投智能信息科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sdic-1",
+      "title": "工信部AI“国榜”揭晓 国投智能内容安全鉴真方案成唯一入选案例",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260706/c677985180.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证唯一入选内容安全方向。",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "publicId": "src-sdic-2",
+      "title": "工信部AI典型案例揭晓：人工智能内容安全鉴真解决方案入选",
+      "sourceType": "news",
+      "publisher": "国投智能",
+      "originalUrl": "https://myai.sdic.com.cn/gtznn/xxzx/qyyw/webinfo/2026/07/1782062064499085.htm",
+      "accessibility": "available",
+      "rightsNote": "企业官方报道，佐证方案能力。",
+      "publishedAt": "2026-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "AI内容难辨识",
+    "合规风险"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI内容检测",
+    "溯源",
+    "存证"
+  ],
+  "modelStack": [
+    "美亚鉴真解决方案"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "内容安全",
+    "鉴真",
+    "美亚鉴真",
+    "国产化"
+  ],
+  "seo": {
+    "metaTitle": "人工智能内容安全鉴真解决方案实践",
+    "metaDescription": "人工智能内容安全鉴真解决方案实践",
+    "keywords": [
+      "国投智能信息科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家开发投资集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

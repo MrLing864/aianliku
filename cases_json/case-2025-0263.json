@@ -1,0 +1,158 @@
+{
+  "id": "case-2025-0263",
+  "version": 1,
+  "slug": "case-2025-0263",
+  "title": "基于垂直领域大模型的科研创新智能体平台 Eureka",
+  "organization": {
+    "id": "org-0263",
+    "name": "智慧芽信息科技（苏州）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由智慧芽信息科技（苏州）有限公司申报的“基于垂直领域大模型的科研创新智能体平台 Eureka”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由江苏省/苏州市推荐。Eureka是智慧芽推出的“更懂技术创新的AI Agent平台”，聚焦知识产权、研发、生物医药、材料、科创等场景，首批上线近20个专家型AI Agent。",
+  "background": "智慧芽是全球领先的科技创新情报与知识产权服务商，长期沉淀20大类、20亿+高质量垂直领域数据，深度理解专利、研发、生物医药、材料、科创等场景需求。",
+  "problem": "知识产权、研发创新等专业场景任务复杂、专业门槛高，传统工具难以高效支撑查新检索、专利撰写、技术探索等工作。",
+  "solution": "Eureka是基于垂直领域大模型的科研创新智能体平台，依托覆盖专利、文献及垂直领域的多维度创新数据底座，提供查新检索、专利说明书撰写、技术方案探索等系列专家型AI Agent，构建“专业数据+行业Know-how+精准算法”体系。",
+  "implementationSteps": [
+    "沉淀20亿+高质量垂直领域数据，构建创新数据底座。",
+    "研发垂直领域大模型与“芽仔”AI中台。",
+    "上线Eureka平台，首批推出近20个专业AI Agent（查新检索、专利撰写、FTO分析等）。",
+    "在知识产权、研发、生物医药、材料等场景规模化服务创新团队。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "垂直领域数据",
+      "value": "20",
+      "unit": "亿+",
+      "kind": "metric",
+      "sourceId": "src-news-0263"
+    },
+    {
+      "label": "首批AI Agent",
+      "value": "近20",
+      "unit": "个",
+      "kind": "count",
+      "sourceId": "src-news-0263"
+    },
+    {
+      "label": "生产力解放",
+      "value": "70",
+      "unit": "%",
+      "kind": "percentage",
+      "sourceId": "src-news-0263"
+    }
+  ],
+  "roi": "",
+  "risks": "专业领域输出须保障准确性与可追溯，关键专利/研发结论保留专家复核；注意数据与知识产权合规。",
+  "editorComment": {
+    "suitableFor": "知识产权、研发创新、生物医药、材料等技术创新场景。",
+    "prerequisites": "具备专业数据与垂直场景需求。",
+    "priority": "high",
+    "text": "智慧芽Eureka是垂直领域大模型赋能科研创新的标杆，首批近20个AI Agent，解放约70%生产力，入选国家级典型案例。"
+  },
+  "implementers": [
+    {
+      "name": "智慧芽信息科技（苏州）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0263",
+      "title": "智慧芽焕新发布AI Agent平台Eureka",
+      "sourceType": "media",
+      "publisher": "36氪",
+      "originalUrl": "https://m.36kr.com/newsflashes/3265251207773955",
+      "externalId": "",
+      "publishedAt": "2025-04-25",
+      "accessibility": "available",
+      "rightsNote": "报道智慧芽发布Eureka AI Agent平台，专注知识产权、研发、生物医药、材料、科创场景，首批上线近20个AI Agent。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂直大模型",
+    "AI Agent",
+    "智能工作流"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "科研智能体",
+    "垂直大模型",
+    "Eureka",
+    "知识产权",
+    "研发创新"
+  ],
+  "seo": {
+    "metaTitle": "基于垂直领域大模型的科研创新智能体平台 Eureka",
+    "metaDescription": "基于垂直领域大模型的科研创新智能体平台 Eureka",
+    "keywords": [
+      "智慧芽信息科技（苏州）有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

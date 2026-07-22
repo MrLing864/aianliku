@@ -1,12 +1,12 @@
 import { NextResponse } from "next/server";
-import { MongoServerError } from "mongodb";
+import { MongoServerError } from "@/lib/db/cloudbase";
 import { z } from "zod";
 import { caseInputSchema, publicationIssues } from "@/app/api/admin/cases/route";
 import { getAdminSession } from "@/lib/auth/dal";
 import { writeAuditLog } from "@/lib/audit";
 import { getIndustry, getScenario } from "@/lib/catalog";
 import { createDedupVector, sourceIdentity } from "@/lib/dedup";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import type { CaseStudy } from "@/lib/types";
 
 type Params = Promise<{ id: string }>;
@@ -14,7 +14,7 @@ type Params = Promise<{ id: string }>;
 export async function PATCH(request: Request, { params }: { params: Params }) {
   const session = await getAdminSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  if (!isMongoConfigured()) return NextResponse.json({ error: "请先配置 MongoDB" }, { status: 503 });
+  if (!isDbConfigured()) return NextResponse.json({ error: "请先配置 CloudBase" }, { status: 503 });
   const id = (await params).id;
   const parsed = caseInputSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "案例字段不完整", fields: parsed.error.flatten().fieldErrors }, { status: 400 });
@@ -61,6 +61,16 @@ export async function PATCH(request: Request, { params }: { params: Params }) {
     dedupVector: createDedupVector(`${value.title}\n${value.problem}\n${value.solution}\n${results.map((result) => result.value).join("\n")}`),
     updatedAt,
     publishedAt: value.contentStatus === "published" ? (before.publishedAt || updatedAt) : before.publishedAt,
+    implementationYear: value.implementationYear,
+    painPointTags: value.painPointTags ?? [],
+    highlight: value.highlight,
+    ctaText: value.ctaText,
+    techPath: value.techPath ?? [],
+    modelStack: value.modelStack ?? [],
+    implementers: value.implementers ?? before.implementers,
+    investmentRange: value.investmentRange,
+    projectDuration: value.projectDuration,
+    testimonial: value.testimonial ?? null,
   };
 
   await db.collection("case_versions").updateOne(
@@ -97,7 +107,7 @@ export async function PATCH(request: Request, { params }: { params: Params }) {
 export async function DELETE(_: Request, { params }: { params: Params }) {
   const session = await getAdminSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  if (!isMongoConfigured()) return NextResponse.json({ error: "请先配置 MongoDB" }, { status: 503 });
+  if (!isDbConfigured()) return NextResponse.json({ error: "请先配置 CloudBase" }, { status: 503 });
   const id = z.string().min(1).parse((await params).id);
   const db = await getDb();
   const before = await db.collection<CaseStudy>("cases").findOne({ id }, { projection: { _id: 0 } });

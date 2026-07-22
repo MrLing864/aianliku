@@ -1,0 +1,157 @@
+{
+  "id": "case-2025-0152",
+  "version": 1,
+  "slug": "case-2025-0152",
+  "title": "高可靠多模态大模型的产业智能体开发与协同应用平台应用",
+  "organization": {
+    "id": "org-0152",
+    "name": "云知声智能科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "云知声智能科技股份有限公司基于自研'山海大模型'与'兽牙'智能体平台，构建高可靠多模态大模型的产业智能体开发与协同应用平台，以 MaaS（模型即服务）为基础设施，面向千行百业输出数字专家能力。",
+  "background": "云知声（2012 年成立，港交所上市）构建覆盖大模型、多模态交互、AI 芯片、知识图谱的全栈式技术体系，2025 年上半年研发费用占比达 38%。",
+  "problem": "行业客户缺乏大模型应用开发能力与可靠的多模态智能体协同支撑。",
+  "solution": "以山海大模型为底座，结合兽牙 Agent 智能体平台，提供软硬协同的产业智能体开发与协同能力，已在交通智能客服等标杆项目交付。",
+  "implementationSteps": [
+    "研发山海大模型并持续升级混合推理能力",
+    "构建兽牙智能体开发协同平台",
+    "在交通、医疗、办公等场景落地交付"
+  ],
+  "duration": "2023 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "大模型相关订单",
+      "value": "约 2 亿元",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-unisound-1"
+    }
+  ],
+  "roi": "",
+  "risks": "行业适配深度、软硬协同的稳定性与成本。",
+  "editorComment": {
+    "suitableFor": "多行业产业智能体开发与协同",
+    "prerequisites": "具备行业数据与知识沉淀",
+    "priority": "建议优先",
+    "text": "山海+兽牙双引擎，软硬协同落地标杆。"
+  },
+  "implementers": [
+    {
+      "name": "云知声智能科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-unisound-1",
+      "title": "双轮驱动，价值 2 亿！云知声“山海大模型+兽牙智能体”订单落地",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7563608719993373193/",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证山海大模型与兽牙平台订单。",
+      "publishedAt": "2025-10-21"
+    },
+    {
+      "publicId": "src-unisound-2",
+      "title": "山海大模型 - 云知声AI开放平台",
+      "sourceType": "official",
+      "publisher": "云知声",
+      "originalUrl": "https://ai.unisound.com/shanhai-largeModel",
+      "accessibility": "available",
+      "rightsNote": "企业官方页面，佐证 MaaS 与行业融合定位。",
+      "publishedAt": "2025-01-01"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "缺乏大模型开发能力",
+    "多模态协同难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "多模态交互",
+    "智能体"
+  ],
+  "modelStack": [
+    "山海大模型",
+    "兽牙 Agent 平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "山海大模型",
+    "兽牙智能体",
+    "多模态",
+    "MaaS"
+  ],
+  "seo": {
+    "metaTitle": "高可靠多模态大模型的产业智能体开发与协同应用平台应用",
+    "metaDescription": "高可靠多模态大模型的产业智能体开发与协同应用平台应用",
+    "keywords": [
+      "云知声智能科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

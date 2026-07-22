@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0245",
+  "version": 1,
+  "slug": "case-2025-0245",
+  "title": "基于 AI 智能体的工业全流程生产管控解决方案",
+  "organization": {
+    "id": "org-0245",
+    "name": "安徽果数融信息科技有限公司",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "福建省星汉智能科技有限公司自主研发“海关智能填报平台”，以人工智能提升报关单据的自动识别、智能填报与合规校验能力，降低关务人员填报工作量与差错率、提升贸易便利化水平，入选工信部 2025 年人工智能应用典型案例（产品应用方向）及福建省未来产业典型应用场景成果汇编。",
+  "background": "星汉智能是福建省国有控股企业，投资建设福建省规模较大的大数据算力平台；其海关智能填报平台 2026 年 1 月入选福建省未来产业典型应用场景成果汇编（成长型）。",
+  "problem": "报关填报依赖人工、效率低、易出错，影响通关时效与合规。",
+  "solution": "海关智能填报平台以 AI 实现报关单据自动识别与智能填报、合规校验。",
+  "implementationSteps": [
+    "建设海关智能填报平台",
+    "实现单据自动识别与智能填报",
+    "在关务场景落地提升贸易便利化"
+  ],
+  "duration": "2026-01 入选福建",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "报关数据合规、跨境数据与安全。",
+  "editorComment": {
+    "suitableFor": "海关报关与关务智能填报",
+    "prerequisites": "具备报关数据与算力平台",
+    "priority": "建议优先",
+    "text": "AI 提升贸易便利化与关务效率的范式。"
+  },
+  "implementers": [
+    {
+      "name": "安徽果数融信息科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xh-1",
+      "title": "喜报丨星汉公司海关智能填报平台入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "福建广电网络",
+      "originalUrl": "http://www.fjbdg.com.cn/xwzx/qydt/202607/t20260714_7561.htm",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证海关智能填报平台入选工信部案例。",
+      "publishedAt": "2026-07-11"
+    },
+    {
+      "publicId": "src-xh-2",
+      "title": "星汉公司海关智能填报平台入选福建省未来产业典型应用场景",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/975282241_121106994",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证平台入选福建省未来产业典型应用场景。",
+      "publishedAt": "2026-01-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工",
+    "易出错"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "单据自动识别",
+    "智能填报"
+  ],
+  "modelStack": [
+    "海关智能填报平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "海关智能填报",
+    "贸易便利化",
+    "星汉智能"
+  ],
+  "seo": {
+    "metaTitle": "基于 AI 智能体的工业全流程生产管控解决方案",
+    "metaDescription": "基于 AI 智能体的工业全流程生产管控解决方案",
+    "keywords": [
+      "安徽果数融信息科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "安徽省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

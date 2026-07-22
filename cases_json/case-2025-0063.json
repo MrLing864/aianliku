@@ -1,0 +1,140 @@
+{
+  "id": "case-2025-0063",
+  "version": 1,
+  "slug": "case-2025-0063",
+  "title": "长城大模型赋能招标采购全流程风险防控与辅助决策实践",
+  "organization": {
+    "id": "org-0063",
+    "name": "中国石油化工集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国石油化工集团将招标采购确定为集团首批人工智能应用场景，2025年基于'长城大模型'上线招标类模板智能审查助手、供应商资质初审智能助手，赋能招标采购全流程风险防控与辅助决策。",
+  "background": "大型集团招标采购频次高、合规要求严，人工审查工作量大、风险点多。",
+  "problem": "招标采购模板审查与供应商资质初审依赖人工，效率低、合规风险高。",
+  "solution": "中国石化将招标采购确定为集团首批人工智能应用场景，基于'长城大模型'已开发上线招标类模板智能审查助手、供应商资质初审智能助手等，将AI应用于招标采购全流程的风险防控与辅助决策，提升审查效率与合规性。",
+  "implementationSteps": [
+    "将招标采购列为集团首批AI应用场景",
+    "基于长城大模型开发招标模板智能审查助手",
+    "上线供应商资质初审智能助手",
+    "赋能招标采购全流程风险防控与辅助决策"
+  ],
+  "duration": "2025年上线相关助手至今",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "招标合规与廉洁要求极高，AI审查需严格校验与留痕；模型误判影响重大。",
+  "editorComment": {
+    "suitableFor": "大型集团招标采购合规与风险防控智能化",
+    "prerequisites": "具备招标采购数据与长城大模型能力",
+    "priority": "建议优先",
+    "text": "长城大模型赋能招标采购全流程风险防控，适合大型集团采购数智化参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国石油化工集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zsh-1",
+      "title": "中国石化的招投标数智化实践（长城大模型招标助手）",
+      "sourceType": "news",
+      "publisher": "中国招标投标",
+      "originalUrl": "https://www.chinabidding.com.cn/pageInfoSsr/3000000016166/1087000001326341",
+      "publishedAt": "2026-03-13",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "审查效率",
+    "合规风险",
+    "供应商初审"
+  ],
+  "painPointNarrative": "",
+  "highlight": "长城大模型赋能招标采购全流程风险防控与辅助决策",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "招标采购",
+    "风险防控"
+  ],
+  "modelStack": [
+    "长城大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "行业大模型",
+    "招标采购"
+  ],
+  "seo": {
+    "metaTitle": "中国石化 长城大模型赋能招标采购全流程风险防控与辅助决策实践",
+    "metaDescription": "中国石化基于长城大模型上线招标审查与供应商初审智能助手，赋能采购全流程风控。",
+    "keywords": [
+      "中国石化",
+      "长城大模型",
+      "招标采购",
+      "风险防控"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国石油化工集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

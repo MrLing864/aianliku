@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0266",
+  "version": 1,
+  "slug": "case-2025-0266",
+  "title": "智能超前急救一体化系统应用",
+  "organization": {
+    "id": "org-0266",
+    "name": "山东大学齐鲁医院",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "山东大学齐鲁医院实践“智能超前急救一体化系统应用”，构建基于 5G 与 WebRTC 的超前智能急救体系，通过家属短信链接与急救团队视频连线实现院前院内无缝衔接；医院还打造“齐鲁·心擎 急性胸痛大模型”（联合华为、润达医疗），整合自然语言处理、医学影像分析与多模态数据融合，实现胸痛患者病生特征快速评估。",
+  "background": "齐鲁医院充分发挥急危重症体系化建设基础与多学科综合优势，构建院前急救、院内急诊与重症救治“三位一体”全链条救治体系，并建设“5G 智能急诊急救系统”。",
+  "problem": "院前急救与院内救治脱节、信息传递滞后，急危重症黄金救治时间难以把握。",
+  "solution": "智能超前急救一体化系统以 5G+WebRTC 实现院前院内视频连线与数据贯通，并以胸痛大模型辅助快速评估。",
+  "implementationSteps": [
+    "构建 5G 智能急诊急救系统",
+    "研发基于 WebRTC 的超前智能急救方法",
+    "联合打造齐鲁·心擎急性胸痛大模型"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "急救场景可靠性、数据传输安全。",
+  "editorComment": {
+    "suitableFor": "院前院内一体化智慧急救",
+    "prerequisites": "具备 5G 与院前急救网络",
+    "priority": "建议优先",
+    "text": "5G+AI 重构急救全链条的标杆医院范式。"
+  },
+  "implementers": [
+    {
+      "name": "山东大学齐鲁医院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-qilu-1",
+      "title": "中央广播电视总台《中国之声》深度报道齐鲁医院智慧急救",
+      "sourceType": "news",
+      "publisher": "齐鲁医院",
+      "originalUrl": "https://www.qiluhospital.com/show-25-43616-1.html",
+      "accessibility": "available",
+      "rightsNote": "医院官网，佐证 5G 智能急诊急救系统高效运转。",
+      "publishedAt": "2025-12-29"
+    },
+    {
+      "publicId": "src-qilu-2",
+      "title": "齐鲁医院举办智慧医疗大模型联合发布会（齐鲁·心擎急性胸痛大模型）",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/871840934_211762",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证急性胸痛大模型多模态融合能力。",
+      "publishedAt": "2025-03-16"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "院前院内脱节",
+    "黄金时间难把握"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "5G+WebRTC",
+    "多模态大模型"
+  ],
+  "modelStack": [
+    "智能超前急救一体化系统",
+    "齐鲁·心擎急性胸痛大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智能急救",
+    "5G急诊",
+    "胸痛大模型",
+    "齐鲁医院"
+  ],
+  "seo": {
+    "metaTitle": "智能超前急救一体化系统应用",
+    "metaDescription": "智能超前急救一体化系统应用",
+    "keywords": [
+      "山东大学齐鲁医院",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

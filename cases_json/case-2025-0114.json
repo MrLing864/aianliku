@@ -1,0 +1,152 @@
+{
+  "id": "case-2025-0114",
+  "version": 1,
+  "slug": "case-2025-0114",
+  "title": "人工智能赋能声学异音检测",
+  "organization": {
+    "id": "org-0114",
+    "name": "四川长虹新网科技有限责任公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "四川长虹新网科技有限责任公司以人工智能赋能声学异音检测，提升电子产品声学质量的自动判别能力。",
+  "background": "消费电子声学品质检测传统依赖人工听音，效率低且主观性强。",
+  "problem": "智能电子产品（如智能音箱）音质/异音检测依赖人工听检，主观性强、一致性差、效率低。",
+  "solution": "构建 AI 学习型异音检测系统，打造专业隔音环境与高精度采集系统，融合音频测试设备与 AI 算法，为工厂产线装上“智能听诊器”，提升异音检测准确率。",
+  "implementationSteps": [
+    "构建专业隔音环境与高精度音频采集系统",
+    "训练 AI 学习型异音检测模型",
+    "音频测试设备与 AI 算法结合上线检测",
+    "在智能音箱等电子产品产线规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "异音样本多样性、复杂产线噪声环境干扰。",
+  "editorComment": {
+    "suitableFor": "电子/家电制造声学异音智能检测",
+    "prerequisites": "具备音频采集与隔音测试条件",
+    "priority": "建议优先",
+    "text": "行业赋能方向，声学异音 AI 检测的“智能听诊器”范式。"
+  },
+  "implementers": [
+    {
+      "name": "四川长虹新网科技有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ch-1",
+      "title": "长虹新网科技：AI学习型异音检测为工厂安上“智能听诊器”",
+      "sourceType": "news",
+      "publisher": "绵阳日报",
+      "originalUrl": "http://www.myrb.net/html/2025/news/11/433138.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证 AI 学习型异音检测系统与实施。",
+      "publishedAt": "2025-11-21"
+    },
+    {
+      "publicId": "src-ch-2",
+      "title": "四川长虹新网科技有限责任公司-官网",
+      "sourceType": "official",
+      "publisher": "长虹新网科技",
+      "originalUrl": "https://neo-net.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证公司定位与研发制造能力。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工听检",
+    "一致性差"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "音频AI",
+    "声学检测"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "长虹",
+    "异音检测",
+    "声学AI",
+    "智能听诊器"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能声学异音检测",
+    "metaDescription": "人工智能赋能声学异音检测",
+    "keywords": [
+      "四川长虹新网科技有限责任公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

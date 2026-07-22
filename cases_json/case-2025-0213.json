@@ -1,0 +1,157 @@
+{
+  "id": "case-2025-0213",
+  "version": 1,
+  "slug": "case-2025-0213",
+  "title": "高性能无人驾驶激光除草机器人及智能作业系统",
+  "organization": {
+    "id": "org-0213",
+    "name": "内蒙古八爪智能科技有限公司",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "内蒙古八爪智能科技有限公司（赤峰，专注智慧农业的高新技术企业，联合清华创新领军博士与农业专家研发）“高性能无人驾驶激光除草机器人及智能作业系统”入选工信部 2025 年人工智能应用典型案例。机器人整合无人驾驶、机器视觉、人工智能大模型等技术，依托高精度导航无人驾驶与多机协同作业，结合机器视觉与农业大模型识别精准区分作物与杂草，以激光除草替代化学除草，除草效率约为人工的 40 倍，2026 年在磴口县实现国内首次无人驾驶激光除草机器人集群作业。",
+  "background": "",
+  "problem": "农田除草依赖人工或化学药剂，效率低、成本高且影响有机种植，杂草与作物精准区分难。",
+  "solution": "研制无人驾驶激光除草机器人，融合高精度导航无人驾驶、多机协同、机器视觉与农业大模型识别，以激光精准碳化杂草实现无人化精准除草。",
+  "implementationSteps": [
+    "整合无人驾驶、机器视觉与农业大模型",
+    "实现高精度导航与多机协同作业",
+    "机器视觉+农业大模型精准区分作物与杂草",
+    "以激光除草在农田场景集群化作业"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "除草效率（相较人工）",
+      "value": "40",
+      "unit": "倍",
+      "kind": "actual",
+      "sourceId": "src-213-2"
+    }
+  ],
+  "roi": "",
+  "risks": "复杂田间环境识别、多机集群协同稳定性。",
+  "editorComment": {
+    "suitableFor": "智慧农业无人化激光除草",
+    "prerequisites": "具备农机无人驾驶与农业大模型能力",
+    "priority": "建议优先",
+    "text": "农业大模型+激光除草机器人的国家级典型。"
+  },
+  "implementers": [
+    {
+      "name": "内蒙古八爪智能科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-213-1",
+      "title": "内蒙古研发激光除草机器人首次开展集群作业（高精度导航无人驾驶、机器视觉与农业大模型）",
+      "sourceType": "news",
+      "publisher": "新华网内蒙古",
+      "originalUrl": "http://www.nmg.xinhuanet.com/20260603/77f317ec7d3c4703b66f3551b6755b5a/c.html",
+      "accessibility": "available",
+      "rightsNote": "新华网报道，佐证技术路径与集群作业。",
+      "publishedAt": "2026-06-03"
+    },
+    {
+      "publicId": "src-213-2",
+      "title": "效率是人工的40倍 内蒙古研发激光除草机器人",
+      "sourceType": "news",
+      "publisher": "北方新闻网",
+      "originalUrl": "https://www.northnews.cn/news/2026/0603/2498773.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证除草效率约为人工 40 倍。",
+      "publishedAt": "2026-06-03"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工除草低效",
+    "作物杂草难区分"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "无人驾驶",
+    "机器视觉",
+    "农业大模型"
+  ],
+  "modelStack": [
+    "农业大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "八爪智能",
+    "激光除草",
+    "无人驾驶",
+    "智慧农业"
+  ],
+  "seo": {
+    "metaTitle": "高性能无人驾驶激光除草机器人及智能作业系统",
+    "metaDescription": "高性能无人驾驶激光除草机器人及智能作业系统",
+    "keywords": [
+      "内蒙古八爪智能科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "内蒙古自治区工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

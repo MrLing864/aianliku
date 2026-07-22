@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0235",
+  "version": 1,
+  "slug": "case-2025-0235",
+  "title": "智渊 IT 运维智能体创新实践",
+  "organization": {
+    "id": "org-0235",
+    "name": "北京神州光大科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京神州光大科技有限公司（AI 驱动的 AI 基础设施综合服务与行业大模型创新应用服务提供商）“智渊 IT 运维智能体创新实践”入选工信部 2025 年人工智能应用典型案例，是北京地区入选的典型案例之一。公司全栈自研国内首款运维行业大模型——“智渊 IT 智能运维大脑”，基于海量工单与 12 万+工程师画像数据，精准破解企业运维效率、成本及质量控制难题。",
+  "background": "",
+  "problem": "企业 IT 运维效率、成本与质量控制难，专业运维部门或外包投入大、响应慢。",
+  "solution": "以全栈自研运维行业大模型“智渊 IT 智能运维大脑”构建 IT 运维智能体，实现按需下单、智能派单与大模型赋能的高效运维。",
+  "implementationSteps": [
+    "基于海量工单与工程师画像训练运维行业大模型",
+    "构建智渊 IT 运维智能体与智能派单",
+    "以大模型赋能故障诊断与运维决策",
+    "在企业 IT 运维场景规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "运维知识时效性、跨系统适配。",
+  "editorComment": {
+    "suitableFor": "企业 IT 运维大模型与智能体",
+    "prerequisites": "具备运维数据与大模型能力",
+    "priority": "建议优先",
+    "text": "国内首款运维行业大模型驱动运维智能体的实践。"
+  },
+  "implementers": [
+    {
+      "name": "北京神州光大科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-235-1",
+      "title": "喜讯！神州光大智渊IT运维智能体入选工信部人工智能应用典型案例",
+      "sourceType": "official",
+      "publisher": "北京神州光大科技",
+      "originalUrl": "https://www.cebserv.com/article/210.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证案例入选与智渊 IT 运维智能体。",
+      "publishedAt": "2026-07-02"
+    },
+    {
+      "publicId": "src-235-2",
+      "title": "行业大模型创新应用 AI赋能IT运维变革（智渊IT智能运维大脑，国内首款运维行业大模型）",
+      "sourceType": "government_notice",
+      "publisher": "北京经济技术开发区管委会",
+      "originalUrl": "https://kfqgw.beijing.gov.cn/zwgkkfq/ztzl/lqztkfq/lqzx/zxxx/202406/t20240607_4234217.html",
+      "accessibility": "available",
+      "rightsNote": "政府发布，佐证全栈自研运维行业大模型与数据基础。",
+      "publishedAt": "2024-06-07"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "运维成本高",
+    "响应慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "运维行业大模型",
+    "智能体"
+  ],
+  "modelStack": [
+    "智渊IT智能运维大脑"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "神州光大",
+    "智渊",
+    "IT运维",
+    "运维大模型"
+  ],
+  "seo": {
+    "metaTitle": "智渊 IT 运维智能体创新实践",
+    "metaDescription": "智渊 IT 运维智能体创新实践",
+    "keywords": [
+      "北京神州光大科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

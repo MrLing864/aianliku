@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0077",
+  "version": 1,
+  "slug": "case-2025-0077",
+  "title": "研轮·风驰大模型赋能高速动车组空气动力学智能化仿真",
+  "organization": {
+    "id": "org-0077",
+    "name": "中车青岛四方机车车辆股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中车青岛四方机车车辆股份有限公司研发'研轮·风驰'高速动车组空气动力学智能化仿真大模型（中国首个高速动车组空气动力学智能化仿真大模型），2025年3月在青岛问世，将气动仿真计算从'天级'提升至'秒级'。",
+  "background": "高速动车组空气动力学仿真传统依赖高性能计算，单次计算需数天，制约研发迭代。",
+  "problem": "气动仿真计算耗时长（天级），研发迭代慢、成本高。",
+  "solution": "由中国中车统一组织、国家高速列车青岛技术创新中心等研发的'研轮·风驰'高速动车组空气动力学智能化仿真大模型，以AI替代部分传统高保真仿真，将气动仿真计算从'天级'提升至'秒级'，大幅加速高速列车研发迭代。",
+  "implementationSteps": [
+    "组织研发高速动车组空气动力学仿真大模型",
+    "2025年3月'研轮·风驰'在青岛问世",
+    "以AI将气动仿真从天级提升至秒级",
+    "加速高速列车研发迭代"
+  ],
+  "duration": "2025年3月发布",
+  "cost": "",
+  "results": [
+    {
+      "label": "气动仿真计算速度",
+      "value": "天级→秒级",
+      "kind": "actual",
+      "sourceId": "src-sf-1"
+    }
+  ],
+  "roi": "",
+  "risks": "AI仿真需与传统高保真仿真校验对齐；极端工况泛化需验证。",
+  "editorComment": {
+    "suitableFor": "轨道交通/高端装备的AI仿真加速",
+    "prerequisites": "具备CFD仿真数据与算力",
+    "priority": "建议优先",
+    "text": "空气动力学仿真大模型将计算从天级到秒级，适合装备研发提速参考。"
+  },
+  "implementers": [
+    {
+      "name": "中车青岛四方机车车辆股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sf-1",
+      "title": "中国首个高速动车组空气动力学智能化仿真大模型问世",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://www.thepaper.cn/newsDetail_forward_30511119",
+      "publishedAt": "2025-03",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-sf-2",
+      "title": "中国高速动车组空气动力学仿真大模型问世，气动仿真迈入'秒级'",
+      "sourceType": "news",
+      "publisher": "IT之家",
+      "originalUrl": "https://www.ithome.com/0/841/320.htm",
+      "publishedAt": "2025-03",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "仿真耗时",
+    "研发迭代",
+    "计算成本"
+  ],
+  "painPointNarrative": "",
+  "highlight": "中国首个高速动车组空气动力学仿真大模型，天级→秒级",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "仿真大模型",
+    "空气动力学",
+    "研发加速"
+  ],
+  "modelStack": [
+    "研轮·风驰大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "轨道交通",
+    "仿真大模型"
+  ],
+  "seo": {
+    "metaTitle": "中车青岛四方 研轮风驰大模型赋能高速动车组空气动力学智能化仿真",
+    "metaDescription": "中车青岛四方研轮·风驰大模型将高速动车组气动仿真从天级提升至秒级。",
+    "keywords": [
+      "中车青岛四方",
+      "研轮风驰",
+      "空气动力学仿真",
+      "高速动车组"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国中车集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

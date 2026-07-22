@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0089",
+  "version": 1,
+  "slug": "case-2025-0089",
+  "title": "城市轨道交通装备全价值链协同数智化运维实践",
+  "organization": {
+    "id": "org-0089",
+    "name": "中车唐山机车车辆有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中车唐山机车车辆有限公司开展城市轨道交通装备全价值链协同数智化运维实践，搭建城轨车运修一体化服务体系，依托天津、泉州、客检事业部及唐山本部资源，实现城轨车辆全生命周期运修一体化。",
+  "background": "城市轨道交通车辆运维涉及多基地、多环节，协同效率低、成本高。",
+  "problem": "城轨装备运维分散、协同难，全生命周期运修一体化程度不足。",
+  "solution": "中车唐山以'加满数字燃料，驱动轨道交通加速跑'为方向，开展城市轨道交通装备全价值链协同数智化运维实践，搭建城轨车运修一体化服务的组织架构，依托天津公司、泉州公司、客检事业部及唐山本部资源，为客户提供城轨车辆全生命周期运修一体化解决方案及高质量、低成本、高可靠性的保障服务。",
+  "implementationSteps": [
+    "构建城轨车运修一体化服务体系",
+    "整合天津/泉州/客检/唐山本部资源",
+    "实现全价值链协同数智化运维",
+    "提供全生命周期运修保障服务"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多基地协同与数据互通复杂；运维数据安全与合规要求高。",
+  "editorComment": {
+    "suitableFor": "城市轨道交通装备的全价值链协同运维",
+    "prerequisites": "具备多基地运维与数字化基础",
+    "priority": "条件具备后开展",
+    "text": "城轨装备全价值链协同数智化运维，适合轨交运维服务化参考。"
+  },
+  "implementers": [
+    {
+      "name": "中车唐山机车车辆有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-crt-1",
+      "title": "中车唐山公司：加满数字'燃料'，驱动轨道交通'加速跑'",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/803772516_121124372",
+      "publishedAt": "2024-08-26",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-crt-2",
+      "title": "城轨车运修（中车唐山）",
+      "sourceType": "official",
+      "publisher": "中国中车",
+      "originalUrl": "https://www.crrcgc.cc/ts/136_21079/136_21083/136_21094/index.html",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "运维协同",
+    "生命周期",
+    "服务成本"
+  ],
+  "painPointNarrative": "",
+  "highlight": "城轨装备全价值链协同数智化运维与运修一体化",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "城轨运维",
+    "运修一体化",
+    "全价值链协同"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "轨道交通",
+    "智能运维"
+  ],
+  "seo": {
+    "metaTitle": "中车唐山 城市轨道交通装备全价值链协同数智化运维实践",
+    "metaDescription": "中车唐山以城轨车运修一体化实现全价值链协同数智化运维，覆盖全生命周期保障。",
+    "keywords": [
+      "中车唐山",
+      "城轨装备",
+      "数智化运维",
+      "运修一体化"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国中车集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

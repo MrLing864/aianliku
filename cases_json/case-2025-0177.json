@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0177",
+  "version": 1,
+  "slug": "case-2025-0177",
+  "title": "企业法律合规数智化平台创新实践",
+  "organization": {
+    "id": "org-0177",
+    "name": "中国石油化工集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国石油化工集团有限公司探索“企业法律合规数智化平台创新实践”，将人工智能与法律合规业务深度融合，依托大模型能力提升集团法律合规审查、合同管理与风险预警的智能化水平，是“数智中国石化”建设在合规领域的重要落地。",
+  "background": "中国石化持续推进“数智中国石化”建设，于 2025 年 2 月率先完成 DeepSeek 大模型国产化部署，并在智能油田、智能工厂、智能研究院等场景试点人工智能；法律合规数智化是其企业级 AI 应用的重要组成。",
+  "problem": "特大型能源化工集团法律合规事务体量大、合同与制度复杂，人工审查效率低、风险识别难。",
+  "solution": "构建企业法律合规数智化平台，以大模型能力赋能合规审查、合同管理与风险预警。",
+  "implementationSteps": [
+    "盘点法律合规数据并推进数据治理",
+    "基于大模型构建法律合规数智化平台",
+    "在集团法律合规场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "法律用语严谨性、模型误判与人工复核机制。",
+  "editorComment": {
+    "suitableFor": "大型集团法律合规数智化",
+    "prerequisites": "具备合同与制度数据基础",
+    "priority": "建议优先",
+    "text": "央企法律合规数智化的平台范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国石油化工集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sinopec-1",
+      "title": "中国石化：全面发力数智化建设 着力打造“数智中国石化”",
+      "sourceType": "news",
+      "publisher": "中国石化新闻网",
+      "originalUrl": "http://www.sinopecnews.com.cn/zhuanti/content/2025-12/11/content_7138871.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证数智中国石化战略与 AI 部署。",
+      "publishedAt": "2025-12-11"
+    },
+    {
+      "publicId": "src-sinopec-2",
+      "title": "中国石化率先完成 DeepSeek 大模型国产化部署",
+      "sourceType": "news",
+      "publisher": "中国石化",
+      "originalUrl": "https://blog.csdn.net/qq_46094651/article/details/145759480",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证 DeepSeek 国产化部署背景。",
+      "publishedAt": "2025-02-20"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "体量大",
+    "人工审查低效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "合规审查"
+  ],
+  "modelStack": [
+    "企业法律合规数智化平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "法律合规",
+    "数智中国石化",
+    "大模型"
+  ],
+  "seo": {
+    "metaTitle": "企业法律合规数智化平台创新实践",
+    "metaDescription": "企业法律合规数智化平台创新实践",
+    "keywords": [
+      "中国石油化工集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国石油化工集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0083",
+  "version": 1,
+  "slug": "case-2025-0083",
+  "title": "轨道交通智能通行装备制造及产业化",
+  "organization": {
+    "id": "org-0083",
+    "name": "广州运通智能科技股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "广州运通智能科技股份有限公司聚焦智慧出行乘客服务，以'AI+交通'创新推动轨道交通智能通行装备制造及产业化，覆盖城市轨道交通、城际轨道、高铁、高速公路、机场等场景。",
+  "background": "轨道交通与城市交通乘客服务场景多、流量大，亟需智能化通行装备提升效率与体验。",
+  "problem": "交通通行装备智能化不足，乘客服务效率低、体验待提升。",
+  "solution": "运通智能（原广电运通智能，2025年完成股份制改造）聚焦智慧出行乘客服务，以'AI+交通'创新带动产业升级，提供便捷高效的智慧出行系统解决方案，覆盖城市轨道交通、城际轨道交通、高铁、城市路面交通、高速公路、机场、客运站和港口码头等应用场景，推动智能通行装备制造及产业化。",
+  "implementationSteps": [
+    "聚焦智慧出行乘客服务（AI+交通）",
+    "研发轨道交通智能通行装备",
+    "覆盖城轨/城际/高铁/高速/机场等多场景",
+    "推动智能通行装备制造及产业化"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "交通场景安全要求高；多场景适配与系统集成复杂。",
+  "editorComment": {
+    "suitableFor": "轨道交通与城市交通的智能通行装备",
+    "prerequisites": "具备AI算法与机电一体化能力",
+    "priority": "建议优先",
+    "text": "AI+交通的智能通行装备产业化，适合智慧交通建设参考。"
+  },
+  "implementers": [
+    {
+      "name": "广州运通智能科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yt-1",
+      "title": "广州运通智能科技股份有限公司（官网）",
+      "sourceType": "official",
+      "publisher": "运通智能",
+      "originalUrl": "https://www.grgintek.cn/",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yt-2",
+      "title": "广州广电运通智能科技有限公司（百度百科）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E5%B9%BF%E7%94%B5%E8%BF%90%E9%80%9A%E6%99%BA%E8%83%BD%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/51265205",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "通行效率",
+    "乘客服务",
+    "装备智能化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI+交通智能通行装备制造及产业化，多场景覆盖",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI+交通",
+    "智能通行装备",
+    "智慧出行"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "轨道交通",
+    "智慧交通"
+  ],
+  "seo": {
+    "metaTitle": "广州运通智能 轨道交通智能通行装备制造及产业化",
+    "metaDescription": "运通智能以AI+交通推动轨道交通智能通行装备制造及产业化，覆盖城轨/高铁/机场等场景。",
+    "keywords": [
+      "广州运通智能",
+      "轨道交通",
+      "智能通行装备",
+      "AI+交通"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

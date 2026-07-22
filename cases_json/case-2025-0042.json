@@ -1,0 +1,160 @@
+{
+  "id": "case-2025-0042",
+  "version": 1,
+  "slug": "case-2025-0042",
+  "title": "乐云具身智能开发平台实践",
+  "organization": {
+    "id": "org-0042",
+    "name": "阿里巴巴达摩院（杭州）科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "阿里巴巴达摩院（杭州）'乐云'具身智能开发平台是一站式physical AI开发与应用平台，提供数据管理、模型训练、仿真评测、应用部署全链路能力，并开源VLA模型RynnVLA-001（7B）与世界理解模型RynnEC，相关成果获联合国AI for Good优秀案例奖。",
+  "background": "具身智能需要打通数据、训练、仿真到部署的全链路工具链，降低专业开发者门槛。",
+  "problem": "具身智能开发涉及数据与仿真工具分散，缺乏一站式平台与开放模型。",
+  "solution": "乐云具身智能开发平台提供数据管理、模型训练、仿真评测、应用部署等全链路能力；重磅开源VLA模型RynnVLA-001（7B版本）、世界理解模型RynnEC及面向机器人领域的开放通用模型，赋能专业开发者；其RynnBot与ElementsClaw成果入选联合国AI for Good创新影响力案例集并获优秀案例奖。",
+  "implementationSteps": [
+    "构建乐云具身智能一站式开发平台",
+    "提供数据-训练-仿真-部署全链路能力",
+    "开源VLA模型RynnVLA-001、世界理解模型RynnEC",
+    "成果获联合国AI for Good优秀案例奖"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "具身智能仿真与真实环境差距大；开源模型需配套生态与硬件。",
+  "editorComment": {
+    "suitableFor": "机器人/具身智能开发者与企业",
+    "prerequisites": "具备机器人硬件或仿真环境",
+    "priority": "条件具备后开展",
+    "text": "一站式具身智能开发+开源模型，适合机器人开发者生态建设。"
+  },
+  "implementers": [
+    {
+      "name": "阿里巴巴达摩院（杭州）科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ly-1",
+      "title": "DAMO开发者矩阵启动，乐云具身智能开发平台亮相",
+      "sourceType": "news",
+      "publisher": "InfoQ",
+      "originalUrl": "https://www.infoq.cn/article/sd9tGbHKf5HuEqLgUQvD",
+      "publishedAt": "2025-07-24",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ly-2",
+      "title": "乐云-具身智能开发平台（阿里云市场）",
+      "sourceType": "official",
+      "publisher": "阿里云",
+      "originalUrl": "https://market.aliyun.com/detail/cmgj00072891.html",
+      "publishedAt": "2026-03-09",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ly-3",
+      "title": "阿里达摩院两项AI成果亮相联合国峰会获优秀案例奖",
+      "sourceType": "news",
+      "publisher": "ITBear",
+      "originalUrl": "https://www.itbear.com.cn/html/2026-07/1434808.html",
+      "publishedAt": "2026-07",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "具身开发门槛",
+    "工具链分散",
+    "仿真部署"
+  ],
+  "painPointNarrative": "",
+  "highlight": "乐云具身智能平台开源VLA模型，获联合国AI for Good奖",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "VLA",
+    "仿真评测",
+    "开源"
+  ],
+  "modelStack": [
+    "RynnVLA-001(7B)",
+    "RynnEC"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "具身智能",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "阿里达摩院 乐云具身智能开发平台实践",
+    "metaDescription": "达摩院乐云具身智能平台提供全链路开发并开源VLA模型，获联合国AI for Good奖。",
+    "keywords": [
+      "阿里巴巴达摩院",
+      "乐云",
+      "具身智能",
+      "RynnVLA"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

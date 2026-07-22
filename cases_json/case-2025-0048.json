@@ -1,0 +1,175 @@
+{
+  "id": "case-2025-0048",
+  "version": 1,
+  "slug": "case-2025-0048",
+  "title": "基于 5G+AI 智慧原料场全自动控制平台应用",
+  "organization": {
+    "id": "org-0048",
+    "name": "中冶东方工程技术有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "通信",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中冶东方'基于5G+AI的智慧原料场全自动控制平台'实现原料场无人化与全自动精准控制，模型连续检测准确率从90%跃升至99.9%，处理速度提升2.6倍，替代人工值守，获中冶集团科学技术奖。",
+  "background": "钢铁原料场环境恶劣、作业强度大，传统人工值守效率低、安全风险高。",
+  "problem": "原料场依赖人工值守与操作，检测准确率与效率有限，劳动强度大。",
+  "solution": "中冶东方研发基于5G+AI的智慧原料场全自动控制平台，构建连续检测与全自动精准控制能力（如精准锯切），获授权发明专利5件、软件著作权6件，已成功应用于河南安钢周口钢铁原料场项目，在中冶集团科技成果鉴定中获科学技术奖。",
+  "implementationSteps": [
+    "研发5G+AI智慧原料场全自动控制平台",
+    "实现连续检测与全自动精准控制",
+    "应用于安钢周口钢铁原料场项目",
+    "获中冶集团科学技术奖（发明专利5件、软著6件）"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "连续检测准确率",
+      "value": "90%→99.9%",
+      "kind": "actual",
+      "sourceId": "src-zd-1"
+    },
+    {
+      "label": "处理速度提升",
+      "value": "2.6",
+      "unit": "倍",
+      "kind": "actual",
+      "sourceId": "src-zd-1"
+    },
+    {
+      "label": "生产效率整体提升",
+      "value": "2",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-zd-1"
+    },
+    {
+      "label": "劳动强度降低",
+      "value": "95",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-zd-1"
+    }
+  ],
+  "roi": "",
+  "risks": "5G+AI现场部署受环境与网络覆盖影响；全自动控制安全冗余要求高。",
+  "editorComment": {
+    "suitableFor": "钢铁原料场/堆场无人化与全自动控制",
+    "prerequisites": "具备5G网络与现场自动化基础",
+    "priority": "建议优先",
+    "text": "5G+AI原料场全自动控制，准确率与效率显著提升，适合推广。"
+  },
+  "implementers": [
+    {
+      "name": "中冶东方工程技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zd-1",
+      "title": "以智能增效，向'AI'而行！中国中冶五大场景入选中国五矿人工智能典型",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://www.thepaper.cn/newsDetail_forward_32137664",
+      "publishedAt": "2025-12-09",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zd-2",
+      "title": "中冶东方荣获中冶集团科学技术奖（5G+AI原料场）",
+      "sourceType": "news",
+      "publisher": "中国网",
+      "originalUrl": "http://myzg.china.com.cn/2023-09/05/content_42509629.html",
+      "publishedAt": "2023-09-05",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工值守",
+    "检测准确率",
+    "劳动强度"
+  ],
+  "painPointNarrative": "",
+  "highlight": "原料场全自动控制：准确率90%→99.9%，效率2.6倍",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "5G+AI",
+    "原料场",
+    "全自动控制"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "5G+AI"
+  ],
+  "seo": {
+    "metaTitle": "中冶东方 基于5G+AI智慧原料场全自动控制平台应用",
+    "metaDescription": "中冶东方5G+AI智慧原料场全自动控制平台，检测准确率90%→99.9%、效率提升2.6倍。",
+    "keywords": [
+      "中冶东方",
+      "5G+AI",
+      "智慧原料场",
+      "全自动控制"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国五矿集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

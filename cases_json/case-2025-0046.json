@@ -1,0 +1,179 @@
+{
+  "id": "case-2025-0046",
+  "version": 1,
+  "slug": "case-2025-0046",
+  "title": "钢铁行业精炼优化模型研发及实践",
+  "organization": {
+    "id": "org-0046",
+    "name": "湖南华菱湘潭钢铁有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "湖南华菱湘潭钢铁联合华为研发钢铁行业专用AI平台（基于盘古大模型+华为云Stack混合云），其中精炼AI预测与优化系统实现合金成分与温度精准控制，预期命中率超95%，年节省原辅材料及能耗成本超200万元，并获国际电信联盟人工智能优秀创新案例奖。",
+  "background": "钢铁精炼环节对合金成分与温度控制要求极高，依赖老师傅经验，波动大。",
+  "problem": "精炼优化依赖人工经验，成分与温度预测不准，成本高、稳定性差。",
+  "solution": "湘钢与华为联合研发全球首个钢铁行业大模型（基于盘古大模型架构、华为云Stack混合云），构建精炼AI预测与优化系统，使工程师可快速精准控制预测炼钢合金成分和温度；该应用获2024年6月国际电信联盟（ITU）人工智能优秀创新案例奖。",
+  "implementationSteps": [
+    "联合华为构建钢铁行业专用AI平台",
+    "研发精炼AI预测与优化系统",
+    "实现合金成分与温度精准控制",
+    "获ITU人工智能优秀创新案例奖并推广"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "精炼优化预期命中率",
+      "value": "95",
+      "unit": "%以上",
+      "kind": "actual",
+      "sourceId": "src-xg-1"
+    },
+    {
+      "label": "年节省原辅材料及能耗成本",
+      "value": "200",
+      "unit": "万元+",
+      "kind": "actual",
+      "sourceId": "src-xg-1"
+    }
+  ],
+  "roi": "",
+  "risks": "模型依赖历史工艺数据质量；新钢种/新工艺需重新适配。",
+  "editorComment": {
+    "suitableFor": "钢铁企业精炼/炼钢环节AI优化",
+    "prerequisites": "具备炼钢工艺数据与云基础设施",
+    "priority": "建议优先",
+    "text": "盘古大模型+华为云落地的钢铁精炼优化，降本显著，适合钢企参考。"
+  },
+  "implementers": [
+    {
+      "name": "湖南华菱湘潭钢铁有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xg-1",
+      "title": "大模型，爆改钢铁制造？（湘钢精炼优化命中率95%、年省200万）",
+      "sourceType": "news",
+      "publisher": "百家号",
+      "originalUrl": "https://baijiahao.baidu.com/s?id=1826796995415898995",
+      "publishedAt": "2025-03-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xg-2",
+      "title": "湖南湘钢联合华为落地全球首个钢铁行业大模型",
+      "sourceType": "case",
+      "publisher": "华为",
+      "originalUrl": "https://e.huawei.com/cn/case-studies/industries/mining/xianggang-2024",
+      "publishedAt": "2024",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xg-3",
+      "title": "湘钢大模型（百度百科）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%B9%98%E9%92%A2%E5%A4%A7%E6%A8%A1%E5%9E%8B/64549940",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "精炼经验依赖",
+    "成分波动",
+    "能耗成本"
+  ],
+  "painPointNarrative": "",
+  "highlight": "精炼优化命中率>95%，年省200万+，获ITU奖",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "钢铁大模型",
+    "精炼优化",
+    "盘古大模型"
+  ],
+  "modelStack": [
+    "华为盘古大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "降本增效"
+  ],
+  "seo": {
+    "metaTitle": "湖南华菱湘潭钢铁 钢铁行业精炼优化模型研发及实践",
+    "metaDescription": "湘钢联合华为以盘古大模型打造精炼优化系统，命中率超95%、年省200万+，获ITU奖。",
+    "keywords": [
+      "湘钢",
+      "精炼优化",
+      "盘古大模型",
+      "钢铁"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0280",
+  "version": 1,
+  "slug": "case-2025-0280",
+  "title": "“模数共振”人工智能赋能行业企业一体化平台",
+  "organization": {
+    "id": "org-0280",
+    "name": "温州大学大数据与信息技术研究院",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "专项应用",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "阿里云计算有限公司实践“通义大模型产业应用典型案例”，以通义千问（Qwen）系列大模型为核心，依托芯片-云-模型-全域场景全栈优势，覆盖零售电商、金融、制造工业、政务、医疗、汽车出行等十二大行业板块，并已覆盖 90% 银行与汽车品牌，通过阿里云客户案例与《大模型典型示范应用案例集》沉淀大量产业落地实践。",
+  "background": "阿里云通义实验室打造超大规模语言与多模态模型体系 Qwen，大模型从对话娱乐全面迈入产业落地阶段，在金融、汽车、通信等行业取得应用进展。",
+  "problem": "产业智能化对大模型的需求多元，缺乏可复制的行业落地路径。",
+  "solution": "通义大模型全栈能力，覆盖十二大行业的产业智能化应用。",
+  "implementationSteps": [
+    "构建通义千问全栈大模型能力",
+    "沉淀行业客户案例与示范应用",
+    "在金融/汽车/政务等十二大行业落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "覆盖行业板块",
+      "value": "12",
+      "unit": "大板块",
+      "kind": "actual",
+      "sourceId": "src-aliyun-1"
+    },
+    {
+      "label": "覆盖银行/汽车品牌",
+      "value": "90",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-aliyun-2"
+    }
+  ],
+  "roi": "",
+  "risks": "行业数据安全、私有化与合规。",
+  "editorComment": {
+    "suitableFor": "企业级大模型产业应用",
+    "prerequisites": "具备云与模型基础设施",
+    "priority": "建议优先",
+    "text": "通义大模型全栈赋能千行百业的范式。"
+  },
+  "implementers": [
+    {
+      "name": "温州大学大数据与信息技术研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-aliyun-1",
+      "title": "通义千问全行业落地应用完整案例（十二大板块）",
+      "sourceType": "news",
+      "publisher": "雪球",
+      "originalUrl": "https://xueqiu.com/1165976883/399291080",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证通义覆盖十二大行业板块。",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "publicId": "src-aliyun-2",
+      "title": "阿里云通义大模型已覆盖90%银行与汽车品牌",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7491203226474168870/",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证通义覆盖 90% 银行与汽车品牌。",
+      "publishedAt": "2025-04-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "需求多元",
+    "缺乏路径"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "全栈大模型",
+    "行业落地"
+  ],
+  "modelStack": [
+    "通义千问 Qwen"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "通义",
+    "Qwen",
+    "产业应用",
+    "阿里云"
+  ],
+  "seo": {
+    "metaTitle": "“模数共振”人工智能赋能行业企业一体化平台",
+    "metaDescription": "“模数共振”人工智能赋能行业企业一体化平台",
+    "keywords": [
+      "温州大学大数据与信息技术研究院",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

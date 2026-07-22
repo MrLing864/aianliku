@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0130",
+  "version": 1,
+  "slug": "case-2025-0130",
+  "title": "超星 AI 能力中心助力高校数字化升级",
+  "organization": {
+    "id": "org-0130",
+    "name": "武汉超星数图教育科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉超星数图教育科技有限公司打造“超星 AI 能力中心”，助力高校数字化升级，面向教、学、管、研等场景提供 AI 助教、知识图谱、AIGC 检测等能力，驱动高校教育数智化转型。",
+  "background": "超星是国内知名数字教育解决方案提供商，已组建千名研发团队并设立多个 AI 研究所；其 AI 能力中心融合 AI 技术为高校数智化转型注入动力，并携手阿里云百炼构建高校 AI 能力中心。",
+  "problem": "高校教学、管理与科研场景数字化程度不一，缺乏统一的 AI 能力底座支撑个性化教学与治理。",
+  "solution": "超星 AI 能力中心以大模型与 AI 智能体为引擎，提供 AI 助教、知识图谱、AIGC 检测等能力，支撑高校全场景数字化升级。",
+  "implementationSteps": [
+    "构建超星 AI 能力中心底座",
+    "落地 AI 助教/知识图谱/AIGC 检测等能力",
+    "在高校教学、管理与科研场景应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "教育数据合规、模型在教学场景的可靠性。",
+  "editorComment": {
+    "suitableFor": "高校教育数字化与智能助教",
+    "prerequisites": "具备校园信息化与教学资源基础",
+    "priority": "建议优先",
+    "text": "教育大模型+AI 能力中心的高校转型范式。"
+  },
+  "implementers": [
+    {
+      "name": "武汉超星数图教育科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cx-1",
+      "title": "超星集团携手阿里云百炼构建高校 AI 能力中心",
+      "sourceType": "news",
+      "publisher": "阿里云",
+      "originalUrl": "https://www.aliyun.com/customer-stories/education-2026-chaoxing",
+      "accessibility": "available",
+      "rightsNote": "云厂商案例，佐证超星 AI 能力中心。",
+      "publishedAt": "2026-07-01"
+    },
+    {
+      "publicId": "src-cx-2",
+      "title": "超星 AI 能力中心介绍",
+      "sourceType": "official",
+      "publisher": "超星",
+      "originalUrl": "https://polus.openai.chaoxing.com/",
+      "accessibility": "available",
+      "rightsNote": "企业平台，佐证 AI 能力中心 AIGC 检测等能力。",
+      "publishedAt": "2026-06-26"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数字化程度不一",
+    "缺乏AI底座"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "教育大模型",
+    "AI智能体"
+  ],
+  "modelStack": [
+    "超星 AI 能力中心"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI能力中心",
+    "高校数字化",
+    "AI助教"
+  ],
+  "seo": {
+    "metaTitle": "超星 AI 能力中心助力高校数字化升级",
+    "metaDescription": "超星 AI 能力中心助力高校数字化升级",
+    "keywords": [
+      "武汉超星数图教育科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0276",
+  "version": 1,
+  "slug": "case-2025-0276",
+  "title": "时间序列大模型 TPT 助力流程工业自主运行新路径探索",
+  "organization": {
+    "id": "org-0276",
+    "name": "中控技术股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中控技术股份有限公司研发面向流程工业的全球首个时间序列大模型 TPT（Time-series Pre-trained Transformer），以 TPT 为'工厂智慧大脑'、通用控制系统 UCS 为'工业神经中枢'，构建自主运行工厂 AOP，形成'识别-评估-决策-执行'智能闭环，已在氯碱等行业落地，并入选工信部人工智能应用典型案例。",
+  "background": "中控技术 2024 年明确'ALL in AI'战略，于 2024 年 6 月 5 日发布 TPT，是全球首个深度契合流程工业第一性原理的工业大模型；2026 WAIC 展示自主运行工厂 AOP。",
+  "problem": "流程工业装置复杂、依赖人工经验与分散的工业软件，难以实现自主运行。",
+  "solution": "以 TPT 时间序列大模型统一建模流程工业时序数据，结合 UCS 与 AOP 实现工厂识别-评估-决策-执行闭环，推动'内操智能化、外操无人化'。",
+  "implementationSteps": [
+    "发布时间序列大模型 TPT",
+    "研发自主运行工厂 AOP 与通用控制系统 UCS",
+    "在氯碱等流程工业场景落地应用"
+  ],
+  "duration": "2024 年 6 月起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "工业安全关键场景可靠性、模型对工况变化的泛化。",
+  "editorComment": {
+    "suitableFor": "流程工业自主运行与智能控制",
+    "prerequisites": "具备 DCS/工业控制与时序数据基础",
+    "priority": "建议优先",
+    "text": "工业时序大模型+自主运行工厂，流程工业范式。"
+  },
+  "implementers": [
+    {
+      "name": "中控技术股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-supcon-1",
+      "title": "时间序列大模型TPT_百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%97%B6%E9%97%B4%E5%BA%8F%E5%88%97%E5%A4%A7%E6%A8%A1%E5%9E%8BTPT/65777635",
+      "accessibility": "available",
+      "rightsNote": "公开百科，佐证 TPT 定位与发布时间。",
+      "publishedAt": "2024-06-05"
+    },
+    {
+      "publicId": "src-supcon-2",
+      "title": "中控技术展示工业AI产品",
+      "sourceType": "news",
+      "publisher": "人民财讯",
+      "originalUrl": "https://news.qq.com/rain/a/20260720A08R6700",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 AOP/TPT/UCS 智能闭环。",
+      "publishedAt": "2026-07-20"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖人工经验",
+    "工业软件分散"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业大模型",
+    "时序建模"
+  ],
+  "modelStack": [
+    "时间序列大模型 TPT",
+    "自主运行工厂 AOP"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "TPT",
+    "时间序列大模型",
+    "自主运行工厂",
+    "中控技术"
+  ],
+  "seo": {
+    "metaTitle": "时间序列大模型 TPT 助力流程工业自主运行新路径探索",
+    "metaDescription": "时间序列大模型 TPT 助力流程工业自主运行新路径探索",
+    "keywords": [
+      "中控技术股份有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

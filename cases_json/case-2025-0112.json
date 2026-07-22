@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0112",
+  "version": 1,
+  "slug": "case-2025-0112",
+  "title": "半导体显示制造“AI 工厂”创新实践",
+  "organization": {
+    "id": "org-0112",
+    "name": "京东方科技集团股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "京东方科技集团股份有限公司发布'AI 工厂'，以蓝鲸显示大模型为核心，在生产计划、物料供应、生产制造、品质管理、能源优化、环境安全六大方向实现生产制造全要素 AI 原生化，形成可复制的半导体显示'AI 工厂'新范式。",
+  "background": "京东方自 2024 年发布'AI+'战略，聚焦 AI+制造、AI+产品、AI+运营，作为全球显示行业龙头推动全产业链深度变革。",
+  "problem": "半导体显示制造工序复杂、良率波动与品质管理难度高，传统模式难以支撑规模化与高一致性。",
+  "solution": "建设京东方 AI 工厂，以蓝鲸显示大模型聚焦质量检测智能标注与识别、良率波动分析与监控、生产决策智能化调度等场景，实现 AI 原生制造。",
+  "implementationSteps": [
+    "发布 AI+ 战略并确立 AI 工厂方向",
+    "研发蓝鲸显示大模型，落地六大应用方向",
+    "形成可验证、可推广、可复制的 AI 工厂范式"
+  ],
+  "duration": "2024 年起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "大模型在精密制造场景的可靠性、数据质量与工艺保密。",
+  "editorComment": {
+    "suitableFor": "半导体显示及高端制造的 AI 原生工厂",
+    "prerequisites": "具备数据要素基础与显示制造经验",
+    "priority": "建议优先",
+    "text": "蓝鲸大模型+六大方向，行业标杆范式。"
+  },
+  "implementers": [
+    {
+      "name": "京东方科技集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-boe-1",
+      "title": "京东方正式发布AI工厂",
+      "sourceType": "news",
+      "publisher": "中国工业新闻网",
+      "originalUrl": "https://www.cinn.cn/2025/09-12/n1KmGw9D.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 AI 工厂与六大方向。",
+      "publishedAt": "2025-09-12"
+    },
+    {
+      "publicId": "src-boe-2",
+      "title": "北京数据要素典型案例丨京东方打造显示产业 AI 智造标杆",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "http://bj.news.cn/20260330/25b51efa7dc14efb89a14c40898eaab9/c.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证蓝鲸大模型应用场景。",
+      "publishedAt": "2026-03-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "良率波动",
+    "品质管理难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "AI原生化"
+  ],
+  "modelStack": [
+    "蓝鲸显示大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI工厂",
+    "蓝鲸大模型",
+    "半导体显示",
+    "良率管理"
+  ],
+  "seo": {
+    "metaTitle": "半导体显示制造“AI 工厂”创新实践",
+    "metaDescription": "半导体显示制造“AI 工厂”创新实践",
+    "keywords": [
+      "京东方科技集团股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

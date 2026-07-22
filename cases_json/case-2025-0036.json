@@ -1,0 +1,193 @@
+{
+  "id": "case-2025-0036",
+  "version": 1,
+  "slug": "case-2025-0036",
+  "title": "人工智能赋能输变电装备研发及应用",
+  "organization": {
+    "id": "org-0036",
+    "name": "中国电气装备集团科学技术研究院有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电气装备集团发布输配电装备领域首个垂类大模型'电擎'（完全自主知识产权），构建'智研、智造、智检、智维、智运'五大智能体集群与12项AI+制造应用，智能质检缺陷识别准确率99.7%、运维故障预测精度92%。",
+  "background": "新型电力系统建设对输配电装备研发、制造、运维提出全新挑战，亟需AI赋能。",
+  "problem": "装备设计审图专业门槛高、模型泛化难；质检与运维依赖经验，效率低、易出错。",
+  "solution": "牵头联合中国电信、重庆大学等，以'产学研用'协同打造'电擎'垂类大模型（完全自主知识产权），构建覆盖电气装备全生命周期的智能化体系；形成'智研、智造、智检、智维、智运'全域智能体体系与12项'AI+制造'创新应用，推动技术跨产品复用与规模化落地。",
+  "implementationSteps": [
+    "联合产学研用打造电擎垂类大模型",
+    "构建五大智能体集群（智研/智造/智检/智维/智运）",
+    "落地12项AI+制造标杆应用",
+    "建设输配电装备知识图谱支撑研发设计"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "智能质检缺陷识别准确率",
+      "value": "99.7",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-dq-1"
+    },
+    {
+      "label": "设备运维故障预测精度",
+      "value": "92",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-dq-1"
+    },
+    {
+      "label": "知识图谱专业数据",
+      "value": "2000",
+      "unit": "万组",
+      "kind": "actual",
+      "sourceId": "src-dq-1"
+    },
+    {
+      "label": "算法模型训练效率提升",
+      "value": "40",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-dq-1"
+    }
+  ],
+  "roi": "",
+  "risks": "垂类大模型训练依赖专业数据与算力；跨产品复用需统一标准。",
+  "editorComment": {
+    "suitableFor": "装备制造企业建设垂类大模型与智能体体系",
+    "prerequisites": "具备装备专业知识库与制造数据",
+    "priority": "建议优先",
+    "text": "垂类大模型+五大智能体的装备全流程赋能，适合高端装备制造参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国电气装备集团科学技术研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-dq-1",
+      "title": "中国电气装备发布'电擎'大模型 驱动输配电装备数智化升级",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1023921840_362225",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-dq-2",
+      "title": "输配电装备标杆大模型'电擎'在沪发布",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2676a0cdec180052",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-dq-3",
+      "title": "中国电气装备成功接入DeepSeek，发布'智问'系列智能助手",
+      "sourceType": "news",
+      "publisher": "电力网",
+      "originalUrl": "http://www.chinapower.com.cn/zjqy/jcsy/20250220/277633.html",
+      "publishedAt": "2025-02-20",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "设计门槛",
+    "质检效率",
+    "运维经验依赖"
+  ],
+  "painPointNarrative": "",
+  "highlight": "电擎垂类大模型：缺陷识别99.7%、故障预测92%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "垂类大模型",
+    "智能体",
+    "知识图谱"
+  ],
+  "modelStack": [
+    "电擎大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "垂类大模型",
+    "装备制造"
+  ],
+  "seo": {
+    "metaTitle": "中国电气装备 电擎大模型赋能输变电装备研发及应用",
+    "metaDescription": "中国电气装备电擎垂类大模型构建五大智能体，智能质检准确率99.7%、故障预测92%。",
+    "keywords": [
+      "中国电气装备",
+      "电擎大模型",
+      "输变电",
+      "AI+制造"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电气装备集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

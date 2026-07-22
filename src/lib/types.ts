@@ -68,8 +68,55 @@ export interface SourceRecord extends CaseSource {
 export interface CaseMetric {
   label: string;
   value: string;
+  baseline?: string;
+  unit?: string;
+  improvement?: string;
   sourceId?: string;
   kind: "actual" | "expected" | "estimated" | "undisclosed";
+}
+
+export type ImplementationTimePrecision = "year" | "half" | "quarter" | "month" | "date";
+
+export interface InvestmentRange {
+  min?: number;
+  max?: number;
+  currency: "CNY" | "USD";
+  disclosed: boolean;
+  narrative?: string;
+  sourceId?: string;
+}
+
+export interface ProjectDuration {
+  minWeeks?: number;
+  maxWeeks?: number;
+  disclosed: boolean;
+  narrative?: string;
+  sourceId?: string;
+}
+
+export interface Implementer {
+  name: string;
+  role?: "技术提供方" | "系统集成商" | "咨询方" | "其他";
+  website?: string;
+}
+
+export interface Testimonial {
+  quote: string;
+  author?: string;
+  authorTitle?: string;
+  sourceId?: string;
+}
+
+export interface SeoMeta {
+  metaTitle?: string;
+  metaDescription?: string;
+  keywords?: string[];
+}
+
+export interface SourceReportRef {
+  title?: string;
+  publisher?: string;
+  year?: number;
 }
 
 export interface CaseStudy {
@@ -83,6 +130,7 @@ export interface CaseStudy {
     size: string;
     region?: string;
     anonymous?: boolean;
+    type?: "soe" | "private" | "foreign" | "sme";
   };
   industry: Industry;
   scenarios: Scenario[];
@@ -104,7 +152,7 @@ export interface CaseStudy {
     priority: "建议优先" | "条件具备后开展" | "暂不建议";
     text: string;
   };
-  implementers: string[];
+  implementers: Implementer[];
   outcomeStatus: OutcomeStatus;
   contentStatus: ContentStatus;
   confidence: ConfidenceLevel;
@@ -120,6 +168,22 @@ export interface CaseStudy {
   mergedAt?: string;
   mergedCaseIds?: string[];
   archivedAt?: string;
+  implementationYear?: number;
+  implementationTimePrecision?: ImplementationTimePrecision;
+  painPointTags?: string[];
+  painPointNarrative?: string;
+  highlight?: string;
+  investmentRange?: InvestmentRange;
+  projectDuration?: ProjectDuration;
+  testimonial?: Testimonial | null;
+  techPath?: string[];
+  modelStack?: string[];
+  sourceReport?: SourceReportRef;
+  ctaText?: string;
+  consultationStats?: { consultationCount: number; viewToConsultationRate: number } | null;
+  relatedCaseIds?: string[];
+  tags?: string[];
+  seo?: SeoMeta;
 }
 
 export interface CaseQuery {
@@ -132,6 +196,9 @@ export interface CaseQuery {
   sort?: "relevance" | "latest" | "popular";
   page?: number;
   limit?: number;
+  painPoint?: string;
+  implementer?: string;
+  model?: string;
 }
 
 export interface PaginatedCases {
@@ -175,7 +242,7 @@ export interface RoiEstimate {
 export interface AssessmentReport {
   id: string;
   sessionId: string;
-  email?: string;
+  phone?: string;
   companyProfile: string;
   diagnosis: string;
   recommendations: AssessmentRecommendation[];
@@ -204,8 +271,6 @@ export interface AssessmentReport {
 
 export type AssessmentJobStatus =
   "queued" | "processing" | "ready" | "failed" | "deleted";
-export type NotificationStatus =
-  "pending" | "sent" | "failed" | "not_configured";
 
 export interface AssessmentJob {
   id: string;
@@ -213,18 +278,15 @@ export interface AssessmentJob {
   status: AssessmentJobStatus;
   statusTokenHash: string;
   reportTokenHash: string;
-  /** 仅用于完成通知，发送成功后立即清除。 */
+  /** 用于本页查看私密报告，删除时一并清除。 */
   reportToken?: string;
   reportId?: string;
-  email: string;
+  phone: string;
   input: Record<string, unknown>;
-  notificationStatus: NotificationStatus;
-  notificationAttempts: number;
   errorCode?: string;
   createdAt: string;
   startedAt?: string;
   completedAt?: string;
-  notifiedAt?: string;
   updatedAt: string;
   deletedAt?: string;
   privacyNoticeVersion?: string;

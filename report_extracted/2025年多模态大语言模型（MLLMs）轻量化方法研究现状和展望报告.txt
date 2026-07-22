@@ -1,0 +1,315 @@
+
+===== PAGE 1 =====
+  多模态大语言模型（MLLMs）轻量化
+方法研究现状和展望
+中国移动研究院 业务研究所
+2024 年12 月
+中移智库
+
+===== PAGE 2 =====
+ 
+摘要
+多模态大语言模型（MLLMs）在视觉问答、视觉理解与推理
+等任务中展现出卓越的性能，但多模态大语言模型庞大的模型
+规模和高昂的训练、推理成本限制了其在学术界和工业界的广
+泛应用。因此，研究高效且轻量化的多模态大语言模型，特别
+是在边缘计算场景中，潜力巨大。本文将全面介绍当前多模态
+大语言模型轻量化的方法及研究现状，并探讨其局限性及未来
+潜在的发展方向。
+一、
+ 多模态大语言模型概述
+（一）什么是多模态大语言模型？
+多模态大语言模型是一种创新性的人工智能模型，巧妙地
+融合了大语言模型与多模态处理能力。它能够理解和生成涵盖
+多种模态的数据，如文本、图像、视频、音频等，并通过多模
+态信息的融合实现更广泛、更复杂的任务。多模态大语言模型
+不仅具有强大的语言处理能力，还能通过对图像、视频或其他
+模态的理解，进行跨模态任务处理，比如视觉问答、视觉推
+理、多模态内容生成等。
+ 2 / 14
+中移智库
+
+===== PAGE 3 =====
+ 
+（二）为什么要轻量化？
+多模态大语言模型的成功主要得益于缩放定律（scaling
+law），即资源投入越多，性能越高。然而，高资源需求限制了
+其开发和部署。例如，MiniGPT-v2 模型[16]的训练耗时超800
+GPU 小时，LLaVA-1.5-Vicuna-13B[3]模型推理需 18.2T FLOPS 和
+41.6G 内存，资源消耗巨大。目前，主流多模态大语言模型多
+由少数企业掌控，云端运行模式引发普及化和隐私保护担忧，
+同时，高算力需求也限制了边缘设备的应用，对公平访问和隐
+私保护构成挑战。鉴于此，轻量化多模态大语言模型的研究日
+益受到重视，旨在降低资源消耗、提高适用性，同时尽量减少
+性能损失。
+二、
+多模态大语言模型轻量化方法研究现状
+多模态大语言模型主要由三个核心模块组成：视觉编码
+器、预训练大语言模型、以及视觉-语言投影器，如图1 所示。
+轻量化多模态大语言模型的优化措施主要集中在对上述三个模
+块的改进，并引入了视觉 token 压缩技术和高效的结构设计。
+ 3 / 14
+中移智库
+
+===== PAGE 4 =====
+ 
+图1 多模态大语言模型的轻量化架构
+出自论文《Efficient Multimodal Large Language Models:A Survey》
+（一）三个核心模块优化
+视觉编码器：负责接收和处理视觉输入。轻量化的多模态
+大语言模型通常选择使用预训练的视觉编码器模型（如
+CLIP[4]），以便更好地对齐视觉与文本输入的特征空间。由于视
+觉编码器在多模态大语言模型总参数中的占比较小，其轻量化
+优化的效果不如语言模型显著，因此大部分轻量化多模态大语
+言模型通常仍沿用大规模多模态大语言模型中广泛采用的视觉
+编码器。
+预训练大语言模型：大语言模型是多模态大语言模型的核
+心组件，用于管理多模态信号并执行推理。多模态大语言模型
+中获取小的大语言模型的方案一般分为两种：一是直接使用小
+的轻量化模型。轻量化的多模态大语言模型通常使用参数少于
+30 亿的小型语言模型，如微软的phi2-2.7B 模型[17]和谷歌的
+ 4 / 14
+中移智库
+
+===== PAGE 5 =====
+ 
+Gemma-2B 模型[2]。Phi-2 模型在特殊数据集上训练后，其性能可
+以匹配使用常规数据集训练的25 倍大模型。Phi-3-mini 模型[2]
+可以轻松地在现代手机上本地部署，且其质量与Mixtral
+8x7B[18]模型和GPT-3.5 等模型相当。二是使用模型压缩技术对
+大语言模型进行轻量化处理。一般常用的模型压缩方法包括：
+量化，剪枝，知识蒸馏，紧凑的架构设计，动态网络等，这些
+方法在传统的深度学习网络（如 CNN 和 RNN）中已有广泛应
+用，而在大语言模型的优化中也有了更深入的探索。每种方法
+的具体实施方案和效果因任务需求和硬件约束而异，在此不再
+逐一详细介绍。
+视觉-语言投影器：是连接视觉与文本桥梁，其核心功能是
+将视觉特征块映射至文本特征空间。针对此模块的轻量化，包
+括四种：一是基于注意力。如BLIP2[7]引入了Q-Former，一个轻
+量级的Transformer，使用一组可学习的查询向量从冻结的视觉
+模型中提取视觉特征。二是基于CNN。如MobileVLMv2[8]提出的
+LDPv2，通过使用逐点卷积层、平均池化和带有跳跃连接的PEG
+模块，LDPv2 减少了99.8%的参数，在效率上取得了更好的表
+现。三是基于Mamba。如VL-Mamba[9]在其视觉-语言投影器中实
+现了2D 视觉选择性扫描（VSS）技术，促进了多种学习方法的融
+合。四是混合结构。如卷积抽象器通过使用卷积结构高效地建
+模局部上下文，有助于将视觉特征抽象为任意平方数的视觉
+token。
+ 5 / 14
+中移智库
+
+===== PAGE 6 =====
+ 
+（二）视觉token 压缩
+视觉token 压缩旨在减少由大量token 引起的计算量，当前
+已经成为多模态大语言模型轻量化的关键。通过以下几种关键
+技术来实现：
+多视图输入:为了利用低分辨率视觉编码器处理高分辨率图
+像，一种常见的方法是输入高分辨率图像的低分辨率全局视
+图，和通过分割高分辨率图像获得局部视图。例如，LLaVA-
+UHD[5]提出了一种图像模块化策略，将原始分辨率图像划分为更
+小的可变大小切片，以实现高效且可扩展的编码。
+token 处理：长视觉token 序列的处理技术对于高效的多模
+态大语言模型至关重要，其解决了保持细粒度细节和减少计算
+复杂度的双重挑战。例如LLaVA-PruMerge[10]和MADTP[19]提出了
+一种适应性视觉token 减少方法，在保持相似模型性能的同时显
+著减少了视觉token 的数量。
+多尺度信息融合：利用多尺度图像信息对视觉特征提取至
+关重要。这种方法使模型能够捕捉较小尺度中的细粒度细节和
+较大尺度中的广阔背景。例如Mini-Gemini 模型[11]包括两个编
+码器，一个用于高分辨率图像，另一个用于低分辨率视觉嵌
+入。它提出了块信息挖掘，通过低分辨率视觉嵌入作为查询，
+通过跨注意力从高分辨率候选中检索相关的视觉线索。
+视频特定方法：视频理解还需要处理大量帧，这可能会突
+破大语言模型的上下文窗口处理能力，带来巨大计算负担。例
+ 6 / 14
+中移智库
+
+===== PAGE 7 =====
+ 
+如VideoLLaVA[15]基于LanguageBind[20]构建，将视觉表示统一到
+语言特征空间中，推动基础大语言模型向统一的语言-视觉大模
+型发展，同时避免了巨大的计算负担。
+（三）高效的结构
+高效的结构是通过优化模型结构或算法设计，以更少的资
+源实现相近甚至更高的性能，是多模态大语言模型轻量化的关
+键探索方向。主要包括三个方向：专家混合模型
+（MoE）、Mamba 和推理加速。
+专家混合模型：专家混合模型通过调节模型参数的总数来
+增强模型容量，同时保持激活参数不变，从而不会显著影响推
+理速度。MoE-LLaVA[12]提出了一种基于专家混合模型的稀疏M 多
+模态大语言模型框架，能够有效增加参数数量，而不影响计算
+效率。
+Mamba： Mamba[21]是一种新型的高效序列建模方法，专为高
+效处理信息密集型数据（如语言建模）而设计。Cobra[13]将
+Mamba 语言模型融入视觉模态，并探索多模态融合方案，开发了
+一种高效多模态Mamba。实验显示，其性能与先进方法相当且速
+度更快，能克服视觉错觉和空间关系判断难题，在预测基准中
+性能媲美LLaVA，但参数仅用43%。
+推理加速：在模型推理阶段，根据不同的任务特性，调整
+模型架构，加快推理速度。SPD[14]提出了通过仅使用语言模型进
+ 7 / 14
+中移智库
+
+===== PAGE 8 =====
+ 
+行的推测解码，以提高推理效率，通过将语言模型作为推测性
+解码模型，跳过了图像token 及其相关处理组件的需求。
+三、展望
+多模态大语言模型的轻量化发展仍处于初期阶段，仍有很
+大的改进空间。
+（一）突破多模态信息处理的局限是关键。轻量化的多模
+态大语言模型在处理多模态信息时面临挑战，通常仅能接受单
+一图像，这限制了能够处理更多元模态标记的复杂模型的进一
+步拓展。而这类复杂模型对于对于理解长视频和分析包含图像
+与文本混合的长篇文档等应用场景有着极为关键的价值，可以
+创造出更为多功能和强大的系统。
+（二）输入输出模态扩展是未来发展的重点。当前主要的
+轻量化多模态大语言模型支持的是双输入模态-图像和文本，以
+及单一输出模态-文本，但现实世界中的模态远不止于此。未
+来，通过扩大高效多模态大语言模型的输入模态范围，以适应
+更多样化的输入类型，并增强其生成能力，将显著增强其多功
+能性，并拓宽其应用领域。
+（三）可在边缘部署的轻量化多模态大语言模型将推动机
+器人等智能设备发展。轻量化的多模态大语言模型将赋予终端
+设备更高效、更智能且多模态的处理能力，使智能设备得以与
+现实世界无缝互动。特别在机器人领域，轻量化多模态大语言
+ 8 / 14
+中移智库
+
+===== PAGE 9 =====
+ 
+模型将极大提升机器人对环境理解的准确性，增强任务执行的
+效率，并促进人机之间更加自然流畅的交流与协作。
+[参考文献]
+[1]Xiangxiang Chu, Limeng Qiao, Xinyang Lin, Shuang Xu, Yang
+Yang, Yiming Hu, Fei Wei, Xinyu Zhang, Bo Zhang, Xiaolin
+Wei, et al. Mobilevlm: A fast, reproducible and strong
+vision language assistant for mobile devices. arXiv preprint
+arXiv:2312.16886, 2023.
+[2]Yizhang Jin, Jian Li, Yexin Liu, Tianjun Gu4, Kai Wu,
+Zhengkai Jiang,Muyang He, Bo Zhao, Xin Tan, Zhenye Gan,
+Yabiao Wang, Chengjie Wang and Lizhuang Ma. Efficient
+Multimodal Large Language Models:A Survey.arXiv preprint
+arXiv:2405.10739,2024
+[3]Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong Jae Lee.
+Visual instruction tuning. In NeurIPS, 2023.
+ 9 / 14
+中移智库
+
+===== PAGE 10 =====
+ 
+[4]Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh,
+Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell,
+Pamela Mishkin, Jack Clark, et al. Learning transferable
+visual models from natural language supervision. In
+International conference on machine learning, pages 8748–
+8763. PMLR, 2021. 
+[5]Ruyi Xu, Yuan Yao, Zonghao Guo, Junbo Cui, Zanlin Ni,
+Chunjiang Ge, Tat-Seng Chua, Zhiyuan Liu,Maosong Sun, and
+Gao Huang. Llava-uhd: an lmm perceiving any aspect ratio and
+high-resolution images, 2024.
+[6]Mukul Gagrani, Raghavv Goel, Wonseok Jeon, Junyoung Park,
+Mingu Lee, and Christopher Lott. On speculative decoding for
+multimodal large language models, 2024.
+[7]Junnan Li, Dongxu Li, Silvio Savarese, and Steven Hoi. Blip-
+2: Bootstrapping language-image pretraining with frozen
+ 10 / 14
+中移智库
+
+===== PAGE 11 =====
+ 
+image encoders and large language models. In International
+conference on machine learning, pages 19730–19742. PMLR,
+2023.
+[8]Xiangxiang Chu, Limeng Qiao, Xinyu Zhang, Shuang Xu, Fei
+Wei, Yang Yang, Xiaofei Sun, Yiming Hu, Xinyang Lin, Bo
+Zhang, et al. Mobilevlm v2: Faster and stronger baseline for
+vision language model. arXiv preprint arXiv:2402.03766,
+2024.
+[9]Yanyuan Qiao, Zheng Yu, Longteng Guo, Sihan Chen, Zijia
+Zhao, Mingzhen Sun, Qi Wu, and Jing Liu. Vl-mamba: Exploring
+state space models for multimodal learning. arXiv preprint
+arXiv:2403.13600 2024.
+[10]
+Yuzhang Shang, Mu Cai, Bingxin Xu, Yong Jae Lee, and Yan
+Yan. Llava-prumerge: Adaptive token reduction for efficient
+large multimodal models, 2024.
+ 11 / 14
+中移智库
+
+===== PAGE 12 =====
+ 
+[11]
+Yanwei Li, Yuechen Zhang, Chengyao Wang, Zhisheng Zhong,
+Yixin Chen, Ruihang Chu, Shaoteng Liu, and Jiaya Jia. Mini-
+gemini: Mining the potential of multi-modality vision
+language models. arXiv preprint arXiv:2403.18814, 2024. 
+[12]
+Bin Lin, Zhenyu Tang, Yang Ye, Jiaxi Cui, Bin Zhu, Peng
+Jin, Junwu Zhang, Munan Ning, and Li Yuan. Moe-llava:
+Mixture of experts for large vision-language models. arXiv
+preprint arXiv:2401.15947,2024.
+[13]
+Han Zhao, Min Zhang,Wei Zhao, Pengxiang Ding, Siteng
+Huang, and DonglinWang. Cobra: Extending mamba to multi-
+modal large language model for efficient inference. arXiv
+preprint arXiv:2403.14520,2024.
+[14]
+Mukul Gagrani, Raghavv Goel, Wonseok Jeon, Junyoung Park,
+Mingu Lee, and Christopher Lott. On speculative decoding for
+multimodal large language models, 2024.
+ 12 / 14
+中移智库
+
+===== PAGE 13 =====
+ 
+[15]
+Bin Lin, Bin Zhu, Yang Ye, Munan Ning, Peng Jin, and Li
+Yuan. Video-llava: Learning united visual representation by
+alignment
+ 
+before
+ 
+projection.
+ 
+arXiv
+ 
+preprint
+arXiv:2311.10122, 2023.
+[16]
+Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li, Zechun Liu,
+Pengchuan Zhang and Mohamed Elhoseiny. Minigpt-v2: large
+language model as a unified interface for vision-language
+multi-task learning. arXiv preprint arXiv:2310.09478, 2023.
+[17]
+Mojan Javaheripi, Sebastien Bubeck, Marah Abdin, Jyoti
+Aneja, Sebastien Bubeck. Phi-2: The surprising power of
+small language models. Microsoft Research Blog, 2023.
+[18]
+Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux,
+Arthur Mensch and Blanche Savary. Mixtral of experts, 2024.
+[19]
+Jianjian Cao, Peng Ye, Shengze Li, Chong Yu, Yansong
+Tang, Jiwen Lu, and Tao Chen. Madtp: Multimodal alignment-
+ 13 / 14
+中移智库
+
+===== PAGE 14 =====
+ 
+guided dynamic token pruning for accelerating vision-
+language transformer, 2024.
+[20]
+Bin Zhu, Bin Lin, Munan Ning, Yang Yan, Jiaxi Cui, HongFa
+Wang, Yatian Pang, Wenhao Jiang,Junwu Zhang, Zongwei Li, et
+al. Languagebind: Extending video-language pretraining to n-
+modality by language-based semantic alignment. arXiv
+preprint arXiv:2310.01852, 2023.
+[21]
+Albert Gu and Tri Dao. Mamba: Linear-time sequence
+modeling with selective state spaces. arXiv preprint
+arXiv:2312.00752, 2023.
+审稿： 柴鑫刚 |  业务研究所 
+本文作者：李星立  | 业务研究所
+ 14 / 14
+中移智库

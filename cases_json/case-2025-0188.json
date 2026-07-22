@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0188",
+  "version": 1,
+  "slug": "case-2025-0188",
+  "title": "面向物流行业的自动分拣具身智能机器人实践",
+  "organization": {
+    "id": "org-0188",
+    "name": "北京京东乾石科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "物流供应链",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京京东乾石科技有限公司（京东物流）以'狼族'机器人矩阵与'超脑大模型 2.0'推动面向物流行业的自动分拣具身智能机器人实践，覆盖仓储、分拣、运输、配送全链路，并联合智元推出面向真实仓储生产场景的具身机器人精灵 G2 Max。",
+  "background": "京东物流拥有全栈自研的'超脑大模型 2.0'和'狼族'机器人矩阵（智狼、异狼、飞狼、独狼等），其中'超脑'大模型已覆盖超 1000 个场景，统一调度各类机器人。",
+  "problem": "仓储分拣环节存在大量非标包裹与重复人工搬运、码放，效率与一致性受限。",
+  "solution": "以超脑大模型统一调度狼族机器人矩阵，并以具身智能机械臂（如'异狼'）解决非标包裹自动化码垛，将具身机器人部署至真实仓储生产场景。",
+  "implementationSteps": [
+    "研发超脑大模型 2.0 与狼族机器人矩阵",
+    "以异狼具身机械臂攻克非标包裹码垛",
+    "联合智元推出精灵 G2 Max 落地智狼仓"
+  ],
+  "duration": "持续规模化",
+  "cost": "",
+  "results": [
+    {
+      "label": "超脑大模型覆盖场景",
+      "value": "超 1000 个",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-jd-1"
+    },
+    {
+      "label": "11.11 规模化部署范围",
+      "value": "超 20 省、全球超 10 国",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-jd-2"
+    }
+  ],
+  "roi": "",
+  "risks": "非标包裹识别、机器人协同调度与现场安全。",
+  "editorComment": {
+    "suitableFor": "电商与物流仓储分拣场景",
+    "prerequisites": "具备仓储自动化与调度系统基础",
+    "priority": "建议优先",
+    "text": "具身智能+大模型调度，物流全链路标杆。"
+  },
+  "implementers": [
+    {
+      "name": "北京京东乾石科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jd-1",
+      "title": "WAIC 2026｜京东物流联手智元，推出精灵G2 Max重载具身机器人",
+      "sourceType": "news",
+      "publisher": "MSN",
+      "originalUrl": "https://www.msn.cn/zh-cn/news/other/waic-2026-%E4%BA%AC%E4%B8%9C%E7%89%A9%E6%B5%81%E8%81%94%E6%89%8B%E6%99%BA%E5%85%83-%E6%8E%A8%E5%87%BA%E7%B2%BE%E7%81%B5g2-max%E9%87%8D%E8%BD%BD%E5%85%B7%E8%BA%AB%E6%9C%BA%E5%99%A8%E4%BA%BA/ar-AA287OAd",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证超脑大模型与狼族矩阵。",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "publicId": "src-jd-2",
+      "title": "京东物流发布“异狼”具身智能机械臂",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://news.qq.com/rain/a/20250925A091KD00",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证分拣码垛与规模化部署。",
+      "publishedAt": "2025-09-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "非标包裹难自动化",
+    "人工分拣重复劳动"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "大模型调度"
+  ],
+  "modelStack": [
+    "超脑大模型 2.0",
+    "狼族机器人矩阵"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "具身智能",
+    "自动分拣",
+    "物流机器人",
+    "京东"
+  ],
+  "seo": {
+    "metaTitle": "面向物流行业的自动分拣具身智能机器人实践",
+    "metaDescription": "面向物流行业的自动分拣具身智能机器人实践",
+    "keywords": [
+      "北京京东乾石科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0129",
+  "version": 1,
+  "slug": "case-2025-0129",
+  "title": "人工智能赋能高风险作业违章识别管控",
+  "organization": {
+    "id": "org-0129",
+    "name": "国能信控技术股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国能信控技术股份有限公司自主研发'人工智能赋能高风险作业违章识别管控'，采用'大模型+小模型'融合模式，结合视频智能识别进行实时分析，实现典型违章作业行为的智能识别、及时报警、自动喊话、督促整改，有效减少误报和漏报。",
+  "background": "面向火电等电力行业高风险作业场景，国能信控构建'信控·繁星'系列智能管控系统，并申请多项违章识别相关专利。",
+  "problem": "电力高风险作业（动火、高处、脚手架等）依赖人工监护，违章识别不及时、漏报误报多。",
+  "solution": "以'大模型+小模型'融合与视频智能识别，实时分析作业行为，自动识别、报警、喊话并督促整改，并申请专利减少误报漏报。",
+  "implementationSteps": [
+    "构建大模型+小模型融合的违章识别算法",
+    "部署视频智能识别与实时分析",
+    "实现报警、自动喊话、督促整改闭环"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂作业环境下的识别准确率、误报干扰。",
+  "editorComment": {
+    "suitableFor": "电力等高风险作业安全监管",
+    "prerequisites": "具备视频采集与作业区覆盖",
+    "priority": "建议优先",
+    "text": "大模型+小模型融合，安全刚需场景。"
+  },
+  "implementers": [
+    {
+      "name": "国能信控技术股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gn-1",
+      "title": "数科国能信控高风险作业违章识别管控项目入选工信部AI典型案例",
+      "sourceType": "news",
+      "publisher": "中国神华",
+      "originalUrl": "http://hk.shenhuachina.com/zgshww/gsxw/202607/3292e775967445e1bc531a062cacd37a.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证入选与方案模式。",
+      "publishedAt": "2026-07-06"
+    },
+    {
+      "publicId": "src-gn-2",
+      "title": "国能信控发布六款自研“信控·繁星”系列新品",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7637460871165329946/",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证大模型+小模型融合与实时分析。",
+      "publishedAt": "2026-05-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "违章识别不及时",
+    "漏报误报多"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型+小模型",
+    "视频识别"
+  ],
+  "modelStack": [
+    "信控·繁星 电力高风险作业智能管控系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "违章识别",
+    "高风险作业",
+    "视频智能识别",
+    "安全"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能高风险作业违章识别管控",
+    "metaDescription": "人工智能赋能高风险作业违章识别管控",
+    "keywords": [
+      "国能信控技术股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家能源投资集团有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

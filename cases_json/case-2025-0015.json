@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0015",
+  "version": 1,
+  "slug": "case-2025-0015",
+  "title": "特高压直流现场作业多模态数据集构建及应用",
+  "organization": {
+    "id": "org-0015",
+    "name": "中国南方电网有限责任公司 超高压输电公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "南方电网超高压公司构建特高压直流现场作业多模态数据集，聚焦高空作业、变压器检修等20类典型场景、超50万张高分辨率图像样本，以自动化采集、图像增强、自动标注保障数据质量，支撑'数据-模型'闭环。",
+  "background": "特高压直流蓬勃发展有力保障国家能源安全，但其建设运维作业存在数千公里超长距离作业面、超多类型作业场景，安全培训与风险管控难度大。",
+  "problem": "特高压直流现场作业面超长、场景类型繁多，传统人工监管难以全覆盖；缺乏高质量多模态作业数据集支撑智能风险预警。",
+  "solution": "聚焦特高压直流现场作业核心场景，构建涵盖高空作业、变压器检修等20类典型场景、超50万张高分辨率图像样本的多模态数据集；创新研发并应用自动化采集、图像增强、自动标注等技术，打造作业多模态数据集质量保障范式及'数据-模型'闭环，支撑现场作业风险预警。",
+  "implementationSteps": [
+    "梳理特高压直流现场作业核心场景",
+    "采集涵盖20类典型场景、50万+高分辨率图像样本",
+    "研发自动化采集、图像增强、自动标注技术保障数据质量",
+    "构建'数据-模型'闭环支撑风险预警"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "典型场景",
+      "value": "20",
+      "unit": "类",
+      "kind": "actual",
+      "sourceId": "src-nw-1"
+    },
+    {
+      "label": "高分辨率图像样本",
+      "value": "50+",
+      "unit": "万张",
+      "kind": "actual",
+      "sourceId": "src-nw-1"
+    }
+  ],
+  "roi": "",
+  "risks": "现场作业数据采集受安全与隐私约束；多模态标注成本高，需自动化手段保障质量。",
+  "editorComment": {
+    "suitableFor": "电网、能源等具有高危现场作业的企业建设多模态安全数据集",
+    "prerequisites": "具备现场作业图像采集与标注能力",
+    "priority": "条件具备后开展",
+    "text": "以多模态数据集驱动高危作业风险预警，适合电网等强安全监管行业。"
+  },
+  "implementers": [
+    {
+      "name": "中国南方电网有限责任公司 超高压输电公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-nw-1",
+      "title": "高质量数据集典型案例 | 特高压直流现场作业多模态数据集",
+      "sourceType": "government_case",
+      "publisher": "国家数据局",
+      "originalUrl": "https://www.nda.gov.cn/sjj/ywpd/szkjyjcss/1111/20251111150241709102594_pc.html",
+      "publishedAt": "2025-11-11",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-nw-2",
+      "title": "特高压直流现场作业多模态数据集构建及应用",
+      "sourceType": "news",
+      "publisher": "北极星电力软件网",
+      "originalUrl": "https://news.bjx.com.cn/html/20251111/1469492.shtml",
+      "publishedAt": "2025-11-11",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "高危作业",
+    "风险预警",
+    "数据质量"
+  ],
+  "painPointNarrative": "",
+  "highlight": "20类场景、50万+图像的多模态特高压作业数据集",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "多模态",
+    "计算机视觉",
+    "安全预警"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "电网"
+  ],
+  "seo": {
+    "metaTitle": "南方电网 特高压直流现场作业多模态数据集构建及应用",
+    "metaDescription": "南方电网超高压公司构建20类场景、50万+图像的多模态特高压作业数据集，支撑风险预警。",
+    "keywords": [
+      "南方电网",
+      "特高压",
+      "多模态数据集",
+      "风险预警"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国南方电网有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

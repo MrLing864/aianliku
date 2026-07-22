@@ -1,0 +1,175 @@
+{
+  "id": "case-2025-0185",
+  "version": 1,
+  "slug": "case-2025-0185",
+  "title": "基于全栈国产算力的港口全要素调度智能体应用",
+  "organization": {
+    "id": "org-0185",
+    "name": "青岛港国际股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "物流供应链",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "青岛港国际股份有限公司基于全栈国产异构算力平台（总算力 33P）与'星港'大模型，研发全要素调度、集装箱船舶配载、方舟 TaaS 等 19 个智能体，其中船舶配载从 4 小时压缩到 10 分钟，作为港口行业唯一的国家人工智能应用中试基地推进'人工智能+'。",
+  "background": "青岛港是国家人工智能应用中试基地（港口行业唯一），联合华为、百度等建成软硬一体、自主可控的全栈式国产 AI 技术体系，建成 28 个高质量数据集、归集数据 18.32TB。",
+  "problem": "港口集疏运与调度协同复杂，传统人工配载与调度效率低。",
+  "solution": "以全栈国产算力与'星港'大模型构建全要素调度等智能体，实现港口作业智能决策与协同。",
+  "implementationSteps": [
+    "建设全栈国产异构算力平台（33P）",
+    "发布星港大模型并归集高质量数据集",
+    "研发 19 个智能体（全要素调度、船舶配载等）"
+  ],
+  "duration": "2026 年起加速",
+  "cost": "",
+  "results": [
+    {
+      "label": "全栈国产算力平台总算力",
+      "value": "33P",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-qdport-1"
+    },
+    {
+      "label": "船舶配载时间",
+      "value": "4 小时压缩至 10 分钟",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-qdport-2"
+    },
+    {
+      "label": "已研发智能体数量",
+      "value": "19 个",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-qdport-2"
+    }
+  ],
+  "roi": "",
+  "risks": "国产算力生态适配、多智能体协同稳定性。",
+  "editorComment": {
+    "suitableFor": "港口全要素智能调度与作业协同",
+    "prerequisites": "具备自动化码头与算力基础",
+    "priority": "建议优先",
+    "text": "全栈国产算力+智能体，港口 AI 标杆。"
+  },
+  "implementers": [
+    {
+      "name": "青岛港国际股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-qdport-1",
+      "title": "青岛港：国家人工智能应用中试基地建设提速",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1034731429_120988576",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 33P 算力与 18.32TB 数据。",
+      "publishedAt": "2026-06-10"
+    },
+    {
+      "publicId": "src-qdport-2",
+      "title": "“人工智能”重塑，如何为中国港口探路？",
+      "sourceType": "news",
+      "publisher": "中国水运报",
+      "originalUrl": "https://www.zgsyb.com/news.html?aid=766449",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 19 个智能体与配载时间。",
+      "publishedAt": "2026-07-17"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "调度协同复杂",
+    "配载效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "多智能体"
+  ],
+  "modelStack": [
+    "星港大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "青岛港",
+    "星港大模型",
+    "调度智能体",
+    "国产算力"
+  ],
+  "seo": {
+    "metaTitle": "基于全栈国产算力的港口全要素调度智能体应用",
+    "metaDescription": "基于全栈国产算力的港口全要素调度智能体应用",
+    "keywords": [
+      "青岛港国际股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

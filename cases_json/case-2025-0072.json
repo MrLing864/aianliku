@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0072",
+  "version": 1,
+  "slug": "case-2025-0072",
+  "title": "人工智能在船舶航行主动安全场景中的应用",
+  "organization": {
+    "id": "org-0072",
+    "name": "中远海运科技股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "船舶海工",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中远海运科技构建面向船舶航行安全管理全场景的'船舶航行智能安全系统'，聚焦增强瞭望、避碰预警、靠离泊辅助、智能安防、船岸协同管控五大功能，并依托航运大模型Hi-Dolphin与船视宝等平台提升航行主动安全。",
+  "background": "航运安全事关重大，传统瞭望与避碰依赖船员经验，夜间与复杂海况风险高。",
+  "problem": "船舶航行安全依赖人工瞭望与经验，避碰、靠离泊等场景下风险高、响应慢。",
+  "solution": "中远海运科技打造船舶航行智能安全系统，面向船舶航行安全管理全场景提供可视化智能解决方案，聚焦增强瞭望、避碰预警、靠离泊辅助、智能安防、船岸协同管控五大功能；并结合自研航运大模型Hi-Dolphin、船视宝平台与智能航线E-Routing（AI算法+航运大数据），构建全产业链数智化技术矩阵。",
+  "implementationSteps": [
+    "构建船舶航行智能安全系统（五大功能）",
+    "研发航运大模型Hi-Dolphin与船视宝平台",
+    "以AI算法+航运大数据支撑智能航线E-Routing",
+    "实现船岸协同管控与主动安全"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "海上通信与数据链路受限；智能安全系统需高可靠与_fail-safe设计。",
+  "editorComment": {
+    "suitableFor": "航运与港口企业的船舶航行安全管理",
+    "prerequisites": "具备船舶传感与岸基数据能力",
+    "priority": "建议优先",
+    "text": "五大功能的船舶航行智能安全系统，适合航运安全数智化参考。"
+  },
+  "implementers": [
+    {
+      "name": "中远海运科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zy-1",
+      "title": "船舶航行智能安全系统：AI守护，让航行安全无忧",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7515241245640360502/",
+      "publishedAt": "2025-06-13",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zy-2",
+      "title": "中远海科：打造船视宝平台、航运大模型Hi-Dolphin等系列航运科技产品",
+      "sourceType": "news",
+      "publisher": "MSN",
+      "originalUrl": "https://www.msn.cn/zh-cn/%E6%8A%80%E6%9C%AF/%E6%8A%80%E6%9C%AF%E5%85%AC%E5%8F%B8/%E4%B8%AD%E8%BF%9C%E6%B5%B7%E7%A7%91-%E6%89%93%E9%80%A0%E8%88%B9%E8%A7%86%E5%AE%9D%E5%B9%B3%E5%8F%B0-%E8%88%AA%E8%BF%90%E5%A4%A7%E6%A8%A1%E5%9E%8Bhi-dolphin%E7%AD%89%E7%B3%BB%E5%88%97%E8%88%AA%E8%BF%90%E7%A7%91%E6%8A%80%E4%BA%A7%E5%93%81%E7%9F%A9%E9%98%B5/ar-AA27DtAV",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "航行安全",
+    "人工瞭望",
+    "避碰预警"
+  ],
+  "painPointNarrative": "",
+  "highlight": "船舶航行智能安全系统：五大功能+航运大模型",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "船舶安全",
+    "智能瞭望",
+    "航运大模型"
+  ],
+  "modelStack": [
+    "Hi-Dolphin航运大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "航运",
+    "智能安全"
+  ],
+  "seo": {
+    "metaTitle": "中远海运科技 人工智能在船舶航行主动安全场景中的应用",
+    "metaDescription": "中远海运科技以船舶航行智能安全系统（五大功能）+航运大模型Hi-Dolphin提升航行主动安全。",
+    "keywords": [
+      "中远海运科技",
+      "船舶航行安全",
+      "Hi-Dolphin",
+      "智能安全"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国远洋海运集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

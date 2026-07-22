@@ -1,0 +1,150 @@
+{
+  "id": "case-2025-0250",
+  "version": 1,
+  "slug": "case-2025-0250",
+  "title": "集装箱码头能源数字孪生管控与智能体决策优化",
+  "organization": {
+    "id": "org-0250",
+    "name": "上海中远海运港口投资有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由上海中远海运港口投资有限公司申报的“集装箱码头能源数字孪生管控与智能体决策优化”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由中国远洋海运集团有限公司推荐。该应用构建全球港口能源数字孪生底座，将桥吊、场桥、运输车辆定义为“智能体”，实现“感知—决策—控制”闭环，达成作业效率与能耗的最优平衡。",
+  "background": "上海中远海运港口投资有限公司隶属中远海运港口，是全球领先的港口运营商。面向集装箱码头高能耗、设备调度复杂与能效管理需求，公司与上海海事大学联合研发基于智能体的集装箱码头能源数字孪生与决策优化系统。",
+  "problem": "集装箱码头设备类型多、能耗高，缺乏全局能效可视化与动态优化手段，难以在作业效率与能耗之间取得最优平衡。",
+  "solution": "构建全球港口能源数字孪生底座（PortMeta3D引擎），实现港口结构及设备三维可视化与能效实时监控；将桥吊、场桥、水平运输车辆等关键作业角色定义为“智能体”，凭借“感知”“决策”“控制”能力实现码头作业效率与能耗的最优平衡，并通过“能耗+孪生”监管实现风险动态告警与潜在隐患智能判断。",
+  "implementationSteps": [
+    "搭建全球港口能源数字孪生底座，实现港口三维可视化与能效实时监控。",
+    "将桥吊、场桥、运输车辆等定义为作业“智能体”。",
+    "研发“感知—决策—控制”闭环，优化作业效率与能耗平衡。",
+    "在集装箱码头部署应用，实现能效动态告警与风险智能判断。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "赛事荣誉",
+      "value": "人工智能+应用场景挑战赛全国奖项",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-news-0250"
+    }
+  ],
+  "roi": "",
+  "risks": "数字孪生与智能体决策依赖数据准确性与实时性，需保障数据采集与通信稳定；能效优化决策建议须结合现场作业实际。",
+  "editorComment": {
+    "suitableFor": "集装箱码头、港口物流的能源管控与作业优化。",
+    "prerequisites": "具备港口设备数据采集与三维建模基础。",
+    "priority": "high",
+    "text": "港口能源数字孪生+智能体决策是智慧港口建设的先进方向，中远海运港口与上海海事大学联合研发并获奖，示范性强。"
+  },
+  "implementers": [
+    {
+      "name": "上海中远海运港口投资有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0250",
+      "title": "“人工智能+”应用场景挑战赛园区仓储赛道全国总决赛 中远海运港口获奖",
+      "sourceType": "official_website",
+      "publisher": "中远海运",
+      "originalUrl": "https://www.coscoshipping.com/col/col6864/art/2025/art_5d7b88a4f12048e6a79bd7cce56f4789.html",
+      "externalId": "",
+      "publishedAt": "2025-11-19",
+      "accessibility": "available",
+      "rightsNote": "中远海运官网报道其与上海海事大学联合研发的“基于智能体的集装箱码头能源数字孪生与决策优化系统”获奖，披露智能体定义与“感知—决策—控制”能力。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数字孪生",
+    "多智能体",
+    "优化决策"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "数字孪生",
+    "港口能源",
+    "智能体",
+    "智慧港口",
+    "能耗优化"
+  ],
+  "seo": {
+    "metaTitle": "集装箱码头能源数字孪生管控与智能体决策优化",
+    "metaDescription": "集装箱码头能源数字孪生管控与智能体决策优化",
+    "keywords": [
+      "上海中远海运港口投资有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国远洋海运集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

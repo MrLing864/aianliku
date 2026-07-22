@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0261",
+  "version": 1,
+  "slug": "case-2025-0261",
+  "title": "星河智联 AI Agent 智能座舱实践",
+  "organization": {
+    "id": "org-0261",
+    "name": "星河智联汽车科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "卓世科技（海南）股份有限公司实践“面向银发健康的行业大模型创新应用”，依托自研“璇玑玉衡大模型”与医疗健康行业模型全栈能力，联合北京健康养老集团有限公司、北京中医药医养等机构，在养老、大健康领域打造银发健康行业大模型应用标杆，秉持“AI·普惠”理念赋能产业数智化。",
+  "background": "卓世科技是行业大模型先锋，深度聚焦大健康落地，基于自研大模型“璇玑玉衡”构建覆盖行业模型到场景应用的全栈产品体系，2025 年完成近亿元融资并在养老领域打造多个标杆。",
+  "problem": "银发健康服务供给不足、专业资源稀缺，养老智能化水平低。",
+  "solution": "银发健康行业大模型，以璇玑玉衡大模型赋能养老健康场景。",
+  "implementationSteps": [
+    "研发璇玑玉衡大模型与医疗健康行业模型",
+    "联合康养机构共建银发健康应用",
+    "在养老大健康场景落地标杆"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "健康数据合规、模型临床可靠性。",
+  "editorComment": {
+    "suitableFor": "银发健康与智慧养老",
+    "prerequisites": "具备康养数据与行业模型",
+    "priority": "建议优先",
+    "text": "行业大模型赋能银发健康的普惠范式。"
+  },
+  "implementers": [
+    {
+      "name": "星河智联汽车科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zhuo-1",
+      "title": "卓世科技-中国行业大模型先锋",
+      "sourceType": "official",
+      "publisher": "卓世科技",
+      "originalUrl": "https://www.maas.com.cn/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证璇玑玉衡大模型与银发健康全栈能力。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-zhuo-2",
+      "title": "卓世科技完成亿元融资，已在养老、大健康等领域打造多个标杆",
+      "sourceType": "news",
+      "publisher": "财经",
+      "originalUrl": "http://health.caijing.com.cn/2025/0630/5098687.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证养老大健康标杆与行业大模型定位。",
+      "publishedAt": "2025-06-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "供给不足",
+    "专业稀缺"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "大健康落地"
+  ],
+  "modelStack": [
+    "璇玑玉衡大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "银发健康",
+    "璇玑玉衡",
+    "卓世科技",
+    "行业大模型"
+  ],
+  "seo": {
+    "metaTitle": "星河智联 AI Agent 智能座舱实践",
+    "metaDescription": "星河智联 AI Agent 智能座舱实践",
+    "keywords": [
+      "星河智联汽车科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

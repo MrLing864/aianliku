@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0269",
+  "version": 1,
+  "slug": "case-2025-0269",
+  "title": "爱玛 AIGC 智慧大脑“玛小爱”智能管家应用",
+  "organization": {
+    "id": "org-0269",
+    "name": "爱玛科技集团股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "爱玛科技集团股份有限公司与火山引擎合作，依托豆包大模型与 HiAgent 平台打造 AIGC 应用中台'AI 智慧大脑'，落地'玛小爱智驾'等 AI 智能体，为产品、企业决策、办公协同、跨国业务等场景提供超 4 万次服务，并实现办公效率 300% 提升。",
+  "background": "2025 年 5 月 8 日爱玛科技与火山引擎签署合作协议，深化 AI 在战略、制造、产品、供应链、服务等多场景落地。",
+  "problem": "企业多场景智能化转型缺乏统一 AI 中台支撑，办公与跨国协作效率低。",
+  "solution": "以豆包大模型+HiAgent 搭建 AIGC 应用中台'AI 智慧大脑'，在 B 端（办公/决策/协作）与 C 端（玛小爱智驾）落地多款 AI 智能体。",
+  "implementationSteps": [
+    "与火山引擎共建 AIGC 应用中台 AI 智慧大脑",
+    "落地玛小爱智驾等 C 端智能体",
+    "在办公协同与跨国业务推广 AI 智能体"
+  ],
+  "duration": "2025 年 5 月起",
+  "cost": "",
+  "results": [
+    {
+      "label": "AI 智能体服务次数",
+      "value": "超 4 万次",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-aima-1"
+    },
+    {
+      "label": "办公效率提升",
+      "value": "300%",
+      "unit": "",
+      "kind": "estimated",
+      "sourceId": "src-aima-1"
+    }
+  ],
+  "roi": "",
+  "risks": "模型服务稳定性、数据安全与跨国合规。",
+  "editorComment": {
+    "suitableFor": "制造业企业多场景 AI 中台",
+    "prerequisites": "具备大模型平台与业务数据",
+    "priority": "建议优先",
+    "text": "AI 智慧大脑+多智能体，民企转型样板。"
+  },
+  "implementers": [
+    {
+      "name": "爱玛科技集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-aima-1",
+      "title": "爱玛科技给电动车装上AI大脑",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/JVHPHSEO0552E7Z7.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 AI 智慧大脑与 4 万次服务。",
+      "publishedAt": "2025-05-14"
+    },
+    {
+      "publicId": "src-aima-2",
+      "title": "爱玛科技与火山引擎联手，电动车AI智慧大脑赋能4万人高效出行",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/895177627_362225",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证豆包大模型与效率提升。",
+      "publishedAt": "2025-05-14"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "多场景缺中台",
+    "协作效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "AIGC中台"
+  ],
+  "modelStack": [
+    "豆包大模型",
+    "HiAgent"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI智慧大脑",
+    "玛小爱",
+    "AIGC中台",
+    "爱玛"
+  ],
+  "seo": {
+    "metaTitle": "爱玛 AIGC 智慧大脑“玛小爱”智能管家应用",
+    "metaDescription": "爱玛 AIGC 智慧大脑“玛小爱”智能管家应用",
+    "keywords": [
+      "爱玛科技集团股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "天津市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

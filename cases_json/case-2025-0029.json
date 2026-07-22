@@ -1,0 +1,165 @@
+{
+  "id": "case-2025-0029",
+  "version": 1,
+  "slug": "case-2025-0029",
+  "title": "基于 AI 视觉大小模型协同的智慧管网风险预警系统应用",
+  "organization": {
+    "id": "org-0029",
+    "name": "北京智网数科技术有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京智网数科（国家管网集团二级单位）基于AI视觉大小模型协同，构建智慧管网风险预警系统，并参与建设全国产化算力底座的'管网'大模型，实现安全可信的管网智能应用。",
+  "background": "国家管网集团深入贯彻落实AI发展部署，采用全国产化算力底座和技术栈持续建设'管网'大模型，打造具有管网特色的安全可信大模型。",
+  "problem": "油气管网线路长、风险点多，传统监控难以全覆盖；缺乏大小模型协同的智能化风险预警手段。",
+  "solution": "基于AI视觉大小模型协同构建智慧管网风险预警系统；作为国家管网集团二级单位，智网数科支撑'管网'大模型建设，采用全国产化算力底座与技术栈，实现安全可信的管网智能应用，并与集团联合申请大模型交互/应答相关专利。",
+  "implementationSteps": [
+    "建设全国产化算力底座的'管网'大模型",
+    "研发AI视觉大小模型协同技术",
+    "构建智慧管网风险预警系统",
+    "申请大模型交互/应答相关专利"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "管网数据涉密、安全等级高；全国产化技术栈生态适配与稳定性需持续验证。",
+  "editorComment": {
+    "suitableFor": "能源管网企业建设安全可信行业大模型与风险预警",
+    "prerequisites": "具备全国产化算力底座与管网数据",
+    "priority": "条件具备后开展",
+    "text": "全国产化+'管网'大模型+视觉大小模型协同，适合能源基础设施企业。"
+  },
+  "implementers": [
+    {
+      "name": "北京智网数科技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zw-1",
+      "title": "管网集团携手智网数科，探索大模型交互新范式",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/922425479_122362510",
+      "publishedAt": "2025-08-09",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zw-2",
+      "title": "国家管网集团2.8亿算力大单（全国产化'管网'大模型）",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://m.163.com/dy/article/KCNM7PCN0511D6RL.html",
+      "publishedAt": "2025-10-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zw-3",
+      "title": "北京智网数科技术有限公司（国家管网二级单位）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E6%99%BA%E7%BD%91%E6%95%B0%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/61051901",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "管网风险",
+    "安全可信",
+    "国产化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI视觉大小模型协同的智慧管网风险预警，全国产化底座",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "AI视觉",
+    "大小模型协同",
+    "全国产化"
+  ],
+  "modelStack": [
+    "管网大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "行业大模型",
+    "能源管网"
+  ],
+  "seo": {
+    "metaTitle": "智网数科 基于AI视觉大小模型协同的智慧管网风险预警系统",
+    "metaDescription": "智网数科基于AI视觉大小模型协同构建智慧管网风险预警系统，支撑全国产化管网大模型。",
+    "keywords": [
+      "智网数科",
+      "管网大模型",
+      "AI视觉",
+      "风险预警"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家石油天然气管网集团 有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

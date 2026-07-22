@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0045",
+  "version": 1,
+  "slug": "case-2025-0045",
+  "title": "基于大模型的炼铁配矿全局降本创效与一体化精益运营实践",
+  "organization": {
+    "id": "org-0045",
+    "name": "中冶赛迪信息技术（重庆）有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中冶赛迪基于大模型打造'炼铁配矿全局降本创效与一体化精益运营'方案，以绿色智能一体化配矿技术发掘非主流矿互补配矿，已在宝武武钢、沙钢淮钢等多家企业落地，覆盖多种炉容炉型。",
+  "background": "高炉炼铁依赖铁矿石配料，原料成本占比高，配矿优化对降本意义重大。",
+  "problem": "传统配矿依赖经验，非主流矿利用不足，成本高；一体化精益运营缺乏数据驱动。",
+  "solution": "充分发掘非主流矿、寻找互补配矿可能性，通过自主开发的一体化配矿技术（绿色智能）结合大模型，实现炼铁配矿全局降本创效与一体化精益运营；该体系已在宝武武钢、沙钢淮钢等多家企业落地，覆盖多种炉容炉型。",
+  "implementationSteps": [
+    "研发绿色智能一体化配矿技术",
+    "结合大模型实现全局降本创效",
+    "构建炼铁一体化精益运营体系",
+    "在宝武武钢、沙钢淮钢等落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "矿石价格波动与原料差异影响模型泛化；现场工艺适配需持续调优。",
+  "editorComment": {
+    "suitableFor": "钢铁企业高炉炼铁配矿优化与精益运营",
+    "prerequisites": "具备高炉生产与原料数据",
+    "priority": "建议优先",
+    "text": "大模型+一体化配矿的降本方案，已在多家钢企验证，适合推广。"
+  },
+  "implementers": [
+    {
+      "name": "中冶赛迪信息技术（重庆）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-py-1",
+      "title": "中冶赛迪成功研发绿色智能的一体化配矿技术",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/557538371_121117446",
+      "publishedAt": "2022-06-15",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-py-2",
+      "title": "重庆13个案例入选全国典型（中冶赛迪金睛/配矿）",
+      "sourceType": "government_news",
+      "publisher": "重庆市人民政府",
+      "originalUrl": "https://www.cq.gov.cn/ywdt/jrcq/202607/t20260708_15806325.html",
+      "publishedAt": "2026-07-08",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-py-3",
+      "title": "以智能增效，向'AI'而行！中国中冶五大场景入选中国五矿人工智能典型",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://m.thepaper.cn/baijiahao_32137664",
+      "publishedAt": "2025-12-09",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "原料成本",
+    "配矿经验依赖",
+    "精益运营"
+  ],
+  "painPointNarrative": "",
+  "highlight": "大模型炼铁配矿全局降本，已在多家钢企落地",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "炼铁配矿",
+    "大模型优化",
+    "精益运营"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "降本增效"
+  ],
+  "seo": {
+    "metaTitle": "中冶赛迪 基于大模型的炼铁配矿全局降本创效与一体化精益运营",
+    "metaDescription": "中冶赛迪以大模型+一体化配矿实现炼铁降本创效，已在宝武武钢、沙钢淮钢等落地。",
+    "keywords": [
+      "中冶赛迪",
+      "炼铁配矿",
+      "大模型",
+      "降本增效"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

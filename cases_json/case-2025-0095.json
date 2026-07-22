@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0095",
+  "version": 1,
+  "slug": "case-2025-0095",
+  "title": "雅典娜纺织大模型解决方案实践",
+  "organization": {
+    "id": "org-0095",
+    "name": "中译语通科技（青岛）有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "纺织服装",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中译语通（青岛）打造雅典娜纺织工业互联网平台（AthenaPlat），聚焦纺织服装全产业链，深耕生产管控、工艺优化、设备维护、节能降耗、质量追溯等核心场景，形成企业全流程 5G 智慧工厂解决方案。",
+  "background": "中译语通成立于 2013 年，是国家级人工智能企业；雅典娜工业互联网平台已在纺织服装、能源化工、环保等垂直领域形成涵盖企业全流程的智能制造解决方案。",
+  "problem": "纺织服装产业链长、协同弱，生产管控复杂、能耗与质量优化难。",
+  "solution": "雅典娜纺织大模型/工业互联网平台覆盖订单、物料、生产、设备、仓储等场景，提供预测性维护、故障智能诊断、远程智能运维、生产监控、产线优化、质量监测、绩效管控等能力。",
+  "implementationSteps": [
+    "构建雅典娜纺织工业互联网平台底座",
+    "沉淀纺织生产管控/工艺/设备/质量等场景模型",
+    "在纺织服装企业落地 5G 智慧工厂解决方案"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "纺织多品种小批量场景的模型适配、跨企业数据互通。",
+  "editorComment": {
+    "suitableFor": "纺织服装全产业链数智化",
+    "prerequisites": "具备产线与设备联网基础",
+    "priority": "建议优先",
+    "text": "垂直行业大模型+工业互联网平台的纺织范式。"
+  },
+  "implementers": [
+    {
+      "name": "中译语通科技（青岛）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gtcom-1",
+      "title": "纺织行业多项AI实践入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "中国纺织工业联合会",
+      "originalUrl": "http://news.ctei.cn/domestic/gnzx/202607/t20260717_4416807.htm",
+      "accessibility": "available",
+      "rightsNote": "行业协会官网报道，佐证雅典娜纺织大模型入选。",
+      "publishedAt": "2026-07-17"
+    },
+    {
+      "publicId": "src-gtcom-2",
+      "title": "雅典娜工业互联网平台-中译语通",
+      "sourceType": "official",
+      "publisher": "中译语通",
+      "originalUrl": "https://www.gtcom.com.cn/?c=products&a=sandesc&id=172",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证雅典娜平台能力。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "产业链协同弱",
+    "生产管控复杂",
+    "能耗优化难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "工业互联网"
+  ],
+  "modelStack": [
+    "雅典娜纺织大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "纺织大模型",
+    "工业互联网",
+    "雅典娜",
+    "5G智慧工厂"
+  ],
+  "seo": {
+    "metaTitle": "雅典娜纺织大模型解决方案实践",
+    "metaDescription": "雅典娜纺织大模型解决方案实践",
+    "keywords": [
+      "中译语通科技（青岛）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

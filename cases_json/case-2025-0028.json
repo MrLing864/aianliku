@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0028",
+  "version": 1,
+  "slug": "case-2025-0028",
+  "title": "星辰大模型助力央企数智化转型实践",
+  "organization": {
+    "id": "org-0028",
+    "name": "中电信人工智能科技（北京）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中电信人工智能科技（北京）有限公司以完全自主研发的星辰基础大模型，构建标准能力、行业应用、平台管理和智能硬件产品体系，助力央企数智化转型，并在WAIC2026以'星辰共生 智惠伙伴'集中呈现大模型与智算成果。",
+  "background": "中国电信将'智改'作为继'光改''云改'后的新一轮深化改革核心，推动企业治理与人工智能技术发展。",
+  "problem": "央企数智化转型缺乏自主可控的基础大模型与全栈AI产品体系支撑。",
+  "solution": "依托完全自主研发的星辰基础大模型，构建层次分明的标准能力、行业应用、平台管理和智能硬件产品体系，全方面满足个人、家庭、政企客户多样化需求；以全栈式人工智能服务助推央企与社会智能化变革，并在WAIC2026集中呈现星辰大模型、算力调度、智能传输、AI安全与智能终端等成果。",
+  "implementationSteps": [
+    "研发完全自主的星辰基础大模型",
+    "构建标准能力/行业应用/平台管理/智能硬件产品体系",
+    "以全栈AI服务助力央企数智化转型",
+    "WAIC2026集中呈现大模型与智算成果"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "大模型训练与运营成本高；央企场景对安全合规要求极高。",
+  "editorComment": {
+    "suitableFor": "央企、政企客户的全栈AI与数智化转型",
+    "prerequisites": "具备云网与算力基础设施",
+    "priority": "建议优先",
+    "text": "自主星辰大模型+全栈产品体系，适合政企AI转型参考。"
+  },
+  "implementers": [
+    {
+      "name": "中电信人工智能科技（北京）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ct-1",
+      "title": "WAIC 2026：中国电信以'智'再造新底座（星辰大模型）",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1052565569_121146933",
+      "publishedAt": "2026-07-18",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ct-2",
+      "title": "天翼AI开放平台（星辰基础大模型）",
+      "sourceType": "official",
+      "publisher": "中国电信",
+      "originalUrl": "https://www.teleai.com.cn/teleAI",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "自主可控",
+    "数智化转型",
+    "全栈AI"
+  ],
+  "painPointNarrative": "",
+  "highlight": "完全自主星辰大模型，全栈AI产品体系助力央企转型",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "基础大模型",
+    "全栈AI",
+    "央企数智化"
+  ],
+  "modelStack": [
+    "星辰大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "基础大模型",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "中电信人工智能 星辰大模型助力央企数智化转型实践",
+    "metaDescription": "中电信以自主星辰大模型构建全栈AI产品体系，助力央企数智化转型。",
+    "keywords": [
+      "中国电信",
+      "星辰大模型",
+      "央企数智化",
+      "基础大模型"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

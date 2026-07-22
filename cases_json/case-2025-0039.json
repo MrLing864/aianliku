@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0039",
+  "version": 1,
+  "slug": "case-2025-0039",
+  "title": "基于智能体的特大型能源集团软件开发基础平台应用",
+  "organization": {
+    "id": "org-0039",
+    "name": "国能数智科技开发（北京）有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国能数智科技研发'基于智能体的特大型能源集团软件研发基础平台'，贯通需求分析、架构设计、开发测试、部署运维，通过分角色专家智能体实现全流程协同研发，成果经鉴定达'国际领先'水平。",
+  "background": "国家能源集团作为特大型能源集团，统建信息系统与AI研发任务重，软件研发高效化需求迫切。",
+  "problem": "特大型能源集团软件研发涉及多角色协同、周期长，传统模式效率低。",
+  "solution": "紧扣能源行业软件研发高效化核心诉求，创新融合智能体技术构建全流程协同研发体系，贯通需求分析、架构设计、开发测试、部署运维等关键环节，通过分角色专家智能体集实现协同；该平台通过中国电机工程学会成果鉴定，整体达到国际领先水平。",
+  "implementationSteps": [
+    "构建基于智能体的软件研发基础平台",
+    "贯通需求-设计-开发-测试-运维全流程",
+    "部署分角色专家智能体协同研发",
+    "通过中国电机工程学会成果鉴定（国际领先）"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "软件研发智能体需深度理解能源业务；代码质量与安全保障要求高。",
+  "editorComment": {
+    "suitableFor": "大型集团型企业建设智能体驱动的软件研发平台",
+    "prerequisites": "具备完善的信息化与研发体系",
+    "priority": "条件具备后开展",
+    "text": "智能体协同研发平台，适合大型集团研发提效参考，成果达国际领先。"
+  },
+  "implementers": [
+    {
+      "name": "国能数智科技开发（北京）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-gn-1",
+      "title": "数科公司基于智能体的软件研发平台成果达国际领先",
+      "sourceType": "news",
+      "publisher": "中国神华",
+      "originalUrl": "http://www.shenhuachina.cc/zgshww/gsxw/202512/3e4dc7d5b4ec435aac30b84b8bae533d.shtml",
+      "publishedAt": "2025-12-16",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-gn-2",
+      "title": "国能数智科技公司简介",
+      "sourceType": "official",
+      "publisher": "国家能源集团",
+      "originalUrl": "https://www.ceic.com/xxgs/1382696289410/gsjj.shtml",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "研发效率",
+    "多角色协同",
+    "软件研发"
+  ],
+  "painPointNarrative": "",
+  "highlight": "智能体驱动软件研发平台，成果达国际领先水平",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "软件研发智能体",
+    "全流程协同",
+    "能源集团"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "研发智能体",
+    "能源"
+  ],
+  "seo": {
+    "metaTitle": "国能数智 基于智能体的特大型能源集团软件研发基础平台应用",
+    "metaDescription": "国能数智以智能体构建软件研发基础平台，贯通全流程协同研发，成果达国际领先。",
+    "keywords": [
+      "国能数智",
+      "软件研发智能体",
+      "能源集团",
+      "国际领先"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "国家能源投资集团有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

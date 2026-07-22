@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0037",
+  "version": 1,
+  "slug": "case-2025-0037",
+  "title": "共识认知引擎-面向多目标场景的下一代数据智能基础设施建设应用",
+  "organization": {
+    "id": "org-0037",
+    "name": "武创汉链（武汉）科技研究有限公司",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武创汉链（武汉）科技研究有限公司依托城市级区块链设施与数据流通基础设施，建设面向多目标场景的'共识认知引擎'下一代数据智能基础设施，并以'技术-权责-流程-运营'四维治理模式支撑数据流通安全。",
+  "background": "数据要素流通面临多方信任、权责界定与安全合规难题，制约数据价值释放。",
+  "problem": "跨层级、跨部门、跨行业数据壁垒难破，'有数贷不到'；缺乏可信的数据智能基础设施支撑多目标场景。",
+  "solution": "依托城市级区块链设施与数据流通基础设施，构建'共识认知引擎'下一代数据智能基础设施，面向多目标场景提供可信数据流通与智能治理能力；以'技术-权责-流程-运营'四维治理模式，实现跨层级、跨部门、跨行业的安全高效可追溯数据交互（应用于科技成果转化数据流通安全等场景）。",
+  "implementationSteps": [
+    "建设城市级区块链与数据流通基础设施",
+    "研发共识认知引擎数据智能基础设施",
+    "构建'技术-权责-流程-运营'四维治理模式",
+    "支撑跨域可信数据交互与流通安全"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "数据流通涉及多方权责与隐私，合规与信任机制建设复杂。",
+  "editorComment": {
+    "suitableFor": "城市/园区数据要素流通与可信数据基础设施建设",
+    "prerequisites": "具备区块链与数据流通基础",
+    "priority": "条件具备后开展",
+    "text": "区块链+数据智能基础设施方向，适合数据要素流通场景参考。"
+  },
+  "implementers": [
+    {
+      "name": "武创汉链（武汉）科技研究有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-wh-1",
+      "title": "第三批数据流通安全治理典型案例 | 基于数据资产金融服务（武创汉链）",
+      "sourceType": "government_case",
+      "publisher": "国家数据局",
+      "originalUrl": "https://www.nda.gov.cn/sjj/ywpd/zcgh/0613/20260613101245863588049_pc.html",
+      "publishedAt": "2026-06-13",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-wh-2",
+      "title": "武汉两案例入选全国第三批数据流通安全治理典型案例",
+      "sourceType": "government_news",
+      "publisher": "武汉市人民政府",
+      "originalUrl": "https://home.wuhan.gov.cn/gzdt_93640/202605/t20260525_2768840.shtml",
+      "publishedAt": "2026-05-25",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据壁垒",
+    "数据流通",
+    "权责界定"
+  ],
+  "painPointNarrative": "",
+  "highlight": "共识认知引擎：城市级可信数据智能基础设施",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "数据智能基础设施",
+    "区块链",
+    "数据流通"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "数据基础设施",
+    "区块链"
+  ],
+  "seo": {
+    "metaTitle": "武创汉链 共识认知引擎 下一代数据智能基础设施建设应用",
+    "metaDescription": "武创汉链以共识认知引擎构建城市级可信数据智能基础设施，支撑多目标场景数据流通。",
+    "keywords": [
+      "武创汉链",
+      "共识认知引擎",
+      "数据智能基础设施",
+      "区块链"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

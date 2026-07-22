@@ -1,7 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { PrivacyAwareAnalytics } from "@/components/privacy-aware-analytics";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { env } from "@/lib/env";
 import "./globals.css";
@@ -28,8 +26,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="zh-CN" data-scroll-behavior="smooth" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
       <body className="min-h-screen">
         <TooltipProvider>{children}</TooltipProvider>
-        <PrivacyAwareAnalytics />
-        <SpeedInsights />
       </body>
     </html>
   );

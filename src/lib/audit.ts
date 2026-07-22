@@ -1,7 +1,7 @@
 import "server-only";
 
 import { nanoid } from "nanoid";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 
 const blockedKey = /(password|secret|token|authorization|cookie|email|phone|wechat|question|answer|input|markdown|rawtext|payload|content)$/i;
 
@@ -14,7 +14,7 @@ function sanitize(value: unknown, depth = 0): unknown {
 }
 
 export async function writeAuditLog(input: { actor: string; action: string; entityType: string; entityId: string; before?: unknown; after?: unknown; metadata?: unknown }) {
-  if (!isMongoConfigured()) return;
+  if (!isDbConfigured()) return;
   const db = await getDb();
   await db.collection("audit_logs").insertOne({ id: nanoid(), actor: input.actor, action: input.action, entityType: input.entityType, entityId: input.entityId, before: sanitize(input.before), after: sanitize(input.after), metadata: sanitize(input.metadata), createdAt: new Date() });
 }

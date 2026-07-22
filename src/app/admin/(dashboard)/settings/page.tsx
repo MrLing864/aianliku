@@ -4,7 +4,6 @@ import {
   CircleOff,
   Database,
   Gauge,
-  Mail,
   Sparkles,
   TriangleAlert,
   Warehouse,
@@ -14,10 +13,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { getSystemHealth, type SystemHealthCheck } from "@/lib/system-health";
 
 const icons: Record<SystemHealthCheck["id"], typeof Database> = {
-  mongodb: Database,
+  cloudbase: Database,
   deepseek: Sparkles,
-  email: Mail,
-  r2: Warehouse,
+  cos: Warehouse,
   alerts: BellRing,
 };
 
@@ -33,12 +31,10 @@ export const dynamic = "force-dynamic";
 export default async function SettingsPage() {
   const checks = await getSystemHealth();
   const databaseReady =
-    checks.find((item) => item.id === "mongodb")?.state === "ready";
+    checks.find((item) => item.id === "cloudbase")?.state === "ready";
   const analysisReady =
     checks.find((item) => item.id === "deepseek")?.state === "configured";
-  const notificationReady =
-    checks.find((item) => item.id === "email")?.state === "configured";
-  const reportLoopReady = databaseReady && analysisReady && notificationReady;
+  const reportLoopReady = databaseReady && analysisReady;
 
   return (
     <div className="mx-auto max-w-5xl">
@@ -71,8 +67,8 @@ export default async function SettingsPage() {
             <h2 className="font-semibold">企业体检完整链路</h2>
             <p className="mt-1 text-xs leading-6 text-muted-foreground">
               {reportLoopReady
-                ? "问诊可进入后台深度分析，报告能够保存并发送完成通知。"
-                : "浏览案例和免费预览仍可使用；数据库、深度分析和邮件通知必须同时就绪后才接受完整报告提交。"}
+                ? "问诊可进入后台深度分析，报告能够生成并保存。"
+                : "浏览案例和免费预览仍可使用；数据库与深度分析必须同时就绪后才接受完整报告提交。"}
             </p>
           </div>
           {reportLoopReady ? (

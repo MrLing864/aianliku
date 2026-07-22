@@ -1,0 +1,160 @@
+{
+  "id": "case-2025-0062",
+  "version": 1,
+  "slug": "case-2025-0062",
+  "title": "面向混合制造模式的全要素计划排产大模型应用",
+  "organization": {
+    "id": "org-0062",
+    "name": "青岛思锐卓远信息技术有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "青岛思锐卓远打造面向混合制造模式的全要素计划排产大模型，融合强化学习与知识图谱，可5分钟生成72小时精细化排产方案，帮助制造企业在制品库存下降30%、大幅缩减人工计划岗位。",
+  "background": "混合制造模式下订单多品种小批量、工况多变，传统人工排产效率低、库存高。",
+  "problem": "混合制造计划排产依赖人工、耗时长，在制品库存高、响应慢。",
+  "solution": "思锐卓远打造面向混合制造模式的全要素计划排产大模型，融合强化学习与知识图谱，对全要素（订单、设备、物料、工艺等）进行智能优化，5分钟生成72小时精细化排产方案，显著降低在制品库存并缩减人工计划岗位。",
+  "implementationSteps": [
+    "构建面向混合制造的全要素排产大模型",
+    "融合强化学习与知识图谱优化排产",
+    "5分钟生成72小时精细化排产方案",
+    "实现在制品库存下降与人工岗位缩减"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "排产方案生成",
+      "value": "5分钟/72小时",
+      "kind": "actual",
+      "sourceId": "src-sr-1"
+    },
+    {
+      "label": "在制品库存下降",
+      "value": "30",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-sr-1"
+    }
+  ],
+  "roi": "",
+  "risks": "排产模型需准确反映产线约束与实时状态；混合制造多变场景泛化挑战大。",
+  "editorComment": {
+    "suitableFor": "多品种小批量混合制造企业的智能排产",
+    "prerequisites": "具备MES/ERP数据与产线约束模型",
+    "priority": "建议优先",
+    "text": "强化学习+知识图谱的排产大模型，5分钟出方案、库存降30%，适合离散制造。"
+  },
+  "implementers": [
+    {
+      "name": "青岛思锐卓远信息技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sr-1",
+      "title": "国家级名单公示，青岛9个人工智能应用典型案例入选",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://new.qq.com/rain/a/20260703A08REM00",
+      "publishedAt": "2026-07-03",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工排产",
+    "在制品库存",
+    "响应慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "5分钟生成72小时排产，在制品库存降30%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "排产大模型",
+    "强化学习",
+    "知识图谱"
+  ],
+  "modelStack": [
+    "全要素计划排产大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "排产大模型",
+    "智能制造"
+  ],
+  "seo": {
+    "metaTitle": "青岛思锐卓远 面向混合制造模式的全要素计划排产大模型应用",
+    "metaDescription": "思锐卓远排产大模型融合强化学习与知识图谱，5分钟生成72小时方案、在制品库存降30%。",
+    "keywords": [
+      "青岛思锐卓远",
+      "排产大模型",
+      "强化学习",
+      "混合制造"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

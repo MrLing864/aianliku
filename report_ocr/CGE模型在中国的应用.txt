@@ -1,0 +1,3836 @@
+
+===== PAGE 1 =====
+CEM
+CEM
+CEM
+CGE模型在中国的应用
+Application of CGE Models in China
+CEMF
+CEMF
+CEMF
+中国能源模型论坛
+China Energy Modeling Forum
+2023年10月
+October 2023
+EMF
+CEMF
+CEMF
+===== PAGE 2 =====
+EM
+CEM
+前言
+上个世纪90年代初以来，可计算一般均衡（CGE）模型在中国
+逐渐得到应用和推广，越来越多的研究机构和研究人员开始学习、开
+发和应用 CGE 模型。
+为了解国内CGE模型领域的研究情况，我们曾于2017年对国
+内从事CGE模型研究的主要团队进行过一次调查，各团队均表示受
+益良多。随着国家研究需求的变化以及CGE模型研究团队的持续发
+展，相关研究领域也日益深化和拓展。因此，我们于9月上旬对国内
+CGE模型团队发起新一轮问卷调查，截至10月中旬共收到28个团
+队的反馈。
+我们将问卷收集整理、编撰成文，本报告主要包括三个部分：各
+团队CGE模型开发与应用情况汇总表、基于CGE模型的研究成果统
+计和各团队CGE模型问卷。其中，各团队CGE模型先后按负责人
+姓氏笔画排序，内容均以各研究团队自行填写材料为准，文责自负。
+各研究团队在此过程中给予了我们大力支持，积极响应并认真填
+写问卷，在此向各位同仁表示诚挚的感谢。同时，也要感谢中国能源
+模型论坛提供的支持以及在问卷设计、收集和整理的过程中付出努力
+的赵贝、孙嘉泽、孙源辰等课题组成员。
+最后，希望各位同仁在今后研究中加强交流与合作，共同推进
+CGE模型在中国的发展和应用！
+2023年10月
+课题组负责人：李善同 高雾 何建武
+EMF
+===== PAGE 3 =====
+EM
+CEM
+Preface
+CEM
+Since the early 1990s, Computable General Equilibrium (CGE) models have
+gradually gained application and popularity in China. An increasing number of
+research institutions and researchers have started to learn, develop, and apply
+CGE models.
+In order to understand the research landscape in the field of CGE models in
+China, we conducted a survey in 2017 of the major teams engaged in CGE model
+research domestically. In return, all teams expressed significant benefits from
+this initiative. Furthermore, with the changing demands of national research and
+the continuous development of CGE model research teams, related research
+areas have been deepening and expanding. Therefore, in early September, we
+launched a new round of questionnaire surveys among domestic CGE model
+teams, and by mid-October we had received feedback from a total of 28 teams.
+We have compiled and organized the collected questionnaires into this report,
+which mainly includes three parts: a summary table of CGE model development
+and application for each team, statistics on research outcomes based on CGE
+models, and questionnaires from each CGE model team. The list of CGE model
+teams is sorted by the strokes in the surnames of the team leaders. The content is
+based on the materials provided by each research team and is their sole
+responsibility.
+Throughout this process, various research teams have provided us with
+tremendous support, actively responded, and diligently filled out the
+questionnaires. We would like to express our sincere thanks to all colleagues. We
+would also like to thank the China Energy Modeling Forum (CEMF) for its
+support, as well as the efforts of our team members, including Bei Zhao, Jiaze
+Sun, Yuanchen Sun, and others, who participated in the questionnaire design,
+collection, and compilation.
+Finally, we hope that all colleagues will strengthen communication and
+cooperation in future research, jointly promoting the development and
+application of CGE models in China!
+October2023
+Project Team Leaders: Shantong Li, Ji Gao, Jianwu He
+EMF
+CEMF
+CEMF
+===== PAGE 4 =====
+CEMI
+CEM
+第一部分
+各团队CGE模型开发与应用情况汇总
+CGE模型在中国的开发情况汇总表
+支撑软件
+负责人
+序号
+模型名称
+研究机构
+开发时间
+GAMS
+GEMPACK
+其他
+王灿
+2018年
+CHEER
+清华大学环境学院
+Julia
+北京师范大学环境学院；
+BNU-CGEP模型
+毛显强
+2008年
+北京师范大学全球环境政策研究中心
+包含内生技术进步的动态
+浙江大学公共管理学院
+石敏俊
+2022年
+CGE模型
+北京大学城市与环境学院
+Ceege模型
+2008年
+CEEEM-AIR
+北京大学城市与环境学院
+刘峻峰
+2016年
+2019年
+CCGEM
+刘馨
+国务院发展研究中心市场经济研究所
+Matlab
+纳入地方债务与绿色金融的
+上海财经大学高等研究院
+李双建
+Python
+CGE模型
+Matlab
+国务院发展研究中心
+李继峰
+IREPAGE
+2023年
+资源与环境政策研究所
+国务院发展研究中心
+李善同
+DRC-CGE
+90年代初
+何建武
+发展战略和区域经济研究部
+对外经济贸易大学国际经济与贸易学院
+10
+杨军
+CETPA-CGE
+2005年
+对外经济贸易大学数字经济实验室
+湖南大学经济与贸易学院
+肖皓
+MCHUGE
+2007年
+EMY
+===== PAGE 5 =====
+EM
+序号
+支撑软件
+模型名称
+研究机构
+负责人
+开发时间
+GAMS
+GEMPACK
+其他
+12
+复旦大学上海能源与碳中和战略研究院
+吴力波
+2016年
+IRD-CGE
+中国农业大学
+张玉梅
+13
+2022年
+CAU-AFS
+全球食物经济与政策研究院
+14-1
+张希良
+2011年
+清华大学能源环境经济研究所
+C-REM
+14-2
+C-GEM
+张希良
+2011年
+清华大学能源环境经济研究所
+北京航空航天大学
+CE3MS
+范英
+15-1
+2019年
+低碳治理与政策智能实验室
+Dynamic Energy-
+北京航空航天大学
+范英
+2022年
+15-2
+Environmental GTAP
+低碳治理与政策智能实验室
+南京林业大学经济管理学院
+中国地区随机动态CGE模型
+范金
+16
+2017年
+17
+厦门大学中国能源政策研究院
+林伯强
+2018年
+CISEP-CGE
+Matlab
+18
+CE3-CGE
+2008年；
+中国人民大学环境学院
+庞军
+CE3METL
+19
+中国科学院大学经济与管理学院
+段宏波
+2013年
+中国社会科学院
+娄峰
+20
+2021年
+政策模拟与智能分析系统
+Java
+数量经济与技术经济研究所
+21
+中国科学院科技战略咨询研究院
+2020年
+夏炎
+CAS-RED
+22
+GVCGE
+清华大学公共管理学院
+高宇宁
+2017年
+23
+CAPSiM-GTAP连接模型
+北京大学现代农学院
+黄季煜
+1995年
+24
+清华大学经济管理学院
+曹静
+Harvard-Tsinghua CGE
+1990s
+中国人民大学应用经济学院
+裴建锁
+25
+2015年
+H-GEM
+Matlab
+北京师范大学
+潘浩然
+26
+2021年
+ACESS
+人文和社会科学高等研究院
+戴瀚程
+27
+IMED|CGE
+北京大学环境科学与工程学院
+2009年
+EM
+EMY
+===== PAGE 6 =====
+EM
+EM
+序号
+支撑软件
+模型名称
+研究机构
+负责人
+开发时间
+GEMPACK
+GAMS
+其他
+28-1
+C3IAM
+魏一鸣
+北京理工大学能源与环境政策研究中心
+2016年
+28-2
+魏一鸣
+GEEPA
+北京理工大学能源与环境政策研究中心
+2016年
+28-3
+魏一鸣
+2017年
+北京理工大学能源与环境政策研究中心
+MR.GEEPA
+魏一鸣
+28-4
+2004年
+CEEPA
+北京理工大学能源与环境政策研究中心
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 7 =====
+EM
+CEM
+CEM
+Part 1
+Summary of CGE Model Development and Application of Each Team
+Summary of CGE Model Development in China
+Principal
+Development
+Supporting Software
+Model Name
+Research Institution
+Number
+Investigator
+GAMS
+GEMPACK
+Other
+Can Wang
+CHEER
+2018
+School of Environment, Tsinghua University
+Julia
+School of Environment, Beijing Normal University;
+Xianqiang Mao
+2008
+BNU-CGEP Model
+Center for Global Environmental Policy
+Dynamic CGE Model
+Minjun Shi
+2022
+with Endogenous
+School of Public Affairs, Zhejiang University
+Technological Progress
+Yu Liu
+2008
+Ceege Model
+College of Urban and Environmental Sciences, Peking University
+Junfeng Liu
+College of Urban and Environmental Sciences, Peking University
+CEEEM-AIR
+2016
+Institute of Market Economy
+Matlab
+Xin Liu
+CCGEM
+2019
+Development Research Center of the State Council
+CGE Model with Local
+Python
+Institute for Advanced Research of SUFE
+Debt and Green Finance
+Shuangjian Li
+Matlab
+Institute of Resources and Environment Policy
+IREPAGE
+Jifeng Li
+2023
+Development Research Center of the State Council
+Department of Development Strategy and Regional Economy
+DRC-CGE
+Shantong Li,
+Early 1990s
+Development Research Center of the State Council
+Jianwu He
+EMI
+CEMY
+===== PAGE 8 =====
+EM
+EM
+School of International Trade and Economics,
+10
+Digital Economy Laboratory,
+Jun Yang
+CETPA-CGE
+2005
+University of International Business and Economics
+Hao Xiao
+11
+MCHUGE
+2007
+School of Economics & Trade, Hunan University
+12
+Fudan University Shanghai Institute of Energy and Carbon-Neutral
+IRD-CGE
+Libo Wu
+2016
+Strategy
+Academy of Global Food Economics and Policy,
+Yumei Zhang
+13
+CAU-AFS
+2022
+China Agricultural University
+Xiliang Zhang
+2011
+14-1
+C-REM
+Institute of Energy, Environment Economy, Tsinghua University
+Xiliang Zhang
+14-2
+C-GEM
+2011
+Institute of Energy, Environment Economy, Tsinghua University
+15-1
+CE3MS
+Ying Fan
+2019
+Lab for Low-Carbon Intelligent Governance, Beihang University
+Dynamic Energy-
+15-2
+Lab for Low-Carbon Intelligent Governance, Beihang University
+Ying Fan
+2022
+Environmental GTAP
+China Regional
+College of Economics and Management, Nanjing Forestry University
+2017
+Stochastic Dynamic
+Jin Fan
+16
+CGE Model
+17
+China Institute for Studies in Energy Policy, Xiamen University
+2018
+CISEP-CGE
+Boqiang Lin
+Matlab
+School of Environment & Natural Resources,
+18
+CE3-CGE
+2008
+Renmin University of China,
+School of Economics and Management,
+Hongbo Duan
+2013
+19
+CE3METL
+University of Chinese Academy of Sciences
+Policy Simulation and
+Institute of Quantitative & Technological Economics,
+Feng Lou
+20
+2021
+Intelligent Analysis
+Java
+System
+Chinese Academy of Social Sciences
+21
+CAS-RED
+Institutes of Science and Development, Chinese Academy of Sciences
+2020
+22
+GVCGE
+2017
+School of Public & Management, Tsinghua University
+Yuning Gao
+===== PAGE 9 =====
+CAPSIM-GTAP Link
+23
+Ji Kun Huang
+School of Advanced Agricultural Sciences, Peking University
+1995
+Model
+24
+Harvard-Tsinghua CGE
+School of Economics and Management, Tsinghua University
+Jing Cao
+1990s
+Model
+H-GEM
+Jiansuo Pei
+2015
+25
+School of Applied Economics, Renmin University of China
+Matlab
+26
+Institute of Advanced Studies in Humanities and Social Sciences,
+Haoran Pan
+2021
+ACESS
+Beijing Normal University
+College of Environmental Science and Engineering,
+27
+IMED CGE
+Hancheng Dai
+2009
+Peking University
+C3IAM
+Beijing Institute of Technology,
+28-1
+Yiming Wei
+2016
+Center for Energy & Environmental Policy Research
+Research Center for Energy and Environmental Policy.
+28-2
+GEEPA
+Yiming Wei
+2016
+Beijing Institute of Technology
+Research Center for Energy and Environmental Policy.
+28-3
+MR.GEEPA
+Yiming Wei
+2017
+Beijing Institute of Technology
+Research Center for Energy and Environmental Policy.
+28-4
+CEEPA
+Yiming Wei
+2004
+Beijing Institute of Technology
+EMF
+EMF
+CEMF
+===== PAGE 10 =====
+CEM
+CEM
+CGE模型在中国的应用情况汇总表
+应用领域
+财政与
+序号
+贸易与价
+能源、资
+碳排放与
+模型名称
+疫情与
+农业
+经济发展
+人口
+其他
+税收
+值链分工
+源与环境
+气候变化
+健康
+CHEER
+BNU-CGEP模型
+包含内生技术进步的动态CGE
+模型
+Ceege 模型
+CEEEM-AIR
+CCGEM
+纳入地方债务与绿色金融的
+CGE模型
+IREPAGE
+DRC-CGE
+10
+CETPA-CGE
+11
+MCHUGE
+12
+IRD-CGE
+13
+CAU-AFS
+14-1
+C-REM
+14-2
+C-GEM
+15-1
+CE'MS
+15-2
+Dynamic Energy-Environmental
+GTAP
+EM
+EMY
+===== PAGE 11 =====
+EM
+应用领域
+序号
+贸易与价
+模型名称
+能源、资
+碳排放与
+财政与
+疫情与
+农业
+人口
+经济发展
+其他
+值链分工
+气候变化
+税收
+源与环境
+健康
+16
+中国地区随机动态CGE模型
+17
+CISEP-CGE
+18
+CE3-CGE
+19
+CE3METL
+20
+政策模拟与智能分析系统
+21
+CAS-RED
+22
+GVCGE
+23
+CAPSiM-GTAP连接模型
+24
+Harvard-Tsinghua CGE
+25
+H-GEM
+26
+ACESS
+27
+IMEDCGE
+28-1
+C3IAM
+28-2
+GEEPA
+28-3
+MR.GEEPA
+28-4
+CEEPA
+MF
+EMF
+CEMF
+===== PAGE 12 =====
+CEM
+CEM
+Summary of CGE Model Application in China
+Application field
+Energy,
+Carbon
+Finance
+Trade
+Emissions
+Model Name
+Epidem
+Number
+Economic
+Resources,
+and
+Agriculture
+Population
+ic and
+and
+Development
+Other
+Environment
+Climate
+GVC
+Taxation
+Health
+Change
+CHEER
+BNU-CGEP Model
+Dynamic CGE Model with
+Endogenous Technological Progress
+Ceege Model
+CEEEM-AIR
+CCGEM
+CGE Model with Local Debt and
+Green Finance
+IREPAGE
+DRC-CGE
+10
+CETPA-CGE
+11
+MCHUGE
+12
+IRD-CGE
+13
+CAU-AFS
+14-1
+C-REM
+14-2
+C-GEM
+15-1
+CE3MS
+EMI
+EMY
+===== PAGE 13 =====
+EN
+Application field
+Carbon
+Energy,
+Trade
+Finance
+Number
+Epidem
+Model Name
+Economic
+Emissions
+and
+Resources,
+and
+Agriculture
+ic and
+Population
+Other
+Development
+Climate
+GVC
+Environment
+Taxation
+Change
+Health
+15-2
+Dynamic Energy-Environmental
+GTAP
+China Regional Stochastic Dynamic
+16
+CGE Model
+17
+CISEP-CGE
+18
+CE3-CGE
+19
+CE3METL
+20
+Policy Simulation and Intelligent
+Analysis System
+21
+CAS-RED
+22
+GVCGE
+23
+CAPSIM-GTAP Link Model
+24
+Harvard-Tsinghua CGE
+25
+H-GEM
+26
+ACESS
+27
+IMED|CGE
+C3IAM
+28-1
+28-2
+GEEPA
+28-3
+MR.GEEPA
+28-4
+CEEPA
+EM
+EMY
+===== PAGE 14 =====
+CEMI
+CEM
+项目资助情况汇总表
+项目类别
+序号
+模型名称
+国家自然科学
+国家社会科学
+国家重点研
+国家部委资
+国际合作
+国家高端
+其他
+基金"
+发计划
+助课题
+基金
+课题
+智库项目
+CHEER
+专2，合1，青1
+BNU-CGEP模型
+面1
+重大1，重点2
+包含内生技术进步的动态
+重点1
+CGE模型
+Ceege模型
+专1，杰1，面1
+重大2
+CEEEM-AIR
+合1，青1，面1
+CCGEM
+纳入地方债务与绿色金融的
+CGE模型
+IREPAGE
+DRC-CGE
+重点1
+10
+专1
+CETPA-CGE
+重大2，培育1
+11
+MCHUGE
+面4，青2
+重大3，后期1
+12
+IRD-CGE
+专1，重点2，杰1
+13
+CAU-AFS
+合2，面1
+14-1
+C-REM
+重大1，专1
+14-2
+C-GEM
+重大1，专1
+15-1
+CE'MS
+Dynamic Energy-Environmental
+15-2
+GTAP
+CEMY
+===== PAGE 15 =====
+EM
+项目类别
+序号
+模型名称
+国家自然科学
+国家社会科学
+国家部委资
+国际合作
+国家高端
+国家重点研
+其他
+基金"
+基金"
+助课题
+发计划
+课题
+智库项目
+中国地区随机动态CGE模型
+16
+重大1，重点2
+17
+CISEP-CGE
+重点1，面1，青1
+重点1
+18
+CE3-CGE
+19
+CE3METL
+杰1，优1，面1
+政策模拟与智能分析系统
+20
+重点1
+21
+CAS-RED
+合1，面1，青1
+22
+面1
+GVCGE
+重大1
+23
+重点1，优1
+CAPSiM-GTAP连接模型
+24
+Harvard-Tsinghua CGE
+25
+面2，专1
+H-GEM
+重大1
+26
+ACESS
+27
+合1，优1，面1
+IMED|CGE
+重点 1
+28-1
+C'IAM
+重大1
+28-2
+GEEPA
+合1，优1
+28-3
+MR.GEEPA
+优1，面1，青1
+28 -4
+CEEPA
+优1，面1，青1
+*注：国家自然科学基金列中“合”代表国际合作项目、“专”代表专项项目、“重点”代表重点项目、“重大”代表重大项目、“面”代表面上项目、
+“青”代表青年项目、“杰”代表杰青项目、“优”代表优青项目。国家社会科学基金列中“重大”代表重大项目、“重点”代表重点项目、“后期”代
+表后期资助项目。
+EMF
+EMF
+CEMF
+===== PAGE 16 =====
+CEM
+CEM
+Summary of Project Funding Status
+Project Category
+National
+National Key
+Project Funded by
+International
+National Natural
+Number
+Model Name
+National High-
+Social Science
+Research and
+Ministries and
+Cooperation
+End Think
+Science Foundation
+Fund of
+Other
+Development
+of China
+Commissions
+Project
+Tank Project
+China
+Plan
+CHEER
+BNU-CGEP Model
+Dynamic CGE Model with
+Endogenous Technological
+Progress
+Ceege Model
+CEEEM-AIR
+CCGEM
+CGE Model with Local
+Debt and Green Finance
+IREPAGE
+DRC-CGE
+10
+CETPA-CGE
+11
+MCHUGE
+12
+IRD-CGE
+13
+CAU-AFS
+14-1
+C-REM
+14-2
+C-GEM
+15-1
+CE3MS
+EM
+===== PAGE 17 =====
+EM
+Project Category
+National
+National Key
+National Natural
+Project Funded by
+International
+National High-
+Number
+Model Name
+Social Science
+Research and
+Science Foundation
+Cooperation
+End Think
+Ministries and
+Fund of
+Other
+of China
+Development
+Commissions
+Project
+China
+Tank Project
+Plan
+Dynamic Energy-
+15-2
+Environmental GTAP
+China Regional Stochastic
+16
+Dynamic CGE Model
+17
+CISEP-CGE
+18
+CE3-CGE
+19
+CE3METL
+Policy Simulation and
+20
+Intelligent Analysis System
+21
+CAS-RED
+22
+GVCGE
+CAPSIM-GTAP Link
+23
+Model
+24
+Harvard-Tsinghua CGE
+25
+H-GEM
+26
+ACESS
+27
+IMEDCGE
+28-1
+C3IAM
+28-2
+GEEPA
+28-3
+MR.GEEPA
+28-4
+CEEPA
+EM
+===== PAGE 18 =====
+CEMI
+第二部分
+CEM
+基于CGE模型的研究成果统计
+（一）发文量总体趋势（1983-2023）
+350
+300
+289
+252
+250
+220
+200
+190
+204
+150
+119
+179(预测值)
+100
+50
+年份
+数据来源：根据CNKI数据库统计，统计至2023年9月27日，共有3688篇论文(包括期
+刊、博硕士论文、会议、报纸等)。
+（二）国家自然科学基金、国家社会科学基金资助发文数趋势
+120
+国家自然科学基金
+■国家社会科学基金
+100
+80
+60
+(预测值)
+20
+42(预测值)
+数据来源：根据CNKI数据库统计，统计至2023年9月27日，国家自然科学基金和国家
+社会科学基金资助论文数共计990篇。
+1检索条件：（主题"=可计算的一般均衡或者=可计算一般均衡或者=CGE模型）或（关
+键词=可计算的一般均衡或者=可计算一般均衡或者=CGE模型）或（摘要=可计算的
+一般均衡或者=可计算一般均衡或者=CGE模型)
+===== PAGE 19 =====
+CEM
+（三）关键词共现网络
+CEM
+CEM
+人民币升位
+经济增
+CGE模型
+货币政年
+际贸
+电源结机
+社会核算矩阵
+政政
+CEMF
+CEMF
+CEMF
+EM
+EMF
+CEMF
+===== PAGE 20 =====
+EM
+Part 2
+Statistics of Research Results Based on CGE Model
+(1) Overall Trend of Publication Volume (1983-2023):
+350
+300
+289
+252
+250
+220
+190
+204
+179(Forecasted Value)
+100
+Data Source: According to CNKI database statistics, as of September 27, 2023, there were
+3,688 papers (including journals, doctoral theses, conferences, newspapers, etc.).
+(2) The Trend of the Number of Documents Funded by the National
+Natural Science Foundation of China and the National Social Science
+Fund of China:
+120
+ National Natural Science Foundation of China
+100
+National Social Science Fund of China
+alue
+20
+Data Source: According to CNKI database statistics, as of September 27, 2023, the number of
+papers funded by the National Natural Science Foundation of China and the National Social
+Science Found of China totaled 990.
+EMF
+===== PAGE 21 =====
+EM
+(3)KeywordCo-OccurrenceNetwork:
+CEM
+人民币升位
+经济增
+CGE模型
+货币政年
+际贸
+电源结机
+社会核算矩阵
+政政
+CEMF
+CEMF
+CEMF
+EM
+EMF
+CEMF
+===== PAGE 22 =====
+CEM
+CEM
+CEM
+第三部分
+各团队CGE模型问卷分列表
+表1CHEER模型
+模型名称
+中国混合能源经济研究模型（CHEER）
+单位
+清华大学环境学院
+团队负责人
+王灿(canwang@tsinghua.edu.cn)
+蔡闻佳、张诗卉、母亚乾、黄海、赵一冰、陈一丹、翁字
+团队成员
+威、赵梦真、安康欣、范淑婷、刘米可、张尚辰、关钰生、
+钟函颖、宫再佐
+支撑软件
+GAMS/MPSGE，Julia（新版本）
+开发时间
+2018-2023
+1.
+刻画低碳、负碳技术动态，细分居民、劳动力类型的
+中国国家单区域模型CHEER；
+2.
+拓展人口动态、财政收支、健康影响的中国分省模型
+目前版本
+CHEER-P;
+3．全球多区域CGE模型基础版本GRICE
+详细模型体系介绍可见：http://www.cheer.org.cn/model-
+structure/system/
+低碳转型的技术路径与环境社会经济综合影响评估：面
+向碳达峰、碳中和目标识别不同技术路径，评估对能源、
+主要应用领域1
+经济、土地利用、粮食安全、空气质量、健康等潜在影响，
+并逐步实现人类-地球系统的耦合模拟
+低碳政策的多维度可持续性影响评估与优化：评估碳税、
+碳市场、碳边境调节机制、可再生能源等技术支持政策等
+主要应用领域2
+对于居民福利、收入公平性、区域公平性、城乡协调发展、
+居民健康福利等可持续性影响，并反馈于低碳政策实现
+政策优化
+[1] An K, Wang C, Cai W. Low-carbon technology diffusion
+and economic growth of China: an evolutionary general
+equilibriumf
+framework.Structural Changeand
+Economic Dynamics[J], 2023, 65:253-263
+2018年以来的
+[2] Zhao Y, Wang C, Cai W. Carbon Pricing Policy, Revenue
+Recycling Schemes, and Income Inequality: A multi-
+代表性论文
+regional dynamic CGE assessment for China. Resource
+Conservation & Recycling[J], 2022, 181: 106246.
+[3] Zhang S, An K, Li J, Weng Y, Zhang S, Wang S, Cai W,
+Wang C, & Gong P. Incorporating health co-benefits into
+technology pathways to achieve China's 2060 carbon
+21
+EMF
+EMF
+===== PAGE 23 =====
+neutrality goal: A modelling study. The Lancet Planetary
+CEM
+Health[J], 2021, 5(11), e808-e817.
+[4] Weng Y, Cai W, Wang C. Evaluating the use of BECCS
+and afforestation under China's carbon-neutral target for
+2060[J].Applied Energy, 2021, 299: 117263
+[5] An K, Zhang S, Huang H, Liu Y, Cai W,& Wang C.
+Socioeconomic impacts of household participation in
+emission trading scheme: AComputableGeneral
+Equilibrium-based case study[J]. Applied Energy, 2021,
+288: 116647.
+[6] Wang C, Huang H, Cai W. Zhao M, Li J, Zhang S,& Liu
+Y.Economic impacts of climate change and air pollution
+in china through health and labor supply perspective: an
+integrated assessment model analysis[J]. Climate Change
+Economics,2020, 11(03):2041001.
+[7] Huang H, Roland-Holst D, Wang C& Cai W. China's
+income gap and inequality under clean energy
+transformation: ACGE model assessment[J/OL]. Journal
+of CleanerProduction,2020,251:119626
+[8] Weng Y, Chang S, Cai W, et al. Exploring the impacts of
+biofuel expansion on land use change and food security
+based on a land explicit CGE model: A case study of
+China[JJ. Applied Energy, 2019, 236: 514-525
+[9] Huang H, Roland-Holst D, Springer C, Lin J, Cai W, &
+Wang C. Emissions trading systems and social equity: A
+CEMF
+CGE assessment for China[J/OL]. Applied Energy, 2019,
+235: 1254-1265.
+[10] Mu Y, Wang C & Cai W.The economic impact of China's
+INDC: Distinguishing the roles of the renewable energy
+quota and the carbon market[J/OL]. Renewable and
+Sustainable Energy Reviews, 2018, 81: 2955-2966.
+[11]Mu Y, Cai W, Evans S, Wang C & Roland-Holst D.
+Employment impacts of renewable energy policies in
+China: A decomposition analysis based on a CGE
+modeling framework[J/OL]. Applied Energy, 2018, 210:
+256-267.
+1．王灿,蔡闻佳，气候变化经济学，北京：清华大学出版
+社,2020
+2.安康欣,张诗卉,王灿,蔡闻佳，基于一般均衡的中国低
+2018年以来的
+碳技术发展系统评估软件V1.0，（登记号：
+代表性著作
+2022SR1164584)
+3．母亚乾,安康欣，张诗卉,王灿，蔡闻佳，中国能源经济混
+合可计算一般均衡模型软件，（登记号：
+2022SR1211663)
+EM
+CEMF
+===== PAGE 24 =====
+4．软件著作权：张诗卉，王灿，蔡闻佳．基于可视化方法
+CEM
+的可计算一般均衡模型自动调试工具1.0（登记号：
+2020SR1058891)
+5.软件著作权：张诗卉，王灿，蔡闻佳．中国省级一般均
+衡综合评估模型软件1.0（登记号：2020SR1057989）
+1.国家自然科学基金专项项目，面向碳中和的国际气候
+合作研究，2022/1-2026/1，主持人：王灿
+国家自然科学基金国际合作项目，面向城乡协调发展
+的区域碳中和路径优化，主持人：王灿
+2018年以来模
+国家自然科学基金专项项目，中国碳中和实现路径的
+型所支撑的研
+预测研究，2023/1-2025/12
+究项目
+4.
+国家自然科学基金青年科学基金项目，考虑健康协同
+效益的区域差异化碳定价机制研究，2023.1-2025.12，
+主持人：张诗卉。
+5.地方决策支持项目：安徽省碳达峰碳中和战略决策支
+持系统，2022.9-2023.9
+是否使用
+GTAP数据或
+使用GTAP11数据库，用于全球CGE模型开发
+软件（如使用，
+请填写版本)
+CEN
+CEMI
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 25 =====
+EM
+CEM
+表2BNU-CGEP模型
+模型名称
+环境-经济-能源综合评价模型（BNU-CGEP模型）
+北京师范大学环境学院/北京师范大学全球环境政策研究
+单位
+中心(CGEP)
+团队负责人
+毛显强（maoxq@bnu.edu.cn）
+毛显强、杨岚、宋鹏、刘峰延、孙媛媛、鲁建宏、张庆勇、
+团队成员
+吴彦额、郭枝、王坤宁、高玉冰等。
+支撑软件
+GAMS; GEMPACK
+开发时间
+2008-今
+目前版本
+未命名
+主要应用领域1
+国际贸易与环境问题
+主要应用领域2
+双碳路径的环境经济社会影响
+[1] Yanjie Wu, Xianqiang Mao(), Jianhong Lu, Mudan
+Wang,Qingyong Zhang, Peng Song*,Zhengyan Liu, and
+Wenwen Gong. Dairy Trade Helps to Alleviate Global
+Carbon Emission Pressure.Environ. Sci. Technol. 2022,
+56, 12656-12666
+[2] Mudan Wang, Xianqiang Mao(), Youkai Xing,
+Jianhong Lu, Peng Song , Zhengyan Liu, Zhi Guo,
+Kevin Tu & Eric Zusman.Breaking down barriers on PV
+trade will facilitate global carbon mitigation. Nat
+6820
+Commun
+12,
+(2021).
+https://doi.org/10.1038/s41467-021-26547-7
+CEMF
+[3] Yuanyuan Sun, Jun Zhang, Xianqiang Mao(), et al.
+2021 Effects of different types of environmental taxes on
+energy-water nexus. Journal of Cleaner Production.
+2018年以来的
+2021,289(20):125763.
+代表性论文
+[4] Yuanyuan Sun, Xianqiang Mao(), Xinan Yin, et al.
+2021. Optimizing carbon tax rates and revenue recycling
+schemes: Model development, and a case study for the
+BohaiBayarea,China.JournalofCleaner
+Production.2021,296,126519.(1区; Top;IF:7.246)
+[5] Jianhong Lu, Xianqiang Mao (),Mudan Wang , et al.
+2020.Global and National Environmental Impacts of the
+US-China Trade War[J]. Environmental Science &
+Technology, 2020, 54(24): 16108-16118.
+[6] Yuanyuan Sun, Xianqiang Mao(), Gengyuan Liu,
+Xinan Yin,Yanwei Zhao.2020.Greener economic
+development via carbon taxation scheme optimization.
+Journal of Cleaner Production 275(2020)124100
+[7] Yuanyuan Sun, Xianqiang Mao(), Gengyuan Liu,
+Xinan Yin, Yanwei Zhao. 2020. Modelling the effects of
+energy taxes on ecological footprint transfers in China's
+EMF
+===== PAGE 26 =====
+foreign trade. Ecological Modelling. 431 (2020)
+CEM
+109200:1-8(DOI:10.12062/cpre.20191010)
+[8] Yuanyuan Sun, Xianqiang Mao(), Ting Gao, Hongrui
+Liu,Yanwei Zhao.2020.Potential water withdrawal
+reduction to mitigate riverine ecosystem degradation
+under hydropower development: A computable general
+equilibrium model analysis. River Res Applic. 2020;1-8.
+DOI:10.1002/rra.3705
+2018年以来的
+代表性著作
+1.
+统筹推进碳达峰碳中和与经济社会协同发展研究（国
+家社科基金重点项目23AZD064)；
+2.
+贸易自由化对中国环境保护和绿色低碳发展影响研
+究（国家社科基金重点项目17AJY011）
+3.
+我国碳中和政策工具实施对减排路径的影响研究（全
+球能源互联网集团有限公司科学技术项目
+SGTYHT/21-JS-223)
+4.
+碳排放提前达峰行动的关键政策评估（国家社会科学
+基金重大项目“中国2030年前碳排放达峰行动方案
+研究"课题21ZDA085）
+5.
+全球贸易链-产业链-价值链-环境链“四链”融合的环
+境与经济耦合效应及调控策略研究（自然科学基金面
+上项目42071270）
+6.
+全球环境治理新格局下的全球能源转型组合情景与
+CEMF
+2018年以来模
+模型开发应用研究-能源环境耦合关系研究（全球能
+型所支撑的研
+源互联网集团有限公司科学技术项目SGTYHT/18-
+究项目
+JS-206)
+7.
+Co-control effect assessment of deep decarbonization
+measures and the co-control path way in China's iron and
+steelandcementindustries（能源基金会支持项目）；
+8.
+我国环保产业走向丝绸之路经济带沿线国家的路径
+研究（生态环境部委托项目)；
+TA-9393 PRC: Strategic Policy Study on Collaborative
+Control of Air Pollution and Carbon Emissions in the
+Transport Sector -N2 GHG Emission Control Specialist,
+Client:TheAsianDevelopmentBank（亚洲开发银行
+咨询项目）
+10.中国废纸进口管理措施经济影响评估（生态环境部委
+托项目）
+11.“一带一路"沿线贸易的环境影响效应研究（生态环境
+部委托项目）
+是否使用
+GTAP 数据或
+GTAP 10; GTAP 11
+软件
+CEMF
+===== PAGE 27 =====
+EM
+CEM
+表3包含内生技术进步的动态CGE模型
+模型名称
+包含内生技术进步的动态CGE模型
+单位
+浙江大学
+团队负责人
+石敏俊（mjshi@zju.edu.cn）
+团队成员
+袁永娜，李娜，石博，周子程
+支撑软件
+GAMS
+开发时间
+2022年
+目前版本
+1.0
+主要应用领域1
+能源转型的经济分析
+主要应用领域2
+减污降碳的健康效益
+[1] Shi, B., Y. Yuan, M. Shi, S. Managi. Can learning-by-
+doing offset negative impacts of carbon pricing in China?
+RenewableandSustainable
+Energy
+Review.
+2018年以来的
+2023.183:113441.Doi:10.1016/j.rser.2023.113441
+[2] Shi, B., Y. Yuan, S. Managi. Improved renewable energy
+代表性论文
+storage, clean electrification and carbon mitigation in
+China: Based on a CGE Analysis.Journal of Cleaner
+Production.
+2023.
+418:
+138222.
+Doi:10.1016/j.jclepro.2023.138222
+2018 年以来的
+代表性著作
+2018年以来模
+国家自然科学基金重点项目“温室气体减排、空气污染治
+型所支撑的研
+理的健康效益评估与协同政策设计”（批准号72134006)
+究项目
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本）
+MF
+EMF
+CEMF
+===== PAGE 28 =====
+EM
+CEM
+表4中国动态经济-能源可计算一般均衡模型
+模型名称
+Ceege2模型
+单位
+北京大学城市与环境学院
+团队负责人
+刘宇（yu.liu@pku.edu.cn）
+崔琦、周梅芳、羊凌玉、柳雅文、张金珠、李欣蓓、张静、
+团队成员
+姜琛、朱能高、温心、李文婷
+支撑软件
+Gempack 12.1.004
+开发时间
+2008.09
+目前版本
+第三版Version3.0
+主要应用领域1
+能源环境、气候政策
+主要应用领域2
+财税金融政策与贸易政策研究
+[1] Yu Liu#*,Mingxi Du#*,Qi Cui#,Jintai Lin*,Yawen
+Liu, Qiuyu Liu, Dan Tong, Kuishuang Feng and Klaus
+Hubacek. Contrasting Suitability and Ambition in
+Regional
+Carbon
+Mitigation
+[].
+Nature
+Communications, 2022, 10(1): 1-12.
+[2] Jintai Lin#*, Mingxi Du#, Lulu Chen#, Kuishuang
+Feng*, Yu Liu*, Randall V. Martin, Jingxu Wang,
+Ruijing Ni, Yu Zhao, Hao Kong, Hongjian Weng,
+Mengyao Liu, Aaron van Donkelaar, Qiuyu Liu and
+Klaus Hubacek. Carbon and Health Implications of Trade
+Restrictions [JJ. Nature Communications, 2019, 10(1): 1-
+12.
+CEMF
+[3] Bo Meng, Yu Liu*, Yuning Gao*, Meng Li*, Zhi Wang,
+2018年以来的
+Jinjun Xue, Robbie Andrew, Kuishuang Feng,Ye Qi,
+Yongping Sun, Huaping Sun and Keying Wang.
+代表性论文
+Developing countriesresponsibilities for CO2 emissions
+in value chains are larger and growing faster than those
+of developed countries [J]. One Earth, 2023, 6(2): 167-
+181.
+[4] Zhijie Jia, Shiyan Wen and Yu Liu*. China's urban-rural
+inequality caused by carbon neutrality: A perspective
+from carbon footprint and decomposed social welfare [J].
+Energy Economics, 2022, 113:106193.
+[5] Mingxi Du*#, Qiuyu Liu#, Graham K. MacDonald,
+Yawen Liu, Jintai Lin, Qi Cui, Kuishuang Feng, Bin
+Chen, Jamiu Adetayo Adeniran, Lingyu Yang, Xinbei Li,
+Kaiyu Lyu and Yu Liu*. Examining the sensitivity of
+Global CO2 Emissions to Trade Restrictions over
+MultipleYears[].EnvironmentalScience&
+2中国动态经济-能源可计算一般均衡模型（ChinaEnergy-EconomicComputableGeneral
+Equilibrium Model)
+EMF
+===== PAGE 29 =====
+Technology Letters, 2022, 9(4): 293-298.
+CEM
+[6] Jinzhu Zhang, Yu Liu*, Meifang Zhou, Boyang Chen,
+Yawen Liu, Baodong Cheng*, Jinjun Xue and Wei
+Zhang. Regulatory effect of improving environmental
+information disclosure under environmental tax in China:
+From the perspectives of temporal and industrial
+heterogeneity [J]. Energy Policy, 2022, 164: 112760.
+[7] Yawen Liu, Qi Cui, Yu Liu*, Jinzhu Zhang, Meifang
+Zhou, Tariq Ali, Lingyu Yang, Kuishuang Feng, Klaus
+Hubacek and Xinbei Li. Countermeasures against
+economic crisis from COVID-19 pandemic in China: An
+analysis of effectiveness and trade-offs [J]. Structural
+Change and Economic Dynamics, 2021, 59: 482-495.
+[8] Qi Cui, Yu Liu*, Tariq Ali, Ji Gao and Hao Chen.
+Economic and climate impacts of reducing China's
+renewable electricity curtailment: A comparison between
+CGE models with alternative nesting structures of
+electricity [JJ. Energy Economics, 2020, 91:104892.
+[9] Mingxi Du#, Lulu Chen#, Jintai Lin*,Yu Liu*,
+Kuishuang Feng, Qiuyu Liu, Yawen Liu, Jingxu Wang,
+Ruijing Ni, Yu Zhao, Wei Si, Ying Li, Hao Kong,
+Hongjian Weng, Mengyao Liu and Jamiu Adetayo
+Adeniran. Winners and losers of the Sino-US trade war
+from economic and environmental perspectives [J].
+Environmental Research & Letters, 2020, 15(9): 094032.
+CEMF
+[10]Beiming Cai, Klaus Hubacek, Kuishuang Feng, Wei
+Zhang*, Feng Wang and Yu Liu*. Tension of agricultural
+land and water use in China's trade: Tele-connections,
+hidden drivers and potential solutions [J]. Environmental
+Science & Technology, 2020, 54(9): 5365-5375.
+[11]Yu Liu*, Xiaohong Hu, Feng Wu, Bin Chen*, Yawen
+Liu, Shunxiang Yang and Zhixiong Weng. Quantitative
+analysis of climate change impact on Zhangye City's
+economy based on the perspective of surface runoff [J].
+Ecological Indicators, 2019, 105: 645-654.
+[12]Bo Meng, Yu Liu*, Robbie Andrew, Meifang Zhou*,
+Klaus Hubacek, Jinjun Xue, Glen Peters and Yuning
+Gao. More than half of China's CO2 emissions are from
+micro, small and medium-sized enterprises [J]. Applied
+Energy,2018,230:712-725.
+[13]Xiujie Tan, Yu Liu*, Jingbo Cui and Bin Su. Assessment
+of carbon leakage by channels: An approach combining
+CGE model and decomposition analysis [JJ. Energy
+Economics,2018,74:535-545.
+EME
+CEMF
+===== PAGE 30 =====
+[14] Wei Zhang#, Yu Liu*, Kuishuang Feng, Klaus Hubacek,
+CEM
+Jinnan Wang*, Miao-Miao Liu, Ling Jiang, Hongqiang
+Jiang, Nianlei Liu, Pengyan Zhang, Ying Zhou and Jun
+Bi*. Revealing Environmental Inequality Hidden in
+China's Inter-Regional Trade [JJ. Environmental Science
+& Technology,2018, 52(13): 7171-7181.
+[15]Kuishuang Feng*, Klaus Hubacek, Yu Liu*, Estefania
+MarchandandAdrienVogt-Schilb.Managing
+distributional effects of energy taxes and subsidy removal
+in Latin America and the Caribbean [JJ. Applied Energy,
+2018,225: 424-436.
+[16]Meifang Zhou*, Yu Liu*, Shenghao Feng, Yang Liu and
+Yingying Lu. Decomposition of rebound effect: an
+energy-specific, general equilibrium analysis in the
+context of China [J]. Applied Energy, 2018, 221: 280-
+298.
+2018年以来的
+刘宇，肖敬亮，邓祥征，BadriNarayanan(2021).全球贸易
+代表性著作
+分析模型：理论与实践.北京：社会科学文献出版社，
+1.
+国家自然科学基金委碳专项“面向碳中和的典型区域
+与重点行业CCS技术选择与路径优化”（项目编号：
+72243011)
+国家杰出青年基金项目“能源环境管理与政策分析”
+（项目编号：72125010)
+国家自然科学基金面上项目“能源效率内生对碳市场
+CEMF
+价格波动的影响机理和路径研究一基于动态技术
+进步CGE模型”（项目编号：71974186）
+4.
+国家社会科学重大专项项目“MG碳中和目标的实施
+及挑战研究"子课题二“美国碳中和目标实施的政策
+体系和技术体系、国际比较及挑战研究”（项目编号：
+2018年以来模
+22VMG016)
+国家高端智库重点项目（国家发展改革委规划司）“推
+型所支撑的研
+究项目
+进碳达峰碳中和对我国经济结构的动态影响以及促
+进多目标协同问题研究”（项目编号：E200041G）
+6.
+生态环境保护部环境规划院项目“中国2017年多区域
+多行业可计算一般均衡模型基础数据库服务”（项目
+编号：E2008019)
+7.
+中国石油集团经济技术研究院项目“双碳目标约束下
+我国产业结构调整及能源转型研究”（项目编号：
+E2006419)
+8.
+美国环保协会项目“2035美丽中国与低碳发展目标下
+经济发展与能源转型路径”（项目编号：E102461A）
+9.
+国家社会科学重大项目我国三大平原“资源-要素-政
+策”相协调的粮食和生态“双安全”研究”子课题“我国
+三大平原粮食和生态“双安全"政策保障体系构建”
+EME
+EMR
+===== PAGE 31 =====
+（项目编号：20&ZD094）
+CEM
+10.国家能源投资集团项目“中美经贸争端对宏观经济和
+能源行业的影响研究”（项目编号：E0027314）
+11.国家发展改革委经贸司项目“未来十五年全球贸易格
+局演变及我供应链体系建设的总体思路”（项目编号：
+Y9024318)
+12.世界银行项目“水资源对拉丁美洲经济发展影响”（项
+目编号：00543228)
+13.国家重点研发计划重点专项，“碳排放和减碳的社会
+经济代价研究"项目课题三“全球CO2非均匀分布状
+况下主要国家碳排放空间评价研究”（项目编号：
+2016YFA06025)
+14.环境保护部环境规划院项目“中国2012年环境投入产
+出及CGE数据”（项目编号：Y8024719）
+是否使用
+GTAP数据或
+是，为第八、九、十和十一版GTAP数据库中国区域数据
+软件（如使用，
+的构建者
+请填写版本）
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 32 =====
+EM
+EM
+表5CEEEM-AIR模型
+模型名称
+CEEEM-AIR
+单位
+北京大学城市与环境学院
+团队负责人
+刘峻峰（jfliu@pku.edu.cn）
+团队成员
+胡秀蓉吴辉煌
+支撑软件
+GAMS
+开发时间
+2016
+目前版本
+VI
+主要应用领域1
+大气环境税收政策评估（环保税、碳税）
+主要应用领域2
+碳交易市场
+[1] Hu, X., H. Wu, W. Ni, Q. Wang, D. Zhou and J. Liu (2023)
+Quantifying the dynamical interactions between carbon
+pricing and environmental protection tax in China. Energy
+Economics,126:106912.
+[2] Hu, X., Y. Sun, J. Liu, J. Meng, X. Wang, H. Yang, J. Xu, K.
+Yi, S. Xiang, Y. Li, X. Yun, J. Ma & S. Tao (2019) The
+impact of environmental protection tax on sectoral and
+spatial distribution of air pollution emissions in China.
+EnvironmentalResearchLetters,14.
+[3] Hu, X. R., J. F. Liu, H. Z. Yang, J. Meng, X. J. Wang, J. M.
+Ma & S. Tao (2020) Impacts of Potential China's
+Environmental Protection Tax Reforms on Provincial Air
+EMR
+Pollution Emissions and Economy. Earths Future, 8, 11.
+2018年以来的
+[4] Yang, Q., X. Hu, Y. Wang, Y. Liu, J. Liu, J. Ma, X. Wang, Y.
+代表性论文
+Wan, J. Hu, Z.Zhang, X. Wang & S. Tao (2021) Comparison
+of the impact of China's railway investment and road
+investment on the economy and air pollution emissions.
+Journal of CleanerProduction,293.
+[5] Yang, Q., Y. Wang, Y. Liu, J. Liu, X. Hu, J. Ma, X. Wang, Y.
+Wan, J. Hu, Z. Zhang, X. Wang & S. Tao (2023) The impact
+of China's high-speed rail investment on regional economy
+and air pollution emissions. Journal of Environmental
+Sciences, 131,26-36.
+[6] Zheng, L., J. Liu, Q. Yang, Y. Wang, Y. Liu, X. Hu, J. Hu, Y.
+Wan, X. Wang, J. Ma, X. Wang & S. Tao (2023) The Impacts
+of China's Resident Tourism Subsidy Policy on the
+Economy and Air Pollution Emissions. Sustainability, 15.
+2018年以来的
+胡秀蓉“第三、四章：CGE模型基础理论、CGE模型应用”，
+代表性著作
+经济学前沿研究方法王群伟主编.2023科学出版社.
+2018年以来模
+国家自然科学基金中英大气合作项目“基于排放-健康-
+型所支撑的研
+社会经济关系综合分析的北京地区大气污染治理方案
+究项目
+研究”（项目号：41571130010）
+CEMF
+===== PAGE 33 =====
+国家自然科学基金面上项目“区域下垫面性质变化对我
+CEM
+国东部地区空气质量的影响”（项目号：41671491）
+3.
+国家自然科学基金青年项目“面向健康及碳减排收益的
+环保税税率优化研究”（项目号：72103093）
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 34 =====
+表6CCGEM模型
+CEM
+CEM
+模型名称
+CCGEM
+单位
+国务院发展研究中心市场经济研究所
+团队负责人
+刘馨（liuxin05100510@163.com）
+团队成员
+支撑软件
+GAMS, MATLAB
+开发时间
+2019
+目前版本
+主要应用领域1
+服务业
+主要应用领域2
+价格波动影响
+2018年以来的
+[1]在开放创新中增强服务业发展新动能，待发表。
+代表性论文
+[2]本轮油价持续高位运行对我影响与应对，国务院发展
+研究中心调查研究报告，2022年第159号。
+2018年以来的
+代表性著作
+2018年以来模
+型所支撑的研
+究项目
+是否使用
+GTAP 数据或
+软件（如使用，
+请填写版本）
+CEMN
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 35 =====
+EM
+CEM
+表7纳入地方债务与绿色金融的CGE模型
+模型名称
+纳入地方债务与绿色金融的CGE模型
+单位
+上海财经大学高等研究院
+团队负责人
+李双建
+团队成员
+赵旭霞张云陈浩文
+支撑软件
+Python
+MATLAB
+开发时间
+目前版本
+主要应用领域1
+主要应用领域2
+2018年以来的
+《地方政府债务扩张与银行风险承担：理论模拟与经验
+代表性论文
+证据》，《经济研究》2022年第5期。
+2018年以来的
+代表性著作
+2018年以来模
+型所支撑的研
+究项目
+是否使用
+GTAP 数据或
+软件（如使用，
+请填写版本)
+CEMP
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 36 =====
+表8IREPAGE模型
+QEM
+CEM
+模型名称
+IREPAGE
+单位
+国务院发展研究中心资源与环境政策研究所
+团队负责人
+李继峰（5008117@qq.com）
+团队成员
+郭焦锋韩雪俞敏张韬卿静
+支撑软件
+GEMPACK
+开发时间
+2023
+目前版本
+基于2017年多区域投入产出表开发的多区域CGE模型
+主要应用领域1
+能源安全战略及政策
+主要应用领域2
+碳达峰碳中和战略研究与政策分析
+[1]李继峰,顾阿伦,张成龙,等."十四五"中国分省经济发
+展，能源需求与碳排放展望一基于CMRCGE模型
+的分析[J].气候变化研究进展，2019,15(6):11.
+[2]李继峰、郭焦锋、高世、陈怡.分四个阶段实现2060
+2018年以来的
+代表性论文
+碳中和.《国务院发展研究中心调研报告》（总第6114
+号)
+[3］郭焦锋、李继峰、白彦锋、王婕.关于石化行业统筹发
+展与减碳的分析与建议.《国务院发展研究中心调研
+报告择要》（总第3696号）
+2018 年以来的
+代表性著作
+1.
+我国碳达峰碳中和战略路径与对策研究（国务院发展
+研究中心2021年重大课题）
+2018年以来模
+2035年我国低碳发展目标和措施研究（生态环境部
+型所支撑的研
+究项目
+委托课题2021年）
+3．考虑省间碳排放转移的多区域协同减排模拟关键技
+术研究及应用（2023-2025年）（国家电网科技项目）
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+EMF
+EMF
+CEMF
+===== PAGE 37 =====
+CEM
+EM
+表9DRC-CGE模型
+模型名称
+DRC-CGE3
+单位
+国务院发展研究中心
+李善同（shantongdrc163.com）
+团队负责人
+何建武（jianwudrc@126.com）
+团队成员
+李善同翟凡何建武胡枫高颖许召元段志刚
+支撑软件
+GAMS
+开发时间
+90年代初
+目前版本
+更新到2020年
+政策模拟分析，包括经济增长、人口变化、劳动力迁移、
+主要应用领域1
+收入分配、财税改革、能源环境与气候变化等领域
+主要应用领域2
+经济增长前景分析
+[1] 
+《俄乌冲突对我国经济影响有多大》，国务院发展研
+究中心调研报告，2022.
+[2]】《上海疫情的影响有多大》，国务院发展研究中心调
+研报告，2022.
+[3]《碳边境调节机制的影响及应对举措》，国务院发展
+研究中心调研报告，2021.
+[4]侯永志,何建武,唐泽地,潘晨,美国加征关税对国内区
+2018 年以来的
+代表性论文
+域经济总量与就业的影响，国务院发展研究中心调查
+研究报告,2019年.
+[5] Cao J, Dai H, Li S, et al. The general equilibrium impacts
+of carbon tax policy in China: A multi-model
+comparison[J].Energy Economics, 2021, 99: 105284.
+[6]许召元赵昌文，考虑产业转移效应后中美贸易战对
+我国经济的中长期影响，国务院发展研究中心调查研
+究报告择要，2018年。
+李善同，何建武，祝坤福，张增凯，潘晨等．中国多区域
+2018年以来的
+投入产出模型：1987-2017年[M].北京：经济科学出版社，
+代表性著作
+2023
+1.
+全球价值链视角下的国内区域分工与市场一体化研
+2018年以来模
+究，国家自然科学基金重点项目（项目号71733003）。
+国务院发展研究中心与壳牌国际联合研究项目《面向
+型所支撑的研
+未来助力增长，构建中国新型能源体系》，2020。
+究项目
+3.
+自然资源保护协会（NRDC）项目，“中国石油消费总
+量控制对经济的影响分析"，2020。
+是否使用
+GTAP数据或
+使用GTAP10、GTAP11
+软件（如使用，
+请填写版本)
+3国务院发展研究中心（DRC）的中国经济可计算一般均衡模型（DynamicRecursive
+Chinese-CGE)
+EMF
+===== PAGE 38 =====
+CEM
+CEM
+表10CETPA-CGE模型
+模型名称
+CETPA-CGE
+单位
+对外经济贸易大学国际经济与贸易学院
+对外经济贸易大学数字经济实验室
+团队负责人
+杨军（yangjunuibe@163.com）
+团队成员
+杨军董婉璐柳雅文李慧娟赵文祺谭词
+支撑软件
+GEMPACK
+开发时间
+2005-2023年
+目前版本
+主要应用领域1
+经济贸易政策分析、区域经济发展、资源利用与环境
+主要应用领域2
+[1]董婉璐,李慧娟,杨军.RCEP对全球及中国区域电子产
+业发展的影响分析一基于全球与中国区域(含深圳)
+的CGE模型系统[J].经济与管理评论,2023,39(01):119-
+133.
+[2]李慧娟,程宝栋,杨军.疫情对木材产业全球价值链布局
+的影响研究一基于全球价值链一般均衡模型[].农
+业技术经济,2023(06):81-98.
+[3]董婉璐,李慧娟,杨军.数字经济发展对中国制造业的影
+响研究一基于可计算一般均衡模型的价值链分析
+[J].价格理论与实践,2022(09):78-82+205.
+[4]孙嘉泽,李慧娟,杨军,新冠肺炎疫情对全球宏观经济和
+CEMF
+价值链结构的影响[J].财经问题研究,2022(01):52-62.
+2018年以来的代
+[5] Sun Jiaze, Lee Huijuan, Yang Jun. The Impact of the
+表性论文
+COVID-19 Pandemic on the Global Value Chain of the
+Manufacturing Industry[J]J. Sustainability,2021,13(22),
+[6]董婉璐,杨军,杨玉文.我国禁止进口四类固体废物的经
+济影响及其政策建议一一基于全球一般均衡模型的分
+析[J].生态经济,2020,36(12):124-130.
+[7]】赵忠秀,杨军.全球“新冠肺炎”疫情对山东经济与产业
+链的影响及对策[J].经济与管理评论,2020,36(03):5-10.
+[8]杨军,董婉璐,胡继亮.构建中国-欧盟自由贸易区的经济
+增长和福利效应一一基于全球动态一般均衡模型的分
+析[J].产经评论,2019,10(04):122-135.
+[9]冯晟吴,王健,张恪渝,杨军等.基于CGE模型的全球能
+源互联网经济社会效益分析一
+一以中国及其周边地区
+为例[J].全球能源互联网,2019,2(04):376-383.
+2018年以来的代
+表性著作
+企事业单位委托专项项目"新时期北京市管企业对标国
+2018年以来模型
+有企业国际规则的路径研究"(2023YB06)
+所支撑的研究项
+国家社科基金重大项目俄罗斯对华能源合作的战略考量
+与政策取向研究(20VGQ003)
+===== PAGE 39 =====
+国家社科基金培育项目新冠肺炎疫情和中美贸易冲突对
+CEM
+我国重点产业GVCs影响研究(21PY005-20VMG020)
+省级政府部门重大项目新冠肺炎疫情影响下全球供应链
+风险评估及对策研究(20BJZK-03)
+5.
+国家社科基金项目重大项目国家社科基金重大研究专项
+-20VMG020(20VMG020)
+6.
+教育部人文社科研究专项项目技术创新实现大气污染治
+理目标的长效机制及政策选择(19JHQ008)
+7.
+国家自然科学基金专项项目顺应全球价值链发展需要的
+WTO改革研究(71941002)
+8.
+省级社科基金重大项目京津冀地区生态补偿标准与实施
+机制研究(18ZDA04)
+9.
+学校社科项目创新团队金融一般均衡模型研究团队
+(CXTD9-02)
+是否使用GTAP
+数据或软件（如使
+GTAP11数据库
+用，请填写版本）
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 40 =====
+EM
+CEM
+表11MCHUGE模型
+模型名称
+MCHUGE (Monash-Hunan University GE model)
+单位
+湖南大学
+团队负责人
+肖皓（xh_26@126.com）
+赖明勇祝树金谢锐王腊芳何昱张文城卫瑞王振
+团队成员
+国孙克娟
+支撑软件
+GEMPACK
+开发时间
+2007年至今
+基于2020IO表的中国动态CGE模型；
+目前版本
+GTAP10数据为基础的全球静态GVC-E-CGE模型；
+2017年湖南省CGE模型等
+主要应用领域1
+国际贸易政策
+主要应用领域2
+能源环境政策
+主要应用领域3
+全球价值链
+[1] Kejuan Sun, Hao Xiao, Zhen Jia, Bin Tang. Estimating
+the effects of regional value chains of the RCEP in a
+GVC-CGE model.Journal of AsianEconomics,2023,
+88,101647.
+[2] Huimin Bi, Hao Xiao, Kejuan Sun. The Impact of Carbon
+Market and Carbon Tax on Green Growth Pathway in
+China: A Dynamic CGE Model Approach, Emerging
+Markets Finance and Trade,2019, 55:6,1312-1325.
+[3] Xiao H, Meng B, Ye J, et al. Are global value chains truly
+CEMF
+global?[J]. Economic Systems Research, 2020, 32(4):
+540-564.
+[4] Zhang W, Wei R, Peng S. The oil-slick trade: an analysis
+ofembodiedcrudeoilinChina'stradeand
+2018年以来的
+consumption[J].Energy Economics, 2020, 88: 104763.
+[5] Zhu S, Tang Y, Qiao X, et al. Spatial effects of
+代表性论文
+participation in global value chains on CO2 emissions: a
+global spillover perspective[J]. Emerging Markets
+Finance and Trade, 2022, 58(3): 776-789.
+[6] Xie R, Niu M, Su B, et al. Are global value chains merely
+global? The case of Chinese Provinces in global value
+chains[J].Applied Economics, 2021, 53(32): 3778-3794.
+[7]孙克娟,肖皓,毕慧敏等.基于GVC-CGE模型的投入产
+出表模拟更新与全球价值链重构测度：以RCEP为例
+[J].计量经济学报,2022,2(04):773-795.
+[8]谢锐,陈湘杰,朱帮助.价值链分工网络中心国经济增
+长的全球包容性研究[J].管理世界,2020,36(12):65-77.
+[9]谢锐,王振国,陈湘杰.中国省级出口国内增加值及其
+变动机制研究[J].管理科学学报,2021,24(01):89-108
+[10]王振国,牛猛,张亚斌.中国出口技术含量地域结构变
+EMF
+EM
+===== PAGE 41 =====
+迁及变化动因[J].数量经济技术经济研
+CEM
+,2022,39(01):94-114.
+[11]王振国,张亚斌,牛猛等.全球价值链视角下中国出口
+功能专业化的动态变迁及国际比较[J].中国工业经
+济,2020(06):62-80.
+[12]王振国,张亚斌,单敬等.中国嵌入全球价值链位置及
+变动研究[J].数量经济技术经济研究,2019,36(10):77-
+95.
+2018年以来的
+全球生产：国际分割与地域异质性，科学出版社，2021
+代表性著作
+国家社会科学基金重大项目“新发展格局下我国制
+造业高端嵌入全球价值链研究"(22&ZD100)；
+2.
+教育部哲学社会科学研究重大课题攻关项目“美国印
+太经济框架研究"（22JZD042）；
+3.
+教育部哲学社会科学重大项目“疫情常态化下我国制
+造业全球供应链重构和数字化转型研究”
+(21JZD026);
+4.
+国家社会科学基金重大项目“全球价值链背景下中美
+新型大国贸易关系与贸易利益研究"(18ZDA068)；
+5.
+国家社科基金重大项目“一带一路相关国家贸易竞
+争与互补关系研究”（16ZDA038）；
+6.
+国家自然科学基金面上项目“GVC贸易利益与碳减
+排的协调机制及基于GVC-CGE模型的政策评估研
+CEMF
+究”（71673081);
+2018年以来模
+型所支撑的研
+国家自然科学基金面上项目“国际贸易投资规则重
+究项目
+构影响中国出口价值链升级：机制、效应及其路径研
+究”（71673083);
+8.
+国家自然科学基金面上项目““双循环”新发展格局
+下我国制造业价值链嵌入影响区域碳排放的机制、模
+型及实证研究”（72173040）；
+9.
+国家自然科学基金面上项目“全球价值链视角下中
+国碳排放强度的形成机制、影响因素与减排政策优化
+研究”（72174059)；
+10.国家自然科学基金青年项目“中国居民消费环境负
+荷评估与分析：基于MRIO模型”（71903052）；
+11.国家自然科学基金青年项目“产业出口竞争对抗性
+的衡量和预测：基于多区域投入产出模型和行为码分
+析”（71903054)；
+12.国家社会科学基金后期资助项目“全球价值链空间格
+局、产业关联效应与适应性政策研究”（21FJLB009）
+是否使用
+GTAP数据或
+是，GTAP8和GTAP10
+软件
+CEMF
+===== PAGE 42 =====
+CEM
+QEM
+表12IRD-CGE模型
+模型名称
+IRD-CGE
+单位
+复旦大学上海能源与碳中和战略研究院
+团队负责人
+吴力波（wulibo@fudan.edu.cn）
+团队成员
+汤维祺、钱浩祺、周阳
+支撑软件
+GAMS
+开发时间
+2016
+目前版本
+主要应用领域1
+能源市场
+主要应用领域2
+气候政策
+[1]钱浩祺，吴力波．信息不对称视角下我国工业企业碳
+排放权分配与定价机制研究[J].环境经济研究，2022,
+7(1): 36.
+[2] Cao J, Dai H, Li S, et al. The general equilibrium impacts
+of carbon tax policy in China:A multi-model
+comparison[J]. Energy Economics, 2021, 99: 105284.
+[3] Qian H, Zhou Y, Wu L. Evaluating various choices of
+sector coverage in China's national emissions trading
+system (ETS)[J].Climate Policy, 2018, 18(sup1): 7-26.
+[4] Wu L, Zhou Y, Qian H. Global actions under the Paris
+agreement: Tracing the carbon leakage flow and pursuing
+countermeasures[J].Energy Economics, 2022, 106:
+CEMF
+105804.
+[5] Wu L, Zhang S, Qian H. Distributional effects of China's
+2018年以来的
+National Emissions Trading Scheme with an emphasis on
+代表性论文
+sectoral coverage and revenue recycling[J]. Energy
+Economics,2022,105:105770.
+[6] Duan M, Qi S, Wu L. Designing China's national carbon
+emissions trading system in a transitional period[J].
+Climate Policy, 2018, 18(sup1): 1-6.
+[7] Zhou Y, Shi Z, Wu L. Green policy under the competitive
+electricity market: An agent-based model simulation in
+Shanghai[J]. Journal of Environmental Management,
+2021,299:113501.
+[8] Cao J, Dai H, Li S, et al. The General Equilibrium
+Impacts of Carbon Tax Policy in China: A Multi-model
+Assessment[J].2020.
+[9] Libo WU.Assessing Regional Implementation Pathways
+Toward a Nationwide Emissions-Trading System in
+China[J]. Climate Change Policy in China, 2020: 77.
+EM
+CEMF
+===== PAGE 43 =====
+EN
+EM
+2018年以来的
+代表性著作
+国家自然科学基金专项项目《碳中和产业转型与经济
+社会系统变革的政策驱动机制与异质性建模研究》
+(42341205)
+国家自然科学基金重点项目《基于复杂系统建模的碳
+2018年以来模
+中和多维政策模拟仿真研究》（72234002）
+国家科技部国家重点研发计划《推动产业与区域协同
+型所支撑的研
+究项目
+有序适应气候变化的理论和综合模式》
+(2020YFA0608602)
+国家自然科学基金杰青项目《能源环境经济与政策分
+析》（71925010）
+5.
+自科基金重点项目《碳中和产业转型与经济社会系统
+变革的政策驱动机制与异质性建模研究》（42341205）
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+CEMP
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 44 =====
+EM
+EM
+表13CAU-AFSmodel中国动态CGE模型
+中国农业大学农业食物系统模型(CAU-AFSmodel)中国动态
+模型名称
+CGE模型
+单位
+中国农业大学全球食物经济与政策研究院
+团队负责人
+张玉梅（zhangyumei@cau.edu.cn）
+团队成员
+樊胜根张玉梅冯晓龙张向阳兰向民
+支撑软件
+GAMS
+开发时间
+2022.07
+目前版本
+v1.0
+农业政策和公共投资：主要模拟评估各种农业政策和公共投
+主要应用领域1
+资对粮食安全、农民收入和宏观经济的影响，为优化农业政
+策和公共投资提供决策参考
+农产品市场和贸易：预测未来农产品供需市场发展形势和贸
+主要应用领域2
+易变化、以及各种外界冲击对农产品市场和贸易的影响。
+农业食物系统转型：从经济效率、营养健康与资源环境、包
+主要应用领域3
+容性等多个维度探讨促进农业食物系统转型的技术和政策措
+施，并开展多目标评价，为构建健康和可持续的农业食物系
+统提供政策建议。
+[1] Zhang, Yumei, Diao, Xinshen. The changing role of
+agriculture with economic structural change - The case of
+China[JJ.China Economic Review, 2020,62(101504).
+https://doi.org/10.1016/j.chieco.2020.101504.
+[2] Zhang, Yumei, Diao, Xinshen, Chen, Kevin Z, Robinson,
+CEM
+Sherman, Fan Shenggen. Impact of COVID-19 on China's
+macroeconomy and agri-food system - an economy-wide
+multiplier model analysis[J]. China Agricultural Economic
+Review,2020,12(3):387-407. https:/doi.org/10.1108/CAER-
+04-2020-0063.
+[3] Zhang, Yumei, Zhan, Yue, Diao, Xinshen, Chen, Kevin Z,
+Robinson, Sherman. The Impacts of COVID-19 on Migrants,
+2018年以来的
+代表性论文
+Remittances, and Poverty in China:A Microsimulation
+Analysis[J]. China & World Economy,2021,29(6): 4-33.
+https://doi.org/10.1111/cwe.12392.
+[4]】张玉梅，樊胜根，陈志钢，冯晓龙,张向阳，柏兆海，汪笑
+溪.转型农业食物系统助力实现中国2060碳中和目标
+[M]/2021中国与全球食物政策报告.
+[5]】赵启然，张玉梅，樊胜根，陈志钢，崔艺，张颖．改善中
+国居民膳食营养的支持政策方案[M]//2022中国与全球
+食物政策报告.
+[6]】冯晓龙，张玉梅，吴宗樊，樊胜根，陈志钢重新定位农
+业支持政策助力实现"双碳”目标[M]/2022中国与全球食
+物政策报告.
+[7】张玉梅，樊胜根，陈志钢，司伟，兰向民，王晶晶.优化农
+EMF
+===== PAGE 45 =====
+业支持政策促进营养健康和绿色低碳双赢[M]/2022中
+CEM
+国与全球食物政策报告.
+[8】兰向民．中国节水灌溉工程投资对农业产业、经济与环
+境的影响模拟分析研究[D].北京：中国农业科学院,2023.
+[9]张向阳.控烟措施对我国烟草产业和公众健康的影响研
+究[D].北京：中国农业科学院,2022.
+张玉梅，胡向东，韩昕儒编著，《中国农业产业发展报告
+2018》，经济科学出版社，2018.10，56万字
+韩昕儒，张玉梅，胡向东编著，《中国农业产业发展报告
+2018年以来的
+2019》，经济科学出版社，2019.6
+代表性著作
+3.
+韩昕儒，张玉梅，胡向东编著，《中国农业产业发展报告
+2020》，中国农业科学技术出版社，2020.5
+4.
+韩昕儒，张玉梅，胡向东编著，《中国农业产业发展报告
+2021》，中国农业科学技术出版社，2021.5
+1.
+国家自然科学基金面上项目“多目标权衡下中国化肥减
+量政策优化研究”（基金号：72373143），2024.01-2027.12.
+41万元。
+国家自科基金国际合作与交流项目“全球背景下优化中
+国农业补贴促进农业食物系统转型”（基金号：
+72061147002)，2021.1-2025.12
+国家自科基金国际合作与交流项目“重大冲击和变化对
+2018 年以来模
+中国-全球农业影响模拟模型的研究，2018.1-2022.12，40
+型所支撑的研
+究项目
+万元。
+4.
+中国农业科学院农业经济与发展研究所基本业务费，中
+国农业空间均衡模型的开发与应用，2020.1-2020.12.18
+万元。
+5.
+中国农业科学院院基本业务费，中国农业产业发展研究，
+2018.1-2019.12，30万元。
+6.
+中国农业科学院创新工程农业经济与发展研究所重大命
+题，2018.1-2018.12，主持，50万元。
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+EMF
+EMF
+CEMF
+===== PAGE 46 =====
+EM
+表 14-1C-REM模型
+QEM
+中国分区能源经济模型
+模型名称
+(China Regional EnergyModel，简称C-REM)
+单位
+清华大学能源环境经济研究所
+团队负责人
+张希良（zhang_xl@tsinghua.edu.cn）
+团队成员
+张达，翁玉艳，曲晨菲，彭汉唐
+支撑软件
+GAMS
+开发时间
+2011年至今
+目前版本
+4.0
+主要应用领域1
+中国省级碳排放管理制度的经济影响分析
+主要应用领域2
+中国碳减排空气质量与人群健康协同效益
+[1] Li M, Zhang D, Li C T, et al. Air quality co-benefits of carbon
+pricing in China[J]. Nature Climate Change, 2018, 8(5): 398-
+403.
+[2] Li M, Zhang D, Li C T, et al. Co-benefits of China's climate
+policy for air quality and human health in China and
+transboundary regions in 2030[J]. Environmental Research
+2018年以来的
+Letters, 2019, 14(8): 084006.
+代表性论文
+[3] Qu C, Yang X, Zhang D, et al. Estimating health co-benefits of
+climate policies in China: An application of the Regional
+Emissions-Air quality-Climate-Health (REACH) framework[J].
+Climate Change Economics (CCE), 2020, 11(03): 1-33.
+[4] Chang S, Yang X, Zheng H, et al. Air quality and health co-
+benefits of China's national emission trading system[J]. Applied
+Energy,2020, 261(May 2019):114226.
+1.
+《中国低碳能源转型系统分析：方法、模型与应用》.科学出
+2018年以来的
+版社.2020
+代表性著作
+2.
+《绿色低碳发展转型中的关键管理科学问题与政策研究》.
+科学出版社.2023
+1.
+国家自然科学基金重大项目（2017-2021）“绿色低碳发展转
+型中的关键管理科学问题与政策研究”
+2.
+国家自然科学基金专项项目（2022-2025）“碳达峰碳中和路
+径与对策综合研究”
+3.
+生态环境部委托课题（2020）“十四五"全国碳强度降低目标
+2018年以来模
+地区分解和2030年前全国碳达峰目标下的地区碳达峰方案
+型所支撑的研
+研究”
+究项目
+4.
+世界银行咨询项目（2020)：中国可再生能源主导的能源革
+命综合经济社会效益评价研究
+工业与信息化部与亚洲开发银行咨询项目（2020）：
+Developing Cost-Effective Policies and Investments to Achieve
+Climate and Air Quality Goals in the Beijing-Tianjin-Hebei
+Region.
+是否使用GTAP数据或软件
+GTAP11
+EM
+===== PAGE 47 =====
+CEM
+表14-2C-GEM模型
+QEM
+模型名称
+中国一全球能源模型
+(China-in-Global EnergyModel，简称C-GEM)
+单位
+清华大学能源环境经济研究所
+团队负责人
+张希良（zhangxl@tsinghua.edu.cn）
+团队成员
+张达，翁玉艳，王天鹏，曲晨菲
+支撑软件
+GAMS
+开发时间
+2011年至今
+目前版本
+4.0
+主要应用领域1
+中国碳中和路径评估
+主要应用领域2
+气候变化国际合作
+[1]张希良，黄晓丹，张达，等.碳中和目标下的能源经
+济转型路径与政策研究[J].管理世界，2022，38(1):
+35-66.
+[2] Zhao M, Huang X, Kjellstrom T, et al. Labour
+productivity and economic impacts of carbon mitigation:
+a modelling study and benefit-cost analysis[J]. The
+Lancet Planetary Health, 2022, 6(12): e941-e948.
+[3] Wang T, Teng F. Damage function uncertainty increases
+the social cost of methane and nitrous oxide[J]. Nature
+Climate Change, 2023: 1-8.
+2018年以来的
+[4] He J, Li Z, Zhang X, et al. Towards carbon neutrality: a
+代表性论文
+study on China's long-term low-carbon transition
+pathways and strategies[J]. Environmental Science and
+Ecotechnology,2022, 9:100134.
+[5] Huang X, Chang S, Zheng D, et al. The role of BECCS
+in deep decarbonization of China's economy: A
+computable general equilibrium analysis[J]. Energy
+Economics,2020, 92: 104968.
+[6] Wang T, Teng F, Zhang X. Assessing global and national
+economic losses from climate change: a study based on
+CGEM-IAM in China[J]. Climate Change Economics,
+2020, 11(03): 2041003.
+1.
+《中国低碳能源转型系统分析：方法、模型与应用》.
+2018年以来的
+科学出版社.2020
+代表性著作
+2.
+《绿色低碳发展转型中的关键管理科学问题与政策
+研究》.科学出版社,2023
+1.
+国家自然科学基金重大项目（2017-2021）“绿色低碳
+2018年以来模
+发展转型中的关键管理科学问题与政策研究”
+国家自然科学基金专项项目（2022-2025）“碳达峰碳
+型所支撑的研
+究项目
+中和路径与对策综合研究”
+国家重点研发计划项目“国家碳减排自主贡献盘点方
+案设计及关键科学问题研究”
+EMF
+===== PAGE 48 =====
+国家发展改革委发展战略和规划司委托课题（2020）：
+CEM
+“十四五"期间及中长期能源需求和低碳转型路径
+5.
+生态环境部应对气候变化司委托课题（2022)：全国
+碳市场第一和第二个履约期的《总量设定与配额分配
+方案建议》
+6.
+生态环境部应对气候变化司委托课题（2021)：《中国
+中长期低碳排放的情景分析与实施路径》
+7.
+科技部中国21世纪议程管理中心委托课题（2022）：
+碳中和技术发展路线图
+是否使用
+GTAP数据或
+软件（如使用，
+GTAP10
+请填写版本）
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 49 =====
+EM
+CEM
+表15-1CE3MS模型
+CEEPEnergy-Environment-Economy
+模型名称
+ModelingSystem
+(CE'MS)
+单位
+Lab for Low-carbon Intelligent Governance,
+Beihang University.
+团队负责人
+范英（yfan1123@buaa.edu.cn）
+团队成员
+范英段宏波袁永娜吴洁肖旭夏炎
+支撑软件
+GAMS
+开发时间
+2019
+目前版本
+V3.0
+主要应用领域1
+Low-carbon energy transition
+主要应用领域2
+Integrated policy assessment
+[1] Yuan,Y.,Duan,H.*,& Tsvetanov, T. G.(2020).
+Synergizing China's energy and carbon mitigation goals:
+General
+equilibrium
+modelingand
+policy
+2018年以来的
+assessment.EnergyEconomics,89,104787.
+代表性论文
+[2] Yuan, Y., Li, G., & Duan, H*. (2023). The Achievement
+of Multiple Nationally Determined Contribution Goals
+and
+RegionalEconomic
+Development
+in
+China. Environmental and Resource Economics, 84(4),
+1155-1177.
+2018年以来的
+代表性著作
+2018年以来模
+型所支撑的研
+究项目
+是否使用
+GTAP数据或
+We used GTAP at our earlier version (in 2009-2011)
+软件（如使用，
+请填写版本)
+EMF
+EMF
+CEMF
+===== PAGE 50 =====
+EM
+CEM
+表15-2 Dynamic Energy-Environmental GTAP模型
+模型名称
+Dynamic Energy-Environmental GTAP
+Lab for Low-carbon IIntelligent Governance,
+单位
+Beihang University.
+团队成员
+范英闫禧龙崔连标夏炎
+支撑软件
+GAMS
+开发时间
+2022
+目前版本
+2.0版
+主要应用领域
+International carbonpricingmechanism
+主要应用领域2
+Climate and tradepolicy assessment
+[1] Fan, Y., Yan, X., Cui, L.*, Zhang, L., & Wang, J. (2023).
+2018年以来的
+代表性论文
+Carbon pricing,carbon equity,and the RCEP
+framework.ChinaEconomicReview,80,102017.
+2018年以来的
+代表性著作
+2018年以来模
+型所支撑的研
+究项目
+是否使用
+GTAP 数据或
+软件（如使用，
+模型基于GTAP11数据库校准
+请填写版本)
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 51 =====
+CEM
+EM
+表16中国地区随机动态CGE模型
+模型名称
+中国地区随机动态CGE模型
+单位
+南京林业大学经济管理学院
+团队负责人
+范金教授，（jfan@njfu.edu.cn）
+温作民，刘瑞翔，贾卫国，戴枫，严斌剑，张晓兰，孙颖，
+团队成员
+乌云，任方，王红妹
+支撑软件
+Gams, Gempack
+开发时间
+2017年10月
+目前版本
+2.0
+主要应用领域1
+国民经济规划、科技规划、产业规划
+主要应用领域2
+新冠疫情、中美贸易战、RECP
+主要应用领域3
+粮食安全、绿色核算
+[1] Fan, J.; Wang, H.; Zhang, X. A General Equilibrium
+Analysis of Achieving the Goal of Stable Growth by
+China's Market Expectations in the Context of the COVID-
+19Pandemic.Sustainability2022,14，15072.
+https://doi.org/10.3390/su142215072
+[2]范金，张晓兰，严斌剑，中美贸易摩擦与新冠肺炎疫情
+形成供给冲击压力的宏观闭合检验，工业技术经济，
+2023, (1): 149-160.
+2018年以来的
+代表性论文
+[3]】刘瑞翔，范金，戴枫，沿海地区与内陆省份经济增长的
+比较测度,数量经济技术经济研究，2020,(6)：148-168.
+[4] Feng Dai, Ruixiang Liu*, Hao Guo, Xiuhong Du, How
+does intermediate consumption affect GVC positions? -
+A comparison between China and US,China Economic
+Review,63(2020),101531
+[5]范金，张晓兰，需求收缩、供给冲击、预期转弱：“三重”
+压力的特征、成因及破解路径，江海学刊，2022,(4)：74-
+81.
+范金等著，促进中国经济高质量增长的路径分析，中国
+社会科学出版社，2020年。
+2018年以来的
+刘瑞翔著，中国经济转型进程中的挑战与机遇一从高速
+代表性著作
+增长向高质量发展转变，中国财政经济出版社，2021年
+12月。
+国家社会科学基金重大项目：“十四五"时期我国经济有
+效防范滞胀风险路径研究21&ZD081，首席专家：范金）
+2018年以来模
+国家社会科学基金重点项目：国家公园生态环境监管体
+型所支撑的研
+制改革研究(18AGL017，主持人：温作民)
+究项目
+国家社会科学基金重点项目：价值链视角下的区域一体
+化、专业化分工与经济高质量发展(20AJL003，主持人：
+刘瑞翔)
+是否使用GTAP数据或软件
+CEMF
+===== PAGE 52 =====
+EM
+CEM
+表17CISEP-CGE模型
+模型名称
+中国能源政策研究院CGE模型（CISEP-CGE）
+单位
+厦门大学中国能源政策研究院
+团队负责人
+林伯强（bqlin@xmu.edu.cn）
+林伯强，贾智杰，吴微，Wesseh,PresleyK.,Jr.，徐斌，张
+团队成员
+博，杜克锐，龚旭，杜之利，张赞懿
+支撑软件
+GAMS,Matlab
+开发时间
+2018
+目前版本
+v3.0
+主要应用领域1
+能源、资源与环境
+主要应用领域2
+碳排放与气候变化
+[1] Zhijie Jia; Boqiang Lin*. Primary fossil energy cost and
+price regulation in energy processing sectorsthe
+perspective of price regulation market with Chinese
+characteristics, Resources Policy.2023, 83: 103641.
+[2]贾智杰,林伯强*.国有企业、价格管制与经济稳定-
+来自中国特色汽柴油市场的视角[.中国人口·资源
+与环境,2022,32(07):173-185.
+[3] Zhijie Jia; Boqiang Lin*; Shiyan Wen. Electricity market
+Reform: The perspective of price regulation and carbon
+neutrality, Applied Energy. 2022, 328: 120164.
+[4] Zhijie Jia; Boqiang Lin*. CEEEA2.0 model: A dynamic
+CGE model for energy-environment-economy analysis
+CEMF
+with available data and code, Energy Economics. 2022,
+112: 106117.
+[5] Zhijie Jia; Boqiang Lin*. Is the rebound effect useless? A
+2018年以来的
+case study on the technological progress of the power
+代表性论文
+industry, Energy. 2022, 248: 123570.
+[6] Zhijie Jia; Boqiang Lin*. How to achieve the first step of
+the carbon-neutrality 2060 target in China: The coal
+substitution perspective, Energy. 2021, 233: 121179.
+[7] Boqiang Lin; Wei Wu*. The impact of electric vehicle
+penetration: A recursive dynamic CGE analysis of China,
+EnergyEconomics.2021, 94:105086.
+[8] Zhijie Jia; Boqiang Lin*. Rethinking the choice of carbon
+tax and carbon trading in China,Technological
+Forecasting & Social Change.2020,159:120187.
+[9] Boqiang Lin; Zhijie Jia. Can carbon tax complement
+emission trading scheme? The impact of carbon tax on
+economy, energy and environment in China, Climate
+Change Economics. 2020, 11 (3): 2041002.
+[10]Boqiang Lin*; Zhijie Jia. Does the different sectoral
+coverage matter? An analysis of China's carbon trading
+===== PAGE 53 =====
+market, Energy Policy. 2020, 137: 111164.
+CEM
+[1l]Boqiang Lin*; Zhijie Jia. Economic, energy and
+environmental impact of coal-to-electricity policy in
+China: A dynamic recursive CGE study, Science of the
+Total Environment.2020, 698:134241.
+[12]Presley K. Wesseh Jr.; Boqiang Lin*. Environmental
+policy and 'double dividend' in a transitional economy,
+Energy Policy.2019, 134: 110947.
+[13]Boqiang Lin; Zhijie Jia*. How does tax system on energy
+industries affect energy demand, CO2 emissions, and
+economy in China?,Energy Economics. 2019,84:
+104496.
+[14]Boqiang Lin*; Zhijie Jia. Tax rate, government revenue
+and economic performance: A perspective of Laffer
+curve, China Economic Review.2019, 56:101307.
+[15]Boqiang Lin*; Zhijie Jia. Energy, economic and
+environmental impact of government fines in China's
+carbon trading scheme, Science of the Total
+Environment.2019,667:658-670.
+[16]Boqiang Lin*; Zhijie Jia. Impacts of carbon price level in
+carbon emission trading market, Applied Energy. 2019,
+239: 157-170.
+[17]Boqiang Lin*; Zhijie Jia. What are the main factors
+affecting carbon price in Emission Trading Scheme?A
+case study in China, Science of the Total Environment.
+CEMF
+2019, 654: 525-534.
+[18]Boqiang Lin*; Zhijie Jia. What will China's carbon
+emission trading market affect with only electricity sector
+involvement? A CGE based study, Energy Economics.
+2019, 78: 301-311.
+[19]Boqiang Lin*; Zhijie Jia. Transfer payments in emission
+trading markets: A perspective of rural and urban
+residents in China, Journal of Cleaner Production.2018,
+204: 753-766.
+[20]Boqiang Lin*; Zhijie Jia. The energy, environmental and
+economic impacts ofcarbontax rate and taxation
+industry: A CGE based study in China, Energy. 2018,
+159: 558-568.
+[21]Boqiang Lin*; Zhijie Jia. Impact of quota decline scheme
+of emission trading in China: A dynamic recursive CGE
+model, Energy.2018, 149: 190-203.
+1.
+林伯强（编著），《中国能源发展报告2022》，厦门
+大学出版社，2023.
+林伯强（编著），《中国能源发展报告2021》，科学
+EME
+EMF
+===== PAGE 54 =====
+CEM
+出版社，2022.
+3.
+林伯强（主编），《中国能源发展报告2020》，北京
+2018年以来的
+大学出版社，2020.
+代表性著作
+4.
+林伯强（主编），《中国能源发展报告2019》，北京
+大学出版社，2019.
+5.
+林伯强（主编），《中国能源发展报告2018》，北京
+大学出版社，2019.
+6.
+林伯强（编著），《能源决策：疑虑和思考》，科学出
+版社，2019.
+7.
+林伯强；陈煜（编著），《全球能源互联网背景下安徽
+省能源电力发展研究》，科学出版社，2018.
+1.
+教育部哲学社会科学研究重大课题攻关项目《“双碳”
+目标对生产率的中长期影响测度与动态监测研究》，
+22JZD008.
+2.
+国家自然科学基金重点项目《碳中和框架下的能源产
+业升级、环境污染治理与经济高质量发展》，
+72133003.
+3.
+国家社会科学基金重点项目《绿色金融创新与政策保
+障研究》，17AZD013.
+教育部哲学社会科学研究（发展）报告资助项目《中
+国能源发展报告》，10JBG013.
+5.
+教育部青年项目《碳中和框架下碳定价公平性研究
+2018年以来模
+一基于隐含碳排放和社会福利的视角》，
+22YJC790047.
+型所支撑的研
+究项目
+国家自然科学基金面上项目《环境规制与中国城市经
+济绿色转型：基于绿色技术进步和产业结构升级视角
+的研究》，72074184.
+国家自然科学基金青年项目《二氧化碳减排与能源转
+型的一致性：机制分析和路径选择》，71804048.
+教育部人文社会科学研究一般项目《隐含能源视角下
+中国最终使用需求演变与能源转型潜力研究》，
+20YJC790148.
+9.中央高校基本科研业务费专项资金《清洁低碳可持续
+的能源体系政策与机制研究》，0610-ZK1108.
+10.中央高校基本科研业务费专项资金《“国有企业+价格
+管制”在能源加工行业的优势、劣势与改革路径研
+完》，SK2022026.
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+EMF
+CEMF
+===== PAGE 55 =====
+EM
+表18中国“能源-环境-经济”递推动态CGE模型（CE3-CGE）
+模型名称
+中国"能源-环境-经济”递推动态CGE模型（CE3-CGE）
+单位
+中国人民大学环境学院
+团队负责人
+庞军（pangjun2005@ruc.edu.cn）
+GovindaTimilsina（世行）、张文丹（人民大学）、常原华（人
+团队成员
+民大学)
+支撑软件
+GAMS
+开发时间
+2008（国家模型）、2018（多区域模型）
+分为国家模型（CE3-CNCGE）和31省多区域模型（CE3-
+目前版本
+MRCGE）两个版本
+主要应用领域1
+环境税、碳税政策设计及其经济影响分析
+主要应用领域2
+全国碳市场交易机制设计及碳交易的省级经济影响分析
+[1] Jun Pang, Govinda Timilsina. How would an emission
+trading scheme affect provincial economies in China: Some
+insights from a computable general equilibrium
+model[J].Renewable
+and
+Sustainable
+Energy
+Reviews,Vol.145(2021),111034.
+[2] Yuanhua Chang, Ying Tian, Ge Li, and Jun Pang*.Exploring
+the economic impacts of carbon tax in China using a
+dynamic Computable General Equilibrium model under a
+2018 年以来的
+perspective of technological progress[J].Journal of Cleaner
+代表性论文
+Production,386 (2023),135770.
+[3]】张宁,庞军*.全国碳市场引入CCER交易及抵销机制的
+经济影响研究[J].气候变化研究进展,2022,18(5):622-636.
+[4]肖谦,庞军*,许昀,陈晖,曾文婉.实现国家自主贡献目标背
+景下我国碳交易机制研究[].气候变化研究进
+展,2020,16(5):617-631.
+[5]庞军,许昀,石媛昌,高笑默.我国能源资源税改革对城乡
+居民的收入分配效应——基于CGE模型的分析[J].中国
+环境科学,2020,40(6):2729-2740.
+2018年以来的
+庞军著．能源环境与气候政策经济分析一一投入产出、
+代表性著作
+CGE模型及其应用[M],北京：中国环境出版集团,2022
+2021.06-2022.12我国碳税制度设计",国家税务总局
+2020.01-2022.12,"我国自主碳减排承诺的实现机制及其
+2018年以来模
+省级分配效应研究"，中国人民大学科研基金重大项目
+2020.01-2021.12，"能源复杂系统优化决策技术研究及系
+型所支撑的研
+统开发",南方电网能源发展研究院.
+究项目
+2018.04-2019.06,"China
+4.
+Policy
+Climate
+Modeling:
+Economic and Distributional Impacts of Domestic Emission
+Trading"，世界银行.
+是否使用GTAP数据或软件
+EM
+CEMF
+===== PAGE 56 =====
+CEM
+EM
+表19CE3METL模型
+模型名称
+CE3METL
+单位
+中国科学院大学
+团队负责人
+段宏波hbduan@ucas.ac.cn
+团队成员
+于松民、黎桂妤、孙艺心、彭厚程等
+支撑软件
+GAMS
+开发时间
+2013
+目前版本
+2020
+气候政策目标的实现可能性分析、最优的政策选择、经济
+主要应用领域1
+可行性评估等
+主要应用领域2
+能源清洁化转型路径分析、内生能效改进的减排潜力分
+析、气候风险下的能源安全评估
+1. The achievement of multiple nationally determined
+contribution goals and regional economic development in
+China. Environmental & Resource Economics, 2023, 84:
+1155-1177.
+2. Assessing China's efforts to pursue the 1.5C warming limit.
+Science, 2021, 372(6540): 378-385.
+3. Integrated benefit-cost analysis of China's optimal
+adaptation and targeted mitigation. Ecological Economics,
+2018 年以来的
+2019,160:76-86.
+4. Achieving China's energy and climate policy targets in
+代表性论文
+2030 under multiple uncertainties.Energy Economics, 2018,
+70: 45-60.
+5.中国的碳中和：技术经济路径与政策选择．管理科学
+学报，2023.Toappear
+6.中国的挑战：从2度到1.5度温控目标的战略调整.管
+理世界,2019,10:50-63.
+7.莫建雷，段宏波"，汪寿阳，范英．《巴黎协定》中我国
+的能源与气候政策目标：综合评估及政策选择.经济研
+宪,2018,9:167-181.
+2018年以来的
+碳中和经济学：理论方法与应用，科学出版社，2023
+代表性著作
+2018年以来模
+国家自然科学基金优秀青年项目（72022019）
+型所支撑的研
+国家自然科学基金面上项目（72274188）
+究项目
+国家自然科学基金杰出青年项目（72325008）
+是否使用
+GTAP数据或
+否，预期在全球多区域IAM中使用
+软件（如使用，
+请填写版本)
+EMF
+CEMF
+===== PAGE 57 =====
+CEM
+EM
+表20政策模拟与智能分析系统
+模型名称
+《政策模拟与智能分析系统》
+单位
+中国社会科学院数量经济与技术经济研究所
+团队负责人
+娄峰(loufeng@cass.org.cn)
+团队成员
+汪吴程远段梦董婉璐赵云飞杨梦婷
+支撑软件
+GAMS、JAVA
+开发时间
+2021年
+目前版本
+V3.3
+该系统包括中国及诸省域财政税收CGE、贸易CGE、经
+济能源环境CGE、电力CGE、金融CGE、农业CGE、水
+主要应用领域1
+资源CGE、双碳CGE、科技CGE等共317个CGE模型
+系统，每个模型均包括静态和动态。
+主要应用领域2
+可以应用在财政税收、国际贸易、经济-能源-环境、农业、
+水资源、科技、金融等领域
+[1]中国居民房产税影响：宏观效应和收入差距，《数量
+2018年以来的
+经济技术经济研究》2021年第2期
+代表性论文
+[2]基于CIE-CEAM模型的中国工业“双碳"路径模拟，
+《中国人口·资源与环境》，2022年第7期
+《中国财政税收理论与政策模拟：基于CGE模型》，
+2018年以来的
+社会科学文献出版社，2018年1月，（入选中国社会
+科学院文库）
+代表性著作
+《碳税理论与政策模拟：基于动态碳税CGE模型》，
+中国社会科学出版社，2023年9月
+2018年以来模
+2023年，国家社科基金重点项目《财政货币政策对居民
+型所支撑的研
+究项目
+收入分配的作用机理与效应研究》
+是否使用
+GTAP数据或
+GTAP10.0
+软件（如使用，
+请填写版本)
+MF
+EMF
+CEMF
+===== PAGE 58 =====
+EM
+CEM
+表21CAS-RED模型
+中国多区域-全球CGE模型
+模型名称
+(Region-in-Global
+Environment Dynamic Model, CAS-RED model)
+单位
+中国科学院科技战略咨询研究院
+团队负责人
+夏炎（xiayan@casisd.cn）
+团队成员
+吴洁宋中炜
+支撑软件
+GAMS
+开发时间
+2020
+目前版本
+V2.0版本
+主要应用领域1
+气候变化评估
+主要应用领域2
+国际贸易政策
+[1]Yan Xia, Yishu Kong, Qiang Ji, Dayong Zhang*.2020.
+Impacts of China-U.S. trade conflict on the energy sector
+and policy implications.China Economic Review.China
+Economic Review.58:101360.
+[2] Jie Wu, Yan Xia*, Sebastian Voigt. 2022. Impacts of
+strategic behavior in regional coalitions under the
+2018 年以来的
+sectoral expansion of the carbon market in China.
+代表性论文
+Sustainability Science, 17: 1767-1779.
+[3]刘鹏，夏炎.2021.我国各省增加值出口及其价值链
+嵌入研究一一基于全球和国内价值链双视角，国际
+贸易问题.5:109-126.
+[4]】刘新建，宋中炜，吴洁*.2023.碳中和目标下能源经
+济系统转型：碳定价与可再生能源政策作用有多大？
+中国管理科学，网络首发，
+2018年以来的
+代表性著作
+1.国家自然科学基金国际（地区）合作项目：
+INFEW:U.S.-China:面向可持续发展的空间异质型食
+物-能源-水耦合机理研究：基于多区域整合模型
+2018年以来模
+(2019-2022)
+型所支撑的研
+国家自然科学基金面上项目“收入链视角下全球贸易
+究项目
+利益分配格局解构研究”（2020-2023）
+3．国家自然科学基金青年科学基金项目“考虑技术进步
+的全国统一碳市场中长期影响及动态机制设计研究”
+(2018-2020)
+是否使用
+GTAP数据或
+软件（如使用，
+是，GTAPV10database
+请填写版本)
+EMF
+CEMF
+===== PAGE 59 =====
+EM
+EM
+表 22 GVCGE模型
+模型名称
+GVCGE模型(GlobalValueChainCGEmodel)
+单位
+清华大学
+团队负责人
+高宇宁（gao_yuning@tsinghua.edu.cn）
+团队成员
+张韬，于淼，张美晨，李萌，姜珊，王清纯，王学甜
+支撑软件
+GEMPACK, GAMS
+开发时间
+2018
+目前版本
+主要应用领域1
+全球价值链，贸易政策研究
+主要应用领域2
+资源环境经济，气候变化政策
+[1] Quanrun Chen, Yuning Gao, Chen Pan, Dingyi XU, Kun
+Cai, Dabo Guan, Qi He, Shantong Li, Wanqi Liu, Bo Meng,
+Zhi Wang, Yang Wang,Xianchun Xu, Peihao Yang, Meichen
+Zhang, and Yuanqi Zhou,"An interprovincial input-output
+database distinguishing firm ownership in China from 1997
+to 2017", Scientific Data, 2023, Issue 10, No.293, 1-25.
+[2] Bo Meng, Yu Liu, Yuning Gao, Meng Li, Zhi Wang, Jinjun
+Xue, Robbie Andrew, Kuishuang Feng, Ye Qi, Yongping
+Sun, Huaping Sun Keying Wang, Developing countries
+responsibilities for CO2 emissions in value chains are larger
+and growing faster than those of developed countries, One
+Earth, 2023, Vol. 6, Iss. 2, 17 February 2023, Pages 167-181.
+[3] Yuning Gao, Bo Meng, Gabriele Suder, Jiabai Ye and
+CEMF
+Yongping Sun, Making global value chains visible:
+Transnational corporations versus domestically owned
+firms, Transnational Corporations, Vol. 30, 2023, Number 1,
+2018年以来的
+1-48.
+代表性论文
+[4] Meng Li, Bo Meng, Yuning Gao, Joaquim J.M. Guilhoto,
+Keying Wang, Yong Geng, Material footprints in global
+value chains with consideration of multinational enterprises,
+Resources,Conservation & Recycling,2023,Vol.190,
+106828, 1-22.
+[5] Meng Li, Yuning Gao, Bo Meng, Jing Meng, Tracing
+embodied energy use through global value chains: Channel
+decomposition and analysis ofinfluential factors, Ecological
+Economics,2023,208,107766,1-15.
+[6] Bo Meng, Yuning Gao, Jiabai Ye, Meichen Zhang, Yuqing
+Xing, Trade in factor income and the US-China trade
+balance, China Economic Review, 2022, Vol.73, 101792,1-
+18.
+[7] Yuning Gao, Meng Li, Jinjun Xue, Yu Liu, Evaluation of
+effectiveness of China's carbon emissions trading scheme in
+carbon
+mitigation, Energy Economics, 2020, Vol.90,
+58
+EMF
+===== PAGE 60 =====
+CEM
+104872, 1-15
+[8] Yuning Gao, Meng Li, Yufeng Lu, "What Can Be Learned
+from Billions of Invoices? The Construction and Application
+of China's Multiregional Input-Output Table Based on Big
+Data from the Value-Added Tax", Emerging Market Finance
+and Trade, 2020, Vo1.56, pp. 1925-1941.
+Yuning Gao, Enxhi Tresa, Tao Zhang, Meichen Zhang and
+D'Maris Coffman, Impacts of Trade Tensions and COVID-19 on
+2018年以来的
+Global Value Chains, in Yuqing Xing, Ran Wang, David Dollar
+代表性著作
+ed. Global Value Chain Development Report 2023, World Trade
+Organization, 1211 Geneva 2, Switzerland, ISBN 978-92-870-
+7568-0.
+国家社科基金重大专项项目“****事求事**”
+1. 
+（涉密）
+国家自然科学基金面上项目“全球价值链视角下中国地
+区及行业真实增加值与真实生产率核算及其决定因素
+与政策分析框架研究”（项目编号：71873075）
+3.
+国务院国有资产监督管理委员会项目“中央企业在我国
+稳外贸中支撑作用研究”（项目编号：20225660110）
+国家高端智库项目“新发展格局下全面衡量外贸对国民
+2018 年以来模
+经济贡献的指标体系研究”（项目编号：
+型所支撑的研
+2022WTJN0326)
+究项目
+5.
+国家高端智库项目“疫情以来国际产业转移最新动态、
+对我国影响及对策研究”（项目编号：2021ZZJF0408）
+6.
+清华大学产业发展与环境治理研究中心项目“后疫情时
+代全球价值链重构”（项目编号：20203910042）
+7.
+美国大自然保护协会项目“中国-拉丁美洲农产品贸易及
+隐含碳排放”（20203000063）
+财政部“新时代中国关税水平及对应发展阶段研究”（项
+目编号：20175660313)
+是否使用GTAP
+数据或软件（如
+GTAPv10和GTAPv11数据库
+使用，请填写版
+GEMPACK v12
+本)
+MF
+EMF
+CEMF
+===== PAGE 61 =====
+CEM
+EM
+表23CAPSiM-GTAP连接模型
+模型名称
+CAPSiM-GTAP连接模型
+单位
+北京大学
+团队负责人
+黄季（jkhuang.ccap@pku.edu.cn）
+团队成员
+共4人。解伟（xiewei.ccap@pku.edu.cn）
+支撑软件
+GEMPACK;GAMS
+开发时间
+1995
+目前版本
+V2023
+主要应用领域1
+农业政策模拟分析；粮食安全预测
+主要应用领域2
+气候变化、资源环境政策模拟
+[1]黄季；解伟.中国未来食物供需展望与政策取向[].
+工程管理科技前沿，2022,41(1):17-25.
+[2]】黄季煜,解伟,盛誉,王晓兵,王金霞,刘承芳,侯玲玲全球
+农业发展趋势及2050年中国农业发展展望[J]．中国
+工程科学，2022年第24卷第1期.
+[3] Xie, Wei; Zhu, Anfeng; Ali, Tariq; Zhang, Zhengtao;
+Chen, Xiaoguang; Wu, Feng; Huang, Jikun; Davis, Kyle
+Frankel; Crop switching can enhance environmental
+2018 年以来的
+sustainabilityandfarmer incomes in China, Nature,2023
+代表性论文
+[4] Xie, Wei; Xiong, Wei; Pan, Jie; Ali, Tariq; Cui, Qi; Guan,
+Dabo; Meng, Jing; Mueller, Nathaniel D.; Lin, Erda;
+Davis, Steven J.; Decreases in global beer supply due to
+extreme drought and heat, Nature Plants, 2018, 4(11):
+964-973
+[5] Xie Wei, Huang Jikun, Wang Jinxia, Cui Qi, Robertson
+Ricky: Climate Change Impacts on China's Agriculture:
+The Responses from Market and Trade, China Economic
+Review,62(2020)101256
+2018年以来的
+黄季煜；解伟；中国农产品供需与食物安全的政策研究，
+代表性著作
+科学出版社，2019
+1.
+国家自然科学基金重点项目“国家食物安全预测预警
+和发展战略”
+2018年以来模
+国家自然科学基金优青项目“气候变化与食物安全政
+型所支撑的研
+策研究”
+究项目
+3.
+中国工程院咨询项目*中国农业发展战略研究2050
+4.
+农业农村部乡村振兴专家咨询委员会软科学课题“十
+四五"农业生产力布局研究
+是否使用
+GTAP数据或
+是，GTAPV10
+软件（如使用，
+请填写版本）
+EMI
+CEMF
+===== PAGE 62 =====
+CEM
+EM
+表24Harvard-Tsinghua CGE模型
+模型名称
+Harvard-Tsinghua CGE and Global CGE Models
+单位
+哈佛大学、清华大学
+团队负责人
+曹静（caojing@sem.tsinghua.edu.cn）
+团队成员
+MunHo，刘庆丰，胡弦，张瑜，齐伟
+支撑软件
+GAMS
+开发时间
+1990s
+目前版本
+Version21,Version21E,GlobalCGE
+主要应用领域1
+国内温室气体定价政策
+主要应用领域2
+国际碳关税政策
+[1] Jing Cao, Mun S. Ho, Dale W. Jorgenson, and Chris P.
+Nielsen. 2019."China's emissions trading system and an
+ETS-carbon tax hybrid."Energy Economics, 81, Pp.741-
+753.
+[2] Jing Cao, Mun S Ho, and Rong Ma. 2020."Analyzing
+2018年以来的
+Carbon Pricing Policies using a General Equilibrium
+代表性论文
+Model with Production Parameters Estimated using Firm
+Data." Energy Economics.
+[3] Jing Cao, Mun Ho, and Qingfeng Liu. 2023. "Analyzing
+multi-greenhouse gas mitigation of China using a general
+equilibrium model." Environmental Research Letters,
+18, 2, Pp. 025001.
+2018年以来的
+代表性著作
+2018年以来模
+主持财政部、发改委等研究项目；参与科技部重点研发计
+型所支撑的研
+划项目
+究项目
+是否使用
+GTAP数据或
+GTAP-10,
+GTAP-11
+软件（如使用，
+请填写版本)
+MF
+EMF
+CEMF
+===== PAGE 63 =====
+CEM
+表25H-GEM模型
+CEM
+模型名称
+H-GEM (H refers to heterogeneous firms)
+单位
+中国人民大学
+团队负责人
+装建锁(jspei@ruc.edu.cn)
+团队成员
+艾建伟、陈哲昂、方勇彪、钟道城等
+支撑软件
+Matlab、GAMS
+开发时间
+2015
+目前版本
+2023版
+主要应用领域1
+贸易经济学
+主要应用领域2
+贸易和发展
+[1] Zhong,Jiarui, & Jiansuo Pei#(2023).Carbon Border
+Adjustment Mechanism: A systematic literature review
+oflatest developments,forthcoming,Climate Policy.
+[2] Zhong,Jiarui, & Jiansuo Pei# (2022).Beggar thy
+neighbour? On the competitiveness and welfare impacts
+of the EU's proposed Carbon Border Adjustment
+Mechanism, Energy Policy.
+[3] Pei, Jiansuo, Gaaitzen de Vries, & Meng Zhang (2022).
+International Trade and Covid-19: City-level Evidence
+from China's Lockdown Policy. Journal of Regional
+Science, 62(3): 670-695.
+[4] Chen, Quanrun, Yuning Gao, Jiansuo Pei#, Gaaitzen de
+Vries#, & Fei Wang (2022).China's domestic production
+CEMF
+networks.ChinaEconomicReview.
+2018年以来的
+[5] Chen, Quanrun, Xikang Chen, Jiansuo Pei#, Cuihong
+代表性论文
+Yang, & Kunfu Zhu (2020). Estimating domestic content
+in China's exports: Accounting for a dual-trade regime,
+EconomicModelling,89:43-54.
+[6】装建锁、陈哲昂、艾建伟#（2023）．国企改革的贸易
+增加值效应：基于多部门量化模型的研究，《统计研
+究》（返修）。
+[7】王飞、姜佳彤、林桂军、装建锁井（2023）．全球价值
+链视角下的中国制造业服务化：1995-2019，《国际经
+贸探索》，39(6)：35-51.
+[8]林桂军、王飞、任靓、裴建锁（2022）．全球价值链
+视角下我国对美国出口的结构变迁与服务化趋势，
+《国际贸易问题》，(5)：1-20.
+[9】裴建锁、姚顺利（2018）.“新常态"的贸易效应：基于
+中国DPNGEM模型的研究，《管理评论》，30(5)：112-
+118.
+EMF
+CEMF
+===== PAGE 64 =====
+Dollar, David, Bilal Khan, & Jiansuo Pei (2019). Should high
+CEM
+domestic value added in exports be an objective of policy? in
+D. Dollar, E. Ganne, V. Stolzenburg and Z. Wang (eds.),
+2018年以来的
+GlobalValueChainDevelopmentReport2019:
+代表性著作
+Technological Innovation, Supply Chain Trade, and Workers
+in a Globalized World, 141-153.World Trade Organization,
+1211 Geneva 2, Switzerland.
+1.
+2023-2026，新发展格局下产业链供应链韧性和安全
+水平评估与对策研究，研究阐释党的二十大精神国家
+社科基金重大项目，
+2.
+2023-2026，新发展格局下全球价值链的演变与产业
+链升级，国家自科基金面上项目，
+3.
+2023-2025，新发展格局下新型县域经济发展：新事
+实、新挑战与产业链新视角，中国人民大学科学研究
+基金重大项目，
+4.
+2022-2024，我国投入产出表数据质量评估及质量控
+2018年以来模
+制方法研究一以非竞争型投入产出表编制为例，国
+型所支撑的研
+家统计局重大项目，
+究项目
+5.
+2020-2021，重大突发公共卫生事件对产业供应链的
+影响及对策，国家自然科学基金疫情专项项目，
+6.
+2019-2022,Integrated economic analysis of climate
+change protection and local air pollution (INTEGRATE),
+German Federal Ministry of Education and Research
+(BMBF) and the Ministry of Science and Technology
+ofChina（MOST)，子课题负责人，
+CEM'
+7.
+2017-2020，追溯中国在全球生产网络中的碳排放：基
+于微观数据改进的IO表与GEM模型，国家自科基
+金面上项目，
+是否使用
+GTAP数据或
+软件（如使用，
+GTAPv10
+请填写版本）
+ME
+EMF
+CEMF
+===== PAGE 65 =====
+CEM
+EM
+表26ACESS模型
+模型名称
+经济系统模拟可计算一般均衡CGE模型（ACESS）
+单位
+北京师范大学
+团队负责人
+潘浩然（phr128@163.com）
+团队成员
+林欣月，梁爽，都倩仪，王昱斐，梁俞鑫
+支撑软件
+GAMS
+开发时间
+2021.03
+目前版本
+1.0
+主要应用领域1
+农业AFOLU及化石能源碳排放测算、碳中和路径研究
+主要应用领域2
+资源环境政策研究、新冠疫情冲击影响评估、经济增长预测
+[1] Pan, H.; Failler, P.; Du, Q; Floros, C.; Malvarosa, L.;
+Chassot, E.; Placenti, V. An Inter-Temporal Computable
+General Equilibrium Model for Fisheries. Sustainability
+2022,14, 6444.
+[2] Liang, S.; Lin, X.; Liu, X.,; Pan, H. The Pathway to China's
+Carbon Neutrality Based on an Endogenous Technology
+CGE Model. Int. J.Environ. Res.Public Health 2022, 19,
+6251.
+2018 年以来的
+[3] Du, Q.; Pan, H.; Liang, S.; Liu, X. Can Green Credit Policies
+代表性论文
+Accelerate the Realization of the Dual Carbon Goal in
+China? Examination Based on an Endogenous Financial
+CGE Model. Int. J. Environ. Res. Public Health 2023, 20,
+4508.
+[4] Lin X, Qi L, Pan H, et al. COVID-19 Pandemic,
+Technological Progress and Food Security Based on a
+Dynamic CGE Model[J]. Sustainability, 2022, 14(3): 1842.
+[5］林欣月．流行病-社会-经济可计算一般均衡综合评估模
+型与新冠疫情经济影响研究[D].北京师范大学博士论
+文，2022.
+2018年以来的
+中金公司《碳中和经济学》第一章节
+代表性著作
+2018年以来模
+北京社科基金重大规划项目《北京市流行病-社会-经济三方
+型所支撑的研
+联结可计算一般均衡CGE综合评价模型的构建与应用》
+究项目
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+EMF
+EMF
+CEMF
+===== PAGE 66 =====
+EM
+CEM
+表27IMEDICGE模型
+模型名称
+Sustainable Development I Computable General Equilibrium
+model(IMED|CGE)
+单位
+北京大学环境科学与工程学院
+团队负责人
+戴瀚程（dai.hancheng@pku.edu.cn)
+团队成员
+戴瀚程、谢杨、刘晓瑞、郭超艺、张思露、周子乔、黄佳怡
+支撑软件
+GAMS/MPSGE
+开发时间
+2009年起
+无明确版本划分
+目前版本
+2017年中国31省多区模型
+2018年中国国家模型
+2014年全球26区模型
+主要应用领域1
+碳配额约束、碳交易政策、碳税、污染税和可再生能源政策
+主要应用领域2
+减污降碳协同分析，水-资源-能源耦合分析
+[1] Liu, Xiaoyu#, Hancheng Dai#, Yoshihide Wada, Taher Kahil,
+Jinren Ni, Bin Chen, Yan Chen, Chaoyi Guo, Chen Pan,
+Xiaorui Liu and Yong Liu* (2022). Achieving carbon
+neutrality enables China to attain its industrial water use
+target. In: One Earth vol. 5 (2), pp. 188-200. URL:
+https://doi.org/10.1016/j.oneear.2022.01.007.
+[2] Cao, Jing, Hancheng Dai*, Shantong Li*, Chaoyi Guo,
+CEMF
+Jianwu He, Mun Ho, Wenjia Cai, Jifeng Li, Yu Liu, Can
+Wang, Libo Wu and Xiliang Zhang (2021). The General
+Equilibrium Impacts of Carbon Tax Policy in China: A Multi-
+model Comparison. In: Energy Economics vol. 99, p.
+105284.
+URL:
+2018年以来的
+https://www.sciencedirect.com/science/article/pii/
+代表性论文
+S0140988321001894.
+[3] Jin, Yana, Xiaorui Liu, Xiang Chen and Hancheng Dai*
+(2020).How carbon emission allowances allocation matters
+for China's emission trading: a general equilibrium analysis.
+In:Energy Economics vol.92, p.105012.URL:
+https://www.sciencedirect.com/science/article/
+pii/S0140988320303522.
+[4] Su, Qiong, Hancheng Dai*, Yun Lin, Yang Xie, Huan Chen
+and R. Karthikeyan (2019). General equilibrium analysis of
+the cobenefits and trade-offs of carbon mitigation on local
+industrial water use and pollutants discharge in China. In:
+Environmental Science & Technology vol. 53 (3), pp. 1715-
+1724. URL: https:/pubs.acs.org/doi/10.1021/
+acs.est.8b05763.
+65
+EME
+CEMF
+===== PAGE 67 =====
+CEM
+[5] Wu, Rui, Hancheng Dai*, Yong Geng, Yang Xie and Xu Tian
+(2019). Impacts of export restructuring on national economy
+and CO2 emissions: A general equilibrium analysis for
+China. In: Applied Energy Page 2 of 12 vol. 248, pp. 64-78.
+URL:https:/www.sciencedirect.com/science/
+article/pi/S0306261919306567.
+[6] Weng, Zhixiong, Hancheng Dai*, Zhongyu Ma*, Yang Xie
+and Peng Wang (2018).A general equilibrium assessment of
+economic impacts of provincial unbalanced carbon intensity
+targets in China. In: Resources, Conservation and Recycling
+vol.
+133,
+157168.
+pp.
+URL:
+https://www.sciencedirect.com/science/article/
+pi/S0921344918300326.
+戴瀚程(2021).“第五章：气候变化减缓：模型与方法".In：
+气候变化经济学.Ed.by张晓玲，欧训民．中国社会科学
+出版社.
+2018年以来的
+Hancheng Dai, Shouquat Hossain and Xiaorui Liu (2020).
+代表性著作
+"The climate and economic benefits of developing renewable
+energy in China'. In: Renewable-Energy-Driven Future:
+Technologies, Modelling, Applications, Sustainability and
+Policies. Academic Press, pp. 257-285.
+1.
+2023/01-2025/12国家自然科学基金优秀青年科学基金
+项目，气候与环境政策研究
+2.
+2023/01-2025/12科技部国家重点研发计划课题，面向减
+污降碳协同增效的四大结构调整优化技术
+2021/04-2023/12国家社科基金重点项目课题，基于复杂
+2018年以来模
+系统建模的碳中和多维政策模拟仿真研究
+型所支撑的研
+2021/01-2024/12国家自然科学基金面上项目，中国省级
+究项目
+碳减排与节水目标的协同与互斥效应研究
+5.
+2018/01-2021/12中爱自然科学基金委员会双边合作项
+目，可持续能源转型之路：全球和中爱能源-经济-环境-
+气候多模型创新集成模拟
+6.
+2017/12－2021/05科技部国家重点研发计划，京津冀及
+周边地区大气污染联防联控及重污染应急技术与集成示
+是否使用
+GTAP数据或
+软件（如使用，
+是，GTAP10、GTAP11数据库
+请填写版本）
+ME
+EMF
+CEMF
+===== PAGE 68 =====
+CEM
+表28-1C3IAM模型
+China's Climate Change Integrated Assessment Model
+模型名称
+(CIAM)
+单位
+北京理工大学能源与环境政策研究中心
+团队负责人
+魏一鸣（wei@bit.edu.cn；liangqiaomei@bit.edu.cn）
+魏一鸣；梁巧梅；余碧莹；廖华；唐葆君；刘兰翠；袁满
+团队成员
+晨；刘丽静；姚云飞；康佳宁；陈炜明；曹云飞
+支撑软件
+GAMS
+开发时间
+2016
+目前版本
+2.0
+主要应用领域1
+优化全球温室气体排放路径及评估相应的减缓和适应挑战
+主要应用领域2
+气候目标下全球各国的减排成本与收益评估
+[1] Wei Y-M, Han R, Wang C, Yu B, Liang Q-M, Yuan X-C, et
+al. Self-preservation strategy for approaching global
+warming targets in the post-Paris Agreement era. Nature
+Communications 2020;11:1624.
+[2] Wei Y-M, Han R, Liang Q-M, Yu B-Y, Yao Y-F, Xue M-M,
+et al. An integrated assessment of INDCs under Shared
+Socioeconomic Pathways: an implementation of C3IAM.
+NaturalHazards2018;92:585-618.
+[3] Wei Y-M, Kang J-N, Liu L-C, Li Q, Wang P-T, Hou J-J, et
+al. A proposed global layout of carbon capture and storage
+in line with a 2°C climate target. Nature Climate Change
+CEMF
+2021;11:112-8.
+[4] Yang P, Yao Y-F, Mi Z, Cao Y-F, Liao H, Yu B-Y, et al.
+2018年以来的
+Social cost of carbon under shared socioeconomic
+代表性论文
+pathways.Global EnvironmentalChange2018;53:225-32.
+[5] Li X, Yu B. Peaking CO2 emissions for China's urban
+Energy
+passenger
+transport
+sector.
+Policy
+2019;133:110913.
+[6] Zhang C-Y, Yu B, Chen J-M, Wei Y-M. Green transition
+pathways for cement industry in China. Resources,
+Conservation and Recycling 2021;166:105355.
+[7] Zhao G, Yu B, An R, Wu Y, Zhao Z. Energy system
+transformations and carbon emission mitigation for China
+to achieve global 2 C climate target. Journal of
+EnvironmentalManagement2021;292:112721.
+[8]］魏一鸣，余碧莹，唐葆君等．中国碳达峰碳中和时间表
+与路线图研究.北京理工大学学报（社会科学版）
+2022;24:13-26.
+魏一鸣，梁巧梅，余碧莹，廖华．气候变化综合评估模型与
+2018 年以来的
+代表性著作
+应用．北京：科学出版社；2023.
+EMF
+===== PAGE 69 =====
+CEM
+中华人民共和国科学技术部，国家重点研发计划项目，
+2018年以来模
+2016YFA0602600，气候变化经济影响综合评估模式研
+型所支撑的研
+究，2016-07至2021-01
+究项目
+国家自然科学基金委员会，重大项目，72293600，气候
+经济复杂系统建模与应用研究，2023-01至2027-12
+是否使用
+GTAP数据或
+软件（如使用，
+GTAPv9, GTAPv10,GTAPv11
+请填写版本）
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 70 =====
+EM
+EM
+表28-2GEEPA模型
+模型名称
+Global Energy and Environmental Policy Analysis (GEEPA)
+单位
+北京理工大学能源与环境政策研究中心
+团队负责人
+魏一鸣（wei@bit.edu.cnliangqiaomei@bit.edu.cn）
+魏一鸣；梁巧梅；刘丽静；姚云飞；廖华；余碧莹；唐葆君；
+团队成员
+陈炜明；沈萌；曹云飞
+支撑软件
+GAMS
+开发时间
+2016
+目前版本
+2.0
+主要应用领域1
+全球气候目标下的温室气体减排路径评估
+主要应用领域2
+国际贸易壁垒、合作减排机制等的社会经济与环境影响评估
+[1] Liu L-J, Jiang H-D, Liang Q-M, Creutzig F, Liao H, Yao Y-
+F, et al. Carbon emissions and economic impacts of an EU
+embargo on Russian fossil fuels. Nature Climate Change
+2023;13:2906.
+[2] Zhang KUN, Liang Q-M, Liu L-J, Xue M-M, Yu B-Y, Wang
+CE, et al. Impacts of mechanisms to promote participation
+in climate mitigation: Border carbon adjustments versus
+uniform tariff measures. Climate Change Economics
+2020;11:2041007.
+[3] Liu L-J, Creutzig F, Yao Y-F, Wei Y-M, Liang Q-M.
+EM
+Environmental and economic impacts of trade barriers: the
+2018年以来的
+example of China-US trade friction. Resource and Energy
+代表性论文
+Economics2020;59:101144.
+[4] Jiang H-D, Purohit P, Liang Q-M, Dong K, Liu L-J. The
+cost-benefit comparisons of China's and India's NDCs based
+on carbon marginal abatement cost curves. Energy
+Economics 2022;109:105946.
+[5] Liu L-J, Yao Y-F, Liang Q-M, Qian X-Y, Xu C-L, Wei S-Y,
+et al. Combining economic recovery with climate change
+mitigation: A global evaluation of financial instruments.
+Economic Analysis and Policy 2021;72:43853.
+[6] Wei Y-M, Liu L-J, Liang Q-M, Yu B-Y, Liu L-C, Yao Y-F, et
+al. Pathway comparison of limiting global warming to 2° C.
+Energy and Climate Change 2021;2:100063.
+2018年以来的
+代表性著作
+中华人民共和国科学技术部，国家重点研发计划项目，
+2018年以来模
+2016YFA0602600，气候变化经济影响综合评估模式研
+究，2016-07至2021-01
+型所支撑的研
+国家自然科学基金委员会，优秀青年科学基金项目，
+究项目
+71422011，能源经济复杂系统建模与能源环境政策研
+究，2015.01至2017.12
+EMF
+===== PAGE 71 =====
+CEM
+国家自然科学基金委员会，国际合作与交流项目，
+71461137006，中欧城市低碳发展路径的动态模拟、对比
+及应用研究，2014.09至2017.08
+是否使用
+GTAP数据或
+软件（如使用，
+GTAPv9, GTAPv10,GTAPv11
+请填写版本）
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF
+===== PAGE 72 =====
+EM
+CEM
+表28-3MR.CEEPA模型
+Multi-Regional China Energy and Environmental Policy
+模型名称
+Analysis (MR.CEEPA)
+单位
+北京理工大学能源与环境政策研究中心
+团队负责人
+魏一鸣（wei@bit.edu.cn；liangqiaomei@bit.edu.cn）
+魏一鸣；梁巧梅；刘丽静；姚云飞；廖华；余碧莹；唐葆
+团队成员
+君；陈炜明
+支撑软件
+GAMS
+开发时间
+2017
+目前版本
+1.0
+主要应用领域1
+区域减排责任分担及减排路径设计
+主要应用领域2
+Jiang H-D, Purohit P, Liang Q-M, Liu L-J, Zhang Y-F.
+2018年以来的
+Improving the regional deployment of carbon mitigation efforts
+代表性论文
+by incorporating air-quality co-benefits: A multi-provincial
+analysis of China.Ecological Economics 2023;204:107675.
+2018年以来的
+代表性著作
+国家自然科学基金委员会，优秀青年科学基金项目
+71422011，能源经济复杂系统建模与能源环境政策研
+究，2015.01至2017.12
+2018年以来模
+国家自然科学基金委员会，面上项目，72074022，协同
+型所支撑的研
+减排视角下的中国区域低碳发展战略及合作减排机制
+究项目
+研究，2021.01至2024.12
+3.
+国家自然科学基金委员会，青年科学基金项目，
+72104022：面向绿色复苏的气候-环境协同治理政策建
+模及应用研究，2022.01至2024.12
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本)
+EMF
+EMF
+CEMF
+===== PAGE 73 =====
+EM
+CEM
+表28-4 CEEPA模型
+模型名称
+China Energy and Environmental Policy Analysis (CEEPA)
+单位
+北京理工大学能源与环境政策研究中心
+团队负责人
+魏一鸣（wei@bit.edu.cn；liangqiaomei@bit.edu.cn)
+魏一鸣；梁巧梅；刘丽静；姚云飞；廖华；余碧莹；唐葆
+团队成员
+君；陈炜明
+支撑软件
+GAMS
+开发时间
+2004
+目前版本
+5.0
+主要应用领域1
+多维宏观能源环境政策的综合影响评估
+主要应用领域2
+重点能源密集型行业的减排策略模拟和分析
+[1] Zhang K, Yao Y-F, Liang Q-M, Saren G. How should
+China prioritize the deregulation of electricity prices in the
+contextofcarbonpricing?Acomputablegeneral
+equilibrium analysis. Energy Economics 2021;96:105187.
+[2] Liu L-J, Liu L-C, Liang Q-M. Restructuring investment to
+promote a winwin situation for both the economy and the
+environment in China. Renewable and Sustainable Energy
+Reviews 2023;182:113363.
+[3] Jiang H-D, Xue M-M, Dong K-Y, Liang Q-M. How will
+natural gas market reforms affect carbon marginal
+abatement costs? Evidence from China. Economic
+Systems Research 2022;34:129-50.
+CEMF
+[4] Yao Y-F, Wei Y-M, Liang Q-M, Zhai S. Sharing mitigation
+burden among sectors in China: Results from CEEPA.
+2018年以来的
+Energy Sources, Part B: Economics, Planning, and Policy
+代表性论文
+2018;13:141-8.
+[5] Jiang H-D, Xue M-M, Liang Q-M, Masui T, Ren Z-Y. How
+do demand-side policies contribute to the electrification
+and decarburization of private transportation in China? A
+CGE-based analysis. Technological Forecasting and Social
+Change2022;175:121322.
+[6] Jiang H-D, Liu L-J, Dong K, Fu Y-W. How will sectoral
+coverage in the carbon trading system affect the total oil
+consumption in China? A CGE-based analysis. Energy
+Economics2022;110:105996.
+[7] Jiang H-D, Liu L-J, Deng H-M. Co-benefit comparison of
+carbon tax, sulfur tax and nitrogen tax: The case of China.
+Sustainable Production and Consumption 2022;29:239
+48.
+2018年以来的
+代表性著作
+CEMF
+===== PAGE 74 =====
+CEM
+国家自然科学基金委员会，优秀青年科学基金项目，
+71422011，能源经济复杂系统建模与能源环境政策研
+究，2015.01至2017.12
+2018年以来模
+国家自然科学基金委员会，面上项目，72074022，协同
+型所支撑的研
+减排视角下的中国区域低碳发展战略及合作减排机制
+究项目
+研究，2021.01至2024.12
+3.
+国家自然科学基金委员会，青年科学基金项目，
+72104022：面向绿色复苏的气候-环境协同治理政策建
+模及应用研究，2022.01至2024.12
+是否使用
+GTAP数据或
+软件（如使用，
+请填写版本）
+CEMF
+CEMF
+CEMF
+EMF
+EMF
+CEMF

@@ -1,0 +1,119 @@
+{
+  "id": "case-2025-0154",
+  "version": 1,
+  "slug": "case-2025-0154",
+  "title": "面向基层治理的众智“AI+基础管控”解决方案",
+  "organization": {
+    "id": "org-0154",
+    "name": "武汉众智数字技术有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "政务与公共服务",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉众智数字技术有限公司（中国信科集团旗下）面向基层治理打造“众智 AI+基础管控”解决方案，依托其在治安防控、公安云大数据、指挥调度等领域的技术积累，赋能基层基础管控智能化。",
+  "background": "武汉众智数字技术有限公司是中信科（烽火科技集团）旗下企业，聚焦智慧城市与公共安全领域。其“面向基层治理的众智AI+基础管控解决方案”由湖北省/武汉市推荐入选工信部2025人工智能应用典型案例（产品应用方向）。",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "武汉众智数字技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-whzz-1",
+      "title": "武汉众智数字技术有限公司-中国安防大数据服务平台",
+      "sourceType": "platform",
+      "publisher": "中国安防大数据服务平台",
+      "originalUrl": "https://www.afdata.org.cn/EnterpriseArchives/f81c9dea-d49e-11ee-82b3-fa163e9af115",
+      "accessibility": "available",
+      "rightsNote": "行业平台，佐证公司治安防控与公安云大数据业务背景。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "基层治理",
+    "基础管控",
+    "公安大数据"
+  ],
+  "seo": {
+    "metaTitle": "面向基层治理的众智“AI+基础管控”解决方案",
+    "metaDescription": "面向基层治理的众智“AI+基础管控”解决方案",
+    "keywords": [
+      "武汉众智数字技术有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国信息通信科技集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

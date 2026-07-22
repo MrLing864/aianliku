@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0141",
+  "version": 1,
+  "slug": "case-2025-0141",
+  "title": "智慧教育融合创新示范应用",
+  "organization": {
+    "id": "org-0141",
+    "name": "科大讯飞华南有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "教育",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "科大讯飞股份有限公司以星火教育大模型为核心，构建覆盖教学、学习、考试、评价、管理的全场景智慧教育方案，践行'因材施教'，已在 90+ 区域规模化落地，并以'AI 赋能教育融合创新示范'入选本次行业赋能方向典型案例。",
+  "background": "科大讯飞自 1999 年布局智慧教育，以星火认知大模型（含星火 X1/X2 深度推理模型）为底座，依托全栈自主可控 AI 技术，构建贯通校内+家庭、基础教育到职业教育的产品体系。",
+  "problem": "教育资源不均衡、教师负担重、难以规模化因材施教。",
+  "solution": "以星火教育大模型支撑步骤级批改、启发式讲解、精准诊断与个性化学习，提供 AI 黑板、星火智能批阅机、AI 职教教学平台等产品，实现区域级因材施教。",
+  "implementationSteps": [
+    "以星火大模型构建教育全场景能力底座",
+    "落地 AI 黑板、智能批阅机、自适应学习等产品",
+    "在 90+ 区域规模化推广因材施教模式"
+  ],
+  "duration": "持续落地",
+  "cost": "",
+  "results": [
+    {
+      "label": "规模化落地",
+      "value": "90+ 区域",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-iflytek-1"
+    }
+  ],
+  "roi": "",
+  "risks": "大模型教育应用的准确性与合规、师生数字素养。",
+  "editorComment": {
+    "suitableFor": "基础教育与职业教育数字化转型",
+    "prerequisites": "具备教育数据与教学场景基础",
+    "priority": "建议优先",
+    "text": "星火教育大模型+因材施教，规模化标杆。"
+  },
+  "implementers": [
+    {
+      "name": "科大讯飞华南有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-iflytek-1",
+      "title": "赋能90+区域，科大讯飞规模化因材施教模式亮相世界舞台",
+      "sourceType": "news",
+      "publisher": "慧聪教育网",
+      "originalUrl": "https://edu.hczyw.com/2025/0821/78052.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证 90+ 区域规模化落地。",
+      "publishedAt": "2025-08-21"
+    },
+    {
+      "publicId": "src-iflytek-2",
+      "title": "科大讯飞智慧教育",
+      "sourceType": "official",
+      "publisher": "科大讯飞",
+      "originalUrl": "https://edu.iflytek.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证全场景教育产品体系。",
+      "publishedAt": "2026-07-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "资源不均衡",
+    "教师负担重"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "教育大模型",
+    "智能批改"
+  ],
+  "modelStack": [
+    "星火教育大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "智慧教育",
+    "星火大模型",
+    "因材施教",
+    "教育大模型"
+  ],
+  "seo": {
+    "metaTitle": "智慧教育融合创新示范应用",
+    "metaDescription": "智慧教育融合创新示范应用",
+    "keywords": [
+      "科大讯飞华南有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "广东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

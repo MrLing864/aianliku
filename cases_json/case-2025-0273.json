@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0273",
+  "version": 1,
+  "slug": "case-2025-0273",
+  "title": "NovaFlow 行业智能体基准评测与监测平台应用",
+  "organization": {
+    "id": "org-0273",
+    "name": "支付宝（杭州）数字服务技术有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "人工智能基础设施",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-infra",
+      "name": "算力基础设施与AI平台",
+      "slug": "scn-ai-infra",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "支付宝（蚂蚁集团）实践“面向金融服务的多智能体协同创新应用”，依托百灵大模型能力与支付宝 AI 开放平台（百宝箱智能体开发平台），构建以 AI 版支付宝“阿宝”为代表的金融智能体生态，兼容 MCP、A2A 等通用协议并发布 ACT（智能体商业信任协议），让用户一句话即可调用数十项金融服务，推动智能体在真实交易与履约场景的可信落地。",
+  "background": "蚂蚁已将百灵大模型能力应用在支付宝 500 多个场景、累计服务亿级用户；2026 年发布 AI 版支付宝与智能体开放平台，补齐金融交易与履约的信任基础设施（ACT 协议）。",
+  "problem": "金融服务场景复杂、用户需求多样，传统服务触达与履约效率低。",
+  "solution": "金融多智能体协同，以百灵大模型+AI 开放平台构建可信金融智能体生态。",
+  "implementationSteps": [
+    "构建百灵大模型与支付宝 AI 开放平台",
+    "发布 AI 版支付宝与 ACT 信任协议",
+    "在金融交易与履约场景落地智能体"
+  ],
+  "duration": "2026 发布 AI 版",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "金融合规、智能体交易可信与安全防护。",
+  "editorComment": {
+    "suitableFor": "金融服务智能体与开放生态",
+    "prerequisites": "具备大模型与支付履约体系",
+    "priority": "建议优先",
+    "text": "金融多智能体+ACT 协议的可信商业范式。"
+  },
+  "implementers": [
+    {
+      "name": "支付宝（杭州）数字服务技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-alipay-1",
+      "title": "支付宝AI开放平台开启内测，构建智能体商业生态",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1046942453_122396381",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证支付宝 AI 开放平台与 ACT 协议。",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "publicId": "src-alipay-2",
+      "title": "技术加速赋能实体经济 支付宝AI开放平台推动智能体商业落地",
+      "sourceType": "news",
+      "publisher": "中国经济网",
+      "originalUrl": "http://tech.ce.cn/xx/202607/t20260707_3073548.shtml",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证兼容 MCP/A2A 与金融履约基础设施。",
+      "publishedAt": "2026-07-07"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "场景复杂",
+    "履约效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体协同",
+    "智能体开放平台"
+  ],
+  "modelStack": [
+    "支付宝金融智能体生态"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "支付宝",
+    "金融智能体",
+    "百宝箱",
+    "ACT协议"
+  ],
+  "seo": {
+    "metaTitle": "NovaFlow 行业智能体基准评测与监测平台应用",
+    "metaDescription": "NovaFlow 行业智能体基准评测与监测平台应用",
+    "keywords": [
+      "支付宝（杭州）数字服务技术有限公司",
+      "支撑保障方向"
+    ]
+  },
+  "miitDirection": "支撑保障方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

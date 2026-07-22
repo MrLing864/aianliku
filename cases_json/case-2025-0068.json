@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0068",
+  "version": 1,
+  "slug": "case-2025-0068",
+  "title": "基于 AI 视频智能感知的矿山安全生产一体化管控平台实践",
+  "organization": {
+    "id": "org-0068",
+    "name": "湖南有色金属控股集团有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "湖南有色金属控股集团融合AI视频分析、物联网感知与大数据，建成生产安全态势感知平台，实现'技防+人防'深度融合，在井下关键区域、尾矿库等重点场所部署300余台高清摄像机及各类传感器，构建矿山安全生产一体化管控。",
+  "background": "有色金属矿山安全压力大，传统人防难以全覆盖，亟需智能化安全管控。",
+  "problem": "矿山安全依赖人防、覆盖有限，井下与尾矿库等重点场所风险监测难。",
+  "solution": "湖南有色融合AI视频分析、物联网感知、大数据等技术，建成生产安全态势感知平台，实现'技防+人防'深度融合；在井下关键区域、尾矿库等重点场所部署300余台高清摄像机及各类传感器，构建矿山安全生产一体化管控平台。",
+  "implementationSteps": [
+    "融合AI视频+物联网+大数据构建安全态势感知平台",
+    "实现技防+人防深度融合",
+    "井下/尾矿库等重点场所部署300+摄像机与传感器",
+    "构建矿山安全生产一体化管控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "重点场所部署摄像机/传感器",
+      "value": "300+",
+      "unit": "台",
+      "kind": "actual",
+      "sourceId": "src-hn-1"
+    }
+  ],
+  "roi": "",
+  "risks": "矿山环境复杂、网络覆盖难；AI视频分析需适应井下低照度与粉尘。",
+  "editorComment": {
+    "suitableFor": "有色金属/矿山企业安全生产一体化管控",
+    "prerequisites": "具备视频监控与物联网感知基础",
+    "priority": "建议优先",
+    "text": "AI视频+物联网的矿山安全一体化管控，适合矿山安全提效参考。"
+  },
+  "implementers": [
+    {
+      "name": "湖南有色金属控股集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hn-1",
+      "title": "'智'引转型新路 '数'造矿山未来——湖南有色黄沙坪矿业",
+      "sourceType": "news",
+      "publisher": "中国有色金属报",
+      "originalUrl": "https://www.cnmn.com.cn/ShowNews1.aspx?id=467592",
+      "publishedAt": "2025-12-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hn-2",
+      "title": "湖南有色五矿铜业智能工厂智慧集控中心投运",
+      "sourceType": "news",
+      "publisher": "湖南有色",
+      "originalUrl": "https://hng.minmetals.com.cn/jygl/kjcx/202606/t20260615_316015.html",
+      "publishedAt": "2026-06-15",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "矿山安全",
+    "人防覆盖",
+    "风险监测"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI视频+物联网构建矿山安全一体化管控，300+感知设备",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI视频分析",
+    "物联网感知",
+    "安全生产管控"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "有色金属",
+    "安全生产"
+  ],
+  "seo": {
+    "metaTitle": "湖南有色金属控股 基于AI视频智能感知的矿山安全生产一体化管控平台实践",
+    "metaDescription": "湖南有色融合AI视频+物联网构建矿山安全态势感知平台，300+感知设备实现技防+人防。",
+    "keywords": [
+      "湖南有色",
+      "AI视频",
+      "矿山安全",
+      "一体化管控"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

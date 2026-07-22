@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0081",
+  "version": 1,
+  "slug": "case-2025-0081",
+  "title": "AI 赋能响箭云之家装备制造数智化运营管理系统",
+  "organization": {
+    "id": "org-0081",
+    "name": "湖南响箭重工科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "湖南响箭重工以'响箭云之家'装备制造数智化运营管理系统构建基于海量数据采集、汇聚的工业互联网平台，实现装备制造数字化、网络化、智能化运营管控，并入选省级工业互联网平台。",
+  "background": "专精特新装备制造企业面临生产运营数据分散、管控粗放的问题。",
+  "problem": "装备制造运营数据分散，缺乏统一平台实现数字化、网络化、智能化管控。",
+  "solution": "响箭重工构建'响箭云之家'装备制造数智化运营管理系统，作为面向制造业数字化、网络化、智能化需求的工业互联网平台，基于海量数据采集与汇聚，实现生产运营全过程的数字化管控；该平台入选湖南省第六批省级工业互联网平台。",
+  "implementationSteps": [
+    "构建响箭云之家数智化运营管理系统",
+    "基于海量数据采集与汇聚",
+    "实现装备制造数字化/网络化/智能化管控",
+    "入选省级工业互联网平台"
+  ],
+  "duration": "2024年12月入选省级平台",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "平台需与产线设备深度集成；中小企业数据治理基础薄弱。",
+  "editorComment": {
+    "suitableFor": "中小型装备制造企业数智化运营管理",
+    "prerequisites": "具备数据采集与联网基础",
+    "priority": "条件具备后开展",
+    "text": "装备制造数智化运营管理平台，适合专精特新企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "湖南响箭重工科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xj-1",
+      "title": "常德2家企业的工业互联网平台入选省级名单（响箭重工）",
+      "sourceType": "news",
+      "publisher": "常德市人民政府",
+      "originalUrl": "https://www.changde.gov.cn/cdzx/bmdt/content_1099286",
+      "publishedAt": "2024-12-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xj-2",
+      "title": "响箭重工机械组队展示工业互联网平台",
+      "sourceType": "news",
+      "publisher": "工联网",
+      "originalUrl": "https://www.iitime.com.cn/html/10204/1932593.htm",
+      "publishedAt": "2024-12-16",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据分散",
+    "运营管控",
+    "智能化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "响箭云之家装备制造数智化运营管理系统，省级工业互联网平台",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业互联网平台",
+    "数智化运营",
+    "装备制造"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "装备制造",
+    "工业互联网"
+  ],
+  "seo": {
+    "metaTitle": "湖南响箭重工 AI赋能响箭云之家装备制造数智化运营管理系统",
+    "metaDescription": "响箭重工以响箭云之家工业互联网平台实现装备制造数智化运营，入选省级平台。",
+    "keywords": [
+      "响箭重工",
+      "响箭云之家",
+      "装备制造",
+      "工业互联网"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

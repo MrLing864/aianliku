@@ -1,0 +1,165 @@
+{
+  "id": "case-2025-0003",
+  "version": 1,
+  "slug": "case-2025-0003",
+  "title": "全栈国产化超万卡智算训练集群赋能人工智能生态建设",
+  "organization": {
+    "id": "org-0003",
+    "name": "中移（苏州）软件技术有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移（苏州）软件技术有限公司打造全栈国产化超万卡智算训练集群，突破万卡级集群管理与调度难题，为人工智能生态提供自主可控的大模型训练基础设施。",
+  "background": "大模型训练对底层算力诉求从千亿迈向万亿参数，超万卡集群成为大模型基建标配，但集群管理、调度与稳定性是核心挑战。",
+  "problem": "万卡级集群管理与调度难；超大规模算力集群存在调度效率低、通信保障不可靠、故障诊断与自愈能力弱等业界难题。",
+  "solution": "依托中国移动'云智算'服务与N+X智算中心布局，在全国范围内建成多个智算节点，打造全栈国产化超万卡智算训练集群，攻关万卡级集群管理与调度，提升训练稳定性。",
+  "implementationSteps": [
+    "基于N+X智算中心布局建设多智算节点",
+    "构建全栈国产化超万卡训练集群",
+    "攻关万卡级集群管理与调度技术",
+    "实现长周期训练稳定运行与故障智能诊断自愈"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "集群规模",
+      "value": "超万卡",
+      "kind": "actual"
+    },
+    {
+      "label": "训练稳定性",
+      "value": "行业领先（长周期训练持续稳定）",
+      "kind": "actual",
+      "sourceId": "src-yd-2"
+    }
+  ],
+  "roi": "",
+  "risks": "超万卡集群对网络、存储与能耗要求极高；全栈国产化生态兼容性与长期运维成本需关注。",
+  "editorComment": {
+    "suitableFor": "需要大规模自主可控训练算力的央企、大模型企业与科研机构",
+    "prerequisites": "具备智算中心与国产化软硬件生态",
+    "priority": "条件具备后开展",
+    "text": "算力底座方向标杆，体现国产化万卡集群能力，适合作为区域/行业公共训练算力。"
+  },
+  "implementers": [
+    {
+      "name": "中移（苏州）软件技术有限公司",
+      "role": "申报单位"
+    },
+    {
+      "name": "中国移动通信集团有限公司",
+      "role": "推荐单位/集团"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yd-1",
+      "title": "苏州高新区2个案例入选工信部人工智能应用典型",
+      "sourceType": "news",
+      "publisher": "中国高新网",
+      "originalUrl": "http://www.chinahightech.com/yuanqu/2026-07/04/content_542133.html",
+      "publishedAt": "2026-07-04",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yd-2",
+      "title": "中国移动实现智算万卡池稳定运行新突破",
+      "sourceType": "news",
+      "publisher": "中国移动",
+      "originalUrl": "https://www.10086.cn/aboutus/news/groupnews/index_detail_53712.html",
+      "publishedAt": "2025-10-14",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "算力自主可控",
+    "集群调度",
+    "训练稳定性"
+  ],
+  "painPointNarrative": "",
+  "highlight": "全栈国产化超万卡集群，长周期训练稳定性行业领先",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智算集群",
+    "国产化算力",
+    "集群调度"
+  ],
+  "modelStack": [
+    "大模型训练"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智算集群",
+    "国产化"
+  ],
+  "seo": {
+    "metaTitle": "中移苏州 全栈国产化超万卡智算训练集群",
+    "metaDescription": "中移苏州打造全栈国产化超万卡智算训练集群，突破万卡级管理与调度难题。",
+    "keywords": [
+      "中移苏州",
+      "智算集群",
+      "国产化",
+      "万卡"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

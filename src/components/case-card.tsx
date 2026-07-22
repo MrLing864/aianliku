@@ -12,7 +12,16 @@ export function CaseCard({ caseStudy, featured = false }: { caseStudy: CaseStudy
       <Link href={`/cases/${caseStudy.slug}`} className="absolute inset-0 z-10 rounded-xl focus-ring" aria-label={`查看案例：${caseStudy.title}`} />
       <CardContent className="flex h-full flex-col p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2"><OutcomeBadge status={caseStudy.outcomeStatus} /><ConfidenceBadge level={caseStudy.confidence} />{caseStudy.demo && <Badge variant="secondary">演示</Badge>}</div>
-        <div className="mt-5 flex-1"><p className="mb-2 text-xs font-medium text-primary">{caseStudy.industry.displayName} · {caseStudy.scenarios[0]?.name}</p><h3 className={cn("text-balance font-semibold leading-snug tracking-[-0.025em] transition-colors group-hover:text-primary", featured ? "text-xl sm:text-2xl" : "text-lg")}>{caseStudy.title}</h3><p className="mt-3 line-clamp-3 text-sm leading-6 text-muted-foreground">{caseStudy.summary}</p></div>
+        <div className="mt-5 flex-1">
+          <p className="mb-2 text-xs font-medium text-primary">{caseStudy.industry?.displayName ?? "其他行业"} · {caseStudy.scenarios?.[0]?.name ?? "AI应用"}{caseStudy.implementationYear ? ` · ${caseStudy.implementationYear}` : ""}</p>
+          <h3 className={cn("text-balance font-semibold leading-snug tracking-[-0.025em] transition-colors group-hover:text-primary", featured ? "text-xl sm:text-2xl" : "text-lg")}>{caseStudy.title}</h3>
+          <p className="mt-3 line-clamp-3 text-sm leading-6 text-muted-foreground">{caseStudy.highlight ?? caseStudy.summary}</p>
+          {(caseStudy.painPointTags?.length ?? 0) > 0 && (
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {caseStudy.painPointTags!.slice(0, 2).map((tag) => <Badge key={tag} variant="outline" className="text-[11px] font-normal text-muted-foreground">{tag}</Badge>)}
+            </div>
+          )}
+        </div>
         <div className="mt-6 flex items-end justify-between gap-4 border-t pt-4"><div className="space-y-1.5 text-xs text-muted-foreground"><p className="flex items-center gap-1.5"><Building2 className="size-3.5" />{caseStudy.organization.name} · {caseStudy.organization.size}</p><p className="flex items-center gap-1.5"><CalendarDays className="size-3.5" />更新于 {new Intl.DateTimeFormat("zh-CN", { year: "numeric", month: "short" }).format(new Date(caseStudy.updatedAt))}</p></div><span className="grid size-9 shrink-0 place-items-center rounded-full border bg-background transition-colors group-hover:border-primary group-hover:bg-primary group-hover:text-primary-foreground"><ArrowUpRight className="size-4" /></span></div>
       </CardContent>
     </Card>

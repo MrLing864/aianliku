@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0052",
+  "version": 1,
+  "slug": "case-2025-0052",
+  "title": "焦化行业“智慧炼焦大师”全流程智能化解决方案",
+  "organization": {
+    "id": "org-0052",
+    "name": "中冶焦耐（大连）工程技术有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中冶焦耐（大连）工程以'智慧炼焦大师'推动焦化行业全流程智能化，融合自主工程基因与专家经验，以'EPC+O'模式实现'工程建设+智慧运营'深度融合，并研发世界首套焦罐自动加盖等智能装备。",
+  "background": "焦化行业长期面临高能耗、重污染与依赖人工操作的挑战，全流程智能化是转型方向。",
+  "problem": "焦化生产控制依赖经验、环保与安全压力大，缺乏贯穿设计-建设-运营全流程的智能化体系。",
+  "solution": "中冶焦耐以焦化工程自主知识产权技术为基础，构建'智慧炼焦大师'全流程智能化解决方案，将深厚工程基因、专家经验与持续技术创新结合，以'EPC+O'模式推动'工程建设+智慧运营'深度融合，开启焦化行业全生命周期服务；并研发世界首套焦罐自动加盖装置（山西东义焦化项目）等智能装备，助推提质增效。",
+  "implementationSteps": [
+    "构建智慧炼焦大师全流程智能化解决方案",
+    "以EPC+O模式融合工程建设与智慧运营",
+    "研发焦罐自动加盖等智能装备",
+    "在焦化项目落地提质增效"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "焦化工艺复杂、工况严苛，智能化系统需与现场工艺深度适配；环保合规要求高。",
+  "editorComment": {
+    "suitableFor": "焦化工程设计建设与运营企业全流程智能化",
+    "prerequisites": "具备焦化工艺与工程能力",
+    "priority": "条件具备后开展",
+    "text": "EPC+O模式+智慧炼焦全流程智能化，适合焦化行业转型升级参考。"
+  },
+  "implementers": [
+    {
+      "name": "中冶焦耐（大连）工程技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-jn-1",
+      "title": "中冶焦耐官网",
+      "sourceType": "official",
+      "publisher": "中冶焦耐",
+      "originalUrl": "http://www.acre.com.cn/",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jn-2",
+      "title": "世界首套！中冶焦耐焦罐自动加盖技术助推焦化行业提质增效",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/968547855_121123911",
+      "publishedAt": "2025-12-23",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-jn-3",
+      "title": "中冶焦耐：以EPC+O模式开启焦化行业全生命周期服务",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://www.thepaper.cn/newsDetail_forward_32513453",
+      "publishedAt": "2026-02-02",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "焦化智能化",
+    "经验依赖",
+    "环保安全"
+  ],
+  "painPointNarrative": "",
+  "highlight": "智慧炼焦大师全流程智能化，世界首套焦罐自动加盖",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "焦化智能化",
+    "EPC+O",
+    "智能装备"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "焦化",
+    "流程工业"
+  ],
+  "seo": {
+    "metaTitle": "中冶焦耐 焦化行业智慧炼焦大师全流程智能化解决方案",
+    "metaDescription": "中冶焦耐以智慧炼焦大师推动焦化全流程智能化，EPC+O模式融合工程建设与智慧运营。",
+    "keywords": [
+      "中冶焦耐",
+      "智慧炼焦大师",
+      "焦化智能化",
+      "EPC+O"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国五矿集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

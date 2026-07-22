@@ -1,0 +1,159 @@
+{
+  "id": "case-2025-0076",
+  "version": 1,
+  "slug": "case-2025-0076",
+  "title": "基于机器视觉的地下工程装备零部件质量检测系统应用实践",
+  "organization": {
+    "id": "org-0076",
+    "name": "中国铁建重工集团股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国铁建重工集团基于机器视觉构建地下工程装备零部件质量检测系统，依托高端地下工程装备柔性智能工厂（工信部卓越级智能工厂），以17个典型应用场景推动订单交付周期缩短40%、生产效率提升32.31%。",
+  "background": "地下工程装备（盾构机等）零部件结构复杂、质量要求极高，传统检测依赖人工。",
+  "problem": "地下工程装备零部件检测依赖人工、效率低，柔性制造下质量一致性挑战大。",
+  "solution": "铁建重工基于机器视觉构建地下工程装备零部件质量检测系统，融入高端地下工程装备柔性智能工厂体系，以17个典型应用场景推动订单交付周期缩短40%、生产效率提升32.31%，实现精益制造与服务保障主动化。",
+  "implementationSteps": [
+    "建设高端地下工程装备柔性智能工厂",
+    "部署机器视觉零部件质量检测系统",
+    "落地17个典型智能应用场景",
+    "实现交付周期与生产效率双提升"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "订单交付周期缩短",
+      "value": "40",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-tj-1"
+    },
+    {
+      "label": "生产效率提升",
+      "value": "32.31",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-tj-1"
+    }
+  ],
+  "roi": "",
+  "risks": "地下工程装备定制化程度高，视觉检测需适配多品种；现场工况复杂。",
+  "editorComment": {
+    "suitableFor": "高端装备制造企业零部件智能检测与柔性工厂",
+    "prerequisites": "具备机器视觉与智能工厂基础",
+    "priority": "建议优先",
+    "text": "机器视觉+柔性智能工厂显著提升交付与效率，适合装备制造企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "中国铁建重工集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tj-1",
+      "title": "非凡'十四五'④|驱动数智转型，铁建重工开创先进制造新局面",
+      "sourceType": "news",
+      "publisher": "路面机械网",
+      "originalUrl": "https://news.lmjx.net/2025/202511/2025111107415440.shtml",
+      "publishedAt": "2025-11-11",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "检测效率",
+    "质量一致性",
+    "交付周期"
+  ],
+  "painPointNarrative": "",
+  "highlight": "机器视觉零部件检测，交付周期-40%、效率+32.31%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "机器视觉",
+    "零部件检测",
+    "柔性智能工厂"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "装备制造",
+    "机器视觉"
+  ],
+  "seo": {
+    "metaTitle": "中国铁建重工 基于机器视觉的地下工程装备零部件质量检测系统应用实践",
+    "metaDescription": "铁建重工以机器视觉构建地下工程装备零部件检测，柔性智能工厂交付周期缩短40%。",
+    "keywords": [
+      "铁建重工",
+      "机器视觉",
+      "零部件检测",
+      "柔性工厂"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国铁道建筑集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

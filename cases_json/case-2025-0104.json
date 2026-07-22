@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0104",
+  "version": 1,
+  "slug": "case-2025-0104",
+  "title": "人工智能赋能光伏电池组件全生命周期",
+  "organization": {
+    "id": "org-0104",
+    "name": "一道新能源科技股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "一道新能源科技股份有限公司将人工智能赋能光伏电池组件全生命周期，覆盖研发、智能制造、运维与回收等环节的智能化管理；公司作为 N 型 TOPCon 技术引领者，已构建覆盖城市、生态、海上光伏的全场景系统解决方案。",
+  "background": "一道新能成立于 2018 年，专业从事 N 型高效光伏电池、组件及系统应用研发制造，是工信部《光伏制造行业规范条件》企业，已建成数十 GW 级产能；其柔性支架方案与 DFR（Design for recycle）生态组件设计理念强调全生命周期价值。",
+  "problem": "光伏电池组件研发、制造、运维、回收全链条环节多、数据割裂，缺乏智能化统筹。",
+  "solution": "以人工智能赋能光伏电池组件全生命周期，覆盖 N 型高效电池组件研发、智能制造、运维与回收（DFR 生态组件设计），提升全场景光伏系统应用价值。",
+  "implementationSteps": [
+    "构建 N 型 TOPCon 电池组件研发与智能制造能力",
+    "以 AI 赋能生产制造与质量管控",
+    "推进柔性支架与全场景光伏系统应用",
+    "落地 DFR 生态组件全生命周期价值理念"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多环节数据打通、AI 模型在不同产线的泛化。",
+  "editorComment": {
+    "suitableFor": "光伏电池组件制造企业全生命周期数智化",
+    "prerequisites": "具备光伏智能制造与数据基础",
+    "priority": "建议优先",
+    "text": "行业赋能方向，光伏全生命周期 AI 应用范式。"
+  },
+  "implementers": [
+    {
+      "name": "一道新能源科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-dassolar-1",
+      "title": "一道新能源科技股份有限公司-关于一道",
+      "sourceType": "official",
+      "publisher": "一道新能",
+      "originalUrl": "https://www.das-solar.com/site/about",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证公司业务与 N 型 TOPCon 定位。",
+      "publishedAt": ""
+    },
+    {
+      "publicId": "src-dassolar-2",
+      "title": "多场景应用重构光伏全生命周期价值",
+      "sourceType": "news",
+      "publisher": "国际能源网",
+      "originalUrl": "https://solar.in-en.com/html/solar-2451798.shtml",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证光伏全生命周期价值理念。",
+      "publishedAt": "2025-06-19"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据割裂",
+    "环节多"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "智能制造"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "光伏",
+    "电池组件",
+    "全生命周期",
+    "TOPCon"
+  ],
+  "seo": {
+    "metaTitle": "人工智能赋能光伏电池组件全生命周期",
+    "metaDescription": "人工智能赋能光伏电池组件全生命周期",
+    "keywords": [
+      "一道新能源科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

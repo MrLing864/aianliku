@@ -1,0 +1,148 @@
+{
+  "id": "case-2025-0223",
+  "version": 1,
+  "slug": "case-2025-0223",
+  "title": "面向工业安全的声纹感知与多模态认知大模型应用",
+  "organization": {
+    "id": "org-0223",
+    "name": "安徽中科昊音智能科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "安徽中科昊音智能科技有限公司（专注 AI 声纹技术的高新技术企业）“面向工业安全的声纹感知与多模态认知大模型应用”入选工信部 2025 年人工智能应用典型案例。公司以自主研发的 CMFMC 3.0 跨信道声纹引擎为核心，聚焦工业声纹解决方案，通过工业声纹传感器对设备声纹特征进行故障建模，24 小时在线“听诊”，及时发现故障并进行大数据故障预测。",
+  "background": "",
+  "problem": "工业设备故障预警依赖人工点检，难以 24 小时在线捕捉早期异常声纹征兆。",
+  "solution": "以声纹感知+多模态认知大模型，构建工业声纹在线监测方案，通过声纹传感器 24 小时在线听诊、深度学习故障建模实现设备故障预测预警。",
+  "implementationSteps": [
+    "以 CMFMC 3.0 跨信道声纹引擎为核心",
+    "部署工业声纹传感器 24 小时在线采集",
+    "深度学习对设备声纹进行故障建模",
+    "在能源、水利、钢铁、交通等工业场景预测预警"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂工业噪声干扰、故障样本稀缺。",
+  "editorComment": {
+    "suitableFor": "工业设备声纹在线监测与故障预测",
+    "prerequisites": "具备声纹采集与算法基础",
+    "priority": "建议优先",
+    "text": "声纹感知+多模态认知赋能工业安全的实践。"
+  },
+  "implementers": [
+    {
+      "name": "安徽中科昊音智能科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-223-1",
+      "title": "安徽中科昊音智能科技有限公司-官网（工业声纹传感器24小时在线听诊、故障建模）",
+      "sourceType": "official",
+      "publisher": "安徽中科昊音智能科技",
+      "originalUrl": "http://www.ai-voicetech.net/scheme12.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证工业声纹 AI 在线监测与故障建模。",
+      "publishedAt": "2025-04-15"
+    },
+    {
+      "publicId": "src-223-2",
+      "title": "打造“物”声纹工业监控一揽子解决方案，中科昊音完成数千万融资",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/621686635_121124371",
+      "accessibility": "available",
+      "rightsNote": "报道，佐证工业声纹监控解决方案与国家声纹检测标准参与。",
+      "publishedAt": "2022-12-27"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工点检",
+    "早期故障难发现"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "声纹引擎",
+    "多模态认知"
+  ],
+  "modelStack": [
+    "CMFMC 3.0跨信道声纹引擎"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "中科昊音",
+    "声纹感知",
+    "工业安全",
+    "多模态大模型"
+  ],
+  "seo": {
+    "metaTitle": "面向工业安全的声纹感知与多模态认知大模型应用",
+    "metaDescription": "面向工业安全的声纹感知与多模态认知大模型应用",
+    "keywords": [
+      "安徽中科昊音智能科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "安徽省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

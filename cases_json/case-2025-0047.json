@@ -1,0 +1,154 @@
+{
+  "id": "case-2025-0047",
+  "version": 1,
+  "slug": "case-2025-0047",
+  "title": "人工智能赋能钢铁行业质量管控",
+  "organization": {
+    "id": "org-0047",
+    "name": "华院计算技术（上海）股份有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "华院计算以自研认知智能算法平台赋能钢铁行业质量管控，构建覆盖铁前至轧制的全流程产品体系（智能配料、过程质量管控、表面缺陷检测、智能安全监控等），其中连铸质量管控智能体将根因定位从小时级缩短至分钟级。",
+  "background": "钢铁长流程制造质量波动大，传统人工追溯慢、缺陷检测依赖经验。",
+  "problem": "质量根因定位耗时长，缺陷检测精度依赖人工，过程管控缺乏智能手段。",
+  "solution": "华院计算（国家级专精特新'小巨人'）长期聚焦认知智能在焦化、钢铁、有色等流程工业的深度应用，自研认知智能算法平台，在智能配料、过程质量管控、表面缺陷检测、智能安全监控等领域形成覆盖铁前至轧制的全流程产品体系；与宝钢子公司合作的连铸质量管控智能体，将传统人工追溯升级为根因追溯，定位时间从小时级缩短至分钟级。",
+  "implementationSteps": [
+    "研发认知智能算法平台",
+    "构建铁前至轧制全流程质量管控产品体系",
+    "落地连铸质量管控智能体（根因追溯）",
+    "拓展智能配料、缺陷检测等场景"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "质量根因定位",
+      "value": "从小时级缩短至分钟级",
+      "kind": "actual",
+      "sourceId": "src-hy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "流程工业数据噪声大、工艺耦合强；认知智能模型需深度嵌入产线。",
+  "editorComment": {
+    "suitableFor": "钢铁及流程工业企业质量管控与缺陷检测",
+    "prerequisites": "具备生产质量数据与工艺知识",
+    "priority": "建议优先",
+    "text": "认知智能赋能钢铁全流程质量管控，根因定位分钟级，适合推广。"
+  },
+  "implementers": [
+    {
+      "name": "华院计算技术（上海）股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hy-1",
+      "title": "质量根因定位从小时到分钟：AI如何让钢铁缺陷无处遁形",
+      "sourceType": "news",
+      "publisher": "上海AI+",
+      "originalUrl": "https://mp.weixin.qq.com/s?__biz=MjM5MDU2MTc4NQ==&mid=2650703803&idx=2&sn=ec38fba0262e6f292e111b8c712ef205",
+      "publishedAt": "2026-04-17",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-hy-2",
+      "title": "华院计算'人工智能赋能钢铁行业质量管控'入选工信部典型案例",
+      "sourceType": "news",
+      "publisher": "华院计算",
+      "originalUrl": "https://mp.weixin.qq.com/s?__biz=MzA3MDkxNDcwMw==&mid=2651883553&idx=1&sn=27771055f0e6424d59bdf4805e549e39",
+      "publishedAt": "2026-06-25",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "质量根因",
+    "缺陷检测",
+    "过程管控"
+  ],
+  "painPointNarrative": "",
+  "highlight": "连铸质量管控智能体：根因定位小时→分钟级",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "认知智能",
+    "质量管控",
+    "缺陷检测"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "质量管控"
+  ],
+  "seo": {
+    "metaTitle": "华院计算 人工智能赋能钢铁行业质量管控",
+    "metaDescription": "华院计算以认知智能平台赋能钢铁质量管控，连铸根因定位从小时缩短至分钟级。",
+    "keywords": [
+      "华院计算",
+      "钢铁质量管控",
+      "认知智能",
+      "根因定位"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "上海市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

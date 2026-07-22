@@ -1,0 +1,169 @@
+{
+  "id": "case-2025-0165",
+  "version": 1,
+  "slug": "case-2025-0165",
+  "title": "钢铁行业能源预测优化调度智能系统应用",
+  "organization": {
+    "id": "org-0165",
+    "name": "中冶京诚数字科技（北京）有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-scheduling",
+      "name": "智能排产与工艺优化",
+      "slug": "scn-scheduling",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "无锡英臻科技旗下能睿（UniEnergy）新能源资产全周期数字化管理平台，覆盖新能源资产从评估设计、建设到运营的全生命周期，以 AI 使能提供精准预测、优化分析与自动调度，在“电站增收、管理提效、运维降本、合规风控”四维度创造价值，助力工商业光储系统智能化管理升级。",
+  "background": "英臻科技成立于 2009 年，是国家级高新技术企业与专精特新“小巨人”企业，专注物联网、云计算与大数据在能源领域的创新应用。",
+  "problem": "新能源资产分布广、运维难，收益与风险难以量化管控。",
+  "solution": "能睿平台以 AI 使能提供精准预测、优化分析与自动调度，覆盖新能源资产全生命周期，实现电站增收、管理提效、运维降本、合规风控。",
+  "implementationSteps": [
+    "构建新能源资产全周期数字化管理平台",
+    "部署 AI 精准预测与优化调度能力",
+    "在工商业光储场景规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "欧洲工商业光储能源成本削减",
+      "value": "37.5",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-yingzhen-1"
+    },
+    {
+      "label": "储能收益提升",
+      "value": "10",
+      "unit": "%+",
+      "kind": "actual",
+      "sourceId": "src-yingzhen-2"
+    }
+  ],
+  "roi": "",
+  "risks": "多源能源数据接入、预测模型在极端工况下的可靠性。",
+  "editorComment": {
+    "suitableFor": "新能源资产全生命周期管理",
+    "prerequisites": "具备电站物联与监控数据基础",
+    "priority": "建议优先",
+    "text": "AI 驱动新能源资产增收降本的中小企业范式。"
+  },
+  "implementers": [
+    {
+      "name": "中冶京诚数字科技（北京）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yingzhen-1",
+      "title": "SOLARMAN-公司介绍：能睿平台助力欧洲工商业光储成本削减37.5%",
+      "sourceType": "official",
+      "publisher": "英臻科技",
+      "originalUrl": "https://www.solarman.cn/about.html",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证能睿平台与能源成本削减成效。",
+      "publishedAt": "2025-04-25"
+    },
+    {
+      "publicId": "src-yingzhen-2",
+      "title": "储能收益再增10%+！英臻科技能睿平台超强AI大脑来袭",
+      "sourceType": "news",
+      "publisher": "国际能源网",
+      "originalUrl": "https://m.in-en.com/html/chunengy-53159.shtml",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证储能 AI 策略收益提升。",
+      "publishedAt": "2026-03-19"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "运维难",
+    "收益难量化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI预测",
+    "优化调度",
+    "全生命周期管理"
+  ],
+  "modelStack": [
+    "能睿新能源资产全周期数字化管理平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "新能源资产",
+    "能睿",
+    "全周期管理",
+    "AI调度"
+  ],
+  "seo": {
+    "metaTitle": "钢铁行业能源预测优化调度智能系统应用",
+    "metaDescription": "钢铁行业能源预测优化调度智能系统应用",
+    "keywords": [
+      "中冶京诚数字科技（北京）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国五矿集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

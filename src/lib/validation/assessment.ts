@@ -15,7 +15,11 @@ export const assessmentInputSchema = z.object({
 });
 
 export const assessmentSubmissionSchema = assessmentInputSchema.extend({
-  email: z.email().max(254),
+  phone: z
+    .string()
+    .trim()
+    .max(20)
+    .regex(/^(?:\+?86)?1[3-9]\d{9}$/u, "请输入有效的中国大陆手机号"),
   reportConsent: z.literal(true),
   privacyConsent: z.literal(true),
   marketingConsent: z.boolean().default(false),

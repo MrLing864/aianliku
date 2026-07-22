@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0158",
+  "version": 1,
+  "slug": "case-2025-0158",
+  "title": "新能源资产全周期数字化智能管理平台应用",
+  "organization": {
+    "id": "org-0158",
+    "name": "无锡英臻科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国网河北省电力有限公司联合石家庄市生态环境局打造“人工智能驱动的电力大数据精准治污与绿色低碳协同平台”，依托河北省能源大数据中心，构建“一平台、双模型”精准治污体系，融合电力数据与环保排放要求，实现石家庄全域企业污染源感知与动态跟踪，为差异化大气污染防治管控提供支撑。",
+  "background": "国网河北电力深化“以电控污”，该项目此前获 2024 年“数据要素×”大赛河北分赛技术创新奖，并联合清华四川院等深化“数据要素×绿色低碳”研究。",
+  "problem": "大气污染防治依赖末端监测，企业污染排放实时监控与差异化管控难。",
+  "solution": "依托电力大数据中心，构建“一平台、双模型”精准治污体系，通过电力数据形成典型企业画像与行业污染画像，实现污染源感知与动态跟踪。",
+  "implementationSteps": [
+    "建设电力大数据与环保排放融合平台",
+    "构建污染物排放典型企业画像与行业画像双模型",
+    "在石家庄全域落地污染源感知与差异化管控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "电力数据与排放关联的建模精度、数据合规。",
+  "editorComment": {
+    "suitableFor": "大气污染防治与绿色低碳协同治理",
+    "prerequisites": "具备电力大数据中心与环保数据",
+    "priority": "建议优先",
+    "text": "电力大数据赋能精准治污的政企协同范式。"
+  },
+  "implementers": [
+    {
+      "name": "无锡英臻科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hb-1",
+      "title": "国网河北电力“以电控污”场景入选工信部人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "北极星电力网",
+      "originalUrl": "https://news.bjx.com.cn/html/20260720/1504795.shtml",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证一平台双模型精准治污体系。",
+      "publishedAt": "2026-07-20"
+    },
+    {
+      "publicId": "src-hb-2",
+      "title": "工信发布2025年典型案例名单，河北省八项入选",
+      "sourceType": "news",
+      "publisher": "河北省工业和信息化厅",
+      "originalUrl": "https://heb.hebccw.cn/system/2026/07/18/102204779.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证一平台双模型体系。",
+      "publishedAt": "2026-07-18"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "末端监测为主",
+    "差异化管控难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "电力大数据",
+    "企业画像建模"
+  ],
+  "modelStack": [
+    "一平台双模型精准治污体系"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "电力大数据",
+    "精准治污",
+    "绿色低碳",
+    "以电控污"
+  ],
+  "seo": {
+    "metaTitle": "新能源资产全周期数字化智能管理平台应用",
+    "metaDescription": "新能源资产全周期数字化智能管理平台应用",
+    "keywords": [
+      "无锡英臻科技股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

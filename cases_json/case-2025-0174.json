@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0174",
+  "version": 1,
+  "slug": "case-2025-0174",
+  "title": "基于 AI 大模型合成算法的安全生产数智管理解决方案",
+  "organization": {
+    "id": "org-0174",
+    "name": "湖南展通科技集团有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "湖南展通科技集团（国家工信部“安全生产+工业互联网”试点示范单位）创新打造安全生产领域 AI 大模型，研发“AI 安全智能检查系统”“AI 预警平台”，借力 AI 算法自动识别现场隐患与人的不安全行为，实现企业安全管理效率飙升 200%，产品服务覆盖全国近 30 个省/直辖市/自治区、累计助力 60000 多家企业安全智能化转型。",
+  "background": "展通成立于 2014 年，深耕安全生产数智化领域十余年，是专业从事安全生产 AI 数智化产品研发、安全大数据应用、工业物联网智能解决方案的服务商。",
+  "problem": "传统安全生产管理面临流程冗余、数据孤岛、响应滞后等痛点。",
+  "solution": "AI 安全生产数智管理，以安全大模型+AI 智能检查/预警实现隐患自动识别。",
+  "implementationSteps": [
+    "研发安全生产 AI 大模型与安全智能检查系统",
+    "打造 AI 预警平台",
+    "在全国工业企业规模化推广"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "安全管理效率提升",
+      "value": "200",
+      "unit": "%",
+      "kind": "actual",
+      "sourceId": "src-zt-1"
+    },
+    {
+      "label": "服务企业",
+      "value": "60000",
+      "unit": "余家",
+      "kind": "actual",
+      "sourceId": "src-zt-2"
+    }
+  ],
+  "roi": "",
+  "risks": "隐患识别准确率、企业数据合规。",
+  "editorComment": {
+    "suitableFor": "企业安全生产数智化管理",
+    "prerequisites": "具备安全监测与信息化基础",
+    "priority": "建议优先",
+    "text": "安全生产大模型的规模化落地范式。"
+  },
+  "implementers": [
+    {
+      "name": "湖南展通科技集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zt-1",
+      "title": "AI 深度赋能安全生产，企业安全管理效率飙升200%",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7491563195191820835/",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证 AI 大模型预测预警与效率提升 200%。",
+      "publishedAt": "2025-04-10"
+    },
+    {
+      "publicId": "src-zt-2",
+      "title": "湖南展通科技集团经营信息（服务覆盖近30省、60000+企业）",
+      "sourceType": "news",
+      "publisher": "企查查",
+      "originalUrl": "https://www.qcc.com/crun/9e598edd296dfffd8e20678c1d605f9e.html",
+      "accessibility": "available",
+      "rightsNote": "企业信息平台，佐证服务覆盖与累计企业数。",
+      "publishedAt": "2026-04-28"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "流程冗余",
+    "响应滞后"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "安全大模型",
+    "AI智能检查"
+  ],
+  "modelStack": [
+    "展通安全生产 AI 大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "安全生产",
+    "AI大模型",
+    "展通",
+    "隐患识别"
+  ],
+  "seo": {
+    "metaTitle": "基于 AI 大模型合成算法的安全生产数智管理解决方案",
+    "metaDescription": "基于 AI 大模型合成算法的安全生产数智管理解决方案",
+    "keywords": [
+      "湖南展通科技集团有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖南省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

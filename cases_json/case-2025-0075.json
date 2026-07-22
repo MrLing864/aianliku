@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0075",
+  "version": 1,
+  "slug": "case-2025-0075",
+  "title": "超特高压开关设备多模态智能感知与诊断",
+  "organization": {
+    "id": "org-0075",
+    "name": "中国电气装备集团科学技术研究院有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国电气装备集团科学技术研究院有限公司研发超特高压开关设备多模态智能感知与诊断技术/系统，并依托集团发布的“电擎”电气装备领域专属大模型（全栈国产化、具备多模态监测诊断能力），实现高压开关等设备的智能感知、健康诊断与故障预警。",
+  "background": "中国电气装备集团 2026 年 5 月发布“电擎”大模型，依托覆盖维度最广、标注质量最高的多模态高质量样本集打造，具备仿真科学计算、多模态监测诊断、知识理解生成、调度决策优化、具身智能五大能力。",
+  "problem": "超特高压开关设备结构复杂、运行环境严苛，传统人工巡检与离线检测难以实时掌握健康状态。",
+  "solution": "多模态智能感知与诊断系统，融合多模态传感数据与“电擎”大模型诊断能力，实现设备健康状态监测与故障预警。",
+  "implementationSteps": [
+    "研发多模态高压开关感知与诊断方法",
+    "依托电擎大模型构建监测诊断能力",
+    "在超特高压开关设备场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多模态样本质量、严苛工况下的模型可靠性。",
+  "editorComment": {
+    "suitableFor": "超特高压开关设备智能运维",
+    "prerequisites": "具备设备传感与监测数据基础",
+    "priority": "建议优先",
+    "text": "电擎大模型+多模态感知的装备诊断范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国电气装备集团科学技术研究院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-dq-1",
+      "title": "中国电气装备成功发布“电擎”大模型",
+      "sourceType": "news",
+      "publisher": "中国产业经济信息网",
+      "originalUrl": "https://www.cinic.org.cn/zgzz/cx/1636325.html",
+      "accessibility": "available",
+      "rightsNote": "官媒佐证电擎大模型发布与多模态监测诊断能力。",
+      "publishedAt": "2026-05-22"
+    },
+    {
+      "publicId": "src-dq-2",
+      "title": "中国电气装备集团高压开关产品介绍",
+      "sourceType": "official",
+      "publisher": "中国电气装备集团",
+      "originalUrl": "https://www.cee-group.cn/new/info/2531/42474.htm",
+      "accessibility": "available",
+      "rightsNote": "企业官网佐证开关设备产品与技术背景。",
+      "publishedAt": "2025-10-15"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工巡检难",
+    "实时性差"
+  ],
+  "painPointNarrative": "",
+  "highlight": "超特高压开关设备多模态智能感知与诊断",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态感知",
+    "大模型诊断"
+  ],
+  "modelStack": [
+    "电擎大模型",
+    "多模态智能感知与诊断系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "超特高压开关",
+    "多模态感知",
+    "电擎大模型"
+  ],
+  "seo": {
+    "metaTitle": "中国电气装备 超特高压开关设备多模态智能感知与诊断应用",
+    "metaDescription": "中国电气装备科研院以多模态融合技术实现超特高压开关设备智能感知与故障诊断。",
+    "keywords": [
+      "中国电气装备",
+      "超特高压开关",
+      "多模态感知",
+      "故障诊断"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国电气装备集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

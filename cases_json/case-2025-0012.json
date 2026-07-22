@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0012",
+  "version": 1,
+  "slug": "case-2025-0012",
+  "title": "太空目标编目数据应用",
+  "organization": {
+    "id": "org-0012",
+    "name": "北京开运联合信息技术集团股份有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京开运联合将AI与太空轨道数据AOE技术结合，实现对太空目标的跟踪、巡天、定位、定轨与编目，并实施'星汉计划'在全球布设30余观测节点，构建太空数据服务。",
+  "background": "太空活动增多带来空间目标监测、碰撞预警与轨道治理需求，需对海量太空目标进行编目与持续跟踪。",
+  "problem": "太空目标数量庞大、轨道动态变化，传统手段难以高效完成跟踪、定位、定轨与编目；太空数据服务依赖全球布站与AI处理。",
+  "solution": "将AI与太空轨道数据AOE技术结合，实现对太空目标的跟踪、巡天、定位、定轨与编目；实施'星汉计划'在全球布设30余个观测节点；自研核心产品'Aseem'覆盖卫星测运控（AOS）与太空数据服务（ADS）。'太空目标编目数据'入选北京市新技术新产品新服务。",
+  "implementationSteps": [
+    "研发AI+太空轨道数据AOE技术",
+    "实现对太空目标的跟踪、巡天、定位、定轨与编目",
+    "实施'星汉计划'全球布设30余观测节点",
+    "打造Aseem核心产品提供卫星测运控与太空数据服务"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "全球布站成本高、运维复杂；太空数据涉及国家安全与合规，需严格管控。",
+  "editorComment": {
+    "suitableFor": "航天测控、空间态势感知与卫星运营服务机构",
+    "prerequisites": "具备太空观测网络与轨道计算能力",
+    "priority": "条件具备后开展",
+    "text": "AI+轨道数据的太空目标编目模式，对空间安全与卫星运营有价值。"
+  },
+  "implementers": [
+    {
+      "name": "北京开运联合信息技术集团股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ky-1",
+      "title": "北京亦庄全域人工智能之城建设提速增效 四家企业入选国家级",
+      "sourceType": "government_news",
+      "publisher": "北京市人民政府",
+      "originalUrl": "https://www.beijing.gov.cn/ywdt/gzdt/202607/t20260706_4748889.html",
+      "publishedAt": "2026-07-06",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ky-2",
+      "title": "北京开运联合信息技术集团股份有限公司",
+      "sourceType": "enterprise",
+      "publisher": "中国科协企业创新服务平台",
+      "originalUrl": "https://www.kczg.org.cn/org/orgdetail?id=357028",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ky-3",
+      "title": "开运集团'太空目标编目数据'入选北京市新技术新产品新服务",
+      "sourceType": "news",
+      "publisher": "开运快报",
+      "originalUrl": "https://spacemapper.cn/pp/articles/w7VTGdQzLWV0bbY-6qZzeQ/",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "空间态势感知",
+    "目标编目",
+    "轨道数据"
+  ],
+  "painPointNarrative": "",
+  "highlight": "AI+太空轨道数据实现目标编目，星汉计划全球30+节点",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "太空数据",
+    "轨道计算",
+    "AI编目"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "航天",
+    "数据集"
+  ],
+  "seo": {
+    "metaTitle": "开运联合 太空目标编目数据应用",
+    "metaDescription": "开运联合以AI+太空轨道数据实现太空目标跟踪、定位、定轨与编目，星汉计划全球布站。",
+    "keywords": [
+      "开运联合",
+      "太空目标编目",
+      "星汉计划",
+      "太空数据"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0211",
+  "version": 1,
+  "slug": "case-2025-0211",
+  "title": "基于 AI 深度学习算法的半导体测试分选设备应用",
+  "organization": {
+    "id": "org-0211",
+    "name": "苏州杰锐思智能科技股份有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "苏州杰锐思智能科技股份有限公司（国内领先的半导体检测智能装备供应商）“基于 AI 深度学习算法的半导体测试分选设备应用”入选工信部 2025 年人工智能应用典型案例。公司在半导体封装测试领域整合深度学习算法、压力精度力控、高精度温控技术与行业机理模型库，打造通用机器视觉瑕疵检测软件平台 DDP、深度学习软件平台 JDL 等，实现半导体测试分选智能化。",
+  "background": "",
+  "problem": "半导体测试分选缺陷种类多、人工检测效率与一致性不足，检测算法泛化难。",
+  "solution": "以 AI 深度学习算法+机器视觉构建半导体测试分选设备，整合力控、温控与行业机理模型库，打造 DDP/JDL 软件平台实现智能检测分选。",
+  "implementationSteps": [
+    "整合深度学习算法、力控与温控技术",
+    "构建 DDP 机器视觉瑕疵检测与 JDL 深度学习平台",
+    "研制半导体测试分选智能装备",
+    "在半导体封装测试场景规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "缺陷样本多样性、检测算法在不同产品泛化。",
+  "editorComment": {
+    "suitableFor": "半导体封测测试分选智能检测",
+    "prerequisites": "具备机器视觉与半导体封测基础",
+    "priority": "建议优先",
+    "text": "AI 深度学习赋能半导体测试分选的实践。"
+  },
+  "implementers": [
+    {
+      "name": "苏州杰锐思智能科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-211-1",
+      "title": "杰锐思：打造AI机器视觉创新应用领军者（深度学习+DDP/JDL平台，半导体封测）",
+      "sourceType": "news",
+      "publisher": "新华财经（中国金融信息网）",
+      "originalUrl": "https://www.cnfin.com/cmjj-lb/detail/20250116/4175488_1.html",
+      "accessibility": "available",
+      "rightsNote": "新华财经报道，佐证深度学习算法与半导体封测能力。",
+      "publishedAt": "2025-01-16"
+    },
+    {
+      "publicId": "src-211-2",
+      "title": "苏州杰锐思智能科技股份有限公司-官网",
+      "sourceType": "official",
+      "publisher": "苏州杰锐思智能科技",
+      "originalUrl": "https://www.szjieruisi.com/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证半导体检测智能装备定位。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "缺陷种类多",
+    "一致性不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "深度学习",
+    "机器视觉"
+  ],
+  "modelStack": [
+    "DDP",
+    "JDL"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "杰锐思",
+    "半导体",
+    "测试分选",
+    "深度学习"
+  ],
+  "seo": {
+    "metaTitle": "基于 AI 深度学习算法的半导体测试分选设备应用",
+    "metaDescription": "基于 AI 深度学习算法的半导体测试分选设备应用",
+    "keywords": [
+      "苏州杰锐思智能科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

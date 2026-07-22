@@ -3,7 +3,7 @@ import { z } from "zod";
 import { writeAuditLog } from "@/lib/audit";
 import { verifyAdminReauthentication } from "@/lib/auth/admin";
 import { getAdminSession } from "@/lib/auth/dal";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import type { Appointment } from "@/lib/types";
 
 const schema = z.object({
@@ -25,7 +25,7 @@ export async function POST(request: Request) {
   if (!(await verifyAdminReauthentication(session.user.email, parsed.data.password, "appointment_contact_export"))) {
     return NextResponse.json({ error: "二次验证失败" }, { status: 403 });
   }
-  if (!isMongoConfigured()) return NextResponse.json({ error: "请先配置 MongoDB" }, { status: 503 });
+  if (!isDbConfigured()) return NextResponse.json({ error: "请先配置 CloudBase" }, { status: 503 });
 
   const db = await getDb();
   const filter = parsed.data.statuses?.length ? { status: { $in: parsed.data.statuses } } : {};

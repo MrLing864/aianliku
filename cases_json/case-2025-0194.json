@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0194",
+  "version": 1,
+  "slug": "case-2025-0194",
+  "title": "基于无人机巡查和 AI 判识的道路全周期安全智控系统应用",
+  "organization": {
+    "id": "org-0194",
+    "name": "招商局重庆交通科研设计院有限公司",
+    "size": "501–1000人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "招商局重庆交通科研设计院有限公司“云眼路巡”无人机智能巡检系统入选工信部 2025 年人工智能应用典型案例。系统以“AI 助力数字化养护”为理念，包含空中巡查无人机、地面移动机场、病害快速识别及诊断分析等模块，采用激光雷达、三维成像、智能图像识别和人工智能等技术，实现道路全周期安全智控。",
+  "background": "道路巡检与安全隐患识别传统依赖人工巡查。",
+  "problem": "公路巡检里程长、病害人工识别效率低、养护数字化程度不足。",
+  "solution": "以无人机低空巡查+AI 判识构建“云眼路巡”道路全周期安全智控系统，实现空中巡查、病害快速识别与诊断分析闭环。",
+  "implementationSteps": [
+    "部署空中巡查无人机与地面移动机场",
+    "融合激光雷达、三维成像与智能图像识别",
+    "AI 快速识别病害并诊断分析",
+    "在高速公路等场景实现全周期安全智控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂路况病害识别泛化、低空作业合规。",
+  "editorComment": {
+    "suitableFor": "公路养护无人机智能巡检与安全智控",
+    "prerequisites": "具备无人机与病害识别数据基础",
+    "priority": "建议优先",
+    "text": "低空+AI 赋能道路养护的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "招商局重庆交通科研设计院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-194-1",
+      "title": "云眼路巡：无人机智能巡检如何重塑道路养护新生态",
+      "sourceType": "official",
+      "publisher": "招商局交通科技（重庆）有限公司",
+      "originalUrl": "https://www.cmct.cn/index.php?c=show&id=781",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证“云眼路巡”系统构成与技术。",
+      "publishedAt": "2025-08-25"
+    },
+    {
+      "publicId": "src-194-2",
+      "title": "13个案例入选全国典型 重庆人工智能加速突破（含招商局重庆交科院案例）",
+      "sourceType": "government_notice",
+      "publisher": "重庆市人民政府",
+      "originalUrl": "https://www.cq.gov.cn/ywdt/jrcq/202607/t20260708_15806325.html",
+      "accessibility": "available",
+      "rightsNote": "政府发布，佐证案例入选。",
+      "publishedAt": "2026-07-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "巡检里程长",
+    "人工识别慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "低空遥感",
+    "病害识别AI"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "招商交科",
+    "云眼路巡",
+    "无人机巡检",
+    "道路养护"
+  ],
+  "seo": {
+    "metaTitle": "基于无人机巡查和 AI 判识的道路全周期安全智控系统应用",
+    "metaDescription": "基于无人机巡查和 AI 判识的道路全周期安全智控系统应用",
+    "keywords": [
+      "招商局重庆交通科研设计院有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "招商局集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0187",
+  "version": 1,
+  "slug": "case-2025-0187",
+  "title": "全国产谛听地震波大模型及一体机的应用实践",
+  "organization": {
+    "id": "org-0187",
+    "name": "成都超算中心运营管理有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "成都超算中心运营管理有限公司联合中国地震局地球物理研究所、清华大学等研发'谛听'地震波大模型及一体机，是全球首个亿级参数量的地震数据处理大模型，并在西藏定日 6.8 级地震实战中于 27 小时内精准识别 429 次余震，推动地震监测预报智能化。",
+  "background": "'谛听'由多方联合研发，于 2024 年 7 月发布，2025 年 1 月发布第三阶段测试版本并全面开放，作为地震监测预报领域的根技术，并衍生训推一体机与 AI 智能体。",
+  "problem": "传统地震数据处理依赖专家、效率低，难以满足实时监测与预警需求。",
+  "solution": "以亿级参数地震波大模型处理多源地震数据，提供标准化数据产品，并推出全国产谛听训推一体机，支撑地震智能监测与预警。",
+  "implementationSteps": [
+    "联合研发亿级参数谛听地震波大模型",
+    "发布第三阶段版本并全面开放",
+    "推出全国产训推一体机与 AI 智能体"
+  ],
+  "duration": "2024 年 7 月发布",
+  "cost": "",
+  "results": [
+    {
+      "label": "模型参数规模",
+      "value": "亿级",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-diting-1"
+    },
+    {
+      "label": "西藏定日 6.8 级地震余震识别",
+      "value": "27 小时识别 429 次",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-diting-2"
+    }
+  ],
+  "roi": "",
+  "risks": "地震数据稀缺与标注、极端事件下的泛化。",
+  "editorComment": {
+    "suitableFor": "地震监测预报与防灾减灾",
+    "prerequisites": "具备地震观测数据基础",
+    "priority": "建议优先",
+    "text": "全球首个地震波大模型，防灾减灾重大价值。"
+  },
+  "implementers": [
+    {
+      "name": "成都超算中心运营管理有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-diting-1",
+      "title": "谛听（地震数据处理大模型）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E8%B0%9B%E5%90%AC/64721418",
+      "accessibility": "available",
+      "rightsNote": "公开百科，佐证亿级参数与联合研发。",
+      "publishedAt": "2024-07-28"
+    },
+    {
+      "publicId": "src-diting-2",
+      "title": "四川省唯一！这个国家级中心如何加速？",
+      "sourceType": "news",
+      "publisher": "今日头条",
+      "originalUrl": "https://www.toutiao.com/article/7519709073445503488/",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证定日地震余震识别实战。",
+      "publishedAt": "2025-06-25"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据处理依赖专家",
+    "实时性差"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "地震大模型",
+    "训推一体机"
+  ],
+  "modelStack": [
+    "谛听地震波大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "谛听",
+    "地震波大模型",
+    "一体机",
+    "防灾减灾"
+  ],
+  "seo": {
+    "metaTitle": "全国产谛听地震波大模型及一体机的应用实践",
+    "metaDescription": "全国产谛听地震波大模型及一体机的应用实践",
+    "keywords": [
+      "成都超算中心运营管理有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "四川省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

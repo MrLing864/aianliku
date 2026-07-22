@@ -1,0 +1,159 @@
+{
+  "id": "case-2025-0040",
+  "version": 1,
+  "slug": "case-2025-0040",
+  "title": "中国中化智能体互联服务平台实践",
+  "organization": {
+    "id": "org-0040",
+    "name": "中化数智科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中化数智科技构建'中国中化智能体互联服务平台'，落实集团'人工智能+'专项行动与'数智中化'建设，依托DeepSeek-R1-671B、Qwen2.5-72B等模型打造数智员工（如'AI小化'），赋能经营管理、智能制造与供应链。",
+  "background": "中国中化2025年发布'人工智能+'专项行动推进方案，全面深化AI战略布局，支撑'数智中化'建设。",
+  "problem": "大型化工集团业务多元，经营管理、智能制造与供应链协同效率低，亟需智能体平台打通。",
+  "solution": "中化数智聚焦新一代信息技术，将AI与大数据应用于经营管理、智能制造、采销及供应链；构建智能体互联服务平台，依托DeepSeek-R1-671B和Qwen2.5-72B等先进模型能力打造数智员工（如首位数智员工'AI小化'），并建设化工行业智能服务平台（百余家能源化工企业使用）赋能行业。",
+  "implementationSteps": [
+    "落实中国中化'人工智能+'专项行动",
+    "构建智能体互联服务平台",
+    "打造数智员工（AI小化等）依托先进大模型",
+    "建设化工行业智能服务平台赋能产业链"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "化工场景专业性强、数据安全要求高；多模型协同与治理复杂。",
+  "editorComment": {
+    "suitableFor": "大型化工/制造集团建设智能体互联与数智员工平台",
+    "prerequisites": "具备集团级数据与模型资源",
+    "priority": "条件具备后开展",
+    "text": "智能体互联+数智员工的集团AI平台，适合多元业务集团参考。"
+  },
+  "implementers": [
+    {
+      "name": "中化数智科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zh-1",
+      "title": "中化数智——智能化平台实践",
+      "sourceType": "case",
+      "publisher": "Fabarta",
+      "originalUrl": "https://www.fabarta.com/case/detail/69bdf1f133a0462080a4a290",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zh-2",
+      "title": "中国中化首位数智员工'AI小化'正式上岗",
+      "sourceType": "news",
+      "publisher": "中国中化",
+      "originalUrl": "https://www.sinochem.com/zhjt/xwzx/jtdt/2025/3/I1346859870883676160.html",
+      "publishedAt": "2025-03-05",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zh-3",
+      "title": "中化数智官网（AI与大数据赋能）",
+      "sourceType": "official",
+      "publisher": "中化数智",
+      "originalUrl": "https://www.sinochemdit.com/",
+      "publishedAt": "",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "业务协同",
+    "经营效率",
+    "供应链"
+  ],
+  "painPointNarrative": "",
+  "highlight": "智能体互联平台+数智员工AI小化，赋能化工全产业链",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "智能体互联",
+    "数智员工",
+    "化工AI"
+  ],
+  "modelStack": [
+    "DeepSeek-R1-671B",
+    "Qwen2.5-72B"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "智能体平台",
+    "化工"
+  ],
+  "seo": {
+    "metaTitle": "中化数智 中国中化智能体互联服务平台实践",
+    "metaDescription": "中化数智构建智能体互联平台，依托DeepSeek/Qwen打造数智员工AI小化，赋能化工全产业链。",
+    "keywords": [
+      "中化数智",
+      "智能体互联",
+      "AI小化",
+      "化工AI"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国中化控股有限责任公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

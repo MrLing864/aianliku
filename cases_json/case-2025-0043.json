@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0043",
+  "version": 1,
+  "slug": "case-2025-0043",
+  "title": "基于国产化异构芯片的软硬件协同适配平台应用",
+  "organization": {
+    "id": "org-0043",
+    "name": "北京电子数智科技有限责任公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京电子数智科技（北电数智）'基于国产化异构芯片的软硬件协同适配平台'攻克国产异构芯片指令集差异，以技术标准统一化、生态协同平台化、场景需求显性化构建'硬件-软件-应用'全栈贯通生态，提升国产芯片算力效率。",
+  "background": "我国算力芯片种类繁多，生态碎片化、适配成本高，制约国产AI软硬件体系完善。",
+  "problem": "国产AI芯片指令集与生态差异大，适配成本高、效率低，缺乏统一协同平台。",
+  "solution": "北电数智针对国产AI芯片生态碎片化、适配成本高等问题，攻克国产异构芯片指令集差异；以技术标准统一化、生态协同平台化、场景需求显性化为核心路径，构建'硬件-软件-应用'全栈贯通的生态体系，适配国产芯片、提升算力效率，支撑AI医疗、工业、政务等多行业解决方案。",
+  "implementationSteps": [
+    "攻克国产异构芯片指令集差异",
+    "构建软硬件协同适配平台",
+    "以标准统一/生态协同/场景显性化贯通全栈",
+    "适配国产芯片并提升算力效率"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "国产芯片迭代快，适配平台需持续跟进；生态协同涉及多方利益。",
+  "editorComment": {
+    "suitableFor": "需要国产芯片适配与算力效率提升的算力运营方",
+    "prerequisites": "具备国产芯片与软硬件资源",
+    "priority": "条件具备后开展",
+    "text": "国产异构芯片协同适配平台，适合构建自主AI算力生态参考。"
+  },
+  "implementers": [
+    {
+      "name": "北京电子数智科技有限责任公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-bd-1",
+      "title": "北电数智入选工信部人工智能应用典型案例",
+      "sourceType": "official",
+      "publisher": "北电数智",
+      "originalUrl": "https://www.behc.com.cn/newsInfo_5db94d6630664af0bf04da9e421a8bdd.html",
+      "publishedAt": "2026-07-03",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-bd-2",
+      "title": "北电数智入选工信部典型案例（攻克国产异构芯片指令集差异）",
+      "sourceType": "news",
+      "publisher": "中国高新网",
+      "originalUrl": "http://www.chinahightech.com/yaowen/2026-07/20/content_549919.html",
+      "publishedAt": "2026-07-20",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-bd-3",
+      "title": "助力完善国产AI软硬件技术体系，北电数智参编两项标准",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/897312488_122378213",
+      "publishedAt": "2025-05-21",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "芯片适配",
+    "生态碎片化",
+    "算力效率"
+  ],
+  "painPointNarrative": "",
+  "highlight": "攻克国产异构芯片指令集差异，全栈贯通适配生态",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "国产芯片适配",
+    "软硬件协同",
+    "算力效率"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "国产芯片",
+    "技术底座"
+  ],
+  "seo": {
+    "metaTitle": "北电数智 基于国产化异构芯片的软硬件协同适配平台应用",
+    "metaDescription": "北电数智攻克国产异构芯片指令集差异，构建软硬件协同适配平台，提升国产芯片算力效率。",
+    "keywords": [
+      "北电数智",
+      "国产异构芯片",
+      "软硬件协同",
+      "算力适配"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

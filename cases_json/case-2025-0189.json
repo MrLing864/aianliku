@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0189",
+  "version": 1,
+  "slug": "case-2025-0189",
+  "title": "面向重工场景的具身智能焊接机器人系统应用",
+  "organization": {
+    "id": "org-0189",
+    "name": "芜湖行健智能机器人有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "芜湖行健智能机器人有限公司联合羚羊工业互联网、芜湖造船厂、西安电子科技大学打造“面向船舶海工的具身智能焊接机器人”，针对船舶海工装备组立结构件工件差异大、组对精度差、工艺复杂等痛点，以具身智能焊接大模型与多方向激光视觉跟踪技术实现智能焊接，入选工信部 2025 年人工智能应用典型案例。",
+  "background": "行健机器人专注具身智能焊接机器人，承担国家重点研发计划项目，完成数千万元 B 轮融资，推动船舶制造具身智能焊接行业领先。",
+  "problem": "船舶海工结构件差异大、组对精度差，传统焊接依赖经验、效率低。",
+  "solution": "具身智能焊接机器人，以激光视觉跟踪+焊接大模型实现智能焊接。",
+  "implementationSteps": [
+    "联合研发具身智能焊接机器人",
+    "应用多方向激光视觉跟踪技术",
+    "在芜湖造船厂等船舶海工场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂工件泛化、焊接质量一致性。",
+  "editorComment": {
+    "suitableFor": "船舶海工等大型结构件智能焊接",
+    "prerequisites": "具备焊接机器人与视觉基础",
+    "priority": "建议优先",
+    "text": "具身智能焊接大模型赋能船舶制造的标杆。"
+  },
+  "implementers": [
+    {
+      "name": "芜湖行健智能机器人有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xj-1",
+      "title": "我市行健智能入选工信部2025人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "芜湖市工信局",
+      "originalUrl": "https://gxj.wuhu.gov.cn/xwzx/gzdt/8939273.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证行健具身智能焊接机器人入选。",
+      "publishedAt": "2026-06-26"
+    },
+    {
+      "publicId": "src-xj-2",
+      "title": "专注具身智能焊接机器人，行健机器人完成数千万元B轮融资",
+      "sourceType": "news",
+      "publisher": "投资界",
+      "originalUrl": "https://news.pedaily.cn/202603/562023.shtml",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证船舶海工具身智能焊接与融资。",
+      "publishedAt": "2026-03-24"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "结构件差异大",
+    "依赖经验"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "具身智能",
+    "激光视觉跟踪"
+  ],
+  "modelStack": [
+    "具身智能焊接机器人"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行健",
+    "具身焊接",
+    "船舶海工",
+    "激光视觉"
+  ],
+  "seo": {
+    "metaTitle": "面向重工场景的具身智能焊接机器人系统应用",
+    "metaDescription": "面向重工场景的具身智能焊接机器人系统应用",
+    "keywords": [
+      "芜湖行健智能机器人有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "安徽省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

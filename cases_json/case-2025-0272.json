@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0272",
+  "version": 1,
+  "slug": "case-2025-0272",
+  "title": "多智能体协同的穿透式监管体系实践",
+  "organization": {
+    "id": "org-0272",
+    "name": "浪潮通用软件有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "浪潮数字企业（HK0596）申报的“多智能体协同的穿透式监管体系实践”入选工信部典型案例，聚焦大型集团企业管理链条冗长、风险隐患隐匿、制度执行末梢衰减等痛点，依托浪潮海岳穿透式监管平台，以“数据+模型+算法”三位一体智能中枢，梳理覆盖 11 类重点监管主题的 100 多个智能监管模型，实现全级次、全要素、全周期的穿透式监管。",
+  "background": "浪潮数字企业联合中国总会计师协会信息化分会发布《国资国企穿透式监管白皮书》，在国资监管领域积累深厚，该案例是入选名单中唯一聚焦穿透式监管方向的代表。",
+  "problem": "大型集团企业管理链条长、风险隐匿、制度执行末梢衰减，监管穿透难。",
+  "solution": "多智能体协同的穿透式监管体系，以数据+模型+算法智能中枢实现穿透监管。",
+  "implementationSteps": [
+    "构建浪潮海岳穿透式监管平台",
+    "梳理 11 类重点监管主题智能模型",
+    "在国资国企集团监管场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "重点监管主题",
+      "value": "11",
+      "unit": "类",
+      "kind": "actual",
+      "sourceId": "src-inspur-1"
+    },
+    {
+      "label": "智能监管模型",
+      "value": "100",
+      "unit": "余个",
+      "kind": "actual",
+      "sourceId": "src-inspur-1"
+    }
+  ],
+  "roi": "",
+  "risks": "集团数据贯通、模型对复杂业务风险的识别。",
+  "editorComment": {
+    "suitableFor": "大型集团/国资穿透式监管",
+    "prerequisites": "具备集团数据底座与监管主题",
+    "priority": "建议优先",
+    "text": "多智能体协同穿透式监管的国资范式。"
+  },
+  "implementers": [
+    {
+      "name": "浪潮通用软件有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-inspur-1",
+      "title": "浪潮数字企业穿透式监管实践入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260703/c677939635.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证多智能体协同穿透式监管与 11 类 100+ 模型。",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "publicId": "src-inspur-2",
+      "title": "浪潮海岳穿透式监管平台（数据+模型+算法三位一体）",
+      "sourceType": "report",
+      "publisher": "浪潮",
+      "originalUrl": "https://www.sohu.com/a/961545505_481838",
+      "accessibility": "available",
+      "rightsNote": "行业分析，佐证三位一体智能中枢与监管主题建模。",
+      "publishedAt": "2025-12-04"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "管理链条长",
+    "风险隐匿"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体协同",
+    "数据+模型+算法"
+  ],
+  "modelStack": [
+    "浪潮海岳穿透式监管平台"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "穿透式监管",
+    "浪潮",
+    "多智能体",
+    "国资监管"
+  ],
+  "seo": {
+    "metaTitle": "多智能体协同的穿透式监管体系实践",
+    "metaDescription": "多智能体协同的穿透式监管体系实践",
+    "keywords": [
+      "浪潮通用软件有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

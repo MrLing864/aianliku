@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0281",
+  "version": 1,
+  "slug": "case-2025-0281",
+  "title": "浪潮人工智能模型工厂实践",
+  "organization": {
+    "id": "org-0281",
+    "name": "浪潮云信息技术股份公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "浪潮集团建成国内首个实体化人工智能工厂，由通用算力中心、模型工厂、智能体工厂、训练场四部分组成，以'用模型制造模型'的工业化流水线模式，面向行业场景提供模型与智能体的大规模、定制化制造能力。",
+  "background": "浪潮人工智能工厂于 2025 年 8 月发布，定位为新型人工智能基础设施，基于分布式智能云实现集约化建设，并以 AI 原生驱动工业全域升级。",
+  "problem": "AI 模型与智能体生产分散、门槛高，难以规模化、低成本落地到行业场景。",
+  "solution": "以模型工厂、智能体工厂、训练场组成的工业化流水线，重构 AI 生产逻辑，实现模型与智能体的标准化、规模化制造。",
+  "implementationSteps": [
+    "构建通用算力中心与模型工厂",
+    "建设智能体工厂与综合训练场",
+    "以分布式云面向行业场景规模化交付"
+  ],
+  "duration": "2025 年 8 月发布",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "行业场景适配、算力供给与生态协同。",
+  "editorComment": {
+    "suitableFor": "行业 AI 模型与智能体工业化生产",
+    "prerequisites": "具备算力与分布式云基础",
+    "priority": "建议优先",
+    "text": "用模型制造模型，AI 工业化范式。"
+  },
+  "implementers": [
+    {
+      "name": "浪潮云信息技术股份公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-inspur-1",
+      "title": "浪潮人工智能工厂",
+      "sourceType": "official",
+      "publisher": "浪潮",
+      "originalUrl": "https://cloud.inspur.com/AI-Factory0/",
+      "accessibility": "available",
+      "rightsNote": "企业官方页面，佐证四部分组成与定位。",
+      "publishedAt": "2025-08-06"
+    },
+    {
+      "publicId": "src-inspur-2",
+      "title": "浪潮推出首个“人工智能工厂”，工业化模式加速技术落地",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/923332556_121356614",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐实用模型制造模型与规模化定制。",
+      "publishedAt": "2025-08-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "AI生产分散",
+    "落地门槛高"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI工业化",
+    "分布式云"
+  ],
+  "modelStack": [
+    "浪潮人工智能工厂"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "人工智能工厂",
+    "模型工厂",
+    "智能体工厂",
+    "浪潮"
+  ],
+  "seo": {
+    "metaTitle": "浪潮人工智能模型工厂实践",
+    "metaDescription": "浪潮人工智能模型工厂实践",
+    "keywords": [
+      "浪潮云信息技术股份公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "山东省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

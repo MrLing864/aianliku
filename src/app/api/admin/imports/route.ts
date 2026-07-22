@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { parse } from "csv-parse/sync";
 import ExcelJS from "exceljs";
-import { MongoServerError, type Filter } from "mongodb";
+import { MongoServerError } from "@/lib/db/cloudbase";
 import { nanoid } from "nanoid";
 import { z } from "zod";
 import { getAdminSession } from "@/lib/auth/dal";
@@ -14,7 +14,7 @@ import {
   scoreDuplicate,
   sourceIdentity,
 } from "@/lib/dedup";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import { listAdminCases } from "@/lib/repositories/admin";
 import { findVectorSimilarCases } from "@/lib/repositories/cases";
 import type { DuplicateCandidate, SourceRecord } from "@/lib/types";
@@ -115,8 +115,8 @@ async function readImportRequest(request: Request) {
   return { format: parsed.data.format, rows: parseRows(parsed.data.format, parsed.data.content), retryJobId: parsed.data.retryJobId };
 }
 
-function exactSourceFilter(identity: ReturnType<typeof sourceIdentity>, row: ParsedRow): Filter<SourceRecord> {
-  const alternatives: Filter<SourceRecord>[] = [];
+function exactSourceFilter(identity: ReturnType<typeof sourceIdentity>, row: ParsedRow): Record<string, unknown> {
+  const alternatives: Record<string, unknown>[] = [];
   if (identity.normalizedUrl) alternatives.push({ normalizedUrl: identity.normalizedUrl });
   if (identity.externalId && row.publisher) alternatives.push({ publisher: row.publisher.trim(), externalId: identity.externalId });
   alternatives.push({ contentHash: identity.contentHash });
@@ -154,8 +154,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: message === "TOO_MANY_ROWS" ? "单次最多导入 1,000 行，请拆分后重试" : message === "INVALID_FILE" ? "文件为空或超过 20 MB" : message === "UNSUPPORTED_FILE" ? "仅支持 UTF-8 CSV、XLSX 或 JSON" : "无法解析内容，请检查文件或 JSON/CSV 格式" }, { status: 400 });
   }
 
-  const db = isMongoConfigured() ? await getDb() : null;
-  if (retryJobId && !db) return NextResponse.json({ error: "重试导入需要先配置 MongoDB" }, { status: 503 });
+  const db = isDbConfigured() ? await getDb() : null;
+  if (retryJobId && !db) return NextResponse.json({ error: "重试导入需要先配置 CloudBase" }, { status: 503 });
   const retryJob = retryJobId && db ? await db.collection("import_jobs").findOne({ id: retryJobId }) : null;
   if (retryJobId && !retryJob) return NextResponse.json({ error: "原导入任务不存在" }, { status: 404 });
   const existingCases = await listAdminCases(1_000);

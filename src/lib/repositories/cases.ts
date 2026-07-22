@@ -1,10 +1,11 @@
 import "server-only";
 
 import { cache } from "react";
-import type { Collection, Filter, Sort } from "mongodb";
+type MongoFilter = Record<string, unknown>;
+type MongoSort = Record<string, 1 | -1>;
 import { demoCases } from "@/data/demo-cases";
 import { scenarios } from "@/lib/catalog";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured, getCloudBaseDb } from "@/lib/db/cloudbase";
 import type { CaseQuery, CaseStudy, PaginatedCases } from "@/lib/types";
 
 function normalizeText(value: string) {
@@ -24,27 +25,9 @@ function expandSearchTerms(value: string) {
   return [...new Set([normalized, ...(matchingScenario ? [matchingScenario.name, matchingScenario.slug, ...matchingScenario.synonyms] : [])].map(normalizeText).filter(Boolean))];
 }
 
-let atlasTextSearchAvailable = true;
-async function searchCasesWithAtlas(collection: Collection<CaseStudy>, filter: Filter<CaseStudy>, query: CaseQuery, page: number, pageSize: number): Promise<PaginatedCases | null> {
-  if (!query.q || !atlasTextSearchAvailable) return null;
-  const searchSort = query.sort === "popular" ? { views: -1 } : query.sort === "latest" ? { publishedAt: -1 } : { searchScore: -1, publishedAt: -1 };
-  try {
-    const [result] = await collection.aggregate<{
-      items: CaseStudy[];
-      total: Array<{ count: number }>;
-    }>([
-      { $search: { index: "case_search", text: { query: expandSearchTerms(query.q), path: ["title", "organization.name", "summary", "problem", "solution", "scenarios.name", "scenarios.synonyms"] } } },
-      { $match: filter },
-      { $set: { searchScore: { $meta: "searchScore" } } },
-      { $sort: searchSort },
-      { $facet: { items: [{ $skip: (page - 1) * pageSize }, { $limit: pageSize }, { $project: { _id: 0, dedupVector: 0, searchScore: 0 } }], total: [{ $count: "count" }] } },
-    ]).toArray();
-    const total = result?.total[0]?.count ?? 0;
-    return { items: result?.items ?? [], total, page, pageSize, pageCount: Math.max(1, Math.ceil(total / pageSize)), mode: "mongodb" };
-  } catch {
-    atlasTextSearchAvailable = false;
-    return null;
-  }
+async function searchCasesWithAtlas(): Promise<PaginatedCases | null> {
+  // CloudBase 文档数据库不支持 Atlas Search，始终返回 null，由 listCases 走下方跨字段正则降级
+  return null;
 }
 
 function matchesDemo(item: CaseStudy, query: CaseQuery) {
@@ -53,10 +36,15 @@ function matchesDemo(item: CaseStudy, query: CaseQuery) {
     item.title,
     item.organization.name,
     item.summary,
+    item.highlight ?? "",
     item.problem,
     item.solution,
     item.industry.displayName,
     ...item.scenarios.flatMap((scene) => [scene.name, ...scene.synonyms]),
+    ...(item.painPointTags ?? []),
+    ...item.implementers.map((impl) => impl.name),
+    ...(item.modelStack ?? []),
+    ...(item.techPath ?? []),
   ].join(" "));
 
   return (
@@ -65,7 +53,10 @@ function matchesDemo(item: CaseStudy, query: CaseQuery) {
     (!query.scenario || item.scenarios.some((scene) => scene.slug === query.scenario)) &&
     (!query.size || item.organization.size === query.size) &&
     (!query.outcome || query.outcome === "all" || item.outcomeStatus === query.outcome) &&
-    (!query.roi || query.roi === "all" || (query.roi === "disclosed" ? !item.roi.includes("未披露") : item.roi.includes("未披露")))
+    (!query.roi || query.roi === "all" || (query.roi === "disclosed" ? !item.roi.includes("未披露") : item.roi.includes("未披露"))) &&
+    (!query.painPoint || (item.painPointTags ?? []).includes(query.painPoint)) &&
+    (!query.implementer || item.implementers.some((impl) => normalizeText(impl.name).includes(normalizeText(query.implementer!)))) &&
+    (!query.model || (item.modelStack ?? []).some((model) => normalizeText(model).includes(normalizeText(query.model!))))
   );
 }
 
@@ -87,7 +78,7 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
   const page = Math.max(1, query.page ?? 1);
   const pageSize = Math.min(50, Math.max(1, query.limit ?? 20));
 
-  if (!isMongoConfigured()) {
+  if (!isDbConfigured()) {
     const matching = sortDemo(demoCases.filter((item) => matchesDemo(item, query)), query.sort, query.q);
     return {
       items: matching.slice((page - 1) * pageSize, page * pageSize),
@@ -100,25 +91,28 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
   }
 
   const db = await getDb();
-  const filter: Filter<CaseStudy> = { contentStatus: "published" };
+  const filter: MongoFilter = { contentStatus: "published" };
   if (query.industry) filter["industry.slug"] = query.industry;
   if (query.scenario) filter["scenarios.slug"] = query.scenario;
   if (query.size) filter["organization.size"] = query.size;
   if (query.outcome && query.outcome !== "all") filter.outcomeStatus = query.outcome;
   if (query.roi === "disclosed") filter.roi = { $not: /未披露/ };
   if (query.roi === "undisclosed") filter.roi = /未披露/;
+  if (query.painPoint) filter.painPointTags = query.painPoint;
+  if (query.implementer) filter["implementers.name"] = { $regex: escapeRegex(query.implementer), $options: "i" };
+  if (query.model) filter.modelStack = { $regex: escapeRegex(query.model), $options: "i" };
 
-  const collection = db.collection<CaseStudy>("cases");
-  const atlasResult = await searchCasesWithAtlas(collection, filter, query, page, pageSize);
+  const collection = db.collection("cases");
+  const atlasResult = await searchCasesWithAtlas();
   if (atlasResult) return atlasResult;
 
   if (query.q) {
     const terms = expandSearchTerms(query.q);
-    const fields = ["title", "organization.name", "summary", "problem", "solution", "scenarios.name", "scenarios.slug", "scenarios.synonyms"] as const;
-    filter.$or = terms.flatMap((term) => fields.map((field) => ({ [field]: { $regex: escapeRegex(term), $options: "i" } }))) as Filter<CaseStudy>[];
+    const fields = ["title", "organization.name", "summary", "problem", "solution", "scenarios.name", "scenarios.slug", "scenarios.synonyms", "highlight", "painPointTags", "implementers.name", "modelStack", "techPath"] as const;
+    filter.$or = terms.flatMap((term) => fields.map((field) => ({ [field]: { $regex: escapeRegex(term), $options: "i" } }))) as MongoFilter[];
   }
 
-  const sort: Sort = query.sort === "popular" ? { views: -1 } : query.sort === "latest" ? { publishedAt: -1 } : { featured: -1, views: -1, publishedAt: -1 };
+  const sort: MongoSort = query.sort === "popular" ? { views: -1 } : query.sort === "latest" ? { publishedAt: -1 } : { featured: -1, views: -1, publishedAt: -1 };
   const [items, total] = await Promise.all([
     collection.find(filter).sort(sort).skip((page - 1) * pageSize).limit(pageSize).project<CaseStudy>({ _id: 0, dedupVector: 0 }).toArray(),
     collection.countDocuments(filter),
@@ -128,9 +122,9 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
 }
 
 export const getCaseBySlug = cache(async (slug: string): Promise<CaseStudy | null> => {
-  if (!isMongoConfigured()) return demoCases.find((item) => item.slug === slug) ?? null;
+  if (!isDbConfigured()) return demoCases.find((item) => item.slug === slug) ?? null;
   const db = await getDb();
-  return db.collection<CaseStudy>("cases").findOne({ slug, contentStatus: "published" }, { projection: { _id: 0, dedupVector: 0 } });
+  return db.collection("cases").findOne({ slug, contentStatus: "published" }, { projection: { _id: 0, dedupVector: 0 } });
 });
 
 export type CaseRouteResolution =
@@ -140,19 +134,19 @@ export type CaseRouteResolution =
   | { kind: "missing" };
 
 export const resolveCaseRoute = cache(async (slug: string): Promise<CaseRouteResolution> => {
-  if (!isMongoConfigured()) {
+  if (!isDbConfigured()) {
     const item = demoCases.find((entry) => entry.slug === slug);
     return item ? { kind: "published", item } : { kind: "missing" };
   }
   const db = await getDb();
-  const item = await db.collection<CaseStudy>("cases").findOne(
+  const item = await db.collection("cases").findOne(
     { slug, contentStatus: { $in: ["published", "archived", "merged"] } },
     { projection: { _id: 0, dedupVector: 0 } },
   );
   if (item?.contentStatus === "published") return { kind: "published", item };
   if (item?.contentStatus === "archived") return { kind: "archived", item };
   if (item?.contentStatus === "merged" && item.mergedIntoSlug) return { kind: "redirect", targetSlug: item.mergedIntoSlug };
-  const redirect = await db.collection<{ fromSlug: string; targetSlug: string }>("case_redirects").findOne({ fromSlug: slug }, { projection: { _id: 0, targetSlug: 1 } });
+  const redirect = await db.collection("case_redirects").findOne({ fromSlug: slug }, { projection: { _id: 0, targetSlug: 1 } });
   return redirect?.targetSlug ? { kind: "redirect", targetSlug: redirect.targetSlug } : { kind: "missing" };
 });
 
@@ -166,16 +160,23 @@ export async function getRelatedCases(caseStudy: CaseStudy, limit = 3) {
 }
 
 export async function getPublicStats() {
-  if (isMongoConfigured()) {
+  if (isDbConfigured()) {
     const db = await getDb();
-    const collection = db.collection<CaseStudy>("cases");
-    const [cases, industriesList, scenariosList, sourceResult] = await Promise.all([
+    const collection = db.collection("cases");
+    const cbdb = getCloudBaseDb();
+    const [cases, indAgg, scnAgg, sourceResult] = await Promise.all([
       collection.countDocuments({ contentStatus: "published" }),
-      collection.distinct("industry.slug", { contentStatus: "published" }),
-      collection.distinct("scenarios.slug", { contentStatus: "published" }),
-      collection.aggregate<{ total: number }>([{ $match: { contentStatus: "published" } }, { $project: { count: { $size: { $ifNull: ["$sources", []] } } } }, { $group: { _id: null, total: { $sum: "$count" } } }]).next(),
+      cbdb.collection("cases").aggregate().match({ contentStatus: "published" }).group({ _id: "$industry.slug" }).end(),
+      cbdb.collection("cases").aggregate().match({ contentStatus: "published" }).group({ _id: "$scenarios.slug" }).end(),
+      collection.aggregate([{ $match: { contentStatus: "published" } }, { $group: { _id: null, total: { $sum: { $size: "$sources" } } } }]).next(),
     ]);
-    return { cases, industries: industriesList.length, scenarios: scenariosList.length, sources: sourceResult?.total ?? 0, mode: "mongodb" as const };
+    return {
+      cases,
+      industries: indAgg?.data?.length ?? 0,
+      scenarios: scnAgg?.data?.length ?? 0,
+      sources: sourceResult?.total ?? 0,
+      mode: "mongodb" as const,
+    };
   }
   const all = await listCases({ limit: 50 });
   const sourceCount = all.items.reduce((sum, item) => sum + item.sources.length, 0);
@@ -189,25 +190,12 @@ export async function getPublicStats() {
 }
 
 export async function listCaseSitemapEntries(limit = 5_000) {
-  if (!isMongoConfigured()) return demoCases.map(({ slug, updatedAt }) => ({ slug, updatedAt }));
+  if (!isDbConfigured()) return demoCases.map(({ slug, updatedAt }) => ({ slug, updatedAt }));
   const db = await getDb();
-  return db.collection<CaseStudy>("cases").find({ contentStatus: "published" }).sort({ updatedAt: -1 }).limit(limit).project<{ slug: string; updatedAt: string }>({ _id: 0, slug: 1, updatedAt: 1 }).toArray();
+  return db.collection("cases").find({ contentStatus: "published" }).sort({ updatedAt: -1 }).limit(limit).project<{ slug: string; updatedAt: string }>({ _id: 0, slug: 1, updatedAt: 1 }).toArray();
 }
 
-let atlasVectorSearchAvailable = true;
-export async function findVectorSimilarCases(queryVector: number[], limit = 30) {
-  if (!isMongoConfigured() || !atlasVectorSearchAvailable) return [] as Array<{ item: CaseStudy; score: number }>;
-  const db = await getDb();
-  try {
-    const rows = await db.collection<CaseStudy>("cases").aggregate<CaseStudy & { vectorScore: number }>([
-      { $vectorSearch: { index: "case_dedup_vector", path: "dedupVector", queryVector, numCandidates: Math.max(100, limit * 8), limit } },
-      { $match: { contentStatus: { $ne: "deleted" } } },
-      { $set: { vectorScore: { $meta: "vectorSearchScore" } } },
-      { $project: { _id: 0 } },
-    ]).toArray();
-    return rows.map(({ vectorScore, ...item }) => ({ item: item as CaseStudy, score: vectorScore }));
-  } catch {
-    atlasVectorSearchAvailable = false;
-    return [];
-  }
+export async function findVectorSimilarCases(_queryVector: number[], _limit = 30): Promise<Array<{ item: CaseStudy; score: number }>> {
+  // CloudBase 文档数据库暂不支持向量检索，由调用方降级到“同行业/同场景”推荐
+  return [];
 }

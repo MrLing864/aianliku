@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0121",
+  "version": 1,
+  "slug": "case-2025-0121",
+  "title": "腾讯音乐 AI 智能唱创技术创新与产业化应用",
+  "organization": {
+    "id": "org-0121",
+    "name": "腾讯音乐娱乐科技（深圳）有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "腾讯音乐娱乐科技（深圳）有限公司以'启明星 AI 作歌'实现智能唱创技术创新与产业化，基于语义分析、图像识别与深度学习算法模拟专业音乐人创作流程，整合 AI 填词、AI 作曲等模块，支持'一句话作歌''图片作歌''模板作歌'等，已服务多个知名品牌。",
+  "background": "腾讯音乐自 2022 年起探索 AIGC 音乐创作，启明星平台于 2023 年上线，获 2025 中国数字音乐产业大会'数字音乐创新技术应用优秀案例'。",
+  "problem": "音乐创作专业门槛高、制作流程长，难以普惠化与规模化。",
+  "solution": "以启明星 AI 作歌系统整合语义分析、图像识别与深度学习，提供 AI 填词、作曲与多模式创作，降低创作门槛并实现产业落地。",
+  "implementationSteps": [
+    "研发启明星 AI 作歌系统，整合 AI 填词与作曲模块",
+    "推出一句话/图片/模板等多种作歌模式",
+    "在品牌营销与 C 端场景产业化落地"
+  ],
+  "duration": "2022 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "人声复刻",
+      "value": "30 秒",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-tme-1"
+    },
+    {
+      "label": "音乐生成",
+      "value": "3 分钟",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-tme-1"
+    }
+  ],
+  "roi": "",
+  "risks": "AIGC 音乐版权与合规、生成内容质量稳定性。",
+  "editorComment": {
+    "suitableFor": "数字音乐创作与营销内容生产",
+    "prerequisites": "具备音频数据与创作流程数据",
+    "priority": "建议优先",
+    "text": "AIGC 音乐创作产业化标杆，门槛低、易复制。"
+  },
+  "implementers": [
+    {
+      "name": "腾讯音乐娱乐科技（深圳）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-tme-1",
+      "title": "腾讯音乐（TME）WAIC秀AI黑科技：30秒复刻人声，3分钟",
+      "sourceType": "news",
+      "publisher": "中国经济网",
+      "originalUrl": "https://www.cet.com.cn/wzsy/kjzx/10240144.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证复刻与生成指标。",
+      "publishedAt": "2025-08-08"
+    },
+    {
+      "publicId": "src-tme-2",
+      "title": "腾讯音乐启明星AI作歌获“数字音乐创新技术应用优秀案例”",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/tech/roll/2025-09-23/doc-infrmyav7689004.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证产业化与获奖。",
+      "publishedAt": "2025-09-23"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "创作门槛高",
+    "制作周期长"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "生成式AI",
+    "深度学习",
+    "图像识别"
+  ],
+  "modelStack": [
+    "启明星 AI 作歌系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AIGC音乐",
+    "启明星",
+    "智能唱创"
+  ],
+  "seo": {
+    "metaTitle": "腾讯音乐 AI 智能唱创技术创新与产业化应用",
+    "metaDescription": "腾讯音乐 AI 智能唱创技术创新与产业化应用",
+    "keywords": [
+      "腾讯音乐娱乐科技（深圳）有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "深圳市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

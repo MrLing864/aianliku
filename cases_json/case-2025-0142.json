@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0142",
+  "version": 1,
+  "slug": "case-2025-0142",
+  "title": "面向智能网联汽车的一体化软件智能开发测试平台“超级软件工场”实践",
+  "organization": {
+    "id": "org-0142",
+    "name": "武汉光庭信息技术股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "武汉光庭信息技术股份有限公司打造面向智能网联汽车的一体化软件智能开发测试平台“超级软件工场”（SDW），以 AI 深度赋能汽车软件全流程，实现需求、设计、开发、测试、验证一体化智能协同，已成功实施全球首个仪表全流程开发、AUTOSAR 智能配置及新能源车型座舱智能化测试等场景。",
+  "background": "光庭信息成立于 2011 年，专注汽车电子软件，具备面向智能网联汽车的全域全栈软件开发能力；2025 年起持续迭代发布 SDW 2.0/2.8/3.0，提出 AI 原生汽车软件开发范式。",
+  "problem": "汽车软件跨域融合趋势下，开发、测试、验证环节割裂，工程师大量投入重复性工作，开发效率低。",
+  "solution": "“超级软件工场”SDW 以大模型驱动的双向追溯与智能进化重构汽车软件生产范式，由 AI 协同完成开发测试，工程师转型高端咨询与架构设计。",
+  "implementationSteps": [
+    "发布并迭代 SDW 超级软件工场（2.0/2.8/3.0）",
+    "构建 AI 驱动的开发-测试一体化协同",
+    "落地仪表全流程开发、AUTOSAR 智能配置等场景"
+  ],
+  "duration": "2024-2026 持续迭代",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "汽车软件功能安全、AI 生成代码的可信与验证。",
+  "editorComment": {
+    "suitableFor": "智能网联汽车软件智能开发测试",
+    "prerequisites": "具备汽车软件与工具链基础",
+    "priority": "建议优先",
+    "text": "AI 原生汽车软件超级工厂范式。"
+  },
+  "implementers": [
+    {
+      "name": "武汉光庭信息技术股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-kotei-1",
+      "title": "光庭信息 SDW 再升级：以 AI 驱动双向追溯与智能进化",
+      "sourceType": "news",
+      "publisher": "光庭信息",
+      "originalUrl": "https://www.kotei.com.cn/about/news/46",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 SDW 超级软件工场 AI 驱动升级。",
+      "publishedAt": "2025-10-30"
+    },
+    {
+      "publicId": "src-kotei-2",
+      "title": "光庭信息：SDW 是公司以 AI 深度赋能打造的汽车软件全流程平台",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260710/c678106577.shtml",
+      "accessibility": "available",
+      "rightsNote": "财经媒体报道，佐证全球首个仪表全流程开发等落地。",
+      "publishedAt": "2026-07-10"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "环节割裂",
+    "效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "智能开发测试"
+  ],
+  "modelStack": [
+    "SDW 超级软件工场"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "超级软件工场",
+    "汽车软件",
+    "SDW",
+    "AI原生"
+  ],
+  "seo": {
+    "metaTitle": "面向智能网联汽车的一体化软件智能开发测试平台“超级软件工场”实践",
+    "metaDescription": "面向智能网联汽车的一体化软件智能开发测试平台“超级软件工场”实践",
+    "keywords": [
+      "武汉光庭信息技术股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "湖北省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

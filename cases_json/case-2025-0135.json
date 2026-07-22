@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0135",
+  "version": 1,
+  "slug": "case-2025-0135",
+  "title": "人工智能在安全生产领域的应用",
+  "organization": {
+    "id": "org-0135",
+    "name": "中建材信云智联科技有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中建材信云智联科技有限公司（中建材信息全资子公司）“人工智能在安全生产领域的应用”入选工信部 2025 年人工智能应用典型案例（行业赋能方向），融合计算机视觉、位置物联网等技术，聚焦 AI 在安全生产场景落地，打造人机协同的新型安全生产模式。",
+  "background": "建材等流程工业安全生产风险点多，对智能监管需求强。",
+  "problem": "工业安全生产隐患识别依赖人工巡检，违规行为发现不及时、响应滞后。",
+  "solution": "以“人工智能+安全生产”方案，融合计算机视觉与位置物联网，实现隐患智能识别与人机协同管控。",
+  "implementationSteps": [
+    "融合计算机视觉与位置物联网感知",
+    "构建安全生产 AI 识别与预警能力",
+    "打造人机协同新型安全生产模式",
+    "在建材等行业场景落地应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "复杂作业场景识别泛化、误报控制。",
+  "editorComment": {
+    "suitableFor": "工业安全生产 AI 智能管控",
+    "prerequisites": "具备视觉与物联感知基础",
+    "priority": "建议优先",
+    "text": "行业赋能方向，AI+安全生产人机协同范式。"
+  },
+  "implementers": [
+    {
+      "name": "中建材信云智联科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xy-1",
+      "title": "喜讯！信云智联这一案例入选工信部2025年人工智能应用典型案例名单",
+      "sourceType": "news",
+      "publisher": "搜狐（信云智联）",
+      "originalUrl": "https://www.sohu.com/a/1047914717_99933868",
+      "accessibility": "available",
+      "rightsNote": "企业官方号发布，佐证案例入选行业赋能方向。",
+      "publishedAt": "2026-07-09"
+    },
+    {
+      "publicId": "src-xy-2",
+      "title": "中建材信息全资子公司信云智联揭榜重大科技攻关项目（人工智能+安全生产）",
+      "sourceType": "official",
+      "publisher": "中建材信息",
+      "originalUrl": "https://www.cnbmtech.com/html/web/news/2000394893238988801.html",
+      "accessibility": "available",
+      "rightsNote": "集团官网，佐证融合计算机视觉、位置物联网等技术。",
+      "publishedAt": "2025-12-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "人工巡检",
+    "响应滞后"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "计算机视觉",
+    "位置物联网"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "信云智联",
+    "安全生产",
+    "计算机视觉",
+    "人机协同"
+  ],
+  "seo": {
+    "metaTitle": "人工智能在安全生产领域的应用",
+    "metaDescription": "人工智能在安全生产领域的应用",
+    "keywords": [
+      "中建材信云智联科技有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国建材集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

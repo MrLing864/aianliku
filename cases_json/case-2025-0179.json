@@ -1,0 +1,163 @@
+{
+  "id": "case-2025-0179",
+  "version": 1,
+  "slug": "case-2025-0179",
+  "title": "输电线路三维全景智能测量解决方案实践",
+  "organization": {
+    "id": "org-0179",
+    "name": "江苏濠汉信息技术有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "江苏濠汉信息技术有限公司（国家专精特新“小巨人”）研发“输电线路三维全景智能测量解决方案”，面向电网输电通道外破、覆冰、风偏等监测难题，融合双目立体视觉、深度学习目标识别、边缘实时计算技术，构建输电线路三维全景智能测量装备，可完成 300 米范围内危险源厘米级定位，成功应用于特高压工程及冬奥保电等重点项目。",
+  "background": "濠汉专注 AI 图像识别、图像几何三维重建，自主研发的输电线路全景三维智能测量装备应用于特高压及冬奥保电，获评国家专精特新“小巨人”企业。",
+  "problem": "输电线路外破、覆冰、风偏等隐患监测难，传统人工巡线效率低、风险高。",
+  "solution": "三维全景智能测量，双目立体视觉+深度学习+边缘计算实现厘米级定位。",
+  "implementationSteps": [
+    "研发三维全景智能测量装备",
+    "融合双目立体视觉与边缘实时计算",
+    "在特高压与冬奥保电等重点项目应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "监测范围",
+      "value": "300",
+      "unit": "米",
+      "kind": "actual",
+      "sourceId": "src-hh-1"
+    },
+    {
+      "label": "定位精度",
+      "value": "厘米级",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-hh-1"
+    }
+  ],
+  "roi": "",
+  "risks": "复杂气象环境适配、边缘计算实时性。",
+  "editorComment": {
+    "suitableFor": "输电线路智能监测与隐患预警",
+    "prerequisites": "具备图像采集与边缘算力",
+    "priority": "建议优先",
+    "text": "双目视觉+边缘计算实现线路厘米级监测。"
+  },
+  "implementers": [
+    {
+      "name": "江苏濠汉信息技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-hh-1",
+      "title": "南通3个案例入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "南通市人民政府",
+      "originalUrl": "https://www.nantong.gov.cn/ntsrmzf/bmyw/content/979500b5-3278-4750-b4b1-c429f34fed4f.html",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证 300 米范围厘米级定位与融合技术。",
+      "publishedAt": "2026-07-07"
+    },
+    {
+      "publicId": "src-hh-2",
+      "title": "输电线路三维全景智能测量装置-江苏濠汉",
+      "sourceType": "official",
+      "publisher": "濠汉信息",
+      "originalUrl": "https://www.haohanit.cn/product1/showdownload.php?id=26",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 AI 图像识别与双目立体视觉技术路线。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "监测难",
+    "人工巡线低效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "双目立体视觉",
+    "深度学习",
+    "边缘计算"
+  ],
+  "modelStack": [
+    "输电线路三维全景智能测量装备"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "输电线路",
+    "三维测量",
+    "双目视觉",
+    "濠汉"
+  ],
+  "seo": {
+    "metaTitle": "输电线路三维全景智能测量解决方案实践",
+    "metaDescription": "输电线路三维全景智能测量解决方案实践",
+    "keywords": [
+      "江苏濠汉信息技术有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

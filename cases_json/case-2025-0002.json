@@ -1,0 +1,186 @@
+{
+  "id": "case-2025-0002",
+  "version": 1,
+  "slug": "case-2025-0002",
+  "title": "灵境云边缘 AI 算力服务实践",
+  "organization": {
+    "id": "org-0002",
+    "name": "江苏云工场信息技术有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "云工场灵境云基于全国2000+边缘节点与8个智算中心构建'云-边-端'协同的边缘AI算力服务（EdgeAIStation），完成DeepSeek等大模型适配，打造本地化'算力超市'，并以LjyunCSP实现异构算力私有化调度。",
+  "background": "AI应用落地对低时延推理、数据本地化与弹性算力需求增长；大量企业与园区存在闲置或分散的算力资源难以统一利用。",
+  "problem": "企业获取高端GPU算力成本高、时延大；边缘侧缺乏统一算力调度与模型部署能力；内部闲置服务器资源利用率低。",
+  "solution": "灵境云推出边缘AI算力EdgeAIStation与异构调度平台LjyunCSP：支持全栈私有化部署，含多租户、镜像管理、模型私有化部署、自定义计费与算力券；依托全国2000+区县级边缘节点与8个智算中心实现'云-边-端'协同；自研国产推理引擎性能与高端GPU持平；完成DeepSeek V3/R1多版本适配，打造本地'算力超市''锡产锡用'。另通过EdgeAIoT将云端AI推理下沉边缘，用于智慧工厂违规行为实时监测。",
+  "implementationSteps": [
+    "边缘节点与智算中心基础设施布局（2000+边缘节点、8个智算中心）",
+    "研发LjyunCSP异构算力调度平台，支持私有化部署与多租户运营",
+    "完成DeepSeek V3/R1等大模型适配上线",
+    "联合中国信通院'鲸智社区'上线国产推理引擎服务",
+    "EdgeAIoT将AI推理能力下沉至智慧工厂等边缘场景"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "边缘节点覆盖",
+      "value": "2000+",
+      "unit": "区县级节点",
+      "kind": "actual"
+    },
+    {
+      "label": "智算中心",
+      "value": "8",
+      "unit": "个",
+      "kind": "actual"
+    },
+    {
+      "label": "内部闲置资源利用率提升",
+      "value": "40",
+      "unit": "%以上",
+      "kind": "estimated",
+      "sourceId": "src-yg-2"
+    },
+    {
+      "label": "推理性能",
+      "value": "与高端GPU持平",
+      "kind": "actual",
+      "sourceId": "src-yg-1"
+    }
+  ],
+  "roi": "",
+  "risks": "边缘节点分散运维复杂；异构芯片适配与私有化部署对运维能力要求高；需关注数据安全与跨域调度合规性。",
+  "editorComment": {
+    "suitableFor": "政府、园区、大型企业需要就近低时延推理与内部算力统一纳管的场景",
+    "prerequisites": "具备边缘节点/数据中心基础设施与运维团队",
+    "priority": "建议优先",
+    "text": "对中小企业友好的'算力超市'模式，可按需弹性获取算力，降低自建门槛。"
+  },
+  "implementers": [
+    {
+      "name": "江苏云工场信息技术有限公司",
+      "role": "申报单位/平台方"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yg-1",
+      "title": "无锡高新区AI算力平台全面上线DeepSeek",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/JO44J3GH0514VI16.html",
+      "publishedAt": "2025",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yg-2",
+      "title": "灵境云算力调度平台 LjyunCSP 架构解析",
+      "sourceType": "article",
+      "publisher": "博客园",
+      "originalUrl": "https://www.cnblogs.com/newjpz/p/19879483",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yg-3",
+      "title": "分布式异构调度破解AI算力损耗难题：云工场科技体系化实践解析",
+      "sourceType": "news",
+      "publisher": "腾讯新闻",
+      "originalUrl": "https://new.qq.com/rain/a/20260703A06PWW00",
+      "publishedAt": "2026-07-03",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "算力成本",
+    "算力调度",
+    "边缘时延"
+  ],
+  "painPointNarrative": "",
+  "highlight": "2000+边缘节点构建'算力超市'，资源利用率提升约40%",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "边缘计算",
+    "云边端协同",
+    "异构算力调度",
+    "私有化部署"
+  ],
+  "modelStack": [
+    "DeepSeek V3/R1"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "边缘算力",
+    "算力调度"
+  ],
+  "seo": {
+    "metaTitle": "云工场 灵境云 边缘AI算力服务实践",
+    "metaDescription": "云工场灵境云基于2000+边缘节点与8个智算中心，构建云边端协同的边缘AI算力服务与异构调度平台。",
+    "keywords": [
+      "云工场",
+      "灵境云",
+      "边缘算力",
+      "EdgeAIStation"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

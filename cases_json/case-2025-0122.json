@@ -1,0 +1,161 @@
+{
+  "id": "case-2025-0122",
+  "version": 1,
+  "slug": "case-2025-0122",
+  "title": "北达飞易人工智能结构仿真软件应用",
+  "organization": {
+    "id": "org-0122",
+    "name": "北京大学重庆大数据研究院",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北京大学重庆大数据研究院自主研发'北达飞易人工智能结构仿真软件'，采用'数学驱动+AI 赋能'技术路线，构建新一代有限元算法内核，实现 100% 自主可控，仿真效率最高提升 4 倍，在汽车、机械、船舶等领域落地。",
+  "background": "以 CAE 为代表的研发设计类工业软件是装备制造业自主创新的核心支撑，国产 CAE 长期依赖国外开源数学库，算法内核自主性不足。",
+  "problem": "国产 CAE 软件算法内核自主性不足，难以满足先进制造与重大装备对仿真效率与精度的要求。",
+  "solution": "以数学驱动结合 AI 赋能，研发具有完全自主知识产权的新一代有限元结构仿真分析软件（北达飞易），支撑大规模自由度模型快速求解。",
+  "implementationSteps": [
+    "依托北大数学学科奠基性算法成果（混合有限元、AI 混合迭代法）",
+    "研发北达飞易新一代 CAE 算法引擎",
+    "在汽车、机械、船舶等领域落地应用"
+  ],
+  "duration": "2023 年起",
+  "cost": "",
+  "results": [
+    {
+      "label": "仿真效率",
+      "value": "最高提升 4 倍",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-bdfy-1"
+    }
+  ],
+  "roi": "",
+  "risks": "复杂工程问题的求解精度验证、产业生态与用户习惯。",
+  "editorComment": {
+    "suitableFor": "装备制造业 CAE 结构仿真（国产替代）",
+    "prerequisites": "具备工程仿真需求与算力环境",
+    "priority": "建议优先",
+    "text": "100% 自主可控工业软件，国产替代价值高。"
+  },
+  "implementers": [
+    {
+      "name": "北京大学重庆大数据研究院",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-bdfy-1",
+      "title": "效率最高提升4倍 “重庆造”AI仿真软件入选国家级典型",
+      "sourceType": "news",
+      "publisher": "新华网（重庆）",
+      "originalUrl": "http://www.cq.xinhuanet.com/20260708/e498eebc2b204728833b5ef8f91c949f/c.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证效率提升与自主可控。",
+      "publishedAt": "2026-07-08"
+    },
+    {
+      "publicId": "src-bdfy-2",
+      "title": "北京大学、北京大学重庆大数据研究院自主研发的北达飞易",
+      "sourceType": "news",
+      "publisher": "北京大学",
+      "originalUrl": "https://news.pku.edu.cn/xwzh/addc7dd788b44df4970353389c08f496.htm",
+      "accessibility": "available",
+      "rightsNote": "官方报道，佐证自主知识产权与领域落地。",
+      "publishedAt": "2024-08-08"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "国产CAE内核依赖",
+    "仿真效率低"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "AI混合迭代",
+    "有限元算法"
+  ],
+  "modelStack": [
+    "北达飞易 AI 仿真软件"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "CAE",
+    "工业软件",
+    "自主可控",
+    "仿真"
+  ],
+  "seo": {
+    "metaTitle": "北达飞易人工智能结构仿真软件应用",
+    "metaDescription": "北达飞易人工智能结构仿真软件应用",
+    "keywords": [
+      "北京大学重庆大数据研究院",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

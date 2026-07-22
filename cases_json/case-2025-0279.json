@@ -1,0 +1,146 @@
+{
+  "id": "case-2025-0279",
+  "version": 1,
+  "slug": "case-2025-0279",
+  "title": "电力交易辅助决策智能系统",
+  "organization": {
+    "id": "org-0279",
+    "name": "北京耦合科技有限公司",
+    "size": "1–20人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-special",
+      "name": "专项场景应用",
+      "slug": "scn-special",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中移（杭州）信息技术有限公司（中移互联网体系）实践“通信大模型创新应用”，依托中国移动“九天”人工智能平台（提供从智算基础设施、核心算法到智能化应用的全栈能力），并结合通信网络智能化领域的现网精品数据集与网络仿真环境，构建面向通信服务与网络智能的通信大模型能力，赋能千行百业 AI 落地。",
+  "background": "中国移动“九天”大模型已迭代至 V3.0，在医疗、工业、政务等领域形成典型应用；中移互联网/中移杭研聚焦通信与互联网服务的智能化升级，并发布九天安全可信多模态大模型升级。",
+  "problem": "通信与互联网服务场景复杂，传统模式难以精准满足多样化智能需求。",
+  "solution": "通信大模型，依托九天平台与通信专业数据实现智能化服务与网络智能。",
+  "implementationSteps": [
+    "依托九天平台构建通信大模型底座",
+    "融合通信网络现网数据与仿真环境",
+    "在通信服务与网络智能场景落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "通信生产安全、模型对多样服务的泛化。",
+  "editorComment": {
+    "suitableFor": "通信与互联网服务智能化",
+    "prerequisites": "具备九天平台与通信数据",
+    "priority": "建议优先",
+    "text": "通信大模型赋能千行百业 AI 落地。"
+  },
+  "implementers": [
+    {
+      "name": "北京耦合科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmcc-5",
+      "title": "中国移动九天多模态大模型+MoMA多模型服务引擎打造安全可信能力",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "https://www.xinhuanet.com/info/20260719/05c42949a27a4bfd8cb9b2caf1acaeb8/c.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证九天大模型体系与通信智能化能力。",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "publicId": "src-cmcc-6",
+      "title": "中国移动·智慧网络开放创新平台（现网数据集/仿真环境）",
+      "sourceType": "official",
+      "publisher": "中国移动",
+      "originalUrl": "https://jiutian.10086.cn/open/",
+      "accessibility": "available",
+      "rightsNote": "企业平台，佐证通信网络智能化现网数据集与仿真环境。",
+      "publishedAt": "2025-02-11"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "场景复杂",
+    "难精准满足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "通信大模型",
+    "全栈AI"
+  ],
+  "modelStack": [
+    "九天通信大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "通信大模型",
+    "九天",
+    "中移互联网"
+  ],
+  "seo": {
+    "metaTitle": "电力交易辅助决策智能系统",
+    "metaDescription": "电力交易辅助决策智能系统",
+    "keywords": [
+      "北京耦合科技有限公司",
+      "专题方向"
+    ]
+  },
+  "miitDirection": "专题方向",
+  "miitRecommender": "北京市经济和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

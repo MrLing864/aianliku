@@ -1,0 +1,155 @@
+{
+  "id": "case-2025-0050",
+  "version": 1,
+  "slug": "case-2025-0050",
+  "title": "冶金全流程工业 AI 大模型规模化应用",
+  "organization": {
+    "id": "org-0050",
+    "name": "新兴铸管股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "新兴铸管武安本级建成49个AI垂直大模型应用场景，覆盖生产优化、质量控制、能源管理等环节，实现冶金全流程工业AI大模型规模化应用，系邯郸唯一入选工信部数字领航案例的企业。",
+  "background": "新兴铸管作为铸管与冶金企业，推进人工智能驱动的生产优化与降本增效。",
+  "problem": "冶金全流程环节多、数据分散，传统管理难以实现全局优化与降本。",
+  "solution": "新兴铸管武安本级建成49个AI垂直大模型应用场景，广泛应用于生产优化、质量控制、能源管理等环节，实现企业人工智能驱动与冶金全流程工业AI大模型规模化应用，解锁降本增效。",
+  "implementationSteps": [
+    "构建冶金全流程AI垂直大模型应用体系",
+    "建成49个AI应用场景（生产/质量/能源）",
+    "规模化落地实现降本增效",
+    "入选工信部数字领航案例"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "AI垂直大模型应用场景",
+      "value": "49",
+      "unit": "个",
+      "kind": "actual",
+      "sourceId": "src-xx-1"
+    }
+  ],
+  "roi": "",
+  "risks": "规模化应用需打通多系统集成与数据治理；模型运维与持续优化投入大。",
+  "editorComment": {
+    "suitableFor": "冶金/制造企业全流程AI大模型规模化落地",
+    "prerequisites": "具备较完整生产与质量数据基础",
+    "priority": "条件具备后开展",
+    "text": "49个场景的冶金全流程AI规模化应用，适合制造业大模型落地参考。"
+  },
+  "implementers": [
+    {
+      "name": "新兴铸管股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xx-1",
+      "title": "新兴铸管：49个AI工业模型应用解锁降本增效",
+      "sourceType": "news",
+      "publisher": "澎湃新闻",
+      "originalUrl": "https://m.thepaper.cn/baijiahao_31061857",
+      "publishedAt": "2025-06-29",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-xx-2",
+      "title": "新兴铸管入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260709/c678070815.shtml",
+      "publishedAt": "2026-07-09",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "全流程优化",
+    "降本增效",
+    "数据分散"
+  ],
+  "painPointNarrative": "",
+  "highlight": "49个AI场景的冶金全流程工业大模型规模化应用",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "工业AI大模型",
+    "全流程",
+    "规模化应用"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "钢铁冶金",
+    "工业大模型"
+  ],
+  "seo": {
+    "metaTitle": "新兴铸管 冶金全流程工业AI大模型规模化应用",
+    "metaDescription": "新兴铸管建成49个AI垂直大模型应用场景，覆盖生产/质量/能源，实现冶金全流程规模化应用。",
+    "keywords": [
+      "新兴铸管",
+      "工业AI大模型",
+      "冶金全流程",
+      "49个场景"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0168",
+  "version": 1,
+  "slug": "case-2025-0168",
+  "title": "人工智能驱动的电力大数据精准治污与绿色低碳协同平台实践",
+  "organization": {
+    "id": "org-0168",
+    "name": "国网河北省电力有限公司石家庄供电公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "能源电力",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "国网河北省电力有限公司石家庄供电公司依托电力大数据和人工智能技术，构建“一平台、双模型”的精准治污体系，覆盖石家庄全域重点污染企业用电数据实时监测与分析，形成污染物排放典型企业画像及行业画像，为差异化大气污染防治管控提供数据与算法支撑。",
+  "background": "石家庄供电公司“电力数据服务大气污染治理”项目此前获 2024 年“数据要素×”大赛河北分赛技术创新奖，并联合清华四川院深化“数据要素×绿色低碳”研究。",
+  "problem": "大气污染防治对重点污染企业用电数据的实时监控与动态跟踪不足，差异化管控难。",
+  "solution": "依托电力大数据与 AI，构建一平台双模型精准治污体系，实时监测重点污染企业用电并形成企业/行业污染画像。",
+  "implementationSteps": [
+    "汇聚重点污染企业用电与环保排放数据",
+    "构建企业画像与行业画像双模型",
+    "支撑石家庄全域差异化大气污染防治管控"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "电力数据与排放关联建模精度、数据合规。",
+  "editorComment": {
+    "suitableFor": "大气污染防治与绿色低碳协同治理",
+    "prerequisites": "具备电力大数据与环保数据",
+    "priority": "建议优先",
+    "text": "电力大数据赋能精准治污的供电企业范式。"
+  },
+  "implementers": [
+    {
+      "name": "国网河北省电力有限公司石家庄供电公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-sjz-1",
+      "title": "工信部发布2025年典型案例名单 河北8项入选（含石家庄供电公司）",
+      "sourceType": "news",
+      "publisher": "河北省工业和信息化厅",
+      "originalUrl": "https://heb.hebccw.cn/system/2026/07/18/102204779.shtml",
+      "accessibility": "available",
+      "rightsNote": "地方政府报道，佐证石家庄供电公司一平台双模型精准治污。",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "publicId": "src-sjz-2",
+      "title": "院企合作结硕果：研究院助力国网石家庄供电公司案例入选",
+      "sourceType": "news",
+      "publisher": "清华四川院",
+      "originalUrl": "https://www.tsinghua-hb.com.cn/info/1016/4353.htm",
+      "accessibility": "available",
+      "rightsNote": "院所报道，佐证数据要素×绿色低碳研究背景。",
+      "publishedAt": "2026-04-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "实时监控不足",
+    "差异化管控难"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "电力大数据",
+    "企业画像建模"
+  ],
+  "modelStack": [
+    "一平台双模型精准治污体系"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "电力大数据",
+    "精准治污",
+    "绿色低碳",
+    "以电控污"
+  ],
+  "seo": {
+    "metaTitle": "人工智能驱动的电力大数据精准治污与绿色低碳协同平台实践",
+    "metaDescription": "人工智能驱动的电力大数据精准治污与绿色低碳协同平台实践",
+    "keywords": [
+      "国网河北省电力有限公司石家庄供电公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "河北省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0161",
+  "version": 1,
+  "slug": "case-2025-0161",
+  "title": "公有云全流程 AI+处置亿级云端威胁",
+  "organization": {
+    "id": "org-0161",
+    "name": "中移（苏州）软件技术有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由中移（苏州）软件技术有限公司（移动云）申报的“公有云全流程AI+处置亿级云端威胁”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由中国移动通信集团有限公司推荐。该案例是移动云基于云原生自适应安全架构，在安全云脑智能运营平台上开展的重要创新，实现公有云全流程AI+处置亿级云端威胁。",
+  "background": "中移（苏州）软件技术有限公司是中国移动云能力中心，负责移动云的研发与运营，持续推动云原生安全能力建设。",
+  "problem": "公有云面临海量（亿级）云端威胁，传统安全运营依赖人工，难以实现威胁检测、分析、处置的全流程自动化闭环。",
+  "solution": "基于云原生自适应安全架构，在移动云安全云脑智能运营平台上，以AI实现公有云威胁检测、分析、处置的全流程闭环，规模化应对亿级云端威胁。",
+  "implementationSteps": [
+    "构建云原生自适应安全架构与统一安全数据底座。",
+    "在安全云脑智能运营平台集成AI威胁检测与分析能力。",
+    "实现威胁研判、响应与处置的全流程自动化闭环。",
+    "在移动云公有云环境规模化落地，处置亿级云端威胁。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "处置规模",
+      "value": "亿级",
+      "unit": "云端威胁",
+      "kind": "qualitative",
+      "sourceId": "src-news-0161"
+    }
+  ],
+  "roi": "",
+  "risks": "自动化处置需严格误报控制与回滚机制，关键安全动作保留人工确认；防范对抗样本与模型被绕过。",
+  "editorComment": {
+    "suitableFor": "公有云安全运营、大规模威胁自动化处置。",
+    "prerequisites": "具备云原生安全架构与统一安全数据底座。",
+    "priority": "high",
+    "text": "移动云“公有云全流程AI+处置亿级云端威胁”是安全云脑智能运营平台的重要创新，入选国家级典型案例，安全运营降本增效显著。"
+  },
+  "implementers": [
+    {
+      "name": "中移（苏州）软件技术有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ecs-1",
+      "title": "移动云官网-云擎未来,智信天下",
+      "sourceType": "official",
+      "publisher": "中国移动云能力中心",
+      "originalUrl": "https://ecloud.10086.cn/portal/act/AI",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证移动云安全智慧云定位。",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "publicId": "src-news-0161",
+      "title": "苏州高新区2个案例入选工信部人工智能应用典型案例",
+      "sourceType": "media",
+      "publisher": "中国高新网",
+      "originalUrl": "http://www.chinahightech.com/yuanqu/2026-07/04/content_542133.html",
+      "externalId": "",
+      "publishedAt": "2026-07-04",
+      "accessibility": "available",
+      "rightsNote": "报道“公有云全流程AI+处置亿级云端威胁”是移动云基于云原生自适应安全架构在安全云脑智能运营平台上开展的重要创新。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "云原生",
+    "安全大模型",
+    "自动化处置"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "云安全",
+    "安全云脑",
+    "AI安全运营",
+    "移动云"
+  ],
+  "seo": {
+    "metaTitle": "公有云全流程 AI+处置亿级云端威胁",
+    "metaDescription": "公有云全流程 AI+处置亿级云端威胁",
+    "keywords": [
+      "中移（苏州）软件技术有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国移动通信集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

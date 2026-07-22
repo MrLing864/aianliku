@@ -1,0 +1,116 @@
+{
+  "id": "case-2025-0262",
+  "version": 1,
+  "slug": "case-2025-0262",
+  "title": "海关智能填报平台实践",
+  "organization": {
+    "id": "org-0262",
+    "name": "福建省星汉智能科技有限公司",
+    "size": "51–100人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由福建省星汉智能科技有限公司申报的“海关智能填报平台实践”入选工业和信息化部办公厅2025年人工智能应用典型案例。该案例公开可检索的详细技术方案与实施成效信息较为有限，本条目暂以入选依据收录，待后续补充完善。",
+  "background": "福建省星汉智能科技有限公司是福建省大数据集团所属企业，曾投资建设福建省规模最大的人工智能算力集群之一。其“海关智能填报平台实践”由福建省推荐入选工信部2025人工智能应用典型案例（产品应用方向）。",
+  "problem": "",
+  "solution": "",
+  "implementationSteps": [],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "",
+  "editorComment": null,
+  "implementers": [
+    {
+      "name": "福建省星汉智能科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "undisclosed",
+  "contentStatus": "draft",
+  "confidence": "pending",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0262",
+      "title": "省大数据集团算力平台项目试运行 助力福建AI产业发展",
+      "sourceType": "media",
+      "publisher": "东南网",
+      "originalUrl": "http://fjnews.fjsen.com/2023-12/15/content_31480981.htm",
+      "externalId": "",
+      "publishedAt": "2023-12-15",
+      "accessibility": "available",
+      "rightsNote": "报道福建省星汉智能科技有限公司（福建省大数据集团所属）投资建设福建省规模最大的AI算力集群之一，佐证企业背景。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [],
+  "seo": {
+    "metaTitle": "海关智能填报平台实践",
+    "metaDescription": "海关智能填报平台实践",
+    "keywords": [
+      "福建省星汉智能科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "福建省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

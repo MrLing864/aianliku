@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0243",
+  "version": 1,
+  "slug": "case-2025-0243",
+  "title": "实在 Agent 通用智能体平台加速工业型企业数字化转型",
+  "organization": {
+    "id": "org-0243",
+    "name": "浙江实在智能科技有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由浙江实在智能科技有限公司申报的“实在 Agent 通用智能体平台加速工业型企业数字化转型”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由浙江省经济和信息化厅推荐。实在Agent基于自研TARS大模型与RPA Agent技术，构建“企业大脑”，以数字员工深耕业务一线，为工业型企业提供轻量化、可复用的智能体解决方案，助力提质降本增效。",
+  "background": "浙江实在智能科技有限公司成立于2018年8月，总部位于杭州，是通用智能体领域领军企业、国家级专精特新“小巨人”企业。公司基于自研TARS大模型与RPA Agent技术，打造实在RPA数字员工、实在云脑等产品。",
+  "problem": "工业型企业在数字化转型中面临大量重复性业务流程与人工操作，跨运营、销售、法务、财务等部门的流程自动化与智能化需求迫切，亟需轻量化、可复用的企业级智能体。",
+  "solution": "实在Agent通用智能体平台基于自研TARS大模型与实在Agent架构，构建数字员工运行中枢“企业大脑”，支持本地化私有部署，开箱即可快速搭建运营、销售、法务、财务等专属智能体，以数字员工实现业务流程自动化与智能决策。",
+  "implementationSteps": [
+    "基于TARS大模型与RPA Agent构建实在Agent通用智能体平台。",
+    "搭建“企业大脑”数字员工运行中枢，支持本地化私有部署。",
+    "面向运营、销售、法务、财务等业务场景快速搭建专属智能体。",
+    "在工业型企业中规模化落地，助力提质降本增效。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "服务企业客户",
+      "value": "4000",
+      "unit": "家+",
+      "kind": "count",
+      "sourceId": "src-news-0243"
+    },
+    {
+      "label": "入选级别",
+      "value": "国家级",
+      "unit": "",
+      "kind": "qualitative",
+      "sourceId": "src-miit-340"
+    }
+  ],
+  "roi": "",
+  "risks": "企业级智能体涉及核心业务数据，需强化私有化部署与数据安全；数字员工执行关键流程须保留人工复核与审计机制。",
+  "editorComment": {
+    "suitableFor": "工业型及各类企业的运营、销售、法务、财务等流程自动化与智能化。",
+    "prerequisites": "具备明确的业务流程数字化需求，关注数据隐私与私有化部署。",
+    "priority": "high",
+    "text": "实在Agent是国产通用智能体代表，已服务超4000家企业，入选浙江省15个上榜项目之一，具备较强的推广价值。"
+  },
+  "implementers": [
+    {
+      "name": "浙江实在智能科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0243",
+      "title": "喜报！实在智能入选工信部人工智能应用典型案例",
+      "sourceType": "official_website",
+      "publisher": "浙江实在智能科技有限公司",
+      "originalUrl": "https://www.ai-indeed.com/aboutNews/26082.html",
+      "externalId": "",
+      "publishedAt": "2026-07-09",
+      "accessibility": "available",
+      "rightsNote": "实在智能官网披露其《实在Agent通用智能体平台加速工业型企业数字化转型》经浙江省经信厅推荐入选工信部2025年人工智能应用典型案例，并介绍平台基于TARS大模型与RPA Agent。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "RPA",
+    "智能体"
+  ],
+  "modelStack": [
+    "TARS大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "通用智能体",
+    "数字员工",
+    "RPA",
+    "TARS大模型",
+    "数字化转型"
+  ],
+  "seo": {
+    "metaTitle": "实在 Agent 通用智能体平台加速工业型企业数字化转型",
+    "metaDescription": "实在 Agent 通用智能体平台加速工业型企业数字化转型",
+    "keywords": [
+      "浙江实在智能科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

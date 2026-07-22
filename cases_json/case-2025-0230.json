@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0230",
+  "version": 1,
+  "slug": "case-2025-0230",
+  "title": "星海大模型在智能家电产品中的应用",
+  "organization": {
+    "id": "org-0230",
+    "name": "聚好看科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "家电电子",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "聚好看科技股份有限公司（海信）将'星海大模型'应用于智能家电产品，并基于星海大模型推出'星聚 AI'大屏智能交互系统与 AI 家电智能体，融合 AI 语音、AI 视觉与生成式 AI，重构家庭娱乐与生活场景。",
+  "background": "'星海大模型'是海信 2024 年 3 月发布、覆盖语言/视觉生成/多模态理解三大系列的自研大模型，已接入 DeepSeek 并赋能智慧生活、智慧能源等产业集群；聚好看在 AWE 2025 发布'星聚 AI'大屏交互系统。",
+  "problem": "传统家电以被动控制为主，缺乏主动理解与服务能力。",
+  "solution": "以星海大模型+DeepSeek 构建 AI 家电智能体，将多模态能力嵌入大屏与家电主链路，实现'会思考的智能管家'式交互。",
+  "implementationSteps": [
+    "研发并发布海信星海大模型",
+    "接入 DeepSeek 提升理解与生成能力",
+    "以星聚 AI 落地大屏与家电智能体"
+  ],
+  "duration": "2024 年起",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "家庭场景隐私、多设备协同与响应时延。",
+  "editorComment": {
+    "suitableFor": "智能家电与家庭大屏交互",
+    "prerequisites": "具备智能家电与大屏终端基础",
+    "priority": "建议优先",
+    "text": "自研大模型+智能体，家电 AI 化标杆。"
+  },
+  "implementers": [
+    {
+      "name": "聚好看科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-xinghai-1",
+      "title": "星海大模型 - 百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E6%98%9F%E6%B5%B7%E5%A4%A7%E6%A8%A1%E5%9E%8B/64163810",
+      "accessibility": "available",
+      "rightsNote": "公开百科，佐证星海大模型定位与三大系列。",
+      "publishedAt": "2024-03-15"
+    },
+    {
+      "publicId": "src-xinghai-2",
+      "title": "海信星海大模型接入DeepSeek",
+      "sourceType": "news",
+      "publisher": "新华网",
+      "originalUrl": "http://www3.xinhuanet.com/tech/20250212/d1695a99d9f245b5826335ce77054416/c.html",
+      "accessibility": "available",
+      "rightsNote": "公开报道，佐证接入 DeepSeek 与垂直领域赋能。",
+      "publishedAt": "2025-02-12"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "被动控制",
+    "缺乏主动服务"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多模态大模型",
+    "生成式AI"
+  ],
+  "modelStack": [
+    "星海大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "星海大模型",
+    "智能家电",
+    "星聚AI",
+    "海信"
+  ],
+  "seo": {
+    "metaTitle": "星海大模型在智能家电产品中的应用",
+    "metaDescription": "星海大模型在智能家电产品中的应用",
+    "keywords": [
+      "聚好看科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0110",
+  "version": 1,
+  "slug": "case-2025-0110",
+  "title": "基于内生智能驱动的多智能体无线运维系统",
+  "organization": {
+    "id": "org-0110",
+    "name": "中国移动通信集团安徽有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国移动安徽公司构建基于内生智能驱动的多智能体无线运维系统，联合集团研究院、设计院与华为在合肥打造千站规模无线高阶自智网络示范区；其“无线多智能体协同”方案基于通信专业领域大模型，调用网络内生智能原子能力，赋能无线运维工作台，实现从传统运维到智能运维的跨越。",
+  "background": "中国移动拥有全球规模最大的 5G/5G-A 网络基础设施，无线运维复杂度和规模巨大。",
+  "problem": "无线网络规模庞大、运维复杂，传统人工运维难以及时响应故障与优化需求。",
+  "solution": "基于通信专业大模型，通过多智能体协同调用网络内生智能原子能力，赋能无线运维工作台，提升故障处理与网络优化效率。",
+  "implementationSteps": [
+    "在合肥打造千站规模无线高阶自智网络示范区",
+    "研发通信专业大模型与无线多智能体协同能力",
+    "赋能无线运维工作台规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "多智能体协同的可靠性、大模型在网络生产流程中的安全边界。",
+  "editorComment": {
+    "suitableFor": "大规模无线网络智能运维",
+    "prerequisites": "具备 5G/5G-A 网络与运维数据底座",
+    "priority": "建议优先",
+    "text": "通信专业大模型+多智能体的运维范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国移动通信集团安徽有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cmccah-1",
+      "title": "三大运营商大模型入选工信部2025年人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "新浪财经",
+      "originalUrl": "https://finance.sina.com.cn/tech/roll/2026-07-16/doc-inihyiye7668012.shtml",
+      "accessibility": "available",
+      "rightsNote": "媒体报道，佐证安徽移动多智能体无线运维系统入选。",
+      "publishedAt": "2026-07-16"
+    },
+    {
+      "publicId": "src-cmccah-2",
+      "title": "中国移动安徽公司携手华为打造无线高阶自智网络示范区",
+      "sourceType": "news",
+      "publisher": "C114通信网",
+      "originalUrl": "https://www.c114.com.cn/news/126/a1284183.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证千站规模自智网络示范区。",
+      "publishedAt": "2025-03-03"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "运维规模大",
+    "人工响应慢"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "多智能体协同",
+    "通信专业大模型"
+  ],
+  "modelStack": [
+    "无线多智能体协同运维系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "多智能体",
+    "无线运维",
+    "自智网络",
+    "通信大模型"
+  ],
+  "seo": {
+    "metaTitle": "基于内生智能驱动的多智能体无线运维系统",
+    "metaDescription": "基于内生智能驱动的多智能体无线运维系统",
+    "keywords": [
+      "中国移动通信集团安徽有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "安徽省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

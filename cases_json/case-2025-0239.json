@@ -1,0 +1,162 @@
+{
+  "id": "case-2025-0239",
+  "version": 1,
+  "slug": "case-2025-0239",
+  "title": "测井智能处理解释系统应用",
+  "organization": {
+    "id": "org-0239",
+    "name": "中国石油集团测井有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "soe"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中国石油集团测井有限公司（中油测井）研发“测井智能处理解释系统应用”，以“双模”（规则模型+AI 模型）加持实现测井资料智能解释；长庆分公司应用智能解释系统可在 4 小时内完成单井储层划分与油藏段精细解释，较以往节约 2 小时，并在长庆陇东地区建立 17 个中心井区域智能模型（1689 口井数据标准化、600 余口井应用测试）。",
+  "background": "中国石油依托统一测井数据库海量数据优势，推进测井处理解释数字化、智能化转型；昆仑大模型也涵盖测井处理解释大模型应用。",
+  "problem": "测井解释传统依赖专家经验、处理周期长，难以应对大规模井资料快速评价需求。",
+  "solution": "“双模”智能解释系统融合规则模型与 AI 模型，实现从数据加载、参数计算到储层划分的端到端自动化解释。",
+  "implementationSteps": [
+    "构建测井智能解释“双模”体系",
+    "建立区域地质分层/储层划分智能模型",
+    "在长庆等油田规模化应用"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "单井解释耗时",
+      "value": "4",
+      "unit": "小时",
+      "kind": "actual",
+      "sourceId": "src-cnpc-1"
+    },
+    {
+      "label": "较以往节约",
+      "value": "2",
+      "unit": "小时",
+      "kind": "actual",
+      "sourceId": "src-cnpc-1"
+    }
+  ],
+  "roi": "",
+  "risks": "测井数据质量、模型对复杂储层的泛化。",
+  "editorComment": {
+    "suitableFor": "油气测井智能处理解释",
+    "prerequisites": "具备统一测井数据库",
+    "priority": "建议优先",
+    "text": "双模智能解释提升测井处理时效的能源范式。"
+  },
+  "implementers": [
+    {
+      "name": "中国石油集团测井有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-cnpc-1",
+      "title": "中油测井：“双模”加持快速释放智能解释价值",
+      "sourceType": "news",
+      "publisher": "中国石油新闻网",
+      "originalUrl": "https://news.cnpc.com.cn/system/2025/09/04/030172765.shtml",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证 4 小时解释、节约 2 小时与区域智能模型。",
+      "publishedAt": "2025-09-04"
+    },
+    {
+      "publicId": "src-cnpc-2",
+      "title": "中油测井智能解释提升处理时效",
+      "sourceType": "news",
+      "publisher": "石油石化科技",
+      "originalUrl": "https://www.cppei.org.cn/syshkj/d241575.html",
+      "accessibility": "available",
+      "rightsNote": "行业媒体报道，佐证 17 个中心井区域智能模型与测试规模。",
+      "publishedAt": "2025-08-07"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "依赖经验",
+    "处理周期长"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "规则模型+AI模型",
+    "端到端自动化"
+  ],
+  "modelStack": [
+    "测井智能处理解释系统"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "测井",
+    "智能解释",
+    "双模",
+    "中油测井"
+  ],
+  "seo": {
+    "metaTitle": "测井智能处理解释系统应用",
+    "metaDescription": "测井智能处理解释系统应用",
+    "keywords": [
+      "中国石油集团测井有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "中国石油天然气集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

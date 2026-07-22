@@ -1,0 +1,156 @@
+{
+  "id": "case-2025-0018",
+  "version": 1,
+  "slug": "case-2025-0018",
+  "title": "冶金行业高质量数据集建设与应用",
+  "organization": {
+    "id": "org-0018",
+    "name": "冶金自动化研究设计院有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "钢铁冶金",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "冶金自动化研究设计院建设冶金行业高质量数据集，聚焦转炉火焰识别、废钢识别等核心场景构建高质量标注数据集，为'行业大模型+场景微调'提供关键支撑，并参与钢铁行业数据集标准制定。",
+  "background": "钢铁行业大模型应用面临'数据不够用、数据不好用'等共性问题，缺乏面向大模型的高质量标注数据集。",
+  "problem": "钢铁行业数据分散、质量参差，难以直接用于大模型训练；缺乏统一的高质量数据集评价与建设规范。",
+  "solution": "针对钢铁行业大模型'数据不够用、数据不好用'共性问题，设计满足大模型需求的数据集方案；聚焦转炉火焰识别、废钢识别等核心场景，构建高质量标注数据集，为'行业大模型+场景微调'模式提供关键支撑；参与《人工智能 钢铁行业高质量数据集评价要求》国家标准化指导性技术文件。",
+  "implementationSteps": [
+    "设计满足大模型需求的钢铁行业数据集方案",
+    "聚焦转炉火焰识别、废钢识别构建高质量标注数据集",
+    "支撑'行业大模型+场景微调'应用",
+    "参与钢铁行业高质量数据集评价标准制定"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "工业现场数据标注专业门槛高、成本高；数据集质量与一致性需持续保障。",
+  "editorComment": {
+    "suitableFor": "钢铁冶金企业、行业院所建设面向大模型的高质量数据集",
+    "prerequisites": "具备钢铁生产现场数据与工艺知识",
+    "priority": "条件具备后开展",
+    "text": "以高质量标注数据集支撑钢铁行业大模型，适合冶金企业参考。"
+  },
+  "implementers": [
+    {
+      "name": "冶金自动化研究设计院有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yj-1",
+      "title": "高质量数据集典型案例 | 基于行业大模型的钢铁冶金全流程",
+      "sourceType": "government_case",
+      "publisher": "国家数据局",
+      "originalUrl": "https://www.nda.gov.cn/sjj/ywpd/szkjyjcss/1124/20251124155907988427513_pc.html",
+      "publishedAt": "2025-11-24",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yj-2",
+      "title": "冶金自动化：钢铁行业大模型技术应用的数据集设计",
+      "sourceType": "journal",
+      "publisher": "《冶金自动化》",
+      "originalUrl": "http://yjzdh.chinamet.cn/CN/Y2025/V49/I4",
+      "publishedAt": "2025-07-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yj-3",
+      "title": "《人工智能 钢铁行业高质量数据集评价要求》标准登记",
+      "sourceType": "standard",
+      "publisher": "全国标准信息公共服务平台",
+      "originalUrl": "https://std.samr.gov.cn/gb/search/gbDetailed?id=3BD752A86E7FAF43E06397BE0A0ACD95",
+      "publishedAt": "2025-08-08",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "数据质量",
+    "大模型训练",
+    "工业标注"
+  ],
+  "painPointNarrative": "",
+  "highlight": "转炉火焰/废钢识别高质量标注数据集，支撑钢铁大模型",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "行业大模型",
+    "数据标注"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "钢铁冶金"
+  ],
+  "seo": {
+    "metaTitle": "冶金自动化院 冶金行业高质量数据集建设与应用",
+    "metaDescription": "冶金自动化院聚焦转炉火焰/废钢识别构建高质量标注数据集，支撑钢铁行业大模型。",
+    "keywords": [
+      "冶金自动化",
+      "钢铁",
+      "高质量数据集",
+      "行业大模型"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国钢研科技集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

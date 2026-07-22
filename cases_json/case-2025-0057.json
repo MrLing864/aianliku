@@ -1,0 +1,153 @@
+{
+  "id": "case-2025-0057",
+  "version": 1,
+  "slug": "case-2025-0057",
+  "title": "基于深度学习的大型现代煤化工工程项目智能安全质检系统应用",
+  "organization": {
+    "id": "org-0057",
+    "name": "中煤陕西能源化工集团有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "石油石化",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-quality",
+      "name": "智能质检与视觉检测",
+      "slug": "scn-quality",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "中煤陕西能源化工集团在大型现代煤化工工程项目中应用基于深度学习的智能安全质检系统，依托'1+2+N'工业AI架构构建数据-知识-决策全链路智能闭环，提升设备健康管理、工艺优化与能效水平。",
+  "background": "中煤榆林煤炭深加工基地项目（238亿元）建设220万吨/年甲醇、90万吨/年聚烯烃等装置，对智能化要求高。",
+  "problem": "大型现代煤化工工程设备健康管理、工艺优化与能效提升挑战复合，传统手段难以应对。",
+  "solution": "在项目中应用基于深度学习的智能安全质检系统，以'1+2+N'工业AI驱动的企业智能运行新架构为支撑，构建数据-知识-决策的全链路智能闭环系统，覆盖设备健康管理、工艺优化与能效提升等复合场景，提升工程安全质检与运行智能化水平。",
+  "implementationSteps": [
+    "建设大型现代煤化工数字化底座",
+    "部署基于深度学习的智能安全质检系统",
+    "以1+2+N工业AI架构构建数据-知识-决策闭环",
+    "提升设备健康、工艺优化与能效"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "煤化工工艺高危、连续性强，AI系统需高可靠与_fail-safe设计；数据安全要求高。",
+  "editorComment": {
+    "suitableFor": "大型煤化工/流程工业智能安全质检与运行优化",
+    "prerequisites": "具备数字化底座与工艺数据",
+    "priority": "条件具备后开展",
+    "text": "深度学习+工业AI架构赋能煤化工安全质检，适合流程工业参考。"
+  },
+  "implementers": [
+    {
+      "name": "中煤陕西能源化工集团有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-zm-1",
+      "title": "工业AI赋能238亿超级工程：中控技术中标中煤榆林煤炭深加工基地",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/869035130_122253806",
+      "publishedAt": "2025-03-10",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-zm-2",
+      "title": "238亿超级工程：中控技术如何重塑煤化工行业的数字化未来（1+2+N工业AI）",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/869029575_121956424",
+      "publishedAt": "2025-03-10",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "安全质检",
+    "设备健康",
+    "能效"
+  ],
+  "painPointNarrative": "",
+  "highlight": "1+2+N工业AI架构赋能大型煤化工智能安全质检",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "深度学习",
+    "工业AI",
+    "安全质检"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "煤化工",
+    "工业AI"
+  ],
+  "seo": {
+    "metaTitle": "中煤陕西能源化工 基于深度学习的大型现代煤化工智能安全质检系统应用",
+    "metaDescription": "中煤陕西以深度学习智能安全质检+1+2+N工业AI架构，赋能大型煤化工安全与运行优化。",
+    "keywords": [
+      "中煤陕西",
+      "煤化工",
+      "智能安全质检",
+      "工业AI"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国中煤能源集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

@@ -1,0 +1,179 @@
+{
+  "id": "case-2025-0096",
+  "version": 1,
+  "slug": "case-2025-0096",
+  "title": "羽绒服装美学设计与柔性生产智能解决方案实践",
+  "organization": {
+    "id": "org-0096",
+    "name": "波司登羽绒服装有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "智能制造",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    },
+    {
+      "id": "scn-rnd",
+      "name": "研发设计与仿真",
+      "slug": "scn-rnd",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "波司登自研 BSD.AI 美学大脑，将 AI 生成式设计引入羽绒服研发，并构建羽绒服装美学设计与柔性生产智能解决方案，实现从设计到虚拟成衣的全流程数字化闭环，入选苏州市首批'人工智能+'典型应用场景。",
+  "background": "传统服装行业存在设计周期长、生产柔性差、库存积压等痛点，波司登牵头建设苏州市人工智能创新应用实验室（服饰智能设计），打造业内规模领先的服装数据库。",
+  "problem": "设计依赖经验与人力、样衣开发成本高、转款慢，难以支撑'多品种、小批量'与个性化需求。",
+  "solution": "构建 BSD.AI 美学大脑，以 AI 生成花型设计，打通设计构思到虚拟成衣的数字闭环；同步进行柔性化产线布局，实现模块化、流程化快速转款，支撑'72 小时从定制到交付'。",
+  "implementationSteps": [
+    "建设服饰智能设计数据库与自研 BSD.AI 美学大脑",
+    "以 AI 生成花型设计，样衣开发成本降低约 60%，设计周期由 7 天缩短至 2 小时",
+    "柔性化产线布局，实现多品种小批量无缝转款"
+  ],
+  "duration": "持续应用",
+  "cost": "",
+  "results": [
+    {
+      "label": "AI 花型设计周期",
+      "value": "7 天缩短至 2 小时",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-bosideng-1"
+    },
+    {
+      "label": "样衣开发成本",
+      "value": "降低约 60%",
+      "unit": "",
+      "kind": "estimated",
+      "sourceId": "src-bosideng-2"
+    }
+  ],
+  "roi": "",
+  "risks": "生成设计的版权与合规、AI 审美与品牌调性一致性。",
+  "editorComment": {
+    "suitableFor": "服装鞋帽等快反与个性化定制行业",
+    "prerequisites": "具备服装数据库与设计-生产协同基础",
+    "priority": "建议优先",
+    "text": "设计-柔性生产一体化闭环，适合消费端个性化趋势。"
+  },
+  "implementers": [
+    {
+      "name": "波司登羽绒服装有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-bosideng-1",
+      "title": "BSD.AI美学大脑 - 百度百科",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/BSD.AI%E7%BE%8E%E5%AD%A6%E5%A4%A7%E8%84%91/67746354",
+      "accessibility": "available",
+      "rightsNote": "公开百科，用于佐证设计周期与入选场景。",
+      "publishedAt": "2026-04-15"
+    },
+    {
+      "publicId": "src-bosideng-2",
+      "title": "自研“AI 美学大脑”上线，苏州波司登以AI赋能设计研发",
+      "sourceType": "news",
+      "publisher": "扬子晚报",
+      "originalUrl": "https://www.yzwb.net/news/ch/202606/t20260624_365472.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证样衣成本与开发周期。",
+      "publishedAt": "2026-06-24"
+    },
+    {
+      "publicId": "src-bosideng-3",
+      "title": "“智”造羽绒服：72小时从定制到交付",
+      "sourceType": "news",
+      "publisher": "人民日报",
+      "originalUrl": "https://paper.people.com.cn/zgjjzk/pc/content/202509/30/content_30114277.html",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证柔性产线与交付周期。",
+      "publishedAt": "2025-09-30"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "设计周期长",
+    "库存积压",
+    "生产柔性差"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "生成式AI",
+    "柔性制造"
+  ],
+  "modelStack": [
+    "BSD.AI 美学大脑"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AIGC设计",
+    "柔性生产",
+    "服装",
+    "美学大脑"
+  ],
+  "seo": {
+    "metaTitle": "羽绒服装美学设计与柔性生产智能解决方案实践",
+    "metaDescription": "羽绒服装美学设计与柔性生产智能解决方案实践",
+    "keywords": [
+      "波司登羽绒服装有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

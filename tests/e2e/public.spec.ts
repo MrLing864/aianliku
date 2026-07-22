@@ -83,7 +83,7 @@ test("lead endpoints require consent and never report success when storage is un
   const contactInput = {
     type: "general",
     name: "验收",
-    email: "qa@example.com",
+    phone: "13800138000",
     message: "这是一条生产存储行为验收信息",
   };
   const contactWithoutConsent = await request.post("/api/v1/contact", {
@@ -123,7 +123,7 @@ test("lead endpoints require consent and never report success when storage is un
     budget: "首期 10 万元以内",
     urgency: "3 个月内",
     goal: "缩短报价时间并减少复制错误",
-    email: "qa@example.com",
+    phone: "13800138000",
   };
   const withoutConsent = await request.post("/api/v1/assessments", {
     data: assessmentInput,

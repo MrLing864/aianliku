@@ -1,0 +1,158 @@
+{
+  "id": "case-2025-0069",
+  "version": 1,
+  "slug": "case-2025-0069",
+  "title": "“绿铝云慧鉴”铝电解 AI 赋能决策及智能控制应用",
+  "organization": {
+    "id": "org-0069",
+    "name": "云南文山铝业有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "有色金属",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "云南文山铝业有限公司（云铝股份体系）应用自主研发的'绿铝云慧鉴'数字大模型——铝电解行业首个基于AI计算的数字大模型，依托中铝坤安平台，融合机理与数据，实现'数据在线、自主学习、智能预测、决策执行、自动控制'的铝电解智能管控。",
+  "background": "铝电解生产依赖经验操作，能耗与质量波动大，亟需数据驱动的智能控制。",
+  "problem": "铝电解生产操作依赖经验、波动大，缺乏自主学习与精准控制的智能手段。",
+  "solution": "应用'绿铝云慧鉴'数字大模型（铝电解行业首个基于AI计算的数字大模型），依托中铝集团坤安平台，融合机理与数据，具有'数据在线、自主学习、智能预测、决策执行、自动控制'特点，实现出铝作业、氧化等相关环节的AI赋能决策与智能控制。",
+  "implementationSteps": [
+    "依托中铝坤安平台构建绿铝云慧鉴数字大模型",
+    "融合机理与数据实现铝电解智能管控",
+    "实现数据在线/自主学习/智能预测/决策执行/自动控制",
+    "赋能出铝作业等环节AI决策与控制"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "铝电解工况复杂、强干扰，模型控制需高可靠性；数据质量直接影响能效。",
+  "editorComment": {
+    "suitableFor": "铝电解及有色冶炼企业智能管控",
+    "prerequisites": "具备电解工艺数据与中铝坤安等平台",
+    "priority": "建议优先",
+    "text": "绿铝云慧鉴是铝电解首个AI数字大模型，适合有色冶炼智能控制参考。"
+  },
+  "implementers": [
+    {
+      "name": "云南文山铝业有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-yl-1",
+      "title": "绿铝云慧鉴数字大模型（百度百科）",
+      "sourceType": "encyclopedia",
+      "publisher": "百度百科",
+      "originalUrl": "https://baike.baidu.com/item/%E7%BB%BF%E9%93%9D%E4%BA%91%E6%85%A7%E9%89%B4%E6%95%B0%E5%AD%97%E5%A4%A7%E6%A8%A1%E5%9E%8B/68316198",
+      "publishedAt": "",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yl-2",
+      "title": "'绿铝云慧鉴'入选工信部人工智能赋能新型工业化典型应用案例",
+      "sourceType": "news",
+      "publisher": "云铝股份",
+      "originalUrl": "https://ylgf.chinalco.com.cn/xwzx/gsyw/202501/t20250113_141915.html",
+      "publishedAt": "2025-01-13",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-yl-3",
+      "title": "'绿铝云慧鉴'大模型加速赋能铝电解产业发展",
+      "sourceType": "news",
+      "publisher": "中国铝业",
+      "originalUrl": "https://www.chinalco.com.cn/xwzx/xwzx_qydt/202503/t20250303_143786.html",
+      "publishedAt": "2025-03-03",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "经验依赖",
+    "能耗波动",
+    "质量控制"
+  ],
+  "painPointNarrative": "",
+  "highlight": "铝电解行业首个AI数字大模型，数据在线+自主学习+自动控制",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "行业大模型",
+    "铝电解",
+    "智能控制"
+  ],
+  "modelStack": [
+    "绿铝云慧鉴数字大模型"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "有色金属",
+    "行业大模型"
+  ],
+  "seo": {
+    "metaTitle": "云南文山铝业 绿铝云慧鉴铝电解AI赋能决策及智能控制应用",
+    "metaDescription": "文山铝业应用绿铝云慧鉴数字大模型，实现铝电解数据在线、自主学习与智能控制。",
+    "keywords": [
+      "云南文山铝业",
+      "绿铝云慧鉴",
+      "铝电解",
+      "AI控制"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "中国铝业集团有限公司",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

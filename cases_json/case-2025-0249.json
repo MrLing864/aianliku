@@ -1,0 +1,149 @@
+{
+  "id": "case-2025-0249",
+  "version": 1,
+  "slug": "case-2025-0249",
+  "title": "装备故障诊断生成智能体 FaultsMind",
+  "organization": {
+    "id": "org-0249",
+    "name": "杭州三海电子科技股份有限公司",
+    "size": "101–500人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "医疗健康",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    },
+    {
+      "id": "scn-ops",
+      "name": "智能运维与巡检",
+      "slug": "scn-ops",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "由杭州三海电子科技股份有限公司申报的“装备故障诊断生成智能体 FaultsMind”入选工业和信息化部办公厅2025年人工智能应用典型案例（产品应用方向），由浙江省经济和信息化厅推荐。三海电子长期专注元器件可靠性检测设备与配套系统研发，该智能体面向装备故障诊断与运维，构建故障诊断与维护决策能力。",
+  "background": "杭州三海电子科技股份有限公司成立于2002年，专注元器件可靠性检测设备及相关配套设备研发，二十年来为全国300多家单位提供各类元器件老炼检测系统，是国内元器件老炼检测系统的重要供应商。",
+  "problem": "电子元器件与装备在长期运行中面临可靠性退化与突发故障，传统人工排故效率低、经验依赖强，亟需智能化的故障诊断与维护决策支持。",
+  "solution": "“装备故障诊断生成智能体 FaultsMind”面向装备故障诊断与运维场景，融合故障诊断大模型与生成式智能体能力，支持基于故障现象与参数异常的快速识别，并提供排故与维护决策建议，提升装备运维效率。",
+  "implementationSteps": [
+    "梳理元器件与装备故障模式、检测数据与排故经验，构建故障知识库。",
+    "研发装备故障诊断生成智能体 FaultsMind，支持故障现象与参数异常的智能识别。",
+    "集成生成式排故与维护决策建议能力，辅助运维人员快速处置。",
+    "在可靠性检测与装备运维场景中应用并迭代。"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "客户覆盖",
+      "value": "300",
+      "unit": "家+",
+      "kind": "count",
+      "sourceId": "src-news-0249"
+    }
+  ],
+  "roi": "",
+  "risks": "故障诊断建议需结合现场实测与专业判断，关键装备排故须保留人工确认；模型依赖历史故障数据质量。",
+  "editorComment": {
+    "suitableFor": "电子元器件可靠性检测、装备智能运维与故障诊断。",
+    "prerequisites": "具备故障数据与检测系统积累，关注诊断结果的可解释性与人工复核。",
+    "priority": "medium",
+    "text": "三海电子在元器件可靠性检测领域积累深厚，其故障诊断生成智能体入选国家级典型案例，公开技术细节有限。"
+  },
+  "implementers": [
+    {
+      "name": "杭州三海电子科技股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-news-0249",
+      "title": "杭州三海电子科技股份有限公司官网",
+      "sourceType": "official_website",
+      "publisher": "杭州三海电子科技股份有限公司",
+      "originalUrl": "https://www.sanhaikeji.com/",
+      "externalId": "",
+      "publishedAt": "2024-04-15",
+      "accessibility": "available",
+      "rightsNote": "三海电子官网介绍其专注元器件可靠性检测设备，二十年来为全国300多家单位提供老炼检测系统，佐证企业背景。"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "大模型",
+    "生成式AI",
+    "智能运维"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "故障诊断",
+    "生成式智能体",
+    "装备运维",
+    "可靠性检测"
+  ],
+  "seo": {
+    "metaTitle": "装备故障诊断生成智能体 FaultsMind",
+    "metaDescription": "装备故障诊断生成智能体 FaultsMind",
+    "keywords": [
+      "杭州三海电子科技股份有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "浙江省经济和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

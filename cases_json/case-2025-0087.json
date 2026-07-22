@@ -1,0 +1,158 @@
+{
+  "id": "case-2025-0087",
+  "version": 1,
+  "slug": "case-2025-0087",
+  "title": "TCN-MPC 预测控制模型在 PTFE 挤出过程中的应用",
+  "organization": {
+    "id": "org-0087",
+    "name": "元始智能科技（南通）有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "元始智能科技（南通）有限公司将基于时间卷积网络（TCN）的PTFE挤出模型预测控制（TCN-MPC）应用于PTFE挤出过程，攻克工艺参数实时优化难题，并申请相关发明专利，入选工信部人工智能应用典型案例。",
+  "background": "聚四氟乙烯（PTFE）挤出过程工艺复杂、参数耦合强，传统控制难以稳定优化。",
+  "problem": "PTFE挤出过程工艺参数耦合、波动大，传统控制难以实时优化与稳定生产。",
+  "solution": "元始智能科技研发基于时间卷积网络（TCN）的PTFE挤出模型预测控制（TCN-MPC）方法，将AI预测控制应用于PTFE挤出过程，实现工艺参数的实时预测与优化控制，并申请相关发明专利，形成自主AI核心技术规模化落地实践。",
+  "implementationSteps": [
+    "研发基于TCN的PTFE挤出模型预测控制（TCN-MPC）",
+    "实现挤出过程工艺参数实时优化",
+    "申请相关发明专利",
+    "形成AI核心技术规模化落地"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "化工过程控制安全性要求高；TCN模型需大量过程数据训练与验证。",
+  "editorComment": {
+    "suitableFor": "化工/高分子材料过程的AI预测控制",
+    "prerequisites": "具备过程数据与控制系统接口",
+    "priority": "条件具备后开展",
+    "text": "TCN-MPC用于PTFE挤出过程实时优化，适合流程工业控制参考。"
+  },
+  "implementers": [
+    {
+      "name": "元始智能科技（南通）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-ys-1",
+      "title": "喜报！元始智能案例入选工信部2025人工智能应用典型案例",
+      "sourceType": "news",
+      "publisher": "南通企业服务",
+      "originalUrl": "https://investnid.com/epservice/ndaservplat/Apps/sme/index.php?s=/Article/detail/id/899/classtype/1",
+      "publishedAt": "2025",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ys-2",
+      "title": "南通3个案例入选工信部2025年人工智能应用典型案例（元始智能TCN-MPC）",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/1041558114_121106832",
+      "publishedAt": "2026-06-25",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-ys-3",
+      "title": "元始智能申请基于时间卷积网络的PTFE挤出模型预测控制专利",
+      "sourceType": "news",
+      "publisher": "网易",
+      "originalUrl": "https://www.163.com/dy/article/KOUSG4M50519QIKK.html",
+      "publishedAt": "2026-03-26",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "工艺耦合",
+    "参数波动",
+    "实时优化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "TCN-MPC应用于PTFE挤出过程实时优化控制",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "TCN",
+    "模型预测控制",
+    "PTFE挤出"
+  ],
+  "modelStack": [
+    "TCN-MPC"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "流程工业",
+    "预测控制"
+  ],
+  "seo": {
+    "metaTitle": "元始智能 TCN-MPC预测控制模型在PTFE挤出过程中的应用",
+    "metaDescription": "元始智能以TCN-MPC模型预测控制应用于PTFE挤出过程，实现工艺实时优化。",
+    "keywords": [
+      "元始智能",
+      "TCN-MPC",
+      "PTFE挤出",
+      "模型预测控制"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

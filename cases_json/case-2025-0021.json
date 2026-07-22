@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0021",
+  "version": 1,
+  "slug": "case-2025-0021",
+  "title": "高质量多模态超声医学数据集建设与应用",
+  "organization": {
+    "id": "org-0021",
+    "name": "脉得智能科技（无锡）有限公司",
+    "size": "21–50人",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "脉得智能科技（无锡）有限公司建设高质量多模态超声医学数据集，采用'人机协同'标注模式，构建国内首个超声领域多模态、标准化、可运营数据集，并用于实体肿瘤超声精准诊疗。",
+  "background": "超声医学数据多模态、非标准化，缺乏高质量标注数据集支撑AI辅助诊疗。",
+  "problem": "超声医学数据标注专业门槛高、标准不一；缺乏多模态、可运营的标准化数据集支撑AI诊疗应用。",
+  "solution": "建设'高质量多模态医疗数据集'（入选国家数据局行业高质量数据集建设先行先试），聚焦构建国内首个超声领域多模态、标准化、可运营数据集；采用'人机协同'数据标注模式，结合AI辅助与专家标注，支撑实体肿瘤超声精准诊疗体系的建立。",
+  "implementationSteps": [
+    "建设高质量多模态超声医学数据集",
+    "采用'人机协同'标注模式（AI辅助+专家标注）",
+    "构建标准化、可运营数据集",
+    "支撑实体肿瘤超声精准诊疗体系"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "医疗数据涉及隐私与合规，需严格脱敏与授权；标注质量依赖专家资源。",
+  "editorComment": {
+    "suitableFor": "医疗机构、AI医疗企业建设多模态医学数据集",
+    "prerequisites": "具备合规的医疗数据与专家标注资源",
+    "priority": "建议优先",
+    "text": "人机协同标注+多模态医学数据集，适合AI医疗企业参考，注意合规。"
+  },
+  "implementers": [
+    {
+      "name": "脉得智能科技（无锡）有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-md-1",
+      "title": "无锡AI医疗企业入选国家数据局试点、荣膺省级荣誉",
+      "sourceType": "government_news",
+      "publisher": "无锡市大数据管理局",
+      "originalUrl": "https://bigdata.wuxi.gov.cn/doc/2025/09/10/4645293.shtml",
+      "publishedAt": "2025-09-10",
+      "accessibility": "available"
+    },
+    {
+      "publicId": "src-md-2",
+      "title": "脉得智能：以AI赋能医疗新质生产力",
+      "sourceType": "news",
+      "publisher": "搜狐",
+      "originalUrl": "https://www.sohu.com/a/987035911_121106832",
+      "publishedAt": "2026-02-13",
+      "accessibility": "available"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "医学数据标注",
+    "多模态",
+    "诊疗精度"
+  ],
+  "painPointNarrative": "",
+  "highlight": "国内首个超声领域多模态、标准化、可运营数据集",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "高质量数据集",
+    "多模态医学",
+    "人机协同标注"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "行业赋能方向",
+    "高质量数据集",
+    "医疗健康"
+  ],
+  "seo": {
+    "metaTitle": "脉得智能 高质量多模态超声医学数据集建设与应用",
+    "metaDescription": "脉得智能建设国内首个超声领域多模态标准化数据集，人机协同标注支撑肿瘤诊疗。",
+    "keywords": [
+      "脉得智能",
+      "超声医学",
+      "多模态数据集",
+      "AI医疗"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "江苏省工业和信息化厅",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

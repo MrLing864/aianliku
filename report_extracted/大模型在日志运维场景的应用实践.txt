@@ -1,0 +1,296 @@
+
+===== PAGE 1 =====
+大模型在日志运维场景的
+应用实践
+分享主题
+饶琛琳日志易产品副总裁
+
+===== PAGE 2 =====
+目录Contents
+大模型在日志场景的应用方向
+实践运用大模型的路径
+大模型在金融企业应用案例
+更快捷的分析海量日志
+更智能的解读和预测故障
+理想vs 现实：估算资源
+构建高质量的训练数据
+模型的评估和迭代优化
+产品设计“扬长避短”
+背景：某金融企业大量业务日志
+难点：关键字复杂多变
+方案：实现知识库增强的自然语言查询
+效果：故障排查时间缩短40%
+02.
+03.
+01.
+
+===== PAGE 3 =====
+1
+0
+Ø
+更快捷的分析海量日志
+Ø
+更智能的解读和预测故障
+Ø
+理想vs 现实：估算资源
+大模型在日志场景的应用方向
+
+===== PAGE 4 =====
+谷歌Sec-PaLM的日志概要效果
+
+===== PAGE 5 =====
+日志问答方案(1)：超大窗口
+问题1：窗口不会无限大，日志却无限多。
+问题2：对于长文本中部的内容，LLM 不太敏感。
+
+===== PAGE 6 =====
+日志问答方案(2)：AgentChain
+问题1：运维知识理解的要求较高
+问题2：agent/function call能力要求较高
+
+===== PAGE 7 =====
+日志问答方案(3)：模式提问+分段选择
+
+===== PAGE 8 =====
+资源消耗估算
+场景看起来很美好，但实际部署时存在一定成本压力。
+我们进行了一些简单的资源估算:
+•
+1000条SSH日志大概包含5-6万个tokens。对于这个长度，LLM 推理速度较慢，需要10多秒。
+•
+使用最新的Yi-6b-200k 模型测试，24GB显存仅能处理约3k tokens，相当于50行日志。
+•
+按ChatGLM规模预估,80G显存的单卡最多只能处理200行SSH日志。
+•
+并行计算时，8块80G卡也只能同时处理约1600行。
+结论:
+•
+直接进行日志问答，在理论上可行，但算力需求巨大。
+•
+该方案实际成本过高，目前的硬件条件难以支撑实际应用。
+•
+生成和调用现有分析工具相对更现实。
+
+===== PAGE 9 =====
+2
+0
+Ø
+构建高质量的训练数据
+Ø
+模型的评估和迭代优化
+Ø
+产品设计“扬长避短”
+实践运用大模型的路径
+
+===== PAGE 10 =====
+Text2SPL场景介绍/背景
+•
+Text to SQL任务是NLP 领域的经典课题之一。常见的数
+据集有：
+•
+WikiSQL，维基百科数据集主要是单表查询，语句比较
+简单。
+•
+Spider，数据集包含join 等多表和嵌套，语句比较复
+杂。在seq2seq 之前，模板技术一般评分20+；
+bert/T5 之前，一般评分60+；ChatGPT 将评分提升
+到85+。
+•
+CoSQL，在Spider 的基础上添加了模糊语义多轮对话。
+目前评分在50+。
+•
+BIRD：新一代数据集，不光考虑表结构，还要考虑脏
+数据、执行效率。目前ChatGPT 评分为40。
+•
+SPL 对比SQL 的差异：没有预知的table schema。要自行
+判断prompt 里哪些名词疑似字段名。
+•
+无法直接套用ChatGPT，SPL 目前只是概念通用，语法层
+无标准：
+•
+日志易SPL 语法和splunk/kusto/esql/ppl/humio有
+差别。
+•
+日志易内置字段也和CIM/ECS有差别。
+
+===== PAGE 11 =====
+通用大模型的表现(1)：GPT对比T5的飞跃
+自然语言提问
+splunk-google-t5
+ChatGPT
+search for the terms error, fail failure, failed, or severe 
+in the events that also mention buttercupgames
+index=_internal fail* not [search index=_internal 
+error,fail* error
+search (error OR fail OR failure OR failed OR severe) 
+AND buttercupgames
+search the sourcetype field for any values that begin 
+with access_, status 200, and action "purchase". use the 
+chart command to count the number of purchases.the 
+search specifies the purchases made for each product 
+by using categoryId.The difference is that the count of 
+purchases is now an argument of the sparkline() 
+function.
+index=access_* status=200 action=purchase | chart 
+count(price)
+就这一条是可以直接运行的，还和期望输出有差距
+search sourcetype="access_*" status=200 
+action="purchase"
+| chart count(action) by categoryId
+| eval purchases=sparkline(count)
+就这一条是不能直接用的。两次追加提示后改对：
+search sourcetype="access_*" status=200 
+action="purchase"
+| chart sparkline(count(action)) by categoryId
+search the sourcetype field for any values that begin 
+with access_, get events with status 200, and action 
+"purchase". then compute the most common 
+categoryId values.
+sourcetype=access_* status=200 actionpurchase | top 
+categoryId
+search sourcetype="access_*" status=200 
+action="purchase"
+| top categoryId
+search the sourcetype field for any values that begin 
+with access_, get events with status 200, and action 
+"purchase". then compute the one most common 
+clientip.
+sourcetype=access_* status=200 actionpurchase | top 
+clientip
+search sourcetype="access_*" status=200 
+action="purchase"
+| top 1 clientip
+search the sourcetype field for any values that begin 
+with access_, the get price as "Price" by productName, 
+then rename productName column as "Product Name"
+sourcetype=access_. | stats values(price) as price by 
+productName |
+search sourcetype="access_*"
+| eval Price=price
+| stats values(Price) by productName
+| rename productName as "Product Name"
+两次追加提示后改的更高效，并且能记住：
+search sourcetype="access_*"
+| stats values(price) as Price by productName
+| rename productName as "Product Name"
+
+===== PAGE 12 =====
+通用大模型的表现(2)：提示工程不是万能的
+问题1：基础模型较差时，复杂逻辑完全无法处理
+问题2：模型的预训练知识在细节处有严重干扰
+
+===== PAGE 13 =====
+训练数据筹备(1)：内外网数据搜集
+原始数据来源
+n 指令说明文档
+n 手动编写，含多轮对话
+n 内部应用配置：图表标题及SPL语句
+n github上公开的常用日志关键字
+n github上公开的es/splunk/kusto安全分析规则
+
+===== PAGE 14 =====
+训练数据筹备(2)：问答类数据增强
+ChatGPT⾃⽣成
+n alpaca 式的self_instruct 方案：通过GPT-3.5 接口，自动
+生成部分微调数据。
+n 添加prompt 声明圈定问答范围：Act as a Splunk Expert 
+to write SPL。
+n 然后人工复核，调整数据。
+
+===== PAGE 15 =====
+训练数据筹备(3)：丰富提问方式
+StarChat⻆⾊扮演
+n starcoder 是开源LLM 中编码能力最强的。实验发现他甚
+至能给出具体的splunk 文档url。
+n 通过A/B 角色扮演，让starcoder 说出对应SPL 语句的提
+问。
+n 效果一般，清洗后去掉了三分之二的数据。
+
+===== PAGE 16 =====
+训练数据筹备(4)：加入其他产品知识
+⽂档⾃问答
+n 利用pandoc 工具将word 文档转为markdown 纯文本。
+n 来自北交大transGPT 交通大模型的
+LLMforDialogDataGenerate 方法，基于文本生成问答。
+
+===== PAGE 17 =====
+模型的评估与迭代
+•
+尝试不同基础模型的效果：
+•
+baichuan2 的loss 长期不收敛
+•
+尝试不同数据配比的效果：
+•
+1:2 > 1:5 > 1:1
+•
+尝试构建除文本匹配以外的验证方案：
+•
+引入SPLparser API 语法校验
+•
+对比索引实际响应内容
+•
+有趣的是：和Splunk 得到了相似的结论。
+
+===== PAGE 18 =====
+扬长避短的产品设计
+•
+浏览器插件形式：兼容全部主产品版本、独立迭代
+•
+锚定搜索页：获取数据集、字段列表等即时知识
+•
+敏感数据拦截：注重数据安全，避免个人隐私外发
+
+===== PAGE 19 =====
+3
+0
+Ø
+背景：金融企业大量业务日志
+Ø
+难点：关键字复杂多变
+Ø
+方案：实现知识库增强的自然语言查询
+Ø
+效果：故障排查时间缩短40%
+大模型在金融企业应用案例
+
+===== PAGE 20 =====
+案例背景
+③. 找到返回码了，
+不过你问的是什么错误提示呢？
+②. 业务系统上千个返回码，人只记得住最常见的
+10 来个。其他的中文含义对应啥返回码？
+①. 金融企业通常有200-600 个业务系统，
+口头叫法大同小异，但开发商输出到日志里，实
+际用的是什么标识符？
+
+===== PAGE 21 =====
+ChatSPL效果
+
+===== PAGE 22 =====
+ChatSPL客户收益
+•
+在“争分夺秒”的故障定位过程中，相比复杂的向量数据库召回方案，ChatSPL场景设计简单
+易行。查找错误类的用时下降40%。
+•
+业务线运维均可通过ChatSPL 进行关键字查询、分组统计、趋势分析，极大的解放了维护平台
+的高级运维人员。将人力投入到可观测性等高阶能力建设中。
+
+===== PAGE 23 =====
+未来展望
+•
+后续版本的功能计划
+•
+英文版本
+•
+查询结果可视化
+•
+针对日志/告警的解读
+•
+主动推荐可选提问：5W1H
+•
+针对日志生成grok 正则
+•
+期待开源大模型的成长！！
+
+===== PAGE 24 =====

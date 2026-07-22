@@ -3,7 +3,7 @@ import { z } from "zod";
 import { writeAuditLog } from "@/lib/audit";
 import { getAdminSession } from "@/lib/auth/dal";
 import { verifyAdminReauthentication } from "@/lib/auth/admin";
-import { getDb, isMongoConfigured } from "@/lib/db/mongodb";
+import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import type { AssessmentJob } from "@/lib/types";
 
 const schema = z.object({ password: z.string().min(8).max(128) });
@@ -16,7 +16,7 @@ export async function POST(request: Request, { params }: { params: Promise<{ id:
   if (!(await verifyAdminReauthentication(session.user.email, parsed.data.password, "assessment_raw_answers"))) {
     return NextResponse.json({ error: "二次验证失败" }, { status: 403 });
   }
-  if (!isMongoConfigured()) return NextResponse.json({ error: "请先配置 MongoDB" }, { status: 503 });
+  if (!isDbConfigured()) return NextResponse.json({ error: "请先配置 CloudBase" }, { status: 503 });
 
   const id = (await params).id;
   const db = await getDb();

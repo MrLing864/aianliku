@@ -1,0 +1,147 @@
+{
+  "id": "case-2025-0097",
+  "version": 1,
+  "slug": "case-2025-0097",
+  "title": "酷特 AI 操作系统赋能行业大规模个性化定制转型升级",
+  "organization": {
+    "id": "org-0097",
+    "name": "青岛酷特智能股份有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "其他行业",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-industry-llm",
+      "name": "行业大模型与智能体",
+      "slug": "scn-industry-llm",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "酷特智能以自研 KTOS（酷特 AI 企业应用操作系统）/PMTSoul AI 为核心，将 AI 能力嵌入大规模个性化定制（C2M）全流程，破解'个性化'与'规模化'矛盾，是本次名单中唯一以 AI 赋能大规模个性化定制（跨行业跨领域赋能）入选的企业。",
+  "background": "酷特智能在服装领域创立 C2M 大规模个性化智能定制模式，并沉淀二十余年数智化实践，形成可跨行业复制的通用人工智能能力。",
+  "problem": "传统大规模生产与个性化定制难以兼顾，企业普遍面临工具碎片化、业务流程割裂、知识无法沉淀等问题。",
+  "solution": "推出 KTOS/PMTSoul AI 企业级智能体操作系统，以规则驱动与 AI 赋能，将零散 AI 工具升级为完整 AI 组织体系，支撑企业从'使用工具'向'拥有 AI 组织'升级。",
+  "implementationSteps": [
+    "沉淀服装 C2M 大规模个性化定制数据与方法论",
+    "研发 KTOS/PMTSoul AI 企业应用操作系统",
+    "面向跨行业输出大规模个性化定制赋能能力"
+  ],
+  "duration": "持续迭代",
+  "cost": "",
+  "results": [],
+  "roi": "",
+  "risks": "跨行业落地适配、企业知识沉淀与组织变革阻力。",
+  "editorComment": {
+    "suitableFor": "服装及多行业大规模个性化定制、企业级 AI 中台",
+    "prerequisites": "具备一定数字化与流程标准化基础",
+    "priority": "建议优先",
+    "text": "唯一以大规模个性化定制入选，跨行业赋能特征突出。"
+  },
+  "implementers": [
+    {
+      "name": "青岛酷特智能股份有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://wap.miit.gov.cn/jgsj/kjs/wjfb/art/2026/art_735cc3b48391470ea3baec587e526d5f.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-kute-1",
+      "title": "重磅国家级认可！酷特智能入选工信部“2025年人工智能应用典型案例”",
+      "sourceType": "news",
+      "publisher": "同花顺",
+      "originalUrl": "https://stock.10jqka.com.cn/20260713/c678137533.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证入选方向与唯一性。",
+      "publishedAt": "2026-07-13"
+    },
+    {
+      "publicId": "src-kute-2",
+      "title": "酷特智能发布企业智能体操作系统PMTSoul AI",
+      "sourceType": "news",
+      "publisher": "经济观察网",
+      "originalUrl": "https://www.eeo.com.cn/2026/0709/950397.shtml",
+      "accessibility": "available",
+      "rightsNote": "公开新闻报道，佐证 PMTSoul AI 发布。",
+      "publishedAt": "2026-07-09"
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "个性化与规模化矛盾",
+    "工具碎片化"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "企业级智能体",
+    "规则驱动"
+  ],
+  "modelStack": [
+    "KTOS/PMTSoul AI"
+  ],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "AI操作系统",
+    "大规模个性化定制",
+    "C2M",
+    "企业智能体"
+  ],
+  "seo": {
+    "metaTitle": "酷特 AI 操作系统赋能行业大规模个性化定制转型升级",
+    "metaDescription": "酷特 AI 操作系统赋能行业大规模个性化定制转型升级",
+    "keywords": [
+      "青岛酷特智能股份有限公司",
+      "行业赋能方向"
+    ]
+  },
+  "miitDirection": "行业赋能方向",
+  "miitRecommender": "青岛市工业和信息化局",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

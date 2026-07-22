@@ -1,0 +1,161 @@
+{
+  "id": "case-2025-0202",
+  "version": 1,
+  "slug": "case-2025-0202",
+  "title": "AI-BOX 协同智能座舱及汽车智能体解决方案实践",
+  "organization": {
+    "id": "org-0202",
+    "name": "北斗智联科技有限公司",
+    "size": "1000人以上",
+    "region": "",
+    "anonymous": false,
+    "type": "private"
+  },
+  "industry": {
+    "id": "ind-",
+    "name": "汽车",
+    "slug": "ind-",
+    "icon": ""
+  },
+  "scenarios": [
+    {
+      "id": "scn-ai-product",
+      "name": "AI产品与智能应用",
+      "slug": "scn-ai-product",
+      "icon": ""
+    }
+  ],
+  "businessFunctions": [],
+  "summary": "北斗智联科技有限公司（国家级专精特新“小巨人”企业）“AI-BOX 协同智能座舱及汽车智能体解决方案”入选工信部 2025 年人工智能应用典型案例。其“思驭 2.0 AI BOX”是专为智能座舱打造的独立 AI 计算单元，搭载专属 AI 推理芯片，算力达 100–200TOPS，支持 7B 大模型本地运行，可不依赖云端完成复杂 AI 任务并实现毫秒级响应。",
+  "background": "智能座舱向多模态、个性化交互演进。",
+  "problem": "智能座舱交互多依赖云端、响应延迟高，端侧算力不足难以本地运行大模型。",
+  "solution": "以“思驭 2.0 AI BOX”端侧智能计算单元+端云协同大模型，实现智能座舱本地大模型运行与汽车智能体协同。",
+  "implementationSteps": [
+    "研发搭载专属 AI 推理芯片的 AI BOX",
+    "支持 7B 大模型端侧本地运行",
+    "构建端云协同智能座舱与汽车智能体",
+    "面向整车厂落地智能座舱解决方案"
+  ],
+  "duration": "",
+  "cost": "",
+  "results": [
+    {
+      "label": "AI BOX 算力",
+      "value": "100–200",
+      "unit": "TOPS",
+      "kind": "actual",
+      "sourceId": "src-202-1"
+    },
+    {
+      "label": "本地可运行大模型",
+      "value": "7B",
+      "unit": "",
+      "kind": "actual",
+      "sourceId": "src-202-1"
+    }
+  ],
+  "roi": "",
+  "risks": "端侧算力功耗平衡、车规级可靠性。",
+  "editorComment": {
+    "suitableFor": "智能座舱端侧 AI 与汽车智能体",
+    "prerequisites": "具备车载计算与大模型部署能力",
+    "priority": "建议优先",
+    "text": "端云协同 AI BOX 重塑智能座舱的实践。"
+  },
+  "implementers": [
+    {
+      "name": "北斗智联科技有限公司",
+      "role": "申报单位"
+    }
+  ],
+  "outcomeStatus": "in_review",
+  "contentStatus": "in_review",
+  "confidence": "medium",
+  "sources": [
+    {
+      "publicId": "src-miit-340",
+      "title": "工业和信息化部办公厅关于印发2025年人工智能应用典型案例名单的通知",
+      "sourceType": "government_notice",
+      "publisher": "工业和信息化部办公厅",
+      "originalUrl": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_923505503c6944bc844fe36b5dcc3bce.html",
+      "externalId": "工信厅科函〔2026〕340号",
+      "publishedAt": "2026-07-14",
+      "accessibility": "available",
+      "rightsNote": "官方公开发布的典型案例名单通知，作为案例入选依据。"
+    },
+    {
+      "publicId": "src-202-1",
+      "title": "北斗智联发布AI BOX思驭2.0 以端云协同大模型重塑智能座舱（200TOPS、7B本地）",
+      "sourceType": "news",
+      "publisher": "重庆日报",
+      "originalUrl": "https://www.cqrb.cn/contry/dy29/2025-09-07/2405221_pc.html",
+      "accessibility": "available",
+      "rightsNote": "官媒报道，佐证 200TOPS 算力与 7B 大模型本地运行。",
+      "publishedAt": "2025-09-07"
+    },
+    {
+      "publicId": "src-202-2",
+      "title": "智能座舱-北斗智联科技有限公司",
+      "sourceType": "official",
+      "publisher": "北斗智联（BICV）",
+      "originalUrl": "https://www.bicv.com/product/znzc/",
+      "accessibility": "available",
+      "rightsNote": "企业官网，佐证智能座舱产品与公司定位。",
+      "publishedAt": ""
+    }
+  ],
+  "featured": false,
+  "views": 0,
+  "dedupVector": [],
+  "publishedAt": "2026-07-14",
+  "updatedAt": "2026-07-21",
+  "demo": false,
+  "implementationYear": 2025,
+  "implementationTimePrecision": "year",
+  "painPointTags": [
+    "云端延迟",
+    "端侧算力不足"
+  ],
+  "painPointNarrative": "",
+  "highlight": "",
+  "investmentRange": {
+    "currency": "CNY",
+    "disclosed": false,
+    "narrative": ""
+  },
+  "projectDuration": {
+    "disclosed": false,
+    "narrative": ""
+  },
+  "testimonial": null,
+  "techPath": [
+    "端侧AI",
+    "端云协同大模型"
+  ],
+  "modelStack": [],
+  "sourceReport": {
+    "title": "2025年人工智能应用典型案例名单",
+    "publisher": "工业和信息化部办公厅",
+    "year": 2025
+  },
+  "ctaText": "",
+  "consultationStats": null,
+  "relatedCaseIds": [],
+  "tags": [
+    "北斗智联",
+    "AI-BOX",
+    "智能座舱",
+    "汽车智能体"
+  ],
+  "seo": {
+    "metaTitle": "AI-BOX 协同智能座舱及汽车智能体解决方案实践",
+    "metaDescription": "AI-BOX 协同智能座舱及汽车智能体解决方案实践",
+    "keywords": [
+      "北斗智联科技有限公司",
+      "产品应用方向"
+    ]
+  },
+  "miitDirection": "产品应用方向",
+  "miitRecommender": "重庆市经济和信息化委员会",
+  "miitNoticeId": "工信厅科函〔2026〕340号"
+}

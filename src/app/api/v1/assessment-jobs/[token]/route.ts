@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { getRun } from "workflow/api";
 import {
   getAssessmentJobByStatusToken,
   markAssessmentJobFailed,
@@ -14,25 +13,12 @@ export async function GET(_: Request, { params }: { params: Params }) {
     return NextResponse.json({ error: "任务不存在或已删除" }, { status: 404 });
   }
 
-  let status = job.status;
-  if ((status === "queued" || status === "processing") && job.runId) {
-    try {
-      const runStatus = await getRun(job.runId).status;
-      if (runStatus === "failed" || runStatus === "cancelled") {
-        await markAssessmentJobFailed(job.id, "WORKFLOW_EXECUTION_FAILED");
-        status = "failed";
-      }
-    } catch {
-      // MongoDB 业务状态仍是主状态；工作流观测短暂不可用时不误报失败。
-    }
-  }
-
+  const status = job.status;
   const payload = statusPayload(status);
   return NextResponse.json(
     {
       ...payload,
       jobId: job.id,
-      notificationStatus: job.notificationStatus,
       createdAt: job.createdAt,
       completedAt: job.completedAt,
     },
