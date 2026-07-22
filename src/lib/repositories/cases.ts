@@ -138,16 +138,20 @@ export const resolveCaseRoute = cache(async (slug: string): Promise<CaseRouteRes
     const item = demoCases.find((entry) => entry.slug === slug);
     return item ? { kind: "published", item } : { kind: "missing" };
   }
-  const db = await getDb();
-  const item = await db.collection("cases").findOne(
-    { slug, contentStatus: { $in: ["published", "archived", "merged"] } },
-    { projection: { _id: 0, dedupVector: 0 } },
-  );
-  if (item?.contentStatus === "published") return { kind: "published", item };
-  if (item?.contentStatus === "archived") return { kind: "archived", item };
-  if (item?.contentStatus === "merged" && item.mergedIntoSlug) return { kind: "redirect", targetSlug: item.mergedIntoSlug };
-  const redirect = await db.collection("case_redirects").findOne({ fromSlug: slug }, { projection: { _id: 0, targetSlug: 1 } });
-  return redirect?.targetSlug ? { kind: "redirect", targetSlug: redirect.targetSlug } : { kind: "missing" };
+  try {
+    const db = await getDb();
+    const item = await db.collection("cases").findOne(
+      { slug, contentStatus: { $in: ["published", "archived", "merged"] } },
+      { projection: { _id: 0, dedupVector: 0 } },
+    );
+    if (item?.contentStatus === "published") return { kind: "published", item };
+    if (item?.contentStatus === "archived") return { kind: "archived", item };
+    if (item?.contentStatus === "merged" && item.mergedIntoSlug) return { kind: "redirect", targetSlug: item.mergedIntoSlug };
+    const redirect = await db.collection("case_redirects").findOne({ fromSlug: slug }, { projection: { _id: 0, targetSlug: 1 } });
+    return redirect?.targetSlug ? { kind: "redirect", targetSlug: redirect.targetSlug } : { kind: "missing" };
+  } catch {
+    return { kind: "missing" };
+  }
 });
 
 export async function getFeaturedCases(limit = 6) {
@@ -155,7 +159,7 @@ export async function getFeaturedCases(limit = 6) {
 }
 
 export async function getRelatedCases(caseStudy: CaseStudy, limit = 3) {
-  const result = await listCases({ industry: caseStudy.industry.slug, scenario: caseStudy.scenarios[0]?.slug, sort: "popular", limit: limit + 1 });
+  const result = await listCases({ industry: caseStudy.industry?.slug, scenario: caseStudy.scenarios?.[0]?.slug, sort: "popular", limit: limit + 1 });
   return result.items.filter((item) => item.id !== caseStudy.id).slice(0, limit);
 }
 

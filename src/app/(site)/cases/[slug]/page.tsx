@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { getRelatedCases, resolveCaseRoute } from "@/lib/repositories/cases";
+import type { CaseStudy } from "@/lib/types";
 
 type Params = Promise<{ slug: string }>;
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> { const route = await resolveCaseRoute((await params).slug); if (route.kind === "redirect") return { alternates: { canonical: `/cases/${route.targetSlug}` }, robots: { index: false, follow: true } }; if (route.kind === "missing") return {}; return { title: route.item.seo?.metaTitle ?? route.item.title, description: route.item.seo?.metaDescription ?? route.item.summary, alternates: { canonical: `/cases/${route.item.slug}` }, robots: route.kind === "archived" ? { index: false, follow: true, noarchive: true } : undefined }; }
@@ -18,8 +19,44 @@ function FactSection({ number, title, children }: { number: string; title: strin
 
 const ORG_TYPE_LABEL: Record<string, string> = { soe: "国央企", private: "民营", foreign: "外资", sme: "中小企业" };
 
+/** 为案例文档补齐页面渲染所需的字段默认值，避免历史/报告型案例缺字段导致 500。 */
+function safeCase(item: CaseStudy): CaseStudy {
+  if (!item) return item;
+  const arr = (v: unknown) => (Array.isArray(v) ? v : []);
+  return {
+    ...item,
+    organization: item.organization ?? {},
+    industry: item.industry ?? {},
+    scenarios: arr(item.scenarios),
+    results: arr(item.results),
+    painPointTags: arr(item.painPointTags),
+    implementationSteps: arr(item.implementationSteps),
+    sources: arr(item.sources),
+    businessFunctions: arr(item.businessFunctions),
+    implementers: arr(item.implementers),
+    modelStack: arr(item.modelStack),
+    techPath: arr(item.techPath),
+    views: typeof item.views === "number" ? item.views : 0,
+    publishedAt: item.publishedAt ?? item.updatedAt ?? new Date().toISOString(),
+    outcomeStatus: item.outcomeStatus ?? "undisclosed",
+    confidence: item.confidence ?? "pending",
+    background: item.background ?? item.summary ?? "",
+    problem: item.problem ?? "",
+    solution: item.solution ?? "",
+    risks: item.risks ?? "",
+    summary: item.summary ?? "",
+    roi: item.roi ?? "未披露",
+    cost: item.cost ?? "未披露",
+    duration: item.duration ?? "未披露",
+    editorComment:
+      item.editorComment && typeof item.editorComment.text === "string"
+        ? item.editorComment
+        : { text: "", suitableFor: "", prerequisites: "", priority: "暂不建议" },
+  };
+}
+
 export default async function CaseDetailPage({ params }: { params: Params }) {
-  const route = await resolveCaseRoute((await params).slug); if (route.kind === "missing") notFound(); if (route.kind === "redirect") permanentRedirect(`/cases/${route.targetSlug}`); const item = route.item;
+  const route = await resolveCaseRoute((await params).slug); if (route.kind === "missing") notFound(); if (route.kind === "redirect") permanentRedirect(`/cases/${route.targetSlug}`); const item = safeCase(route.item);
   if (route.kind === "archived") return <main className="container-page py-20"><div className="mx-auto max-w-2xl rounded-3xl border bg-card p-8 text-center sm:p-12"><Badge variant="secondary">已归档</Badge><h1 className="mt-5 text-3xl font-semibold tracking-tight">{item.title}</h1><p className="mt-4 text-sm leading-7 text-muted-foreground">该案例因来源变化、时效性或内容治理原因已归档，不再参与搜索、推荐和阅读统计。页面保留用于说明历史状态。</p><Button asChild className="mt-7"><Link href="/cases">返回案例库</Link></Button></div></main>;
   const related = await getRelatedCases(item, 3);
   const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: item.title, description: item.summary, datePublished: item.publishedAt, dateModified: item.updatedAt, author: { "@type": "Organization", name: "AI案例库" }, mainEntityOfPage: `/cases/${item.slug}` };
@@ -27,14 +64,14 @@ export default async function CaseDetailPage({ params }: { params: Params }) {
     <div className="border-b bg-card/45"><div className="container-page py-5"><Button variant="ghost" size="sm" asChild><Link href="/cases"><ArrowLeft />返回案例库</Link></Button></div></div>
     <article className="container-page py-10 sm:py-14 lg:py-18">
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-14">
-        <div><div className="flex flex-wrap gap-2"><OutcomeBadge status={item.outcomeStatus} /><ConfidenceBadge level={item.confidence} />{item.demo && <Badge variant="secondary">演示数据</Badge>}</div><p className="mt-7 text-xs font-semibold text-primary">{item.industry?.displayName ?? "其他行业"} · {(item.scenarios ?? []).map((scene) => scene.name).join(" / ") || "AI应用"}</p><h1 className="mt-3 text-balance text-4xl font-semibold leading-[1.12] tracking-[-0.05em] sm:text-5xl">{item.title}</h1>        <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">{item.summary}</p>
+        <div><div className="flex flex-wrap gap-2"><OutcomeBadge status={item.outcomeStatus} /><ConfidenceBadge level={item.confidence} />{item.demo && <Badge variant="secondary">演示数据</Badge>}</div><p className="mt-7 text-xs font-semibold text-primary">{item.industry?.displayName ?? "其他行业"} · {(item.scenarios ?? []).map((scene: { name: string }) => scene.name).join(" / ") || "AI应用"}</p><h1 className="mt-3 text-balance text-4xl font-semibold leading-[1.12] tracking-[-0.05em] sm:text-5xl">{item.title}</h1>        <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">{item.summary}</p>
           {item.highlight && item.highlight.trim() !== item.summary.trim() && (
             <p className="mt-6 max-w-3xl rounded-2xl border border-primary/20 bg-primary/[0.045] px-5 py-4 text-lg font-medium leading-8 text-foreground">
               {item.highlight}
             </p>
           )}
           <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs text-muted-foreground"><span className="flex items-center gap-1.5"><Building2 className="size-3.5" />{item.organization.name}</span><span className="flex items-center gap-1.5"><CalendarDays className="size-3.5" />发布于 {new Intl.DateTimeFormat("zh-CN", { dateStyle: "long" }).format(new Date(item.publishedAt))}</span>{item.implementationYear && <span className="flex items-center gap-1.5"><CalendarDays className="size-3.5" />实施于 {item.implementationYear} 年</span>}<span>阅读 {item.views.toLocaleString("zh-CN")}</span></div>
-          <div className="mt-10 grid gap-px overflow-hidden rounded-2xl border bg-border sm:grid-cols-3">{item.results.slice(0, 3).map((metric, metricIndex) => <div key={`${metric.label}-${metricIndex}`} className="bg-card p-5"><p className="text-xs text-muted-foreground">{metric.label}</p><p className="mt-2 text-xl font-semibold tracking-tight">{metric.value}</p><p className="mt-2 text-[11px] text-muted-foreground">{metric.kind === "actual" ? "来源披露" : metric.kind === "estimated" ? "估算" : metric.kind === "expected" ? "预期" : "未披露"}</p></div>)}</div>
+          {item.results.length > 0 && (<div className="mt-10 grid gap-px overflow-hidden rounded-2xl border bg-border sm:grid-cols-3">{item.results.slice(0, 3).map((metric, metricIndex) => <div key={`${metric.label}-${metricIndex}`} className="bg-card p-5"><p className="text-xs text-muted-foreground">{metric.label}</p><p className="mt-2 text-xl font-semibold tracking-tight">{metric.value}</p><p className="mt-2 text-[11px] text-muted-foreground">{metric.kind === "actual" ? "来源披露" : metric.kind === "estimated" ? "估算" : metric.kind === "expected" ? "预期" : "未披露"}</p></div>)}</div>)}
           <div className="mt-10">{((item.painPointTags?.length ?? 0) > 0 || item.painPointNarrative) && (
           <section className="mt-12 rounded-2xl border bg-card p-6 sm:p-8">
             <h2 className="text-xl font-semibold tracking-tight">企业痛点</h2>
@@ -46,8 +83,8 @@ export default async function CaseDetailPage({ params }: { params: Params }) {
             )}
           </section>
         )}
-        <FactSection number="01" title="业务背景"><p>{item.background}</p></FactSection><FactSection number="02" title="遇到的问题"><p>{item.problem}</p></FactSection><FactSection number="03" title="AI 解决方案"><p>{item.solution}</p>{item.implementationSteps.length > 0 && <ol className="mt-5 space-y-3">{item.implementationSteps.map((step, index) => <li key={step} className="flex gap-3"><span className="grid size-6 shrink-0 place-items-center rounded-full bg-primary/10 text-xs font-semibold text-primary">{index + 1}</span><span>{step}</span></li>)}</ol>}</FactSection><FactSection number="04" title="实施结果">{item.results.map((metric, metricIndex) => <div key={`${metric.label}-${metricIndex}`} className="flex items-start gap-3 py-1.5"><CheckCircle2 className="mt-1 size-4 shrink-0 text-primary" /><p><strong className="font-medium text-foreground">{metric.label}：</strong>{metric.value}{metric.improvement && <span className="ml-1 text-primary">（{metric.improvement}）</span>}</p></div>)}{item.failureReason && <p className="mt-4 rounded-xl border border-rose-200 bg-rose-50 p-4 text-rose-900">失败原因：{item.failureReason}</p>}</FactSection><FactSection number="05" title="风险与边界"><p>{item.risks}</p></FactSection></div>
-          <section className="mt-4 rounded-2xl border border-primary/20 bg-primary/[0.045] p-6 sm:p-8"><div className="flex items-center gap-2 text-xs font-semibold text-primary"><Quote className="size-4" />编辑点评 · AI 辅助生成并经审核</div><p className="mt-5 text-lg font-medium leading-8">{item.editorComment.text}</p><div className="mt-6 grid gap-4 text-sm sm:grid-cols-2"><div><p className="text-xs text-muted-foreground">适合</p><p className="mt-1.5 leading-6">{item.editorComment.suitableFor}</p></div><div><p className="text-xs text-muted-foreground">前置条件</p><p className="mt-1.5 leading-6">{item.editorComment.prerequisites}</p></div></div></section>
+        <FactSection number="01" title="业务背景"><p>{item.background}</p></FactSection><FactSection number="02" title="遇到的问题"><p>{item.problem}</p></FactSection><FactSection number="03" title="AI 解决方案"><p>{item.solution}</p>{item.implementationSteps.length > 0 && <ol className="mt-5 space-y-3">{item.implementationSteps.map((step, index) => <li key={step} className="flex gap-3"><span className="grid size-6 shrink-0 place-items-center rounded-full bg-primary/10 text-xs font-semibold text-primary">{index + 1}</span><span>{step}</span></li>)}</ol>}</FactSection><FactSection number="04" title="实施结果">{item.results.length > 0 ? item.results.map((metric, metricIndex) => <div key={`${metric.label}-${metricIndex}`} className="flex items-start gap-3 py-1.5"><CheckCircle2 className="mt-1 size-4 shrink-0 text-primary" /><p><strong className="font-medium text-foreground">{metric.label}：</strong>{metric.value}{metric.improvement && <span className="ml-1 text-primary">（{metric.improvement}）</span>}</p></div>) : <p className="text-foreground/70">该案例未在来源材料中披露量化效果指标，具体成效请参考下方信息来源。</p>}{item.failureReason && <p className="mt-4 rounded-xl border border-rose-200 bg-rose-50 p-4 text-rose-900">失败原因：{item.failureReason}</p>}</FactSection><FactSection number="05" title="风险与边界"><p>{item.risks}</p></FactSection></div>
+          {item.editorComment.text.trim() !== "" && (<section className="mt-4 rounded-2xl border border-primary/20 bg-primary/[0.045] p-6 sm:p-8"><div className="flex items-center gap-2 text-xs font-semibold text-primary"><Quote className="size-4" />编辑点评 · AI 辅助生成并经审核</div><p className="mt-5 text-lg font-medium leading-8">{item.editorComment.text}</p><div className="mt-6 grid gap-4 text-sm sm:grid-cols-2"><div><p className="text-xs text-muted-foreground">适合</p><p className="mt-1.5 leading-6">{item.editorComment.suitableFor}</p></div><div><p className="text-xs text-muted-foreground">前置条件</p><p className="mt-1.5 leading-6">{item.editorComment.prerequisites}</p></div></div></section>)}
         {item.testimonial && (
           <section className="mt-12 rounded-2xl border bg-card p-6 sm:p-8">
             <div className="flex items-center gap-2 text-xs font-semibold text-primary"><Quote className="size-4" />客户 / 负责人引述</div>
