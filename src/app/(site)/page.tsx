@@ -9,6 +9,8 @@ import { Button } from "@/components/ui/button";
 import { industries, scenarios } from "@/lib/catalog";
 import { getFeaturedCases, getPublicStats } from "@/lib/repositories/cases";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const [featuredCases, stats] = await Promise.all([getFeaturedCases(6), getPublicStats()]);
   return (

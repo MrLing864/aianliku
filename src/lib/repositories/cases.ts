@@ -164,33 +164,33 @@ export async function getRelatedCases(caseStudy: CaseStudy, limit = 3) {
 }
 
 export async function getPublicStats() {
-  if (isDbConfigured()) {
-    const db = await getDb();
-    const collection = db.collection("cases");
-    const cbdb = getCloudBaseDb();
-    const [cases, indAgg, scnAgg, sourceResult] = await Promise.all([
-      collection.countDocuments({ contentStatus: "published" }),
-      cbdb.collection("cases").aggregate().match({ contentStatus: "published" }).group({ _id: "$industry.slug" }).end(),
-      cbdb.collection("cases").aggregate().match({ contentStatus: "published" }).group({ _id: "$scenarios.slug" }).end(),
-      collection.aggregate([{ $match: { contentStatus: "published" } }, { $group: { _id: null, total: { $sum: { $size: "$sources" } } } }]).next(),
+  if (!isDbConfigured()) {
+    return { cases: 0, industries: 0, scenarios: 0, sources: 0, mode: "demo" as const };
+  }
+  try {
+    const db = await getCloudBaseDb();
+    const coll = db.collection("cases");
+    const [casesRes, indAgg, scnAgg, srcAgg] = await Promise.all([
+      coll.where({ contentStatus: "published" }).count(),
+      coll.aggregate().match({ contentStatus: "published" }).group({ _id: "$industry.slug" }).end(),
+      coll.aggregate().match({ contentStatus: "published" }).group({ _id: "$scenarios.slug" }).end(),
+      coll
+        .aggregate()
+        .match({ contentStatus: "published" })
+        .group({ _id: null, total: { $sum: { $size: "$sources" } } })
+        .end(),
     ]);
     return {
-      cases,
+      cases: casesRes?.total ?? 0,
       industries: indAgg?.data?.length ?? 0,
       scenarios: scnAgg?.data?.length ?? 0,
-      sources: sourceResult?.total ?? 0,
-      mode: "mongodb" as const,
+      sources: srcAgg?.data?.[0]?.total ?? 0,
+      mode: "live" as const,
     };
+  } catch (error) {
+    console.error("getPublicStats failed:", error);
+    return { cases: 0, industries: 0, scenarios: 0, sources: 0, mode: "demo" as const };
   }
-  const all = await listCases({ limit: 50 });
-  const sourceCount = all.items.reduce((sum, item) => sum + item.sources.length, 0);
-  return {
-    cases: all.total,
-    industries: new Set(all.items.map((item) => item.industry.slug)).size,
-    scenarios: new Set(all.items.flatMap((item) => item.scenarios.map((scene) => scene.slug))).size,
-    sources: sourceCount,
-    mode: all.mode,
-  };
 }
 
 export async function listCaseSitemapEntries(limit = 5_000) {
