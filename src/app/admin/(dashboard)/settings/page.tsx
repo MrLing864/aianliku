@@ -15,7 +15,7 @@ import { getSystemHealth, type SystemHealthCheck } from "@/lib/system-health";
 const icons: Record<SystemHealthCheck["id"], typeof Database> = {
   cloudbase: Database,
   deepseek: Sparkles,
-  cos: Warehouse,
+  blob: Warehouse,
   alerts: BellRing,
 };
 
