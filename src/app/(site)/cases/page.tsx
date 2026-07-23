@@ -66,6 +66,7 @@ export default async function CasesPage({
     page: Number(one(raw.page)) || 1,
     limit: 12,
     implementationYear: one(raw.implementationYear) ? Number(one(raw.implementationYear)) : undefined,
+    valueTier: one(raw.valueTier) as CaseQuery["valueTier"],
   };
   const result = await listCases(query);
   const fallbackCases =
@@ -78,6 +79,7 @@ export default async function CasesPage({
     query.scenario ||
     query.size ||
     query.implementationYear ||
+    query.valueTier ||
     (query.outcome && query.outcome !== "all") ||
     (query.roi && query.roi !== "all"),
   );

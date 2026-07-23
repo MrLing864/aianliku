@@ -7,6 +7,7 @@ import { demoCases } from "@/data/demo-cases";
 import { scenarios } from "@/lib/catalog";
 import { getDb, isDbConfigured, getCloudBaseDb } from "@/lib/db/cloudbase";
 import type { CaseQuery, CaseStudy, PaginatedCases } from "@/lib/types";
+import { computeValueTier } from "@/lib/value-tier";
 
 function normalizeText(value: string) {
   return value.normalize("NFKC").trim().toLocaleLowerCase("zh-CN").replace(/[\s，。！？、：；,.!?:;（）()【】\[\]]+/g, " ");
@@ -57,12 +58,14 @@ function matchesDemo(item: CaseStudy, query: CaseQuery) {
     (!query.painPoint || (item.painPointTags ?? []).includes(query.painPoint)) &&
     (!query.implementer || item.implementers.some((impl) => normalizeText(impl.name).includes(normalizeText(query.implementer!)))) &&
     (!query.model || (item.modelStack ?? []).some((model) => normalizeText(model).includes(normalizeText(query.model!)))) &&
-    (!query.implementationYear || item.implementationYear === query.implementationYear)
+    (!query.implementationYear || item.implementationYear === query.implementationYear) &&
+    (!query.valueTier || item.valueTier === query.valueTier)
   );
 }
 
 function sortDemo(items: CaseStudy[], sort: CaseQuery["sort"], q?: string) {
   return [...items].sort((a, b) => {
+    if (sort === "value") return (b.valueScore ?? 0) - (a.valueScore ?? 0);
     if (sort === "popular") return b.views - a.views;
     if (sort === "latest") return Date.parse(b.publishedAt) - Date.parse(a.publishedAt);
     if (q) {
@@ -80,7 +83,12 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
   const pageSize = Math.min(50, Math.max(1, query.limit ?? 20));
 
   if (!isDbConfigured()) {
-    const matching = sortDemo(demoCases.filter((item) => matchesDemo(item, query)), query.sort, query.q);
+    const enriched = demoCases.map((item) => {
+      if (item.valueTier) return item;
+      const { tier, score } = computeValueTier(item);
+      return { ...item, valueTier: tier, valueScore: score };
+    });
+    const matching = sortDemo(enriched.filter((item) => matchesDemo(item, query)), query.sort, query.q);
     return {
       items: matching.slice((page - 1) * pageSize, page * pageSize),
       total: matching.length,
@@ -103,6 +111,7 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
   if (query.implementer) filter["implementers.name"] = { $regex: escapeRegex(query.implementer), $options: "i" };
   if (query.model) filter.modelStack = { $regex: escapeRegex(query.model), $options: "i" };
   if (query.implementationYear) filter.implementationYear = query.implementationYear;
+  if (query.valueTier) filter.valueTier = query.valueTier;
 
   const collection = db.collection("cases");
   const atlasResult = await searchCasesWithAtlas();
@@ -114,7 +123,7 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
     filter.$or = terms.flatMap((term) => fields.map((field) => ({ [field]: { $regex: escapeRegex(term), $options: "i" } }))) as MongoFilter[];
   }
 
-  const sort: MongoSort = query.sort === "popular" ? { views: -1 } : query.sort === "latest" ? { publishedAt: -1 } : { featured: -1, views: -1, publishedAt: -1 };
+  const sort: MongoSort = query.sort === "popular" ? { views: -1 } : query.sort === "latest" ? { publishedAt: -1 } : query.sort === "value" ? { valueScore: -1, views: -1 } : { featured: -1, views: -1, publishedAt: -1 };
   const [items, total] = await Promise.all([
     collection.find(filter).sort(sort).skip((page - 1) * pageSize).limit(pageSize).project<CaseStudy>({ _id: 0, dedupVector: 0 }).toArray(),
     collection.countDocuments(filter),

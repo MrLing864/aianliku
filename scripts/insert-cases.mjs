@@ -1,6 +1,7 @@
 import { readFileSync, appendFileSync } from "node:fs";
 import { join } from "node:path";
 import cloudbase from "@cloudbase/node-sdk";
+import { computeValueTier } from "./value-tier.mjs";
 
 const LOG = join(process.cwd(), "scripts/insert-run.log");
 appendFileSync(LOG, `\n=== RUN ${new Date().toISOString()} ===\n`);
@@ -39,8 +40,11 @@ async function main() {
       continue;
     }
     try {
+      const vt = computeValueTier(c);
+      c.valueTier = vt.tier;
+      c.valueScore = vt.score;
       await coll.add(c);
-      appendFileSync(LOG, `INSERT ${c.slug}\n`);
+      appendFileSync(LOG, `INSERT ${c.slug} [valueTier=${vt.tier}, score=${vt.score}]\n`);
       inserted++;
     } catch (e) {
       appendFileSync(LOG, `FAIL ${c.slug} ${e && e.message}\n`);

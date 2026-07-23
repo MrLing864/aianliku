@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Building2, CalendarDays } from "lucide-react";
-import { OutcomeBadge, ConfidenceBadge } from "@/components/status-badges";
+import { OutcomeBadge, ConfidenceBadge, ValueTierBadge } from "@/components/status-badges";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import type { CaseStudy } from "@/lib/types";
@@ -9,6 +9,11 @@ import { cn } from "@/lib/utils";
 export function CaseCard({ caseStudy, featured = false }: { caseStudy: CaseStudy; featured?: boolean }) {
   return (
     <Card className={cn("group relative overflow-hidden border-border/75 bg-card/80 py-0 shadow-none transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/35 hover:shadow-[0_16px_50px_-32px_rgba(15,75,65,0.32)]", featured && "lg:min-h-[300px]") }>
+      {caseStudy.valueTier && (
+        <div className="absolute right-3 top-3 z-20">
+          <ValueTierBadge tier={caseStudy.valueTier} />
+        </div>
+      )}
       <Link href={`/cases/${caseStudy.slug}`} className="absolute inset-0 z-10 rounded-xl focus-ring" aria-label={`查看案例：${caseStudy.title}`} />
       <CardContent className="flex h-full flex-col p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2"><OutcomeBadge status={caseStudy.outcomeStatus} /><ConfidenceBadge level={caseStudy.confidence} />{caseStudy.demo && <Badge variant="secondary">演示</Badge>}</div>

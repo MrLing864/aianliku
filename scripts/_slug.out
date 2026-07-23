@@ -1,0 +1,18 @@
+﻿{
+  "slug": "case-report-2024top30-27",
+  "title": "中国工商银行数字员工解决方案",
+  "summary": "出门问问运用基于「序列猴子」大模型的数字人制作技术，1:1 复刻工行真人财富顾问，为不同支行定制私人银行数字财富顾问，并将相关政策与话术数据放入大模型训练，打造“问不倒”的数字财富顾问，促进银行体系智能化管理和运营。\n技术提供方/实施方：出门问问",
+  "org.name": "中国工商银行",
+  "industry": "finance",
+  "scenarios": 2,
+  "results": "NA",
+  "sources": 1,
+  "views": 0,
+  "publishedAt": "2026-07-21T15:34:00.246Z",
+  "editorComment": "NULL",
+  "outcomeStatus": "undisclosed",
+  "confidence": "pending",
+  "contentStatus": "published",
+  "implementationSteps": "NA",
+  "painPointTags": "NA"
+}

@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
-import type { ConfidenceLevel, OutcomeStatus } from "@/lib/types";
+import type { ConfidenceLevel, OutcomeStatus, ValueTier } from "@/lib/types";
+import { VALUE_TIER_LABELS } from "@/lib/value-tier";
 import { cn } from "@/lib/utils";
 
 const outcomeMap: Record<OutcomeStatus, { label: string; className: string }> = {
@@ -21,4 +22,20 @@ export function OutcomeBadge({ status }: { status: OutcomeStatus }) {
 export function ConfidenceBadge({ level }: { level: ConfidenceLevel }) {
   const item = confidenceMap[level] ?? confidenceMap.pending;
   return <Badge variant="outline" className={cn("bg-background/50 font-medium", item.className)}>{item.label}</Badge>;
+}
+
+const valueTierMap: Record<ValueTier, { className: string }> = {
+  extreme: { className: "border-amber-300 bg-amber-100 text-amber-900 shadow-sm dark:border-amber-800 dark:bg-amber-900/50 dark:text-amber-100" },
+  high: { className: "border-emerald-300 bg-emerald-100 text-emerald-800 shadow-sm dark:border-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-100" },
+  medium: { className: "border-sky-300 bg-sky-100 text-sky-800 shadow-sm dark:border-sky-800 dark:bg-sky-900/50 dark:text-sky-100" },
+  low: { className: "border-border bg-muted text-muted-foreground" },
+};
+
+export function ValueTierBadge({ tier }: { tier?: ValueTier }) {
+  if (!tier || !valueTierMap[tier]) return null;
+  return (
+    <Badge variant="outline" className={cn("font-semibold", valueTierMap[tier].className)}>
+      {VALUE_TIER_LABELS[tier]}
+    </Badge>
+  );
 }

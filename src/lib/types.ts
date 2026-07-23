@@ -1,5 +1,7 @@
 export type OutcomeStatus = "success" | "partial" | "failure" | "undisclosed";
 export type ConfidenceLevel = "high" | "medium" | "pending";
+/** 案例价值分级：极高 / 高 / 中 / 低。由降本增收规模(50%)+行业标杆性(30%)+访客参考意义(20%)加权得出。 */
+export type ValueTier = "extreme" | "high" | "medium" | "low";
 export type ContentStatus =
   | "draft"
   | "duplicate_review"
@@ -158,6 +160,10 @@ export interface CaseStudy {
   confidence: ConfidenceLevel;
   sources: CaseSource[];
   featured: boolean;
+  /** 案例价值分级，配套 valueScore 用于排序。 */
+  valueTier?: ValueTier;
+  /** 价值综合得分（0-100），由价值子项加权计算，用于「价值最高」排序。 */
+  valueScore?: number;
   views: number;
   dedupVector?: number[];
   publishedAt: string;
@@ -193,13 +199,14 @@ export interface CaseQuery {
   size?: string;
   outcome?: OutcomeStatus | "all";
   roi?: "all" | "disclosed" | "undisclosed";
-  sort?: "relevance" | "latest" | "popular";
+  sort?: "relevance" | "latest" | "popular" | "value";
   page?: number;
   limit?: number;
   painPoint?: string;
   implementer?: string;
   model?: string;
   implementationYear?: number;
+  valueTier?: string;
 }
 
 export interface PaginatedCases {

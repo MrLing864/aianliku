@@ -14,12 +14,16 @@ const outcomeOptions = [
 
 const implementationYears = [2023, 2024, 2025, 2026] as const;
 
+const valueTierOptions = [
+  ["all", "全部价值"], ["extreme", "价值极高"], ["high", "价值高"], ["medium", "价值中"], ["low", "价值低"],
+] as const;
+
 export function CaseFilters() {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [keyword, setKeyword] = useState(searchParams.get("q") ?? "");
-  const activeCount = useMemo(() => ["q", "industry", "scenario", "size", "outcome", "roi", "implementationYear"].filter((key) => {
+  const activeCount = useMemo(() => ["q", "industry", "scenario", "size", "outcome", "roi", "implementationYear", "valueTier"].filter((key) => {
     const value = searchParams.get(key);
     return value && value !== "all";
   }).length, [searchParams]);
@@ -54,7 +58,8 @@ export function CaseFilters() {
         <Select value={searchParams.get("size") ?? "all"} onValueChange={(value) => update("size", value)}><SelectTrigger className="h-9 min-w-32"><SelectValue placeholder="企业规模" /></SelectTrigger><SelectContent><SelectItem value="all">全部规模</SelectItem>{sizeBands.map((item) => <SelectItem key={item} value={item}>{item}</SelectItem>)}</SelectContent></Select>
         <Select value={searchParams.get("outcome") ?? "all"} onValueChange={(value) => update("outcome", value)}><SelectTrigger className="h-9 min-w-32"><SelectValue placeholder="项目结果" /></SelectTrigger><SelectContent>{outcomeOptions.map(([value, label]) => <SelectItem key={value} value={value}>{label}</SelectItem>)}</SelectContent></Select>
         <Select value={searchParams.get("implementationYear") ?? "all"} onValueChange={(value) => update("implementationYear", value)}><SelectTrigger className="h-9 min-w-32"><SelectValue placeholder="实施年份" /></SelectTrigger><SelectContent><SelectItem value="all">全部年份</SelectItem>{implementationYears.map((year) => <SelectItem key={year} value={String(year)}>{year} 年</SelectItem>)}</SelectContent></Select>
-        <Select value={searchParams.get("sort") ?? "relevance"} onValueChange={(value) => update("sort", value)}><SelectTrigger className="h-9 min-w-28"><SelectValue placeholder="排序" /></SelectTrigger><SelectContent><SelectItem value="relevance">综合排序</SelectItem><SelectItem value="latest">最近更新</SelectItem><SelectItem value="popular">最多阅读</SelectItem></SelectContent></Select>
+        <Select value={searchParams.get("valueTier") ?? "all"} onValueChange={(value) => update("valueTier", value)}><SelectTrigger className="h-9 min-w-32"><SelectValue placeholder="案例价值" /></SelectTrigger><SelectContent><SelectItem value="all">全部价值</SelectItem>{valueTierOptions.slice(1).map(([value, label]) => <SelectItem key={value} value={value}>{label}</SelectItem>)}</SelectContent></Select>
+        <Select value={searchParams.get("sort") ?? "relevance"} onValueChange={(value) => update("sort", value)}><SelectTrigger className="h-9 min-w-28"><SelectValue placeholder="排序" /></SelectTrigger><SelectContent><SelectItem value="relevance">综合排序</SelectItem><SelectItem value="latest">最近更新</SelectItem><SelectItem value="popular">最多阅读</SelectItem><SelectItem value="value">价值最高</SelectItem></SelectContent></Select>
         {activeCount > 0 && <Button type="button" variant="ghost" size="sm" onClick={reset}><RotateCcw />清除 {activeCount} 项</Button>}
       </div>
     </div>
