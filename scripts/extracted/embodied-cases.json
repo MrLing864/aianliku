@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "case-2026-0001",
+    "version": 1,
+    "slug": "case-2026-0001",
+    "title": "智元机器人远征 A2-W 工业具身智能规模化部署",
+    "organization": {
+      "id": "org-embodied-001",
+      "name": "智元机器人（AgiBot）",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "private"
+    },
+    "industry": {
+      "id": "industry-manufacturing",
+      "code": "C",
+      "name": "制造业",
+      "displayName": "制造业",
+      "slug": "manufacturing",
+      "description": "生产、质检、设备维护、供应链与经营管理中的 AI 实践。",
+      "icon": "Factory",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-quality",
+        "name": "智能质检",
+        "slug": "quality-inspection",
+        "description": "视觉、语音或文本质量检查和异常识别。",
+        "synonyms": [
+          "视觉质检",
+          "AI质检"
+        ],
+        "icon": "ScanSearch",
+        "featured": true
+      },
+      {
+        "id": "scene-workflow",
+        "name": "流程自动化",
+        "slug": "workflow",
+        "description": "连接业务系统，减少重复录入和人工流转。",
+        "synonyms": [
+          "Workflow",
+          "RPA",
+          "自动化流程"
+        ],
+        "icon": "Workflow",
+        "featured": true
+      },
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "生产",
+      "质检"
+    ],
+    "summary": "智元机器人将轮式人形机器人「远征 A2-W」投入工业场景规模化部署，执行物料转运、质检辅助与柔性装配，标志具身智能从演示走向产线。",
+    "background": "制造业面临用工短缺与多品种小批量柔性生产压力，传统固定式机械臂难以适配非结构化任务，具身智能人形机器人成为新落地方向。",
+    "problem": "产线物料流转与质检环节依赖人工，柔性差、招工难；固定机械臂难以应对换线频繁、品类多样的场景。",
+    "solution": "远征 A2-W 轮式人形机器人具备多模态感知与 VLA 大模型决策能力，可在工业现场自主完成物料转运、工序衔接与质检辅助，支持快速适配新任务。",
+    "implementationSteps": [
+      "发布远征 A2 系列人形机器人平台",
+      "在多家制造企业落地远征 A2-W 轮式机器人",
+      "实现近百台规模部署于工业场景",
+      "持续迭代 VLA 模型提升任务泛化"
+    ],
+    "duration": "2024年至今持续迭代",
+    "cost": "",
+    "results": [
+      {
+        "label": "规模化部署规模",
+        "value": "近百台",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "工业现场对非结构化任务的可靠性、安全认证与规模化运维仍需验证；人形机器人单位成本高，投资回收周期待评估。",
+    "editorComment": {
+      "suitableFor": "多品种小批量、物料流转频繁的离散制造场景",
+      "prerequisites": "需具备机器人调度与产线接口能力",
+      "priority": "建议优先",
+      "text": "体现具身智能从演示到产线的关键跨越，可作为制造企业评估人形机器人落地的参考样板。"
+    },
+    "implementers": [
+      {
+        "name": "智元机器人（AgiBot）",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2025,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "用工短缺",
+      "柔性生产",
+      "质检"
+    ],
+    "painPointNarrative": "",
+    "highlight": "近百台规模部署，具身智能人形机器人率先规模化进入工业产线",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身智能",
+      "人形机器人",
+      "VLA大模型"
+    ],
+    "modelStack": [
+      "远征 A2-W VLA 模型"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "人形机器人",
+      "工业部署"
+    ],
+    "seo": {
+      "metaTitle": "智元机器人远征 A2-W 工业具身智能规模化部署",
+      "metaDescription": "智元机器人将轮式人形机器人「远征 A2-W」投入工业场景规模化部署，执行物料转运、质检辅助与柔性装配，标志具身智能从演示走向产线。",
+      "keywords": [
+        "具身智能",
+        "人形机器人",
+        "工业部署"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0002",
+    "version": 1,
+    "slug": "case-2026-0002",
+    "title": "银河通用 Galbot G1 具身智能无人便利店与无人药房",
+    "organization": {
+      "id": "org-embodied-002",
+      "name": "银河通用（Galbot）",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "private"
+    },
+    "industry": {
+      "id": "industry-retail",
+      "code": "F52",
+      "name": "零售业",
+      "displayName": "零售与消费",
+      "slug": "retail",
+      "description": "选品、库存、门店运营、客服与会员营销案例。",
+      "icon": "ShoppingBag",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1",
+      "parentCode": "F"
+    },
+    "scenarios": [
+      {
+        "id": "scene-customer-service",
+        "name": "智能客服",
+        "slug": "customer-service",
+        "description": "面向客户或员工的智能问答与工单辅助。",
+        "synonyms": [
+          "AI客服",
+          "客服机器人",
+          "在线客服"
+        ],
+        "icon": "MessagesSquare",
+        "featured": true
+      },
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      },
+      {
+        "id": "scene-workflow",
+        "name": "流程自动化",
+        "slug": "workflow",
+        "description": "连接业务系统，减少重复录入和人工流转。",
+        "synonyms": [
+          "Workflow",
+          "RPA",
+          "自动化流程"
+        ],
+        "icon": "Workflow",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "客服",
+      "销售"
+    ],
+    "summary": "银河通用以 Galbot G1 打造全球首个「银河太空舱」具身智能无人便利店与 24 小时无人药房，机器人自主完成补货、收银与商品制作。",
+    "background": "零售与药店面临夜间运营人力成本高、标准化服务难保障的问题，具身智能为「无人化门店」提供新路径。",
+    "problem": "传统便利店/药房夜间需值守、人工成本高，且难以稳定提供 24 小时标准化服务。",
+    "solution": "Galbot G1 具身大模型机器人理解自然语言指令，在无人空间内自主导航、抓取与操作，完成补货、收银、制作冰淇淋/咖啡等任务，支撑「银河太空舱」形态落地。",
+    "implementationSteps": [
+      "发布 Galbot G1 具身大模型机器人",
+      "落地全球首个「银河太空舱」具身智能无人便利店",
+      "拓展 24 小时无人药房场景",
+      "验证多模态操作在零售闭环中的可用性"
+    ],
+    "duration": "2025年试点落地",
+    "cost": "",
+    "results": [
+      {
+        "label": "落地形态",
+        "value": "全球首个具身智能无人便利店",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "无人零售对安全、合规与异常处置要求高；具身操作的长尾场景可靠性仍需持续打磨。",
+    "editorComment": {
+      "suitableFor": "夜间便利店、药店、园区新零售等标准化高频场景",
+      "prerequisites": "需具备无人空间与远程监控能力",
+      "priority": "建议优先",
+      "text": "具身智能在零售闭环中较完整的落地示范，适合关注无人化门店的企业参考。"
+    },
+    "implementers": [
+      {
+        "name": "银河通用（Galbot）",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2025,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "人力成本",
+      "夜间运营",
+      "无人零售"
+    ],
+    "painPointNarrative": "",
+    "highlight": "全球首个具身智能无人便利店，机器人自主完成补货、收银与商品制作",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身智能",
+      "无人零售",
+      "具身大模型"
+    ],
+    "modelStack": [
+      "Galbot G1 具身大模型"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "无人零售",
+      "机器人"
+    ],
+    "seo": {
+      "metaTitle": "银河通用 Galbot G1 具身智能无人便利店与无人药房",
+      "metaDescription": "银河通用以 Galbot G1 打造全球首个「银河太空舱」具身智能无人便利店与 24 小时无人药房，机器人自主完成补货、收银与商品制作。",
+      "keywords": [
+        "具身智能",
+        "无人零售",
+        "机器人"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0003",
+    "version": 1,
+    "slug": "case-2026-0003",
+    "title": "微亿智造「创Tron」仿生视觉装配机器人",
+    "organization": {
+      "id": "org-embodied-003",
+      "name": "微亿智造",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "private"
+    },
+    "industry": {
+      "id": "industry-manufacturing",
+      "code": "C",
+      "name": "制造业",
+      "displayName": "制造业",
+      "slug": "manufacturing",
+      "description": "生产、质检、设备维护、供应链与经营管理中的 AI 实践。",
+      "icon": "Factory",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-quality",
+        "name": "智能质检",
+        "slug": "quality-inspection",
+        "description": "视觉、语音或文本质量检查和异常识别。",
+        "synonyms": [
+          "视觉质检",
+          "AI质检"
+        ],
+        "icon": "ScanSearch",
+        "featured": true
+      },
+      {
+        "id": "scene-workflow",
+        "name": "流程自动化",
+        "slug": "workflow",
+        "description": "连接业务系统，减少重复录入和人工流转。",
+        "synonyms": [
+          "Workflow",
+          "RPA",
+          "自动化流程"
+        ],
+        "icon": "Workflow",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "生产",
+      "质检"
+    ],
+    "summary": "微亿智造推出「创Tron」仿生视觉装配机器人，融合多光谱视觉与力控，实现少样本/零样本柔性装配与在线质检。",
+    "background": "3C、汽车零部件等行业装配工序繁多、换型频繁，传统专机难以兼顾柔性与精度。",
+    "problem": "装配环节依赖熟练工，换型调试周期长；视觉质检误检漏检影响良率。",
+    "solution": "创Tron 采用仿生视觉（多光谱+三维）与力控闭环，结合大模型理解装配工艺，支持快速适配新工件，并在线完成质量检查。",
+    "implementationSteps": [
+      "研发仿生视觉感知与力控融合架构",
+      "面向 3C/汽车零部件推出创Tron 装配机器人",
+      "落地柔性装配与在线质检产线",
+      "迭代少样本适配能力"
+    ],
+    "duration": "2024年起持续落地",
+    "cost": "",
+    "results": [
+      {
+        "label": "能力特征",
+        "value": "仿生视觉+力控柔性装配",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "复杂工件与强反光表面的感知稳定性仍是挑战；与既有 MES/产线系统的集成需定制。",
+    "editorComment": {
+      "suitableFor": "多品种小批量、换型频繁的精密装配与质检",
+      "prerequisites": "需具备工艺数字化与产线接口",
+      "priority": "建议优先",
+      "text": "把具身视觉与力控用于精密装配，是制造业具身智能的务实落地方向。"
+    },
+    "implementers": [
+      {
+        "name": "微亿智造",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2024,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "柔性装配",
+      "在线质检",
+      "换型"
+    ],
+    "painPointNarrative": "",
+    "highlight": "仿生视觉+力控融合，实现少样本柔性装配与在线质检",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身视觉",
+      "力控",
+      "柔性装配"
+    ],
+    "modelStack": [
+      "创Tron 仿生视觉大模型"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "工业视觉",
+      "柔性装配"
+    ],
+    "seo": {
+      "metaTitle": "微亿智造「创Tron」仿生视觉装配机器人",
+      "metaDescription": "微亿智造推出「创Tron」仿生视觉装配机器人，融合多光谱视觉与力控，实现少样本/零样本柔性装配与在线质检。",
+      "keywords": [
+        "具身智能",
+        "工业视觉",
+        "柔性装配"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0004",
+    "version": 1,
+    "slug": "case-2026-0004",
+    "title": "Physical Intelligence Pi-Zero 零样本机械臂操控",
+    "organization": {
+      "id": "org-embodied-004",
+      "name": "Physical Intelligence",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "foreign"
+    },
+    "industry": {
+      "id": "industry-manufacturing",
+      "code": "C",
+      "name": "制造业",
+      "displayName": "制造业",
+      "slug": "manufacturing",
+      "description": "生产、质检、设备维护、供应链与经营管理中的 AI 实践。",
+      "icon": "Factory",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      },
+      {
+        "id": "scene-workflow",
+        "name": "流程自动化",
+        "slug": "workflow",
+        "description": "连接业务系统，减少重复录入和人工流转。",
+        "synonyms": [
+          "Workflow",
+          "RPA",
+          "自动化流程"
+        ],
+        "icon": "Workflow",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "生产"
+    ],
+    "summary": "Physical Intelligence 发布 Pi-Zero 具身基础模型，使机械臂以零样本/少样本方式学习多种操作任务，降低工业自动化编程门槛。",
+    "background": "工业机器人落地长期受限于逐任务编程与示教，难以快速适应新任务。",
+    "problem": "传统机械臂每换一个任务都需重新编程示教，工程成本高、周期长。",
+    "solution": "Pi-Zero 以大规模多机器人操作数据训练具身基础模型，结合流式视觉-语言-动作架构，让机械臂直接理解指令并零样本执行多类操作。",
+    "implementationSteps": [
+      "构建跨本体操作数据集训练 Pi-Zero",
+      "发布流式视觉-语言-动作(VLA)模型",
+      "演示零样本多任务机械臂操控",
+      "探索与工业系统集成"
+    ],
+    "duration": "2024年发布",
+    "cost": "",
+    "results": [
+      {
+        "label": "能力特征",
+        "value": "零样本多任务操控",
+        "kind": "undisclosed",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "零样本在长尾工业任务上的成功率与安全性仍需验证；数据合规与跨本体泛化存在边界。",
+    "editorComment": {
+      "suitableFor": "任务多样、换型频繁的轻量操作与科研验证",
+      "prerequisites": "需具备机械臂硬件与数据采集条件",
+      "priority": "条件具备后开展",
+      "text": "代表具身基础模型方向，企业可关注其与自有产线结合的可行性与数据门槛。"
+    },
+    "implementers": [
+      {
+        "name": "Physical Intelligence",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "undisclosed",
+    "contentStatus": "draft",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2024,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "编程门槛",
+      "换型成本"
+    ],
+    "painPointNarrative": "",
+    "highlight": "具身基础模型 Pi-Zero 实现机械臂零样本多任务操控",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身基础模型",
+      "VLA",
+      "零样本"
+    ],
+    "modelStack": [
+      "Pi-Zero"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "基础模型",
+      "机械臂"
+    ],
+    "seo": {
+      "metaTitle": "Physical Intelligence Pi-Zero 零样本机械臂操控",
+      "metaDescription": "Physical Intelligence 发布 Pi-Zero 具身基础模型，使机械臂以零样本/少样本方式学习多种操作任务，降低工业自动化编程门槛。",
+      "keywords": [
+        "具身智能",
+        "基础模型",
+        "机械臂"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0005",
+    "version": 1,
+    "slug": "case-2026-0005",
+    "title": "阿里云千问大模型驱动工业机器人",
+    "organization": {
+      "id": "org-embodied-005",
+      "name": "阿里云",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "private"
+    },
+    "industry": {
+      "id": "industry-manufacturing",
+      "code": "C",
+      "name": "制造业",
+      "displayName": "制造业",
+      "slug": "manufacturing",
+      "description": "生产、质检、设备维护、供应链与经营管理中的 AI 实践。",
+      "icon": "Factory",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      },
+      {
+        "id": "scene-production-scheduling",
+        "name": "智能排产与工艺优化",
+        "slug": "production-scheduling",
+        "description": "生产计划、排程与工艺参数优化。",
+        "synonyms": [
+          "排产",
+          "工艺优化",
+          "生产调度"
+        ],
+        "icon": "Gauge",
+        "featured": false
+      }
+    ],
+    "businessFunctions": [
+      "生产",
+      "研发"
+    ],
+    "summary": "阿里云将通义千问大模型接入工业机器人，用自然语言指令驱动机器人完成抓取、搬运与简单装配，降低产线自动化使用门槛。",
+    "background": "中小企业缺乏机器人编程与集成能力，难以把大模型能力落到实体产线。",
+    "problem": "工业机器人使用门槛高，需专业工程师编程；大模型与物理执行之间存在鸿沟。",
+    "solution": "以通义千问作为「大脑」进行任务理解、规划与代码生成，结合机器人控制「小脑」执行，形成自然语言到动作的控制链路。",
+    "implementationSteps": [
+      "通义千问接入工业机器人控制链路",
+      "自然语言指令驱动抓取/搬运/装配演示",
+      "沉淀工业场景 Agent 能力",
+      "探索云+端协同部署"
+    ],
+    "duration": "2024年起探索",
+    "cost": "",
+    "results": [
+      {
+        "label": "能力特征",
+        "value": "自然语言到动作的控制链路",
+        "kind": "undisclosed",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "现场噪声、安全边界与实时性要求高；大模型生成动作代码的可靠性需严格校验。",
+    "editorComment": {
+      "suitableFor": "希望以低代码方式改造产线的制造企业",
+      "prerequisites": "需具备机器人硬件与网络条件",
+      "priority": "条件具备后开展",
+      "text": "大模型+机器人是降低自动化门槛的重要方向，建议先在可控工序试点。"
+    },
+    "implementers": [
+      {
+        "name": "阿里云",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "undisclosed",
+    "contentStatus": "draft",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2024,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "自动化门槛",
+      "编程成本"
+    ],
+    "painPointNarrative": "",
+    "highlight": "通义千问驱动工业机器人，自然语言指令直达动作",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "大模型",
+      "机器人控制",
+      "Agent"
+    ],
+    "modelStack": [
+      "通义千问"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "大模型",
+      "工业机器人"
+    ],
+    "seo": {
+      "metaTitle": "阿里云千问大模型驱动工业机器人",
+      "metaDescription": "阿里云将通义千问大模型接入工业机器人，用自然语言指令驱动机器人完成抓取、搬运与简单装配，降低产线自动化使用门槛。",
+      "keywords": [
+        "具身智能",
+        "大模型",
+        "工业机器人"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0006",
+    "version": 1,
+    "slug": "case-2026-0006",
+    "title": "自变量机器人 WALL-A 联合 58 到家落地智能保洁",
+    "organization": {
+      "id": "org-embodied-006",
+      "name": "自变量机器人（X Square Robot）",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "private"
+    },
+    "industry": {
+      "id": "industry-other",
+      "code": "Z99",
+      "name": "其他",
+      "displayName": "其他行业",
+      "slug": "other",
+      "description": "难以归入上述行业的综合 AI 应用案例。",
+      "icon": "Layers",
+      "featured": false,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-workflow",
+        "name": "流程自动化",
+        "slug": "workflow",
+        "description": "连接业务系统，减少重复录入和人工流转。",
+        "synonyms": [
+          "Workflow",
+          "RPA",
+          "自动化流程"
+        ],
+        "icon": "Workflow",
+        "featured": true
+      },
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "经营管理"
+    ],
+    "summary": "自变量机器人将轮式机器人 WALL-A 与 58 到家合作，在深圳推出智能保洁服务模式，探索具身智能进入家庭服务。",
+    "background": "家政保洁用工短缺、服务标准化难，具身智能有望补齐人力短板。",
+    "problem": "家庭/商用保洁依赖人工，招工难、质量不均，难以规模化标准化。",
+    "solution": "WALL-A 轮式机器人具备操作与泛化能力，结合 58 到家的服务网络，在深圳试点智能保洁服务模式，承接标准化清洁任务。",
+    "implementationSteps": [
+      "发布 WALL-A 轮式操作机器人",
+      "与 58 到家达成合作",
+      "在深圳试点智能保洁服务模式",
+      "迭代家庭/商用清洁技能"
+    ],
+    "duration": "2025年试点",
+    "cost": "",
+    "results": [
+      {
+        "label": "合作模式",
+        "value": "联合 58 到家在深圳试点智能保洁",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "家庭非结构化环境对安全与避障要求极高；服务网络的运营与责任划分尚需摸索。",
+    "editorComment": {
+      "suitableFor": "园区、写字楼等半结构化环境的保洁服务",
+      "prerequisites": "需具备服务运营与远程接管能力",
+      "priority": "建议优先",
+      "text": "具身智能+生活服务平台是家政自动化的早期探索，可关注其规模化可行性。"
+    },
+    "implementers": [
+      {
+        "name": "自变量机器人（X Square Robot）",
+        "role": "技术提供方"
+      },
+      {
+        "name": "58 到家",
+        "role": "其他"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2025,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "用工短缺",
+      "服务标准化"
+    ],
+    "painPointNarrative": "",
+    "highlight": "WALL-A 联合 58 到家，在深圳试点智能保洁服务模式",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身智能",
+      "家庭服务",
+      "机器人"
+    ],
+    "modelStack": [
+      "WALL-A"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "生活服务",
+      "机器人"
+    ],
+    "seo": {
+      "metaTitle": "自变量机器人 WALL-A 联合 58 到家落地智能保洁",
+      "metaDescription": "自变量机器人将轮式机器人 WALL-A 与 58 到家合作，在深圳推出智能保洁服务模式，探索具身智能进入家庭服务。",
+      "keywords": [
+        "具身智能",
+        "生活服务",
+        "机器人"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0007",
+    "version": 1,
+    "slug": "case-2026-0007",
+    "title": "西安中科光电智能焊接机器人",
+    "organization": {
+      "id": "org-embodied-007",
+      "name": "西安中科光电",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "private"
+    },
+    "industry": {
+      "id": "industry-manufacturing",
+      "code": "C",
+      "name": "制造业",
+      "displayName": "制造业",
+      "slug": "manufacturing",
+      "description": "生产、质检、设备维护、供应链与经营管理中的 AI 实践。",
+      "icon": "Factory",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-quality",
+        "name": "智能质检",
+        "slug": "quality-inspection",
+        "description": "视觉、语音或文本质量检查和异常识别。",
+        "synonyms": [
+          "视觉质检",
+          "AI质检"
+        ],
+        "icon": "ScanSearch",
+        "featured": true
+      },
+      {
+        "id": "scene-workflow",
+        "name": "流程自动化",
+        "slug": "workflow",
+        "description": "连接业务系统，减少重复录入和人工流转。",
+        "synonyms": [
+          "Workflow",
+          "RPA",
+          "自动化流程"
+        ],
+        "icon": "Workflow",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "生产",
+      "质检"
+    ],
+    "summary": "西安中科光电推出视觉引导的智能焊接机器人，通过三维视觉定位与工艺参数优化，提升焊接质量与一致性。",
+    "background": "焊接是制造基础工序，熟练焊工短缺、质量波动大，自动化需求强烈。",
+    "problem": "传统焊接依赖老师傅经验，招工难、良率波动；小批量多品种难以快速编程。",
+    "solution": "以三维视觉识别焊缝与姿态，自动规划焊接路径并实时调整工艺参数，实现自适应智能焊接与在线质量检查。",
+    "implementationSteps": [
+      "研发三维视觉引导焊接系统",
+      "落地智能焊接机器人产品",
+      "在装备制造产线应用",
+      "迭代自适应工艺参数"
+    ],
+    "duration": "持续落地",
+    "cost": "",
+    "results": [
+      {
+        "label": "能力特征",
+        "value": "视觉引导自适应焊接",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "复杂工件与异形焊缝的识别稳定性需提升；与既有产线的节拍匹配需调优。",
+    "editorComment": {
+      "suitableFor": "装备制造、钢结构等批量焊接场景",
+      "prerequisites": "需具备焊接工艺与产线接口",
+      "priority": "建议优先",
+      "text": "视觉+工艺优化的智能焊接是制造自动化的成熟切入点，投资回收相对清晰。"
+    },
+    "implementers": [
+      {
+        "name": "西安中科光电",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2024,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "焊工短缺",
+      "焊接质量"
+    ],
+    "painPointNarrative": "",
+    "highlight": "视觉引导自适应焊接，提升焊接质量与一致性",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "机器视觉",
+      "智能焊接",
+      "工艺优化"
+    ],
+    "modelStack": [
+      "三维视觉焊接模型"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "智能焊接",
+      "机器视觉"
+    ],
+    "seo": {
+      "metaTitle": "西安中科光电智能焊接机器人",
+      "metaDescription": "西安中科光电推出视觉引导的智能焊接机器人，通过三维视觉定位与工艺参数优化，提升焊接质量与一致性。",
+      "keywords": [
+        "具身智能",
+        "智能焊接",
+        "机器视觉"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0008",
+    "version": 1,
+    "slug": "case-2026-0008",
+    "title": "Figure AI Helix 零样本零售货架抓取",
+    "organization": {
+      "id": "org-embodied-008",
+      "name": "Figure AI",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "foreign"
+    },
+    "industry": {
+      "id": "industry-retail",
+      "code": "F52",
+      "name": "零售业",
+      "displayName": "零售与消费",
+      "slug": "retail",
+      "description": "选品、库存、门店运营、客服与会员营销案例。",
+      "icon": "ShoppingBag",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1",
+      "parentCode": "F"
+    },
+    "scenarios": [
+      {
+        "id": "scene-customer-service",
+        "name": "智能客服",
+        "slug": "customer-service",
+        "description": "面向客户或员工的智能问答与工单辅助。",
+        "synonyms": [
+          "AI客服",
+          "客服机器人",
+          "在线客服"
+        ],
+        "icon": "MessagesSquare",
+        "featured": true
+      },
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "客服",
+      "销售"
+    ],
+    "summary": "Figure AI 发布 Helix 视觉-语言-动作(VLA)模型，让 Figure 02 人形机器人零样本理解自然语言、在零售场景抓取与分拣商品。",
+    "background": "零售补货、理货依赖人工，具身智能有望承接高频重复操作。",
+    "problem": "货架补货、拣选需大量人工，且难以 24 小时稳定执行。",
+    "solution": "Helix 以统一 VLA 模型端到端输出动作，Figure 02 可按自然语言指令在超市环境零样本抓取、分拣与归位商品。",
+    "implementationSteps": [
+      "发布 Helix 统一 VLA 模型",
+      "在 Figure 02 上实现零样本抓取",
+      "演示超市货架分拣",
+      "探索与物流/零售集成"
+    ],
+    "duration": "2025年演示",
+    "cost": "",
+    "results": [
+      {
+        "label": "能力特征",
+        "value": "零样本货架抓取与分拣",
+        "kind": "undisclosed",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "开放零售环境的长尾物体与拥挤货架对鲁棒性要求高；成本与节拍尚难规模化。",
+    "editorComment": {
+      "suitableFor": "仓内分拣、门店理货等结构化操作",
+      "prerequisites": "需具备机器人硬件与场景数据",
+      "priority": "条件具备后开展",
+      "text": "Helix 展示人形机器人在零售操作的潜力，企业可关注其从演示到规模化落地进展。"
+    },
+    "implementers": [
+      {
+        "name": "Figure AI",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "undisclosed",
+    "contentStatus": "draft",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2025,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "理货人力",
+      "补货效率"
+    ],
+    "painPointNarrative": "",
+    "highlight": "Helix VLA 模型驱动 Figure 02 零样本零售抓取分拣",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身智能",
+      "VLA",
+      "人形机器人"
+    ],
+    "modelStack": [
+      "Helix",
+      "Figure 02"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "人形机器人",
+      "零售"
+    ],
+    "seo": {
+      "metaTitle": "Figure AI Helix 零样本零售货架抓取",
+      "metaDescription": "Figure AI 发布 Helix 视觉-语言-动作(VLA)模型，让 Figure 02 人形机器人零样本理解自然语言、在零售场景抓取与分拣商品。",
+      "keywords": [
+        "具身智能",
+        "人形机器人",
+        "零售"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0009",
+    "version": 1,
+    "slug": "case-2026-0009",
+    "title": "达芬奇手术机器人临床应用",
+    "organization": {
+      "id": "org-embodied-009",
+      "name": "直观外科（Intuitive Surgical）",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "foreign"
+    },
+    "industry": {
+      "id": "industry-healthcare",
+      "code": "Q84",
+      "name": "卫生",
+      "displayName": "医疗健康",
+      "slug": "healthcare",
+      "description": "病历、随访、辅助诊疗和医院运营案例。",
+      "icon": "HeartPulse",
+      "featured": true,
+      "standardVersion": "GB/T 4754-2017+1",
+      "parentCode": "Q"
+    },
+    "scenarios": [
+      {
+        "id": "scene-agent",
+        "name": "Agent",
+        "slug": "agent",
+        "description": "能够规划、调用工具并执行多步任务的 AI 助手。",
+        "synonyms": [
+          "智能体",
+          "AI Agent"
+        ],
+        "icon": "Bot",
+        "featured": true
+      }
+    ],
+    "businessFunctions": [
+      "研发"
+    ],
+    "summary": "达芬奇手术机器人以主从遥操作与三维高清视野辅助外科医生完成微创手术，是医疗具身智能最具代表性的成熟应用。",
+    "background": "微创外科对操作精度与视野要求极高，传统腹腔镜受限于器械自由度。",
+    "problem": "医生手部震颤、器械自由度不足影响精细操作；学习曲线长。",
+    "solution": "达芬奇系统通过主从机械臂、腕部关节与三维放大视野，滤除震颤并扩展操作自由度，由医生主导完成精准微创操作。",
+    "implementationSteps": [
+      "推出达芬奇手术机器人系统",
+      "在全球医院规模部署",
+      "持续迭代机械臂与成像",
+      "拓展多科室微创手术"
+    ],
+    "duration": "长期临床广泛应用",
+    "cost": "",
+    "results": [
+      {
+        "label": "应用特征",
+        "value": "全球范围临床应用",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "设备与维护成本高，依赖术者培训；属医生主导的遥操作而非自主决策。",
+    "editorComment": {
+      "suitableFor": "需高精度微创操作的医疗机构",
+      "prerequisites": "需具备外科培训与设备条件",
+      "priority": "条件具备后开展",
+      "text": "医疗具身智能的标杆，但属高端设备并非通用 AI Agent，企业参考其「人机协作」范式更务实。"
+    },
+    "implementers": [
+      {
+        "name": "直观外科（Intuitive Surgical）",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2023,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "手术精度",
+      "微创"
+    ],
+    "painPointNarrative": "",
+    "highlight": "达芬奇手术机器人：医疗具身智能最成熟的临床应用",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "医疗机器人",
+      "主从遥操作",
+      "微创手术"
+    ],
+    "modelStack": [
+      "达芬奇手术系统"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "医疗机器人",
+      "微创手术"
+    ],
+    "seo": {
+      "metaTitle": "达芬奇手术机器人临床应用",
+      "metaDescription": "达芬奇手术机器人以主从遥操作与三维高清视野辅助外科医生完成微创手术，是医疗具身智能最具代表性的成熟应用。",
+      "keywords": [
+        "具身智能",
+        "医疗机器人",
+        "微创手术"
+      ]
+    }
+  },
+  {
+    "id": "case-2026-0010",
+    "version": 1,
+    "slug": "case-2026-0010",
+    "title": "STI 自主扫雷无人机野外排雷应用",
+    "organization": {
+      "id": "org-embodied-010",
+      "name": "STI（乌克兰）",
+      "size": "未披露",
+      "anonymous": false,
+      "type": "foreign"
+    },
+    "industry": {
+      "id": "industry-other",
+      "code": "Z99",
+      "name": "其他",
+      "displayName": "其他行业",
+      "slug": "other",
+      "description": "难以归入上述行业的综合 AI 应用案例。",
+      "icon": "Layers",
+      "featured": false,
+      "standardVersion": "GB/T 4754-2017+1"
+    },
+    "scenarios": [
+      {
+        "id": "scene-ops-inspection",
+        "name": "智能运维与巡检",
+        "slug": "ops-inspection",
+        "description": "设备运维、远程巡检与异常预警。",
+        "synonyms": [
+          "运维",
+          "巡检",
+          "预测性维护"
+        ],
+        "icon": "Wrench",
+        "featured": false
+      }
+    ],
+    "businessFunctions": [
+      "经营管理"
+    ],
+    "summary": "乌克兰使用的 STI 自主扫雷无人机在野外作业中效率达人工排雷约 4 倍，是具身智能在特种危险作业中的典型应用。",
+    "background": "战后人道排雷任务重、危险性高，传统人工排雷效率低、风险大。",
+    "problem": "人工排雷速度慢、伤亡风险高，难以快速恢复土地可用。",
+    "solution": "STI 扫雷无人机具备自主导航与探测能力，在野外环境下自主识别并处置地雷，大幅提升排雷效率、降低人员暴露。",
+    "implementationSteps": [
+      "部署 STI 自主扫雷无人机",
+      "在野外环境执行排雷任务",
+      "验证效率相较人工显著提升",
+      "迭代探测与处置能力"
+    ],
+    "duration": "2023年起实战应用",
+    "cost": "",
+    "results": [
+      {
+        "label": "排雷效率（相对人工）",
+        "value": "4",
+        "unit": "倍",
+        "kind": "actual",
+        "sourceId": "src-embodied-wp-2026"
+      }
+    ],
+    "roi": "",
+    "risks": "战场环境复杂、未爆物类型多样，误报与漏报风险仍存；属特种作业非商业场景。",
+    "editorComment": {
+      "suitableFor": "高危、重复、需远程作业的特种场景",
+      "prerequisites": "需具备自主导航与探测能力",
+      "priority": "条件具备后开展",
+      "text": "体现具身智能在危险作业替代人力的价值，但其特种属性与商业落地差异较大，仅供参考。"
+    },
+    "implementers": [
+      {
+        "name": "STI（乌克兰）",
+        "role": "技术提供方"
+      }
+    ],
+    "outcomeStatus": "success",
+    "contentStatus": "draft",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "src-embodied-wp-2026",
+        "title": "中国人工智能系列白皮书——具身智能（2026版）",
+        "publisher": "中国人工智能学会",
+        "type": "institution",
+        "publishedAt": "2026-04-01",
+        "collectedAt": "2026-07-23",
+        "accessibility": "available",
+        "supports": [
+          "行业应用",
+          "部署事实",
+          "技术路径"
+        ]
+      }
+    ],
+    "featured": false,
+    "views": 0,
+    "dedupVector": [],
+    "publishedAt": "2026-07-23",
+    "updatedAt": "2026-07-23",
+    "demo": false,
+    "implementationYear": 2023,
+    "implementationTimePrecision": "year",
+    "painPointTags": [
+      "高危作业",
+      "排雷效率"
+    ],
+    "painPointNarrative": "",
+    "highlight": "自主扫雷无人机效率达人工约 4 倍，具身智能替代高危人力",
+    "investmentRange": {
+      "currency": "CNY",
+      "disclosed": false,
+      "narrative": ""
+    },
+    "projectDuration": {
+      "disclosed": false,
+      "narrative": ""
+    },
+    "testimonial": null,
+    "techPath": [
+      "具身智能",
+      "自主作业",
+      "特种机器人"
+    ],
+    "modelStack": [
+      "STI 扫雷无人机"
+    ],
+    "sourceReport": {
+      "title": "中国人工智能系列白皮书——具身智能（2026版）",
+      "publisher": "中国人工智能学会",
+      "year": 2026
+    },
+    "ctaText": "",
+    "consultationStats": null,
+    "relatedCaseIds": [],
+    "tags": [
+      "具身智能",
+      "特种作业",
+      "自主机器人"
+    ],
+    "seo": {
+      "metaTitle": "STI 自主扫雷无人机野外排雷应用",
+      "metaDescription": "乌克兰使用的 STI 自主扫雷无人机在野外作业中效率达人工排雷约 4 倍，是具身智能在特种危险作业中的典型应用。",
+      "keywords": [
+        "具身智能",
+        "特种作业",
+        "自主机器人"
+      ]
+    }
+  }
+]

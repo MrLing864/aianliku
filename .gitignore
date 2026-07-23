@@ -46,6 +46,9 @@ yarn-error.log*
 # edgeone
 .edgeone
 
+# local script run logs
+scripts/insert-run.log
+
 # local reports (large pdf assets, not part of app deploy)
 /report
 
