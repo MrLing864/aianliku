@@ -17,7 +17,7 @@
 - 腾讯云 CloudBase 文档型数据库（@cloudbase/node-sdk，替代 MongoDB / MongoDB Atlas）
 - DeepSeek V4-Pro / V4-Flash（直连官方 API）
 - 普通异步后台任务（Route Handler 内 fire-and-forget，持久异步报告）
-- Auth.js、腾讯云对象存储 COS（可选）、腾讯云 EdgeOne Pages
+- Auth.js、EdgeOne Makers Blob 对象存储（可选）、腾讯云 EdgeOne Pages
 
 ## 本地运行
 
@@ -62,6 +62,24 @@ npm run db:seed
 
 来源链接字段约定：原始数据的 `originalUrl` 在导入时映射到案例来源对象的 `url` 字段（历史导入曾误取为空的 `s.url`，导致前台链接失效）；案例详情页的来源标题即为指向 `url` 的可点击超链接，新标签页打开。
 
+## 对象存储（EdgeOne Makers Blob）
+
+后台来源快照（网页正文 / 抓取原文）使用 EdgeOne Makers Blob 私有存储，取代收费的腾讯云 COS；免费版单账户 1GB。查看快照由服务端代理返回（天然私有），不生成短期签名 URL。
+
+配置（构建期或 `.env.local` 设置，Makers 运行时也可由平台自动注入）：
+
+```ini
+EO_BLOB_PROJECT_ID=makers-xxxxxxxxxxxx   # EdgeOne 项目 ID（Makers 项目形如 makers-xxxx）
+EO_BLOB_TOKEN=xxxxxxxx                   # 控制台 API Token Tab 创建（仅显示一次）
+EO_BLOB_STORE=aianliku                   # 存储桶名，默认 aianliku
+```
+
+连通性回归（读取 `.env.local` 的 `EO_BLOB_*` 变量，做 set/get/delete 闭环）：
+
+```bash
+npm run verify:blob
+```
+
 ## 部署（EdgeOne Pages）
 
 Next.js 全栈项目，已部署至腾讯云 EdgeOne Pages（全球 Production）。`next build` 为动态/按需渲染，构建期不依赖数据库；EdgeOne 构建时会自动注入项目环境变量（CloudBase、DeepSeek 等），运行期可直接访问数据库。如需公开访问，在 EdgeOne 控制台关闭该项目的预览鉴权/访问密码或绑定自定义域名。
@@ -78,7 +96,7 @@ npm run test:e2e
 
 ## 安全说明
 
-- `.env.local`、CloudBase 密钥、DeepSeek/COS 密钥不得提交到 Git。
+- `.env.local`、CloudBase 密钥、DeepSeek、EdgeOne Blob（EO_BLOB_TOKEN）密钥不得提交到 Git。
 - 所有后台写接口在服务端重新校验管理员会话。
 - 报告 URL 使用不可猜测 token，带 `noindex`，并提供数据删除入口。
 - Workflow 只接收随机 jobId；手机号、问诊原文和报告正文不进入任务事件日志。

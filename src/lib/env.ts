@@ -17,10 +17,9 @@ const schema = z.object({
   DEEPSEEK_API_KEY: z.string().min(1).optional(),
   AI_MODEL: z.string().default("deepseek-v4-pro"),
   AI_FAST_MODEL: z.string().default("deepseek-v4-flash"),
-  COS_SECRET_ID: z.string().optional(),
-  COS_SECRET_KEY: z.string().optional(),
-  COS_BUCKET: z.string().optional(),
-  COS_REGION: z.string().optional(),
+  EO_BLOB_PROJECT_ID: z.string().optional(),
+  EO_BLOB_TOKEN: z.string().optional(),
+  EO_BLOB_STORE: z.string().optional(),
   OPS_ALERT_WEBHOOK_URL: optionalUrl,
   OPS_ALERT_BEARER_TOKEN: z.string().optional(),
 });
@@ -46,10 +45,9 @@ export const env = schema.parse({
   DEEPSEEK_API_KEY: process.env.DEEPSEEK_API_KEY,
   AI_MODEL: process.env.AI_MODEL,
   AI_FAST_MODEL: process.env.AI_FAST_MODEL,
-  COS_SECRET_ID: process.env.COS_SECRET_ID,
-  COS_SECRET_KEY: process.env.COS_SECRET_KEY,
-  COS_BUCKET: process.env.COS_BUCKET,
-  COS_REGION: process.env.COS_REGION,
+  EO_BLOB_PROJECT_ID: process.env.EO_BLOB_PROJECT_ID,
+  EO_BLOB_TOKEN: process.env.EO_BLOB_TOKEN,
+  EO_BLOB_STORE: process.env.EO_BLOB_STORE,
   OPS_ALERT_WEBHOOK_URL: process.env.OPS_ALERT_WEBHOOK_URL,
   OPS_ALERT_BEARER_TOKEN: process.env.OPS_ALERT_BEARER_TOKEN,
 });
@@ -58,10 +56,7 @@ export const hasDb = Boolean(
   env.CLOUDBASE_ENV && env.CLOUDBASE_SECRET_ID && env.CLOUDBASE_SECRET_KEY,
 );
 export const hasAI = Boolean(env.DEEPSEEK_API_KEY);
-export const hasCos = Boolean(
-  env.COS_SECRET_ID &&
-  env.COS_SECRET_KEY &&
-  env.COS_BUCKET &&
-  env.COS_REGION,
+export const hasBlob = Boolean(
+  env.EO_BLOB_PROJECT_ID && env.EO_BLOB_TOKEN,
 );
 export const hasOpsAlerts = Boolean(env.OPS_ALERT_WEBHOOK_URL);

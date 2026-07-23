@@ -111,6 +111,7 @@ flowchart LR
 | V1.5 | 2026-07-20 | 数据库采用 MongoDB Atlas 免费版 M0 与 EdgeOne Pages 打通；恢复 Atlas Search / Vector Search 索引初始化（`db:setup` 改为 best-effort）；同步更新技术附录、实施验收记录与 README | Ling / AI 协作整理 |
 | V1.6 | 2026-07-20 | 放弃 MongoDB / MongoDB Atlas 与 mongodb 驱动，数据层全部重写为腾讯云 CloudBase 文档型数据库（@cloudbase/node-sdk）；新增薄适配层 `src/lib/db/cloudbase.ts` 以兼容原 repository 调用；关键词搜索改为跨字段正则匹配，向量检索暂不可用（相似推荐降级为同行业/同场景），事务改为顺序更新；同步更新技术附录、实施验收记录与 README | Ling / AI 协作整理 |
 | V1.7 | 2026-07-21 | 全量案例（285 条）已填充企业规模区间，无“未披露”残留；修复来源链接：导入时 `originalUrl` 映射到案例来源 `url` 字段，案例详情页来源标题改为可点击超链接跳转原文；梳理 `cases_json` → CloudBase 数据同步流程并以 `scripts/sync-*.mjs` 脚本落地；站点部署至腾讯云 EdgeOne Pages（Next.js 全栈，构建期自动注入环境变量） | Ling / AI 协作整理 |
+| V1.8 | 2026-07-23 | 来源快照对象存储由腾讯云 COS 替换为 EdgeOne Makers Blob（免费版单账户 1GB，去掉 COS 费用）；新增 `src/lib/storage/blob.ts`（@edgeone/pages-blob），移除 cos-nodejs-sdk-v5 依赖；环境变量 `COS_*` 改为 `EO_BLOB_*`，健康检测项同步更新；查看快照由“短期签名 URL 重定向”改为“服务端代理返回”，天然私有；隐私政策文案同步改为 EdgeOne Makers Blob；新增 `npm run verify:blob` 连通性回归并实测通过（projectId=makers-9pu6g4xrildy，set/get/delete 闭环正常） | Ling / AI 协作整理 |
 
 ## 9. 变更管理
 

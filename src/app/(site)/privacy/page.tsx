@@ -29,7 +29,7 @@ export default function PrivacyPage() {
           },
           {
             title: "第三方服务与数据位置",
-            text: "网站部署使用腾讯云 EdgeOne Pages，数据存储使用 MongoDB Atlas 和腾讯云对象存储 COS。不同服务的处理地区可能不同；正式运营前将根据实际部署完成数据流评估、必要告知和授权，无法满足要求时会阻止相关数据提交或改用合适服务。",
+            text: "网站部署使用腾讯云 EdgeOne Pages，数据存储使用 MongoDB Atlas 和 EdgeOne Makers Blob 对象存储。不同服务的处理地区可能不同；正式运营前将根据实际部署完成数据流评估、必要告知和授权，无法满足要求时会阻止相关数据提交或改用合适服务。",
           },
           {
             title: "报告通知与产品更新",

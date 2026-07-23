@@ -4,7 +4,7 @@ import { z } from "zod";
 import { getAdminSession } from "@/lib/auth/dal";
 import { writeAuditLog } from "@/lib/audit";
 import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
-import { deletePrivateObject, isCosConfigured, privateObjectUrl, uploadPrivateObject } from "@/lib/storage/cos";
+import { contentTypeFromKey, deletePrivateObject, getPrivateObject, isBlobConfigured, uploadPrivateObject } from "@/lib/storage/blob";
 
 const uploadSchema = z.object({ content: z.string().min(1).max(5_000_000), contentType: z.enum(["text/plain", "text/html", "application/json"]).default("text/plain") });
 
@@ -20,17 +20,24 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
   const id = (await params).id;
   const source = await sourceForAdmin(id);
   if (!source?.snapshotKey) return NextResponse.json({ error: "快照不存在" }, { status: 404 });
-  if (!isCosConfigured()) return NextResponse.json({ error: "COS 尚未配置" }, { status: 503 });
-  const url = await privateObjectUrl(String(source.snapshotKey), 300);
+  if (!isBlobConfigured()) return NextResponse.json({ error: "对象存储尚未配置" }, { status: 503 });
+  const obj = await getPrivateObject(String(source.snapshotKey));
+  if (!obj) return NextResponse.json({ error: "快照不存在" }, { status: 404 });
   await writeAuditLog({ actor: session.user?.email ?? "admin", action: "source.snapshot_access", entityType: "source", entityId: id, metadata: { expiresIn: 300 } });
-  return NextResponse.redirect(url);
+  return new NextResponse(obj.content, {
+    status: 200,
+    headers: {
+      "Content-Type": contentTypeFromKey(String(source.snapshotKey)),
+      "Cache-Control": "private, no-store",
+    },
+  });
 }
 
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const session = await getAdminSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   if (!isDbConfigured()) return NextResponse.json({ error: "CloudBase 尚未配置" }, { status: 503 });
-  if (!isCosConfigured()) return NextResponse.json({ error: "COS 尚未配置" }, { status: 503 });
+  if (!isBlobConfigured()) return NextResponse.json({ error: "对象存储尚未配置" }, { status: 503 });
   const parsed = uploadSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "快照内容无效或超过 5 MB" }, { status: 400 });
   const id = (await params).id;

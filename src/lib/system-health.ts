@@ -1,10 +1,10 @@
 import "server-only";
 
 import { getDb } from "@/lib/db/cloudbase";
-import { env, hasAI, hasDb, hasOpsAlerts, hasCos } from "@/lib/env";
+import { env, hasAI, hasDb, hasOpsAlerts, hasBlob } from "@/lib/env";
 
 export interface SystemHealthCheck {
-  id: "cloudbase" | "deepseek" | "cos" | "alerts";
+  id: "cloudbase" | "deepseek" | "blob" | "alerts";
   name: string;
   state: "ready" | "configured" | "missing" | "error";
   detail: string;
@@ -51,11 +51,11 @@ export async function getSystemHealth(): Promise<SystemHealthCheck[]> {
         : "未配置，完整报告任务不会接受提交",
     },
     {
-      id: "cos",
+      id: "blob",
       name: "来源快照",
-      state: hasCos ? "configured" : "missing",
-      detail: hasCos
-        ? `私有桶 ${env.COS_BUCKET}（${env.COS_REGION}）`
+      state: hasBlob ? "configured" : "missing",
+      detail: hasBlob
+        ? `EdgeOne Blob 存储（${env.EO_BLOB_STORE || "aianliku"}）`
         : "未配置，后台来源快照上传关闭",
     },
     {
