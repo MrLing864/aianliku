@@ -14,7 +14,7 @@ export function CaseCard({ caseStudy, featured = false }: { caseStudy: CaseStudy
           <ValueTierBadge tier={caseStudy.valueTier} />
         </div>
       )}
-      <Link href={`/cases/${caseStudy.slug}`} className="absolute inset-0 z-10 rounded-xl focus-ring" aria-label={`查看案例：${caseStudy.title}`} />
+      <Link href={`/cases/${caseStudy._id ?? caseStudy.slug}`} className="absolute inset-0 z-10 rounded-xl focus-ring" aria-label={`查看案例：${caseStudy.title}`} />
       <CardContent className="flex h-full flex-col p-5 sm:p-6">
         <div className="flex flex-wrap items-center gap-2"><OutcomeBadge status={caseStudy.outcomeStatus} /><ConfidenceBadge level={caseStudy.confidence} />{caseStudy.demo && <Badge variant="secondary">演示</Badge>}</div>
         <div className="mt-5 flex-1">

@@ -1,6 +1,5 @@
 import "server-only";
 
-import { verify } from "@node-rs/argon2";
 import { writeAuditLog } from "@/lib/audit";
 import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
 import { env } from "@/lib/env";
@@ -85,6 +84,7 @@ export async function verifyAdminCredentials(email: string, password: string) {
     return null;
   }
 
+  const { verify } = await import("@node-rs/argon2");
   if (!admin || !(await verify(admin.passwordHash, password))) { await registerFailedLogin(normalizedEmail); return null; }
   await clearLoginLimit(normalizedEmail);
   await writeAuditLog({ actor: admin.email, action: "admin.login", entityType: "admin_session", entityId: admin.id });

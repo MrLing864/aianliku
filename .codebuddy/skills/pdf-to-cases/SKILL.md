@@ -115,7 +115,7 @@ def mk(idx, org_name, org_type, industry_slug, scenario_slugs, business_function
                           "priority": priority, "text": f"...{implementer}落地{client_note}..."},
         "implementers": [{"name": implementer, "role": "技术提供方"}],
         "outcomeStatus": "success",                    # ⚠️ 必填枚举
-        "contentStatus": "published",
+        "contentStatus": "published",                  # ⚠️ 自动插入默认"已审核"，绝不要写 "draft"
         "confidence": "high",                          # ⚠️ 必填枚举
         "sources": [{"id": f"src-{slug}-0", "title": REPORT_TITLE, "publisher": REPORT_PUBLISHER,
                      "type": "institution",            # ⚠️ 合法 SourceType（institution/government/media/company），绝不写 "report"

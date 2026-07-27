@@ -16,12 +16,16 @@ const db = app.database();
 const coll = db.collection("cases");
 
 // 旧前缀 -> 规范前缀 的重定向映射
+// 注意：规范 slug 的序号为两位零填充（如 case-kefu-2024-01），旧报告 slug 的序号无前导零，
+// 必须补零后再拼接，否则 mergedIntoSlug 会指向不存在的 slug（如 case-kefu-2024-1）。
 function canonicalSlug(slug) {
   if (slug.startsWith("case-report-2024top30-")) {
-    return "case-top30-2024-" + slug.slice("case-report-2024top30-".length);
+    const n = slug.slice("case-report-2024top30-".length).padStart(2, "0");
+    return "case-top30-2024-" + n;
   }
   if (slug.startsWith("case-report-kefu-top10-2024-")) {
-    return "case-kefu-2024-" + slug.slice("case-report-kefu-top10-2024-".length);
+    const n = slug.slice("case-report-kefu-top10-2024-".length).padStart(2, "0");
+    return "case-kefu-2024-" + n;
   }
   return null;
 }

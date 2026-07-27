@@ -15,7 +15,8 @@
     "db:setup": "tsx --conditions=react-server scripts/setup-cloudbase.ts",
     "admin:hash": "tsx scripts/hash-password.ts",
     "ai:smoke": "tsx scripts/smoke-deepseek.ts",
-    "verify:blob": "node scripts/verify-blob.mjs"
+    "verify:blob": "node scripts/verify-blob.mjs",
+    "collect": "tsx collectors/run.ts"
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^2.0.50",

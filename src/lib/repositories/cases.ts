@@ -125,7 +125,7 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
 
   const sort: MongoSort = query.sort === "popular" ? { views: -1 } : query.sort === "latest" ? { publishedAt: -1 } : query.sort === "value" ? { valueScore: -1, views: -1 } : { featured: -1, views: -1, publishedAt: -1 };
   const [items, total] = await Promise.all([
-    collection.find(filter).sort(sort).skip((page - 1) * pageSize).limit(pageSize).project<CaseStudy>({ _id: 0, dedupVector: 0 }).toArray(),
+    collection.find(filter).sort(sort).skip((page - 1) * pageSize).limit(pageSize).project<CaseStudy>({ dedupVector: 0 }).toArray(),
     collection.countDocuments(filter),
   ]);
 
@@ -135,7 +135,7 @@ export async function listCases(query: CaseQuery = {}): Promise<PaginatedCases> 
 export const getCaseBySlug = cache(async (slug: string): Promise<CaseStudy | null> => {
   if (!isDbConfigured()) return demoCases.find((item) => item.slug === slug) ?? null;
   const db = await getDb();
-  return db.collection("cases").findOne({ slug, contentStatus: "published" }, { projection: { _id: 0, dedupVector: 0 } });
+  return db.collection("cases").findOne({ slug, contentStatus: "published" }, { projection: { dedupVector: 0 } });
 });
 
 export type CaseRouteResolution =
@@ -144,22 +144,45 @@ export type CaseRouteResolution =
   | { kind: "redirect"; targetSlug: string }
   | { kind: "missing" };
 
-export const resolveCaseRoute = cache(async (slug: string): Promise<CaseRouteResolution> => {
+/**
+ * 解析案例路由。identifier 优先按 CloudBase 自动生成的 _id（ASCII）匹配，
+ * 这样前台链接可用稳定的英文 id，避免中文 slug 在反向代理/路由层导致 404。
+ * 仍回退到 slug（兼容旧链接与 demo 数据）。
+ */
+export const resolveCaseRoute = cache(async (identifier: string): Promise<CaseRouteResolution> => {
   if (!isDbConfigured()) {
-    const item = demoCases.find((entry) => entry.slug === slug);
+    const item = demoCases.find((entry) => entry.id === identifier || entry.slug === identifier);
     return item ? { kind: "published", item } : { kind: "missing" };
   }
   try {
     const db = await getDb();
-    const item = await db.collection("cases").findOne(
-      { slug, contentStatus: { $in: ["published", "archived", "merged"] } },
-      { projection: { _id: 0, dedupVector: 0 } },
+    // 1) 优先按 _id 查询（保留 _id，供重定向使用）
+    let item = await db.collection("cases").findOne(
+      { _id: identifier, contentStatus: { $in: ["published", "archived", "merged"] } },
+      { projection: { dedupVector: 0 } },
     );
-    if (item?.contentStatus === "published") return { kind: "published", item };
-    if (item?.contentStatus === "archived") return { kind: "archived", item };
-    if (item?.contentStatus === "merged" && item.mergedIntoSlug) return { kind: "redirect", targetSlug: item.mergedIntoSlug };
-    const redirect = await db.collection("case_redirects").findOne({ fromSlug: slug }, { projection: { _id: 0, targetSlug: 1 } });
-    return redirect?.targetSlug ? { kind: "redirect", targetSlug: redirect.targetSlug } : { kind: "missing" };
+    // 2) 回退按 slug 查询（兼容历史/中文 slug 链接）
+    if (!item) {
+      item = await db.collection("cases").findOne(
+        { slug: identifier, contentStatus: { $in: ["published", "archived", "merged"] } },
+        { projection: { dedupVector: 0 } },
+      );
+    }
+    if (!item) {
+      const redirect = await db.collection("case_redirects").findOne({ fromSlug: identifier }, { projection: { _id: 0, targetSlug: 1 } });
+      if (redirect?.targetSlug) {
+        const target = await db.collection("cases").findOne({ slug: redirect.targetSlug, contentStatus: "published" }, { projection: { dedupVector: 0 } });
+        if (target) return { kind: "redirect", targetSlug: target._id ?? target.slug };
+      }
+      return { kind: "missing" };
+    }
+    if (item.contentStatus === "published") return { kind: "published", item };
+    if (item.contentStatus === "archived") return { kind: "archived", item };
+    if (item.contentStatus === "merged") {
+      const target = item.mergedIntoCaseId ?? item.mergedIntoSlug;
+      return target ? { kind: "redirect", targetSlug: target } : { kind: "missing" };
+    }
+    return { kind: "missing" };
   } catch {
     return { kind: "missing" };
   }
@@ -171,7 +194,8 @@ export async function getFeaturedCases(limit = 6) {
 
 export async function getRelatedCases(caseStudy: CaseStudy, limit = 3) {
   const result = await listCases({ industry: caseStudy.industry?.slug, scenario: caseStudy.scenarios?.[0]?.slug, sort: "popular", limit: limit + 1 });
-  return result.items.filter((item) => item.id !== caseStudy.id).slice(0, limit);
+  const key = caseStudy._id ?? caseStudy.id;
+  return result.items.filter((item) => (item._id ?? item.id) !== key).slice(0, limit);
 }
 
 export async function getPublicStats() {
@@ -205,9 +229,9 @@ export async function getPublicStats() {
 }
 
 export async function listCaseSitemapEntries(limit = 5_000) {
-  if (!isDbConfigured()) return demoCases.map(({ slug, updatedAt }) => ({ slug, updatedAt }));
+  if (!isDbConfigured()) return demoCases.map(({ id, updatedAt }) => ({ _id: id, updatedAt }));
   const db = await getDb();
-  return db.collection("cases").find({ contentStatus: "published" }).sort({ updatedAt: -1 }).limit(limit).project<{ slug: string; updatedAt: string }>({ _id: 0, slug: 1, updatedAt: 1 }).toArray();
+  return db.collection("cases").find({ contentStatus: "published" }).sort({ updatedAt: -1 }).limit(limit).project<{ _id: string; updatedAt: string }>({ _id: 1, updatedAt: 1 }).toArray();
 }
 
 export async function findVectorSimilarCases(_queryVector: number[], _limit = 30): Promise<Array<{ item: CaseStudy; score: number }>> {

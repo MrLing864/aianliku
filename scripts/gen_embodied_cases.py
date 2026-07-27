@@ -115,7 +115,7 @@ def make_case(idx, title, org_name, org_type, industry, scenarios, business_func
         "editorComment": editor,
         "implementers": implementers,
         "outcomeStatus": outcome_status,
-        "contentStatus": "draft",
+        "contentStatus": "published",
         "confidence": confidence,
         "sources": [WP_SOURCE],
         "featured": False,

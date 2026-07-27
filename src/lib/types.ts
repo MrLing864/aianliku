@@ -122,6 +122,8 @@ export interface SourceReportRef {
 }
 
 export interface CaseStudy {
+  /** CloudBase 自动生成的稳定标识（ASCII），前台路由优先使用它做跳转，避免中文 slug 导致的 404。 */
+  _id?: string;
   id: string;
   version: number;
   slug: string;
@@ -134,6 +136,8 @@ export interface CaseStudy {
     anonymous?: boolean;
     type?: "soe" | "private" | "foreign" | "sme";
   };
+  /** 被改造企业所在国家归属：国内 / 国外。基于 organization（被改造企业，非供应商/技术提供方）判定。 */
+  country?: "国内" | "国外";
   industry: Industry;
   scenarios: Scenario[];
   businessFunctions: string[];

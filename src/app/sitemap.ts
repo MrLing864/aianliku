@@ -15,7 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   try {
     const cases = await listCaseSitemapEntries();
     casePages = cases.map((item) => ({
-      url: `${base}/cases/${item.slug}`,
+      url: `${base}/cases/${item._id}`,
       lastModified: new Date(item.updatedAt),
       changeFrequency: "monthly" as const,
       priority: 0.8,

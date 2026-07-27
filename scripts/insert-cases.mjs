@@ -11,7 +11,7 @@ process.on("unhandledRejection", (r) => { appendFileSync(LOG, `REJECT ${r}\n`); 
 const envText = readFileSync(join(process.cwd(), ".env"), "utf-8");
 for (const line of envText.split("\n")) {
   const m = line.match(/^([A-Za-z_][\w]*)=(.*)$/);
-  if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim();
+  if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim().replace(/^['"]|['"]$/g, "");
 }
 appendFileSync(LOG, `env=${process.env.CLOUDBASE_ENV}\n`);
 
