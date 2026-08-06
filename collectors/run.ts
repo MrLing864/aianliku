@@ -156,9 +156,9 @@ async function run() {
   for (const c of aiCases) {
     try {
       await upsertCase(c);
-      console.log(`[db] 已入库: ${c.companyName} - ${c.title}`);
+      console.log(`[db] 已入库: ${c.organization?.name || "<未知>"} - ${c.title}`);
     } catch (err: any) {
-      console.error(`[db] 入库失败 ${c.companyName}:`, err.message || err);
+      console.error(`[db] 入库失败 ${c.organization?.name || "<未知>"}:`, err.message || err);
     }
   }
   console.log("[run] 数据库写入完成");
