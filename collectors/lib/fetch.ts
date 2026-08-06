@@ -16,8 +16,59 @@ export interface FetchResult {
   finalUrl: string;
 }
 
-function sleep(ms: number) {
+export function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+/**
+ * 轻量 robots.txt 合规检查：仅允许抓取未被目标站点 Disallow 的路径。
+ * 政府站一般允许抓取，这里做基础保护，避免过度请求被封禁。
+ * 出错（如无法获取 robots）时默认允许，保证采集不中断。
+ */
+const robotsCache = new Map<string, { disallow: string[]; at: number }>();
+async function fetchRobotsDisallow(host: string): Promise<string[]> {
+  const cached = robotsCache.get(host);
+  const now = Date.now();
+  if (cached && now - cached.at < 6 * 60 * 60 * 1000) return cached.disallow; // 6h 缓存
+  try {
+    const res = await fetch(`https://${host}/robots.txt`, { signal: AbortSignal.timeout(8000) });
+    if (!res.ok) {
+      robotsCache.set(host, { disallow: [], at: now });
+      return [];
+    }
+    const text = await res.text();
+    const lines = text.split(/\r?\n/);
+    const disallow: string[] = [];
+    let active = true;
+    for (const raw of lines) {
+      const line = raw.trim();
+      if (/^user-agent:/i.test(line)) {
+        active = /.*\*|.*bot|.*spider|.*crawl/i.test(line.split(":")[1] || "");
+        continue;
+      }
+      if (/^disallow:/i.test(line) && active) {
+        const p = (line.split(":").slice(1).join(":") || "").trim();
+        if (p && p !== "/") disallow.push(p);
+      }
+    }
+    robotsCache.set(host, { disallow, at: now });
+    return disallow;
+  } catch {
+    robotsCache.set(host, { disallow: [], at: now });
+    return [];
+  }
+}
+
+/** 判断某 URL 是否被目标站 robots.txt 禁止抓取。 */
+export async function canFetch(url: string): Promise<boolean> {
+  try {
+    const u = new URL(url);
+    const disallow = await fetchRobotsDisallow(u.host);
+    const path = u.pathname + u.search;
+    return !disallow.some((p) => path.startsWith(p));
+  } catch {
+    return true;
+  }
 }
 
 /** 把 HTML 剥离为纯文本，并截断到模型可接受的上下文长度。 */

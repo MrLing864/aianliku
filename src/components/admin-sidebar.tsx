@@ -15,6 +15,7 @@ import {
   Import,
   LogOut,
   MessageSquareWarning,
+  Radio,
   ScrollText,
   Settings2,
   Tags,
@@ -35,6 +36,7 @@ const nav = [
   { href: "/admin/corrections", label: "内容更正", icon: MessageSquareWarning },
   { href: "/admin/taxonomies", label: "分类词表", icon: Tags },
   { href: "/admin/analytics", label: "SEO 与数据", icon: BarChart3 },
+  { href: "/admin/collectors", label: "采集监控", icon: Radio },
   { href: "/admin/audit", label: "操作日志", icon: ScrollText },
   { href: "/admin/settings", label: "系统设置", icon: Settings2 },
 ];

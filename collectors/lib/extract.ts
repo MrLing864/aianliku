@@ -172,6 +172,7 @@ const extractedCaseSchema = z.object({
   tags: z.array(z.string()).describe("标签，最多12条"),
   confidence: z.string().describe("信息完整度与可信度：high / medium / pending"),
   outcomeStatus: z.string().describe("项目结果：success / partial / failure / undisclosed"),
+  implementedAt: z.string().describe("项目实施年份（项目实际落地的年份，可能与发布年份不同）。若来源只给了一个年份且无明确实施时间，填空字符串，禁止编造。例如 '2024' 或 ''。"),
 });
 
 export type ExtractedCase = z.infer<typeof extractedCaseSchema>;

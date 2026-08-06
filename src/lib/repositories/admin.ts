@@ -425,3 +425,172 @@ export async function getAnalyticsSummary(): Promise<{
     topCases,
   };
 }
+
+/* ------------------------------------------------------------------ */
+/* 采集运行监控（collector_runs）                                       */
+/* ------------------------------------------------------------------ */
+
+export type CollectorCategory =
+  | "internet_giant"
+  | "government"
+  | "university"
+  | "famous_company";
+
+export interface CollectorRunRecord {
+  runId: string;
+  category: CollectorCategory;
+  categoryName: string;
+  source: string;
+  sourceName: string;
+  scheduledBy: "cron" | "manual";
+  triggeredAt: Date;
+  finishedAt?: Date;
+  status: "running" | "success" | "partial" | "failed";
+  counts: {
+    candidates: number;
+    aiCases: number;
+    success: number;
+    created: number;
+    updated: number;
+    failed: number;
+    skipped: number;
+  };
+  errorMessage?: string;
+}
+
+export interface CollectorDailyRow {
+  date: string; // YYYY-MM-DD
+  category: CollectorCategory;
+  categoryName: string;
+  success: number;
+  failed: number;
+  dedup: number; // 去重（更新）数
+  runs: number; // 当日该分类运行次数
+}
+
+export interface CollectorDailyResult {
+  rangeDays: number;
+  byDateCategory: CollectorDailyRow[];
+  byCategory: Array<{
+    category: CollectorCategory;
+    categoryName: string;
+    success: number;
+    failed: number;
+    dedup: number;
+    runs: number;
+  }>;
+}
+
+const ALL_CATEGORY_NAMES: Record<CollectorCategory, string> = {
+  internet_giant: "互联网大厂",
+  government: "政府机关",
+  university: "高等院校",
+  famous_company: "知名企业",
+};
+
+function ymd(d: Date): string {
+  const y = d.getFullYear();
+  const m = `${d.getMonth() + 1}`.padStart(2, "0");
+  const day = `${d.getDate()}`.padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+/** 列出采集运行明细（按触发时间倒序），可按分类/触发方式过滤 */
+export async function listCollectorRuns(params?: {
+  category?: CollectorCategory;
+  scheduledBy?: "cron" | "manual";
+  limit?: number;
+}): Promise<CollectorRunRecord[]> {
+  if (!isDbConfigured()) return [];
+  const db = await getDb();
+  const filter: Record<string, unknown> = {};
+  if (params?.category) filter.category = params.category;
+  if (params?.scheduledBy) filter.scheduledBy = params.scheduledBy;
+  return db
+    .collection<CollectorRunRecord>("collector_runs")
+    .find(filter)
+    .sort({ triggeredAt: -1 })
+    .limit(params?.limit ?? 200)
+    .toArray();
+}
+
+/**
+ * 按天 × 分类聚合采集运行统计。
+ * 返回两种视图：byDateCategory（按天明细）、byCategory（分类汇总，对齐“每天都是哪些定时器在更新”）。
+ */
+export async function getCollectorRunDaily(days = 7): Promise<CollectorDailyResult> {
+  if (!isDbConfigured())
+    return { rangeDays: days, byDateCategory: [], byCategory: [] };
+  const db = await getDb();
+  const since = new Date(Date.now() - days * 86_400_000);
+
+  const rows = await db
+    .collection<CollectorRunRecord>("collector_runs")
+    .aggregate<{
+      _id: { date: string; category: CollectorCategory };
+      categoryName: string;
+      success: number;
+      failed: number;
+      dedup: number;
+      runs: number;
+    }>([
+      { $match: { triggeredAt: { $gte: since } } },
+      {
+        $project: {
+          date: {
+            $dateToString: { format: "%Y-%m-%d", date: "$triggeredAt" },
+          },
+          category: 1,
+          categoryName: 1,
+          success: { $ifNull: ["$counts.success", 0] },
+          failed: { $ifNull: ["$counts.failed", 0] },
+          dedup: { $ifNull: ["$counts.updated", 0] },
+        },
+      },
+      {
+        $group: {
+          _id: { date: "$date", category: "$category" },
+          categoryName: { $first: "$categoryName" },
+          success: { $sum: "$success" },
+          failed: { $sum: "$failed" },
+          dedup: { $sum: "$dedup" },
+          runs: { $sum: 1 },
+        },
+      },
+      { $sort: { "_id.date": -1, "_id.category": 1 } },
+    ])
+    .toArray();
+
+  const byDateCategory: CollectorDailyRow[] = rows.map((r) => ({
+    date: r._id.date,
+    category: r._id.category,
+    categoryName: r.categoryName || ALL_CATEGORY_NAMES[r._id.category] || r._id.category,
+    success: r.success,
+    failed: r.failed,
+    dedup: r.dedup,
+    runs: r.runs,
+  }));
+
+  // 分类汇总（跨所选日期范围累计）
+  const catMap = new Map<CollectorCategory, CollectorDailyResult["byCategory"][number]>();
+  for (const r of byDateCategory) {
+    const cur =
+      catMap.get(r.category) ||
+      {
+        category: r.category,
+        categoryName: r.categoryName,
+        success: 0,
+        failed: 0,
+        dedup: 0,
+        runs: 0,
+      };
+    cur.success += r.success;
+    cur.failed += r.failed;
+    cur.dedup += r.dedup;
+    cur.runs += r.runs;
+    catMap.set(r.category, cur);
+  }
+  const byCategory = Array.from(catMap.values());
+
+  return { rangeDays: days, byDateCategory, byCategory };
+}

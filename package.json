@@ -16,7 +16,8 @@
     "admin:hash": "tsx scripts/hash-password.ts",
     "ai:smoke": "tsx scripts/smoke-deepseek.ts",
     "verify:blob": "node scripts/verify-blob.mjs",
-    "collect": "tsx collectors/run.ts"
+    "collect": "tsx collectors/run.ts",
+    "collect:gov": "tsx collectors/government/run.ts"
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^2.0.50",

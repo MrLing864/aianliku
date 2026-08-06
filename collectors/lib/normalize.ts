@@ -76,10 +76,15 @@ export interface CaseStudy {
   featured: boolean;
   views: number;
   publishedAt: string;
+  implementedAt: string;
   updatedAt: string;
   tags: string[];
   techPath: string[];
   modelStack: string[];
+  /** 去重指纹：标题归一化 + 来源域名 + 发布年份，用于幂等入库 */
+  dedupKey: string;
+  /** 数据来源类型：vendor（厂商）/ government（政府机关）/ university（高等院校）/ company（企业） */
+  sourceType?: "vendor" | "government" | "university" | "company";
 }
 
 function slugify(text: string) {
@@ -89,6 +94,30 @@ function slugify(text: string) {
     .trim()
     .replace(/[\s]+/g, "-")
     .slice(0, 80);
+}
+
+/** 标题归一化：去空白、转小写、去除年份/噪声词，用于去重比对。 */
+export function normalizeTitle(title: string): string {
+  return (title || "")
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace(/[^\w\u4e00-\u9fa5]/g, "")
+    .replace(/(20[12]\d年?)/g, "")
+    .replace(/(典型案例|应用案例|优秀案例|人工智能|ai|\d+个)/gi, "")
+    .trim();
+}
+
+/** 生成去重指纹：归一化标题 + 来源域名 + 发布年份。 */
+export function buildDedupKey(title: string, sourceUrl: string, publishedYear?: string): string {
+  const t = normalizeTitle(title);
+  let host = "";
+  try {
+    host = new URL(sourceUrl).hostname.replace(/^www\./, "");
+  } catch {
+    host = "";
+  }
+  const year = publishedYear || "";
+  return `${t}__${host}__${year}`;
 }
 
 export function normalizeCase(raw: RawListItem, extracted: ExtractedCase, vendorName = "腾讯云"): CaseStudy {
@@ -149,9 +178,12 @@ export function normalizeCase(raw: RawListItem, extracted: ExtractedCase, vendor
     featured: false,
     views: 0,
     publishedAt: now,
+    implementedAt: extracted.implementedAt || "",
     updatedAt: now,
     tags: Array.from(new Set([...(extracted.tags || []), vendorName, raw.rawIndustry || ""])),
     techPath: extracted.techPath || [],
     modelStack: extracted.modelStack || [],
+    dedupKey: buildDedupKey(title, raw.sourceUrl, new Date(now).getFullYear().toString()),
+    sourceType: "vendor",
   };
 }

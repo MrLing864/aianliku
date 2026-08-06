@@ -5,6 +5,7 @@ import { discoverAliyunListItems, extractAliyunDetailText, extractAliyunMeta } f
 import { vendors } from "./vendors";
 import { writeFileSync, mkdirSync } from "fs";
 import { dirname } from "path";
+import { startRun, type RunLogSession } from "./lib/runlog";
 
 function parseArgs() {
   const args = process.argv.slice(2);
@@ -15,6 +16,9 @@ function parseArgs() {
   const writeDb = args.includes("--write-db");
   return { vendor, limit, dryRun, out, writeDb };
 }
+
+// 顶层 session 作用域，便于 run().catch 在崩溃时也能标记失败
+let runSession: RunLogSession | null = null;
 
 async function run() {
   const { vendor: vendorId, limit, dryRun, out, writeDb } = parseArgs();
@@ -27,6 +31,10 @@ async function run() {
     console.log(`vendor ${vendorId} 已禁用: ${vendor.note}`);
     return;
   }
+
+  // 开启运行记录（定时器触发）
+  runSession = startRun("internet_giant", vendor.id, vendor.name, "cron");
+  runSession.set({ candidates: 0 });
 
   console.log(`[run] 开始采集 ${vendor.name} (${vendor.listUrl})`);
   const listRes = await fetchHtml(vendor.listUrl);
@@ -64,10 +72,13 @@ async function run() {
 
   if (rawItems.length === 0) {
     console.log("[run] 未发现案例链接");
+    runSession?.set({ candidates: 0 });
+    await runSession?.finish("success");
     return;
   }
 
   console.log(`[run] 发现 ${rawItems.length} 个候选案例`);
+  runSession?.set({ candidates: rawItems.length });
 
   const limitedItems = limit ? rawItems.slice(0, limit) : rawItems;
 
@@ -125,6 +136,9 @@ async function run() {
 
   console.log(`\n[run] 完成：候选 ${limitedItems.length}，AI 案例 ${aiCases.length}，跳过 ${skipped.length}，错误 ${errors.length}`);
 
+  // 记录汇总计数（处理阶段）
+  runSession?.inc({ aiCases: aiCases.length, skipped: skipped.length, failed: errors.length });
+
   if (out) {
     const payload = {
       meta: {
@@ -153,18 +167,25 @@ async function run() {
 
   // Write to CloudBase
   const { upsertCase } = await import("./lib/cloudbase");
+  let created = 0;
+  let updated = 0;
   for (const c of aiCases) {
     try {
-      await upsertCase(c);
+      const r = await upsertCase(c);
+      if (r.created) created++;
+      else updated++;
       console.log(`[db] 已入库: ${c.organization?.name || "<未知>"} - ${c.title}`);
     } catch (err: any) {
       console.error(`[db] 入库失败 ${c.organization?.name || "<未知>"}:`, err.message || err);
     }
   }
-  console.log("[run] 数据库写入完成");
+  console.log(`[run] 数据库写入完成：新建 ${created}，更新（去重）${updated}`);
+  runSession?.inc({ created, updated });
+  await runSession?.finish();
 }
 
 run().catch((err) => {
   console.error(err);
-  process.exit(1);
+  // 崩溃也标记失败，保证后台可见
+  runSession?.fail(err).finally(() => process.exit(1));
 });

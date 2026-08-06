@@ -52,6 +52,12 @@ scripts/insert-run.log
 # local reports (large pdf assets, not part of app deploy)
 /report
 
+# playwright-cli local cache/logs
+/.playwright-cli/
+
+# script run logs
+/scripts/logs/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
