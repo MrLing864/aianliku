@@ -228,35 +228,43 @@ export async function listOrganizations(
 ): Promise<AdminOrganizationSummary[]> {
   if (!isDbConfigured()) return [];
   const db = await getDb();
-  return db
+  // CloudBase 文档数据库不支持 MongoDB 式的 $group 累加器（$first/$sum/$addToSet/$max），
+  // 改为拉取后在内存聚合（数据量可控）。
+  const cases = await db
     .collection<CaseStudy>("cases")
-    .aggregate<AdminOrganizationSummary>([
-      { $match: { contentStatus: { $ne: "deleted" } } },
-      {
-        $group: {
-          _id: "$organization.id",
-          name: { $first: "$organization.name" },
-          size: { $first: "$organization.size" },
-          caseCount: { $sum: 1 },
-          industries: { $addToSet: "$industry.displayName" },
-          latestUpdatedAt: { $max: "$updatedAt" },
-        },
-      },
-      { $sort: { caseCount: -1, latestUpdatedAt: -1 } },
-      { $limit: limit },
-      {
-        $project: {
-          _id: 0,
-          id: "$_id",
-          name: 1,
-          size: 1,
-          caseCount: 1,
-          industries: 1,
-          latestUpdatedAt: 1,
-        },
-      },
-    ])
+    .find({ contentStatus: { $ne: "deleted" } })
+    .limit(2000)
     .toArray();
+  const map = new Map<string, AdminOrganizationSummary>();
+  for (const c of cases) {
+    const org = c.organization ?? ({} as CaseStudy["organization"]);
+    const id = org.id || "unknown";
+    let entry = map.get(id);
+    if (!entry) {
+      entry = {
+        id,
+        name: org.name || "未命名主体",
+        size: org.size ?? "",
+        caseCount: 0,
+        industries: [],
+        latestUpdatedAt: "",
+      };
+      map.set(id, entry);
+    }
+    entry.caseCount += 1;
+    const ind = c.industry?.displayName;
+    if (ind && !entry.industries.includes(ind)) entry.industries.push(ind);
+    if (c.updatedAt && String(c.updatedAt) > entry.latestUpdatedAt) {
+      entry.latestUpdatedAt = String(c.updatedAt);
+    }
+  }
+  return Array.from(map.values())
+    .sort(
+      (a, b) =>
+        b.caseCount - a.caseCount ||
+        (b.latestUpdatedAt > a.latestUpdatedAt ? 1 : -1),
+    )
+    .slice(0, limit);
 }
 
 export interface AdminImplementerSummary {
@@ -268,22 +276,23 @@ export async function listImplementers(
 ): Promise<AdminImplementerSummary[]> {
   if (!isDbConfigured()) return [];
   const db = await getDb();
-  return db
+  // CloudBase 不支持 $unwind + $group 累加器，改为内存聚合。
+  const cases = await db
     .collection<CaseStudy>("cases")
-    .aggregate<AdminImplementerSummary>([
-      {
-        $match: {
-          contentStatus: { $ne: "deleted" },
-          "implementers.0": { $exists: true },
-        },
-      },
-      { $unwind: "$implementers" },
-      { $group: { _id: "$implementers.name", caseCount: { $sum: 1 } } },
-      { $sort: { caseCount: -1 } },
-      { $limit: limit },
-      { $project: { _id: 0, name: "$_id", caseCount: 1 } },
-    ])
+    .find({ contentStatus: { $ne: "deleted" } })
+    .limit(2000)
     .toArray();
+  const map = new Map<string, number>();
+  for (const c of cases) {
+    for (const impl of c.implementers ?? []) {
+      if (!impl?.name) continue;
+      map.set(impl.name, (map.get(impl.name) ?? 0) + 1);
+    }
+  }
+  return Array.from(map.entries())
+    .map(([name, caseCount]) => ({ name, caseCount }))
+    .sort((a, b) => b.caseCount - a.caseCount)
+    .slice(0, limit);
 }
 
 export interface AdminContactRequest {
@@ -424,22 +433,28 @@ export async function getAnalyticsSummary(): Promise<{
       source: "server",
       occurredAt: { $gte: thirtyDaysAgo },
     }),
-    events
-      .aggregate<{ caseId: string; readers: number }>([
-        {
-          $match: {
-            name: "qualified_case_reader",
-            occurredAt: { $gte: thirtyDaysAgo },
-            caseId: { $type: "string" },
-          },
-        },
-        { $group: { _id: "$caseId", readers: { $sum: 1 } } },
-        { $sort: { readers: -1 } },
-        { $limit: 10 },
-        { $project: { _id: 0, caseId: "$_id", readers: 1 } },
-      ])
-      .toArray(),
   ]);
+  // topCases：CloudBase 不支持 $group + $sum，改为拉取后在内存聚合
+  const topRows = await events
+    .find({
+      name: "qualified_case_reader",
+      occurredAt: { $gte: thirtyDaysAgo },
+    })
+    .limit(2000)
+    .toArray();
+  const topMap = new Map<string, number>();
+  for (const e of topRows) {
+    if (
+      typeof e.caseId === "string" &&
+      new Date(e.occurredAt).getTime() >= thirtyDaysAgo.getTime()
+    ) {
+      topMap.set(e.caseId, (topMap.get(e.caseId) ?? 0) + 1);
+    }
+  }
+  const topCases = Array.from(topMap.entries())
+    .map(([caseId, readers]) => ({ caseId, readers }))
+    .sort((a, b) => b.readers - a.readers)
+    .slice(0, 10);
   return {
     qualified7d,
     qualified30d,
