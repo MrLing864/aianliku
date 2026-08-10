@@ -19,6 +19,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="baidu-site-verification" content="codeva-KRV86X3w7R" />
         <JsonLd data={organizationJsonLd()} />
         <JsonLd data={websiteJsonLd()} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `var _hmt = _hmt || [];\n(function() {\n  var hm = document.createElement("script");\n  hm.src = "https://hm.baidu.com/hm.js?c35ac4db1bc0b6de494c1e6c353f0ca4";\n  var s = document.getElementsByTagName("script")[0];\n  s.parentNode.insertBefore(hm, s);\n})();`,
+          }}
+        />
       </head>
       <body className="min-h-screen">
         <TooltipProvider>{children}</TooltipProvider>

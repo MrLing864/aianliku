@@ -397,7 +397,6 @@ export async function getAnalyticsSummary(): Promise<{
     zeroSearches30d,
     assessments30d,
     appointments30d,
-    topCases,
   ] = await Promise.all([
     events.countDocuments({
       name: "qualified_case_reader",
