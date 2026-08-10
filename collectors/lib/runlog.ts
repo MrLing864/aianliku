@@ -129,11 +129,13 @@ export function startRun(
 
   const writeUpdate = async (extra: Record<string, any>) => {
     if (!docId) return;
+    // 注意：CloudBase 的 doc().update({ data: {...} }) 在本项目环境下会把负载
+    // 原样写成一个名为 data 的嵌套字段（导致 counts/status 落在 data.counts、
+    // data.status 下，后台读取顶层字段时全是 undefined，页面直接崩）。
+    // 这里改用 set() 覆盖写入完整文档，确保字段稳定落在顶层。
+    const fullDoc = { ...baseDoc, ...extra, counts: { ...counters } };
     try {
-      await db
-        .collection("collector_runs")
-        .doc(docId)
-        .update({ data: { ...extra, counts: { ...counters } } });
+      await db.collection("collector_runs").doc(docId).set(fullDoc);
     } catch (err: any) {
       console.warn("[runlog] 更新记录失败:", err.message || err);
     }

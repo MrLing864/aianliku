@@ -22,6 +22,8 @@ const schema = z.object({
   EO_BLOB_STORE: z.string().optional(),
   OPS_ALERT_WEBHOOK_URL: optionalUrl,
   OPS_ALERT_BEARER_TOKEN: z.string().optional(),
+  INTERNAL_API_KEY: z.string().min(1).optional(),
+  DEDUP_V2_MODE: z.enum(["observe", "enforce"]).default("observe"),
 });
 
 // 保底密钥：仅在部署环境未注入 AUTH_SECRET 时启用，避免 Auth.js 抛 MissingSecret
@@ -50,6 +52,8 @@ export const env = schema.parse({
   EO_BLOB_STORE: process.env.EO_BLOB_STORE,
   OPS_ALERT_WEBHOOK_URL: process.env.OPS_ALERT_WEBHOOK_URL,
   OPS_ALERT_BEARER_TOKEN: process.env.OPS_ALERT_BEARER_TOKEN,
+  INTERNAL_API_KEY: process.env.INTERNAL_API_KEY,
+  DEDUP_V2_MODE: process.env.DEDUP_V2_MODE,
 });
 
 export const hasDb = Boolean(

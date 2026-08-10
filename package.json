@@ -2,6 +2,9 @@
   "name": "aianliku",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,7 +20,9 @@
     "ai:smoke": "tsx scripts/smoke-deepseek.ts",
     "verify:blob": "node scripts/verify-blob.mjs",
     "collect": "tsx collectors/run.ts",
-    "collect:gov": "tsx collectors/government/run.ts"
+    "collect:gov": "tsx collectors/government/run.ts",
+    "db:indexes": "node scripts/init-indexes.mjs",
+    "db:migrate-dedup": "tsx --conditions=react-server scripts/migrate-dedup-v2.mjs"
   },
   "dependencies": {
     "@ai-sdk/deepseek": "^2.0.50",

@@ -94,7 +94,7 @@ async function run() {
     // dry-run 也走预查，便于在后台看到"今日新增"真实增量；仅当明确要写库或试跑时查库。
     const urls = limited.map((c) => c.url).filter(Boolean);
     const existing = await existingSourceUrls(urls);
-    toEnrich = limited.filter((c) => !existing.has(c.url));
+    toEnrich = limited.filter((c) => !existing.has(normalizeSourceUrl(c.url)));
     prededupSkipped = limited.length - toEnrich.length;
     console.log(`[company] URL 预去重：候选 ${limited.length}，已存在 ${prededupSkipped}，待 LLM 抽取 ${toEnrich.length}`);
   }

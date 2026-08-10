@@ -111,13 +111,38 @@ export async function listDuplicateCandidates(
 ): Promise<DuplicateCandidate[]> {
   if (!isDbConfigured()) return [];
   const db = await getDb();
-  return db
-    .collection<DuplicateCandidate>("duplicate_candidates")
+  const rows = await db
+    .collection<Partial<DuplicateCandidate> & Pick<DuplicateCandidate, "id" | "incomingTitle" | "incomingOrganization" | "existingCaseId" | "existingCaseTitle" | "status" | "createdAt">>("duplicate_candidates")
     .find({ status: "pending" })
-    .sort({ "scores.overall": -1 })
+    .sort({ createdAt: -1 })
     .limit(limit)
-    .project<DuplicateCandidate>({ _id: 0 })
+    .project({ _id: 0 })
     .toArray();
+  return rows
+    .map((row): DuplicateCandidate => {
+      const overall = row.scores?.overall ?? row.overallScore ?? row.ruleScore ?? 0;
+      return {
+        ...row,
+        id: row.id,
+        incomingTitle: row.incomingTitle,
+        incomingOrganization: row.incomingOrganization,
+        existingCaseId: row.existingCaseId,
+        existingCaseTitle: row.existingCaseTitle,
+        status: row.status,
+        createdAt: row.createdAt,
+        scores: row.scores || {
+          organization: row.relationship === "different_project" ? 0 : 1,
+          semantic: row.ruleScore ?? 0,
+          scenario: 0,
+          function: 0,
+          time: 0,
+          implementer: row.modelScore ?? 0,
+          metrics: row.verificationScore ?? 0,
+          overall,
+        },
+      };
+    })
+    .sort((left, right) => right.scores.overall - left.scores.overall);
 }
 
 export type AdminAssessmentJob = Pick<
@@ -495,6 +520,67 @@ function ymd(d: Date): string {
   return `${y}-${m}-${day}`;
 }
 
+const EMPTY_RUN_COUNTS: CollectorRunRecord["counts"] = {
+  candidates: 0,
+  aiCases: 0,
+  success: 0,
+  created: 0,
+  updated: 0,
+  failed: 0,
+  skipped: 0,
+};
+
+/**
+ * 归一化一条 collector_runs 记录。
+ *
+ * 历史数据存在两种形态：
+ *  1. 正常形态：counts / status / finishedAt 在文档顶层；
+ *  2. 异常形态：因写入侧曾使用 doc().update({ data: {...} })，实际把负载写成了
+ *     名为 `data` 的嵌套字段，导致顶层 counts 缺失、status 永远停留在 "running"。
+ *
+ * 后台页面会直接读取 r.counts.candidates 等字段，一旦 counts 为 undefined 就会
+ * 抛 TypeError 导致整页 500。这里统一兜底，保证任何脏数据都能安全渲染。
+ */
+function normalizeRunRecord(raw: Record<string, unknown>): CollectorRunRecord {
+  const nested = (raw.data && typeof raw.data === "object" ? raw.data : {}) as Record<string, unknown>;
+
+  const rawCounts = (raw.counts ?? nested.counts) as Partial<CollectorRunRecord["counts"]> | undefined;
+  const counts: CollectorRunRecord["counts"] = { ...EMPTY_RUN_COUNTS };
+  if (rawCounts && typeof rawCounts === "object") {
+    for (const key of Object.keys(EMPTY_RUN_COUNTS) as (keyof CollectorRunRecord["counts"])[]) {
+      const v = rawCounts[key];
+      if (typeof v === "number" && Number.isFinite(v)) counts[key] = v;
+    }
+  }
+  // 兼容旧口径：success 曾被写成 0，而实际成功数 = created + updated
+  if (counts.success === 0 && counts.created + counts.updated > 0) {
+    counts.success = counts.created + counts.updated;
+  }
+
+  // 最终状态优先取嵌套里的真实结果，顶层的 "running" 往往是未被覆盖的初始值
+  const status = (nested.status ?? raw.status ?? "running") as CollectorRunRecord["status"];
+  const finishedAt = (raw.finishedAt ?? nested.finishedAt) as Date | undefined;
+  const errorMessage = (raw.errorMessage ?? nested.errorMessage) as string | undefined;
+
+  return {
+    runId: (raw.runId as string) ?? (raw._id as string) ?? "",
+    category: raw.category as CollectorCategory,
+    categoryName:
+      (raw.categoryName as string) ||
+      ALL_CATEGORY_NAMES[raw.category as CollectorCategory] ||
+      (raw.category as string) ||
+      "未知",
+    source: (raw.source as string) ?? "",
+    sourceName: (raw.sourceName as string) || (raw.source as string) || "未知来源",
+    scheduledBy: (raw.scheduledBy as "cron" | "manual") ?? "cron",
+    triggeredAt: raw.triggeredAt as Date,
+    finishedAt,
+    status,
+    counts,
+    errorMessage,
+  };
+}
+
 /** 列出采集运行明细（按触发时间倒序），可按分类/触发方式过滤 */
 export async function listCollectorRuns(params?: {
   category?: CollectorCategory;
@@ -506,12 +592,13 @@ export async function listCollectorRuns(params?: {
   const filter: Record<string, unknown> = {};
   if (params?.category) filter.category = params.category;
   if (params?.scheduledBy) filter.scheduledBy = params.scheduledBy;
-  return db
+  const rows = await db
     .collection<CollectorRunRecord>("collector_runs")
     .find(filter)
     .sort({ triggeredAt: -1 })
     .limit(params?.limit ?? 200)
     .toArray();
+  return (rows as unknown as Record<string, unknown>[]).map(normalizeRunRecord);
 }
 
 /**
@@ -521,55 +608,42 @@ export async function listCollectorRuns(params?: {
 export async function getCollectorRunDaily(days = 7): Promise<CollectorDailyResult> {
   if (!isDbConfigured())
     return { rangeDays: days, byDateCategory: [], byCategory: [] };
-  const db = await getDb();
   const since = new Date(Date.now() - days * 86_400_000);
 
-  const rows = await db
-    .collection<CollectorRunRecord>("collector_runs")
-    .aggregate<{
-      _id: { date: string; category: CollectorCategory };
-      categoryName: string;
-      success: number;
-      failed: number;
-      dedup: number;
-      runs: number;
-    }>([
-      { $match: { triggeredAt: { $gte: since } } },
-      {
-        $project: {
-          date: {
-            $dateToString: { format: "%Y-%m-%d", date: "$triggeredAt" },
-          },
-          category: 1,
-          categoryName: 1,
-          success: { $ifNull: ["$counts.success", 0] },
-          failed: { $ifNull: ["$counts.failed", 0] },
-          dedup: { $ifNull: ["$counts.updated", 0] },
-        },
-      },
-      {
-        $group: {
-          _id: { date: "$date", category: "$category" },
-          categoryName: { $first: "$categoryName" },
-          success: { $sum: "$success" },
-          failed: { $sum: "$failed" },
-          dedup: { $sum: "$dedup" },
-          runs: { $sum: 1 },
-        },
-      },
-      { $sort: { "_id.date": -1, "_id.category": 1 } },
-    ])
-    .toArray();
+  // 说明：这里刻意不使用数据库聚合（$dateToString / $ifNull）。
+  // 因为历史记录中 counts 可能嵌套在 data.counts 下，聚合表达式取 $counts.success
+  // 会一律得到 0，统计结果失真。改为取回记录后用 normalizeRunRecord 统一归一化，
+  // 再在内存中按天 × 分类聚合，数据量（数百条/月）完全可以承受。
+  const runs = await listCollectorRuns({ limit: 2000 });
 
-  const byDateCategory: CollectorDailyRow[] = rows.map((r) => ({
-    date: r._id.date,
-    category: r._id.category,
-    categoryName: r.categoryName || ALL_CATEGORY_NAMES[r._id.category] || r._id.category,
-    success: r.success,
-    failed: r.failed,
-    dedup: r.dedup,
-    runs: r.runs,
-  }));
+  const bucket = new Map<string, CollectorDailyRow>();
+  for (const r of runs) {
+    const t = r.triggeredAt ? new Date(r.triggeredAt) : null;
+    if (!t || Number.isNaN(t.getTime()) || t < since) continue;
+    const date = ymd(t);
+    const key = `${date}__${r.category}`;
+    const cur =
+      bucket.get(key) ||
+      {
+        date,
+        category: r.category,
+        categoryName: r.categoryName,
+        success: 0,
+        failed: 0,
+        dedup: 0,
+        runs: 0,
+      };
+    cur.success += r.counts.success;
+    cur.failed += r.counts.failed;
+    cur.dedup += r.counts.updated;
+    cur.runs += 1;
+    bucket.set(key, cur);
+  }
+
+  const byDateCategory: CollectorDailyRow[] = Array.from(bucket.values()).sort((a, b) => {
+    if (a.date !== b.date) return a.date < b.date ? 1 : -1; // 日期倒序
+    return a.category < b.category ? -1 : a.category > b.category ? 1 : 0;
+  });
 
   // 分类汇总（跨所选日期范围累计）
   const catMap = new Map<CollectorCategory, CollectorDailyResult["byCategory"][number]>();

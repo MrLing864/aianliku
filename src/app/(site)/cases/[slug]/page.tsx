@@ -4,16 +4,41 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowLeft, ArrowRight, Building2, CalendarDays, CheckCircle2, Clock3, ExternalLink, Quote, ShieldCheck, WalletCards } from "lucide-react";
 import { CaseCard } from "@/components/case-card";
 import { ReadingTracker } from "@/components/reading-tracker";
+import { JsonLd } from "@/components/json-ld";
 import { ConfidenceBadge, OutcomeBadge } from "@/components/status-badges";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { getRelatedCases, resolveCaseRoute } from "@/lib/repositories/cases";
-import type { CaseStudy } from "@/lib/types";
+import { articleJsonLd, breadcrumbJsonLd, buildMetadata } from "@/lib/seo";
+import type { CaseSource, CaseStudy } from "@/lib/types";
 
 type Params = Promise<{ slug: string }>;
-export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> { const route = await resolveCaseRoute((await params).slug); if (route.kind === "redirect") return { alternates: { canonical: `/cases/${route.targetSlug}` }, robots: { index: false, follow: true } }; if (route.kind === "missing") return {}; const canonical = route.item._id ?? route.item.slug; return { title: route.item.seo?.metaTitle ?? route.item.title, description: route.item.seo?.metaDescription ?? route.item.summary, alternates: { canonical: `/cases/${canonical}` }, robots: route.kind === "archived" ? { index: false, follow: true, noarchive: true } : undefined }; }
+export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
+  const route = await resolveCaseRoute((await params).slug);
+  if (route.kind === "redirect") return { alternates: { canonical: `/cases/${route.targetSlug}` }, robots: { index: false, follow: true } };
+  if (route.kind === "missing") return {};
+  const item = route.item;
+  const canonical = item._id ?? item.slug;
+  const base = buildMetadata({
+    title: item.seo?.metaTitle ?? item.title,
+    description: item.seo?.metaDescription ?? item.summary,
+    path: `/cases/${canonical}`,
+    type: "article",
+    publishedTime: item.publishedAt,
+    modifiedTime: item.updatedAt,
+    og: {
+      title: item.title,
+      subtitle: `${item.industry?.displayName ?? ""} · ${(item.scenarios ?? [])[0]?.name ?? "AI应用"}`.trim(),
+      kind: "case",
+    },
+  });
+  if (route.kind === "archived") {
+    base.robots = { index: false, follow: true, noarchive: true };
+  }
+  return base;
+}
 
 function FactSection({ number, title, children }: { number: string; title: string; children: React.ReactNode }) { return <section className="grid gap-4 border-t py-9 sm:grid-cols-[88px_1fr]"><p className="font-mono text-xs text-primary">{number}</p><div><h2 className="text-xl font-semibold tracking-tight">{title}</h2><div className="mt-4 text-[15px] leading-8 text-foreground/80">{children}</div></div></section>; }
 
@@ -22,7 +47,8 @@ const ORG_TYPE_LABEL: Record<string, string> = { soe: "国央企", private: "民
 /** 为案例文档补齐页面渲染所需的字段默认值，避免历史/报告型案例缺字段导致 500。 */
 function safeCase(item: CaseStudy): CaseStudy {
   if (!item) return item;
-  const arr = (v: unknown) => (Array.isArray(v) ? v : []);
+  const arr = <T,>(value: T[] | null | undefined): T[] =>
+    Array.isArray(value) ? value : [];
   return {
     ...item,
     organization: item.organization ?? {},
@@ -31,7 +57,10 @@ function safeCase(item: CaseStudy): CaseStudy {
     results: arr(item.results),
     painPointTags: arr(item.painPointTags),
     implementationSteps: arr(item.implementationSteps),
-    sources: arr(item.sources).map((s: any) => ({ ...s, supports: arr(s?.supports) })),
+    sources: arr<CaseSource>(item.sources).map((source) => ({
+      ...source,
+      supports: arr<string>(source.supports),
+    })),
     businessFunctions: arr(item.businessFunctions),
     implementers: arr(item.implementers),
     modelStack: arr(item.modelStack),
@@ -59,8 +88,22 @@ export default async function CaseDetailPage({ params }: { params: Params }) {
   const route = await resolveCaseRoute((await params).slug); if (route.kind === "missing") notFound(); if (route.kind === "redirect") permanentRedirect(`/cases/${route.targetSlug}`); const item = safeCase(route.item);
   if (route.kind === "archived") return <main className="container-page py-20"><div className="mx-auto max-w-2xl rounded-3xl border bg-card p-8 text-center sm:p-12"><Badge variant="secondary">已归档</Badge><h1 className="mt-5 text-3xl font-semibold tracking-tight">{item.title}</h1><p className="mt-4 text-sm leading-7 text-muted-foreground">该案例因来源变化、时效性或内容治理原因已归档，不再参与搜索、推荐和阅读统计。页面保留用于说明历史状态。</p><Button asChild className="mt-7"><Link href="/cases">返回案例库</Link></Button></div></main>;
   const related = await getRelatedCases(item, 3);
-  const jsonLd = { "@context": "https://schema.org", "@type": "Article", headline: item.title, description: item.summary, datePublished: item.publishedAt, dateModified: item.updatedAt, author: { "@type": "Organization", name: "AI案例库" }, mainEntityOfPage: `/cases/${item._id ?? item.slug}` };
-  return <main><ReadingTracker caseId={item.id} /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+  const jsonLd = articleJsonLd({
+    title: item.title,
+    description: item.summary,
+    slug: item._id ?? item.slug,
+    publishedTime: item.publishedAt,
+    modifiedTime: item.updatedAt,
+    industry: item.industry,
+    scenario: (item.scenarios ?? [])[0],
+    keywords: item.painPointTags,
+  });
+  const crumbs = breadcrumbJsonLd([
+    { name: "首页", url: "/" },
+    { name: "全部案例", url: "/cases" },
+    { name: item.title, url: `/cases/${item._id ?? item.slug}` },
+  ]);
+  return <main><ReadingTracker caseId={item.id} /><JsonLd data={[jsonLd, crumbs]} />
     <article className="container-page py-10 sm:py-14 lg:py-18">
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-14">
         <div><div className="flex flex-wrap gap-2"><OutcomeBadge status={item.outcomeStatus} /><ConfidenceBadge level={item.confidence} />{item.demo && <Badge variant="secondary">演示数据</Badge>}</div><p className="mt-7 text-xs font-semibold text-primary">{item.industry?.displayName ?? "其他行业"} · {(item.scenarios ?? []).map((scene: { name: string }) => scene.name).join(" / ") || "AI应用"}</p><h1 className="mt-3 text-balance text-4xl font-semibold leading-[1.12] tracking-[-0.05em] sm:text-5xl">{item.title}</h1>        <p className="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">{item.summary}</p>

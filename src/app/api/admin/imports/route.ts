@@ -1,23 +1,12 @@
 import { NextResponse } from "next/server";
 import { parse } from "csv-parse/sync";
 import ExcelJS from "exceljs";
-import { MongoServerError } from "@/lib/db/cloudbase";
 import { nanoid } from "nanoid";
 import { z } from "zod";
 import { getAdminSession } from "@/lib/auth/dal";
 import { writeAuditLog } from "@/lib/audit";
-import {
-  duplicateLevel,
-  createDedupVector,
-  normalizeContent,
-  normalizeOrganization,
-  scoreDuplicate,
-  sourceIdentity,
-} from "@/lib/dedup";
+import { runDedupPipeline, stageRawRecord } from "@/lib/dedup/pipeline";
 import { getDb, isDbConfigured } from "@/lib/db/cloudbase";
-import { listAdminCases } from "@/lib/repositories/admin";
-import { findVectorSimilarCases } from "@/lib/repositories/cases";
-import type { DuplicateCandidate, SourceRecord } from "@/lib/types";
 
 const MAX_ROWS = 1_000;
 const MAX_CONTENT_BYTES = 20 * 1024 * 1024;
@@ -45,8 +34,6 @@ const rowSchema = z.object({
   rawText: z.string().max(100_000).optional().default(""),
   originalRowNumber: z.coerce.number().int().min(1).max(MAX_ROWS).optional(),
 });
-
-type ParsedRow = z.infer<typeof rowSchema>;
 
 function remapStandardColumns(value: unknown) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return value;
@@ -115,28 +102,6 @@ async function readImportRequest(request: Request) {
   return { format: parsed.data.format, rows: parseRows(parsed.data.format, parsed.data.content), retryJobId: parsed.data.retryJobId };
 }
 
-function exactSourceFilter(identity: ReturnType<typeof sourceIdentity>, row: ParsedRow): Record<string, unknown> {
-  const alternatives: Record<string, unknown>[] = [];
-  if (identity.normalizedUrl) alternatives.push({ normalizedUrl: identity.normalizedUrl });
-  if (identity.externalId && row.publisher) alternatives.push({ publisher: row.publisher.trim(), externalId: identity.externalId });
-  alternatives.push({ contentHash: identity.contentHash });
-  return { $or: alternatives };
-}
-
-function asCaseSource(source: SourceRecord) {
-  return {
-    id: source.id,
-    title: source.title,
-    publisher: source.publisher,
-    type: source.type,
-    url: source.originalUrl,
-    publishedAt: source.publishedAt,
-    collectedAt: source.collectedAt,
-    accessibility: source.accessibility,
-    supports: source.supports,
-  };
-}
-
 export async function POST(request: Request) {
   const session = await getAdminSession();
   if (!session) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
@@ -158,7 +123,6 @@ export async function POST(request: Request) {
   if (retryJobId && !db) return NextResponse.json({ error: "重试导入需要先配置 CloudBase" }, { status: 503 });
   const retryJob = retryJobId && db ? await db.collection("import_jobs").findOne({ id: retryJobId }) : null;
   if (retryJobId && !retryJob) return NextResponse.json({ error: "原导入任务不存在" }, { status: 404 });
-  const existingCases = await listAdminCases(1_000);
   const jobId = retryJobId ?? nanoid(14);
   const results: Array<Record<string, unknown>> = [];
   const createdAt = new Date();
@@ -191,131 +155,114 @@ export async function POST(request: Request) {
       continue;
     }
     if (retryJob) attemptedRetryRows.add(rowNumber);
-    if (db) {
-      await db.collection("raw_import_records").insertOne({
-        id: nanoid(18),
-        jobId,
-        rowNumber,
-        payload: entry.raw,
-        retry: Boolean(retryJob),
-        attempt: retryJob ? Number(retryJob.retryCount ?? 0) + 1 : 1,
-        createdAt: new Date(),
-      });
-    }
-
     if (!entry.parsed.success) {
+      if (db) {
+        const now = new Date().toISOString();
+        const id = `rir_invalid_${jobId}_${rowNumber}`;
+        await db.collection("raw_import_records").replaceOne(
+          { id },
+          {
+            id,
+            originKey: `admin_import:${jobId}:${rowNumber}:invalid`,
+            source: "admin_import",
+            jobId,
+            rowNumber,
+            attempt: retryJob ? Number(retryJob.retryCount ?? 0) + 1 : 1,
+            payload: entry.raw,
+            normalized: {
+              title: String(remappedRaw.title || ""),
+              organization: String(remappedRaw.organization || ""),
+              sourceUrl: String(remappedRaw.sourceUrl || ""),
+              sourceType: String(remappedRaw.sourceType || ""),
+              publisher: String(remappedRaw.publisher || ""),
+              externalId: String(remappedRaw.externalId || ""),
+              publishedAt: String(remappedRaw.publishedAt || ""),
+              scenario: String(remappedRaw.scenario || ""),
+              department: String(remappedRaw.department || ""),
+              implementer: String(remappedRaw.implementer || ""),
+              solution: String(remappedRaw.solution || ""),
+              result: String(remappedRaw.result || ""),
+              rawText: String(remappedRaw.rawText || ""),
+            },
+            status: "failed",
+            createdAt: now,
+            updatedAt: now,
+          },
+          { upsert: true },
+        );
+      }
       results.push({ row: rowNumber, status: "invalid", error: entry.parsed.error.issues[0]?.message });
       continue;
     }
 
     const row = entry.parsed.data;
-    const identity = sourceIdentity(row);
     const raw = row.rawText || [row.title, row.organization, row.sourceTitle, row.solution, row.result].join("\n");
-
-    if (db) {
-      const exact = await db.collection<SourceRecord>("sources").findOne(exactSourceFilter(identity, row), { projection: { _id: 0 } });
-      if (exact) {
-        await Promise.all([
-          db.collection("sources").updateOne({ id: exact.id }, { $set: { lastCollectedAt: new Date().toISOString(), accessibility: "available" }, $inc: { seenCount: 1 } }),
-          db.collection("import_rows").updateOne(
-            { idempotencyKey: identity.idempotencyKey },
-            { $set: { lastSeenAt: new Date(), lastJobId: jobId, lastRowNumber: rowNumber, sourceId: exact.id }, $inc: { seenCount: 1 }, $setOnInsert: { id: nanoid(16), jobId, rowNumber, status: "exact_duplicate", createdAt: new Date() } },
-            { upsert: true },
-          ),
-        ]);
-        results.push({ row: rowNumber, title: row.title, status: "exact_duplicate", sourceId: exact.id, message: "相同 URL、外部编号或正文哈希已存在；采集记录已更新，未重复插入" });
-        continue;
-      }
+    if (!db) {
+      results.push({ row: rowNumber, title: row.title, status: "staged", persisted: false });
+      continue;
     }
 
-    const dedupVector = createDedupVector(`${row.title}\n${row.solution}\n${row.result}\n${raw}`);
-    const vectorMatches = db ? await findVectorSimilarCases(dedupVector, 30) : [];
-    const vectorScores = new Map(vectorMatches.map((match) => [match.item.id, match.score]));
-    const candidateCases = [...new Map([...existingCases, ...vectorMatches.map((match) => match.item)].map((item) => [item.id, item])).values()];
-    const candidates = candidateCases
-      .map((item) => ({ item, scores: scoreDuplicate(row, item, vectorScores.get(item.id) ?? 0) }))
-      .sort((a, b) => b.scores.overall - a.scores.overall);
-    const best = candidates[0];
-    const level = duplicateLevel(best?.scores.overall ?? 0);
-    const importRowId = nanoid(16);
-    const sourceId = nanoid(16);
-    const status = level === "high" ? "blocked_duplicate" : level === "medium" ? "needs_duplicate_review" : "staged";
-    const now = new Date().toISOString();
-    const source: SourceRecord = {
-      id: sourceId,
-      title: row.sourceTitle || row.title,
-      publisher: row.publisher || row.organization,
-      type: row.sourceType,
-      originalUrl: row.sourceUrl || undefined,
-      normalizedUrl: identity.normalizedUrl || undefined,
-      externalId: identity.externalId || undefined,
-      contentHash: identity.contentHash,
-      publishedAt: row.publishedAt || undefined,
-      collectedAt: now,
-      lastCollectedAt: now,
-      accessibility: "available",
-      supports: [],
-      caseIds: [],
-    };
-    const document = {
-      id: importRowId,
+    const attempt = retryJob ? Number(retryJob.retryCount ?? 0) + 1 : 1;
+    const staged = await stageRawRecord({
+      source: "admin_import",
       jobId,
       rowNumber,
-      originKey: `${jobId}:${rowNumber}`,
-      ...row,
-      sourceId,
-      normalizedUrl: identity.normalizedUrl,
-      contentHash: identity.contentHash,
-      idempotencyKey: identity.idempotencyKey,
-      organizationNormalized: normalizeOrganization(row.organization),
-      normalizedText: normalizeContent(raw),
-      dedupVector,
-      status,
-      extractionStatus: "pending",
-      createdAt: new Date(),
-      lastSeenAt: new Date(),
-      seenCount: 1,
-    };
-
-    if (db) {
-      try {
-        await db.collection<SourceRecord>("sources").insertOne(source);
-        await db.collection("import_rows").insertOne(document);
-      } catch (error) {
-        if (error instanceof MongoServerError && error.code === 11000) {
-          const raced = await db.collection<SourceRecord>("sources").findOne(exactSourceFilter(identity, row), { projection: { _id: 0 } });
-          results.push({ row: rowNumber, title: row.title, status: "exact_duplicate", sourceId: raced?.id, message: "并发导入命中来源唯一索引，未重复插入" });
-          continue;
-        }
-        throw error;
-      }
-
-      if (best && level !== "low") {
-        const candidate: DuplicateCandidate & { importRowId: string; sourceId: string; ruleVersion: string } = {
-          id: nanoid(16),
-          importRowId,
-          sourceId,
-          incomingTitle: row.title,
-          incomingOrganization: row.organization,
-          existingCaseId: best.item.id,
-          existingCaseTitle: best.item.title,
-          scores: best.scores,
-          status: "pending",
-          ruleVersion: "dedup-v1.1",
-          createdAt: now,
-        };
-        await db.collection("duplicate_candidates").insertOne(candidate);
-      }
-    }
-
+      attempt,
+      title: row.title,
+      organization: row.organization,
+      sourceUrl: row.sourceUrl,
+      sourceType: row.sourceType,
+      publisher: row.publisher || row.organization,
+      externalId: row.externalId,
+      publishedAt: row.publishedAt,
+      scenario: row.scenario,
+      department: row.department,
+      implementer: row.implementer,
+      solution: row.solution,
+      result: row.result,
+      rawText: raw,
+    });
+    const pipeline = await runDedupPipeline(staged);
+    const best = [...pipeline.decisions].sort((left, right) => right.overallScore - left.overallScore)[0];
+    const status = pipeline.needsReview
+        ? best?.overallScore && best.overallScore >= 0.9
+          ? "blocked_duplicate"
+          : "needs_duplicate_review"
+      : !pipeline.sourceCreated && !pipeline.sourceChanged
+        ? "exact_duplicate"
+        : "staged";
+    const importRowId = nanoid(16);
+    await db.collection("import_rows").replaceOne(
+      { originKey: `${jobId}:${rowNumber}` },
+      {
+        id: importRowId,
+        jobId,
+        rowNumber,
+        originKey: `${jobId}:${rowNumber}`,
+        ...row,
+        sourceId: pipeline.sourceId,
+        rawImportRecordId: staged.id,
+        segmentIds: pipeline.segments.map((segment) => segment.id),
+        status,
+        extractionStatus: "pending",
+        createdAt: new Date(),
+        lastSeenAt: new Date(),
+        seenCount: 1,
+      },
+      { upsert: true },
+    );
+    await db.collection("duplicate_candidates").updateMany(
+      { sourceId: pipeline.sourceId, status: "pending" },
+      { $set: { importRowId } },
+    );
     results.push({
       row: rowNumber,
       title: row.title,
       status,
-      level,
-      score: best?.scores.overall ?? 0,
-      candidate: best ? { id: best.item.id, title: best.item.title, organization: best.item.organization.name } : null,
-      source: asCaseSource(source),
+      score: best?.overallScore ?? 0,
+      relationship: best?.relationship,
+      sourceId: pipeline.sourceId,
+      candidateId: best?.candidateId,
     });
   }
 

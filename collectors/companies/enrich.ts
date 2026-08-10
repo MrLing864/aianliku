@@ -173,7 +173,11 @@ export async function enrichCandidate(candidate: Candidate): Promise<EnrichedRes
       url: candidate.url,
     },
   ];
-  cs.dedupKey = buildDedupKey(extracted.title || candidate.title, candidate.url, publishedYear);
+  cs.dedupKey = buildDedupKey(extracted.title || candidate.title, candidate.url, {
+    company: (cs.organization && cs.organization.name) || "",
+    summary: cs.summary || "",
+    publishedYear,
+  });
   cs.sourceType = "company";
 
   return { caseStudy: cs, skipped: false };

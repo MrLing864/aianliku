@@ -107,17 +107,102 @@ export function normalizeTitle(title: string): string {
     .trim();
 }
 
-/** 生成去重指纹：归一化标题 + 来源域名 + 发布年份。 */
-export function buildDedupKey(title: string, sourceUrl: string, publishedYear?: string): string {
-  const t = normalizeTitle(title);
-  let host = "";
-  try {
-    host = new URL(sourceUrl).hostname.replace(/^www\./, "");
-  } catch {
-    host = "";
+/**
+ * 去重专用标题归一化（比 normalizeTitle 更激进，但保守保留可区分词）。
+ * 目的：让 LLM 对同一案例生成的「字面不同但语义相同」标题能对齐判重，
+ * 例如「玲珑轮胎智慧销服一体化协同平台」与「玲珑轮胎智慧销服一体化平台：以AI驱动数字化转型」
+ * 去除套话词（平台/智慧/一体化/协同/基于/借助/驱动/转型…）后都退化为「玲珑轮胎销服」→ 判为重复。
+ * 同时必须保留能区分「同来源页多案例」的词（如朗镜两案例的「构建高效」vs「云原生套件升级」），
+ * 因此不去除「构建/升级/高效」等可能承载区分信息的词。
+ */
+const DEDUP_STOPWORDS = [
+  "平台", "方案", "系统", "智慧", "一体化", "协同", "基于", "借助", "通过", "实现",
+  "打造", "助力", "以", "的", "了", "ai", "数字化", "转型", "驱动", "智能",
+  "一站式", "案例", "应用", "典型", "优秀", "：", ":", "—", "-", "～", "~",
+];
+export function normalizeDedupTitle(title: string): string {
+  let t = (title || "")
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace(/[^\w\u4e00-\u9fa5]/g, "")
+    .replace(/(20[12]\d年?)/g, "");
+  for (const w of DEDUP_STOPWORDS) {
+    t = t.split(w).join("");
   }
-  const year = publishedYear || "";
-  return `${t}__${host}__${year}`;
+  return t.trim();
+}
+
+/** 公司名归一化：去空白/标点/后缀（有限公司/股份/集团/有限等），用于内容级去重。 */
+export function normalizeCompany(name: string): string {
+  return (name || "")
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace(/[^\w\u4e00-\u9fa5]/g, "")
+    .replace(/(股份有限公司|有限公司|有限责任公司|集团|控股|技术|科技|股份|有限|公司|corp|inc|llc|ltd|co)$/gi, "")
+    .trim();
+}
+
+/** 简易字符串 hash（FNV-1a 变体），用于正文摘要指纹。 */
+function hashString(s: string): string {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return (h >>> 0).toString(36);
+}
+
+/**
+ * 去重指纹（幂等入库主键）。
+ *
+ * 设计目标：同一来源页即使被 LLM 改写标题/摘要，也必须稳定判为重复；
+ * 同时不能误删「同来源页的多案例」（如朗镜同页不同子案例）或「券商不同研报」（来源 URL 不同）。
+ *
+ * 规则：
+ *  - 有来源 URL：dedupKey = 归一化URL + 去重标题(normalizeDedupTitle) + 年份。
+ *    归一化URL 抗 LLM 改写且稳定；去重标题仅去套话词、保留区分词，
+ *    使「玲珑轮胎…协同平台」与「玲珑轮胎…以AI驱动数字化转型」对齐为同一条，
+ *    同时「朗镜构建高效…」与「朗镜云原生套件升级…」因保留区分词而不误并。
+ *  - 无来源 URL（人工录入/历史缺字段）：回退为 归一化标题 + 归一化公司名 + 摘要前120字hash + 年份，
+ *    避免无 URL 案例被错判重复。
+ */
+export function buildDedupKey(
+  title: string,
+  sourceUrl: string,
+  opts?: { company?: string; summary?: string; publishedYear?: string }
+): string {
+  const year = opts?.publishedYear || "";
+  const url = normalizeSourceUrl(sourceUrl);
+  if (url) {
+    return `${url}__${normalizeDedupTitle(title)}__${year}`;
+  }
+  const t = normalizeTitle(title);
+  const c = normalizeCompany(opts?.company || "");
+  const summary = (opts?.summary || "").replace(/\s+/g, "").slice(0, 120);
+  const sHash = summary ? hashString(summary) : "";
+  return `${t}__${c}__${sHash}__${year}`;
+}
+
+/**
+ * 来源 URL 归一化：用于"按来源页硬去重"。
+ * 同一来源详情页即使带了不同 query/锚点/首尾斜杠/大小写，也应视为同一条案例。
+ * - 去 protocol（http/https 统一）
+ * - 去 www. 前缀
+ * - 转小写
+ * - 去末尾斜杠
+ * - 去 query（?...）与 fragment（#...），避免 utm/track 参数导致判不同
+ */
+export function normalizeSourceUrl(url: string): string {
+  if (!url || typeof url !== "string") return "";
+  try {
+    const u = new URL(url.trim());
+    const host = u.hostname.replace(/^www\./, "").toLowerCase();
+    let path = decodeURIComponent(u.pathname).toLowerCase();
+    path = path.replace(/\/+$/, "") || "/"; // 去末尾斜杠
+    return `${host}${path}`;
+  } catch {
+    return url.trim().toLowerCase().replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/+$/, "").replace(/[?#].*$/, "");
+  }
 }
 
 export function normalizeCase(raw: RawListItem, extracted: ExtractedCase, vendorName = "腾讯云"): CaseStudy {
@@ -183,7 +268,11 @@ export function normalizeCase(raw: RawListItem, extracted: ExtractedCase, vendor
     tags: Array.from(new Set([...(extracted.tags || []), vendorName, raw.rawIndustry || ""])),
     techPath: extracted.techPath || [],
     modelStack: extracted.modelStack || [],
-    dedupKey: buildDedupKey(title, raw.sourceUrl, new Date(now).getFullYear().toString()),
+    dedupKey: buildDedupKey(title, raw.sourceUrl, {
+      company: companyName,
+      summary: extracted.summary || raw.summary || "",
+      publishedYear: new Date(now).getFullYear().toString(),
+    }),
     sourceType: "vendor",
   };
 }

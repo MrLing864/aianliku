@@ -1,11 +1,11 @@
-import { getAdminDbOrNull } from "@/src/lib/admin-auth";
+import { isDbConfigured } from "@/lib/db/cloudbase";
 import {
   getCollectorRunDaily,
   listCollectorRuns,
   type CollectorCategory,
   type CollectorDailyResult,
   type CollectorRunRecord,
-} from "@/src/lib/repositories/admin";
+} from "@/lib/repositories/admin";
 import { CollectorsClient } from "./collectors-client";
 
 export const dynamic = "force-dynamic";
@@ -18,11 +18,11 @@ const ALL_CATEGORIES: { value: CollectorCategory; label: string }[] = [
 ];
 
 export default async function AdminCollectorsPage() {
-  const db = await getAdminDbOrNull();
+  const dbConfigured = isDbConfigured();
   let daily: CollectorDailyResult = { rangeDays: 30, byDateCategory: [], byCategory: [] };
   let runs: CollectorRunRecord[] = [];
 
-  if (db) {
+  if (dbConfigured) {
     // 拉取近 30 天数据，前端按日期范围 + 分类过滤，无需实时查询
     daily = await getCollectorRunDaily(30);
     runs = await listCollectorRuns({ limit: 500 });
@@ -33,7 +33,7 @@ export default async function AdminCollectorsPage() {
       daily={daily}
       runs={runs}
       categories={ALL_CATEGORIES}
-      dbConfigured={!!db}
+      dbConfigured={dbConfigured}
     />
   );
 }

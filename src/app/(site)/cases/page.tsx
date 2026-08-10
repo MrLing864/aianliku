@@ -4,10 +4,12 @@ import { ArrowRight, SearchX, Sparkles } from "lucide-react";
 import { CaseCard } from "@/components/case-card";
 import { CaseFilters } from "@/components/case-filters";
 import { DemoNotice } from "@/components/demo-notice";
+import { JsonLd } from "@/components/json-ld";
 import { Pagination } from "@/components/pagination";
 import { SearchEventTracker } from "@/components/search-event-tracker";
 import { Button } from "@/components/ui/button";
 import { listCases } from "@/lib/repositories/cases";
+import { breadcrumbJsonLd, buildMetadata, SITE } from "@/lib/seo";
 import type { CaseQuery, OutcomeStatus } from "@/lib/types";
 export const dynamic = "force-dynamic";
 
@@ -32,15 +34,18 @@ export async function generateMetadata({
     Array.isArray(value) ? value.length > 0 : Boolean(value),
   );
   const keyword = one(raw.q)?.trim();
-  return {
-    title: keyword ? `“${keyword.slice(0, 60)}”相关 AI 案例` : "AI 案例库",
-    description:
-      "按行业、企业规模、AI 场景和项目结果查找中国企业 AI 改造案例。",
-    alternates: { canonical: "/cases" },
-    robots: hasQuery
-      ? { index: false, follow: true }
-      : { index: true, follow: true },
-  };
+  const title = keyword ? `“${keyword.slice(0, 60)}”相关 AI 案例` : "全部 AI 改造案例";
+  const description = keyword
+    ? `查看与“${keyword}”相关的中国企业 AI 改造案例，包含行业、场景、投入与结果，辅助你的改造决策。`
+    : "按行业、企业规模、AI 场景和项目结果检索中国企业 AI 改造案例。覆盖自动客服、自动报价、知识库、OCR 等真实落地场景。";
+  const meta = buildMetadata({
+    title,
+    description,
+    path: "/cases",
+    noIndex: hasQuery,
+  });
+  if (hasQuery) meta.alternates = { canonical: SITE.url + "/cases" };
+  return meta;
 }
 
 export default async function CasesPage({
@@ -88,6 +93,7 @@ export default async function CasesPage({
     if (typeof value === "string" && key !== "page") urlParams.set(key, value);
   return (
     <main className="container-page py-12 sm:py-16 lg:py-20">
+      <JsonLd data={breadcrumbJsonLd([{ name: "首页", url: "/" }, { name: "全部案例", url: "/cases" }])} />
       <SearchEventTracker
         active={hasActiveSearch}
         zeroResults={hasActiveSearch && result.total === 0}

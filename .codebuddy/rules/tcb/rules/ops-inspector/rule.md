@@ -1,18 +1,15 @@
 ---
 name: ops-inspector
 description: AIOps-style one-click inspection skill for CloudBase resources. Use this skill when users need to diagnose errors, check resource health, inspect logs, or run a comprehensive health check across cloud functions, CloudRun services, databases, and other CloudBase resources.
-version: 2.24.1
+version: 2.25.10
 alwaysApply: false
 ---
 
-## Standalone Install Note
+## Sibling skills (local only)
 
-If this environment only installed the current skill, start from the CloudBase main entry and use the published `cloudbase/references/...` paths for sibling skills.
+Sibling CloudBase skills ship beside this skill. Use local relative paths such as `../auth-tool-cloudbase/SKILL.md`.
 
-- CloudBase main entry: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/SKILL.md`
-- Current skill raw source: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/ops-inspector/SKILL.md`
-
-Keep local `references/...` paths for files that ship with the current skill directory. When this file points to a sibling skill such as `cloud-functions` or `cloudrun-development`, use the standalone fallback URL shown next to that reference.
+If a referenced sibling skill file is missing from this environment, ask the user to install the full CloudBase plugin (or the missing skill). Do **not** HTTP-fetch remote skill or protocol markdown into the agent context.
 
 ## Activation Contract
 
@@ -30,10 +27,10 @@ Keep local `references/...` paths for files that ship with the current skill dir
 
 ### Then also read
 
-- Cloud function issues -> `../cloud-functions/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloud-functions/SKILL.md`)
-- CloudRun issues -> `../cloudrun-development/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudrun-development/SKILL.md`)
-- Database issues -> `../postgresql-development/SKILL.md` for CloudBase PG / PostgreSQL (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/postgresql-development/SKILL.md`), `../relational-database-tool/SKILL.md` for MySQL (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/relational-database-tool/SKILL.md`), or `../no-sql-web-sdk/SKILL.md` for NoSQL (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/no-sql-web-sdk/SKILL.md`)
-- Platform overview -> `../cloudbase-platform/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-platform/SKILL.md`)
+- Cloud function issues -> `../cloud-functions/SKILL.md`
+- CloudRun issues -> `../cloudrun-development/SKILL.md`
+- Database issues -> `../postgresql-development-cloudbase/SKILL.md` for CloudBase PG / PostgreSQL, `../relational-database-mcp-cloudbase/SKILL.md` for MySQL, or `../cloudbase-document-database-web-sdk/SKILL.md` for NoSQL
+- Platform overview -> `../cloudbase-platform/SKILL.md`
 
 ### Do NOT use for
 
@@ -173,6 +170,7 @@ When the user specifies a resource type or a specific resource:
 
 1. **Cloud function errors**: `queryFunctions(action="listFunctionLogs", functionName="<name>")` then `queryLogs(action="searchLogs", queryString="* AND functionName:<name> AND level:ERROR", ...)`
 2. **CloudRun errors**: `queryCloudRun(action="detail", detailServerName="<name>")` then `queryLogs(action="searchLogs", queryString="ERROR", service="tcbr", ...)`
+   - If logs show DB / Redis connection failures (`ECONNREFUSED`, timeout, "could not connect"): check whether `VpcConf` is set and matches the database VPC. See `cloudrun-development/references/vpc-and-database.md`.
 3. **Database issues**: Check `queryPgDatabase(action="context"|"metadata"|"objects")` for CloudBase PG, `queryMysqlDatabase` for MySQL, or `readNoSqlDatabaseStructure` for NoSQL depending on type
 4. **General error search**: `queryLogs(action="searchLogs", queryString="<error-keyword>", ...)`
 
@@ -238,5 +236,5 @@ Always use ISO 8601 format for `startTime`/`endTime`, e.g., `"2025-01-15 00:00:0
 - `cloud-functions` — Cloud function development, deployment, and debugging
 - `cloudrun-development` — CloudRun backend deployment and management
 - `cloudbase-platform` — General platform knowledge and console navigation
-- `postgresql-development` — CloudBase PostgreSQL / PG diagnostics and schema/RLS checks
-- `relational-database-tool` — MySQL database management and diagnostics
+- `postgresql-development-cloudbase` — CloudBase PostgreSQL / PG diagnostics and schema/RLS checks
+- `relational-database-mcp-cloudbase` — MySQL database management and diagnostics

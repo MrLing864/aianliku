@@ -1,167 +1,167 @@
 /**
- * 企业候选发现：
- *  - 内置清单（含官网）：直接抓官网 AI/新闻/案例栏目发现候选，辅以搜索（限官网）。
- *  - 全量 A 股（无官网）：用搜索引擎发现企业官网内的 AI 案例页（结果按企业官网域名过滤）。
+ * 企业（上市公司）案例发现：固定入口优先，泛搜兜底。
+ *
+ * 新逻辑：
+ * 1) 读 companies/sources.ts，按企业名/域名取"官网固定入口"；
+ * 2) 直接请求每个入口：list 用 discoverUrls 抽详情，detail 直接作候选；
+ * 3) 入口失效记入 health，供人工维护 sources.ts；
+ * 4) sources 无入口或全失败时，回退 searchCases 泛搜（带 site: 限定官网，避免泛软文）。
+ *
+ * 对外仍暴露 discoverCandidates（保持 run.ts 兼容）。
  */
 
-import {
-  TARGET_YEARS,
-  DAILY_CAP,
-  DAILY_COMPANY_LIMIT,
-  MAX_CANDIDATES_PER_QUERY,
-  MAX_CANDIDATES_PER_COMPANY,
-  COMPANY_AI_SECTION_PATHS,
-  buildSearchQueries,
-} from "./config";
-import { getKnownCompanies, getAllAStockNames, getKnownCompanyByName, type CompanyConfig } from "./list";
-import { searchCases, type SearchHit } from "./search";
-import { normalizeTitle } from "../lib/normalize";
-import { fetchHtml, mapLimit, canFetch, discoverUrls } from "../lib/fetch";
+import { fetchHtml, discoverUrls, canFetch, sleep, renderHtml } from "../lib/fetch";
+import { searchCases } from "./search";
+import { buildSearchQueries, MAX_CANDIDATES_PER_QUERY, MAX_CANDIDATES_PER_COMPANY, DAILY_COMPANY_LIMIT } from "./config";
+import { getCompanySource, getCompanySourceByDomain } from "./sources";
+import { getAllListedCompanies, makeCompanyConfig } from "./list";
+import { readCursor, writeCursor } from "./progress";
+import type { CompanyCandidate, CompanyConfig } from "./types";
+import type { SourceColumn } from "../government/sources";
 
-export interface Candidate {
-  url: string;
-  title: string;
-  company: string;
-  domain: string;
-  scale: string;
-  sourceType: "company";
+const DETAIL_PATTERNS = [/news/i, /case/i, /article/i, /content/i, /info/i, /show/i, /view/i, /detail/i, /story/i, /customer/i];
+
+function looksLikeDetail(url: string): boolean {
+  const path = url.split("?")[0];
+  return DETAIL_PATTERNS.some((p) => p.test(path)) && !/\/(list|index|more|column|center)\b/i.test(path);
 }
 
-function hostOf(url: string): string {
+async function collectFromColumn(col: SourceColumn): Promise<{ candidates: string[]; ok: boolean }> {
+  if (!(await canFetch(col.url))) return { candidates: [], ok: false };
+  let html = "";
   try {
-    return new URL(url).hostname.replace(/^www\./, "");
+    const r = await fetchHtml(col.url, { timeoutMs: 20000 });
+    html = r.html || "";
   } catch {
-    return "";
+    return { candidates: [], ok: false };
   }
-}
+  if (!html) return { candidates: [], ok: false };
 
-export function candidateDedupKey(c: Candidate): string {
-  return `${normalizeTitle(c.title)}__${hostOf(c.url)}__`;
-}
+  if (col.type === "detail") return { candidates: [col.url], ok: true };
 
-function isCompanyDomain(url: string, domain: string): boolean {
-  if (!domain) return true; // 无官网时不过滤
-  try {
-    const host = new URL(url).hostname.replace(/^www\./, "").toLowerCase();
-    return host === domain || host.endsWith("." + domain);
-  } catch {
-    return false;
-  }
-}
+  const pattern = col.detailPattern || "[\\w/-]+\\.(html?|shtml)";
+  let urls = discoverUrls(html, pattern, col.url);
+  const realCount = urls.filter((u) => !/^#|javascript:|mailto:/i.test(u.split("?")[0])).length;
 
-async function discoverFromSite(company: CompanyConfig): Promise<string[]> {
-  const out: string[] = [];
-  const base = `https://${company.domain}`;
-  const sectionUrls = COMPANY_AI_SECTION_PATHS.map((p) => base + (p === "/" ? "" : p));
-  const htmls = await mapLimit(sectionUrls.slice(0, 5), 2, async (u: string) => {
-    if (!(await canFetch(u))) return "";
-    try {
-      const r = await fetchHtml(u, { timeoutMs: 15000 });
-      return r.html;
-    } catch {
-      return "";
+  // SPA 兜底：静态抽不到真实详情链接时，用 Playwright 渲染再抽一次
+  if (realCount === 0 && col.type !== "detail") {
+    console.log(`[collect:${col.name}] ${col.url} 静态抽取为空，尝试 Playwright 渲染兜底`);
+    const rendered = await renderHtml(col.url, { timeoutMs: 20_000 });
+    if (rendered) {
+      const r2 = discoverUrls(rendered, pattern, col.url).filter((u) => !/^#|javascript:|mailto:/i.test(u.split("?")[0]));
+      if (r2.length) {
+        urls = r2;
+        console.log(`[collect:${col.name}] 渲染兜底命中 ${r2.length} 条真实链接`);
+      } else {
+        console.log(`[collect:${col.name}] 渲染兜底仍无有效链接`);
+      }
     }
-  });
-  for (const html of htmls) {
-    if (!html) continue;
-    const urls = discoverUrls(
-      html,
-      "https?://[\\w.-]*" + company.domain.replace(".", "\\.") + "(?:/[\\w/-]*(?:case|cases|news|article|detail|show|solution|solutions|info|content)[\\w/-]*)?",
-      base,
-    );
-    out.push(...urls);
   }
-  return out;
+
+  const details = urls.filter(looksLikeDetail);
+  return { candidates: details.length ? details : urls, ok: true };
+}
+
+export interface DiscoverHealth {
+  company: string;
+  column: string;
+  url: string;
+  ok: boolean;
 }
 
 export interface DiscoverOptions {
-  /** 今日要采集的企业名列表（今日循环模式）。指定后只处理这些企业，按企业计数停止，并跳过全量搜索阶段。 */
-  companies?: string[];
-  /** 今日模式下的企业配置列表（含官网域名等），优先于 companies 名称过滤 KNOWN。 */
   companyConfigs?: CompanyConfig[];
-  /** 是否"今日显式名单模式"：true 表示 companies/companyConfigs 为今日切片（按企业计数循环）；false 为手动/全量模式。 */
+  companies?: string[];
   explicitCompanies?: boolean;
-  years?: number[];
-  /** 候选总数安全上限（默认 DAILY_CAP）。 */
   cap?: number;
-  /** 每日企业上限（默认 DAILY_COMPANY_LIMIT）。达到后停止遍历新企业。 */
   dailyCompanyLimit?: number;
 }
 
-export async function discoverCandidates(opts: DiscoverOptions = {}): Promise<Candidate[]> {
-  const years = opts.years || TARGET_YEARS;
-  const cap = opts.cap ?? DAILY_CAP;
-  const dailyCompanyLimit = opts.dailyCompanyLimit ?? DAILY_COMPANY_LIMIT;
-  const isTodayMode = !!opts.explicitCompanies && (!!opts.companies?.length || !!opts.companyConfigs?.length);
+export async function discoverCandidates(opts: DiscoverOptions): Promise<CompanyCandidate[]> {
+  const companies = opts.companies && opts.companies.length ? opts.companies : await resolveDailyCompanies();
+  const configs = opts.companyConfigs && opts.companyConfigs.length ? opts.companyConfigs : companies.map((n) => makeCompanyConfig(n));
 
-  const candidates: Candidate[] = [];
-  const seenKeys = new Set<string>();
-  let processedCompanies = 0;
+  const health: DiscoverHealth[] = [];
+  const all: CompanyCandidate[] = [];
 
-  // 1) 内置清单（去官网采集）
-  const known: CompanyConfig[] =
-    isTodayMode
-      ? opts.companyConfigs && opts.companyConfigs.length
-        ? opts.companyConfigs
-        : getKnownCompanies().filter((c) => opts.companies!.includes(c.name))
-      : getKnownCompanies();
-  for (const company of known) {
-    if (candidates.length >= cap) break;
-    if (processedCompanies >= dailyCompanyLimit) break; // 每日企业数上限
-    let hits: SearchHit[] = [];
-    try {
-      const siteUrls = await discoverFromSite(company);
-      hits = siteUrls.map((u) => ({ url: u, title: u }));
-    } catch {
-      /* ignore */
-    }
-    if (hits.length < MAX_CANDIDATES_PER_COMPANY && company.domain) {
-      const queries = buildSearchQueries(company.name, years);
-      const perQuery = await mapLimit(queries, 2, async (q: string) => searchCases(q, MAX_CANDIDATES_PER_QUERY, company.domain));
-      for (const h of perQuery) hits.push(...h);
-    }
-    let added = 0;
-    for (const hit of hits) {
-      if (added >= MAX_CANDIDATES_PER_COMPANY) break;
-      if (candidates.length >= cap) break;
-      if (!isCompanyDomain(hit.url, company.domain)) continue;
-      const cand: Candidate = { url: hit.url, title: hit.title, company: company.name, domain: company.domain, scale: company.scale, sourceType: "company" };
-      const key = candidateDedupKey(cand);
-      if (seenKeys.has(key)) continue;
-      seenKeys.add(key);
-      candidates.push(cand);
-      added++;
-    }
-    processedCompanies++;
-    console.log(`[company-discover] ${company.name}: +${added} 候选（累计 ${candidates.length}，企业 ${processedCompanies}/${dailyCompanyLimit}）`);
-  }
+  for (let i = 0; i < companies.length; i++) {
+    const name = companies[i];
+    const cfg = configs[i];
+    const website = cfg?.website || "";
+    const src = getCompanySource(name) || (website ? getCompanySourceByDomain(website) : undefined);
 
-  // 2) 全量 A 股 / 港股（搜索发现，覆盖"全部上市公司"）
-  //    今日显式名单模式下跳过：companies 已是今日切片，且企业计数已达上限即停。
-  if (!isTodayMode && candidates.length < cap) {
-    const allNames = await getAllAStockNames();
-    const rest = opts.companies ? allNames.filter((n) => opts.companies!.includes(n)) : allNames;
-    for (const name of rest) {
-      if (candidates.length >= cap) break;
-      if (processedCompanies >= dailyCompanyLimit) break;
-      const queries = buildSearchQueries(name, years);
-      const perQuery = await mapLimit(queries.slice(0, 3), 2, async (q: string) => searchCases(q, 2, ""));
-      let added = 0;
-      for (const h of perQuery.flat()) {
-        if (added >= 1) break;
-        if (candidates.length >= cap) break;
-        const cand: Candidate = { url: h.url, title: h.title, company: name, domain: "", scale: "未披露", sourceType: "company" };
-        const key = candidateDedupKey(cand);
-        if (seenKeys.has(key)) continue;
-        seenKeys.add(key);
-        candidates.push(cand);
-        added++;
+    const seen = new Set<string>();
+    const out: CompanyCandidate[] = [];
+
+    if (src && src.columns.length) {
+      for (const col of src.columns) {
+        const { candidates, ok } = await collectFromColumn(col);
+        health.push({ company: name, column: col.name, url: col.url, ok });
+        for (const url of candidates) {
+          if (seen.has(url)) continue;
+          seen.add(url);
+          out.push({ url, sourceName: `${name}·${col.name}`, candidates: [], weight: 0 });
+          if (out.length >= MAX_CANDIDATES_PER_COMPANY) break;
+        }
+        await sleep(300);
+        if (out.length >= MAX_CANDIDATES_PER_COMPANY) break;
       }
-      processedCompanies++;
-      if (added) console.log(`[company-discover] ${name}: +${added}（累计 ${candidates.length}，企业 ${processedCompanies}/${dailyCompanyLimit}）`);
     }
+
+    // 兜底：sources 无入口或入口全失败 → 泛搜（带 site: 限定官网）
+    const allFailed = src && src.columns.length > 0 && health.filter((h) => h.company === name).every((h) => !h.ok);
+    if ((!src || !src.columns.length || allFailed) && out.length < MAX_CANDIDATES_PER_COMPANY) {
+      const domain = website.replace(/^https?:\/\//, "").replace(/^www\./, "").split("/")[0];
+      const queries = buildSearchQueries(name, domain);
+      for (const q of queries) {
+        const urls = await searchCases(q, MAX_CANDIDATES_PER_QUERY, domain);
+        for (const url of urls) {
+          if (seen.has(url)) continue;
+          seen.add(url);
+          out.push({ url, sourceName: `${name}·搜索兜底`, candidates: [], weight: 0 });
+          if (out.length >= MAX_CANDIDATES_PER_COMPANY) break;
+        }
+        await sleep(500);
+        if (out.length >= MAX_CANDIDATES_PER_COMPANY) break;
+      }
+    }
+
+    all.push(...out);
+    const fromFixed = out.filter((c) => !c.sourceName.endsWith("·搜索兜底")).length;
+    const fromFallback = out.length - fromFixed;
+    console.log(`[discover:${name}] 候选=${out.length} 固定入口=${fromFixed} 兜底=${fromFallback}`);
+    for (const h of health.filter((x) => x.company === name)) console.log(`  [health] ${h.ok ? "OK " : "FAIL"} ${h.column} ${h.url}`);
+    if (opts.cap && all.length >= opts.cap) break;
   }
 
-  console.log(`[company-discover] 共发现候选案例 ${candidates.length}（处理企业 ${processedCompanies} 家）`);
-  return candidates;
+  // 入口健康落盘
+  try {
+    const { writeFileSync, mkdirSync } = await import("fs");
+    const { dirname } = await import("path");
+    const p = "/var/log/company-discover-health.json";
+    mkdirSync(dirname(p), { recursive: true });
+    writeFileSync(p, JSON.stringify({ at: new Date().toISOString(), health }, null, 2));
+  } catch {
+    /* 忽略 */
+  }
+
+  return opts.cap ? all.slice(0, opts.cap) : all;
+}
+
+async function resolveDailyCompanies(): Promise<string[]> {
+  const all = await getAllListedCompanies();
+  if (all.length === 0) return [];
+  const cursor = await readCursor();
+  const total = all.length;
+  const start = cursor.index % total;
+  const end = Math.min(start + (DAILY_COMPANY_LIMIT || 100), start + total);
+  const names: string[] = [];
+  for (let i = start; i < end; i++) names.push(all[i % total].name);
+  const newIndex = (start + (DAILY_COMPANY_LIMIT || 100)) % total;
+  await writeCursor({ index: newIndex, round: cursor.round, lastCompany: names[names.length - 1] });
+  return names;
+}
+
+export function candidateDedupKey(c: CompanyCandidate): string {
+  return c.url;
 }

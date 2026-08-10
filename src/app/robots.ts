@@ -1,3 +1,15 @@
 import type { MetadataRoute } from "next";
-import { env } from "@/lib/env";
-export default function robots(): MetadataRoute.Robots { return { rules: [{ userAgent: "*", allow: "/", disallow: ["/admin/", "/reports/", "/assessment/status/", "/api/"] }], sitemap: `${env.NEXT_PUBLIC_SITE_URL}/sitemap.xml` }; }
+import { SITE } from "@/lib/seo";
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+        disallow: ["/admin/", "/reports/", "/assessment/status/", "/api/"],
+      },
+    ],
+    sitemap: `${SITE.url}/sitemap.xml`,
+    host: SITE.domain,
+  };
+}

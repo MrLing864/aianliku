@@ -12,7 +12,37 @@
 
 import { discoverCandidates } from "./discover";
 import { enrichCandidate } from "./enrich";
-import { mapLimit, sleep, canFetch } from "../lib/fetch";
+import { mapLimit } from "../lib/fetch";
+
+// 本地 sleep / canFetch，避免从 ../lib/fetch 静态导入在某些 ESM 解析下绑定为 undefined
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+// robots.txt 合规检查（本地实现，尽力而为；解析失败默认允许抓取）
+async function canFetch(url: string): Promise<boolean> {
+  try {
+    const u = new URL(url);
+    const robotsUrl = `${u.protocol}//${u.host}/robots.txt`;
+    const txt = await (await fetch(robotsUrl, { signal: AbortSignal.timeout(5000) })).text();
+    const lines = txt.split(/\r?\n/);
+    let agentMatch = false;
+    const disallow: string[] = [];
+    for (const raw of lines) {
+      const line = raw.trim();
+      if (/^user-agent:/i.test(line)) {
+        agentMatch = /user-agent:\s*\*/i.test(line) || /user-agent:\s*tsx|bot/i.test(line);
+      } else if (/^disallow:/i.test(line) && agentMatch) {
+        const p = line.split(/:\s*/, 2)[1]?.trim();
+        if (p) disallow.push(p);
+      }
+    }
+    const path = u.pathname + u.search;
+    return !disallow.some((p) => p !== "/" && path.startsWith(p));
+  } catch {
+    return true;
+  }
+}
 import { writeFileSync, mkdirSync, appendFileSync } from "fs";
 import { dirname } from "path";
 import { startRun, type RunLogSession } from "../lib/runlog";
@@ -46,16 +76,14 @@ async function run() {
     return;
   }
 
-  // 预去重：过滤数据库中已存在的 dedupKey
+  // 预去重（V2）：由后台统一去重服务做精确幂等，此处仅用归一化 sourceUrl 轻量跳过明显重复，避免重复 LLM 消耗。
   let toProcess = candidates;
   if (writeDb) {
-    const { existingDedupKeys } = await import("../lib/cloudbase");
-    const { candidateDedupKey } = await import("./discover");
-    const keys = candidates.map(candidateDedupKey);
-    const existing = await existingDedupKeys(keys);
+    const { existingSourceUrls } = await import("../lib/cloudbase");
+    const existing = await existingSourceUrls(candidates.map((c) => c.sourceUrl).filter(Boolean));
     const before = toProcess.length;
-    toProcess = candidates.filter((c) => !existing.has(candidateDedupKey(c)));
-    console.log(`[gov] 预去重：跳过 ${before - toProcess.length} 条已存在，剩余 ${toProcess.length}`);
+    toProcess = candidates.filter((c) => !existing.has(c.sourceUrl));
+    console.log(`[gov] 预去重：跳过 ${before - toProcess.length} 条已存在来源，剩余 ${toProcess.length}`);
   }
 
   const limited = limit ? toProcess.slice(0, limit) : toProcess;

@@ -54,36 +54,30 @@ callCloudApi({
 
 ### Preferred path
 
-Use `manageGateway(action="createAccess")`.
-
-### Plan B: `callCloudApi`
-
-Use raw cloud API only after checking the documentation for `CreateCloudBaseGWAPI` and confirming the gateway parameter contract.
+Use Domain/Route via `manageGateway(action="createRoute")`. Omit `domain` to attach the route on the HTTP gateway IsDefault domain (`DomainType=HTTPSERVICE`, typically `*.{region}.app.tcloudbase.com`).
 
 ```javascript
-callCloudApi({
-  service: "tcb",
-  action: "CreateCloudBaseGWAPI",
-  params: {
-    EnableUnion: true,
-    Path: "/api/users",
-    ServiceId: "{envId}",
-    Type: 6,
-    Name: "functionName",
-    AuthSwitch: 2,
-    PathTransmission: 2,
-    EnableRegion: true,
-    Domain: "*"
-  }
+manageGateway({
+  action: "createRoute",
+  targetName: "functionName",
+  upstreamResourceType: "SCF", // Event function -> SCF; HTTP function -> WEB_SCF
+  path: "/api/users",
+  auth: false
 });
 ```
 
-Key parameters:
+**IsDefault vs static hosting CDN:** many environments also list an IsDefault `STATIC_STORE` domain (`*.tcloudbaseapp.com`). Omitting `domain` does **not** attach to that static-hosting CDN hostname, and it is **not** a `STATIC_STORE` upstream binding. Confirm with `queryGateway(action="listRoutes")` — inspect `Domain`, `DomainType`, `Path`, and `UpstreamResourceType` on the created route.
 
-- `Type: 6` -> function gateway type.
-- `AuthSwitch: 2` -> no auth. Use an authenticated mode only when the requirement says so.
-- `Domain: "*"` -> default domain.
+Upstream type:
 
+- HTTP cloud function -> `upstreamResourceType="WEB_SCF"`
+- Event cloud function -> `upstreamResourceType="SCF"`
+- CloudRun -> `upstreamResourceType="CBR"`
+- Static hosting -> `upstreamResourceType="STATIC_STORE"` (serviceName often `staticstore`)
+
+Do **not** use deprecated GWAPI / `CreateCloudBaseGWAPI` via `callCloudApi` (blocked in evaluate mode and removed from MCP).
+Do **not** pass `manageFunctions` `type="HTTP"|"Event"` into `manageGateway`; gateway uses `upstreamResourceType` only.
+When a deploy/create tool returns `accessUrl` or `accessUrls`, prefer those values directly; they already rank gateway custom domains before default domains when routes exist.
 ## Environment variable updates
 
 Do not overwrite function environment variables blindly.
@@ -126,13 +120,15 @@ Examples:
 - `0 0 2 1 * * *` -> 2:00 AM on the first day of every month
 - `0 30 9 * * * *` -> 9:30 AM every day
 
-### VPC access
+### VPC field shape (example only)
+
+When a function already needs VPC egress (exception path: existing TCP DB clients), `vpc` IDs must be real (never placeholders). This is a field-shape example — not a recommendation to introduce TCP DB access. Prefer native SDK / MCP SQL for new CRUD. Full exception policy: `./vpc-and-tcp-database.md`.
 
 ```javascript
 {
   vpc: {
-    vpcId: "vpc-xxxxx",
-    subnetId: "subnet-xxxxx"
+    vpcId: "<real-vpc-id>",
+    subnetId: "<real-subnet-id>"
   }
 }
 ```
@@ -152,11 +148,13 @@ Prefer the converged entrances below, but translate historical names when they a
 | `manageFunctionTriggers` | `manageFunctions(action="createFunctionTrigger"|"deleteFunctionTrigger")` |
 | `readFunctionLayers` | `queryFunctions(action="listLayers"|"listLayerVersions"|"getLayerVersionDetail"|"listFunctionLayers")` |
 | `writeFunctionLayers` | `manageFunctions(action="createLayerVersion"|"deleteLayerVersion"|"attachLayer"|"detachLayer"|"updateFunctionLayers")` |
-| `createFunctionHTTPAccess` | `manageGateway(action="createAccess")` |
+| `createFunctionHTTPAccess` | `manageGateway(action="createRoute")` with `upstreamResourceType="WEB_SCF"` |
 
 ## CLI fallback
 
-Use CLI **only** when MCP tools are unavailable AND CLI is explicitly enabled in the runtime environment.
+Use CLI when MCP function tools are **not available in this session** (first conversation, MCP just installed and needs restart, or mcporter/IDE MCP unreachable), or when the user/CI explicitly asks for CLI.
+
+Before CLI deploy: ensure MCP is configured for the next session when missing (`mcp-setup.md`), then follow `cloudbase-cli` (`core.md` + `functions.md`: `tcb login` → confirm envId → `tcb env use` → `tcb fn deploy`). Do **not** use `tcb deploy`. Decision tree: guideline `tooling-fallback.md` (includes No npm/npx).
 
 - `tcb fn deploy <name>` -> Event Function
 - `tcb fn deploy <name> --httpFn` -> HTTP Function
@@ -164,8 +162,8 @@ Use CLI **only** when MCP tools are unavailable AND CLI is explicitly enabled in
 - `tcb fn deploy --all` -> Deploy all functions
 - `tcb fn config update <name>` -> Update function config (timeout, memorySize, envVariables)
 
-**Important:** When the available capabilities include MCP tools but not CLI access, use MCP tools exclusively. Do not attempt CLI commands in such environments.
+**Important:** When MCP tools are available in this session, prefer them over CLI unless the user asked for CLI. When MCP is missing but a shell can run `tcb`, use CLI — do not block on restart.
 
-**Batch updates via MCP:** MCP does not have a `--all` batch parameter. To update multiple functions, call `manageFunctions(action="updateFunctionConfig")` individually for each function.
+**Batch updates via MCP:** MCP does not have a `--all` batch parameter. To update multiple functions, call `manageFunctions(action="updateFunctionConfig")` individually for each function. CLI may use `--all` when on the CLI path.
 
-In non-interactive agent runs, do not default to CLI login or interactive setup flows.
+In non-interactive CI, prefer `tcb login --apiKeyId / --apiKey` (env-injected) over interactive device-code flows.

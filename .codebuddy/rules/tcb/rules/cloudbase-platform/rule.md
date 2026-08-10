@@ -1,22 +1,19 @@
 ---
 name: cloudbase-platform
 description: CloudBase platform overview and routing guide. This skill should be used when users need high-level capability selection, platform concepts, console navigation, or cross-platform best practices before choosing a more specific implementation skill.
-version: 2.24.1
+version: 2.25.10
 alwaysApply: false
 ---
 
-## Standalone Install Note
+## Sibling skills (local only)
 
-If this environment only installed the current skill, start from the CloudBase main entry and use the published `cloudbase/references/...` paths for sibling skills.
+Sibling CloudBase skills ship beside this skill. Use local relative paths such as `../auth-tool-cloudbase/SKILL.md`.
 
-- CloudBase main entry: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/SKILL.md`
-- Current skill raw source: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-platform/SKILL.md`
+If a referenced sibling skill file is missing from this environment, ask the user to install the full CloudBase plugin (or the missing skill). Do **not** HTTP-fetch remote skill or protocol markdown into the agent context.
 
-Keep local `references/...` paths for files that ship with the current skill directory. When this file points to a sibling skill such as `auth-tool` or `web-development`, use the standalone fallback URL shown next to that reference.
-
-**Cross-cutting protocols** (always load these when doing code changes or deployments in standalone mode):
-- Change Safety Protocol: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-platform/references/protocols/change-safety-protocol.md`
-- Deployment Gate: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-platform/references/protocols/deployment-gate.md`
+**Cross-cutting protocols** (required before code changes or deployments):
+- Change Safety Protocol: `references/protocols/change-safety-protocol.md`
+- Deployment Gate: `references/protocols/deployment-gate.md`
 
 ## Activation Contract
 
@@ -32,16 +29,18 @@ Keep local `references/...` paths for files that ship with the current skill dir
 
 ### Then also read
 
-- Web app implementation -> `../web-development/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/web-development/SKILL.md`)
-- Web auth and provider setup -> `../auth-tool/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/auth-tool/SKILL.md`), `../auth-web/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/auth-web/SKILL.md`)
-- Mini program development -> `../miniprogram-development/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/miniprogram-development/SKILL.md`)
-- WeChat Pay, Official Account OAuth, JSAPI Pay, or Native QR-code Pay through CloudBase Integration Center -> `../cloudbase-wechat-integration/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-wechat-integration/SKILL.md`; official docs: `https://docs.cloudbase.net/integration/introduce/index.md`)
-- Cloud functions -> `../cloud-functions/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloud-functions/SKILL.md`)
-- Official HTTP API clients -> `../http-api/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/http-api/SKILL.md`)
-- Document database -> `../no-sql-web-sdk/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/no-sql-web-sdk/SKILL.md`) or `../no-sql-wx-mp-sdk/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/no-sql-wx-mp-sdk/SKILL.md`)
-- CloudBase PostgreSQL / PG -> `../postgresql-development/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/postgresql-development/SKILL.md`)
-- MySQL relational database / data modeling -> `../relational-database-tool/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/relational-database-tool/SKILL.md`) or `../data-model-creation/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/data-model-creation/SKILL.md`)
-- Cloud storage -> `../cloud-storage-web/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloud-storage-web/SKILL.md`)
+- Minimal Web + database demo (BaaS-first, no cloud functions by default) -> `../minimal-web-baas-demo/SKILL.md`
+  - **Stack order for 最小前后端 / Lovable-like demos:** Web SDK CRUD > MCP schema > template warmup during credential wait > cloud functions (default count = 0). Capability sniff: connector ready → `envQuery` → lock one DB plane → MCP schema → `@cloudbase/js-sdk` CRUD → preview.
+- Web app implementation -> `../web-development/SKILL.md`
+- Web auth and provider setup -> `../auth-tool-cloudbase/SKILL.md`, `../auth-web-cloudbase/SKILL.md`
+- Mini program development -> `../miniprogram-development/SKILL.md`
+- WeChat Pay, Official Account OAuth, JSAPI Pay, or Native QR-code Pay through CloudBase Integration Center -> `../cloudbase-wechat-integration/SKILL.md` (official docs: `https://docs.cloudbase.net/integration/introduce/index.md`)
+- Cloud functions -> `../cloud-functions/SKILL.md`
+- Official HTTP API clients -> `../http-api-cloudbase/SKILL.md`
+- Document database -> `../cloudbase-document-database-web-sdk/SKILL.md` or `../cloudbase-document-database-in-wechat-miniprogram/SKILL.md`
+- CloudBase PostgreSQL / PG -> `../postgresql-development-cloudbase/SKILL.md`
+- MySQL relational database / data modeling -> `../relational-database-mcp-cloudbase/SKILL.md` or `../data-model-creation/SKILL.md`
+- Cloud storage -> `../cloud-storage-web/SKILL.md`
 
 ### Do NOT use for
 
@@ -58,7 +57,7 @@ Keep local `references/...` paths for files that ship with the current skill dir
 - Starting any deployment, publish, custom domain, or CloudRun work without first completing the checks in `cloudbase-platform/references/protocols/deployment-gate.md`.
 - **Confusing security domains with custom domains**: These are two completely different tools for different purposes:
   - `envDomainManagement` (action: create/delete) = Security domains (安全域名) for CORS/request source validation - used for browser upload whitelisting. Does NOT accept certificateId.
-  - `manageGateway(action="bindCustomDomain")` = Custom domains (自定义域名) for public HTTPS access with SSL certificates - requires domain and certificateId parameters.
+  - `manageGateway(action="bindCustomDomain")` = Bind a **new** custom domain (自定义域名) for public HTTPS — requires `domain` + `certificateId`. If `queryGateway(action="listCustomDomains")` already returns a usable custom domain, prefer `manageGateway(action="createRoute", domain="<existing-domain>")` instead; routing does **not** need certificateId.
 
 ## When to use this skill
 
@@ -86,19 +85,19 @@ Use this skill for **CloudBase platform knowledge** when you need to:
    - Use SDK built-in authentication features (Web)
    - Understand natural login-free feature (Mini Program)
    - Configure appropriate database permissions
-   - Use cloud functions for cross-collection operations
+   - Prefer `@cloudbase/js-sdk` direct DB access for browser CRUD; use cloud functions only for secrets, scheduled/background jobs, or elevated cross-collection logic that security rules / RLS cannot express (see `../minimal-web-baas-demo/SKILL.md` for the demo default)
 
 3. **Use correct SDKs and APIs**
    - Different platforms require different SDKs for data models
    - MySQL data models must use models SDK, not collection API
-   - PostgreSQL / CloudBase PG work must route to `postgresql-development`; do not reuse NoSQL `app.database()` / `db.collection(...)` snippets or MySQL `queryMysqlDatabase` / `manageMysqlDatabase` for PG data paths
+   - PostgreSQL / CloudBase PG work must route to `postgresql-development-cloudbase`; do not reuse NoSQL `app.database()` / `db.collection(...)` snippets or MySQL `queryMysqlDatabase` / `manageMysqlDatabase` for PG data paths
    - Use `envQuery` tool to get environment ID
    - In an existing Web application with fixed structure, inspect the existing `src/lib/backend.*`, `src/lib/auth.*`, `src/lib/*service.*`, and bound page handlers before broad concept reading.
 
 4. **Use the canonical CloudBase MCP setup from the main `cloudbase` guideline**
    - This platform overview intentionally does **not** duplicate the full MCP / mcporter config block
    - For the canonical config snippet, CLI commands, and auth examples, read the main `cloudbase` guideline first
-   - Keep the same core rules here: use MCP first, inspect tool schemas before execution, and do not hard-code Secret ID / Secret Key / Env ID in config
+   - Keep the same core rules here: prefer MCP when tools are available in this session; if not, configure MCP for next session and use `tcb` CLI now (`../cloudbase-cli/SKILL.md`, `../cloudbase/references/tooling-fallback.md`). Inspect tool schemas before MCP execution. Do not hard-code Secret ID / Secret Key / Env ID in config
    - Keep the auth split explicit: management-side login uses `auth`, while application-side auth configuration uses `queryAppAuth` / `manageAppAuth`
 
 ---
@@ -112,13 +111,15 @@ When working with domain-related tasks, use the correct tool based on the requir
 | Requirement | Tool | Parameters | Purpose |
 |-------------|------|------------|---------|
 | **Security Domain (安全域名)** | `envDomainManagement` | `action`, `domains` (array of host:port strings) | CORS/request source validation for browser uploads. No certificate involved. |
-| **Custom Domain (自定义域名)** | `manageGateway(action="bindCustomDomain")` | `domain` (string), `certificateId` (string) | Public HTTPS access with SSL certificate. Requires certId from SSL console. |
-| **Delete Custom Domain** | `manageGateway(action="deleteCustomDomain")` | `domain` (string) | Remove custom domain binding. |
+| **Reuse existing Custom Domain** | `queryGateway(listCustomDomains)` → `manageGateway(createRoute)` | `domain` = existing custom domain; route fields | Expose a service/path on an already-bound custom domain. **No certificateId.** Prefer this when a custom domain already exists. |
+| **Bind new Custom Domain (自定义域名)** | `manageGateway(action="bindCustomDomain")` | `domain` (string), `certificateId` (string) | First-time bind of a new public HTTPS domain. Requires certId from SSL console. |
+| **Delete Custom Domain** | `manageGateway(action="deleteCustomDomain")` | `domain` (string) | Remove custom domain binding (only after routes on that domain are deleted). |
 
 **Key indicators for choosing the right tool:**
-- Task mentions "certificate ID" or "SSL" → Use `manageGateway(action="bindCustomDomain")`
+- Task mentions "自定义域名访问" but env already has a custom domain → `listCustomDomains` then `createRoute(domain=...)` (no certificateId)
+- Task mentions "certificate ID" or "SSL" **and** needs to bind a **new** domain → `manageGateway(action="bindCustomDomain")`
 - Task mentions "浏览器上传" or "CORS" or "安全域名" → Use `envDomainManagement`
-- Task mentions "public access" or "HTTPS" with domain → Use `manageGateway`
+- Task mentions "public access" or "HTTPS" with domain → Prefer reuse via `createRoute` when possible; only `bindCustomDomain` for first-time domain bind
 
 ### Recording Operation Results
 
@@ -229,8 +230,8 @@ Example structure for operation recording:
 - **Forbidden behavior**: Do not use cloud functions to implement login authentication logic
 - **Session management**: For route guards and login proof, use `auth.getSession()` and require `data.session`; do not use deprecated `getLoginState()` or `auth.getUser()` / `auth.getCurrentUser()` as proof of real login.
 - **Provider and login-method setup**: Use `queryAppAuth` / `manageAppAuth`, not the MCP `auth` tool
-- **Anonymous login is disabled by default.** The SDK initialized with `accessKey` automatically creates an anonymous session. If the app uses AuthGuard or RLS for access control, ensure `is_anonymous` checks are in place when anonymous access is allowed.
-- **⚠️ PG RLS: Use `auth.uid()`, NOT `current_user`.** When writing RLS policies for CloudBase PostgreSQL, the user identity must use `auth.uid()` (returns the JWT `sub` / actual user ID). Do NOT use `current_user` or `current_setting(...)` — these PostgreSQL built-in functions return the database role name (e.g. `authenticated`), not the CloudBase auth user ID. CloudBase PG provides four auth helper functions: `auth.uid()`, `auth.role()`, `auth.email()`, `auth.jwt()`. Verify availability with `SELECT proname FROM pg_proc WHERE pronamespace = 'auth'::regnamespace`.
+- **Anonymous login is disabled by default.** Publishable `accessKey` alone does **not** create a gateway-authenticated anonymous session. With `@cloudbase/js-sdk` **3.x**, call `await auth.signInAnonymously()` (or an equivalent authenticated session) **before** NoSQL `app.database()` CRUD, or the gateway returns **401**. If the app uses AuthGuard or RLS for access control, ensure `is_anonymous` checks are in place when anonymous access is allowed.
+- **⚠️ PG RLS: Use `auth.uid()`, NOT `current_user`.** When writing RLS policies for CloudBase PostgreSQL, the user identity must use `auth.uid()` (returns the JWT `sub` / actual user ID as **`text`**, not `uuid` — unlike Supabase). Prefer owner columns as `varchar(64)` / `text`; if the column is `uuid`, cast with `auth.uid()::uuid` or you get `operator does not exist: uuid = text`. Do NOT use `current_user` or `current_setting(...)` — these PostgreSQL built-in functions return the database role name (e.g. `authenticated`), not the CloudBase auth user ID. CloudBase PG provides four auth helper functions: `auth.uid()`, `auth.role()`, `auth.email()`, `auth.jwt()`. Verify availability with `SELECT proname FROM pg_proc WHERE pronamespace = 'auth'::regnamespace`.
 
 ### Mini Program Authentication
 - **Login-free feature**: Mini program CloudBase is naturally login-free, no login flow needed
@@ -271,7 +272,7 @@ Example structure for operation recording:
    Create collection → Configure security rules → Write code → Test
    ```
    - Use `managePermissions(action="updateResourcePermission")` to configure resource permissions
-   - If permissions were just changed, allow a short propagation window (typically 2-5 minutes) before retesting, but do not assume every failure is cache. Re-check the actual rule shape and active client write pattern first.
+   - If permissions were just changed, retry after a few seconds (typically within ~30s). Do not blind-wait 2-5 minutes. If it still fails, re-check the actual rule shape and active client write pattern first — most failures are misconfigured rules, not cache.
    - See `no-sql-web-sdk/security-rules.md` for detailed `resourceType="noSqlDatabase"` examples only; do not treat `doc._openid`, `auth.openid`, query-subset validation, or `create` / `update` / `delete` JSON templates as generic rules for functions, storage, or SQL tables
    - Official references:
      - General security rules overview: `https://cloud.tencent.com/document/product/876/41802`
@@ -291,7 +292,9 @@ Compatibility note:
    - **System logs**: `PRIVATE` or `ADMINONLY`
 
 5. **Cross-Collection Operations**:
-   - If user has no special requirements, operations involving cross-database collections must be implemented via cloud functions
+   - Prefer security rules / RLS and client SDK when the permission model allows it
+   - Use cloud functions when the operation needs elevated privileges, server secrets, or multi-collection logic that rules cannot express
+   - For minimal Web demos (Todo / Notes / Kanban / 最小前后端), do **not** introduce cloud functions for CRUD — follow `../minimal-web-baas-demo/SKILL.md`
 
 ## Role Management (MCP)
 
@@ -357,8 +360,8 @@ managePermissions(action="updateRole", roleId="role-xxx", addPolicies=["Storages
 See also: CLI equivalent commands in `cloudbase-cli/references/permission.md`
 
 3. **Cloud Function Optimization**:
-   - If involving cloud functions, while ensuring security, can minimize the number of cloud functions as much as possible
-   - For example: implement one cloud function for client-side requests, implement one cloud function for data initialization
+   - Browser CRUD should not default to a cloud-function middleware layer; prefer `@cloudbase/js-sdk` → database (see `../minimal-web-baas-demo/SKILL.md`)
+   - When cloud functions are truly required, keep the count minimal and scope each function to secrets, elevated privilege, or background work
 
 ## Data Models
 
@@ -483,3 +486,10 @@ When directing users to console pages:
 - Explain what they can do on each page
 - Provide context about why they need to access that specific page
 - For configuration pages (like login management), guide users through the setup process
+
+## Reference index
+
+All packaged reference files (required for skill lint reachability):
+
+- [protocols/change-safety-protocol.md](references/protocols/change-safety-protocol.md)
+- [protocols/deployment-gate.md](references/protocols/deployment-gate.md)

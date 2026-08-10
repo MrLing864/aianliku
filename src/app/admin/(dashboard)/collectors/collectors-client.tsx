@@ -6,13 +6,13 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/src/components/ui/card";
-import { Badge } from "@/src/components/ui/badge";
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import type {
   CollectorCategory,
   CollectorDailyResult,
   CollectorRunRecord,
-} from "@/src/lib/repositories/admin";
+} from "@/lib/repositories/admin";
 
 interface CategoryOption {
   value: CollectorCategory;
@@ -34,6 +34,16 @@ function defaultTo(): string {
   return new Date().toISOString().slice(0, 10);
 }
 
+const EMPTY_COUNTS: CollectorRunRecord["counts"] = {
+  candidates: 0,
+  aiCases: 0,
+  success: 0,
+  created: 0,
+  updated: 0,
+  failed: 0,
+  skipped: 0,
+};
+
 function StatusBadge({ status }: { status: CollectorRunRecord["status"] }) {
   const map: Record<CollectorRunRecord["status"], string> = {
     running: "bg-blue-100 text-blue-700",
@@ -47,7 +57,9 @@ function StatusBadge({ status }: { status: CollectorRunRecord["status"] }) {
     partial: "部分成功",
     failed: "失败",
   };
-  return <span className={`px-2 py-0.5 rounded-full text-xs ${map[status]}`}>{label[status]}</span>;
+  // 兜底：遇到未知状态时不要因 map[status] 为 undefined 而渲染异常
+  const cls = map[status] || "bg-gray-100 text-gray-600";
+  return <span className={`px-2 py-0.5 rounded-full text-xs ${cls}`}>{label[status] || status || "未知"}</span>;
 }
 
 export function CollectorsClient({ daily, runs, categories, dbConfigured }: Props) {
@@ -78,8 +90,10 @@ export function CollectorsClient({ daily, runs, categories, dbConfigured }: Prop
 
   // 明细列表过滤
   const filteredRuns = useMemo(() => {
-    return runs.filter((r) => {
-      const d = new Date(r.triggeredAt).toISOString().slice(0, 10);
+    return (runs || []).filter((r) => {
+      const t = r.triggeredAt ? new Date(r.triggeredAt) : null;
+      if (!t || Number.isNaN(t.getTime())) return false; // 脏数据不参与展示，避免 toISOString 抛错
+      const d = t.toISOString().slice(0, 10);
       if (d < from || d > to) return false;
       if (catFilter !== "all" && r.category !== catFilter) return false;
       if (byFilter !== "all" && r.scheduledBy !== byFilter) return false;
@@ -253,9 +267,13 @@ export function CollectorsClient({ daily, runs, categories, dbConfigured }: Prop
           {filteredRuns.length === 0 && (
             <div className="py-6 text-center text-gray-400">所选范围暂无运行记录</div>
           )}
-          {filteredRuns.map((r) => (
+          {filteredRuns.map((r, idx) => {
+            // 关键兜底：历史脏数据中 counts 可能整体缺失，
+            // 直接访问 r.counts.candidates 会抛 TypeError 并让整页 500。
+            const c = r.counts || EMPTY_COUNTS;
+            return (
             <div
-              key={r.runId}
+              key={r.runId || `run-${idx}`}
               className="flex flex-wrap items-center justify-between gap-2 border rounded-lg px-4 py-3"
             >
               <div className="min-w-0">
@@ -265,7 +283,7 @@ export function CollectorsClient({ daily, runs, categories, dbConfigured }: Prop
                   <StatusBadge status={r.status} />
                 </div>
                 <div className="text-xs text-gray-400 mt-1">
-                  {new Date(r.triggeredAt).toLocaleString("zh-CN")}
+                  {r.triggeredAt ? new Date(r.triggeredAt).toLocaleString("zh-CN") : "—"}
                   {" · "}
                   {r.scheduledBy === "cron" ? "定时器" : "手动"}
                 </div>
@@ -276,35 +294,36 @@ export function CollectorsClient({ daily, runs, categories, dbConfigured }: Prop
               <div className="flex gap-4 text-sm text-right">
                 <div>
                   <div className="text-gray-400 text-xs">候选</div>
-                  <div>{r.counts.candidates}</div>
+                  <div>{c.candidates}</div>
                 </div>
                 <div>
                   <div className="text-gray-400 text-xs">AI</div>
-                  <div>{r.counts.aiCases}</div>
+                  <div>{c.aiCases}</div>
                 </div>
                 <div>
                   <div className="text-gray-400 text-xs">成功</div>
-                  <div className="text-green-600">{r.counts.success}</div>
+                  <div className="text-green-600">{c.success}</div>
                 </div>
                 <div>
                   <div className="text-gray-400 text-xs">新增</div>
-                  <div>{r.counts.created}</div>
+                  <div>{c.created}</div>
                 </div>
                 <div>
                   <div className="text-gray-400 text-xs">去重</div>
-                  <div className="text-blue-600">{r.counts.updated}</div>
+                  <div className="text-blue-600">{c.updated}</div>
                 </div>
                 <div>
                   <div className="text-gray-400 text-xs">失败</div>
-                  <div className="text-red-600">{r.counts.failed}</div>
+                  <div className="text-red-600">{c.failed}</div>
                 </div>
                 <div>
                   <div className="text-gray-400 text-xs">跳过</div>
-                  <div>{r.counts.skipped}</div>
+                  <div>{c.skipped}</div>
                 </div>
               </div>
             </div>
-          ))}
+            );
+          })}
         </CardContent>
       </Card>
     </div>

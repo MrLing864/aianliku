@@ -3,7 +3,7 @@ import { ArrowUpRight, Mail } from "lucide-react";
 import { Logo } from "@/components/logo";
 
 const links = {
-  发现: [{ href: "/cases", label: "全部案例" }, { href: "/industries/manufacturing", label: "热门行业" }, { href: "/scenarios/knowledge-base", label: "热门场景" }],
+  发现: [{ href: "/cases", label: "全部案例" }, { href: "/industries/manufacturing", label: "热门行业" }, { href: "/scenarios/knowledge-base", label: "热门场景" }, { href: "/faq", label: "常见问题" }],
   产品: [{ href: "/assessment", label: "AI 企业体检" }, { href: "/about", label: "关于我们" }, { href: "/contact", label: "联系我们" }],
   规则: [{ href: "/privacy", label: "隐私政策" }, { href: "/terms", label: "使用条款" }, { href: "/contact?type=correction", label: "内容更正" }],
 };
@@ -19,6 +19,10 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-14 flex flex-col gap-3 border-t pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between"><p>© 2026 AI案例库 · 内容用于前期机会判断</p><p>AI 辅助整理内容均经人工审核后发布</p></div>
+        <div className="mt-4 flex flex-col gap-2 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:text-foreground">粤ICP备2026111580号</a>
+          <p>本站为公开案例整理工具，不构成任何投资或实施建议</p>
+        </div>
       </div>
     </footer>
   );

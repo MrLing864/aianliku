@@ -1,4 +1,5 @@
 import { fetchHtml, discoverUrls as regexDiscoverUrls, mapLimit } from "./lib/fetch";
+import { normalizeSourceUrl } from "./lib/normalize";
 import { extractTencentList, classifyAICase, extractCaseDetail, extractCustomerDetailText, type RawListItem } from "./lib/extract";
 import { normalizeCase, type CaseStudy } from "./lib/normalize";
 import { discoverAliyunListItems, extractAliyunDetailText, extractAliyunMeta } from "./lib/aliyun";
@@ -82,14 +83,24 @@ async function run() {
 
   const limitedItems = limit ? rawItems.slice(0, limit) : rawItems;
 
+  // URL 层预去重：已入库的 sourceUrl 直接跳过，避免对重复案例重复调用 LLM（零 LLM 消耗拦截）。
+  let toProcess = limitedItems;
+  if (writeDb || dryRun) {
+    const { existingSourceUrls } = await import("./lib/cloudbase");
+    const existing = await existingSourceUrls(limitedItems.map((i) => i.sourceUrl));
+    toProcess = limitedItems.filter((i) => !existing.has(normalizeSourceUrl(i.sourceUrl)));
+    const prededupSkipped = limitedItems.length - toProcess.length;
+    console.log(`[run] URL 预去重：候选 ${limitedItems.length}，已存在 ${prededupSkipped}，待处理 ${toProcess.length}`);
+  }
+
   let processed = 0;
   const aiCases: CaseStudy[] = [];
   const skipped: { url: string; reason: string }[] = [];
   const errors: { url: string; error: string }[] = [];
 
-  await mapLimit(limitedItems, 5, async (raw) => {
+  await mapLimit(toProcess, 5, async (raw) => {
     processed++;
-    console.log(`[run] [${processed}/${limitedItems.length}] ${raw.sourceUrl}`);
+    console.log(`[run] [${processed}/${toProcess.length}] ${raw.sourceUrl}`);
     try {
       const detailRes = await fetchHtml(raw.sourceUrl);
 
@@ -134,7 +145,7 @@ async function run() {
     }
   });
 
-  console.log(`\n[run] 完成：候选 ${limitedItems.length}，AI 案例 ${aiCases.length}，跳过 ${skipped.length}，错误 ${errors.length}`);
+  console.log(`\n[run] 完成：候选 ${toProcess.length}，AI 案例 ${aiCases.length}，跳过 ${skipped.length}，错误 ${errors.length}`);
 
   // 记录汇总计数（处理阶段）
   runSession?.inc({ aiCases: aiCases.length, skipped: skipped.length, failed: errors.length });

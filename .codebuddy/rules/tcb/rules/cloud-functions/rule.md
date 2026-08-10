@@ -1,22 +1,19 @@
 ---
 name: cloud-functions
 description: CloudBase function runtime guide for building, deploying, and debugging your own Event Functions or HTTP Functions. This skill should be used when users need application runtime code on CloudBase, not when they are merely calling CloudBase official platform APIs.
-version: 2.24.1
+version: 2.25.10
 alwaysApply: false
 ---
 
-## Standalone Install Note
+## Sibling skills (local only)
 
-If this environment only installed the current skill, start from the CloudBase main entry and use the published `cloudbase/references/...` paths for sibling skills.
+Sibling CloudBase skills ship beside this skill. Use local relative paths such as `../auth-tool-cloudbase/SKILL.md`.
 
-- CloudBase main entry: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/SKILL.md`
-- Current skill raw source: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloud-functions/SKILL.md`
+If a referenced sibling skill file is missing from this environment, ask the user to install the full CloudBase plugin (or the missing skill). Do **not** HTTP-fetch remote skill or protocol markdown into the agent context.
 
-Keep local `references/...` paths for files that ship with the current skill directory. When this file points to a sibling skill such as `auth-tool` or `web-development`, use the standalone fallback URL shown next to that reference.
-
-**Cross-cutting protocols** (required for public exposure and code changes):
-- Change Safety Protocol: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-platform/references/protocols/change-safety-protocol.md`
-- Deployment Gate: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-platform/references/protocols/deployment-gate.md`
+**Cross-cutting protocols** (required before code changes or deployments):
+- Change Safety Protocol: `../cloudbase-platform/references/protocols/change-safety-protocol.md`
+- Deployment Gate: `../cloudbase-platform/references/protocols/deployment-gate.md`
 
 # Cloud Functions Development
 
@@ -32,15 +29,20 @@ Keep local `references/...` paths for files that ship with the current skill dir
 - You still need to decide between Event Function and HTTP Function.
 - The task mentions `manageFunctions`, `queryFunctions`, `manageGateway`, or legacy function-tool names.
 - The task might require `callCloudApi` as a fallback for logs or gateway setup.
+- An HTTP Function will call CloudBase resources through `@cloudbase/node-sdk` or `@cloudbase/manager-node` -> read `./references/http-function-credentials.md`. HTTP Functions must use explicit credentials; do not rely on the Event Function passwordless runtime path.
+
+### Exception only (do not read by default)
+
+- Migrating an **existing** app that already uses classic TCP DB clients (`DATABASE_URL` / Prisma / `mysql2` / `pg` / Redis) → read `./references/vpc-and-tcp-database.md` via `./references.md`. New business CRUD must prefer CloudBase native SDK (`app.database()` / `app.rdb()`) or MCP SQL tools instead of TCP.
 
 ### Then also read
 
 - Detailed reference routing -> `./references.md`
-- Auth setup or provider-related backend work -> `../auth-tool/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/auth-tool/SKILL.md`)
-- CloudBase Integration Center generated WeChat Pay or Official Account functions -> `../cloudbase-wechat-integration/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudbase-wechat-integration/SKILL.md`; official docs: `https://docs.cloudbase.net/integration/introduce/index.md`)
-- AI in functions -> `../ai-model-nodejs/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/ai-model-nodejs/SKILL.md`)
-- Long-lived container services or Agent runtimes -> `../cloudrun-development/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/cloudrun-development/SKILL.md`)
-- Calling CloudBase official platform APIs from a client or script -> `../http-api/SKILL.md` (standalone fallback: `https://cnb.cool/tencent/cloud/cloudbase/cloudbase-skills/-/git/raw/main/skills/cloudbase/references/http-api/SKILL.md`)
+- Auth setup or provider-related backend work -> `../auth-tool-cloudbase/SKILL.md`
+- CloudBase Integration Center generated WeChat Pay or Official Account functions -> `../cloudbase-wechat-integration/SKILL.md` (official docs: `https://docs.cloudbase.net/integration/introduce/index.md`)
+- AI in functions -> `../ai-model-nodejs/SKILL.md`
+- Long-lived container services or Agent runtimes -> `../cloudrun-development/SKILL.md`
+- Calling CloudBase official platform APIs from a client or script -> `../http-api-cloudbase/SKILL.md`
 
 ### Do NOT use for
 
@@ -61,12 +63,14 @@ Keep local `references/...` paths for files that ship with the current skill dir
 - Forgetting that runtime cannot be changed after creation.
 - Using cloud functions as the first answer for Web login.
 - Forgetting that HTTP Functions must ship `scf_bootstrap`, listen on port `9000`, and include dependencies.
+- Assuming an HTTP Function can use CloudBase SDKs without explicit credentials. The default temporary credential path is not reliable for HTTP Functions and credential rotation can break a running service. Use a CloudBase server API Key or Tencent Cloud key pair for `@cloudbase/node-sdk`; use a Tencent Cloud key pair for `@cloudbase/manager-node`. See `references/http-function-credentials.md`.
 - Forgetting to configure function security rules after creating an HTTP Function. Default rules reject anonymous callers with `EXCEED_AUTHORITY`. Note: anonymous login is disabled by default for new environments — if the function needs public access without authentication, configure the security rule to allow all callers rather than relying on anonymous login.
 - Mismatching the `scf_bootstrap` Node.js binary path with the function runtime (e.g. using `/var/lang/node18/bin/node` but setting `runtime: "Nodejs16.13"`).
 - For Custom Image HTTP Functions: forgetting that TCR, the CloudApp build, and SCF must be in the same region; using `:latest` instead of a unique tag; or confusing the request-driven port-`9000` image model with a long-lived CloudRun container that listens on the injected `PORT`.
 - Assuming MCP covers the whole image pipeline. `manageFunctions` covers SCF image deploy (Stage B) via `runtime: "CustomImage"` + `imageConfig`, but the CloudApp custom build → TCR push (Stage A) is a raw Tencent Cloud API path — confirm action names and parameters from official docs before any `callCloudApi` fallback.
 - Making code or configuration changes without first following the Change Safety Protocol (`cloudbase-platform/references/protocols/change-safety-protocol.md`).
 - Exposing functions publicly or deploying without first completing the checks in `cloudbase-platform/references/protocols/deployment-gate.md`.
+- **Defaulting new CRUD to TCP DB clients** (`DATABASE_URL` / `mysql2` / `pg` / Redis) instead of native `app.rdb()` / `app.database()` or MCP SQL. TCP is exception-only for existing ORM migrations — see `references/vpc-and-tcp-database.md` only then.
 
 ### Minimal checklist
 
@@ -109,6 +113,7 @@ Use these rules whenever you are writing the function code itself:
 - Keep routing and method handling explicit. Unknown paths should return `404`, and known paths with unsupported methods should normally return `405`.
 - Keep gateway setup and security-rule changes separate from the runtime code. They affect access, not the HTTP Function programming model.
 - Do not add HTTP access service configuration when the task is only to create an HTTP Function itself. Gateway paths or custom domains are separate access-layer work; public invocation requirements should be handled through the function security rule workflow (note: anonymous login is disabled by default).
+- If the HTTP Function calls CloudBase through `@cloudbase/node-sdk` or `@cloudbase/manager-node`, complete the explicit credential gate in `./references/http-function-credentials.md` before deployment. Never hardcode credentials in the function package.
 
 ## Quick decision table
 
@@ -139,9 +144,13 @@ Use these rules whenever you are writing the function code itself:
    - Use `manageFunctions(action="updateFunctionConfig")` for config updates (timeout, memorySize, envVariables)
    - For a Custom Image HTTP Function, call `manageFunctions(action="createFunction")` with `func.runtime="CustomImage"` and `imageConfig` (`imageUri` with tag; `registryId` for enterprise TCR); iterate later with `manageFunctions(action="updateFunctionCode")` + `imageConfig`. No `functionRootPath` is needed because the code lives in the image. See `./references/http-functions-custom-image.md`.
    - Keep `functionRootPath` as the directory that directly contains function folders (e.g., `cloudfunctions/` or `functions/`), NOT the project root and NOT the function subdirectory itself
-   - **Prefer MCP tools over CLI** — when MCP tools are available, use `manageFunctions` and `queryFunctions` instead of CLI commands
-   - **Do NOT assume CLI is available from task wording alone** — if the available capabilities only include MCP tools, use MCP tools exclusively
+   - **Prefer MCP when available** — use `manageFunctions` and `queryFunctions` when those tools are in this session
+   - **CLI fallback when MCP is missing** — if function tools are not loaded (first session / pre-restart), configure MCP for next time, then use `tcb fn deploy` via `../cloudbase-cli/SKILL.md` (see guideline `tooling-fallback.md`). Do not stall waiting for restart.
+   - **Do NOT invent CLI when the runtime has no shell** — if only MCP exists and it works, stay on MCP; if neither works, report the gap
    - For batch updates (multiple functions), call `manageFunctions(action="updateFunctionConfig")` individually for each function — MCP does not have a `--all` batch parameter like CLI
+   - If an HTTP Function uses `@cloudbase/node-sdk`, prefer a server API Key created with `manageAppAuth(action="createApiKey", keyType="api_key")` and inject it as `CLOUDBASE_APIKEY`; Tencent Cloud `SecretId` / `SecretKey` is also supported
+   - If an HTTP Function uses `@cloudbase/manager-node`, inject Tencent Cloud `SecretId` / `SecretKey`; do not claim that a CloudBase API Key initializes the Manager SDK
+   - Merge credential environment variables with the existing function configuration instead of replacing the whole environment-variable set
 
 4. **Prefer doc-first fallbacks**
    - If a task falls back to `callCloudApi`, first check the official docs or knowledge-base entry for that action
@@ -151,6 +160,7 @@ Use these rules whenever you are writing the function code itself:
 5. **Read the right detailed reference**
    - Event Function details -> `./references/event-functions.md`
    - HTTP Function details -> `./references/http-functions.md`
+   - HTTP Function CloudBase SDK credentials -> `./references/http-function-credentials.md`
    - HTTP Function from a container image (`Runtime: CustomImage`, TCR image pipeline) -> `./references/http-functions-custom-image.md`
    - Logs, gateway, env vars, and legacy mappings -> `./references/operations-and-config.md`
 
@@ -327,13 +337,27 @@ If these are unavailable, read `./references/operations-and-config.md` before an
 
 ### Gateway exposure
 
-- `queryGateway(action="getAccess")`
-- `manageGateway(action="createAccess")`
-- If gateway operations need raw cloud API fallback, read `./references/operations-and-config.md` first
+- `queryGateway(action="getRoute")` / `listRoutes` / `listCustomDomains`
+- `manageGateway(action="createRoute")` — for HTTP functions pass `upstreamResourceType="WEB_SCF"`; for Event functions pass `upstreamResourceType="SCF"`. Omit `domain` to attach the route on the HTTP gateway IsDefault domain (`DomainType=HTTPSERVICE`, typically `*.{region}.app.tcloudbase.com`)
+- **IsDefault vs static hosting CDN:** environments often also expose a separate IsDefault `STATIC_STORE` domain (`*.tcloudbaseapp.com`). Omitting `domain` does **not** bind that static-hosting CDN entry, and it is **not** a `STATIC_STORE` upstream binding (that requires `upstreamResourceType="STATIC_STORE"`). Verify with `queryGateway(action="listRoutes")` and check `Domain` / `DomainType` / `Path` / `UpstreamResourceType`
+- `manageGateway(action="updateRoute")` / `deleteRoute` / `bindCustomDomain` / `deleteCustomDomain`
+- When tool results include `accessUrl` / `accessUrls`, prefer them directly (gateway custom-domain URLs are ranked before default domains)
+- Do **not** call deprecated GWAPI actions via `callCloudApi` (`CreateCloudBaseGWAPI`, etc.)
 
 ## Related skills
 
 - `cloudrun-development` -> container services, long-lived runtimes, Agent hosting
-- `http-api` -> raw CloudBase HTTP API invocation patterns
+- `http-api-cloudbase` -> raw CloudBase HTTP API invocation patterns
 - `cloudbase-platform` -> general CloudBase platform decisions
 - `ops-inspector` -> AIOps-style inspection and log search across services
+
+## Reference index
+
+All packaged reference files (required for skill lint reachability):
+
+- [event-functions.md](references/event-functions.md)
+- [http-function-credentials.md](references/http-function-credentials.md)
+- [http-functions-custom-image.md](references/http-functions-custom-image.md)
+- [http-functions.md](references/http-functions.md)
+- [operations-and-config.md](references/operations-and-config.md)
+- [vpc-and-tcp-database.md](references/vpc-and-tcp-database.md)

@@ -1,20 +1,31 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Check, Database, FileCheck2, Gauge, SearchCheck, ShieldCheck, Sparkles } from "lucide-react";
 import { CaseCard } from "@/components/case-card";
 import { CatalogIcon } from "@/components/icon-map";
 import { DemoNotice } from "@/components/demo-notice";
 import { HeroSearch } from "@/components/hero-search";
+import { JsonLd } from "@/components/json-ld";
 import { SectionHeading } from "@/components/section-heading";
 import { Button } from "@/components/ui/button";
 import { industries, scenarios } from "@/lib/catalog";
 import { getFeaturedCases, getPublicStats } from "@/lib/repositories/cases";
+import { breadcrumbJsonLd, buildMetadata } from "@/lib/seo";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = buildMetadata({
+  title: "中国企业 AI 改造真实案例库",
+  description:
+    "AI案例库整理制造业、外贸、零售等行业的自动报价、自动客服、AI知识助手等真实落地案例。按行业与场景检索，查看投入、路径与结果，辅助你的 AI 改造决策。",
+  path: "/",
+});
 
 export default async function HomePage() {
   const [featuredCases, stats] = await Promise.all([getFeaturedCases(6), getPublicStats()]);
   return (
     <>
+      <JsonLd data={breadcrumbJsonLd([{ name: "首页", url: "/" }])} />
       <section className="relative isolate overflow-hidden border-b">
         <div className="surface-grid absolute inset-0 -z-10 opacity-65" />
         <div className="container-page py-20 text-center sm:py-28 lg:py-32">

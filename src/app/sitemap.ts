@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next";
 import { industries, scenarios } from "@/lib/catalog";
-import { env } from "@/lib/env";
+import { SITE } from "@/lib/seo";
 import { listCases, listCaseSitemapEntries } from "@/lib/repositories/cases";
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = env.NEXT_PUBLIC_SITE_URL;
-  const staticPages = ["", "/cases", "/about", "/contact", "/privacy", "/terms"].map((path) => ({
+  const base = SITE.url;
+  const staticPages: MetadataRoute.Sitemap = ["", "/cases", "/about", "/contact", "/privacy", "/terms", "/faq"].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),
-    changeFrequency: path === "/cases" ? "daily" as const : "monthly" as const,
+    changeFrequency: path === "/cases" ? "daily" : "monthly",
     priority: path === "" ? 1 : 0.7,
   }));
   let casePages: MetadataRoute.Sitemap = [];

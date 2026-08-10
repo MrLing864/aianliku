@@ -35,7 +35,8 @@
 | 场景聚合 | `/scenarios/{slug}` | 条件索引 |
 | 临时搜索 | `/search?q=...` | 否 |
 | 任意组合筛选 | `/cases?...` | 否，Canonical 指向 `/cases` 或合法聚合页 |
-| AI 体检介绍 | `/assessment` | 是 |
+| AI 体检介绍 | `/assessment` | 否（含表单/隐私，noindex） |
+| 常见问题 | `/faq` | 是，含 FAQPage 结构化数据 |
 | 体检问诊 | `/assessment/session/{id}` | 否 |
 | 报告令牌交换 | `/reports/access#token=...` | 否；Fragment 不发送给服务器 |
 | 私密报告 | `/reports/{reportId}` | 否；必须具有报告范围会话 |
@@ -61,7 +62,7 @@
 - Title：`{企业/匿名描述}{AI场景}案例：{核心业务结果}｜AI案例库`；
 - Description：使用经审核的 30 秒摘要，控制为适合搜索摘要的长度；
 - Canonical：当前主案例绝对 URL；
-- Open Graph：标题、摘要、统一品牌图、页面 URL；
+- Open Graph / Twitter Card：标题、摘要、动态生成的专属分享图（`/og` 路由，1200×630）、页面 URL；
 - 文章时间：首次发布时间和最后实质更新时间；
 - 不在 Title 中使用来源未披露的数字或夸大措辞。
 
@@ -69,21 +70,30 @@
 
 标题和描述来自人工编辑字段，不根据任意筛选参数自动拼接。无独立导语时即使案例达到 5 条也不能索引。
 
+### 4.3 公共站点级元数据
+
+- 根 `layout.tsx` 统一注入 `baseMetadata`：标题模板、canonical、Open Graph、Twitter Card（summary_large_image）、robots（含 googleBot 图片/摘要预览放宽）；
+- 单页 metadata 由 `src/lib/seo.ts` 的 `buildMetadata` 工厂生成，自动补全 canonical / OG / Twitter；
+- 站点域名、社交账号、默认 OG 图、描述集中于 `SITE` 常量，避免散落硬编码。
+
 ## 5. 结构化数据
 
-- 全站组织信息使用适用的 `Organization`；
+- 全站组织信息使用适用的 `Organization`（根 layout 注入）；
+- 站点级 `WebSite` + `SearchAction`，启用站内搜索富媒体结果（根 layout 注入）；
 - 案例内容使用与页面实际内容一致的 `Article`，作者标明 AI案例库编辑团队；
-- 面包屑使用 `BreadcrumbList`；
-- FAQ 仅在页面真实展示问答时输出对应结构化数据；
+- 面包屑使用 `BreadcrumbList`（首页/列表/详情/聚合页均注入）；
+- 聚合页使用 `CollectionPage` 标注案例数量；
+- FAQ 仅在页面真实展示问答时输出对应 `FAQPage` 结构化数据（见 `/faq`）；
 - 不将 AI 估算 ROI 标记为产品价格、评分或保证收益；
 - 结构化数据必须随案例归档、合并和删除同步更新。
 
 ## 6. Sitemap、Robots 与站内链接
 
-- Sitemap 只包含首页、已发布案例、满足门槛的聚合页和可索引公共页面；
+- Sitemap 只包含首页、已发布案例、满足门槛的聚合页、FAQ 和可索引公共页面；
 - 按案例量拆分 Sitemap，记录真实 `lastmod`，不因无实质内容变化刷新；
 - `robots.txt` 禁止后台、问诊过程和私密报告路径，但敏感数据保护不能只依赖 Robots；
-- 首页、聚合页、详情页和相关案例形成可爬取的站内链接；
+- 首页、聚合页、详情页、FAQ 和相关案例形成可爬取的站内链接；
+- 动态 OG 图路由 `/og` 不进入 Sitemap，不作为内容页索引；
 - 内容更新后触发 Sitemap 重建和缓存失效，不依赖手工部署。
 
 ## 7. 内容 SEO 规则

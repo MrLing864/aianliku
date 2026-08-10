@@ -344,4 +344,27 @@ export interface DuplicateCandidate {
   };
   status: "pending" | "merged" | "distinct" | "deferred" | "invalid";
   createdAt: string;
+  relationship?:
+    | "same_project"
+    | "project_evolution"
+    | "same_org_different_project"
+    | "different_project"
+    | "insufficient_evidence";
+  ruleScore?: number;
+  modelScore?: number;
+  verificationScore?: number;
+  overallScore?: number;
+  matchedFacts?: string[];
+  conflictingFacts?: string[];
+  missingFacts?: string[];
+  evidenceRefs?: string[];
+  recommendedAction?:
+    | "supplement_existing"
+    | "distinct_project"
+    | "independent_case"
+    | "defer"
+    | "invalid_record";
+  sourceId?: string;
+  incomingSegmentId?: string;
+  importRowId?: string;
 }
