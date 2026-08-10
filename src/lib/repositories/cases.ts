@@ -228,10 +228,32 @@ export async function getPublicStats() {
   }
 }
 
-export async function listCaseSitemapEntries(limit = 5_000) {
+/**
+ * 全量返回已发布案例的 sitemap 条目。
+ * CloudBase 文档数据库的 find().limit() 单次上限约 1000 条，而站点已有 2000+ 案例，
+ * 因此这里按页翻查直到取完所有 published 案例，确保 sitemap 不丢条目。
+ */
+export async function listCaseSitemapEntries(): Promise<Array<{ _id: string; updatedAt: string }>> {
   if (!isDbConfigured()) return demoCases.map(({ id, updatedAt }) => ({ _id: id, updatedAt }));
   const db = await getDb();
-  return db.collection("cases").find({ contentStatus: "published" }).sort({ updatedAt: -1 }).limit(limit).project<{ _id: string; updatedAt: string }>({ _id: 1, updatedAt: 1 }).toArray();
+  const all: Array<{ _id: string; updatedAt: string }> = [];
+  const pageSize = 1000;
+  let skip = 0;
+  for (;;) {
+    const batch = await db
+      .collection("cases")
+      .find({ contentStatus: "published" })
+      .sort({ updatedAt: -1 })
+      .skip(skip)
+      .limit(pageSize)
+      .project<{ _id: string; updatedAt: string }>({ _id: 1, updatedAt: 1 })
+      .toArray();
+    if (batch.length === 0) break;
+    all.push(...batch);
+    if (batch.length < pageSize) break;
+    skip += pageSize;
+  }
+  return all;
 }
 
 export async function findVectorSimilarCases(_queryVector: number[], _limit = 30): Promise<Array<{ item: CaseStudy; score: number }>> {

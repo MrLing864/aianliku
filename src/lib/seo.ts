@@ -5,8 +5,15 @@ import type { Industry, Scenario } from "@/lib/types";
 export const SITE = {
   name: "AI案例库",
   domain: "aianliku.com",
-  /** 用于 sitemap / canonical / og 的绝对站点地址 */
-  url: process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://aianliku.com",
+  /**
+   * 用于 sitemap / canonical / og 的绝对站点地址。
+   * 必须以 https 域名形式对外暴露，否则搜索引擎会把 IP / localhost 当作主站。
+   * 仅当环境变量是一个合法的 https 域名时才采用，否则一律回退到规范主站，
+   * 防止部署时因 NEXT_PUBLIC_SITE_URL 被误设为 IP/localhost 而污染 canonical。
+   */
+  url: /^https:\/\/[a-z0-9.-]+\.[a-z]{2,}/i.test(process.env.NEXT_PUBLIC_SITE_URL ?? "")
+    ? process.env.NEXT_PUBLIC_SITE_URL!.replace(/\/$/, "")
+    : "https://aianliku.com",
   cnDomain: "aianliku.cn",
   email: "hello@aianliku.cn",
   twitter: "@aianliku",

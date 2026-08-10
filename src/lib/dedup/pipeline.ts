@@ -21,6 +21,8 @@ import type {
   SourceDocument,
   SourceIdentity,
 } from "./types";
+import { SITE } from "@/lib/seo";
+import { notifyIndexNow } from "@/lib/indexnow";
 
 const RULE_VERSION = "dedup-v2.1.0";
 
@@ -504,6 +506,8 @@ async function publishCaseDraft(
     return { caseId, created: false };
   }
   await cases.replaceOne({ _id: caseId }, document, { upsert: true });
+  // 主动通知搜索引擎/AI 搜索平台发现新案例（失败不影响发布）
+  void notifyIndexNow([`${SITE.url}/cases/${caseId}`]);
   return { caseId, created: true };
 }
 
@@ -537,6 +541,8 @@ export async function publishReviewedCase(candidateId: string): Promise<string |
     "reviewed_distinct",
   );
   if (!published.caseId) return undefined;
+
+  void notifyIndexNow([`${SITE.url}/cases/${published.caseId}`]);
 
   await Promise.all([
     db.collection("sources").updateOne(

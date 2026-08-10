@@ -5,11 +5,21 @@ import { listCases, listCaseSitemapEntries } from "@/lib/repositories/cases";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = SITE.url;
-  const staticPages: MetadataRoute.Sitemap = ["", "/cases", "/about", "/contact", "/privacy", "/terms", "/faq"].map((path) => ({
+  const staticPages: MetadataRoute.Sitemap = [
+    "",
+    "/cases",
+    "/about",
+    "/contact",
+    "/privacy",
+    "/terms",
+    "/faq",
+    "/assessment",
+    "/appointment",
+  ].map((path) => ({
     url: `${base}${path}`,
     lastModified: new Date(),
-    changeFrequency: path === "/cases" ? "daily" : "monthly",
-    priority: path === "" ? 1 : 0.7,
+    changeFrequency: path === "/cases" || path === "/assessment" ? "daily" : path === "" ? "weekly" : "monthly",
+    priority: path === "" ? 1 : path === "/assessment" ? 0.9 : path === "/appointment" ? 0.8 : 0.7,
   }));
   let casePages: MetadataRoute.Sitemap = [];
   let catalogs: MetadataRoute.Sitemap = [];

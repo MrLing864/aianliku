@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ShieldCheck } from "lucide-react";
 import { AssessmentWizard } from "@/components/assessment-wizard";
+import { SITE } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "企业 AI 体检",
   description:
     "用结构化问诊梳理企业 AI 改造优先级，生成带假设的 ROI 区间和三阶段建议。",
-  robots: { index: false, follow: false },
+  alternates: { canonical: `${SITE.url}/assessment` },
 };
 export default function AssessmentPage() {
   return (
