@@ -4,7 +4,7 @@
 
 ## 当前能力
 
-- 公开站：首页、案例搜索/筛选、案例详情、行业与场景独立页、来源追溯、FAQ、404 页、SEO 和合规页面。SEO 基础：统一 metadata（`src/lib/seo.ts`）、动态 OG/Twitter 分享图（`/og` 路由）、Organization/WebSite/Article/BreadcrumbList/CollectionPage/FAQPage 结构化数据、Sitemap、Robots、canonical 与索引门槛控制。
+- 公开站：首页、案例搜索/筛选、案例详情、行业与场景独立页、来源追溯、FAQ、404 页、SEO 和合规页面。SEO 基础：统一 metadata（`src/lib/seo.ts`）、动态 OG/Twitter 分享图（`/og` 路由）、Organization/WebSite/Article/BreadcrumbList/CollectionPage/FAQPage 结构化数据、Sitemap（全量收录已发布案例 + 核心转化页）、Robots、canonical 与索引门槛控制。**主域名统一为 `https://aianliku.com`**：IP/www/HTTP 全部 301 跳转，canonical 与 sitemap 强制使用该规范域名，并接入 IndexNow 新案例主动推送。
 - 企业 AI 体检：结构化问诊、V4-Flash 动态追问、即时核心预览、V4-Pro 最高强度异步分析、私密报告、ROI 假设、删除数据和专家预约。
 - 运营后台：单管理员登录、案例编辑、DeepSeek 来源结构化、批量导入、来源幂等与内容去重（URL+发布方+内容哈希三重校验）、重复案例复核队列（AI双阶段独立判断+人工确认）、异步报告任务、预约管理、分类词表和审计记录。
 - 无外部服务时安全降级：使用明确标识的演示案例、规则预览和只读后台；完整报告队列未配置时明确阻止提交，不会伪装成真实分析结果。

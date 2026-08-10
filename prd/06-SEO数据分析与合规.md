@@ -74,7 +74,9 @@
 
 - 根 `layout.tsx` 统一注入 `baseMetadata`：标题模板、canonical、Open Graph、Twitter Card（summary_large_image）、robots（含 googleBot 图片/摘要预览放宽）；
 - 单页 metadata 由 `src/lib/seo.ts` 的 `buildMetadata` 工厂生成，自动补全 canonical / OG / Twitter；
-- 站点域名、社交账号、默认 OG 图、描述集中于 `SITE` 常量，避免散落硬编码。
+- 站点域名、社交账号、默认 OG 图、描述集中于 `SITE` 常量，避免散落硬编码；
+- **主域名唯一性（P0）**：全站规范主域名为 `https://aianliku.com`。`SITE.url` 在 `seo.ts` 内强制校验——仅当 `NEXT_PUBLIC_SITE_URL` 是合法 https 域名时才采用，否则一律回退到 `https://aianliku.com`，防止部署时误设为 IP/localhost 污染 canonical/sitemap；构建镜像的 `Dockerfile` 默认 `ARG SITE_URL=https://aianliku.com`。
+- **域名统一跳转**：由边缘/反代（nginx）对 IP 直连、www、HTTP 全部 301 跳转到 `https://aianliku.com`，统一权重入口，避免搜索引擎把 IP 当作主站。
 
 ## 5. 结构化数据
 
@@ -90,10 +92,13 @@
 ## 6. Sitemap、Robots 与站内链接
 
 - Sitemap 只包含首页、已发布案例、满足门槛的聚合页、FAQ 和可索引公共页面；
+- **Sitemap 全量收录**：案例采用分页翻查（CloudBase `find().limit()` 单次上限约 1000），确保 2000+ 已发布案例全部进入 Sitemap，不遗漏；
+- **核心转化页进入 Sitemap**：`/assessment`（企业 AI 体检，index,follow）与 `/appointment`（预约咨询）纳入 Sitemap，priority 高于普通页，因其是主要转化入口；
 - 按案例量拆分 Sitemap，记录真实 `lastmod`，不因无实质内容变化刷新；
-- `robots.txt` 禁止后台、问诊过程和私密报告路径，但敏感数据保护不能只依赖 Robots；
+- `robots.txt` 禁止后台、问诊过程和私密报告路径，但敏感数据保护不能只依赖 Robots；`robots.txt` 中的 Sitemap 地址必须使用规范主域名 `https://aianliku.com`；
 - 首页、聚合页、详情页、FAQ 和相关案例形成可爬取的站内链接；
 - 动态 OG 图路由 `/og` 不进入 Sitemap，不作为内容页索引；
+- **IndexNow 主动推送**：新案例发布（含人工确认后恢复的案例）通过 `src/lib/indexnow.ts` 向 Bing/部分 AI 搜索产品发送 IndexNow 通知（`https://api.indexnow.org/indexnow`），加速发现；key 文件 `public/<KEY>.txt` 随站部署，key 由 `INDEXNOW_KEY` 环境变量配置；
 - 内容更新后触发 Sitemap 重建和缓存失效，不依赖手工部署。
 
 ## 7. 内容 SEO 规则
